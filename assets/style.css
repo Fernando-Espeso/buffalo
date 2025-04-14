@@ -272,6 +272,7 @@ a {
 }
 
 .menu{
+  position: relative;
   width: 100%;
   display: flex;
   grid-gap:10px;
@@ -282,6 +283,7 @@ a {
   cursor: pointer;
 }
 a#cart{
+  top: 0px;;
   position: absolute;
   right: 0px;
   padding: 10px;
