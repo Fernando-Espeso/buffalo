@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--
+{% echo shop.name %}
+Design by Christian Schmitz
+Code by Fernando Espeso
+fernandoepeso.info
+{{ 'now' | date: "%Y" }}
+-->
+<html lang="{{ shop.locale }}" style="padding-bottom:0px;!important">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  {%- if template.name != "index" and template.name != "cart" -%}
+    <title>{{ shop.name }} — {{ page_title }}</title>
+  {%- elsif template.name == "cart" -%}
+    <title>{{ shop.name }} — {% if cart.item_count == 0 %}Empty {% endif %}Cart</title>
+  {%- else -%}
+    <title>{{ shop.name }}</title>
+  {%- endif -%}
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <link rel="canonical" href="{{ canonical_url }}" />
+  {%- if settings.favicon.size > 0 -%}
+    <link rel="shortcut icon" href="{{ 'favicon.png' | asset_url }}">
+  {%- endif -%}
+  {%- if page_description -%}
+    <meta name="description" content="{{ page_description | escape }}" />
+  {%- else -%}
+    <meta name="description" content="{{ shop.description }}" />
+  {%- endif -%}
+  {%- if template contains '404' or template contains 'cart' or template contains 'search' -%}
+    <meta name="robots" content="noindex">
+  {%- endif -%}
+  {{ 'style.css'  | asset_url | stylesheet_tag }}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  {{ 'current-device-browser.min.js' | asset_url | script_tag }}
+  {%- if template == 'product' -%}
+    {{ 'option_selection.js' | shopify_asset_url | script_tag }}
+  {%- endif -%}
+  {{ 'global.js' | asset_url | script_tag }}
+  {%- if template == "cart" and cart.item_count > 0 -%}
+    {{ 'global-cart.js' | asset_url | script_tag }}
+  {%- endif -%}
+  {%- if template == 'product' -%}
+    {{ '//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js' | script_tag }}
+  {%- endif -%}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  {{ content_for_header }}
+</head>
+<body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
+             {%- if template.suffix.size > 0 -%}
+             template-{{ template.suffix }}(&nbsp;
+             {% endif %}
+             {%- if template == 'cart' and cart.item_count == 0 -%}
+             template-cart-empty
+             {%- endif -%}">
+    <div id="loader"
+         style="position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100%;
+                background-color: white;
+                z-index: 99999999;">
+      <script type="text/javascript">
+        setTimeout(function(){
+          $("#loader").delay(10).fadeOut(function(){
+            $(this).remove();
+          });
+        }, 500);
+      </script>
+    </div>
+    <!-- Header -->
+    <header id="header">
+      <div class="menu" id="menu">
+        <div class="menu-open">MENU</div>
+        <div class="logo">
+          <svg width="98" height="37" viewBox="0 0 98 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_551_23)">
+              <path d="M56.1015 37C47.6715 37 44.3546 31.8153 43.7478 25.8941H43.5854V37H39.6295V0.687883H43.5854V11.9031H43.7478C44.3291 6.19904 47.6017 0.775554 57.0734 0.687883V12.6651H50.7375C46.1869 12.6651 43.5854 15.1698 43.5854 18.9262C43.5854 22.6826 46.5117 25.0241 50.6287 25.0241L56.1015 24.9944L57.0197 25.0012L57.0707 36.9852L56.1015 37.0013V37ZM89.6657 13.1129H83.4895V17.3603H89.6657C91.8336 17.3603 92.8081 16.7075 92.8081 15.3452C92.8081 13.9829 92.2121 13.1129 89.6657 13.1129ZM93.9464 19.374C96.3304 20.4085 96.9264 22.4223 96.9264 25.2534V36.9312H92.9719V26.0155C92.9719 22.4843 91.5557 20.7889 88.0414 20.7889H83.4908V36.9299H79.5349V0.918526H89.3959C92.3933 0.918526 97.7265 4.18799 97.7265 10.8267C97.7265 16.5969 96.764 17.8499 93.9464 19.374ZM73.0447 25.0106V23.4973C73.0447 22.7716 72.6312 19.7571 68.035 19.7571C63.9838 19.7571 63.5556 22.7082 63.5556 23.4973V25.0106H73.0433H73.0447ZM76.9845 36.9528H73.0447V28.5161H63.5569V36.9528H59.6185V7.60448C59.6185 2.0569 64.5785 0 68.2203 0C72.3547 0 76.9858 2.43052 76.9858 7.60448V36.9528H76.9845ZM33.2238 25.0106V23.4973C33.2238 22.7716 32.8104 19.7571 28.2142 19.7571C24.1629 19.7571 23.7347 22.7082 23.7347 23.4973V25.0106H33.2225H33.2238ZM37.1636 36.9528H33.2238V28.5161H23.7361V36.9528H19.7976V7.60448C19.7949 2.0569 24.7549 0 28.3967 0C32.5312 0 37.1623 2.43052 37.1623 7.60448V36.9528H37.1636Z" fill="#393938"/>
+              <path d="M10.2293 20.5353H4.22361V24.993H10.3917C12.7731 24.993 13.5301 24.2323 13.5301 22.7095C13.5301 21.1868 12.2858 20.5353 10.2293 20.5353ZM10.4454 12.8701H4.22361V17.1647H10.4454C12.177 17.1647 13.1503 16.4579 13.1503 15.0983C13.1503 13.7387 12.2844 12.8688 10.4454 12.8688M16.6135 33.4729C15.694 35.5932 13.3677 36.9528 9.41717 36.9528H0.274414V0.691895H9.95948C12.3945 0.691895 14.0174 1.45261 15.2081 2.53974C16.831 4.00722 17.2646 5.4747 17.2646 11.6724C17.2646 16.4026 16.9397 17.4897 14.9383 18.848C17.4807 20.2075 17.5894 21.2394 17.5894 27.0027C17.5894 30.5366 17.3733 31.6776 16.6149 33.4715" fill="#393938"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_551_23">
+                <rect width="97.4507" height="37" fill="white" transform="translate(0.274414)"/>
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="cart-part">
+          <a href="/cart" class="cov"></a>
+          {% for link in linklists.top-bar.links %}
+            <li class="nain" {% if link.active %}class="active"{% endif %}><a href="{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+          <li {% if cart.item_count > 0 %}{% endif %}  {% if template == 'cart' %} {% endif %}>
+            <a id="cart" href="/cart">
+              BAG <span class="cart-total">
+                {%- if cart.item_count == 0 -%}
+                 (0)
+              
+                {%- else -%}
+                  ({{- cart.item_count -}})
+                {%- endif -%}
+              </span>
+            </a>
+          </li>
+        </div>
+      </div>
+    </header>
+    <div class="nav">
+      <div class="container">
+        {% for link in linklists.main-menu.links %}
+          <li {% if link.active %}class="active"{% endif %}><a class="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </div>
+    </div>
+    {{ content_for_layout }}
+  <footer>
+   <div class="container">
+    {% for link in linklists.footer.links %}
+      <li {% if link.active %}class="active"{% endif %}><a class="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+  </div> 
+  </footer>
+  {%- if template contains 'product' -%}
+    {{ 'global-product.js' | asset_url | script_tag }}
+  {%- endif -%}
+  {%- if template == 'product' -%}
+	   {% render 'ajaxify-cart' %}
+     {%- endif -%}{% render 'mws_apo_init' %}
+</body>
+</html>

@@ -1,0 +1,139 @@
+<div class="title-page">{{ product.title }}</div>
+
+{% if product.description != blank %}
+  <div class="info-hero">
+    {{ product.description }}
+  </div>
+{% endif %}
+
+<div id="main-product" class="main" data-section-id="{{ section.id }}" data-product-section>
+  <!--INFO-BUY-->
+  <div class="buy-block">
+    <!--PRODUCT INFO-->
+    {%- assign productFormId = 'product-form-' | append: section.id -%}
+    {%- form "product", product, id: productFormId, class: '' -%}
+    <input type="hidden" name="product-id" value="{{- product.id -}}">
+    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+
+    <div id="bag" class="bag
+      {% if product.compare_at_price > product.price %}
+      sale
+      {% endif %}
+      {% unless product.available %}
+      sold
+      {% endunless %}
+    ">
+     
+
+ 
+
+      <!-- Variations Dropdown -->
+      {% render 'product-variants', product: product, formID: productFormId %}
+
+      <div class="variations">
+        {% assign info = product.metafields.custom.care | default: '' %}
+        {% assign shipping = product.metafields.custom.shipping | default: '' %}
+        <div class="desplegable">
+        {% if info != blank %}
+        <details >
+          <summary>Material and care</summary>
+          <div class="interior">
+            {{ product.metafields.custom.care | metafield_tag }}
+          </div>
+          </details>
+        {% endif %}
+        {% if shipping != blank %}
+        <details>
+          <summary>Shipping and return</summary>
+          <div class="interior">
+            {{ product.metafields.custom.shipping | metafield_tag }}
+          </div>
+          </details>
+        {% endif %}
+        </div>
+        <div class="product-price">
+          {% if product.available %}
+            {% if product.price_varies %}
+              <span>{{ product.price_min | money }}</span> – <span>{{ product.price_max | money }}</span>
+            {% else %}
+              {% if product.compare_at_price > product.price %}
+                <s>{{ product.compare_at_price | money }}</s>
+                <span class="disscount">{{ product.price | money }}</span>
+              {% else %}
+                <span>{{ product.price | money }}</span>
+              {% endif %}
+            {% endif %}
+          {% else %}
+            <span>{{ product.price | money }}</span>
+          {% endif %}
+        </div>
+        <!-- Button Add To Bag -->
+        {% liquid
+          assign selectedVariant = product.selected_or_first_available_variant
+          if selectedVariant.available
+            assign addToCartText = 'ADD TO BAG'
+          else
+            assign addToCartText = 'SOLD OUT'
+          endif
+        %}
+        <button id="add-to-bag" {% unless product.available %}disabled{% endunless %} type="submit" name="add" data-add-to-cart>
+          <span class="" data-add-to-cart-text>
+            {{ addToCartText }}
+          </span>
+        </button>
+
+        {% assign product_qty = 0 %}
+        {% for variant in product.variants %}
+          {% if variant.inventory_quantity > 0 %}
+            {% assign product_qty = product_qty | plus: variant.inventory_quantity %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endform %}
+</div>
+
+<!--GALLERY-->
+<div class="swiper-gallery">
+  <div class="swiper-wrapper">
+    {% for media in product.media %}
+      {% case media.media_type %}
+        {% when 'video' %}
+          <div class="swiper-slide">
+            {{ media | video_tag: loop: true, autoplay: true, muted: true }}
+          </div>
+        {% when 'image' %}
+          <div class="swiper-slide">
+            <img 
+              class="lazy" 
+              src="{{ media | product_img_url: 'thumb' }}" 
+              data-src="{{ media | product_img_url: 'master' }}" 
+              alt="{{ media.alt }}" 
+            />
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+
+
+
+
+
+
+</div>
+<script>
+$(document).ready(function () {
+  var swiper = new Swiper('.swiper-gallery', {
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    }
+  });
+});
+</script>

@@ -1,0 +1,58 @@
+<div class="policies">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'text' %}
+          <div data-section="" id="block-{{ block.id }}" class="ask">
+            {% unless block.settings.title == blank %}
+              <h2 class="title">{{ block.settings.title }}</h2>
+            {% endunless %}
+          </div>
+        {% when 'summary' %}
+        <div class="block-content">
+        {% unless block.settings.subtitle and block.settings.interior  == blank %}
+            <div class="title">{{ block.settings.subtitle }}</div>
+            <div class="info-interior">{{ block.settings.interior }}</div>
+        {% endunless %}
+        </div>
+    {% endcase %}
+  {% endfor %}
+</div>
+{% schema %}
+{
+  "name": "Policies",
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Title",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Title"
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "name": "Section",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "subtitle",
+          "label": "Subtitle"
+        },
+        {
+          "type": "richtext",
+          "id": "interior",
+          "label": "Interior"
+        }
+      ]
+    }
+  ],
+  "presets": [
+  {
+    "name": "INFO-BLOCK"
+  }
+]
+}
+{% endschema %}

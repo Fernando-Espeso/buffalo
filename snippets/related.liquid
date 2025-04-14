@@ -1,0 +1,11 @@
+<div id="related">
+        <div class="related-title">RELATED PRODUCTS</div>
+                 <div class="related">
+                      {%- assign current_product = product.id -%}
+                        {%- for product in collections.all.products limit: 4 -%}
+                          {%- if product.id != current_product and product.available -%}
+                                {% include 'product-body' %}
+            			   {%- endif -%}
+            			 {%- endfor -%}
+                 </div>
+</div>

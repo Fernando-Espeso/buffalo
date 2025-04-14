@@ -1,0 +1,27 @@
+<div class="main">
+  {% if article.content != blank %}
+      <!--Content-->
+          <div class="collecion_information">
+            <div><span class="collection_title">{{ article.title }}</span>,<span style="font-size:15px"> {{ article.tags }}</span></div>
+            <div class="content">{{ article.content | replace: '_16x16', '' | replace: '_32x32', '' | replace: '_50x50', '' | replace: '_100x100', '' | replace: '_160x160', '' | replace: '_240x240', '' | replace: '_480x480', '' | replace: '_600x600', '' | replace: '_1024x1024', '' }}</div>
+          </div>
+   {% endif %}
+</div>
+
+{% unless article.metafields.custom.gallery == blank %}
+      <div class="gallery_collection">
+          {% assign gallery = article.metafields.custom.gallery.value %}
+          {% if gallery %}
+             {% for gallery in gallery %}
+                  <img class="lazy" src="{{ gallery | image_url: 'thumb' }}"  data-src="{{ gallery | image_url:: 'master' }}">
+               {% endfor %}
+          {% endif %}
+      </div>
+{% endunless %}
+
+{% unless article.metafields.custom.credits == blank %}
+  <div class="credits">
+    <div class="content">{{ article.excerpt | replace: '_16x16', '' | replace: '_32x32', '' | replace: '_50x50', '' | replace: '_100x100', '' | replace: '_160x160', '' | replace: '_240x240', '' | replace: '_480x480', '' | replace: '_600x600', '' | replace: '_1024x1024', '' }}</div>
+    </div>
+{% endunless %}
+<!-- <div class="bottom">DATE, {{ article.published_at | date: "%b %d %Y" }}</div> -->

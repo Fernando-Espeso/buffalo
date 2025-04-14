@@ -1,0 +1,37 @@
+<div class="main">
+{% if article.content != blank %}
+<!--Content-->
+  <div class="collecion_information">
+    <div><span class="collection_title">{{ article.title }}</span>,<span style="font-size:15px"> {{ article.tags }}</span></div>
+    <div class="content">{{ article.content | replace: '_16x16', '' | replace: '_32x32', '' | replace: '_50x50', '' | replace: '_100x100', '' | replace: '_160x160', '' | replace: '_240x240', '' | replace: '_480x480', '' | replace: '_600x600', '' | replace: '_1024x1024', '' }}</div>
+  </div>
+
+{% unless article.metafields.custom.video == blank %}
+      <div class="video">
+          {% assign gallery = article.metafields.custom.video.value %}
+          {% if gallery %}
+                <video atuoplay>
+                    <source src="{{ gallery | video_tag }}
+                </video>
+          {% endif %}
+      <button class="video-control bottom">
+            <span class="video-control-play">
+              <span class="video-control-label">Play</span>
+            </span>
+            <span class="video-control-pause">
+              <span class="video-control-label">Pause</span>
+            </span>
+      </button>
+      </div>
+{% endunless %}
+
+
+
+  {% endif %}
+{% unless article.metafields.custom.credits == blank %}
+  <div class="credits">
+      {{ article.metafields.custom.credits }}
+  </div>
+{% endunless %}
+<div class="bottom">DATE, {{ article.published_at | date: "%b %d %Y" }}</div>
+</div>

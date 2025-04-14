@@ -1,0 +1,176 @@
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'hero' %}
+      <section class="hero">
+        <img src="{{ block.settings.hero_image | img_url: 'master' }}" alt="Hero Image">
+        <div class="aim">{{ block.settings.hero_text }}</div>
+      </section>
+      <div class="info-hero">{{ block.settings.info }}</div>
+
+    {% when 'single_product' %}
+      <section class="single-product">
+        {% assign product = all_products[block.settings.product] %}
+        {% if product %}
+          <div class="product-title-section">
+            <div>{{ product.title }} </div>
+            <a href="{{ product.url }}">View Product</a>
+          </div>
+          {% if block.settings.custom_image %}
+            <img src="{{ block.settings.custom_image | img_url: 'master' }}" alt="Custom Image">
+          {% else %}
+            <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+          {% endif %}
+        {% endif %}
+      </section>
+{% when 'six_products_with_bg' %}
+  <section class="six-products-with-bg">
+    <img src="{{block.settings.bg_image| img_url: 'master' }}" alt="Custom Image">
+    <div class="products-list">
+      {% assign letters = "A,B,C,D,E,F" | split: "," %}
+      {% for i in (1..6) %}
+        {% assign product_key = "product_" | append: i %}
+        {% assign product = all_products[block.settings[product_key]] %}
+        {% if product %}
+          <div class="product-item">
+            <span class="product-letter">{{ letters[forloop.index0] }}</span>
+            <a class="product-title" href="{{ product.url }}">{{ product.title }}</a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+    {% when 'two_products' %}
+      <section class="two-products">
+        {% assign product1 = all_products[block.settings.product_1] %}
+        {% assign product2 = all_products[block.settings.product_2] %}
+        {% if product1 %}
+          <a class="product" href="{{ product1.url }}">
+            <div class="product-title">{{ product1.title }}</div>
+            <img src="{{ product1.featured_image | img_url: 'master' }}" alt="{{ product1.title }}">
+            <div class="product-price">{{ product1.price | money }}</div>
+          </a>
+        {% endif %}
+        {% if product2 %}
+          <a class="product" href="{{ product2.url }}">
+            <div class="product-title">{{ product1.title }}</div>
+            <img src="{{ product2.featured_image | img_url: 'master' }}" alt="{{ product2.title }}">
+            <div class="product-price">{{ product2.price | money }}</div>
+          </a>
+        {% endif %}
+      </section>
+  {% endcase %}
+{% endfor %}
+
+{% schema %}
+{
+  "name": "Home Page",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "hero",
+      "name": "Hero Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "hero_image",
+          "label": "Hero Image"
+        },
+        {
+          "type": "richtext",
+          "id": "hero_text",
+          "label": "Hero Text"
+        },
+        {
+          "type": "richtext",
+          "id": "info",
+          "label": "Info Text"
+        }
+      ]
+    },
+    {
+      "type": "single_product",
+      "name": "Single Product",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Select a Product"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_image",
+          "label": "Custom Product Image"
+        }
+      ]
+    },
+    {
+      "type": "two_products",
+      "name": "Two Products",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product_1",
+          "label": "First Product"
+        },
+        {
+          "type": "product",
+          "id": "product_2",
+          "label": "Second Product"
+        }
+      ]
+    },
+    {
+  "type": "six_products_with_bg",
+  "name": "Multiple Products",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "product",
+      "id": "product_1",
+      "label": "Product 1"
+    },
+    {
+      "type": "product",
+      "id": "product_2",
+      "label": "Product 2"
+    },
+    {
+      "type": "product",
+      "id": "product_3",
+      "label": "Product 3"
+    },
+    {
+      "type": "product",
+      "id": "product_4",
+      "label": "Product 4"
+    },
+    {
+      "type": "product",
+      "id": "product_5",
+      "label": "Product 5"
+    },
+    {
+      "type": "product",
+      "id": "product_6",
+      "label": "Product 6"
+    }
+  ]
+}
+  ],
+  "presets": [
+    {
+      "name": "Home Page Sections",
+      "blocks": [
+        { "type": "hero" },
+        { "type": "single_product" },
+        { "type": "two_products" }
+      ]
+    }
+  ]
+}
+{% endschema %}

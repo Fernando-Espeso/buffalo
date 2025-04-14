@@ -1,0 +1,70 @@
+ <div class="filter_title">FILTERS</div>
+  <ul class="filter-blogs">
+    <li class="all active"><a>All</a></li>
+    <li class="collabo"><a>Collab</a></li>
+    <li class="press"><a>Press</a></li>
+    <li class="news"><a>News</a></li>
+    <li class="collection"><a>Collection</a></li>
+  </ul>
+<div class="main">
+ {% assign blog_handles = "collections,video,image" | split: "," %}
+   {% for handle in blog_handles %}
+        {% for article in blogs[handle].articles %}
+             <div class="article {{ article.tags }}">
+                {% if article.image.size > 0 %}
+                <!--Featured Image-->
+                <a href="{{ article.url }}">
+                     <img class="lazy" src="{{ article | img_url: 'thumb' }}" data-src="{{ article | img_url: 'master' }}" alt="{{ article.title }}" />
+                </a>
+                {% endif %}
+                <!--title-->
+               <div style="padding:10px 20px 10px 20px" class="title-article">
+                   <a href="{{ article.url }}">{{ article.title }}</a><span>, {{ article.tags }}</span>
+               </div>
+          </div>
+            {% endfor %}
+    {% endfor %}
+</div>
+<script>
+$(document).ready(function () {
+    $('.filter-blogs li').click(function(e) {
+        $('.filter-blogs li').removeClass('active');
+        var $this = $(this);
+        if (!$this.hasClass('active')) {
+            $this.addClass('active');
+        }
+        //e.preventDefault();
+    });
+});
+  $('.collection').click(function() {
+    $(".Collection").show();
+    $(".Press").hide();
+    $(".News").hide();
+    $(".Collab").hide();
+  });
+   $('.news').click(function() {
+    $(".Collection").hide();
+    $(".Press").hide();
+    $(".News").show();
+    $(".Collab").hide();
+  });
+   $('.press').click(function() {
+    $(".Collection").hide();
+    $(".Press").show();
+    $(".News").hide();
+    $(".Collab").hide();
+  });
+   $('.collabo').click(function() {
+    $(".Collection").hide();
+    $(".Press").hide();
+    $(".News").hide();
+    $(".Collab").show();
+  });
+   $('.all').click(function() {
+    $(".Collection").show();
+    $(".Press").show();
+    $(".News").show();
+    $(".Collab").show();
+  });
+
+</script>

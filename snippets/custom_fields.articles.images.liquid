@@ -1,0 +1,15 @@
+{% if article.metafields["custom_fields"]["images"] != blank %}
+  <div class="custom-field custom-field__images custom-field__type--image-repeater">
+    <h3 class="custom-field--title">images</h3>
+    <div class="custom-field--value">
+      {% for item in article.metafields["custom_fields"]["images"] %}
+        <div class="fc-repeater-field-item fc-repeater-field-item--{{ forloop.index0 }} field__images field-type--image">
+           <h4 class="custom-field--title">images</h4>
+           <div class="custom-field--value">
+             {{ item["images"] }}
+           </div>
+        </div>
+       {% endfor %}
+    </div>
+  </div>
+{% endif %}

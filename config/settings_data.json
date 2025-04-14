@@ -1,0 +1,378 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "favicon": "shopify://shop_images/Matto_logo_black_775352c8-4f8a-4d94-82f9-10163a309835.png",
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "blocks": {
+          "hero_eEwzKD": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/001225--029--VK_1.png",
+              "hero_text": "<p>EMBRACE </p><p>IMPERMANENCE</p>",
+              "info": "<p>Nuestros distribuidores son nuestros partners.</p><p>Queremos garantizarte un servicio de venta y postventa de máxima calidad.</p><p>Por ello te ofrecemos una red de distribuidores autorizados</p><p>dónde adquirir nuestras lámparas.</p>"
+            }
+          },
+          "single_product_CxEUGd": {
+            "type": "single_product",
+            "settings": {
+              "product": "the-balloon-dress-5",
+              "custom_image": "shopify://shop_images/001229--026--VK_1.jpg"
+            }
+          },
+          "six_products_with_bg_z8yamM": {
+            "type": "six_products_with_bg",
+            "settings": {
+              "bg_image": "shopify://shop_images/001229--035--VK.jpg",
+              "product_1": "the-balloon-dress-4",
+              "product_2": "orange-hawaiian-bloom",
+              "product_3": "the-balloon-dress",
+              "product_4": "the-balloon-dress-1",
+              "product_5": "all-day-long",
+              "product_6": "the-balloon-dress-3"
+            }
+          },
+          "two_products_TFPyyz": {
+            "type": "two_products",
+            "settings": {
+              "product_1": "orange-hawaiian-bloom",
+              "product_2": "the-balloon-dress"
+            }
+          },
+          "single_product_4QkKi3": {
+            "type": "single_product",
+            "settings": {
+              "product": "the-balloon-dress-1",
+              "custom_image": "shopify://shop_images/001225--030--VK.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "hero_eEwzKD",
+          "single_product_CxEUGd",
+          "six_products_with_bg_z8yamM",
+          "two_products_TFPyyz",
+          "single_product_4QkKi3"
+        ],
+        "settings": {}
+      },
+      "about": {
+        "type": "about",
+        "blocks": {
+          "title_wmYaiP": {
+            "type": "title",
+            "settings": {
+              "title_text": "OUR STORY"
+            }
+          },
+          "single_info_Jgt6ir": {
+            "type": "single_info",
+            "settings": {
+              "info_text": "<p>Nuestros distribuidores son nuestros partners.  </p><p>Queremos garantizarte un servicio de venta y postventa de máxima calidad.  </p><p>Por ello te ofrecemos una red de distribuidores autorizados </p><p>dónde adquirir nuestras lámparas.</p><p></p>"
+            }
+          },
+          "column_text_BkaBqi": {
+            "type": "column_text",
+            "settings": {
+              "column_text_content": "During her stay finding clothes was not very easy - she had to cover herself to respect the religion but weather was very humid and hot. So she started doing her own dresses, and people started to ask where she bought them . That’s when she started producing for friends and family and eventually Bakar was born. She took the name from “euskera” - the basque language, and it means “unique”. The principal was to use limited editions that would be renewed with what she found and designed at the moment. \nDuring her stay finding clothes was not very easy - she had to cover herself to respect the religion but weather was very humid and hot. So she started doing her own dresses, and people started to ask where she bought them . That’s when she started producing for friends and family and eventually Bakar was born. She took the name from “euskera” - the basque language, and it means “unique”. The principal was to use limited editions that would be renewed with what she found and designed at the moment."
+            }
+          },
+          "image_8xBRyC": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/001229--035--VK.jpg"
+            }
+          },
+          "column_text_8feB3f": {
+            "type": "column_text",
+            "settings": {
+              "column_text_content": "Nikole is orginally from Bilbao. Since young, she started travelling around the world, and it has now become her way of living. Born an explorer, she loves discovering new places, new cultures and people.  Besides from traveling, one of her favorite hobbies growing up was sneaking into other people’s houses. \nThat being a passion she studied interiors architecture in Madrid and worked as an interior designer until 2017.  That summer she went to Kenya on holidays and everything changed for her. She fell completely in love with the culture, the country, the colors, the smell…and decided to move to Lamu, a tiny island 2 hours fly from Nairobi."
+            }
+          },
+          "single_info_hXBCih": {
+            "type": "single_info",
+            "settings": {
+              "info_text": "<p>Bakar is now available to ship to most of the countries and is present </p><p>in key boutique and concept stores</p>"
+            }
+          },
+          "product_XPhzGQ": {
+            "type": "product",
+            "settings": {
+              "product": "the-balloon-dress-2",
+              "custom_image": "shopify://shop_images/07-25c5f687.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "title_wmYaiP",
+          "single_info_Jgt6ir",
+          "column_text_BkaBqi",
+          "image_8xBRyC",
+          "column_text_8feB3f",
+          "single_info_hXBCih",
+          "product_XPhzGQ"
+        ],
+        "settings": {}
+      },
+      "contacto": {
+        "type": "contacto",
+        "blocks": {
+          "email_link_m8y7R9": {
+            "type": "email_link",
+            "settings": {
+              "title": "General Enquiries",
+              "email": ""
+            }
+          },
+          "email_link_MbwpWn": {
+            "type": "email_link",
+            "settings": {
+              "title": "Press",
+              "email": ""
+            }
+          },
+          "email_link_MqgFpW": {
+            "type": "email_link",
+            "settings": {
+              "title": "Stocklists",
+              "email": ""
+            }
+          },
+          "email_link_RQHng9": {
+            "type": "email_link",
+            "settings": {
+              "title": "Wholesale",
+              "email": ""
+            }
+          }
+        },
+        "block_order": [
+          "email_link_m8y7R9",
+          "email_link_MbwpWn",
+          "email_link_MqgFpW",
+          "email_link_RQHng9"
+        ],
+        "settings": {
+          "info": "<p>Please note we are a tiny company and we do our best to answer as soon as possible but keep the below in mind - if your email is asking about the below we likely will not be able to respond.</p><p><br/>We are not taking on interns at this time.<br/>—We are not recruiting for any roles other than on our careers page. <br/>—We do not make clothes for other brands or sell our fabric or trims.<br/>—We are not able to join any 'marketplace' type businesses. We sell direct and wholesale to select stores exclusively. <br/>For any care information check out care guide.<br/>For any sizing information please refer to the size guide drop-down on each product page.</p>"
+        }
+      },
+      "info": {
+        "type": "info",
+        "blocks": {
+          "summary_7C8EFV": {
+            "type": "summary",
+            "settings": {
+              "subtitle": "<p>Returns address</p>",
+              "interior": "<p>Bakar Teofilo guiard 1, </p><p>48009 BilbaoBizkaia, </p><p>Spain</p><p>Please return in original packaging and use return slip provided with your order. If you have misplaced this please write a note with your order number and reason for return.</p>"
+            }
+          },
+          "summary_YJNHE8": {
+            "type": "summary",
+            "settings": {
+              "subtitle": "<p>Returns policy</p>",
+              "interior": "<p>Our policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately we can’t offer you a refund or exchange. In the case of preorders as we are making your items for you and would not otherwise buy the stock we cannot accept returns. </p><p>We will do what we can if sizing is an issue to swap your item but cannot ensure this is possibleTo be eligible for a return, your item must be unused and in the same condition that you received it. It must also be in the original packaging.If you would like to return your item please sent us an email at contact@bakar.store and we will let you know where to send the return.</p>"
+            }
+          },
+          "summary_FPtp3p": {
+            "type": "summary",
+            "settings": {
+              "subtitle": "<p>Refunds & Exchanges</p>",
+              "interior": "<p>Once your return is received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund. If you are approved, then your refund will be processed, and a credit will automatically be applied to your credit card or original method of payment. If you wish to exchange your item please note we cannot reserve items. We can only honour your exchange request if the item is in stock at the time of processing. Please note we can only accept exchanges from UK customers.</p>"
+            }
+          },
+          "summary_MWktEb": {
+            "type": "summary",
+            "settings": {
+              "subtitle": "<p>LATE OR MISSING REFUNDS</p>",
+              "interior": "<p>If you have returned an item and have not had a notification from us that your refund has been issued, please email us contact@bakar.storeIf you have received a refund email but haven’t received a refund yet, first check your bank account again.</p><p> Then contact your credit card company, it may take some time before your refund is officially posted. This can take up to 10 days and is out of our control and is down to banking times. </p>"
+            }
+          },
+          "summary_JWxaJx": {
+            "type": "summary",
+            "settings": {
+              "subtitle": "<p>Gifts</p>",
+              "interior": "<p>We cannot and will not send items internationally marked as 'gift'. This is illegal and puts us at risk. </p>"
+            }
+          },
+          "summary_VjxaJX": {
+            "type": "summary",
+            "settings": {
+              "subtitle": "<p>Shipping</p>",
+              "interior": "<p>To return your product, please email contac@bakar.store for instructions on where to send your parcel. </p><p>You will be responsible for paying for your own shipping costs for returning your item. Shipping costs are non-refundable.If you are returning your item from outside the UE please ensure you mark it clearly as a return as we will not be liable for any duties & taxes upon its return. Failure to do so may result in your shipment being returned to you, or any duties & taxes incurred being deducted from your refund.Depending on where you live, the time it may take for your exchanged product to reach you, may vary.  </p><p>If you are shipping an item you should consider using a trackable shipping service or purchasing shipping insurance. We don’t guarantee that we will receive your returned item.</p>"
+            }
+          }
+        },
+        "block_order": [
+          "summary_7C8EFV",
+          "summary_YJNHE8",
+          "summary_FPtp3p",
+          "summary_MWktEb",
+          "summary_JWxaJx",
+          "summary_VjxaJX"
+        ],
+        "settings": {}
+      },
+      "stocklist": {
+        "type": "stocklist",
+        "blocks": {
+          "info_tJkyCj": {
+            "type": "info",
+            "settings": {
+              "store_name": "<p>Nuestros distribuidores son nuestros partners. Queremos garantizarte un servicio de venta y postventa de máxima calidad.<br/>Por ello te ofrecemos una red de distribuidores autorizados dónde adquirir nuestras lámparas.</p>"
+            }
+          },
+          "stocklist_fzeXwk": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Serrano 64",
+              "address": "<p>C. de Serrano, 64<br/>Salamanca, 28001 Madrid </p><p>España</p>"
+            }
+          },
+          "stocklist_jwfK44": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Luzia",
+              "address": "<p>C. de Serrano, 64<br/>Salamanca, 28001 Madrid </p><p>España</p>"
+            }
+          },
+          "stocklist_mgt6Rm": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Nora",
+              "address": "<p>C. de Velázquez, 32<br/>Salamanca, 28001 Madrid<br/>España</p>"
+            }
+          },
+          "stocklist_AzMaT4": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Casa Mila",
+              "address": "<p>C. de Castelló, 45<br/>Salamanca, 28001 Madrid<br/>España</p>"
+            }
+          },
+          "stocklist_TJnG7F": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Atelier",
+              "address": "<p>C. de Ayala, 21<br/>Salamanca, 28001 Madrid<br/>España</p>"
+            }
+          },
+          "stocklist_TaUtEG": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Selma",
+              "address": "<p>C. de Claudio Coello, 13<br/>Salamanca, 28001 Madrid<br/>España</p>"
+            }
+          },
+          "stocklist_yrFcgP": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Menta",
+              "address": "<p>C. de Núñez de Balboa, 90<br/>Salamanca, 28001 Madrid<br/>España</p>"
+            }
+          },
+          "stocklist_mWJUrj": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Lirio",
+              "address": "<p>C. del Príncipe de Vergara, 26<br/>Salamanca, 28001 Madrid<br/>España</p>"
+            }
+          },
+          "stocklist_EXiMLD": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Forma",
+              "address": "<p>C. de José Ortega y Gasset, 8<br/>Salamanca, 28001 Madrid,<br/>España</p>"
+            }
+          },
+          "stocklist_AcFPby": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Serrano 64",
+              "address": "<p>C. de Serrano, 64<br/>Salamanca, 28001 Madrid                      España</p>"
+            }
+          },
+          "stocklist_4B3hYb": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Aura",
+              "address": "<p>C. de Maldonado, 17<br/>Salamanca, 28001 Madrid<br/>España</p>"
+            }
+          }
+        },
+        "block_order": [
+          "info_tJkyCj",
+          "stocklist_fzeXwk",
+          "stocklist_jwfK44",
+          "stocklist_mgt6Rm",
+          "stocklist_AzMaT4",
+          "stocklist_TJnG7F",
+          "stocklist_TaUtEG",
+          "stocklist_yrFcgP",
+          "stocklist_mWJUrj",
+          "stocklist_EXiMLD",
+          "stocklist_AcFPby",
+          "stocklist_4B3hYb"
+        ],
+        "settings": {}
+      },
+      "social": {
+        "type": "social",
+        "blocks": {
+          "image_Hjkdi9": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/001229--035--VK.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_KcADRM": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/07-25c5f687.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_JhYnCE": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/001225--030--VK.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_ReCRCw": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/001229--028--VK_1.png",
+              "alt_text": ""
+            }
+          },
+          "image_tg4mJN": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/001225--024--VK.jpg",
+              "alt_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "image_Hjkdi9",
+          "image_KcADRM",
+          "image_JhYnCE",
+          "image_ReCRCw",
+          "image_tg4mJN"
+        ],
+        "settings": {}
+      }
+    },
+    "content_for_index": []
+  }
+}

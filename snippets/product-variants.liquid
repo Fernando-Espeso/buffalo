@@ -1,0 +1,60 @@
+<script src="{{ 'product.js' | asset_url }}" defer="defer"></script>
+<product-variants class="" data-url="{{ product.url | within: collection }}" {{ block.shopify_attributes }}>
+  {%- for option in product.options_with_values -%}
+    <div class="product-variant-item">
+      <div class="product-variant-title"
+      {%- if product.has_only_default_variant -%}
+          style="display:none"
+          {%- elsif variants > 1 -%}
+          style="display:block"
+          {%- endif -%}>
+        <label class="choose" for="Option-{{ forloop.index0 }}">
+          SIZING<br><br>
+        </label>
+      </div>
+      {% if product.has_only_default_variant %}
+        <div class="unique-size">SIZING<br><br>UNIQUE SIZE</div>
+      {% endif %}
+      <fieldset class="" data-type="radio"
+      {%- if product.has_only_default_variant -%}
+          style="display:none"
+          {%- elsif variants > 1 -%}
+          style="display:block"
+          {%- endif -%}
+      >
+        {%- for value in option.values -%}
+          {%- liquid
+            assign optionNumber = 'option' | append: option.position
+            assign optionVariant = false
+            for variant in product.variants
+              if variant[optionNumber] == value
+                assign optionVariant = variant
+                break
+              endif
+            endfor
+          -%}
+
+          <label class="product-variant-option {% if optionVariant.available == false %} unavailable {% endif %}" for="{{ product.id }}-{{ optionVariant.id }}-{{ option.position }}-{{ type }}" data-option>
+            {% unless option.name == "Color" %}
+              <div class="option-value"> {{ value }} </div>
+            {% endunless %}
+
+            {% if product.variants[forloop.index0].metafields.custom.color and option.name == "Color"%}
+              <span class="color-option" style="background-color: {{ product.variants[forloop.index0].metafields.custom.color }}">&nbsp;</span>
+            {% endif %}
+            <input type="radio" class="visually-hidden" id="{{ section.id }}-{{ optionVariant.id }}-{{ option.position }}-{{ type }}"
+              name="{{ option.name }}"
+              value="{{ value | escape }}"
+              formId="{{ formID }}"
+              {% if option.selected_value == value %}checked{% endif %}
+            >
+          </label>
+        {%- endfor -%}
+      </fieldset>
+    </div>
+  {%- endfor -%}
+
+  <script type="application/json">
+    {{ product.variants | json }}
+  </script>
+</product-variants>

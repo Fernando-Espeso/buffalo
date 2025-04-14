@@ -1,0 +1,108 @@
+
+{% schema %}
+{
+  "name": "Custom Sections",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "title",
+      "name": "Title",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title_text",
+          "label": "Title"
+        }
+      ]
+    },
+    {
+      "type": "single_info",
+      "name": "Single Info",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "info_text",
+          "label": "Info"
+        }
+      ]
+    },
+    {
+      "type": "column_text",
+      "name": "Column Text",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "column_text_content",
+          "label": "Column Content"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Select Product"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_image",
+          "label": "Custom Product Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
+
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'title' %}
+      <section class="title-page">
+        <h1>{{ block.settings.title_text }}</h1>
+      </section>
+    {% when 'single_info' %}
+      <section class="single-info">
+        <p>{{ block.settings.info_text }}</p>
+      </section>
+    {% when 'column_text' %}
+      <section  class="column-text">
+        <div>{{ block.settings.column_text_content }}</div>
+      </section>
+    {% when 'image' %}
+      {% if block.settings.image %}
+        <section class="image">
+          <img src="{{ block.settings.image | img_url: 'master' }}" alt="Image">
+        </section>
+      {% endif %}
+  {% when 'product' %}
+  {% if block.settings.product %}
+    <section class="single-product">
+      <div class="product-title-section">
+        <div>{{ block.settings.product.title }} </div>
+      </div>
+      {% if block.settings.custom_image %}
+        <img src="{{ block.settings.custom_image | img_url: 'master' }}" alt="Custom Image">
+      {% endif %}
+    </section>
+  {% endif %}
+  {% endcase %}
+{% endfor %}

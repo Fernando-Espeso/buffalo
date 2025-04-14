@@ -1,0 +1,86 @@
+{% schema %}
+{
+  "name": "Stockists",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "info",
+      "name": "Information",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "store_name",
+          "label": "Store Name",
+        }
+      ]
+    },
+    {
+      "type": "stocklist",
+      "name": "Stockist",
+      "settings": [
+        {
+          "type": "text",
+          "id": "shop_name",
+          "label": "Shop Name"
+        },
+        {
+          "type": "richtext",
+          "id": "address",
+          "label": "Address"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Stockists Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="stockists-wrapper">
+  {% for block in section.blocks %}
+    {% if block.type == 'info' %}
+      <div class="info-hero">
+        {{ block.settings.store_name }}
+      </div>
+    {% endif %}
+    {% endfor %}
+</div>
+<div class="stockist-search">
+  <input type="text" id="stockistFilter" placeholder="BAKAR EN CIUDAD / PAÍS..." />
+</div>
+<div class="stock-list">
+  {% for block in section.blocks %}
+      {% if block.type == 'stocklist' %}
+        <div class="stockist-item">
+          <h3>{{ block.settings.shop_name }}</h3>
+          <p>{{ block.settings.address }}</p>
+        </div>
+      {% endif %}
+  {% endfor %}
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const input = document.getElementById("stockistFilter");
+    input.addEventListener("keyup", function () {
+      const filter = input.value.toLowerCase();
+      const items = document.querySelectorAll(".stockist-item");
+  
+      items.forEach(item => {
+        const name = item.querySelector("h3")?.textContent.toLowerCase() || "";
+        const address = item.querySelector("p")?.textContent.toLowerCase() || "";
+  
+        if (name.includes(filter) || address.includes(filter)) {
+          item.style.opacity = "1";
+          item.style.pointerEvents = "auto"; // opcional: para que se pueda seguir haciendo clic
+        } else {
+          item.style.opacity = "0.5";
+          item.style.pointerEvents = "none"; // opcional: para que no se pueda interactuar con el ítem
+        }
+      });
+    });
+  });  
+</script>

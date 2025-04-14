@@ -1,0 +1,31 @@
+<div class="main_page">
+     <div class="title-page">
+      {{ page.title }}
+    </div>  
+  </div>
+  {% section 'stocklist' %}
+
+<style>
+
+    body, #header{
+        background-color: var(--green);
+        color:var(--brown);
+    }
+    svg path{
+        fill: var(--brown);
+    }
+    footer{
+        border-top:1px solid var(--brown);
+    } 
+    .info-hero, #header, .title-page{
+        border-bottom: 1px solid var(--brown);
+    }
+    #header.stone {
+        background-color: var(--green);
+        border-bottom: 1px solid var(--brown);
+        color: var(--brown);
+    }
+    #header.stone svg path{
+        fill: var(--brown);
+      }
+</style>  
