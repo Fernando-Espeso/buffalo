@@ -17,7 +17,7 @@
           "hero_eEwzKD": {
             "type": "hero",
             "settings": {
-              "hero_image": "shopify://shop_images/001225--029--VK_1.png",
+              "hero_image": "shopify://shop_images/rNovF7e3d_6VaPBF.jpg",
               "hero_text": "<p>EMBRACE </p><p>IMPERMANENCE</p>",
               "info": "<p>Nuestros distribuidores son nuestros partners.</p><p>Queremos garantizarte un servicio de venta y postventa de máxima calidad.</p><p>Por ello te ofrecemos una red de distribuidores autorizados</p><p>dónde adquirir nuestras lámparas.</p>"
             }
@@ -25,14 +25,12 @@
           "single_product_CxEUGd": {
             "type": "single_product",
             "settings": {
-              "product": "the-balloon-dress-5",
-              "custom_image": "shopify://shop_images/001229--026--VK_1.jpg"
+              "product": "the-balloon-dress-5"
             }
           },
           "six_products_with_bg_z8yamM": {
             "type": "six_products_with_bg",
             "settings": {
-              "bg_image": "shopify://shop_images/001229--035--VK.jpg",
               "product_1": "the-balloon-dress-4",
               "product_2": "orange-hawaiian-bloom",
               "product_3": "the-balloon-dress",
@@ -51,8 +49,7 @@
           "single_product_4QkKi3": {
             "type": "single_product",
             "settings": {
-              "product": "the-balloon-dress-1",
-              "custom_image": "shopify://shop_images/001225--030--VK.jpg"
+              "product": "the-balloon-dress-1"
             }
           }
         },
@@ -330,35 +327,30 @@
           "image_Hjkdi9": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/001229--035--VK.jpg",
               "alt_text": ""
             }
           },
           "image_KcADRM": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/07-25c5f687.jpg",
               "alt_text": ""
             }
           },
           "image_JhYnCE": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/001225--030--VK.jpg",
               "alt_text": ""
             }
           },
           "image_ReCRCw": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/001229--028--VK_1.png",
               "alt_text": ""
             }
           },
           "image_tg4mJN": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/001225--024--VK.jpg",
               "alt_text": ""
             }
           }
