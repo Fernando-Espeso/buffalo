@@ -23,7 +23,7 @@
   --fs: 12px;
   --space: 10px;
   --fsm: 16px;
-  --fsb:80px;
+  --fsb:18px;
   --gap: 10px;
   --bgm: red;
   --bg:white;
@@ -391,10 +391,11 @@ section.hero img {
 }
 
 .info-hero{
-  text-align: center;
+  text-align: left;
   font-family: 'Times New Roman', Times, serif;
-  max-width: auto;
   padding: var(--space);
+  font-size: var(--fsb);
+  line-height: var(--fsb);
 }
 
 .aim {
