@@ -387,16 +387,14 @@ section.hero img {
   height: 100%;
   width: 100%;
   padding: var(--nav);
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .info-hero{
-  margin: 0 auto;
   text-align: center;
-  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
   max-width: auto;
   padding: var(--space);
-  border-bottom: 1px solid var(--bl);
 }
 
 .aim {
