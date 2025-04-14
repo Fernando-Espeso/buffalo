@@ -21,8 +21,7 @@
 /* CSS Variables */
 :root {
   --fs: 12px;
-  --space: 30px;
-  --mspace: 15px;
+  --space: 10px;
   --fsm: 16px;
   --fsb:80px;
   --gap: 10px;
