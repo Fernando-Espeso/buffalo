@@ -319,12 +319,12 @@ div#products img {
 .product-title{
   padding: var(--space);
   text-transform: uppercase;
+  text-align: left;
 }
 
 .product-price{
   padding:var(--space);
   text-transform: uppercase;
-  text-align: center;
 }
 .product-simple{
   position: relative;
