@@ -264,12 +264,6 @@ a {
   z-index: 100;
   /* transition: background-color 0.2s ease; */
 }
-#header.stone{
-  background-color: var(--bg);
-  border-bottom: 1px solid var(--bl);
-  color: var(--bl);
-  /* transition: background-color 0.2s ease; */
-}
 #header.stone svg path{
   fill: var(--bl);
 }
