@@ -281,6 +281,11 @@ a {
 .menu-open{
   cursor: pointer;
 }
+.cart{
+  position: absolute;
+  right: 0px;
+  padding: 10px;
+}
 .logo img{
   height: 37px;
 }
