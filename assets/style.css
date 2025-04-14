@@ -275,7 +275,7 @@ a {
 .menu{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  grid-gap:10px;
   align-items: center;
   padding: 10px var(--space);
 }
