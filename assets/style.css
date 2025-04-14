@@ -298,7 +298,6 @@ a#cart{
   display: flex;
 }
 div#products {
-  text-align: center;
   grid-template-columns: repeat(3, 1fr);
   display: grid;
 }
