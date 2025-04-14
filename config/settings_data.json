@@ -25,7 +25,8 @@
           "single_product_CxEUGd": {
             "type": "single_product",
             "settings": {
-              "product": "the-balloon-dress-5"
+              "product": "the-balloon-dress-5",
+              "custom_image": "shopify://shop_images/1ZPoiWBwP_lEhFOA.jpg"
             }
           },
           "six_products_with_bg_z8yamM": {
@@ -42,8 +43,8 @@
           "two_products_TFPyyz": {
             "type": "two_products",
             "settings": {
-              "product_1": "orange-hawaiian-bloom",
-              "product_2": "the-balloon-dress"
+              "product_1": "issue-13-la-zowie",
+              "product_2": "issue-nº14-alain-cabrera"
             }
           },
           "single_product_4QkKi3": {
