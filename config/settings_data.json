@@ -313,45 +313,6 @@
       },
       "social": {
         "type": "social",
-        "blocks": {
-          "image_Hjkdi9": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          },
-          "image_KcADRM": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          },
-          "image_JhYnCE": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          },
-          "image_ReCRCw": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          },
-          "image_tg4mJN": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          }
-        },
-        "block_order": [
-          "image_Hjkdi9",
-          "image_KcADRM",
-          "image_JhYnCE",
-          "image_ReCRCw",
-          "image_tg4mJN"
-        ],
         "settings": {}
       }
     },
