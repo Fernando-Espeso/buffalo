@@ -281,7 +281,7 @@ a {
 .menu-open{
   cursor: pointer;
 }
-.cart{
+a#cart{
   position: absolute;
   right: 0px;
   padding: 10px;
