@@ -14,12 +14,12 @@
       "hero": {
         "type": "hero",
         "blocks": {
-          "hero_eEwzKD": {
+          "hero_eH7mmr": {
             "type": "hero",
             "settings": {
-              "hero_image": "shopify://shop_images/rNovF7e3d_6VaPBF.jpg",
-              "hero_text": "<p>EMBRACE </p><p>IMPERMANENCE</p>",
-              "info": "<p>Nuestros distribuidores son nuestros partners.</p><p>Queremos garantizarte un servicio de venta y postventa de máxima calidad.</p><p>Por ello te ofrecemos una red de distribuidores autorizados</p><p>dónde adquirir nuestras lámparas.</p>"
+              "hero_image": "shopify://shop_images/Screenshot_2025-04-14_at_15.09.36.png",
+              "hero_text": "",
+              "info": ""
             }
           },
           "single_product_CxEUGd": {
@@ -45,7 +45,7 @@
           }
         },
         "block_order": [
-          "hero_eEwzKD",
+          "hero_eH7mmr",
           "single_product_CxEUGd",
           "two_products_TFPyyz",
           "single_product_4QkKi3"
