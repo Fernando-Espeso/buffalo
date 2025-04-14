@@ -254,8 +254,8 @@ a {
   border-bottom: 1px solid var(--bl);
   background-color: var(--bg);
   /* transition: background-color 0.2s ease; */
-
 }
+
 #header.active{
   background-color: var(--bgm);
   border-bottom: 1px solid var(--bgw);;
@@ -281,6 +281,9 @@ a.Buffalo.Live\! {
   grid-gap:10px;
   align-items: center;
   padding: 10px var(--space);
+}
+.menu a:hover{
+  color: grey;
 }
 .menu-open{
   cursor: pointer;
