@@ -381,7 +381,8 @@ section.hero img {
   position: absolute;
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  padding: var(--nav);
+  object-fit: contain;
 }
 
 .info-hero{
