@@ -25,38 +25,28 @@
           "single_product_CxEUGd": {
             "type": "single_product",
             "settings": {
-              "product": "the-balloon-dress-5"
-            }
-          },
-          "six_products_with_bg_z8yamM": {
-            "type": "six_products_with_bg",
-            "settings": {
-              "product_1": "the-balloon-dress-4",
-              "product_2": "orange-hawaiian-bloom",
-              "product_3": "the-balloon-dress",
-              "product_4": "the-balloon-dress-1",
-              "product_5": "all-day-long",
-              "product_6": "the-balloon-dress-3"
+              "product": "the-balloon-dress-5",
+              "custom_image": "shopify://shop_images/1ZPoiWBwP_lEhFOA.jpg"
             }
           },
           "two_products_TFPyyz": {
             "type": "two_products",
             "settings": {
-              "product_1": "orange-hawaiian-bloom",
-              "product_2": "the-balloon-dress"
+              "product_1": "issue-13-la-zowie",
+              "product_2": "issue-nº14-alain-cabrera"
             }
           },
           "single_product_4QkKi3": {
             "type": "single_product",
             "settings": {
-              "product": "the-balloon-dress-1"
+              "product": "issue-nº14-alain-cabrera",
+              "custom_image": "shopify://shop_images/BuffaloZine13_6.webp"
             }
           }
         },
         "block_order": [
           "hero_eEwzKD",
           "single_product_CxEUGd",
-          "six_products_with_bg_z8yamM",
           "two_products_TFPyyz",
           "single_product_4QkKi3"
         ],
@@ -323,45 +313,6 @@
       },
       "social": {
         "type": "social",
-        "blocks": {
-          "image_Hjkdi9": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          },
-          "image_KcADRM": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          },
-          "image_JhYnCE": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          },
-          "image_ReCRCw": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          },
-          "image_tg4mJN": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          }
-        },
-        "block_order": [
-          "image_Hjkdi9",
-          "image_KcADRM",
-          "image_JhYnCE",
-          "image_ReCRCw",
-          "image_tg4mJN"
-        ],
         "settings": {}
       }
     },
