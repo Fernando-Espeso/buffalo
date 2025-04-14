@@ -391,7 +391,7 @@ section.hero img {
 }
 
 .info-hero{
-  max-width: 1200px;
+  max-width: 1000px;
   text-align: left;
   font-family: 'Times New Roman', Times, serif;
   padding: var(--space);
