@@ -20,7 +20,7 @@
 }
 /* CSS Variables */
 :root {
-  --fs: 14px;
+  --fs: 12px;
   --space: 30px;
   --mspace: 15px;
   --fsm: 16px;
@@ -195,7 +195,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: none;
   font-smoothing: antialiased;
-  letter-spacing: 2px;
 }
 body.active{
   overflow: hidden;
