@@ -53,9 +53,11 @@
         {% endif %}
         {% if product2 %}
           <a class="product" href="{{ product2.url }}">
-            <div class="product-title">{{ product1.title }}</div>
-            <img src="{{ product2.featured_image | img_url: 'master' }}" alt="{{ product2.title }}">
+            <div class="product-title">
+            {{ product1.title }}
             <div class="product-price">{{ product2.price | money }}</div>
+            </div>
+            <img src="{{ product2.featured_image | img_url: 'master' }}" alt="{{ product2.title }}">
           </a>
         {% endif %}
       </section>
