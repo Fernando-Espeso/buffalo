@@ -318,9 +318,18 @@
       "live": {
         "type": "live",
         "blocks": {
-          "item_RkEN6y": {
+          "item_hDHCJ9": {
             "type": "item",
             "settings": {
+              "image": "shopify://shop_images/1-scaled.jpg",
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_jzPxHx": {
+            "type": "item",
+            "settings": {
+              "image": "shopify://shop_images/221204_AG_VALENTINOxCAP74024_04_0437-copy_2-2-copy_4x5-scaled.jpg",
               "link": "",
               "caption": ""
             }
@@ -328,6 +337,7 @@
           "item_79HgFx": {
             "type": "item",
             "settings": {
+              "image": "shopify://shop_images/Screenshot_2025-04-14_at_15.09.36.png",
               "link": "",
               "caption": ""
             }
@@ -335,48 +345,7 @@
           "item_WPnNwY": {
             "type": "item",
             "settings": {
-              "link": "",
-              "caption": ""
-            }
-          },
-          "item_cXFtnV": {
-            "type": "item",
-            "settings": {
-              "link": "",
-              "caption": ""
-            }
-          },
-          "item_pGaEKW": {
-            "type": "item",
-            "settings": {
-              "link": "",
-              "caption": ""
-            }
-          },
-          "item_GPedRn": {
-            "type": "item",
-            "settings": {
-              "link": "",
-              "caption": ""
-            }
-          },
-          "item_hDHCJ9": {
-            "type": "item",
-            "settings": {
-              "link": "",
-              "caption": ""
-            }
-          },
-          "item_eTTTB6": {
-            "type": "item",
-            "settings": {
-              "link": "",
-              "caption": ""
-            }
-          },
-          "item_dfDrAx": {
-            "type": "item",
-            "settings": {
+              "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.13.png",
               "link": "",
               "caption": ""
             }
@@ -384,18 +353,60 @@
           "item_XQfJmM": {
             "type": "item",
             "settings": {
+              "image": "shopify://shop_images/5-023-1-copy-scaled.jpg",
               "link": "",
               "caption": ""
             }
           },
-          "item_JYLwRM": {
+          "item_eTTTB6": {
             "type": "item",
             "settings": {
+              "image": "shopify://shop_images/5-009_2-copy-scaled.jpg",
               "link": "",
               "caption": ""
             }
           },
-          "item_jzPxHx": {
+          "item_cXFtnV": {
+            "type": "item",
+            "settings": {
+              "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.41.png",
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_pGaEKW": {
+            "type": "item",
+            "settings": {
+              "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.04.png",
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_RkEN6y": {
+            "type": "item",
+            "settings": {
+              "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.26.08.png",
+              "link": "shopify://blogs/live/shuffle",
+              "caption": "Some text"
+            }
+          },
+          "item_GPedRn": {
+            "type": "item",
+            "settings": {
+              "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.30.png",
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_dfDrAx": {
+            "type": "item",
+            "settings": {
+              "image": "shopify://shop_images/221204_AG_VALENTINOxCAP74024_08_0850_24_5-copy-scaled.jpg",
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_ttehFV": {
             "type": "item",
             "settings": {
               "link": "",
@@ -404,18 +415,18 @@
           }
         },
         "block_order": [
-          "item_RkEN6y",
+          "item_hDHCJ9",
+          "item_jzPxHx",
           "item_79HgFx",
           "item_WPnNwY",
+          "item_XQfJmM",
+          "item_eTTTB6",
           "item_cXFtnV",
           "item_pGaEKW",
+          "item_RkEN6y",
           "item_GPedRn",
-          "item_hDHCJ9",
-          "item_eTTTB6",
           "item_dfDrAx",
-          "item_XQfJmM",
-          "item_JYLwRM",
-          "item_jzPxHx"
+          "item_ttehFV"
         ],
         "settings": {}
       }
