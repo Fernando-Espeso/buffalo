@@ -668,7 +668,13 @@ details > summary::-webkit-details-marker {
   position: relative;
   overflow: hidden;
   height: calc(var(--h) - var(--m));
-
+}
+.swiper-live{
+  position: relative;
+  overflow: hidden;
+  height: calc(var(--h) - var(--m));
+  display: flex;
+  justify-content: center;
 }
 .swiper-gallery .swiper-slide{
 
