@@ -676,11 +676,12 @@ details > summary::-webkit-details-marker {
   display: flex;
   align-items: center;
 }
+
 .swiper-gallery .swiper-slide{
 
 }
 .swiper-live .swiper-wrapper {
-  height: fit-content;
+  height: fit-content!important;
   display: flex;
   align-items: center;
 }
