@@ -406,7 +406,14 @@ section.hero img {
   max-width: 1200px;
   text-align: center;
 }
-
+.article-card {
+  position: relative;
+}
+.article-card p{
+  font-size: var(--fsb);
+  line-height: var(--fsb);
+  font-family: 'Times New Roman', Times, serif;
+}
 .title-thang {
   color: white;
   mix-blend-mode: difference;
