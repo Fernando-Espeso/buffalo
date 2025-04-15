@@ -14,6 +14,17 @@
       "hero": {
         "type": "hero",
         "blocks": {
+          "articles_FyDeiQ": {
+            "type": "articles",
+            "settings": {
+              "article_1": "live/shuffle",
+              "article_1_image": "shopify://shop_images/221204_AG_VALENTINOxCAP74024_08_0850_24_5-copy-scaled.jpg",
+              "article_2": "live/buffalo-live",
+              "article_2_image": "shopify://shop_images/1ZPoiWBwP_lEhFOA_a6767df6-18c0-4c75-bf88-50088b2ed0af.jpg",
+              "article_3": "live/shuffle",
+              "article_3_image": "shopify://shop_images/221204_AG_VALENTINOxCAP74024_04_0437-copy_2-2-copy_4x5-scaled.jpg"
+            }
+          },
           "hero_eH7mmr": {
             "type": "hero",
             "settings": {
@@ -45,6 +56,7 @@
           }
         },
         "block_order": [
+          "articles_FyDeiQ",
           "hero_eH7mmr",
           "single_product_CxEUGd",
           "two_products_TFPyyz",
