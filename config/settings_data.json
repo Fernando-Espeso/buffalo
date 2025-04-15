@@ -25,7 +25,7 @@
           "single_product_CxEUGd": {
             "type": "single_product",
             "settings": {
-              "product": "the-balloon-dress-5",
+              "product": "issue-13-la-zowie",
               "custom_image": "shopify://shop_images/1ZPoiWBwP_lEhFOA.jpg"
             }
           },
@@ -75,9 +75,7 @@
           },
           "image_8xBRyC": {
             "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/001229--035--VK.jpg"
-            }
+            "settings": {}
           },
           "column_text_8feB3f": {
             "type": "column_text",
@@ -94,8 +92,7 @@
           "product_XPhzGQ": {
             "type": "product",
             "settings": {
-              "product": "the-balloon-dress-2",
-              "custom_image": "shopify://shop_images/07-25c5f687.jpg"
+              "product": "the-balloon-dress-2"
             }
           }
         },
@@ -109,48 +106,6 @@
           "product_XPhzGQ"
         ],
         "settings": {}
-      },
-      "contacto": {
-        "type": "contacto",
-        "blocks": {
-          "email_link_m8y7R9": {
-            "type": "email_link",
-            "settings": {
-              "title": "General Enquiries",
-              "email": ""
-            }
-          },
-          "email_link_MbwpWn": {
-            "type": "email_link",
-            "settings": {
-              "title": "Press",
-              "email": ""
-            }
-          },
-          "email_link_MqgFpW": {
-            "type": "email_link",
-            "settings": {
-              "title": "Stocklists",
-              "email": ""
-            }
-          },
-          "email_link_RQHng9": {
-            "type": "email_link",
-            "settings": {
-              "title": "Wholesale",
-              "email": ""
-            }
-          }
-        },
-        "block_order": [
-          "email_link_m8y7R9",
-          "email_link_MbwpWn",
-          "email_link_MqgFpW",
-          "email_link_RQHng9"
-        ],
-        "settings": {
-          "info": "<p>Please note we are a tiny company and we do our best to answer as soon as possible but keep the below in mind - if your email is asking about the below we likely will not be able to respond.</p><p><br/>We are not taking on interns at this time.<br/>—We are not recruiting for any roles other than on our careers page. <br/>—We do not make clothes for other brands or sell our fabric or trims.<br/>—We are not able to join any 'marketplace' type businesses. We sell direct and wholesale to select stores exclusively. <br/>For any care information check out care guide.<br/>For any sizing information please refer to the size guide drop-down on each product page.</p>"
-        }
       },
       "info": {
         "type": "info",
@@ -421,6 +376,48 @@
           "item_dfDrAx"
         ],
         "settings": {}
+      },
+      "contact": {
+        "type": "contact",
+        "blocks": {
+          "email_link_CEJXVg": {
+            "type": "email_link",
+            "settings": {
+              "title": "SUP",
+              "email": "EMAIL"
+            }
+          },
+          "email_link_BeaHhA": {
+            "type": "email_link",
+            "settings": {
+              "title": "",
+              "email": ""
+            }
+          },
+          "email_link_HmkbLE": {
+            "type": "email_link",
+            "settings": {
+              "title": "",
+              "email": ""
+            }
+          },
+          "email_link_e3DEyB": {
+            "type": "email_link",
+            "settings": {
+              "title": "",
+              "email": ""
+            }
+          }
+        },
+        "block_order": [
+          "email_link_CEJXVg",
+          "email_link_BeaHhA",
+          "email_link_HmkbLE",
+          "email_link_e3DEyB"
+        ],
+        "settings": {
+          "info": ""
+        }
       }
     },
     "content_for_index": []
