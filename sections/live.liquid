@@ -68,40 +68,17 @@
 
 </style>
 <script>
-    const swiper = new Swiper('.swiper-live', {
+      const swiper = new Swiper('.swiper-live', {
         direction: 'horizontal',
         slidesPerView: 11,
-        
         centeredSlides: true,
         spaceBetween: 3,
-        on: {
-          init: function () {
-            const paginationEl = document.querySelector('.swiper-pagination');
-            const totalSlides = swiper.slides.length - swiper.loopedSlides * 2; // remove duplicated ones
-      
-            // render custom dots
-            for (let i = 0; i < totalSlides; i++) {
-              const dot = document.createElement('span');
-              dot.classList.add('swiper-pagination-bullet');
-              if (i === 0) dot.classList.add('swiper-pagination-bullet-active');
-      
-              dot.addEventListener('click', () => {
-                swiper.slideToLoop(i, 500); // jump to correct slide index (loop safe)
-              });
-      
-              paginationEl.appendChild(dot);
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            renderBullet: function (index, className) {
+              return `<span class="${className}"></span>`;
             }
-      
-            swiper.on('slideChange', () => {
-              const bullets = paginationEl.querySelectorAll('.swiper-pagination-bullet');
-              bullets.forEach(b => b.classList.remove('swiper-pagination-bullet-active'));
-              const realIndex = swiper.realIndex;
-              if (bullets[realIndex]) {
-                bullets[realIndex].classList.add('swiper-pagination-bullet-active');
-              }
-            });
-          }
-        }
+          },
       });
-      
 </script>
