@@ -352,6 +352,7 @@ transform: translate(0%, -50%);
 
 /* FOOTER */
 footer{
+  display: none;
  margin-top: auto;
  display: flex;
  justify-content: center;
