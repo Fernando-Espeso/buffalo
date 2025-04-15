@@ -51,13 +51,12 @@
               <div class="product-price">{{ product1.price | money }}</div>
             </div>
             <img src="{{ product1.featured_image | img_url: 'master' }}" alt="{{ product1.title }}">
-       
           </a>
         {% endif %}
         {% if product2 %}
           <a class="product" href="{{ product2.url }}">
             <div class="product-title">
-              {{ product1.title }}
+              {{ product2.title }}
               <div class="product-price">{{ product2.price | money }}</div>
             </div>
             <img src="{{ product2.featured_image | img_url: 'master' }}" alt="{{ product2.title }}">
