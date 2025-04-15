@@ -571,8 +571,10 @@ div#shopify-section-stocklist {
   background-color: black;
   color: white;
   font-family: 'Times New Roman', Times, serif;
+  font-size: var(--fsm);
 }
 h3{
+  font-weight: normal;
   text-transform: uppercase;
 }
 .stockist-item p{
