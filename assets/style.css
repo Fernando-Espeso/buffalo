@@ -411,7 +411,7 @@ section.hero img {
 }
 .article-card p{
   font-size: var(--fsb);
-  line-height: var(--fsb);
+  line-height: 24px;
   font-family: 'Times New Roman', Times, serif;
 }
 .title-thang {
