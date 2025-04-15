@@ -430,9 +430,13 @@ section.two-products, .articles-block{
   text-align: center;
   display: grid;
   grid-gap:3px;
+  
   grid-template-columns: repeat(2, 1fr);
 }
-
+.articles-block{
+max-height: 500px;
+overflow: hidden;
+}
 section.two-products .product:nth-of-type(2n) {
   border-right: none;
 }
