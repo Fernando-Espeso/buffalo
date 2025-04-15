@@ -29,6 +29,24 @@
       {% endif %}
       <div class="product-title">
         <a href="{{ product.url }}">{{ product.title }}</a>
+        <div class="product-price-wrap">
+          {% if product.available %}
+            {% if product.price_varies %}
+            {% else %}
+              {% if product.compare_at_price > product.price %}
+              {% else %}
+              {% endif %}
+            {% endif %}
+          {% else %}
+          {% endif %}
+      
+          {% assign date_created = product.created_at | date:'%d' %}
+          {% assign date_now = 'now' | date:'%d' %}
+          {% assign difference = date_now | plus: date_created %}
+      
+          {% if difference < 5 %}
+          {% endif %}
+        </div>
       </div>
   <a class="thumbnail" href="{{ product.url }}">
     {% for media in product.media %}
@@ -41,24 +59,7 @@
     {% endfor %}
     <img id="none" class="lazy" src="{{ product.images[0] | product_img_url: 'thumb' }}" data-src="{{ product.images[0] | product_img_url: 'master' }}" alt="{{ product.title }}" />
   </a>
-  <div class="product-price-wrap">
-    {% if product.available %}
-      {% if product.price_varies %}
-      {% else %}
-        {% if product.compare_at_price > product.price %}
-        {% else %}
-        {% endif %}
-      {% endif %}
-    {% else %}
-    {% endif %}
 
-    {% assign date_created = product.created_at | date:'%d' %}
-    {% assign date_now = 'now' | date:'%d' %}
-    {% assign difference = date_now | plus: date_created %}
-
-    {% if difference < 5 %}
-    {% endif %}
-  </div>
 
   <div class="row">
     <!-- Product Title -->
