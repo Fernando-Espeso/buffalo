@@ -39,6 +39,61 @@
       {% endfor %}
     </div>
   </section>
+<<<<<<< HEAD
+{% when 'articles' %}
+  <section class="articles-block">
+    {% if block.settings.article_1 %}
+      {% assign article = articles[block.settings.article_1] %}
+      <div class="article-card">
+<<<<<<< HEAD
+        <h2>{{ article.title }}</h2>
+=======
+>>>>>>> 4b97ed58e1385e61bfcd152ef331fc5898d8aff2
+        <a href="{{ article.url }}">
+          {% if block.settings.article_1_image %}
+            <img src="{{ block.settings.article_1_image | img_url: 'master' }}" alt="{{ article.title }}">
+          {% elsif article.image %}
+            <img src="{{ article.image | img_url: 'master' }}" alt="{{ article.title }}">
+          {% endif %}
+<<<<<<< HEAD
+        </a>
+        <p>{{ article.excerpt | strip_html | truncate: 100 }}</p>
+=======
+          <h2>{{ article.title }}</h2>
+          <p>{{ article.excerpt | strip_html | truncate: 100 }}</p>
+        </a>
+>>>>>>> 4b97ed58e1385e61bfcd152ef331fc5898d8aff2
+      </div>
+    {% endif %}
+
+    {% if block.settings.product %}
+      {% assign product = all_products[block.settings.product] %}
+      {% if product %}
+<<<<<<< HEAD
+        <div class="product">
+          <h3>{{ product.title }}</h3>
+          <p>{{ product.price | money }}</p>
+=======
+        <div class="article-product-card">
+>>>>>>> 4b97ed58e1385e61bfcd152ef331fc5898d8aff2
+          <a href="{{ product.url }}">
+            {% if block.settings.custom_image %}
+              <img src="{{ block.settings.custom_image | img_url: 'master' }}" alt="{{ product.title }}">
+            {% else %}
+              <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+            {% endif %}
+<<<<<<< HEAD
+=======
+            <h3>{{ product.title }}</h3>
+            <p>{{ product.price | money }}</p>
+>>>>>>> 4b97ed58e1385e61bfcd152ef331fc5898d8aff2
+          </a>
+        </div>
+      {% endif %}
+    {% endif %}
+  </section>
+=======
+>>>>>>> e3abc6224986173a862193c55bb5313a24734859
 
     {% when 'two_products' %}
       <section class="two-products">
@@ -204,4 +259,3 @@
   ]
 }
 {% endschema %}
-
