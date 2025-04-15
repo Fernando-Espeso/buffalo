@@ -70,25 +70,24 @@
 <script>
     const swiper = new Swiper('.swiper-live', {
         loop: true,
+        loopedSlides: 20, // or however many real slides you have, or more
         direction: 'horizontal',
         slidesPerView: 11,
-        initialSlide: 5,
-        loopedSlides: 20,
         centeredSlides: true,
+        initialSlide: 5,
         spaceBetween: 3,
         on: {
           init: function () {
             const paginationEl = document.querySelector('.swiper-pagination');
-            const totalSlides = swiper.slides.length - swiper.loopedSlides * 2; // remove duplicated ones
+            const totalSlides = swiper.slides.length - swiper.loopedSlides * 2;
       
-            // render custom dots
             for (let i = 0; i < totalSlides; i++) {
               const dot = document.createElement('span');
               dot.classList.add('swiper-pagination-bullet');
-              if (i === 0) dot.classList.add('swiper-pagination-bullet-active');
+              if (i === swiper.realIndex) dot.classList.add('swiper-pagination-bullet-active');
       
               dot.addEventListener('click', () => {
-                swiper.slideToLoop(i, 500); // jump to correct slide index (loop safe)
+                swiper.slideToLoop(i, 500);
               });
       
               paginationEl.appendChild(dot);
@@ -105,5 +104,6 @@
           }
         }
       });
+      
       
 </script>
