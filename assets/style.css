@@ -725,7 +725,7 @@ details > summary::-webkit-details-marker {
   display: block;
 }
 .swiper-slide-active {
-  border: 1px solid red;
+
 }
 .prev,
 .next {
