@@ -492,6 +492,10 @@ section.single-product img {
   text-transform:uppercase;
   letter-spacing: 15px;
 }
+div#shopify-section-about {
+  background-color: #000;
+  color: white;
+}
 .single-info {
   margin: 0 auto;
   text-align: center;
@@ -512,7 +516,6 @@ section.single-product img {
   padding: var(--space);
   letter-spacing: 0px;
 }
-
 .interior, .info-interior {
   font-family: 'Times New Roman', Times, serif;
   font-size: var(--fsm);
