@@ -712,8 +712,7 @@ details > summary::-webkit-details-marker {
 transition: transform 1s ease;
 }
 .swiper-slide:hover img{
-  transform: scale(2);
-transition: transform 1s ease;
+
 
 }
 .prev,
