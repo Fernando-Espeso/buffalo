@@ -65,6 +65,7 @@
       </section>
   {% endcase %}
 {% endfor %}
+
 {% schema %}
 {
   "name": "Home Page",
@@ -171,26 +172,32 @@
         {
           "type": "page",
           "id": "article_1",
-          "label": "Article 1",
-          "default": "",
-          "info": "Select a blog post",
-          "pages": "blog/*"
+          "label": "Article 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "article_1_image",
+          "label": "Article 1 Image"
         },
         {
           "type": "page",
           "id": "article_2",
-          "label": "Article 2",
-          "default": "",
-          "info": "Select a blog post",
-          "pages": "blog/*"
+          "label": "Article 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "article_2_image",
+          "label": "Article 2 Image"
         },
         {
           "type": "page",
           "id": "article_3",
-          "label": "Article 3",
-          "default": "",
-          "info": "Select a blog post",
-          "pages": "blog/*"
+          "label": "Article 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "article_3_image",
+          "label": "Article 3 Image"
         }
       ]
     }
