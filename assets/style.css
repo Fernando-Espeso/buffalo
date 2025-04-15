@@ -712,7 +712,7 @@ details > summary::-webkit-details-marker {
   z-index: 1000;
   display: none;
   position: fixed;
-  bottom:100px;
+  bottom:100px!important;
   width: 100%;
   left: 0px;
   text-align: center;
@@ -720,7 +720,9 @@ details > summary::-webkit-details-marker {
   list-style: 23px;
   padding: 20px;
 }
-
+.swiper-slide:hover .caption {
+  display: block;
+}
 .swiper-slide-active {
   border: 1px solid red;
 }
