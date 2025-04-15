@@ -39,6 +39,40 @@
       {% endfor %}
     </div>
   </section>
+{% when 'articles' %}
+  <section class="articles-block">
+    {% if block.settings.article_1 %}
+      {% assign article = articles[block.settings.article_1] %}
+      <div class="article-card">
+        <h2>{{ article.title }}</h2>
+        <a href="{{ article.url }}">
+          {% if block.settings.article_1_image %}
+            <img src="{{ block.settings.article_1_image | img_url: 'master' }}" alt="{{ article.title }}">
+          {% elsif article.image %}
+            <img src="{{ article.image | img_url: 'master' }}" alt="{{ article.title }}">
+          {% endif %}
+        </a>
+        <p>{{ article.excerpt | strip_html | truncate: 100 }}</p>
+      </div>
+    {% endif %}
+
+    {% if block.settings.product %}
+      {% assign product = all_products[block.settings.product] %}
+      {% if product %}
+        <div class="product">
+          <h3>{{ product.title }}</h3>
+          <p>{{ product.price | money }}</p>
+          <a href="{{ product.url }}">
+            {% if block.settings.custom_image %}
+              <img src="{{ block.settings.custom_image | img_url: 'master' }}" alt="{{ product.title }}">
+            {% else %}
+              <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+            {% endif %}
+          </a>
+        </div>
+      {% endif %}
+    {% endif %}
+  </section>
 
     {% when 'two_products' %}
       <section class="two-products">
@@ -56,7 +90,7 @@
         {% if product2 %}
           <a class="product" href="{{ product2.url }}">
             <div class="product-title">
-              {{ product2.title }}
+              {{ produc2.title }}
               <div class="product-price">{{ product2.price | money }}</div>
             </div>
             <img src="{{ product2.featured_image | img_url: 'master' }}" alt="{{ product2.title }}">
@@ -169,28 +203,24 @@
       "name": "Articles Block",
       "settings": [
         {
-          "type": "page",
+          "type": "article",
           "id": "article_1",
-          "label": "Article 1",
-          "default": "",
-          "info": "Select a blog post",
-          "pages": "blog/*"
+          "label": "Article 1"
         },
         {
-          "type": "page",
-          "id": "article_2",
-          "label": "Article 2",
-          "default": "",
-          "info": "Select a blog post",
-          "pages": "blog/*"
+          "type": "image_picker",
+          "id": "article_1_image",
+          "label": "Artiåcle 1 Image"
+        },
+         {
+          "type": "product",
+          "id": "product",
+          "label": "Select åa Product"
         },
         {
-          "type": "page",
-          "id": "article_3",
-          "label": "Article 3",
-          "default": "",
-          "info": "Select a blog post",
-          "pages": "blog/*"
+          "type": "image_picker",
+          "id": "custom_image",
+          "label": "Custom Product Image"
         }
       ]
     }
@@ -208,4 +238,3 @@
   ]
 }
 {% endschema %}
-
