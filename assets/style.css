@@ -679,7 +679,7 @@ details > summary::-webkit-details-marker {
 .swiper-gallery .swiper-slide{
 
 }
-div#swiper-wrapper-361662a95102110b1010 {
+.swiper-live .swiper-wrapper {
   height: fit-content;
   display: flex;
   align-items: center;
