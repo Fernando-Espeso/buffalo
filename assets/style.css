@@ -411,7 +411,8 @@ section.hero img {
 }
 
 .article-card p{
-
+  color: white;
+  mix-blend-mode: difference;
 }
 .title-thang {
   color: white;
