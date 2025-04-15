@@ -708,12 +708,10 @@ details > summary::-webkit-details-marker {
 .swiper-pagination-bullet-active {
   background-color: #000;
 }
-.swiper-slide img{
-transition: transform 1s ease;
-}
-.swiper-slide:hover{
-  padding: 100px;
 
+
+.swiper-slide-active {
+  border: 1px solid red;
 }
 .prev,
 .next {
