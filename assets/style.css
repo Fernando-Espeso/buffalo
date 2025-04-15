@@ -326,7 +326,6 @@ div#products img {
 }
 
 .product-price{
-  padding:var(--space);
   text-transform: uppercase;
 }
 .product-simple{
