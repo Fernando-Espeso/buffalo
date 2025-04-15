@@ -65,31 +65,14 @@
   
 
 <style>
-    .swiper-pagination {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 5px;
-        justify-content: center;
-        margin-top: 10px;
-      }
-      
-      .swiper-pagination-bullet {
-        width: 5px;
-        height: 5px;
-        background-color: #aaa;
-        opacity: 1;
-        transition: background-color 0.3s;
-      }
-      
-      .swiper-pagination-bullet-active {
-        background-color: #000;
-      }
+  
 </style>
 <script>
     const swiper = new Swiper('.swiper-live', {
         direction: 'horizontal',
         slidesPerView: 10,
         spaceBetween: 5,
+        loop:true,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
