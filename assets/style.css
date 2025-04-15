@@ -572,6 +572,9 @@ div#shopify-section-stocklist, .div#shopify-section-about {
   color: white;
   font-size: var(--fsm);
 }
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  padding-bottom: 10px;
+}
 h3{
   font-family: Helvetica, sans-serif;
   font-weight: normal;
