@@ -567,7 +567,12 @@ span.quantity-button.minus, span.addmore {
   padding: var(--space);
   grid-template-columns: repeat(4, 1fr);
 }
-div#shopify-section-stocklist, .div#shopify-section-about {
+div#shopify-section-stocklist {
+  background-color: black;
+  color: white;
+  font-size: var(--fsm);
+}
+div#shopify-section-about{
   background-color: black;
   color: white;
   font-size: var(--fsm);
