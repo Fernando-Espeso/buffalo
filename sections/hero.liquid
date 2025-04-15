@@ -28,7 +28,7 @@
           {% assign article = articles[block.settings.article_1] %}
           <div class="article-card">
             <div class="title-thang">
-              <h2>{{ article.title }}</h2>
+            <h3>{{ article.title }}</h3>
             <p>{{ article.excerpt | strip_html | truncate: 100 }}</p>
             </div>
             <a href="{{ article.url }}">
