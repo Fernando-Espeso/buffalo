@@ -709,8 +709,14 @@ details > summary::-webkit-details-marker {
   background-color: #000;
 }
 
+.swiper-slide img{
+  transform: scale(2);
+transition: transform 1s ease;
 
-.swiper-slide-active {
+}
+.swiper-slide:hover img{
+  transform: scale(2);
+transition: transform 1s ease;
 
 }
 .prev,
