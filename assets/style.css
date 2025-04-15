@@ -671,14 +671,13 @@ details > summary::-webkit-details-marker {
 }
 .swiper-live{
   top: 0px;
-  position: relative;
   overflow: hidden;
   height: calc(var(--h) - var(--m));
   display: flex;
   align-items: center;
 }
 
-.swiper-gallery .swiper-slide{
+.swiper-live .swiper-slide{
 
 }
 .swiper-live .swiper-wrapper {
@@ -712,6 +711,7 @@ details > summary::-webkit-details-marker {
   z-index: 1000;
   display: none;
   position: fixed;
+  left: 0px;
   bottom:100px!important;
   width: 100%;
   left: 0px;
