@@ -678,10 +678,11 @@ details > summary::-webkit-details-marker {
 }
 
 .swiper-live .swiper-slide{
-
+  display: flex;
+  align-items: center;
 }
 .swiper-live .swiper-wrapper {
-  height: fit-content!important;
+  height: 100vh;
   display: flex;
   align-items: center;
 }
