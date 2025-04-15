@@ -65,7 +65,6 @@
       </section>
   {% endcase %}
 {% endfor %}
-
 {% schema %}
 {
   "name": "Home Page",
@@ -125,46 +124,76 @@
       ]
     },
     {
-  "type": "six_products_with_bg",
-  "name": "Multiple Products",
-  "settings": [
-    {
-      "type": "image_picker",
-      "id": "bg_image",
-      "label": "Background Image"
+      "type": "six_products_with_bg",
+      "name": "Multiple Products",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "bg_image",
+          "label": "Background Image"
+        },
+        {
+          "type": "product",
+          "id": "product_1",
+          "label": "Product 1"
+        },
+        {
+          "type": "product",
+          "id": "product_2",
+          "label": "Product 2"
+        },
+        {
+          "type": "product",
+          "id": "product_3",
+          "label": "Product 3"
+        },
+        {
+          "type": "product",
+          "id": "product_4",
+          "label": "Product 4"
+        },
+        {
+          "type": "product",
+          "id": "product_5",
+          "label": "Product 5"
+        },
+        {
+          "type": "product",
+          "id": "product_6",
+          "label": "Product 6"
+        }
+      ]
     },
     {
-      "type": "product",
-      "id": "product_1",
-      "label": "Product 1"
-    },
-    {
-      "type": "product",
-      "id": "product_2",
-      "label": "Product 2"
-    },
-    {
-      "type": "product",
-      "id": "product_3",
-      "label": "Product 3"
-    },
-    {
-      "type": "product",
-      "id": "product_4",
-      "label": "Product 4"
-    },
-    {
-      "type": "product",
-      "id": "product_5",
-      "label": "Product 5"
-    },
-    {
-      "type": "product",
-      "id": "product_6",
-      "label": "Product 6"
+      "type": "articles",
+      "name": "Articles Block",
+      "settings": [
+        {
+          "type": "page",
+          "id": "article_1",
+          "label": "Article 1",
+          "default": "",
+          "info": "Select a blog post",
+          "pages": "blog/*"
+        },
+        {
+          "type": "page",
+          "id": "article_2",
+          "label": "Article 2",
+          "default": "",
+          "info": "Select a blog post",
+          "pages": "blog/*"
+        },
+        {
+          "type": "page",
+          "id": "article_3",
+          "label": "Article 3",
+          "default": "",
+          "info": "Select a blog post",
+          "pages": "blog/*"
+        }
+      ]
     }
-  ]
-}
   ],
   "presets": [
     {
@@ -172,9 +201,11 @@
       "blocks": [
         { "type": "hero" },
         { "type": "single_product" },
-        { "type": "two_products" }
+        { "type": "two_products" },
+        { "type": "articles" }
       ]
     }
   ]
 }
 {% endschema %}
+
