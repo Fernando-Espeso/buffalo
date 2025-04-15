@@ -685,8 +685,8 @@ details > summary::-webkit-details-marker {
 }
 
 .swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   background-color: #aaa;
   opacity: 1;
   transition: background-color 0.3s;
@@ -695,6 +695,7 @@ details > summary::-webkit-details-marker {
 .swiper-pagination-bullet-active {
   background-color: #000;
 }
+
 
 .swiper-slide-active {
 
