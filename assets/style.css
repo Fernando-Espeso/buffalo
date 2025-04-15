@@ -710,7 +710,6 @@ details > summary::-webkit-details-marker {
 }
 
 .swiper-slide img{
-  transform: scale(2);
 transition: transform 1s ease;
 
 }
