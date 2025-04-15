@@ -27,14 +27,16 @@
         {% if block.settings.article_1 %}
           {% assign article = articles[block.settings.article_1] %}
           <div class="article-card">
+            <div class="title-thang">
+              <h2>{{ article.title }}</h2>
+            <p>{{ article.excerpt | strip_html | truncate: 100 }}</p>
+            </div>
             <a href="{{ article.url }}">
               {% if block.settings.article_1_image %}
                 <img src="{{ block.settings.article_1_image | img_url: 'master' }}" alt="{{ article.title }}">
               {% elsif article.image %}
                 <img src="{{ article.image | img_url: 'master' }}" alt="{{ article.title }}">
               {% endif %}
-              <h2>{{ article.title }}</h2>
-              <p>{{ article.excerpt | strip_html | truncate: 100 }}</p>
             </a>
           </div>
         {% endif %}
@@ -42,15 +44,18 @@
         {% if block.settings.product %}
           {% assign product = all_products[block.settings.product] %}
           {% if product %}
-            <div class="article-product-card">
+            <div class="product">
+              <div class="title-thang">
+                <h3>{{ product.title }}</h3>
+                <p>{{ product.price | money }}</p>
+              </div>
               <a href="{{ product.url }}">
                 {% if block.settings.custom_image %}
                   <img src="{{ block.settings.custom_image | img_url: 'master' }}" alt="{{ product.title }}">
                 {% else %}
                   <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
                 {% endif %}
-                <h3>{{ product.title }}</h3>
-                <p>{{ product.price | money }}</p>
+              
               </a>
             </div>
           {% endif %}
@@ -80,7 +85,7 @@
         {% assign product2 = all_products[block.settings.product_2] %}
         {% if product1 %}
           <a class="product" href="{{ product1.url }}">
-            <div class="product-title">
+            <div class="product-title title-thang">
               {{ product1.title }}
               <div class="product-price">{{ product1.price | money }}</div>
             </div>
@@ -89,7 +94,7 @@
         {% endif %}
         {% if product2 %}
           <a class="product" href="{{ product2.url }}">
-            <div class="product-title">
+            <div class="product-title title-thang">
               {{ produc2.title }}
               <div class="product-price">{{ product2.price | money }}</div>
             </div>

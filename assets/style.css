@@ -412,7 +412,7 @@ section.single-product {
   position: relative;
 }
 
-section.two-products {
+section.two-products, .articles-block{
   text-align: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
