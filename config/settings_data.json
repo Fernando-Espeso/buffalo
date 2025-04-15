@@ -314,6 +314,110 @@
       "social": {
         "type": "social",
         "settings": {}
+      },
+      "live": {
+        "type": "live",
+        "blocks": {
+          "item_RkEN6y": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_79HgFx": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_WPnNwY": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_cXFtnV": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_pGaEKW": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_GPedRn": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_hDHCJ9": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_eTTTB6": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_dfDrAx": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_XQfJmM": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_JYLwRM": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "caption": ""
+            }
+          },
+          "item_jzPxHx": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "caption": ""
+            }
+          }
+        },
+        "block_order": [
+          "item_RkEN6y",
+          "item_79HgFx",
+          "item_WPnNwY",
+          "item_cXFtnV",
+          "item_pGaEKW",
+          "item_GPedRn",
+          "item_hDHCJ9",
+          "item_eTTTB6",
+          "item_dfDrAx",
+          "item_XQfJmM",
+          "item_JYLwRM",
+          "item_jzPxHx"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": []
