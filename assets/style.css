@@ -567,6 +567,11 @@ span.quantity-button.minus, span.addmore {
   padding: var(--space);
   grid-template-columns: repeat(4, 1fr);
 }
+div#shopify-section-stocklist {
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
 h3{
   text-transform: uppercase;
 }
