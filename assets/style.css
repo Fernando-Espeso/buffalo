@@ -410,9 +410,9 @@ section.hero img {
   position: relative;
 }
 .article-card p{
-  opacity: 0.4;
+  opacity: 0.7;
   font-size: var(--fsb);
-  line-height: 27px;
+  line-height: 25px;
   font-family: 'Times New Roman', Times, serif;
 }
 .title-thang {
