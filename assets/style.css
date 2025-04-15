@@ -421,6 +421,12 @@ section.hero img {
   padding: 10px;
   font-weight: normal;
 }
+.content-article-home{
+  text-align: left;
+  position: absolute;
+  padding: 10px;
+  bottom: 0px;
+}
 section.single-product {
   height: calc(var(--h) - var(--m));
   position: relative;
