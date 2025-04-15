@@ -405,13 +405,6 @@
               "link": "",
               "caption": ""
             }
-          },
-          "item_ttehFV": {
-            "type": "item",
-            "settings": {
-              "link": "",
-              "caption": ""
-            }
           }
         },
         "block_order": [
@@ -425,8 +418,7 @@
           "item_pGaEKW",
           "item_RkEN6y",
           "item_GPedRn",
-          "item_dfDrAx",
-          "item_ttehFV"
+          "item_dfDrAx"
         ],
         "settings": {}
       }
