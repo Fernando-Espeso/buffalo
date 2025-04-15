@@ -679,6 +679,11 @@ details > summary::-webkit-details-marker {
 .swiper-gallery .swiper-slide{
 
 }
+div#swiper-wrapper-361662a95102110b1010 {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
 .swiper-gallery img{
 
 }
