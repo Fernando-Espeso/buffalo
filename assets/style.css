@@ -670,7 +670,8 @@ details > summary::-webkit-details-marker {
   height: calc(var(--h) - var(--m));
 }
 .swiper-live{
-  position: relative;
+  top: 0px;
+  position: absolute;
   overflow: hidden;
   height: calc(var(--h) - var(--m));
   display: flex;
