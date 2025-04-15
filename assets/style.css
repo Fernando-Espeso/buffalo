@@ -423,6 +423,7 @@ section.single-product {
 section.two-products, .articles-block{
   text-align: center;
   display: grid;
+  grid-gap:3px;
   grid-template-columns: repeat(2, 1fr);
 }
 
