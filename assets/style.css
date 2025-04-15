@@ -427,6 +427,10 @@ section.hero img {
   padding: 10px;
   bottom: 0px;
 }
+.article-card{
+  height: 500px;
+  overflow: hidden;
+}
 section.single-product {
   height: calc(var(--h) - var(--m));
   position: relative;
