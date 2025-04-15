@@ -720,6 +720,7 @@ details > summary::-webkit-details-marker {
   font-size: var(--fsb);
   list-style: 23px;
   padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 .swiper-slide:hover .caption {
   display: block;
