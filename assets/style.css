@@ -709,6 +709,8 @@ details > summary::-webkit-details-marker {
   background-color: #000;
 }
 .caption{
+  z-index: 1000;
+  display: none;
   position: fixed;
   bottom:100px;
   width: 100%;
