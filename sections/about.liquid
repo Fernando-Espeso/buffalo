@@ -75,10 +75,6 @@
 
 {% for block in section.blocks %}
   {% case block.type %}
-    {% when 'title' %}
-      <section class="title-page">
-        <h1>{{ block.settings.title_text }}</h1>
-      </section>
     {% when 'single_info' %}
       <section class="single-info">
         <p>{{ block.settings.info_text }}</p>
