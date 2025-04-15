@@ -708,7 +708,16 @@ details > summary::-webkit-details-marker {
 .swiper-pagination-bullet-active {
   background-color: #000;
 }
-
+.caption{
+  position: fixed;
+  bottom:100px;
+  width: 100%;
+  left: 0px;
+  text-align: center;
+  font-size: var(--fsb);
+  list-style: 23px;
+  padding: 20px;
+}
 
 .swiper-slide-active {
   border: 1px solid red;
