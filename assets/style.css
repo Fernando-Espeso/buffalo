@@ -433,7 +433,7 @@ section.two-products img {
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
-  padding: var(--space) 20px;
+  padding: var(--space);
 }
 .product-title-section a{
   border-bottom: 1px solid var(--bl);
