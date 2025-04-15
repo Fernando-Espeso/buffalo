@@ -505,7 +505,7 @@ section.single-product img {
 }
 .column-text {
   margin: 0 auto;
-  font-family: 'GrotesqueMTStd';
+  font-family: 'Times New Roman', Times, serif;
   font-size: var(--fsm);
   line-height: 20px;
   column-count: 2;
@@ -514,7 +514,7 @@ section.single-product img {
 }
 
 .interior, .info-interior {
-  font-family: 'GrotesqueMTStd';
+  font-family: 'Times New Roman', Times, serif;
   font-size: var(--fsm);
   line-height: 20px;
   letter-spacing: 0px;
