@@ -674,7 +674,7 @@ details > summary::-webkit-details-marker {
   overflow: hidden;
   height: calc(var(--h) - var(--m));
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 .swiper-gallery .swiper-slide{
 
