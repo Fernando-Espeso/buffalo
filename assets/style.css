@@ -407,6 +407,14 @@ section.hero img {
   text-align: center;
 }
 
+.title-thang {
+  color: white;
+  mix-blend-mode: difference;
+  text-align: left;
+  position: absolute;
+  padding: 10px;
+  font-weight: normal;
+}
 section.single-product {
   height: calc(var(--h) - var(--m));
   position: relative;
