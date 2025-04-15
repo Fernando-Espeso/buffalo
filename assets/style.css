@@ -570,11 +570,10 @@ span.quantity-button.minus, span.addmore {
 div#shopify-section-stocklist {
   background-color: black;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
   font-size: var(--fsm);
 }
 h3{
-  font-family:  Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
