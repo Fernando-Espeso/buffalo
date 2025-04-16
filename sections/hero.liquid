@@ -8,7 +8,7 @@
       <div class="info-hero">{{ block.settings.info }}</div>
 
     {% when 'single_product' %}
-      <section class="single-product">
+      <section class="single-product{% if full_screen_class %} full-screen{% endif %}">
         {% assign product = all_products[block.settings.product] %}
         {% if product %}
           <div class="product-title-section">
@@ -144,6 +144,11 @@
           "type": "image_picker",
           "id": "custom_image",
           "label": "Custom Product Image"
+        },
+        {
+          "type": "checkbox",
+          "id": "fullscreen",
+          "label": "Full Screen Mode"
         }
       ]
     },
