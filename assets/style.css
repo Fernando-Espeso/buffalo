@@ -476,7 +476,7 @@ section.gallery {
 }
 div#shopify-section-hero {
   display: grid;
-  row-gap: 10px;
+  row-gap: 3px;
 }
 section.single-product img {
   top: 0;
