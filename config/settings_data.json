@@ -22,14 +22,6 @@
               "info": "<p>A live streamed, collective photo shoot taking place in a Paris studio during one day, bringingtogether a mix of photographers, stylists, models, hair and make up and movement directors.Creating a sort of “reality show” to be broadcasted live across different platforms: Instagram,TikTok, YouTube, Twitch, buffalozine.com, etc.</p>"
             }
           },
-          "single_product_CxEUGd": {
-            "type": "single_product",
-            "settings": {
-              "product": "issue-13-la-zowie",
-              "custom_image": "shopify://shop_images/5-009_2-copy-scaled.jpg",
-              "fullscreen": true
-            }
-          },
           "articles_FyDeiQ": {
             "type": "articles",
             "settings": {
@@ -37,6 +29,14 @@
               "article_1_image": "shopify://shop_images/221204_AG_VALENTINOxCAP74024_08_0850_24_5-copy-scaled.jpg",
               "product": "issue-13-la-zowie",
               "custom_image": "shopify://shop_images/5-023-1-copy-scaled.jpg"
+            }
+          },
+          "single_product_CxEUGd": {
+            "type": "single_product",
+            "settings": {
+              "product": "issue-13-la-zowie",
+              "custom_image": "shopify://shop_images/5-009_2-copy-scaled.jpg",
+              "fullscreen": true
             }
           },
           "two_products_TFPyyz": {
@@ -57,8 +57,8 @@
         },
         "block_order": [
           "hero_eH7mmr",
-          "single_product_CxEUGd",
           "articles_FyDeiQ",
+          "single_product_CxEUGd",
           "two_products_TFPyyz",
           "single_product_4QkKi3"
         ],
