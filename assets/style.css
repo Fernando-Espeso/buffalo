@@ -621,6 +621,7 @@ span.quantity-button.minus, span.addmore {
 div#shopify-section-stocklist, .div#shopify-section-about {
   background-color: black;
   color: white;
+  height: calc(var(--h) - var(--m));
 }
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
   padding-bottom: 10px;
