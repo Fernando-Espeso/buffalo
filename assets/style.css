@@ -641,11 +641,12 @@ h3{
   color: white;
 }
 input#stockistFilter{
-  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
   color: white!important;
   width: 300px;
   padding-bottom: 10px !important;
-  padding: 10px;
+  padding: 0px;
   margin: 0 auto;
 }
 input#stockistFilter::placeholder{
@@ -654,8 +655,7 @@ input#stockistFilter::placeholder{
   padding: 10px;
 }
 .contact-section{
-  /* max-width: 1400px;
-  margin: 0 auto; */
+  font-family: 'Times New Roman', Times, serif;
   display: grid;
   grid-gap:15px;
   padding: var(--space);
