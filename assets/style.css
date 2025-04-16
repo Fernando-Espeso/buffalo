@@ -301,7 +301,7 @@ a#cart{
   display: flex;
 }
 div#products {
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   display: grid;
 }
 
