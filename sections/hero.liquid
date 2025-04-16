@@ -7,21 +7,23 @@
       </section>
       <div class="info-hero">{{ block.settings.info }}</div>
 
-    {% when 'single_product' %}
-      {% assign full_screen_class = block.settings.fullscreen == true or block.settings.fullscreen == 'true' %}
-      <section class="single-product {% if full_screen_class %} full-screen{% endif %}">
-        {% assign product = all_products[block.settings.product] %}
-        {% if product %}
-          <div class="product-title-section">
-            <div>{{ product.title }} </div>
-            <a href="{{ product.url }}">View Product</a>
-          </div>
-          {% if block.settings.custom_image %}
-            <img src="{{ block.settings.custom_image | img_url: 'master' }}" alt="Custom Image">
-          {% else %}
-            <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
-          {% endif %}
-        {% endif %}
+  {% when 'single_product' %}
+  {% assign product = all_products[block.settings.product] %}
+  {% assign full_screen = block.settings.fullscreen %}
+
+  <section class="single-product{% if full_screen %} full-screen{% endif %}">
+    {% if product %}
+      <div class="product-title-section">
+        <div>{{ product.title }}</div>
+        <a href="{{ product.url }}">View Product</a>
+      </div>
+      {% if block.settings.custom_image %}
+        <img src="{{ block.settings.custom_image | img_url: 'master' }}" alt="Custom Image">
+      {% else %}
+        <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+      {% endif %}
+    {% endif %}
+  </section>}
       </section>
     {% when 'articles' %}
       <section class="articles-block">
