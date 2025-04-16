@@ -637,7 +637,8 @@ h3{
   letter-spacing: 0px;
 }
 .stockist-search {
-  padding: 30px;
+  font-family: Helvetica, sans-serif;
+  padding: 0px;
   color: white;
 }
 input#stockistFilter{
