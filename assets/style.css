@@ -314,8 +314,9 @@ div#products img {
   max-height: 360px;
 }
 
+
+
 .product {
-  grid-column: span 2;
   border-right: 1px solid var(--bl);
   border-bottom: 1px solid var(--bl);
 }
