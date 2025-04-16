@@ -85,10 +85,6 @@
               "column_text_content": "During her stay finding clothes was not very easy - she had to cover herself to respect the religion but weather was very humid and hot. So she started doing her own dresses, and people started to ask where she bought them . That’s when she started producing for friends and family and eventually Bakar was born. She took the name from “euskera” - the basque language, and it means “unique”. The principal was to use limited editions that would be renewed with what she found and designed at the moment. \nDuring her stay finding clothes was not very easy - she had to cover herself to respect the religion but weather was very humid and hot. So she started doing her own dresses, and people started to ask where she bought them . That’s when she started producing for friends and family and eventually Bakar was born. She took the name from “euskera” - the basque language, and it means “unique”. The principal was to use limited editions that would be renewed with what she found and designed at the moment."
             }
           },
-          "image_8xBRyC": {
-            "type": "image",
-            "settings": {}
-          },
           "column_text_8feB3f": {
             "type": "column_text",
             "settings": {
@@ -100,22 +96,14 @@
             "settings": {
               "info_text": "<p>Bakar is now available to ship to most of the countries and is present </p><p>in key boutique and concept stores</p>"
             }
-          },
-          "product_XPhzGQ": {
-            "type": "product",
-            "settings": {
-              "product": "the-balloon-dress-2"
-            }
           }
         },
         "block_order": [
           "title_wmYaiP",
           "single_info_Jgt6ir",
           "column_text_BkaBqi",
-          "image_8xBRyC",
           "column_text_8feB3f",
-          "single_info_hXBCih",
-          "product_XPhzGQ"
+          "single_info_hXBCih"
         ],
         "settings": {}
       },
