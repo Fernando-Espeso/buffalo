@@ -549,12 +549,9 @@ div#shopify-section-about {
   color: white;
 }
 .single-info {
-  margin: 0 auto;
-  text-align: center;
   text-transform: uppercase;
   max-width: auto;
   padding: var(--space);
-  border-bottom: 1px solid var(--bl);
 }
 .buy-block {
   border-right: 1px solid var(--bl);
@@ -624,7 +621,6 @@ span.quantity-button.minus, span.addmore {
 div#shopify-section-stocklist, .div#shopify-section-about {
   background-color: black;
   color: white;
-  font-size: var(--fsm);
 }
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
   padding-bottom: 10px;
@@ -641,22 +637,19 @@ h3{
   letter-spacing: 0px;
 }
 .stockist-search {
-  display: none;
   padding: 30px;
-  border-bottom: 1px solid var(--brown);
-  color: var(--brown);
+  color: white;
 }
 input#stockistFilter{
   text-align: center;
-  border-bottom: 1px solid var(--brown);
-  color: var(--brown)!important;
+  color: white!important;
   width: 300px;
   padding-bottom: 10px !important;
   padding: 10px;
   margin: 0 auto;
 }
 input#stockistFilter::placeholder{
-  color: var(--brown)!important;
+  color: white!important;
   opacity: 0.5;
   padding: 10px;
 }
