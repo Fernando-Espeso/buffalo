@@ -31,12 +31,12 @@
               "custom_image": "shopify://shop_images/5-023-1-copy-scaled.jpg"
             }
           },
-          "single_product_CxEUGd": {
+          "single_product_4QkKi3": {
             "type": "single_product",
             "settings": {
-              "product": "issue-13-la-zowie",
-              "custom_image": "shopify://shop_images/BuffaloZine13_6.webp",
-              "fullscreen": false
+              "product": "issue-nº14-alain-cabrera",
+              "custom_image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.13.png",
+              "fullscreen": true
             }
           },
           "two_products_TFPyyz": {
@@ -46,11 +46,11 @@
               "product_2": "issue-nº14-alain-cabrera"
             }
           },
-          "single_product_4QkKi3": {
+          "single_product_CxEUGd": {
             "type": "single_product",
             "settings": {
-              "product": "issue-nº14-alain-cabrera",
-              "custom_image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.13.png",
+              "product": "issue-13-la-zowie",
+              "custom_image": "shopify://shop_images/BuffaloZine13_6.webp",
               "fullscreen": false
             }
           }
@@ -58,9 +58,9 @@
         "block_order": [
           "hero_eH7mmr",
           "articles_FyDeiQ",
-          "single_product_CxEUGd",
+          "single_product_4QkKi3",
           "two_products_TFPyyz",
-          "single_product_4QkKi3"
+          "single_product_CxEUGd"
         ],
         "settings": {}
       },
