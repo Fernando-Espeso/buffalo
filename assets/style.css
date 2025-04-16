@@ -474,6 +474,10 @@ section.gallery {
 .product .product-sizes{
   display: none;
 }
+div#shopify-section-hero {
+  display: grid;
+  row-gap: 10px;
+}
 section.single-product img {
   top: 0;
   max-height: 500px;
