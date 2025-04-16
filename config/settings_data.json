@@ -35,8 +35,8 @@
             "type": "single_product",
             "settings": {
               "product": "issue-13-la-zowie",
-              "custom_image": "shopify://shop_images/1X2A7829-scaled.jpg",
-              "fullscreen": true
+              "custom_image": "shopify://shop_images/BuffaloZine13_6.webp",
+              "fullscreen": false
             }
           },
           "two_products_TFPyyz": {
