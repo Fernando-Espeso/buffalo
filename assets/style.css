@@ -642,7 +642,7 @@ h3{
   color: white;
 }
 input#stockistFilter{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Helvetica, sans-serif;
   text-align: left;
   color: white!important;
   width: 300px;
