@@ -393,18 +393,23 @@ section.hero img {
 }
 
 .info-hero{
+  margin: 0 auto;
   max-width: 1000px;
-  text-align: left;
-  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-family: Times New Roman, Times, serif;
   padding: var(--space);
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
 }
 
 .aim {
-  font-size: var(--fsb);
-  line-height: var(--fsb);
-  color: white;
+  padding: 10px;
+  top: var(--m);
+  left: 0px;
+  position: absolute;
+  font-size: var(--fs);
+  line-height: var(--fs);
+  color: #fff;
   max-width: 1200px;
   text-align: center;
 }
