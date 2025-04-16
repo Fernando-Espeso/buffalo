@@ -18,7 +18,7 @@
             "type": "hero",
             "settings": {
               "hero_image": "shopify://shop_images/Screenshot_2025-04-15_at_10.26.08.png",
-              "hero_text": "",
+              "hero_text": "<p>ISSUE</p>",
               "info": "<p>A live streamed, collective photo shoot taking place in a Paris studio during one day, bringingtogether a mix of photographers, stylists, models, hair and make up and movement directors.Creating a sort of “reality show” to be broadcasted live across different platforms: Instagram,TikTok, YouTube, Twitch, buffalozine.com, etc.</p>"
             }
           },
@@ -31,11 +31,11 @@
               "custom_image": "shopify://shop_images/5-023-1-copy-scaled.jpg"
             }
           },
-          "single_product_CxEUGd": {
+          "single_product_4QkKi3": {
             "type": "single_product",
             "settings": {
-              "product": "issue-13-la-zowie",
-              "custom_image": "shopify://shop_images/5-009_2-copy-scaled.jpg",
+              "product": "issue-nº14-alain-cabrera",
+              "custom_image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.13.png",
               "fullscreen": true
             }
           },
@@ -46,11 +46,11 @@
               "product_2": "issue-nº14-alain-cabrera"
             }
           },
-          "single_product_4QkKi3": {
+          "single_product_CxEUGd": {
             "type": "single_product",
             "settings": {
-              "product": "issue-nº14-alain-cabrera",
-              "custom_image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.13.png",
+              "product": "issue-13-la-zowie",
+              "custom_image": "shopify://shop_images/BuffaloZine13_6.webp",
               "fullscreen": false
             }
           }
@@ -58,9 +58,9 @@
         "block_order": [
           "hero_eH7mmr",
           "articles_FyDeiQ",
-          "single_product_CxEUGd",
+          "single_product_4QkKi3",
           "two_products_TFPyyz",
-          "single_product_4QkKi3"
+          "single_product_CxEUGd"
         ],
         "settings": {}
       },
