@@ -489,6 +489,7 @@ section.single-product img {
 }
 section.single-product.full-screen img {
   top: 0;
+  z-index: -1;
   max-height: 100%;
   min-height: 100%;
   height: 100%;
@@ -498,6 +499,11 @@ section.single-product.full-screen img {
   top:0%;
   transform: translate(0);
   position: absolute;
+}
+
+section.single-product.full-screeN {
+  color: white;
+  mix-blend-mode: exclusion;
 }
 
 /* CART */
