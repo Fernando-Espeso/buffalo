@@ -490,6 +490,7 @@ section.single-product.full-screen img {
   object-fit: cover;
   left: 0%;
   top:0%;
+  transform: translate(0);
   position: absolute;
 }
 
