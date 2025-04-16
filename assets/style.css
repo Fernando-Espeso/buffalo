@@ -501,7 +501,7 @@ section.single-product.full-screen img {
   position: absolute;
 }
 
-section.single-product.full-screen{
+section.single-product.full-screen .product-title-section{
   color: white;
   mix-blend-mode: exclusion;
 }
