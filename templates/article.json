@@ -1,0 +1,40 @@
+{
+    "name": "Article",
+    "sections": {
+      "article-gallery": {
+        "type": "article-gallery"
+      },
+      "title-block": {
+        "type": "text-block",
+        "settings": {
+          "text": "Título del artículo"
+        }
+      },
+      "credits-block": {
+        "type": "text-block",
+        "settings": {
+          "text": "Créditos del artículo"
+        }
+      },
+      "info-block": {
+        "type": "text-block",
+        "settings": {
+          "text": "Información adicional"
+        }
+      },
+      "extra-block": {
+        "type": "text-block",
+        "settings": {
+          "text": "Texto adicional"
+        }
+      }
+    },
+    "order": [
+      "article-gallery",
+      "title-block",
+      "credits-block",
+      "info-block",
+      "extra-block"
+    ]
+  }
+  
