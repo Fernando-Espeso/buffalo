@@ -11,6 +11,24 @@
   "sections": {
     "main": {
       "type": "article-content",
+      "blocks": {
+        "title_in679Q": {
+          "type": "title",
+          "settings": {
+            "text": "Titulo"
+          }
+        },
+        "gallery_bQHVUr": {
+          "type": "gallery",
+          "settings": {
+            "images": "shopify://shop_images/Screenshot_2025-04-16_at_17.07.52.png"
+          }
+        }
+      },
+      "block_order": [
+        "title_in679Q",
+        "gallery_bQHVUr"
+      ],
       "settings": {}
     }
   },
