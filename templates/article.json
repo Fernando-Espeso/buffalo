@@ -12,6 +12,18 @@
     "main": {
       "type": "article-content",
       "blocks": {
+        "info_DTPUaY": {
+          "type": "info",
+          "settings": {
+            "text": "<p>informaciom</p>"
+          }
+        },
+        "credits_QNLr4y": {
+          "type": "credits",
+          "settings": {
+            "text": "texto"
+          }
+        },
         "title_in679Q": {
           "type": "title",
           "settings": {
@@ -26,6 +38,8 @@
         }
       },
       "block_order": [
+        "info_DTPUaY",
+        "credits_QNLr4y",
         "title_in679Q",
         "gallery_bQHVUr"
       ],
