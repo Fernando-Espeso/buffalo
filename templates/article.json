@@ -24,12 +24,6 @@
             "text": "<p>‘High Time’Photo: </p><p>Julien Martinez–Leclerc, Fashion: Tom Guinness</p>"
           }
         },
-        "title_Ynyf7z": {
-          "type": "title",
-          "settings": {
-            "text": "<p>‘PRÊT-À-PORTER<br/>Photography Reto Schmid, Fashion Jonathan Huguet<br/>Featuring Juliette Binoche, Isabelle Huppert and Emmanuelle Seigner</p>"
-          }
-        },
         "credits_mxKNaH": {
           "type": "credits",
           "settings": {
@@ -46,7 +40,6 @@
       "block_order": [
         "issue_9tUhke",
         "title_gfeae3",
-        "title_Ynyf7z",
         "credits_mxKNaH",
         "info_qbC4bm"
       ],
@@ -59,34 +52,41 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/221204_AG_VALENTINOxCAP74024_08_0850_24_5-copy-scaled.jpg",
-            "alt_text": ""
+            "alt_text": "Princess Gloria wears PRADA"
           }
         },
         "image_DwhpDU": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Screenshot_2025-04-16_at_17.08.54.png",
-            "alt_text": ""
+            "alt_text": "Princess Gloria wears PRADA"
+          }
+        },
+        "image_jEkqwT": {
+          "type": "image",
+          "settings": {
+            "alt_text": "Princess Gloria wears PRADA"
           }
         },
         "image_JCCCiH": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/e1f05278f31f5c29cc3a0efe5799a08d.jpg",
-            "alt_text": ""
+            "alt_text": "Princess Gloria wears PRADA"
           }
         },
         "image_cKya88": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/THE-RISE-AND-FALL-logo-HR.png",
-            "alt_text": ""
+            "alt_text": "Princess Gloria wears PRADA"
           }
         }
       },
       "block_order": [
         "image_CCf7cB",
         "image_DwhpDU",
+        "image_jEkqwT",
         "image_JCCCiH",
         "image_cKya88"
       ],
