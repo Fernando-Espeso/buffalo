@@ -33,7 +33,7 @@
           <div class="product">
             <a href="{{ related_product.url }}">
                 {% if related_product.featured_image %}
-                    <img src="{{ related_product.featured_image | image_url: '300x' }}" alt="{{ related_product.title }}">
+                    <img src="{{ related_product.featured_image | img_url: 'master' }}" alt="{{ related_product.title }}">
                   {% else %}
                     <p>No image available</p>
                   {% endif %}
