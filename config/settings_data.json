@@ -268,6 +268,50 @@
       },
       "social": {
         "type": "social",
+        "blocks": {
+          "image_h6MeP3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Screenshot_2025-04-16_at_17.07.52.png",
+              "alt_text": ""
+            }
+          },
+          "image_3WfnEG": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/1-scaled.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_6JNak6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/5-009_2-copy-scaled.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_CFTTg9": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/5-023-1-copy-scaled.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_MaizNt": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.41.png",
+              "alt_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "image_h6MeP3",
+          "image_3WfnEG",
+          "image_6JNak6",
+          "image_CFTTg9",
+          "image_MaizNt"
+        ],
         "settings": {}
       },
       "live": {
@@ -380,8 +424,8 @@
       "contact": {
         "type": "contact",
         "settings": {
-          "info": "",
-          "info-2": ""
+          "info": "<p>Publishers / Creative + Art<br/>Adrián González-Cohen </p><p>David Uzquiza</p><p><br/>Fashion Director<br/>Tati Cotliar</p><p><br/>Features Editor<br/>Andrea Lazarov</p><p><br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist</p><p><br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher</p>",
+          "info-2": "<p>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London</p><p><br/>hi@buffalozine.com <br/>Advertising & Collaborations <br/>Shop Enquiries <br/>Distribution @ White Circ </p><p><br/>Instagram<br/>YouTube<br/>TikTok</p>"
         }
       },
       "brand": {
