@@ -12,41 +12,30 @@
     "main": {
       "type": "article-content",
       "blocks": {
-        "credits_QNLr4y": {
-          "type": "credits",
-          "settings": {
-            "text": "texto"
-          }
-        },
-        "title_in679Q": {
+        "title_Ynyf7z": {
           "type": "title",
           "settings": {
-            "text": "Titulo"
+            "text": "ISSUE 4: INTERNATIONAL BUFFALO ZINE CATALOGUEAUTUMN/WINTER 2016–17"
           }
         },
-        "gallery_bQHVUr": {
-          "type": "gallery",
+        "credits_mxKNaH": {
+          "type": "credits",
           "settings": {
-            "images": "shopify://shop_images/Screenshot_2025-04-16_at_17.07.52.png"
+            "text": ""
           }
         },
-        "info_DTPUaY": {
+        "info_qbC4bm": {
           "type": "info",
           "settings": {
-            "text": "<p>informaciom</p>"
+            "text": "<p>‘SHE MUST BE VERY, VERY RICH. THOSE KOONS DON’T GO FOR NOTHING!’<br/>Text by Liam Hess, Photography by Victoria Helly-Hutchinson, Film by Ion de Sosa</p>"
           }
         }
       },
       "block_order": [
-        "credits_QNLr4y",
-        "title_in679Q",
-        "gallery_bQHVUr",
-        "info_DTPUaY"
+        "title_Ynyf7z",
+        "credits_mxKNaH",
+        "info_qbC4bm"
       ],
-      "settings": {}
-    },
-    "live_EEBTb7": {
-      "type": "live",
       "settings": {}
     },
     "swiper_GDjVY8": {
@@ -84,7 +73,6 @@
   },
   "order": [
     "main",
-    "live_EEBTb7",
     "swiper_GDjVY8"
   ]
 }
