@@ -317,6 +317,11 @@ div#products img {
 
 .caption.quote {
   text-align: center;
+  text-align: center;
+  font-family: Times New Roman, Times, serif;
+  padding: var(--space);
+  font-size: var(--fsb);
+  line-height: clac(var(--fsb) + 5px);
 }
 .product {
   border-right: 1px solid var(--bl);
