@@ -23,7 +23,7 @@
 
       <a href="{{ product.url }}">
         {% if product.featured_image %}
-          <img src="{{ product.featured_image | image_url: '300x' }}" alt="{{ product.title }}">
+          <img src="{{ product.featured_image | image_url: 'master' }}" alt="{{ product.title }}">
         {% endif %}
         <div class="product-title title-thang">{{ product.title }}</div>
 
