@@ -30,20 +30,8 @@
   "max_blocks": 20,
   "blocks": [
     {
-      "type": "gallery",
-      "name": "Gallery",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "images",
-          "label": "Images",
-          "info": "Selecciona una imagen",
-        }
-      ]
-    },
-    {
       "type": "title",
-      "name": "Título",
+      "name": "Issue",
       "settings": [
         {
           "type": "text",
@@ -54,7 +42,7 @@
     },
     {
       "type": "credits",
-      "name": "Créditos",
+      "name": "Credits",
       "settings": [
         {
           "type": "text",
@@ -65,23 +53,12 @@
     },
     {
       "type": "info",
-      "name": "Información",
+      "name": "Description",
       "settings": [
         {
           "type": "richtext",
           "id": "text",
           "label": "Información adicional"
-        }
-      ]
-    },
-    {
-      "type": "extra",
-      "name": "Texto extra",
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "text",
-          "label": "Texto libre"
         }
       ]
     }
@@ -90,11 +67,9 @@
     {
       "name": "Article Content",
       "blocks": [
-        { "type": "gallery" },
         { "type": "title" },
         { "type": "credits" },
-        { "type": "info" },
-        { "type": "extra" }
+        { "type": "info" }
       ]
     }
   ]
