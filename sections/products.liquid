@@ -34,7 +34,7 @@
       {% if related_product %}
         <div class="related-product-item">
           <a href="{{ related_product.url }}">
-            <img src="{{ related_product.featured_image | image_url: '300x' }}" alt="{{ related_product.title }}">
+            <img src="{{ related_product.featured_image | image_url: 'master' }}" alt="{{ related_product.title }}">
             <h3>{{ related_product.title }}</h3>
             <p>{{ related_product.price | money }}</p>
           </a>
