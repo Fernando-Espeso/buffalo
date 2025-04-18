@@ -12,6 +12,12 @@
     "main": {
       "type": "article-content",
       "blocks": {
+        "issue_9tUhke": {
+          "type": "issue",
+          "settings": {
+            "text": "ISSUE 4: INTERNATIONAL BUFFALO ZINE CATALOGUE CLOSEAUTUMN/WINTER 2016–17"
+          }
+        },
         "title_gfeae3": {
           "type": "title",
           "settings": {
@@ -38,6 +44,7 @@
         }
       },
       "block_order": [
+        "issue_9tUhke",
         "title_gfeae3",
         "title_Ynyf7z",
         "credits_mxKNaH",
