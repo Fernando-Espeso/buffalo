@@ -12,6 +12,12 @@
     "main": {
       "type": "article-content",
       "blocks": {
+        "credits_QNLr4y": {
+          "type": "credits",
+          "settings": {
+            "text": "texto"
+          }
+        },
         "title_in679Q": {
           "type": "title",
           "settings": {
@@ -23,16 +29,29 @@
           "settings": {
             "images": "shopify://shop_images/Screenshot_2025-04-16_at_17.07.52.png"
           }
+        },
+        "info_DTPUaY": {
+          "type": "info",
+          "settings": {
+            "text": "<p>informaciom</p>"
+          }
         }
       },
       "block_order": [
+        "credits_QNLr4y",
         "title_in679Q",
-        "gallery_bQHVUr"
+        "gallery_bQHVUr",
+        "info_DTPUaY"
       ],
+      "settings": {}
+    },
+    "live_EEBTb7": {
+      "type": "live",
       "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "live_EEBTb7"
   ]
 }
