@@ -458,7 +458,7 @@
           "text_FxpWXq": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“On the cutting edge of print: Buffalo Zine<br/>explores the back alleys of style” — THE NEW YORK TIMES</p>"
+              "alt_text": "<p>“On the cutting edge of print: Buffalo Zine<br/>explores the back alleys of style” — <strong>THE NEW YORK TIMES</strong></p>"
             }
           },
           "text_aCPGJr": {
@@ -482,7 +482,7 @@
           "text_pFK9wB": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“One of the bravest new independent magazine titles investing in high quality content” — MONOCLE</p>"
+              "alt_text": "<p>“One of the bravest new independent magazine titles investing in high quality content” <strong>— MONOCLE</strong></p>"
             }
           }
         },
