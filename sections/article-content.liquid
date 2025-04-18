@@ -18,7 +18,7 @@
       {% when "info" %}
         <div class="info">{{ block.settings.text }}</div>
 
-      {% when "extra" %}
+      {% when "title" %}
         <div class="extra">{{ block.settings.text }}</div>
 
     {% endcase %}
@@ -30,7 +30,7 @@
   "max_blocks": 20,
   "blocks": [
     {
-      "type": "title",
+      "type": "issue",
       "name": "Issue",
       "settings": [
         {
@@ -52,6 +52,17 @@
       ]
     },
     {
+      "type": "title",
+      "name": "Title",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Title"
+        }
+      ]
+    },
+    {
       "type": "info",
       "name": "Description",
       "settings": [
@@ -67,9 +78,10 @@
     {
       "name": "Article Content",
       "blocks": [
-        { "type": "title" },
+        { "type": "issue" },
         { "type": "credits" },
-        { "type": "info" }
+        { "type": "info" },
+        { "type": "title" }
       ]
     }
   ]
