@@ -106,11 +106,41 @@
         "product_ccrzLe"
       ],
       "settings": {}
+    },
+    "quotes_WKfipg": {
+      "type": "quotes",
+      "blocks": {
+        "text_zaVGLx": {
+          "type": "text",
+          "settings": {
+            "alt_text": "<p>“On the cutting edge of print: Buffalo Zine<br/>explores the back alleys of style”<br/>— THE NEW YORK TIMES</p>"
+          }
+        },
+        "text_3WdtHc": {
+          "type": "text",
+          "settings": {
+            "alt_text": "<p>“On the cutting edge of print: Buffalo Zine<br/>explores the back alleys of style”<br/>— THE NEW YORK TIMES</p>"
+          }
+        },
+        "text_hQQaHG": {
+          "type": "text",
+          "settings": {
+            "alt_text": "<p>“On the cutting edge of print: Buffalo Zine<br/>explores the back alleys of style”<br/>— THE NEW YORK TIMES</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_zaVGLx",
+        "text_3WdtHc",
+        "text_hQQaHG"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
     "swiper_GDjVY8",
-    "products_49rfai"
+    "products_49rfai",
+    "quotes_WKfipg"
   ]
 }
