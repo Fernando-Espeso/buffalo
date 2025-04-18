@@ -763,6 +763,9 @@ details > summary::-webkit-details-marker {
   border-bottom: 1px solid var(--bl);
 }
 .swiper-article .swiper-slide{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .swiper-article .swiper-slide img{
   display: flex;
