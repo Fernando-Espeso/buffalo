@@ -268,6 +268,62 @@
       },
       "social": {
         "type": "social",
+        "blocks": {
+          "image_GaNqBH": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/THE-RISE-AND-FALL-logo-HR.png",
+              "alt_text": ""
+            }
+          },
+          "image_h6MeP3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Screenshot_2025-04-16_at_17.07.52.png",
+              "alt_text": ""
+            }
+          },
+          "image_6JNak6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/5-009_2-copy-scaled.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_3WfnEG": {
+            "type": "image",
+            "settings": {
+              "alt_text": ""
+            }
+          },
+          "image_j4UmxE": {
+            "type": "image",
+            "settings": {
+              "alt_text": ""
+            }
+          },
+          "image_CFTTg9": {
+            "type": "image",
+            "settings": {
+              "alt_text": ""
+            }
+          },
+          "image_MaizNt": {
+            "type": "image",
+            "settings": {
+              "alt_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "image_GaNqBH",
+          "image_h6MeP3",
+          "image_6JNak6",
+          "image_3WfnEG",
+          "image_j4UmxE",
+          "image_CFTTg9",
+          "image_MaizNt"
+        ],
         "settings": {}
       },
       "live": {
