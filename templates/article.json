@@ -91,10 +91,33 @@
         "image_cKya88"
       ],
       "settings": {}
+    },
+    "products_49rfai": {
+      "type": "products",
+      "blocks": {
+        "product_ccrzLe": {
+          "type": "product",
+          "settings": {
+            "product": "issue-nº14-alain-cabrera"
+          }
+        },
+        "product_fR966c": {
+          "type": "product",
+          "settings": {
+            "product": "issue-13-la-zowie"
+          }
+        }
+      },
+      "block_order": [
+        "product_ccrzLe",
+        "product_fR966c"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
-    "swiper_GDjVY8"
+    "swiper_GDjVY8",
+    "products_49rfai"
   ]
 }
