@@ -62,12 +62,6 @@
             "caption": "Princess Gloria wears PRADA"
           }
         },
-        "image_jEkqwT": {
-          "type": "image",
-          "settings": {
-            "caption": ""
-          }
-        },
         "image_JCCCiH": {
           "type": "image",
           "settings": {
@@ -86,7 +80,6 @@
       "block_order": [
         "image_CCf7cB",
         "image_DwhpDU",
-        "image_jEkqwT",
         "image_JCCCiH",
         "image_cKya88"
       ],
@@ -95,22 +88,22 @@
     "products_49rfai": {
       "type": "products",
       "blocks": {
+        "product_WGyFiY": {
+          "type": "product",
+          "settings": {
+            "product": "issue-13-la-zowie"
+          }
+        },
         "product_ccrzLe": {
           "type": "product",
           "settings": {
             "product": "issue-nº14-alain-cabrera"
           }
-        },
-        "product_fR966c": {
-          "type": "product",
-          "settings": {
-            "product": "issue-13-la-zowie"
-          }
         }
       },
       "block_order": [
-        "product_ccrzLe",
-        "product_fR966c"
+        "product_WGyFiY",
+        "product_ccrzLe"
       ],
       "settings": {}
     }
