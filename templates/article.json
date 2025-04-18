@@ -48,10 +48,43 @@
     "live_EEBTb7": {
       "type": "live",
       "settings": {}
+    },
+    "swiper_GDjVY8": {
+      "type": "swiper",
+      "blocks": {
+        "image_CCf7cB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/221204_AG_VALENTINOxCAP74024_08_0850_24_5-copy-scaled.jpg",
+            "alt_text": ""
+          }
+        },
+        "image_DwhpDU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-04-16_at_17.08.54.png",
+            "alt_text": ""
+          }
+        },
+        "image_JCCCiH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e1f05278f31f5c29cc3a0efe5799a08d.jpg",
+            "alt_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_CCf7cB",
+        "image_DwhpDU",
+        "image_JCCCiH"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
-    "live_EEBTb7"
+    "live_EEBTb7",
+    "swiper_GDjVY8"
   ]
 }
