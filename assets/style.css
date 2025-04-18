@@ -432,6 +432,7 @@ section.hero img {
 }
 
 .aim {
+  text-transform: uppercase;
   padding: 10px;
   top: var(--m);
   left: 0px;
