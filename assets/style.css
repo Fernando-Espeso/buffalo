@@ -404,7 +404,7 @@ footer .container{
 /* HOMEPAGE */
 section.hero {
   position: relative;
-  height: calc(var(--h) - var(--m));
+  height: calc(var(--h));
   display: flex;
   justify-content: center;
   align-items: center;
