@@ -315,7 +315,9 @@ div#products img {
 }
 
 
-
+.caption.quote {
+  text-align: center;
+}
 .product {
   border-right: 1px solid var(--bl);
   border-bottom: 1px solid var(--bl);
