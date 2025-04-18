@@ -17,7 +17,7 @@
           "hero_eH7mmr": {
             "type": "hero",
             "settings": {
-              "hero_image": "shopify://shop_images/221204_AG_VALENTINOxCAP74024_08_0850_24_5-copy-scaled.jpg",
+              "hero_image": "shopify://shop_images/5-023-1-copy-scaled.jpg",
               "hero_text": "<p>ISSUE 13 – La Zowie</p>",
               "info": "<p>A live streamed, collective photo shoot taking place in a Paris studio during one day, bringingtogether a mix of photographers, stylists, models, hair and make up and movement directors.Creating a sort of “reality show” to be broadcasted live across different platforms: Instagram,TikTok, YouTube, Twitch, buffalozine.com, etc.</p>"
             }
@@ -44,7 +44,7 @@
             "settings": {
               "product": "issue-nº14-alain-cabrera",
               "custom_image": "shopify://shop_images/Screenshot_2025-04-16_at_17.05.55.png",
-              "fullscreen": true
+              "fullscreen": false
             }
           },
           "two_products_TFPyyz": {
