@@ -682,15 +682,13 @@ input#stockistFilter{
   font-family: Helvetica, sans-serif;
   text-align: left;
   color: white!important;
-  width: 300px;
-  padding-bottom: 10px !important;
-  padding: 0px;
+  width: 300px; 
+  padding: 10px;
   margin: 0 auto;
 }
 input#stockistFilter::placeholder{
   color: white!important;
   opacity: 0.5;
-  padding: 10px;
 }
 .contact-section{
   font-family: 'Times New Roman', Times, serif;
