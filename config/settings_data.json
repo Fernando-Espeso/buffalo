@@ -379,44 +379,9 @@
       },
       "contact": {
         "type": "contact",
-        "blocks": {
-          "email_link_CEJXVg": {
-            "type": "email_link",
-            "settings": {
-              "title": "SUP",
-              "email": "EMAIL"
-            }
-          },
-          "email_link_BeaHhA": {
-            "type": "email_link",
-            "settings": {
-              "title": "",
-              "email": ""
-            }
-          },
-          "email_link_HmkbLE": {
-            "type": "email_link",
-            "settings": {
-              "title": "",
-              "email": ""
-            }
-          },
-          "email_link_e3DEyB": {
-            "type": "email_link",
-            "settings": {
-              "title": "",
-              "email": ""
-            }
-          }
-        },
-        "block_order": [
-          "email_link_CEJXVg",
-          "email_link_BeaHhA",
-          "email_link_HmkbLE",
-          "email_link_e3DEyB"
-        ],
         "settings": {
-          "info": ""
+          "info": "",
+          "info-2": ""
         }
       },
       "brand": {
