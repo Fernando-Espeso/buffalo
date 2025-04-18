@@ -28,11 +28,10 @@
 
 <div class="related-products">
   <h2>Related Products</h2>
-  <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
     {% for block in section.blocks %}
       {% assign related_product = all_products[block.settings.product] %}
       {% if related_product %}
-        <div class="related-product-item">
+        <div class="product">
           <a href="{{ related_product.url }}">
             <img src="{{ related_product.featured_image | image_url: 'master' }}" alt="{{ related_product.title }}">
             <div class="product-title title-thang">
@@ -43,5 +42,4 @@
         </div>
       {% endif %}
     {% endfor %}
-  </div>
 </div>
