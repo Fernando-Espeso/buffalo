@@ -792,7 +792,8 @@ details > summary::-webkit-details-marker {
   width: 100%;
   height: auto;
   display: flex;
-  padding: 15px;
+  padding: 0px;
+  padding-top: 3px;
   border-bottom: 1px solid var(--bl);
 }
 .swiper-gallery{
