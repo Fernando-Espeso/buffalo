@@ -1,0 +1,23 @@
+<div class="contact-section">  
+  <div class="info">
+    {{ section.settings.info }}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Contact Section",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "info",
+      "label": "Info Content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Contact"
+    }
+  ]
+}
+{% endschema %}
