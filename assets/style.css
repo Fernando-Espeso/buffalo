@@ -373,6 +373,11 @@ footer .container{
   display:grid;
   row-gap:10px;
 }
+.issue{
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
 
 /* HOMEPAGE */
 section.hero {
