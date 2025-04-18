@@ -464,25 +464,25 @@
           "text_aCPGJr": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“One of fashion’s most unique, fun, loveable,<br/>and exciting publishing projects” — i-D</p>"
+              "alt_text": "<p>“One of fashion’s most unique, fun, loveable,<br/>and exciting publishing projects” —<strong> i-D</strong></p>"
             }
           },
           "text_9mytJz": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“Serious fashion mags are over. Buffalo Zine<br/>is one of the publishing world’s most fun-loving art and fashion mags” — DAZED</p>"
+              "alt_text": "<p>“Serious fashion mags are over. Buffalo Zine<br/>is one of the publishing world’s most fun-loving art and fashion mags” — <strong>DAZED</strong></p>"
             }
           },
           "text_nrCMwx": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“Intelligent without conceit, funny without focusing on funny people, and with an ever-<br/>changing aesthetic identity, it really is a magazine at the vanguard of print culture” —VICE</p>"
+              "alt_text": "<p>“Intelligent without conceit, funny without focusing on funny people, and with an ever-<br/>changing aesthetic identity, it really is a magazine at the vanguard of print culture” <strong>—VICE</strong></p>"
             }
           },
           "text_pFK9wB": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“One of the bravest new independent magazine titles investing in high quality content” <strong>— MONOCLE</strong></p>"
+              "alt_text": "<p>“One of the bravest new independent magazine titles investing in high quality content” — <strong>MONOCLE</strong></p>"
             }
           }
         },
