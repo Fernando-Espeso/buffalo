@@ -26,7 +26,7 @@
             "type": "single_product",
             "settings": {
               "product": "issue-13-la-zowie",
-              "custom_image": "shopify://shop_images/BuffaloZine13_6.webp",
+              "custom_image": "shopify://shop_images/Screenshot_2025-04-16_at_17.05.55.png",
               "fullscreen": false
             }
           },
@@ -43,8 +43,8 @@
             "type": "single_product",
             "settings": {
               "product": "issue-nº14-alain-cabrera",
-              "custom_image": "shopify://shop_images/Screenshot_2025-04-16_at_17.05.55.png",
-              "fullscreen": false
+              "custom_image": "shopify://shop_images/Screenshot_2025-04-15_at_10.26.08.png",
+              "fullscreen": true
             }
           },
           "two_products_TFPyyz": {
