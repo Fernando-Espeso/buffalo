@@ -761,11 +761,11 @@ details > summary::-webkit-details-marker {
   padding: 15px;
   border-bottom: 1px solid var(--bl);
 }
-.swiper-articl .swiper-slide{
+.swiper-article .swiper-slide{
   display: flex;
   align-items: center;
 }
-.swiper-articl .swiper-wrapper {
+.swiper-article .swiper-wrapper {
   height: 30vh;
   display: flex;
   align-items: center;
