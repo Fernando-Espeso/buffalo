@@ -1,10 +1,9 @@
 <div class="contact-section">
-  <div class="richtext-block">
-    {{ section.blocks[0].settings.content }}
-  </div>
-  <div class="richtext-block">
-    {{ section.blocks[1].settings.content }}
-  </div>
+  {% for block in section.blocks %}
+    <div class="richtext-block">
+      {{ block.settings.content }}
+    </div>
+  {% endfor %}
 </div>
 
 {% schema %}
@@ -13,21 +12,8 @@
   "settings": [],
   "blocks": [
     {
-      "type": "rich_text_1",
-      "name": "Rich Text 1",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "content",
-          "label": "Content"
-        }
-      ]
-    },
-    {
-      "type": "rich_text_2",
-      "name": "Rich Text 2",
-      "limit": 1,
+      "type": "rich_text",
+      "name": "Rich Text",
       "settings": [
         {
           "type": "richtext",
@@ -37,9 +23,18 @@
       ]
     }
   ],
+  "max_blocks": 2,
   "presets": [
     {
       "name": "Contact",
+      "blocks": [
+        {
+          "type": "rich_text"
+        },
+        {
+          "type": "rich_text"
+        }
+      ]
     }
   ]
 }
