@@ -12,6 +12,12 @@
     "main": {
       "type": "article-content",
       "blocks": {
+        "title_gfeae3": {
+          "type": "title",
+          "settings": {
+            "text": "‘High Time’Photo: Julien Martinez–Leclerc, Fashion: Tom Guinness"
+          }
+        },
         "title_Ynyf7z": {
           "type": "title",
           "settings": {
@@ -32,6 +38,7 @@
         }
       },
       "block_order": [
+        "title_gfeae3",
         "title_Ynyf7z",
         "credits_mxKNaH",
         "info_qbC4bm"
