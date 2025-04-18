@@ -777,7 +777,14 @@ details > summary::-webkit-details-marker {
   display: flex;
   align-items: center;
 }
-
+/* SWIPER
+================================================== */
+.related-products {
+  color: white;
+  padding: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+}
 
 /* SWIPER
 ================================================== */
