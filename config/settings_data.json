@@ -424,7 +424,7 @@
       "contact": {
         "type": "contact",
         "settings": {
-          "info": "<p>Publishers / Creative + Art<br/>Adrián González-Cohen </p><p>David Uzquiza</p><p><br/>Fashion Director<br/>Tati Cotliar</p><p><br/>Features Editor<br/>Andrea Lazarov</p><p><br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist</p><p><br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher</p>",
+          "info": "<p>Publishers / Creative + Art<br/>Adrián González-Cohen </p><p>David Uzquiza</p><p><br/>Fashion Director<br/>Tati Cotliar</p><p><br/>Features Editor<br/>Andrea Lazarov</p><p><br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist</p><p><br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher</p><p><br/>Website<br/>Fernando Espeso</p>",
           "info-2": "<p>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London</p><p><br/>hi@buffalozine.com <br/>Advertising & Collaborations <br/>Shop Enquiries <br/>Distribution @ White Circ </p><p><br/>Instagram<br/>YouTube<br/>TikTok</p>"
         }
       },
@@ -458,31 +458,31 @@
           "text_FxpWXq": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“On the cutting edge of print: Buffalo Zine<br/>explores the back alleys of style” — THE NEW YORK TIMES</p>"
+              "alt_text": "<p>“On the cutting edge of print: Buffalo Zine<br/>explores the back alleys of style” — <strong>THE NEW YORK TIMES</strong></p>"
             }
           },
           "text_aCPGJr": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“One of fashion’s most unique, fun, loveable,<br/>and exciting publishing projects” — i-D</p>"
+              "alt_text": "<p>“One of fashion’s most unique, fun, loveable,<br/>and exciting publishing projects” —<strong> i-D</strong></p>"
             }
           },
           "text_9mytJz": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“Serious fashion mags are over. Buffalo Zine<br/>is one of the publishing world’s most fun-loving art and fashion mags” — DAZED</p>"
+              "alt_text": "<p>“Serious fashion mags are over. Buffalo Zine<br/>is one of the publishing world’s most fun-loving art and fashion mags” — <strong>DAZED</strong></p>"
             }
           },
           "text_nrCMwx": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“Intelligent without conceit, funny without focusing on funny people, and with an ever-<br/>changing aesthetic identity, it really is a magazine at the vanguard of print culture” —VICE</p>"
+              "alt_text": "<p>“Intelligent without conceit, funny without focusing on funny people, and with an ever-<br/>changing aesthetic identity, it really is a magazine at the vanguard of print culture” <strong>—VICE</strong></p>"
             }
           },
           "text_pFK9wB": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“One of the bravest new independent magazine titles investing in high quality content” — MONOCLE</p>"
+              "alt_text": "<p>“One of the bravest new independent magazine titles investing in high quality content” — <strong>MONOCLE</strong></p>"
             }
           }
         },
