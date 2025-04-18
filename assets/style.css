@@ -755,6 +755,7 @@ details > summary::-webkit-details-marker {
 /* SWIPER ARTICLE
 ================================================== */
 .swiper-article {
+  overflow: hidden;
   width: 100%;
   height: 30vh;
   display: flex;
@@ -762,7 +763,12 @@ details > summary::-webkit-details-marker {
   border-bottom: 1px solid var(--bl);
 }
 .swiper-article .swiper-slide{
+}
+.swiper-article .swiper-slide img{
   display: flex;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
   align-items: center;
 }
 .swiper-article .swiper-wrapper {
