@@ -44,7 +44,7 @@
             "settings": {
               "product": "issue-nº14-alain-cabrera",
               "custom_image": "shopify://shop_images/Screenshot_2025-04-16_at_17.05.55.png",
-              "fullscreen": false
+              "fullscreen": true
             }
           },
           "two_products_TFPyyz": {
