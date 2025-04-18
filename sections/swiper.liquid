@@ -1,4 +1,4 @@
-<div class="swiper-container color">
+<div class="swiper-article color">
     <div class="swiper-wrapper">
       {% for block in section.blocks %}
         <div class="swiper-slide">
@@ -46,7 +46,7 @@
   {% endschema %}
   <script>
       $(document).ready(function () {
-          var swiper = new Swiper('.swiper-container', {
+          var swiper = new Swiper('.swiper-article', {
             loop: true,
             slidesPerView: 1,
             spaceBetween: 15,
@@ -57,10 +57,6 @@
             pagination: {
               el: '.swiper-pagination',
               clickable: true,
-            },
-            autoplay: {
-              delay: 2500,
-              disableOnInteraction: false,
             }
           });
   });

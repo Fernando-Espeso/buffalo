@@ -387,7 +387,7 @@ footer .container{
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
 }
-.swiper-container.color{
+.swiper-article.color{
   color: white;
 }
 .caption-article {
@@ -752,6 +752,26 @@ details > summary::-webkit-details-marker {
   background-color: transparent;
   color: var(--bgm);
 }
+/* SWIPER ARTICLE
+================================================== */
+.swiper-article {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid var(--bl);
+}
+.swiper-articl .swiper-slide{
+  display: flex;
+  align-items: center;
+}
+.swiper-articl .swiper-wrapper {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+
+
 /* SWIPER
 ================================================== */
 .swiper-container {
