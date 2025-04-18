@@ -387,7 +387,9 @@ footer .container{
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
 }
-
+.swiper-container.color{
+  color: white;
+}
 /* HOMEPAGE */
 section.hero {
   position: relative;
