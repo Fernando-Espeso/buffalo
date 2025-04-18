@@ -1,0 +1,77 @@
+<div class="related-products">
+    <h2>Related Products</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      {% for block in section.blocks %}
+        {% assign product = all_products[block.settings.product] %}
+        {% if product %}
+          <div id="product-{{ product.id }}" class="product
+            {% if product.has_only_default_variant %} simple{% endif %}
+            {% unless product.available %} sold{% endunless %}
+            {% if product.compare_at_price > product.price %} sale{% endif %}"
+            data-price="{{ product.price }}"
+            data-pos="{{ forloop.index }}"
+          >
+  
+            {% if product.compare_at_price > product.price %}
+              <div class="on-sale">ON SALE</div>
+            {% endif %}
+  
+            {% unless product.available %}
+              <div class="soldi">SOLD OUT</div>
+            {% endunless %}
+  
+            <a href="{{ product.url }}">
+              <img src="{{ product.featured_image | image_url: '300x' }}" alt="{{ product.title }}">
+              <div class="product-title title-thang">{{ product.title }}</div>
+  
+              <div class="product-price">
+                {% if product.available %}
+                  {% if product.price_varies %}
+                    <span>{{ product.price_min | money }}</span> – <span>{{ product.price_max | money }}</span>
+                  {% else %}
+                    {% if product.compare_at_price > product.price %}
+                      <s>{{ product.compare_at_price | money }}</s>
+                      <span class="red">{{ product.price | money }}</span>
+                    {% else %}
+                      <span>{{ product.price | money }}</span>
+                    {% endif %}
+                  {% endif %}
+                {% else %}
+                  <span>{{ product.price | money }}</span>
+                {% endif %}
+              </div>
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  
+ {% schema %}
+{
+  "name": "Related Products",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Select a related product"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 6,
+  "presets": [
+    {
+      "name": "Related Products",
+      "category": "Product"
+    }
+  ]
+}
+{% endschema %}
+
+  
