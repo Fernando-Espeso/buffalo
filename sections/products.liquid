@@ -32,11 +32,12 @@
         {% if related_product %}
           <div class="product">
             <a href="{{ related_product.url }}">
-              {% if related_product.featured_image %}
-                <img src="{{ related_product.featured_image | image_url: '300x' }}" alt="{{ related_product.title }}">
-            {% else %}
-                <p>No image available</p>
-              {% endif %}
+                {% if related_product.featured_image %}
+                    <img src="{{ related_product.featured_image | image_url: '300x' }}" alt="{{ related_product.title }}">
+                  {% else %}
+                    <p>No image available</p>
+                  {% endif %}
+
               <div class="product-title title-thang">
                   <h3>{{ related_product.title }}</h3>
                   <p>{{ related_product.price | money }}</p>
