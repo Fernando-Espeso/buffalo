@@ -27,7 +27,7 @@
 
 
 <div class="related-products">
-    <h2>Related Products</h2>
+    <div class="hero-intro">Related Products</div>
       {% for block in section.blocks %}
         {% assign related_product = all_products[block.settings.product] %}
         {% if related_product %}
