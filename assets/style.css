@@ -755,7 +755,6 @@ details > summary::-webkit-details-marker {
 /* SWIPER ARTICLE
 ================================================== */
 .swiper-article {
-  overflow: hidden;
   width: 100%;
   height: 30vh;
   display: flex;
