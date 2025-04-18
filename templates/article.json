@@ -119,13 +119,20 @@
         "text_3WdtHc": {
           "type": "text",
           "settings": {
-            "alt_text": ""
+            "alt_text": "<p>“On the cutting edge of print: Buffalo Zine<br/>explores the back alleys of style”<br/>— THE NEW YORK TIMES</p>"
+          }
+        },
+        "text_hQQaHG": {
+          "type": "text",
+          "settings": {
+            "alt_text": "<p>“On the cutting edge of print: Buffalo Zine<br/>explores the back alleys of style”<br/>— THE NEW YORK TIMES</p>"
           }
         }
       },
       "block_order": [
         "text_zaVGLx",
-        "text_3WdtHc"
+        "text_3WdtHc",
+        "text_hQQaHG"
       ],
       "settings": {}
     }
