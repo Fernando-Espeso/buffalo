@@ -664,6 +664,8 @@ div#shopify-section-stocklist, div#shopify-section-about {
   padding-bottom: 10px;
 }
 h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: var(--fsm);
   font-weight: normal;
   text-transform: uppercase;
 }
