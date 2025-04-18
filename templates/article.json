@@ -48,29 +48,10 @@
     "live_EEBTb7": {
       "type": "live",
       "settings": {}
-    },
-    "contact_ARzerP": {
-      "type": "contact",
-      "blocks": {
-        "email_link_wX4Ht6": {
-          "type": "email_link",
-          "settings": {
-            "title": "",
-            "email": ""
-          }
-        }
-      },
-      "block_order": [
-        "email_link_wX4Ht6"
-      ],
-      "settings": {
-        "info": ""
-      }
     }
   },
   "order": [
     "main",
-    "live_EEBTb7",
-    "contact_ARzerP"
+    "live_EEBTb7"
   ]
 }
