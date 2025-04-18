@@ -1,16 +1,4 @@
-<div class="contact-section">
-    <ul>
-      {% for block in section.blocks %}
-        {% if block.type == "email_link" %}
-          <li>
-            <a href="mailto:{{ block.settings.email }}" target="_blank" rel="noopener noreferrer">
-              {{ block.settings.title }}
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  
+<div class="contact-section">  
     <div class="info">
       {{ section.settings.info }}
     </div>
@@ -31,33 +19,9 @@
         "label": "Info Content"
       }
     ],
-    "blocks": [
-      {
-        "type": "email_link",
-        "name": "Email Link",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Title"
-          },
-          {
-            "type": "text",
-            "id": "email",
-            "label": "Email (user@example.com)"
-          }
-        ]
-      }
-    ],
-    "max_blocks": 20,
     "presets": [
       {
-        "name": "Contact",
-        "blocks": [
-          {
-            "type": "email_link"
-          }
-        ]
+        "name": "Contact"
       }
     ]
   }
