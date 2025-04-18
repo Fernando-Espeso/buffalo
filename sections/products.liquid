@@ -35,8 +35,10 @@
         <div class="related-product-item">
           <a href="{{ related_product.url }}">
             <img src="{{ related_product.featured_image | image_url: 'master' }}" alt="{{ related_product.title }}">
-            <h3>{{ related_product.title }}</h3>
-            <p>{{ related_product.price | money }}</p>
+            <div class="product-title title-thang">
+                <h3>{{ related_product.title }}</h3>
+                <p>{{ related_product.price | money }}</p>
+            </div>
           </a>
         </div>
       {% endif %}
