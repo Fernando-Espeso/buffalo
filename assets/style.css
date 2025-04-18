@@ -365,6 +365,15 @@ footer .container{
 }
 
 
+/* ARTICLE */
+.article-content{
+  padding:10px;
+  color: white;
+  text-align:center;
+  display:grid;
+  row-gap:10px;
+}
+
 /* HOMEPAGE */
 section.hero {
   position: relative;
