@@ -315,7 +315,7 @@ div#products img {
 }
 
 
-.caption.quote {
+.swiper-quotes .swiper-slide p {
   text-align: center;
   text-align: center;
   font-family: Times New Roman, Times, serif;
