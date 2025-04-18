@@ -390,6 +390,10 @@ footer .container{
 .swiper-container.color{
   color: white;
 }
+.caption-article {
+  padding: 10px;
+  text-align: center;
+}
 /* HOMEPAGE */
 section.hero {
   position: relative;
