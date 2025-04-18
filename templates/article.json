@@ -24,12 +24,6 @@
             "text": "<p>‘High Time’Photo: </p><p>Julien Martinez–Leclerc, Fashion: Tom Guinness</p>"
           }
         },
-        "title_Ynyf7z": {
-          "type": "title",
-          "settings": {
-            "text": "<p>‘PRÊT-À-PORTER<br/>Photography Reto Schmid, Fashion Jonathan Huguet<br/>Featuring Juliette Binoche, Isabelle Huppert and Emmanuelle Seigner</p>"
-          }
-        },
         "credits_mxKNaH": {
           "type": "credits",
           "settings": {
@@ -46,7 +40,6 @@
       "block_order": [
         "issue_9tUhke",
         "title_gfeae3",
-        "title_Ynyf7z",
         "credits_mxKNaH",
         "info_qbC4bm"
       ],
