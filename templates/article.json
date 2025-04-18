@@ -75,12 +75,20 @@
             "image": "shopify://shop_images/e1f05278f31f5c29cc3a0efe5799a08d.jpg",
             "alt_text": ""
           }
+        },
+        "image_cKya88": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/THE-RISE-AND-FALL-logo-HR.png",
+            "alt_text": ""
+          }
         }
       },
       "block_order": [
         "image_CCf7cB",
         "image_DwhpDU",
-        "image_JCCCiH"
+        "image_JCCCiH",
+        "image_cKya88"
       ],
       "settings": {}
     }
