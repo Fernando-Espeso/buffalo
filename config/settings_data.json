@@ -451,6 +451,28 @@
           "custom_article_3q7T6T"
         ],
         "settings": {}
+      },
+      "quotes": {
+        "type": "quotes",
+        "blocks": {
+          "text_FxpWXq": {
+            "type": "text",
+            "settings": {
+              "alt_text": "<p>“On the cutting edge of print: Buffalo Zine<br/>explores the back alleys of style”<br/>— THE NEW YORK TIMES</p>"
+            }
+          },
+          "text_aCPGJr": {
+            "type": "text",
+            "settings": {
+              "alt_text": "<p>“One of fashion’s most unique, fun, loveable,<br/>and exciting publishing projects” — i-D</p>"
+            }
+          }
+        },
+        "block_order": [
+          "text_FxpWXq",
+          "text_aCPGJr"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": []
