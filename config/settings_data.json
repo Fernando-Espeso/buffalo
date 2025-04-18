@@ -269,17 +269,17 @@
       "social": {
         "type": "social",
         "blocks": {
-          "image_GaNqBH": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/THE-RISE-AND-FALL-logo-HR.png",
-              "alt_text": ""
-            }
-          },
           "image_h6MeP3": {
             "type": "image",
             "settings": {
               "image": "shopify://shop_images/Screenshot_2025-04-16_at_17.07.52.png",
+              "alt_text": ""
+            }
+          },
+          "image_3WfnEG": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/1-scaled.jpg",
               "alt_text": ""
             }
           },
@@ -290,37 +290,25 @@
               "alt_text": ""
             }
           },
-          "image_3WfnEG": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          },
-          "image_j4UmxE": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          },
           "image_CFTTg9": {
             "type": "image",
             "settings": {
+              "image": "shopify://shop_images/5-023-1-copy-scaled.jpg",
               "alt_text": ""
             }
           },
           "image_MaizNt": {
             "type": "image",
             "settings": {
+              "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.41.png",
               "alt_text": ""
             }
           }
         },
         "block_order": [
-          "image_GaNqBH",
           "image_h6MeP3",
-          "image_6JNak6",
           "image_3WfnEG",
-          "image_j4UmxE",
+          "image_6JNak6",
           "image_CFTTg9",
           "image_MaizNt"
         ],
@@ -436,8 +424,8 @@
       "contact": {
         "type": "contact",
         "settings": {
-          "info": "",
-          "info-2": ""
+          "info": "<p>Publishers / Creative + Art<br/>Adrián González-Cohen<br/>David Uzquiza<br/>Fashion Director<br/>Tati Cotliar<br/>Features Editor<br/>Andrea Lazarov<br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist<br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher</p>",
+          "info-2": "<p>Publishers / Creative + Art<br/>Adrián González-Cohen<br/>David Uzquiza<br/>Fashion Director<br/>Tati Cotliar<br/>Features Editor<br/>Andrea Lazarov<br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist<br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher</p>"
         }
       },
       "brand": {
