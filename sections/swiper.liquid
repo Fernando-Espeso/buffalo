@@ -3,8 +3,12 @@
       {% for block in section.blocks %}
         <div class="swiper-slide">
           <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.alt_text }}">
+          {% if caption != blank %}
+            <p class="caption">{{ caption }}</p>
+          {% endif %}
         </div>
       {% endfor %}
+
     </div>
     <div class="next"></div>
     <div class="prev"></div>
@@ -27,7 +31,7 @@
           {
             "type": "text",
             "label": "Image Alt Text",
-            "id": "alt_text"
+            "id": "caption"
           }
         ]
       }
