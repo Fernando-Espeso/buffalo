@@ -34,8 +34,8 @@
           <div class="product">
             <a href="{{ related_product.url }}">
               {% if related_product.featured_image %}
-                <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
-              {% else %}
+                <img src="{{ related_product.featured_image | image_url: '300x' }}" alt="{{ related_product.title }}">
+            {% else %}
                 <p>No image available</p>  <!-- Display a fallback message if no image is found -->
               {% endif %}
               <div class="product-title title-thang">
