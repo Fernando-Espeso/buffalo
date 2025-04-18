@@ -793,7 +793,7 @@ details > summary::-webkit-details-marker {
   height: auto;
   display: flex;
   padding: 0px;
-  padding-top: 3px;
+  padding:3px 0px;
   border-bottom: 1px solid var(--bl);
 }
 .swiper-gallery{
