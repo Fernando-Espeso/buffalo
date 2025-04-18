@@ -1,57 +1,4 @@
-<div class="related-products">
-    <h2>Related Products</h2>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-  {% for block in section.blocks %}
-  {% assign product = all_products[block.settings.product_handle] %}
-  {% if product %}
-    <div id="product-{{ product.id }}" class="product
-      {% if product.has_only_default_variant %} simple{% endif %}
-      {% unless product.available %} sold{% endunless %}
-      {% if product.compare_at_price > product.price %} sale{% endif %}"
-      data-price="{{ product.price }}"
-      data-pos="{{ forloop.index }}"
-    >
-
-      {% if product.compare_at_price > product.price %}
-        <div class="on-sale">ON SALE</div>
-      {% endif %}
-
-      {% unless product.available %}
-        <div class="soldi">SOLD OUT</div>
-      {% endunless %}
-
-      <a href="{{ product.url }}">
-        {% if product.featured_image %}
-          <img src="{{ product.featured_image | image_url: '300x' }}" alt="{{ product.title }}">
-        {% endif %}
-        <div class="product-title title-thang">{{ product.title }}</div>
-
-        <div class="product-price">
-          {% if product.available %}
-            {% if product.price_varies %}
-              <span>{{ product.price_min | money }}</span> – <span>{{ product.price_max | money }}</span>
-            {% else %}
-              {% if product.compare_at_price > product.price %}
-                <s>{{ product.compare_at_price | money }}</s>
-                <span class="red">{{ product.price | money }}</span>
-              {% else %}
-                <span>{{ product.price | money }}</span>
-              {% endif %}
-            {% endif %}
-          {% else %}
-            <span>{{ product.price | money }}</span>
-          {% endif %}
-        </div>
-      </a>
-    </div>
-  {% endif %}
-{% endfor %}
-
-
-    </div>
-  </div>
-  
- {% schema %}
+{% schema %}
 {
   "name": "Related Products",
   "settings": [],
@@ -62,8 +9,8 @@
       "settings": [
         {
           "type": "product",
-          "id": "product",
-          "label": "Select a related product"
+          "label": "Select a related product",
+          "id": "product"  // Adding an ID for the setting field
         }
       ]
     }
@@ -78,4 +25,21 @@
 }
 {% endschema %}
 
-  
+
+<div class="related-products">
+  <h2>Related Products</h2>
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    {% for block in section.blocks %}
+      {% assign related_product = all_products[block.settings.product] %}
+      {% if related_product %}
+        <div class="related-product-item">
+          <a href="{{ related_product.url }}">
+            <img src="{{ related_product.featured_image | image_url: '300x' }}" alt="{{ related_product.title }}">
+            <h3>{{ related_product.title }}</h3>
+            <p>{{ related_product.price | money }}</p>
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
