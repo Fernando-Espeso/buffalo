@@ -466,11 +466,32 @@
             "settings": {
               "alt_text": "<p>“One of fashion’s most unique, fun, loveable,<br/>and exciting publishing projects” — i-D</p>"
             }
+          },
+          "text_9mytJz": {
+            "type": "text",
+            "settings": {
+              "alt_text": "<p>“Serious fashion mags are over. Buffalo Zine<br/><br/>is one of the publishing world’s most fun-<br/>loving art and fashion mags” — DAZED</p>"
+            }
+          },
+          "text_nrCMwx": {
+            "type": "text",
+            "settings": {
+              "alt_text": "<p>“Intelligent without conceit, funny without<br/><br/>focusing on funny people, and with an ever-<br/>changing aesthetic identity, it really is a<br/><br/>magazine at the vanguard of print culture” —<br/>VICE</p>"
+            }
+          },
+          "text_pFK9wB": {
+            "type": "text",
+            "settings": {
+              "alt_text": "<p>“One of the bravest new independent<br/>magazine titles investing in high quality<br/>content” — MONOCLE</p>"
+            }
           }
         },
         "block_order": [
           "text_FxpWXq",
-          "text_aCPGJr"
+          "text_aCPGJr",
+          "text_9mytJz",
+          "text_nrCMwx",
+          "text_pFK9wB"
         ],
         "settings": {}
       }
