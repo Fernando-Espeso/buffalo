@@ -704,7 +704,6 @@ input#stockistFilter::placeholder{
   column-count: 1;
 }
 .contact-section .info{
-  font-family: 'GrotesqueMTStd';
   font-size: var(--fsm);
   line-height: 20px;
   letter-spacing: 0px;
