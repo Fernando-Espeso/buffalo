@@ -378,6 +378,15 @@ footer .container{
   font-weight: normal;
   text-transform: uppercase;
 }
+.description{
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+  font-family: Times New Roman, Times, serif;
+  padding: var(--space);
+  font-size: var(--fsb);
+  line-height: clac(var(--fsb) + 5px);
+}
 
 /* HOMEPAGE */
 section.hero {
