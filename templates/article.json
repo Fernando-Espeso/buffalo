@@ -121,24 +121,20 @@
       ],
       "settings": {}
     },
-    "contact_3rpmNi": {
-      "type": "contact",
+    "quotes_NwndmD": {
+      "type": "quotes",
       "blocks": {
-        "email_link_f8jxhD": {
-          "type": "email_link",
+        "text_7Tqej7": {
+          "type": "text",
           "settings": {
-            "title": "jk.jk",
-            "email": ""
+            "alt_text": "<p>una</p>"
           }
         }
       },
       "block_order": [
-        "email_link_f8jxhD"
+        "text_7Tqej7"
       ],
-      "settings": {
-        "info": "<p>hello</p>",
-        "info-2": ""
-      }
+      "settings": {}
     }
   },
   "order": [
@@ -147,6 +143,6 @@
     "interview_fdRXe6",
     "products_49rfai",
     "about_8M89tG",
-    "contact_3rpmNi"
+    "quotes_NwndmD"
   ]
 }
