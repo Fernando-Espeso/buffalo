@@ -431,6 +431,22 @@ footer .container{
   top: 10px;
   z-index: 10;
 }
+.credits {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 10;
+  height: calc(var(--h) - var(--m));
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.credits.active {
+  display: block;
+}
+  /* 
 /* HOMEPAGE */
 section.hero {
   position: relative;

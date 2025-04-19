@@ -19,9 +19,20 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+$(document).ready(function () {
+  // Toggle al hacer clic
+  $('.credits-open').on('click', function () {
+    $('.credits').toggleClass('active');
+  });
 
+  // Quitar clase al hacer scroll
+  $(window).on('scroll', function () {
+    $('.credits').removeClass('active');
+  });
+});
 
 $(document).ready(function() {
+  
 
   $("#header .menu-open").click(function () {
     isMenuOpen = !isMenuOpen;
@@ -94,7 +105,6 @@ document.addEventListener("DOMContentLoaded", function () {
     document.documentElement.style.setProperty("--a", article.offsetHeight + "px");
   }
  
-
 });
 
 // Update height on resize
@@ -107,7 +117,7 @@ function onResizeFunction() {
   if (menu) {
     document.documentElement.style.setProperty("--m", menu.offsetHeight + "px");
   }
-  
+
   let article = document.getElementById("article-content");
   if (article) {
     document.documentElement.style.setProperty("--a", article.offsetHeight + "px");
