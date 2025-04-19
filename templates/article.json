@@ -120,6 +120,25 @@
         "title_aM6mJY"
       ],
       "settings": {}
+    },
+    "contact_3rpmNi": {
+      "type": "contact",
+      "blocks": {
+        "email_link_f8jxhD": {
+          "type": "email_link",
+          "settings": {
+            "title": "",
+            "email": ""
+          }
+        }
+      },
+      "block_order": [
+        "email_link_f8jxhD"
+      ],
+      "settings": {
+        "info": "<p>hello</p>",
+        "info-2": ""
+      }
     }
   },
   "order": [
@@ -127,6 +146,7 @@
     "swiper_GDjVY8",
     "interview_fdRXe6",
     "products_49rfai",
-    "about_8M89tG"
+    "about_8M89tG",
+    "contact_3rpmNi"
   ]
 }
