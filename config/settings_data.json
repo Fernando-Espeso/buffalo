@@ -70,26 +70,19 @@
           "single_info_Jgt6ir": {
             "type": "single_info",
             "settings": {
-              "info_text": "<p>Nuestros distribuidores son nuestros partners.  </p><p>Queremos garantizarte un servicio de venta y postventa de máxima calidad.  </p><p>Por ello te ofrecemos una red de distribuidores autorizados </p><p>dónde adquirir nuestras lámparas.</p><p></p>"
+              "info_text": "<p>Buffalo Zine is a cutting-edge fashion and<br/>art magazine that embraces a refreshingly<br/>unconventional approach to publishing.</p><p></p>"
             }
           },
           "column_text_BkaBqi": {
             "type": "column_text",
             "settings": {
-              "column_text_content": "During her stay finding clothes was not very easy - she had to cover herself to respect the religion but weather was very humid and hot. So she started doing her own dresses, and people started to ask where she bought them . That’s when she started producing for friends and family and eventually Bakar was born. She took the name from “euskera” - the basque language, and it means “unique”. The principal was to use limited editions that would be renewed with what she found and designed at the moment. \nDuring her stay finding clothes was not very easy - she had to cover herself to respect the religion but weather was very humid and hot. So she started doing her own dresses, and people started to ask where she bought them . That’s when she started producing for friends and family and eventually Bakar was born. She took the name from “euskera” - the basque language, and it means “unique”. The principal was to use limited editions that would be renewed with what she found and designed at the moment."
-            }
-          },
-          "column_text_8feB3f": {
-            "type": "column_text",
-            "settings": {
-              "column_text_content": "Nikole is orginally from Bilbao. Since young, she started travelling around the world, and it has now become her way of living. Born an explorer, she loves discovering new places, new cultures and people.  Besides from traveling, one of her favorite hobbies growing up was sneaking into other people’s houses. \nThat being a passion she studied interiors architecture in Madrid and worked as an interior designer until 2017.  That summer she went to Kenya on holidays and everything changed for her. She fell completely in love with the culture, the country, the colors, the smell…and decided to move to Lamu, a tiny island 2 hours fly from Nairobi."
+              "column_text_content": "Buffalo Zine is a cutting-edge fashion and\nart magazine that embraces a refreshingly\nunconventional approach to publishing. It\nstands out for its fearless creativity, blending\nhigh-fashion photography, witty storytelling\nand award-wining design and art direction.\nRefusing to sit still, no two issues are ever\nthe same. \n\nEvery season, the entire magazine\nchanges format and aesthetic identity,\nrevealing a different facet of its rebellious,\ndefant sensibility. Transforming with every\nissue into a new world for readers to immerse\nthemselves in.\n\nWith an emphasis on collaboration and\ninclusivity, Buffalo Zine works with a global\narray of artists, photographers, writers, and\nstylists. The outcome is an irreverent melting\npot of creative expression that challenges\nthe established conventions of the fashion\nindustry.\n\nBuffalo Zine’s innovative and daring approach\nhas earned it a devoted following and\ncemented its reputation as a trailblazer in the\nworld of independent fashion publishing."
             }
           }
         },
         "block_order": [
           "single_info_Jgt6ir",
-          "column_text_BkaBqi",
-          "column_text_8feB3f"
+          "column_text_BkaBqi"
         ],
         "settings": {}
       },
