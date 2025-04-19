@@ -40,42 +40,6 @@
     },
     "swiper_GDjVY8": {
       "type": "swiper",
-      "blocks": {
-        "image_CCf7cB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/221204_AG_VALENTINOxCAP74024_08_0850_24_5-copy-scaled.jpg",
-            "caption": "Coat CÉLINE, Turtle neck AGENT PROVOCATEUR, Earrings JENNIFER FISHER, Bag CHANEL"
-          }
-        },
-        "image_DwhpDU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-04-16_at_17.08.54.png",
-            "caption": "Princess Gloria wears PRADA"
-          }
-        },
-        "image_JCCCiH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/e1f05278f31f5c29cc3a0efe5799a08d.jpg",
-            "caption": ""
-          }
-        },
-        "image_cKya88": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/THE-RISE-AND-FALL-logo-HR.png",
-            "caption": "Coat CÉLINE, Turtle neck AGENT PROVOCATEUR, Earrings JENNIFER FISHER, Bag CHANEL"
-          }
-        }
-      },
-      "block_order": [
-        "image_CCf7cB",
-        "image_DwhpDU",
-        "image_JCCCiH",
-        "image_cKya88"
-      ],
       "settings": {}
     },
     "interview_fdRXe6": {
@@ -120,25 +84,6 @@
         "title_aM6mJY"
       ],
       "settings": {}
-    },
-    "quotes_NwndmD": {
-      "type": "quotes",
-      "blocks": {
-        "text_7Tqej7": {
-          "type": "text",
-          "settings": {
-            "alt_text": "<p>una</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_7Tqej7"
-      ],
-      "settings": {}
-    },
-    "stocklist_CdGF7r": {
-      "type": "stocklist",
-      "settings": {}
     }
   },
   "order": [
@@ -146,8 +91,6 @@
     "swiper_GDjVY8",
     "interview_fdRXe6",
     "products_49rfai",
-    "about_8M89tG",
-    "quotes_NwndmD",
-    "stocklist_CdGF7r"
+    "about_8M89tG"
   ]
 }
