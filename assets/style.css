@@ -313,7 +313,10 @@ div#products img {
   max-height: 360px;
 }
 
-
+.swiper-quotes{
+  background-color: black;
+  color: white;
+}
 .swiper-quotes .swiper-slide p {
   text-align: center;
   text-align: center;
@@ -321,6 +324,10 @@ div#products img {
   padding: var(--space);
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
+}
+.swiper-quotes .swiper-slide p strong{
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
 }
 .product {
   border-right: 1px solid var(--bl);
