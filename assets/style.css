@@ -929,7 +929,6 @@ details > summary::-webkit-details-marker {
   height: 5px;
   background-color: #aaa;
   opacity: 1;
-  transition: background-color 0.3s;
 }
 
 .swiper-pagination-bullet-active {
