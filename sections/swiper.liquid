@@ -1,67 +1,42 @@
 <div class="swiper-article color">
     <div class="swiper-wrapper">
-      {% for block in section.blocks %}
-        <div class="swiper-slide">
-          <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.alt_text }}">
-          {% if block.settings.caption != blank %}
-            <p class="caption-article">{{ block.settings.caption }}</p>
-          {% endif %}
-        </div>
-      {% endfor %}
-
+      {% assign gallery = article.metafields.custom.gallery.value %}
+      {% if gallery %}
+        {% for image in gallery %}
+          <div class="swiper-slide">
+            <img src="{{ image | image_url: '1024x1024' }}" alt="{{ image.alt | escape }}">
+            {% if image.alt != blank %}
+              <p class="caption-article">{{ image.alt }}</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% else %}
+        <p>No hay imágenes en la galería.</p>
+      {% endif %}
     </div>
     <div class="swiper-pagination"></div>
     <div class="next"></div>
     <div class="prev"></div>
   </div>
   
-  {% schema %}
-  {
-    "name": "Swiper",
-    "settings": [],
-    "blocks": [
-      {
-        "type": "image",
-        "name": "Image Block",
-        "settings": [
-          {
-            "type": "image_picker",
-            "label": "Image",
-            "id": "image"
-          },
-          {
-            "type": "text",
-            "label": "Image Alt Text",
-            "id": "caption"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Swiper",
-        "category": "Custom"
-      }
-    ]
-  }
-  {% endschema %}
   <script>
-      $(document).ready(function () {
-          var swiper = new Swiper('.swiper-article', {
-            loop: true,
-            slidesPerView: 1,
-            spaceBetween: 15,
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-                renderBullet: function (index, className) {
-                  return `<span class="${className}"></span>`;
-                }
-              }
-          });
-  });
+    document.addEventListener("DOMContentLoaded", function () {
+      var swiper = new Swiper('.swiper-article', {
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 15,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+          renderBullet: function (index, className) {
+            return `<span class="${className}"></span>`;
+          }
+        }
+      });
+    });
   </script>
+  
