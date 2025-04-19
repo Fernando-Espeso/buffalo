@@ -782,7 +782,7 @@ details > summary::-webkit-details-marker {
   width: 100%;
   height: calc(100vh - var(--a) - var(--m));
   display: flex;
-  padding: 15px;
+  padding: 0px;
   border-bottom: 1px solid var(--bl);
 }
 .swiper-article .swiper-slide{
