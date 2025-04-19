@@ -407,6 +407,8 @@ footer .container{
 .caption-article {
   padding: 10px;
   text-align: center;
+  bottom: 0PX;
+  position: absolute;
 }
 /* HOMEPAGE */
 section.hero {
@@ -792,7 +794,7 @@ details > summary::-webkit-details-marker {
 }
 .swiper-article .swiper-slide img{
   display: flex;
-  height: 100%;
+  height: calc(100% - 80px);
   width: 100%;
   object-fit: contain;
   align-items: center;
