@@ -416,6 +416,9 @@ footer .container{
   font-family: 'Times New Roman', Times, serif;
 }
 .close {
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  color: white;
   position: absolute;
   right: 10px;
   top: 10px;
