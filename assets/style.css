@@ -386,6 +386,7 @@ footer .container{
   text-align:center;
   display:grid;
   row-gap:10px;
+  position: relative;
 }
 .issue{
   font-family: Helvetica, sans-serif;
@@ -418,11 +419,13 @@ footer .container{
   position: absolute;
   right: 10px;
   top: 10px;
+  z-index: 10;
 }
-.credits {
+.credits-open {
   position: absolute;
   left: 10px;
   top: 10px;
+  z-index: 10;
 }
 /* HOMEPAGE */
 section.hero {
