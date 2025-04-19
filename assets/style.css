@@ -408,7 +408,7 @@ footer .container{
 .caption-article {
   padding: 10px;
   text-align: center;
-  bottom: 0PX;
+  bottom: 22px;
   position: absolute;
   font-size: var(--fsb);
   list-style: 23px;
@@ -850,6 +850,12 @@ details > summary::-webkit-details-marker {
   display: flex;
   padding: 0px;
   border-bottom: 1px solid var(--bl);
+}
+.swiper-article span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: white !important;
+}
+.swiper-article span.swiper-pagination-bullet.swiper-pagination-bullet {
+  background: white !important;
 }
 .swiper-article .swiper-slide{
   display: flex;
