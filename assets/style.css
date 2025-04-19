@@ -314,6 +314,7 @@ div#products img {
 }
 
 .swiper-quotes{
+  padding: 100px 0px;
   background-color: black;
   color: white;
 }
