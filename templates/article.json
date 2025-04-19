@@ -14,6 +14,7 @@
       "blocks": {
         "issue_9tUhke": {
           "type": "issue",
+          "disabled": true,
           "settings": {
             "text": "<p>ISSUE 4: INTERNATIONAL BUFFALO ZINE </p><p>CATALOGUE CLOSEAUTUMN/WINTER 2016–17</p><p></p>"
           }
