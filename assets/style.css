@@ -689,7 +689,7 @@ div#shopify-section-stocklist, div#shopify-section-about {
   font-weight: normal;
 }
 .stockist-item h3{
-  font-family: Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: var(--fsb);
   line-height: 22px;
   font-weight: normal;
