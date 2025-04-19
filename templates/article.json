@@ -9,39 +9,32 @@
  */
 {
   "sections": {
-    "article_content_pWHXjz": {
+    "main": {
       "type": "article-content",
       "blocks": {
-        "issue_jqNnaf": {
+        "issue_9tUhke": {
           "type": "issue",
           "settings": {
-            "text": "<p>test</p>"
+            "text": "<p>ISSUE 4: INTERNATIONAL BUFFALO ZINE </p><p>CATALOGUE CLOSEAUTUMN/WINTER 2016–17</p><p></p>"
           }
         },
-        "credits_tapWVy": {
-          "type": "credits",
-          "settings": {
-            "text": ""
-          }
-        },
-        "info_UijQbC": {
-          "type": "info",
-          "settings": {
-            "text": ""
-          }
-        },
-        "title_GdALWq": {
+        "title_gfeae3": {
           "type": "title",
           "settings": {
-            "text": ""
+            "text": "<p>‘High Time’</p><p>Photo: Julien Martinez–Leclerc, Fashion: Tom Guinness</p>"
+          }
+        },
+        "credits_mxKNaH": {
+          "type": "credits",
+          "settings": {
+            "text": "<p>Photography ADRIAN GONZÁLEZ-COHEN<br/>Fashion TATI COTLIAR<br/>Hair and Make Up SUZANNE VERBERK<br/>Casting JASMIN ISLAMOVIC<br/>Talent KEBRI at KNOWN,<br/>NELLA at PAPARAZZI, ANUSCHKA JUNIOR, MARTIEN,<br/>MIKK, NADJA and RUBY<br/>Photo Asst RICK ERFMANN<br/>Fashion Asst RYAN WOHLGEMUT<br/>Hair and Make Up Asst WOUT PHILIPPO</p>"
           }
         }
       },
       "block_order": [
-        "issue_jqNnaf",
-        "credits_tapWVy",
-        "info_UijQbC",
-        "title_GdALWq"
+        "issue_9tUhke",
+        "title_gfeae3",
+        "credits_mxKNaH"
       ],
       "settings": {}
     },
@@ -115,7 +108,7 @@
     }
   },
   "order": [
-    "article_content_pWHXjz",
+    "main",
     "swiper_GDjVY8",
     "interview_fdRXe6",
     "products_49rfai"
