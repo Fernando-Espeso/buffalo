@@ -426,12 +426,13 @@ footer .container{
   z-index: 10;
 }
 .credits-open {
+  z-index: 1000;;
   position: absolute;
   left: 10px;
   top: 10px;
-  z-index: 10;
 }
 .credits {
+  width: 100vw;
   display: none;
   position: absolute;
   top: 0%;
