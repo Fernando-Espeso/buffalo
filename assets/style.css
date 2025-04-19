@@ -610,7 +610,7 @@ div#shopify-section-about {
   margin: 0 auto;
   font-family: 'Times New Roman', Times, serif;
   font-size: var(--fsb);
-  line-height: 24px;
+  line-height: 22px;
   column-count: 2;
   padding: var(--space);
   letter-spacing: 0px;
@@ -682,7 +682,13 @@ div#shopify-section-stocklist, div#shopify-section-about {
   font-weight: normal;
   text-transform: uppercase;
 }
-
+.stockist-item {
+  font-family: Helvetica, sans-serif;
+  font-size: var(--fsb);
+  line-height: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
 .stockist-item p{
   font-family: 'Times New Roman', Times, serif;
   font-size: var(--fsm);
