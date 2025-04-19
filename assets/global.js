@@ -88,6 +88,13 @@ document.addEventListener("DOMContentLoaded", function () {
   if (menu) {
     document.documentElement.style.setProperty("--m", menu.offsetHeight + "px");
   }
+
+  let article = document.getElementById("article-content");
+  if (article) {
+    document.documentElement.style.setProperty("--a", article.offsetHeight + "px");
+  }
+ 
+
 });
 
 // Update height on resize
@@ -99,6 +106,11 @@ function onResizeFunction() {
   let menu = document.getElementById("menu");
   if (menu) {
     document.documentElement.style.setProperty("--m", menu.offsetHeight + "px");
+  }
+  
+  let article = document.getElementById("article-content");
+  if (article) {
+    document.documentElement.style.setProperty("--a", article.offsetHeight + "px");
   }
 }
 
