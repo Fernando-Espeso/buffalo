@@ -425,6 +425,10 @@ footer .container{
   top: 10px;
   z-index: 10;
 }
+.title-related {
+  grid-column: span 2;
+
+}
 .credits-open {
   z-index: 1000;;
   position: absolute;
