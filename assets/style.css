@@ -414,6 +414,16 @@ footer .container{
   padding: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
+.close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.credits {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
 /* HOMEPAGE */
 section.hero {
   position: relative;
