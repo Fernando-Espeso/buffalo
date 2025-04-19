@@ -67,12 +67,6 @@
       "about": {
         "type": "about",
         "blocks": {
-          "title_wmYaiP": {
-            "type": "title",
-            "settings": {
-              "title_text": "OUR STORY"
-            }
-          },
           "single_info_Jgt6ir": {
             "type": "single_info",
             "settings": {
@@ -90,20 +84,12 @@
             "settings": {
               "column_text_content": "Nikole is orginally from Bilbao. Since young, she started travelling around the world, and it has now become her way of living. Born an explorer, she loves discovering new places, new cultures and people.  Besides from traveling, one of her favorite hobbies growing up was sneaking into other people’s houses. \nThat being a passion she studied interiors architecture in Madrid and worked as an interior designer until 2017.  That summer she went to Kenya on holidays and everything changed for her. She fell completely in love with the culture, the country, the colors, the smell…and decided to move to Lamu, a tiny island 2 hours fly from Nairobi."
             }
-          },
-          "single_info_hXBCih": {
-            "type": "single_info",
-            "settings": {
-              "info_text": "<p>Bakar is now available to ship to most of the countries and is present </p><p>in key boutique and concept stores</p>"
-            }
           }
         },
         "block_order": [
-          "title_wmYaiP",
           "single_info_Jgt6ir",
           "column_text_BkaBqi",
-          "column_text_8feB3f",
-          "single_info_hXBCih"
+          "column_text_8feB3f"
         ],
         "settings": {}
       },
@@ -166,12 +152,6 @@
       "stocklist": {
         "type": "stocklist",
         "blocks": {
-          "info_tJkyCj": {
-            "type": "info",
-            "settings": {
-              "store_name": "<p>Nuestros distribuidores son nuestros partners. Queremos garantizarte un servicio de venta y postventa de máxima calidad.<br/>Por ello te ofrecemos una red de distribuidores autorizados dónde adquirir nuestras lámparas.</p>"
-            }
-          },
           "stocklist_fzeXwk": {
             "type": "stocklist",
             "settings": {
@@ -251,7 +231,6 @@
           }
         },
         "block_order": [
-          "info_tJkyCj",
           "stocklist_fzeXwk",
           "stocklist_jwfK44",
           "stocklist_mgt6Rm",
