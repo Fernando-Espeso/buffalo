@@ -301,6 +301,7 @@ a#cart{
   position: absolute;
   right: 0px;
   padding: 10px;
+  display: flex;
 }
 .logo img{
   height: 37px;
