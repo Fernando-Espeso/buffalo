@@ -27,7 +27,7 @@
         "credits_mxKNaH": {
           "type": "credits",
           "settings": {
-            "text": ""
+            "text": "<p>Photography ADRIAN GONZÁLEZ-COHEN<br/>Fashion TATI COTLIAR<br/>Hair and Make Up SUZANNE VERBERK<br/>Casting JASMIN ISLAMOVIC<br/>Talent KEBRI at KNOWN,<br/>NELLA at PAPARAZZI, ANUSCHKA JUNIOR, MARTIEN,<br/>MIKK, NADJA and RUBY<br/>Photo Asst RICK ERFMANN<br/>Fashion Asst RYAN WOHLGEMUT<br/>Hair and Make Up Asst WOUT PHILIPPO</p>"
           }
         },
         "info_qbC4bm": {
@@ -106,55 +106,11 @@
         "product_ccrzLe"
       ],
       "settings": {}
-    },
-    "quotes_WKfipg": {
-      "type": "quotes",
-      "blocks": {
-        "text_QfpJgK": {
-          "type": "text",
-          "settings": {
-            "alt_text": "<p>heyyy</p>"
-          }
-        },
-        "text_zaVGLx": {
-          "type": "text",
-          "settings": {
-            "alt_text": "<p>“On the cutting edge of print: Buffalo Zine<br/>explores the back alleys of style”<br/>— THE NEW YORK TIMES</p>"
-          }
-        },
-        "text_3WdtHc": {
-          "type": "text",
-          "settings": {
-            "alt_text": "<p>“On the cutting edge of print: Buffalo Zine<br/>explores the back alleys of style”<br/>— THE NEW YORK TIMES</p>"
-          }
-        },
-        "text_hQQaHG": {
-          "type": "text",
-          "settings": {
-            "alt_text": "<p>“Buffalo Zine is going from strength to<br/>strength with its maximal look and anarchic<br/>sensibilities, an approach that includes<br/>completely reformatting the magazine for each<br/>issue” — AIGA, The American Institute of<br/>Graphic Arts</p>"
-          }
-        },
-        "text_Mr6Qfi": {
-          "type": "text",
-          "settings": {
-            "alt_text": "<p>“Thank god for Buffalo Zine, a magazine<br/>hanging around at the back of the classroom,<br/>chewing gum and planning another night<br/>on the laughing gas. A shapeshifter of a<br/>magazine: whatever form it takes, they always<br/>work with the best fashion creatives and<br/>call upon and impressive contacts book to<br/>add intelligent and relevant writing too” —<br/>MAGCULTURE</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_QfpJgK",
-        "text_zaVGLx",
-        "text_3WdtHc",
-        "text_hQQaHG",
-        "text_Mr6Qfi"
-      ],
-      "settings": {}
     }
   },
   "order": [
     "main",
     "swiper_GDjVY8",
-    "products_49rfai",
-    "quotes_WKfipg"
+    "products_49rfai"
   ]
 }
