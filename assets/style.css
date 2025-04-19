@@ -661,7 +661,7 @@ div#shopify-section-about {
 .contact-title {
   grid-column: span 2;
   font-family: Helvetica, sans-serif;
-  padding: 10px 0px;
+  padding: 0px 0px;
 }
 .single-info {
   text-transform: uppercase;
