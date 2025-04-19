@@ -785,7 +785,7 @@ input#stockistFilter::placeholder{
 .contact-section{
   font-family: 'Times New Roman', Times, serif;
   display: grid;
-  grid-gap:15px;
+  grid-gap:10px;
   padding: var(--space);
   grid-template-columns: repeat(2, 1fr);
 }
