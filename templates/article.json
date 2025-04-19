@@ -105,49 +105,12 @@
         "product_ccrzLe"
       ],
       "settings": {}
-    },
-    "article_content_gLLVgE": {
-      "type": "article-content",
-      "blocks": {
-        "issue_XUbEfx": {
-          "type": "issue",
-          "settings": {
-            "text": ""
-          }
-        },
-        "credits_7Afxnk": {
-          "type": "credits",
-          "settings": {
-            "text": ""
-          }
-        },
-        "info_AB3Xx7": {
-          "type": "info",
-          "settings": {
-            "text": ""
-          }
-        },
-        "title_PtGy4i": {
-          "type": "title",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "issue_XUbEfx",
-        "credits_7Afxnk",
-        "info_AB3Xx7",
-        "title_PtGy4i"
-      ],
-      "settings": {}
     }
   },
   "order": [
     "main",
     "swiper_GDjVY8",
     "interview_fdRXe6",
-    "products_49rfai",
-    "article_content_gLLVgE"
+    "products_49rfai"
   ]
 }
