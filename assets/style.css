@@ -436,9 +436,8 @@ section.hero img {
 }
 
 .info-hero{
-  margin: 0 auto;
   max-width: 1000px;
-  text-align: center;
+  text-align: left;
   font-family: Times New Roman, Times, serif;
   padding: var(--space);
   font-size: var(--fsb);
