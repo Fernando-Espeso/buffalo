@@ -1,0 +1,18 @@
+{%- form 'localization', class: 'localization-form' -%}
+    <div class="localization-selectors">
+      {%- if localization.available_countries.size > 1 -%}
+        <div class="country-selector">
+          <label for="CountrySelector">Country</label>
+          <select name="country_code" id="CountrySelector" onchange="this.form.submit()">
+            {%- for country in localization.available_countries -%}
+              <option value="{{ country.iso_code }}"
+                {% if country.iso_code == localization.country.iso_code %}selected{% endif %}>
+                {{ country.name }} ({{ country.currency.iso_code }})
+              </option>
+            {%- endfor -%}
+          </select>
+        </div>
+      {%- endif -%}
+    </div>
+  {%- endform -%}
+  
