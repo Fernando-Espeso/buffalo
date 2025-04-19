@@ -31,6 +31,10 @@
         {% assign related_product = all_products[block.settings.product] %}
         {% if related_product %}
           <div class="product">
+            <div class="title-thang">
+                <div>{{ related_product.title }}</div>
+                <p>{{ related_product.price | money }}</p>
+            </div>
             <a href="{{ related_product.url }}">
                 {% if related_product.featured_image %}
                     <img src="{{ related_product.featured_image | img_url: 'master' }}" alt="{{ related_product.title }}">
@@ -40,10 +44,7 @@
 
            
             </a>
-            <div class="title-thang">
-                <div>{{ related_product.title }}</div>
-                <p>{{ related_product.price | money }}</p>
-            </div>
+          
           </div>
         {% else %}
           <p>No related product found.</p>  <!-- This will show if the related product isn't found -->
