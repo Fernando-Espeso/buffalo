@@ -38,11 +38,12 @@
                     <p>No image available</p>
                   {% endif %}
 
-              <div class="product-title title-thang">
-                  <h3>{{ related_product.title }}</h3>
-                  <p>{{ related_product.price | money }}</p>
-              </div>
+           
             </a>
+            <div class="product-title title-thang">
+                <div>{{ related_product.title }}</div>
+                <p>{{ related_product.price | money }}</p>
+            </div>
           </div>
         {% else %}
           <p>No related product found.</p>  <!-- This will show if the related product isn't found -->
