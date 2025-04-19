@@ -85,6 +85,12 @@
       ],
       "settings": {}
     },
+    "interview_fdRXe6": {
+      "type": "interview",
+      "settings": {
+        "content": "<p>GLORIA VON TURN UND TAXIS: andré, how are you Darling?<br/>ANDRÉ LEON TALLEY: i’m very well. Very well.<br/>GVT: i want to talk about when we frst met. André was already a star in the 80s,<br/>when i frst hit the scene. Always in his pinstripe, double-breasted suits, going to<br/>the fashion shows in paris. I noticed him because he was a very tall man and very<br/>handsome. I approached him and wanted to know him straight away, and i was<br/>lucky that we had friends in common. Otherwise why would he even look at me?<br/>André was the star, and i was just the newcomer on the fashion scene. How do<br/>you remember me?<br/>ALT:<br/>“I’d heard from Karl Lagerfeld that there was a german princess in Paris. He said,<br/>‘There’s this German princess, and she’s In chanel and lacroix ordering clothes like<br/>mad. She’s buying all the couture!’ ”<br/>My frst memory was of course seeing you at the Ritz — everyone in Paris was<br/>talking about you by this point. Before you came to paris with Johannes, you<br/>were not ordering couture.<br/>GVT: no.<br/>ALT: you were wearing twin- sets! And woollen skirts. You were at the ritz, and<br/>that was very appropriate for american women Of style, back in the day when<br/>the ritz was really very glamorous and popular. Then i went to the schloss to<br/>photograph you for a piece john richardson was writing, remember?<br/>GVT: i didn’t remember it Was john!<br/>André: we went straight down into bavaria and it was very cold. We<br/>photographed you on a bed, elegant like a swan, and later playing your guitar.<br/>Then you had a party, at the schloss — i think it was your thirtieth. Everyone</p>"
+      }
+    },
     "products_49rfai": {
       "type": "products",
       "blocks": {
@@ -111,6 +117,7 @@
   "order": [
     "main",
     "swiper_GDjVY8",
+    "interview_fdRXe6",
     "products_49rfai"
   ]
 }
