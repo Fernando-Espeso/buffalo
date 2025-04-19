@@ -729,7 +729,7 @@ span.quantity-button.minus, span.addmore {
   color: white;
   background-color: black;
   display: grid;
-  grid-gap:15px;
+  grid-gap:var(--space);
   padding: var(--space);
   grid-template-columns: repeat(4, 1fr);
 }
@@ -786,7 +786,7 @@ input#stockistFilter::placeholder{
   font-family: 'Times New Roman', Times, serif;
   display: grid;
   grid-gap:10px;
-  
+
   padding: var(--space);
   grid-template-columns: repeat(2, 1fr);
 }
