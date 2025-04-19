@@ -782,7 +782,7 @@ details > summary::-webkit-details-marker {
 ================================================== */
 .swiper-article {
   width: 100%;
-  height: calc(100vh - var(--a) - var(--m) + 30px);
+  height: calc(100vh - var(--a) - var(--m));
   display: flex;
   padding: 0px;
   border-bottom: 1px solid var(--bl);
