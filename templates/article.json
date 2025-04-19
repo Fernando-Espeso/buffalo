@@ -29,19 +29,12 @@
           "settings": {
             "text": "<p>Photography ADRIAN GONZÁLEZ-COHEN<br/>Fashion TATI COTLIAR<br/>Hair and Make Up SUZANNE VERBERK<br/>Casting JASMIN ISLAMOVIC<br/>Talent KEBRI at KNOWN,<br/>NELLA at PAPARAZZI, ANUSCHKA JUNIOR, MARTIEN,<br/>MIKK, NADJA and RUBY<br/>Photo Asst RICK ERFMANN<br/>Fashion Asst RYAN WOHLGEMUT<br/>Hair and Make Up Asst WOUT PHILIPPO</p>"
           }
-        },
-        "info_qbC4bm": {
-          "type": "info",
-          "settings": {
-            "text": "<p>‘SHE MUST BE VERY, VERY RICH. THOSE KOONS DON’T GO FOR NOTHING!’<br/>Text by Liam Hess, Photography by Victoria Helly-Hutchinson, Film by Ion de Sosa</p>"
-          }
         }
       },
       "block_order": [
         "issue_9tUhke",
         "title_gfeae3",
-        "credits_mxKNaH",
-        "info_qbC4bm"
+        "credits_mxKNaH"
       ],
       "settings": {}
     },
