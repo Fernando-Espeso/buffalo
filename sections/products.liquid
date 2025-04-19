@@ -25,7 +25,7 @@
 {% endschema %}
 
 
-<div class="related-products">
+<div class="related-products" id="products">
     <div class="title-related">YOU MIGHT ALSO LIKE</div>
       {% for block in section.blocks %}
         {% assign related_product = all_products[block.settings.product] %}
