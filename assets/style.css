@@ -427,8 +427,9 @@ footer .container{
 }
 .title-related {
   grid-column: span 2;
-  text-align: center;
+  text-align: left;
   padding: 10px;
+  color: black;
 }
 .interview{
   font-size: var(--fsb);
@@ -439,6 +440,9 @@ footer .container{
   margin: 0 auto;
 }
 section#shopify-section-template--24808222163276__interview_fdRXe6 {
+  background-color: white;
+}
+div#shopify-section-template--24808222163276__products_49rfai {
   background-color: white;
 }
 .credits-open {
