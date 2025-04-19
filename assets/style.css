@@ -409,6 +409,10 @@ footer .container{
   text-align: center;
   bottom: 0PX;
   position: absolute;
+  font-size: var(--fsb);
+  list-style: 23px;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 /* HOMEPAGE */
 section.hero {
