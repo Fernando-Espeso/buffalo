@@ -82,7 +82,9 @@ fernandoepeso.info
         {% for link in linklists.main-menu.links %}
           <li {% if link.active %}class="active"{% endif %}><a class="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
+
         <div class="cart-part">
+          {% render 'localization-form' %}
           <a href="/cart" class="cov"></a>
           {% for link in linklists.top-bar.links %}
             <li class="nain" {% if link.active %}class="active"{% endif %}><a href="{{ link.url }}">{{ link.title }}</a></li>
