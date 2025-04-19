@@ -152,12 +152,6 @@
       "stocklist": {
         "type": "stocklist",
         "blocks": {
-          "info_tJkyCj": {
-            "type": "info",
-            "settings": {
-              "store_name": "<p>Nuestros distribuidores son nuestros partners. Queremos garantizarte un servicio de venta y postventa de máxima calidad.<br/>Por ello te ofrecemos una red de distribuidores autorizados dónde adquirir nuestras lámparas.</p>"
-            }
-          },
           "stocklist_fzeXwk": {
             "type": "stocklist",
             "settings": {
@@ -237,7 +231,6 @@
           }
         },
         "block_order": [
-          "info_tJkyCj",
           "stocklist_fzeXwk",
           "stocklist_jwfK44",
           "stocklist_mgt6Rm",
