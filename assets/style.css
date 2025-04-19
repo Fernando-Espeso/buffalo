@@ -439,12 +439,11 @@ footer .container{
   z-index: 10;
   height: calc(var(--h) - var(--m));
   background-color: rgba(0, 0, 0, 0.6);
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 .credits.active {
-  display: block;
+  display: flex;
 }
   /* 
 /* HOMEPAGE */
