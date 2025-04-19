@@ -135,6 +135,10 @@
         "text_7Tqej7"
       ],
       "settings": {}
+    },
+    "stocklist_CdGF7r": {
+      "type": "stocklist",
+      "settings": {}
     }
   },
   "order": [
@@ -143,6 +147,7 @@
     "interview_fdRXe6",
     "products_49rfai",
     "about_8M89tG",
-    "quotes_NwndmD"
+    "quotes_NwndmD",
+    "stocklist_CdGF7r"
   ]
 }
