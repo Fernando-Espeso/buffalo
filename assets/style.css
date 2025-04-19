@@ -20,10 +20,10 @@
 }
 /* CSS Variables */
 :root {
-  --fs: 11px;
+  --fs: 12px;
   --space: 10px;
-  --fsm: 20px;
-  --fsb:20px;
+  --fsm: 18px;
+  --fsb:18px;
   --gap: 10px;
   --bgm: red;
   --bg:white;
