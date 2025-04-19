@@ -255,7 +255,11 @@ a {
   background-color: var(--bg);
   /* transition: background-color 0.2s ease; */
 }
-
+.localization-selectors{
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
 #header.active{
   background-color: var(--bgm);
   border-bottom: 1px solid var(--bgw);;
