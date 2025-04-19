@@ -428,6 +428,7 @@ footer .container{
 .title-related {
   grid-column: span 2;
   text-align: center;
+  padding: 10px;
 }
 .credits-open {
   z-index: 1000;;
