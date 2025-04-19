@@ -1,0 +1,22 @@
+{% schema %}
+{
+  "name": "Interview",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Interview"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="interview-rich-text">
+  {{ section.settings.content }}
+</div>
