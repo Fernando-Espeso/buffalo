@@ -4,7 +4,7 @@
       {% if gallery %}
         {% for image in gallery %}
           <div class="swiper-slide">
-            <img src="{{ image | image_url: '1024x1024' }}" alt="{{ image.alt | escape }}">
+            <img src="{{ image | img_url: '1024x1024' }}" alt="{{ image.alt | escape }}">
             {% if image.alt != blank %}
               <p class="caption-article">{{ image.alt }}</p>
             {% endif %}
