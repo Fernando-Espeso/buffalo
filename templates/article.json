@@ -105,12 +105,28 @@
         "product_ccrzLe"
       ],
       "settings": {}
+    },
+    "about_8M89tG": {
+      "type": "about",
+      "blocks": {
+        "title_aM6mJY": {
+          "type": "title",
+          "settings": {
+            "title_text": "yes"
+          }
+        }
+      },
+      "block_order": [
+        "title_aM6mJY"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
     "swiper_GDjVY8",
     "interview_fdRXe6",
-    "products_49rfai"
+    "products_49rfai",
+    "about_8M89tG"
   ]
 }
