@@ -7,11 +7,12 @@
           <div class="swiper-slide">
             {% if item.media_type == 'image' %}
               <img src="{{ item | img_url: '1024x1024' }}" alt="{{ item.alt | escape }}">
-            {% elsif item.media_type == 'video' %}
-                <video autoplay playsinline muted loop>
-                    <source src="{{ item.url }}" type="video/mp4">
+              {% if item.media_type == 'video' %}
+                <video autoplay playsinline muted loop controls style="max-width: 100%;">
+                  <source src="{{ item.preview_image.src | file_url }}" type="video/mp4">
+                  Tu navegador no soporta el video.
                 </video>
-            {% endif %}
+              {% endif %}
             {% if item.alt != blank %}
               <p class="caption-article">{{ item.alt }}</p>
             {% endif %}
