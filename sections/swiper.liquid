@@ -8,7 +8,9 @@
             {% if item.media_type == 'image' %}
               <img src="{{ item | img_url: '1024x1024' }}" alt="{{ item.alt | escape }}">
             {% elsif item.media_type == 'video' %}
-               hey
+                <video autoplay playsinline muted loop>
+                    <source src="{{ item | file_url }}" type="video/mp4">
+                </video>
             {% endif %}
             {% if item.alt != blank %}
               <p class="caption-article">{{ item.alt }}</p>
