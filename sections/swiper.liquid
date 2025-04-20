@@ -8,9 +8,10 @@
             {% if item.media_type == 'image' %}
               <img src="{{ item | img_url: '1024x1024' }}" alt="{{ item.alt | escape }}">
             {% elsif item.media_type == 'video' %}
-              <video autoplay playsinline muted loop>
-                <source src="{{ item | file_url }}" type="video/mp4">
-              </video>
+                <video autoplay playsinline muted loop>
+                    <source src="{{ file | file_url }}" type="video/mp4">
+                    Tu navegador no soporta el video.
+                  </video>
             {% endif %}
   
             {% if item.alt != blank %}
