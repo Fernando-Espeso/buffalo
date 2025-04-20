@@ -876,6 +876,14 @@ details > summary::-webkit-details-marker {
   object-fit: contain;
   align-items: center;
 }
+.swiper-article .swiper-slide video{
+  display: flex;
+  height: calc(100% - 80px);
+  width: 100%;
+  object-fit: contain;
+  align-items: center;
+}
+
 .swiper-article .swiper-wrapper {
   display: flex;
   align-items: center;
