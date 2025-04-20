@@ -4,21 +4,15 @@
   
       {% if media %}
         {% for item in media %}
-          <div class="swiper-slide">
             {% if item.media_type == 'image' %}
-              <img src="{{ item | img_url: '1024x1024' }}" alt="{{ item.alt | escape }}">
-            {% elsif item.media_type == 'video' %}
-              <video autoplay playsinline muted loop controls>
+              <img src="{{ item.image | img_url: '1024x1024' }}" alt="{{ item.alt }}">
+            
+            {% elsif item.media_type == 'file' %}
+              <video autoplay muted loop playsinline controls>
                 <source src="{{ item.file.url }}" type="video/mp4">
-                Tu navegador no soporta el video.
               </video>
             {% endif %}
-  
-            {% if item.alt != blank %}
-              <p class="caption-article">{{ item.alt }}</p>
-            {% endif %}
-          </div>
-        {% endfor %}
+          {% endfor %}
       {% else %}
         <p class="no-media">No hay imágenes o videos disponibles.</p>
       {% endif %}
