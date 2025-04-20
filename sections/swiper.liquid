@@ -8,7 +8,6 @@
             {% if item.media_type == 'image' %}
               <img src="{{ item | img_url: '1024x1024' }}" alt="{{ item.alt | escape }}">
               {% if item.media_type == 'video' %}
-                <pre>{{ item | json }}</pre>
               {% endif %}
             {% if item.alt != blank %}
               <p class="caption-article">{{ item.alt }}</p>
