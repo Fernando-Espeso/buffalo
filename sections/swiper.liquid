@@ -7,7 +7,8 @@
           <div class="swiper-slide">
             {% if item.media_type == 'image' %}
               <img src="{{ item | img_url: '1024x1024' }}" alt="{{ item.alt | escape }}">
-              {% if item.media_type == 'video' %}
+              {% if media.media_type == 'video' %}
+                {{ media | video_tag: image_size: '1000x', controls: true, autoplay: true }}
               {% endif %}
             {% if item.alt != blank %}
               <p class="caption-article">{{ item.alt }}</p>
