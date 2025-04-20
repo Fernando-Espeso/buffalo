@@ -5,11 +5,10 @@
         {% for item in media %}
           <div class="swiper-slide">
             {% if item.media_type == 'image' %}
-              <img src="{{ item | image_url: '1024x1024' }}" alt="{{ item.alt | escape }}">
+              <img src="{{ item | img_url: '1024x1024' }}" alt="{{ item.alt | escape }}">
             {% elsif item.media_type == 'video' %}
-              <video controls>
+              <video autoplay loop muted>
                 <source src="{{ item | file_url }}" type="video/mp4">
-                Tu navegador no soporta videos HTML5.
               </video>
             {% endif %}
             {% if item.alt != blank %}
