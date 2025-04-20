@@ -1,19 +1,26 @@
 <div class="swiper-article color">
     <div class="swiper-wrapper">
-      {% assign gallery = article.metafields.custom.gallery.value %}
-      {% if gallery %}
-        {% for image in gallery %}
+      {% assign media = article.metafields.custom.media_gallery.value %}
+      {% if media %}
+        {% for item in media %}
           <div class="swiper-slide">
-            <img src="{{ image | img_url: '1024x1024' }}" alt="{{ image.alt | escape }}">
-            {% if image.alt != blank %}
-              <p class="caption-article">{{ image.alt }}</p>
+            {% if item.media_type == 'image' %}
+              <img src="{{ item | image_url: '1024x1024' }}" alt="{{ item.alt | escape }}">
+            {% elsif item.media_type == 'video' %}
+              <video controls>
+                <source src="{{ item | file_url }}" type="video/mp4">
+                Tu navegador no soporta videos HTML5.
+              </video>
+            {% endif %}
+            {% if item.alt != blank %}
+              <p class="caption-article">{{ item.alt }}</p>
             {% endif %}
           </div>
         {% endfor %}
       {% else %}
-        <p>No hay imágenes en la galería.</p>
       {% endif %}
     </div>
+  
     <div class="swiper-pagination"></div>
     <div class="next"></div>
     <div class="prev"></div>
