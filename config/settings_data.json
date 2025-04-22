@@ -416,11 +416,19 @@
               "article": "your-brand-here/new-test",
               "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.30.png"
             }
+          },
+          "custom_article_ANKNkQ": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/jumper",
+              "image": "shopify://shop_images/1X2A7829-scaled.jpg"
+            }
           }
         },
         "block_order": [
           "custom_article_3q7T6T",
-          "custom_article_QbettQ"
+          "custom_article_QbettQ",
+          "custom_article_ANKNkQ"
         ],
         "settings": {}
       },
