@@ -272,7 +272,7 @@
           "image_MaizNt": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.41.png",
+              "image": "shopify://shop_images/web-test-02.png",
               "alt_text": ""
             }
           }
@@ -407,14 +407,14 @@
             "type": "custom_article",
             "settings": {
               "article": "your-brand-here/jumper",
-              "image": "shopify://shop_images/1X2A7829-scaled.jpg"
+              "image": "shopify://shop_images/web-test-02.png"
             }
           },
           "custom_article_3q7T6T": {
             "type": "custom_article",
             "settings": {
               "article": "your-brand-here/new-test",
-              "image": "shopify://shop_images/221204_AG_VALENTINOxCAP74024_08_0850_24_5-copy-scaled.jpg"
+              "image": "shopify://shop_images/web-test-02.png"
             }
           },
           "custom_article_QbettQ": {
