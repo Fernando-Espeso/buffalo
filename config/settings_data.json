@@ -43,7 +43,7 @@
             "type": "single_product",
             "settings": {
               "product": "issue-nº14-alain-cabrera",
-              "custom_image": "shopify://shop_images/Screenshot_2025-04-15_at_10.26.08.png",
+              "custom_image": "shopify://shop_images/web-test-01.png",
               "fullscreen": true
             }
           },
@@ -244,28 +244,28 @@
           "image_h6MeP3": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/Screenshot_2025-04-16_at_17.07.52.png",
+              "image": "shopify://shop_images/web-test-01.png",
               "alt_text": ""
             }
           },
           "image_3WfnEG": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/1-scaled.jpg",
+              "image": "shopify://shop_images/web-test-02.png",
               "alt_text": ""
             }
           },
           "image_6JNak6": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/5-009_2-copy-scaled.jpg",
+              "image": "shopify://shop_images/web-test-02.png",
               "alt_text": ""
             }
           },
           "image_CFTTg9": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/5-023-1-copy-scaled.jpg",
+              "image": "shopify://shop_images/web-test-01.png",
               "alt_text": ""
             }
           },
@@ -473,6 +473,10 @@
           "text_nrCMwx",
           "text_pFK9wB"
         ],
+        "settings": {}
+      },
+      "main-product": {
+        "type": "main-product",
         "settings": {}
       }
     },
