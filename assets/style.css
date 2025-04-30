@@ -573,8 +573,7 @@ section.two-products .product {
 }
 
 section.two-products img {
-  max-height: 400px;
-  min-height: 400px;
+
 }
 .product-title-section{
   display: flex;
