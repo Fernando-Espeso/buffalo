@@ -317,7 +317,7 @@ div#products {
 }
 
 div#products img {
-  max-height: 360px;
+  max-height: auto;
 }
 
 .swiper-quotes{
