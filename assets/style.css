@@ -310,6 +310,7 @@ a#cart{
 div#products {
   grid-template-columns: repeat(2, 1fr);
   display: grid;
+  grid-gap:3px;
 }
 
 .product:nth-of-type(3n) {
@@ -893,6 +894,7 @@ details > summary::-webkit-details-marker {
   padding: 10px;
   grid-template-columns: repeat(2, 1fr);
   display: grid;
+  grid-gap:10px;
 }
 
 /* SWIPER
