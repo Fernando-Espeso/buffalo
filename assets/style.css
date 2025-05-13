@@ -180,6 +180,7 @@ select:disabled {
 
 /* Body styles */
 body {
+  overflow-x: hidden;
   color: var(--bl);
   font-size: var(--fs);
   display: flex;
