@@ -312,7 +312,6 @@ div#products {
   display: grid;
   grid-gap:3px;
 }
-
 .product:nth-of-type(3n) {
   border-right: none;
 }
