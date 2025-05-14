@@ -1087,6 +1087,15 @@ select:disabled {
   display: grid;
   margin-bottom: 20px;
 }
+.title-page.cartie {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+}
 
 .unavailable {
   color: grey;
