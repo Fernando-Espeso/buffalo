@@ -41,26 +41,26 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 document.addEventListener("DOMContentLoaded", function () {
-  const headerOffset = 33; // Altura de tu header en px
-  const infoLink = document.querySelector('.info-menu');
+  document.querySelectorAll('.scroll-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+      const targetId = this.getAttribute('href');
+      const offset = parseInt(this.getAttribute('data-offset')) || 0;
 
-  infoLink.addEventListener('click', function (e) {
-    const currentPath = window.location.pathname;
-    
-    if (currentPath === '/' || currentPath === '/index.html') {
-      e.preventDefault();
+      if (targetId.startsWith('#')) {
+        e.preventDefault();
+        const target = document.querySelector(targetId);
+        const elementPosition = target.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
 
-      const target = document.querySelector('#info');
-      const elementPosition = target.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth"
-      });
-    }
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    });
   });
 });
+
 
 $(document).ready(function() {
   
