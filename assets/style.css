@@ -1155,18 +1155,14 @@ button#checkout{
 @media (max-width: 680px) {
 
   :root {
-    --space: 20px;
-    --fs: 14px;
-    --fsm: 16px;
-    --fsb:40px;
+    --fs: 12px;
+    --space: 10px;
+    --fsm: 18px;
+    --fsb:18px;
     --gap: 10px;
-    --bgm: #EF4023;
-    --green:#A8C15B;
-    --brown:#522F16;
-    --bgw:#FBCCC2;
-    --bg:#F9F2E8;
-    --bl: #393938;
-    --font: 'EngraversGothicBold';
-    --fontsec: 'GrotesqueMTStd';
+    --bgm: red;
+    --bg:white;
+    --font: 'helvetica';
+    --fontsec: 'times new roman';
   }
 }
