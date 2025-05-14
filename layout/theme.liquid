@@ -119,6 +119,13 @@ fernandoepeso.info
     {% endfor %}
   </div> 
   </footer>
+  <script>
+    window.yourBrandPosts = [
+      {% for article in blogs['your-brand-here'].articles %}
+        "{{ article.url }}"{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ];
+  </script>
   {%- if template contains 'product' -%}
     {{ 'global-product.js' | asset_url | script_tag }}
   {%- endif -%}
