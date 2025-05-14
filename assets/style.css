@@ -1095,6 +1095,7 @@ select:disabled {
   width: 100%;
   text-align: center;
   position: fixed;
+  font: var(--fs);
 }
 
 .unavailable {
