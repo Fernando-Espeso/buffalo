@@ -128,6 +128,21 @@ fernandoepeso.info
       {% endfor %}
     ];
   </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const link = document.querySelector('.your-brand-link');
+  
+      if (link && window.yourBrandPosts && window.yourBrandPosts.length > 0) {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+  
+          const randomIndex = Math.floor(Math.random() * window.yourBrandPosts.length);
+          const randomUrl = window.yourBrandPosts[randomIndex];
+          window.location.href = randomUrl;
+        });
+      }
+    });
+  </script>
   {%- if template contains 'product' -%}
     {{ 'global-product.js' | asset_url | script_tag }}
   {%- endif -%}
