@@ -41,16 +41,20 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll('.scroll-link').forEach(link => {
-    link.addEventListener('click', function (e) {
-      const targetId = this.getAttribute('href');
-      const offset = parseInt(this.getAttribute('data-offset')) || 0;
+  const headerOffset = 80; // Ajusta esto a la altura de tu header
+  const isHome = window.location.pathname === '/' || window.location.pathname === '/index.html';
+  const infoLink = document.querySelector('.info-menu');
 
-      if (targetId.startsWith('#')) {
-        e.preventDefault();
-        const target = document.querySelector(targetId);
+  // 1. Si estás en la home, modifica el href y haz scroll suave
+  if (isHome && infoLink) {
+    infoLink.setAttribute('href', '#info');
+
+    infoLink.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector('#info');
+      if (target) {
         const elementPosition = target.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - offset;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
         window.scrollTo({
           top: offsetPosition,
@@ -58,9 +62,24 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       }
     });
-  });
-});
+  }
 
+  // 2. Si llegaste a la home con hash (#info), haz scroll manual después de cargar
+  if (isHome && window.location.hash === '#info') {
+    setTimeout(() => {
+      const target = document.querySelector('#info');
+      if (target) {
+        const elementPosition = target.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }, 100); // esperar un poco para asegurarse que todo esté renderizado
+  }
+});
 
 $(document).ready(function() {
   
