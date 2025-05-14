@@ -30,6 +30,37 @@ $(document).ready(function () {
     $('.credits').removeClass('active');
   });
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const infoLink = document.querySelector('.info-menu');
+  const isHome = window.location.pathname === '/' || window.location.pathname === '/index.html';
+
+  if (isHome) {
+    infoLink.setAttribute('href', '#info');
+  } else {
+    infoLink.setAttribute('href', '/#info');
+  }
+});
+document.addEventListener("DOMContentLoaded", function () {
+  const headerOffset = 80; // Altura de tu header en px
+  const infoLink = document.querySelector('.info-menu');
+
+  infoLink.addEventListener('click', function (e) {
+    const currentPath = window.location.pathname;
+    
+    if (currentPath === '/' || currentPath === '/index.html') {
+      e.preventDefault();
+
+      const target = document.querySelector('#info');
+      const elementPosition = target.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+  });
+});
 
 $(document).ready(function() {
   
