@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 document.addEventListener("DOMContentLoaded", function () {
-  const headerOffset = 80; // Ajusta esto a la altura de tu header
+  const headerOffset = 33; // Ajusta esto a la altura de tu header
   const isHome = window.location.pathname === '/' || window.location.pathname === '/index.html';
   const infoLink = document.querySelector('.info-menu');
 
