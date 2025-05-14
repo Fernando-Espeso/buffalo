@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 document.addEventListener("DOMContentLoaded", function () {
-  const headerOffset = 80; // Altura de tu header en px
+  const headerOffset = 50; // Altura de tu header en px
   const infoLink = document.querySelector('.info-menu');
 
   infoLink.addEventListener('click', function (e) {
