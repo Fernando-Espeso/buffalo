@@ -44,7 +44,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const headerOffset = 33; // Ajusta esto a la altura de tu header
   const isHome = window.location.pathname === '/' || window.location.pathname === '/index.html';
   const infoLink = document.querySelector('.info-menu');
-
   // 1. Si estás en la home, modifica el href y haz scroll suave
   if (isHome && infoLink) {
     infoLink.setAttribute('href', '#info');
