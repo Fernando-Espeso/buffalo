@@ -77,12 +77,13 @@ fernandoepeso.info
     </div>
     <!-- Header -->
     <header id="header">
+
       <div class="menu" id="menu">
         {% comment %} <div class="menu-open">BZ</div> {% endcomment %}
         {% for link in linklists.main-menu.links %}
           <li {% if link.active %}class="active"{% endif %}><a class="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
-      <li><a class="info-menu" href="">INFO</a></li>
+      <li><a class="info-menu" href="/#contact">INFO</a></li>
         <div class="cart-part">
  
           <a href="/cart" class="cov"></a>
