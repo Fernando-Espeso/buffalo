@@ -1257,9 +1257,7 @@ section.two-products, .articles-block {
 .column-text {
   column-count: 1;
 } 
-.contact-section {
-  grid-template-columns: repeat(2, 1fr);
-}
+
 .related-title {
   grid-column: span 1!important;
 }
@@ -1303,6 +1301,9 @@ div#products {
   margin: 0 auto;
 }
 div#main-product {
+  grid-template-columns: repeat(1, 1fr);
+}
+.contact-section {
   grid-template-columns: repeat(1, 1fr);
 }
   :root {
