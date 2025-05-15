@@ -79,12 +79,13 @@ fernandoepeso.info
     <header id="header">
 
       <div class="menu" id="menu">
-        {% comment %} <div class="menu-open">BZ</div> {% endcomment %}
-        {% for link in linklists.main-menu.links %}
-          <li {% if link.active %}class="active"{% endif %}><a class="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
-        {% endfor %}
-        <a class="your-brand-link" href="/blogs/your-brand-here">SHUFFLE</a>
-      <li><a class="info-menu" href="/#info" data-offset="33">INFO</a></li>
+        <li><a class="BZ" href="/">BZ</a></li>
+        <li><a class="Buffalo Live! none" href="/blogs/live">Buffalo Live!</a></li>
+        <li><a class="Issues none" href="/collections/all">Issues</a></li>
+        <li><a class="Your Brand Here none" href="/blogs/your-brand-here">Your Brand Here</a></li>
+        
+        <a class="your-brand-link none" href="/blogs/your-brand-here">SHUFFLE</a>
+        <li><a class="info-menu" href="/#info" data-offset="33">INFO</a></li>
    
 
         <div class="cart-part">
@@ -108,6 +109,14 @@ fernandoepeso.info
           </li>
         </div>
       </div>
+      
+      <div class="sub-menu">
+        <li><a class="Buffalo Live!" href="/blogs/live">Buffalo Live!</a></li>
+        <li><a class="Issues" href="/collections/all">Issues</a></li>
+        <li><a class="Your Brand Here" href="/blogs/your-brand-here">Your Brand Here</a></li>
+        <a class="your-brand-link" href="/blogs/your-brand-here">SHUFFLE</a>
+      </div>
+      
     </header>
     <div class="nav">
       <div class="container">
