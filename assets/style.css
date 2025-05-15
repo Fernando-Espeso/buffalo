@@ -356,7 +356,11 @@ div#products img {
   border-right: 1px solid var(--bl);
   border-bottom: 1px solid var(--bl);
 }
-
+a.more-info {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
 .product-title{
   padding: var(--space);
   text-transform: uppercase;
