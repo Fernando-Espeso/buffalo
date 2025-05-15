@@ -1232,6 +1232,9 @@ section.two-products, .articles-block {
 .contact-section {
   grid-template-columns: repeat(2, 1fr);
 }
+div#products {
+  grid-template-columns: repeat(1, 1fr);
+}
 .stock-list {
   grid-template-columns: repeat(2, 1fr);
 }
