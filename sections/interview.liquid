@@ -1,7 +1,8 @@
-{% if article.metafields.custom.Interview.value != blank %}
-  <div class="interview">{{ article.metafields.custom.Interview.value }}</div>
+{% if article.metafields.custom.Interview != blank %}
+  <div class="interview">
+    {{ article.metafields.custom.Interview | metafield_tag }}
+  </div>
 {% endif %}
-
 {% assign related_products = article.metafields.custom.related.value %}
 {% if related_products != blank %}
   <div class="related-products">
