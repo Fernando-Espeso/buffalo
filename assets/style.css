@@ -649,7 +649,10 @@ form#cart-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
+.item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 /* CART */
  .total {
   text-align: center;
@@ -975,7 +978,7 @@ div#info-product {
 .details-product{
   color: grey;
   opacity: 0;
-  
+
 }
 .swiper-pagination-bullet-active {
   background-color: #000;
