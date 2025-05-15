@@ -656,6 +656,7 @@ section.single-product.full-screen .product-title-section{
 }
 form#cart-wrapper {
   padding: 0px 10px;
+  grid-gap: 3px;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
