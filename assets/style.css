@@ -1306,7 +1306,11 @@ div#products {
   top: 10px;
   cursor: pointer;
 }
-
+.related-title {
+  grid-column: span 2;
+  text-align: center;
+  padding: 10px;
+}
 .sub-menu.active {
   text-transform: uppercase;
   position: relative;
