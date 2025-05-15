@@ -118,7 +118,7 @@
         <img src="{{ product.metafields.custom.logo | img_url: '800x800' }}" alt="Imagen personalizada">
         <div class="more-info"> 
           <a class="text" href="">(READ MORE)</a><br>
-        {{ product.metafields.custom.info | metafield_tag }}
+          <div class="contributors">{{ product.metafields.custom.info | metafield_tag }} </div>
       </div>
       </div>
     {% endif %}
