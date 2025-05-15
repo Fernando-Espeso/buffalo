@@ -33,24 +33,7 @@
     </div>
 
 
-    {% assign info = product.metafields.custom.description | default: '' %}
-    {% assign contributors = product.metafields.custom.contributors | default: '' %}
-    <div class="desplegable" id="info-product">
-    {% if info != blank %}
-   
-      <div class="description">
-        {{ product.metafields.custom.description | metafield_tag }}
-      </div>
   
-    {% endif %}
-    {% if contributors != blank %}
- 
-      <div class="contributors">
-        {{ product.metafields.custom.contributors | metafield_tag }}
-      </div>
-
-    {% endif %}
-    </div>
 
 
 
@@ -144,6 +127,24 @@
 
 
 
+</div>
+{% assign info = product.metafields.custom.description | default: '' %}
+{% assign contributors = product.metafields.custom.contributors | default: '' %}
+<div class="desplegable" id="info-product">
+{% if info != blank %}
+
+  <div class="description">
+    {{ product.metafields.custom.description | metafield_tag }}
+  </div>
+
+{% endif %}
+{% if contributors != blank %}
+
+  <div class="contributors">
+    {{ product.metafields.custom.contributors | metafield_tag }}
+  </div>
+
+{% endif %}
 </div>
 {% assign related_products = product.metafields.custom.related.value %}
 {% if related_products != blank %}
