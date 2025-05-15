@@ -533,6 +533,7 @@ section.hero img {
   mix-blend-mode: difference;
 }
 .title-thang {
+  top:0px;
   color: white;
   mix-blend-mode: difference;
   text-align: left;
