@@ -576,6 +576,10 @@ section.hero img {
 }
 .article-card{
 }
+.dub {
+  text-align: left;
+}
+
 section.single-product {
   height: calc(var(--h) - var(--m));
   position: relative;
@@ -645,10 +649,6 @@ section.single-product.full-screen img {
 .row {
   display: grid;
   row-gap: 5px;
-  align-items: center;
-  height: fit-content;
-  justify-content: center;
-  align-self: center;
 }
 section.single-product.full-screen .product-title-section{
   color: white;
