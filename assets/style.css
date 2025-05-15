@@ -660,11 +660,7 @@ section.single-product.full-screen .product-title-section{
 
 /* ABOUT */
 .title-page {
-  font-size: var(--fsb);
-  line-height: var(--fsb);
-  padding: 150px 20px;
-  border-bottom: 1px solid var(--bl);
-  text-align: center;
+  padding: 10px;
   text-transform:uppercase;
   letter-spacing: 0px;
 }
