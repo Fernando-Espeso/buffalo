@@ -1049,7 +1049,9 @@ div#info-product {
   border-radius: 5px;
   font-size: 14px;
 }
-
+a.buffalo-live\! {
+  color: red;
+}
 input[type="checkbox"],
 button,
 select {
@@ -1240,6 +1242,7 @@ button#checkout{
     grid-template-columns: repeat(1, 1fr);
 }
 .total {
+  padding-bottom: 10px;
   grid-column: 1 / span 1;
 }
 a.buffalo-live\! {
