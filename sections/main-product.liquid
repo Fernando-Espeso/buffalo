@@ -56,8 +56,8 @@
       {% render 'product-variants', product: product, formID: productFormId %}
 
       <div class="variations">
-        {% assign info = product.metafields.custom.care | default: '' %}
-        {% assign shipping = product.metafields.custom.shipping | default: '' %}
+        {% assign info = product.metafields.custom.description | default: '' %}
+        {% assign contributors = product.metafields.custom.contributors | default: '' %}
         <div class="desplegable">
         {% if info != blank %}
         <details >
@@ -67,7 +67,7 @@
           </div>
           </details>
         {% endif %}
-        {% if shipping != blank %}
+        {% if contributors != blank %}
         <details>
           <summary>Contributors</summary>
           <div class="interior">
@@ -76,8 +76,7 @@
           </details>
         {% endif %}
         </div>
-        
-      
+
         <!-- Button Add To Bag -->
         {% liquid
           assign selectedVariant = product.selected_or_first_available_variant
@@ -93,6 +92,7 @@
           </span>
         </button>
 
+       
         {% assign product_qty = 0 %}
         {% for variant in product.variants %}
           {% if variant.inventory_quantity > 0 %}
