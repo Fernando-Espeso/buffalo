@@ -730,6 +730,11 @@ div#shopify-section-about {
   line-height: 24px;
   letter-spacing: 0px;
 }
+.related-title {
+  grid-column: span 2;
+  text-align: center;
+  padding: 10px;
+}
 .block-content {
   margin-bottom: 15px;
 }
@@ -1306,11 +1311,7 @@ div#products {
   top: 10px;
   cursor: pointer;
 }
-.related-title {
-  grid-column: span 2;
-  text-align: center;
-  padding: 10px;
-}
+
 .sub-menu.active {
   text-transform: uppercase;
   position: relative;
