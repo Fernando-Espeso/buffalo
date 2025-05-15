@@ -1,3 +1,8 @@
+{% if product.metafields.custom.image != blank %}
+  <div class="custom-image">
+    <img src="{{ product.metafields.custom.image | img_url: '800x800' }}" alt="Imagen personalizada">
+  </div>
+{% endif %}
 <div class="title-page">{{ product.title }}</div>
 
 {% if product.description != blank %}
