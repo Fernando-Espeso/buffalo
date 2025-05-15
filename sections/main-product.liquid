@@ -6,7 +6,23 @@
     <img src="{{ product.metafields.custom.logo | img_url: '800x800' }}" alt="Imagen personalizada">
   </div>
 {% endif %}
-
+<div class="product-price">
+  <div class="title-page">{{ product.title }}</div>
+  {% if product.available %}
+    {% if product.price_varies %}
+      <span>{{ product.price_min | money }}</span> – <span>{{ product.price_max | money }}</span>
+    {% else %}
+      {% if product.compare_at_price > product.price %}
+        <s>{{ product.compare_at_price | money }}</s>
+        <span class="disscount">{{ product.price | money }}</span>
+      {% else %}
+        <span>{{ product.price | money }}</span>
+      {% endif %}
+    {% endif %}
+  {% else %}
+    <span>{{ product.price | money }}</span>
+  {% endif %}
+</div>
 
 {% if product.description != blank %}
   <div class="info-hero">
@@ -32,23 +48,7 @@
       sold
       {% endunless %}
     ">
-    <div class="product-price">
-      <div class="title-page">{{ product.title }}</div>
-      {% if product.available %}
-        {% if product.price_varies %}
-          <span>{{ product.price_min | money }}</span> – <span>{{ product.price_max | money }}</span>
-        {% else %}
-          {% if product.compare_at_price > product.price %}
-            <s>{{ product.compare_at_price | money }}</s>
-            <span class="disscount">{{ product.price | money }}</span>
-          {% else %}
-            <span>{{ product.price | money }}</span>
-          {% endif %}
-        {% endif %}
-      {% else %}
-        <span>{{ product.price | money }}</span>
-      {% endif %}
-    </div>
+
 
  
 
