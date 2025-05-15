@@ -1153,7 +1153,7 @@ select:disabled {
   display: none;
 }
 .product-variant-option[open]:not(.unavailable) .option-value {
-  color:  var(--bgm);
+  color: grey;
 }
 .product-variant-option[open]:not(.unavailable) .color-option {
 }
