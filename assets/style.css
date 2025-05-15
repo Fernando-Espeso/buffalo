@@ -18,6 +18,11 @@
 ::-moz-focus-inner {
   border: none !important;
 }
+.custom-image {
+  padding: 10px;
+  margin: 0 auto;
+  width: 230px;
+}
 /* CSS Variables */
 :root {
   --fs: 12px;
