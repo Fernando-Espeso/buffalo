@@ -975,6 +975,7 @@ div#info-product {
 .details-product{
   color: grey;
   opacity: 0;
+  
 }
 .swiper-pagination-bullet-active {
   background-color: #000;
