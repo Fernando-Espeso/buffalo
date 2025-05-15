@@ -1238,7 +1238,7 @@ section.two-products, .articles-block {
 .buy-block {
   height: 500px;
   top: var(--m);
-  position: relative;
+  position: inherit;
 }
 .column-text {
   column-count: 1;
