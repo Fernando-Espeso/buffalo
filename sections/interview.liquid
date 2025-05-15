@@ -8,17 +8,19 @@
   <div class="related-products">
     <div class="grid-column:span 2">YOU MIGHT ALSO LIKE</div>
       {% for product in related_products %}
-        <li>
+        <div class="product">
           <a href="{{ product.online_store_url }}">
             {% if product.featured_image %}
               <img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{ product.title }}">
             {% endif %}
-            <p>{{ product.title }}</p>
-            {% if product.price %}
-              <p>{{ product.price | money }}</p>
-            {% endif %}
           </a>
-        </li>
+          <diV class="product-title title-thang"></div>
+          <p>{{ product.title }}</p>
+          {% if product.price %}
+            <p>{{ product.price | money }}</p>
+          {% endif %}
+        </div> 
+        </div>
       {% endfor %}
   </div>
 {% endif %}
