@@ -1304,6 +1304,17 @@ div#products {
   text-transform: uppercase;
   position: relative;
   width: 100%;
+  display: none;
+  grid-gap: 10px;
+  align-items: center;
+  padding: 10px var(--space);
+  display: flex;
+  flex-direction: column;
+}
+.sub-menu-active {
+  text-transform: uppercase;
+  position: relative;
+  width: 100%;
   display: flex;
   grid-gap: 10px;
   align-items: center;
