@@ -32,7 +32,23 @@
       sold
       {% endunless %}
     ">
-     
+    <div class="product-price">
+      <div class="title-page">{{ product.title }}</div>
+      {% if product.available %}
+        {% if product.price_varies %}
+          <span>{{ product.price_min | money }}</span> – <span>{{ product.price_max | money }}</span>
+        {% else %}
+          {% if product.compare_at_price > product.price %}
+            <s>{{ product.compare_at_price | money }}</s>
+            <span class="disscount">{{ product.price | money }}</span>
+          {% else %}
+            <span>{{ product.price | money }}</span>
+          {% endif %}
+        {% endif %}
+      {% else %}
+        <span>{{ product.price | money }}</span>
+      {% endif %}
+    </div>
 
  
 
@@ -61,23 +77,7 @@
         {% endif %}
         </div>
         
-        <div class="product-price">
-          <div class="title-page">{{ product.title }}</div>
-          {% if product.available %}
-            {% if product.price_varies %}
-              <span>{{ product.price_min | money }}</span> – <span>{{ product.price_max | money }}</span>
-            {% else %}
-              {% if product.compare_at_price > product.price %}
-                <s>{{ product.compare_at_price | money }}</s>
-                <span class="disscount">{{ product.price | money }}</span>
-              {% else %}
-                <span>{{ product.price | money }}</span>
-              {% endif %}
-            {% endif %}
-          {% else %}
-            <span>{{ product.price | money }}</span>
-          {% endif %}
-        </div>
+      
         <!-- Button Add To Bag -->
         {% liquid
           assign selectedVariant = product.selected_or_first_available_variant
