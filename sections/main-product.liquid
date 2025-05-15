@@ -35,22 +35,20 @@
 
     {% assign info = product.metafields.custom.description | default: '' %}
     {% assign contributors = product.metafields.custom.contributors | default: '' %}
-    <div class="desplegable">
+    <div class="desplegable" id="info-product">
     {% if info != blank %}
-    <details >
-      <summary>About</summary>
-      <div class="interior">
+   
+      <div class="description">
         {{ product.metafields.custom.description | metafield_tag }}
       </div>
-      </details>
+  
     {% endif %}
     {% if contributors != blank %}
-    <details>
-      <summary>Contributors</summary>
-      <div class="interior">
+ 
+      <div class="contributors">
         {{ product.metafields.custom.contributors | metafield_tag }}
       </div>
-      </details>
+
     {% endif %}
     </div>
 
