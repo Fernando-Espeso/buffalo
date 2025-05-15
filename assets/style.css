@@ -1301,17 +1301,9 @@ div#products {
   top: 0px;
 }
 .sub-menu {
-  text-transform: uppercase;
-  position: relative;
-  width: 100%;
   display: none;
-  grid-gap: 10px;
-  align-items: center;
-  padding: 10px var(--space);
-  display: flex;
-  flex-direction: column;
 }
-.sub-menu-active {
+.sub-menu.active {
   text-transform: uppercase;
   position: relative;
   width: 100%;
