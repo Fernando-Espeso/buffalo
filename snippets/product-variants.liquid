@@ -9,11 +9,11 @@
           style="display:block"
           {%- endif -%}>
         <label class="choose" for="Option-{{ forloop.index0 }}">
-          COVER OPTION<br><br>
+        COVER OPTION<br>
         </label>
       </div>
       {% if product.has_only_default_variant %}
-
+        <div class="unique-size">UNIQUE</div>
       {% endif %}
       <fieldset class="" data-type="radio"
       {%- if product.has_only_default_variant -%}
@@ -22,7 +22,6 @@
           style="display:block"
           {%- endif -%}
       >
-        
         {%- for value in option.values -%}
           {%- liquid
             assign optionNumber = 'option' | append: option.position
