@@ -1235,8 +1235,14 @@ section.two-products, .articles-block {
 div#products {
   grid-template-columns: repeat(1, 1fr);
 }
+.buy-block {
+  order: -1;
+}
 .stock-list {
   grid-template-columns: repeat(2, 1fr);
+}
+div#main-product {
+  grid-template-columns: repeat(1, 1fr);
 }
   :root {
     --fs: 12px;
