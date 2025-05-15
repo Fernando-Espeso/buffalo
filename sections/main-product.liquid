@@ -56,26 +56,7 @@
       {% render 'product-variants', product: product, formID: productFormId %}
 
       <div class="variations">
-        {% assign info = product.metafields.custom.description | default: '' %}
-        {% assign contributors = product.metafields.custom.contributors | default: '' %}
-        <div class="desplegable">
-        {% if info != blank %}
-        <details >
-          <summary>About</summary>
-          <div class="interior">
-            {{ product.metafields.custom.description | metafield_tag }}
-          </div>
-          </details>
-        {% endif %}
-        {% if contributors != blank %}
-        <details>
-          <summary>Contributors</summary>
-          <div class="interior">
-            {{ product.metafields.custom.contributors | metafield_tag }}
-          </div>
-          </details>
-        {% endif %}
-        </div>
+    
 
         <!-- Button Add To Bag -->
         {% liquid
@@ -99,7 +80,29 @@
             {% assign product_qty = product_qty | plus: variant.inventory_quantity %}
           {% endif %}
         {% endfor %}
+
+        {% assign info = product.metafields.custom.description | default: '' %}
+        {% assign contributors = product.metafields.custom.contributors | default: '' %}
+        <div class="desplegable">
+        {% if info != blank %}
+        <details >
+          <summary>About</summary>
+          <div class="interior">
+            {{ product.metafields.custom.description | metafield_tag }}
+          </div>
+          </details>
+        {% endif %}
+        {% if contributors != blank %}
+        <details>
+          <summary>Contributors</summary>
+          <div class="interior">
+            {{ product.metafields.custom.contributors | metafield_tag }}
+          </div>
+          </details>
+        {% endif %}
+        </div>
       </div>
+
     </div>
     {% endform %}
 </div>
