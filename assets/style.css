@@ -1321,6 +1321,13 @@ div#products {
 .stock-list {
   grid-template-columns: repeat(2, 1fr);
 }
+form#cart-wrapper {
+  padding: 0 10px;
+  grid-gap: 20px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 .interview {
   color: #fff;
   font-size: var(--fsb);
@@ -1334,6 +1341,11 @@ div#main-product {
   grid-template-columns: repeat(1, 1fr);
 }
 .contact-section {
+  grid-template-columns: repeat(1, 1fr);
+}
+.item {
+  display: grid;
+  row-gap: 10px;
   grid-template-columns: repeat(1, 1fr);
 }
   :root {
