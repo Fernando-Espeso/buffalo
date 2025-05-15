@@ -1233,7 +1233,7 @@ button#checkout{
 @media only screen and (max-width:3920px) and (min-width:1540px){
 }
 /* Small mobile styles */
-@media (max-width: 680px) {ñ
+@media (max-width: 680px) {
   form#cart-wrapper {
     grid-template-columns: repeat(1, 1fr);
 }
