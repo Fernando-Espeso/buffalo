@@ -2,9 +2,10 @@
   <form id="cart-wrapper" action="/cart" method="post">
     {% for item in cart.items %}
       <div class="item">
-        <div class="dub product-title">{{ item.product.title }}</div>
+        <div class="dub product-title">{{ item.product.title }}<br>
+        <div class="dub product-price">{{ item.price | money }}</div></div>
         <div style="background-color:var(--darker);" class="row">
-          <div class="dub product-price">{{ item.price | money }}</div>
+     
           <div class="dub double">
             <div class="item-quantity">
               QUANTITY<br>
