@@ -1279,6 +1279,10 @@ div#products {
   display: flex;
   flex-direction: column;
 }
+#header {
+  flex-direction: column;
+  position: fixed;
+}
 .stock-list {
   grid-template-columns: repeat(2, 1fr);
 }
