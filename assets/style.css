@@ -712,6 +712,9 @@ div#shopify-section-about {
   height: calc(var(--m) - var(--h));
   border-right: 1px solid var(--bl);
 }
+.sub-menu{
+  display: none;
+}
 .column-text {
   margin: 0 auto;
   font-family: 'Times New Roman', Times, serif;
