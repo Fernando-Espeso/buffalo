@@ -639,6 +639,9 @@ section.single-product.full-screen img {
   transform: translate(0);
   position: absolute;
 }
+.contrinbutors{
+  text-align: center;
+}
 .row {
   display: grid;
   row-gap: 5px;
