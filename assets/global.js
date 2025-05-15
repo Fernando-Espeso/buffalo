@@ -17,7 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
-
+$(document).ready(function () {
+  $('.menu-op').on('click', function () {
+    $('.sub-menu').toggleClass('active');
+  });
+});
 
 $(document).ready(function () {
   // Toggle al hacer clic
