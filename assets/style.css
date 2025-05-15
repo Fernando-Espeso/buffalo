@@ -18,6 +18,11 @@
 ::-moz-focus-inner {
   border: none !important;
 }
+.head-product{
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-gap:3px;
+}
 .custom-image {
   padding: 10px;
   width: 270px;
