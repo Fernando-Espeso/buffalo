@@ -1171,6 +1171,7 @@ select:disabled {
   padding: 10px;
 }
 fieldset {
+  margin: 0px;
   grid-gap: 3px;
   padding: 0px;
   display: flex;
