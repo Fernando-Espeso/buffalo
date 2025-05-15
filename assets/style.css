@@ -721,6 +721,8 @@ div#shopify-section-about {
 div#main-product{
   grid-template-columns: repeat(2, 1fr);
   display: grid;
+  grid-gap:3px;
+  padding: 10px;
 }
 .product_gallery{
   border-left: 1px solid var(--bl);
