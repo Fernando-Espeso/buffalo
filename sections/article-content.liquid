@@ -19,7 +19,7 @@
   {% assign related_products = article.metafields.custom.related.value %}
   {% if related_products != blank %}
     <div class="related-products">
-      <h3>Productos relacionados</h3>
+      <div>YOU MIGHT ALSO LIKE</div>
       <ul>
         {% for product in related_products %}
           <li>
