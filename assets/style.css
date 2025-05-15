@@ -640,6 +640,8 @@ section.single-product.full-screen img {
   position: absolute;
 }
 .row {
+  display: grid;
+  row-gap: 5px;
   align-items: center;
   height: fit-content;
   justify-content: center;
