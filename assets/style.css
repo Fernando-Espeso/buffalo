@@ -823,9 +823,8 @@ input#stockistFilter::placeholder{
   position: relative;
 }
 .product-variant-item {
-  text-align: center;
-  padding:var(--space);
-  border-bottom: 1px solid var(--bl);
+  text-align: left;
+  padding:var(--space) 0px;
 }
 details {
   padding:var(--space);
