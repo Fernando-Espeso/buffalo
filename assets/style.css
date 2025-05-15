@@ -636,7 +636,7 @@ section.single-product.full-screen .product-title-section{
 form#cart-wrapper {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 
@@ -1153,11 +1153,12 @@ fieldset {
 }
 
 button#checkout{
+  font-family: Arial, Helvetica, sans-serif;
   font-size: var(--font)!important;
   color:var(--bg)!important;
-  font-weight: normal;
   padding: 15px!important;
   width: 100%;
+  height: fit-content;
   background-color: black;
 }
 .bag .product-price{
