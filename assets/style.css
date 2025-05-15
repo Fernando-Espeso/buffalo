@@ -364,6 +364,7 @@ div#products img {
 }
 
 .product-price{
+  margin-bottom: 5px;
   text-transform: uppercase;
 }
 .product-simple{
