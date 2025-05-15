@@ -655,6 +655,7 @@ section.single-product.full-screen .product-title-section{
   mix-blend-mode: exclusion;
 }
 form#cart-wrapper {
+  padding: 0px 10px;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
