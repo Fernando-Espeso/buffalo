@@ -916,6 +916,12 @@ details > summary::-webkit-details-marker {
 .none{
   display: block;
 }
+.credits-open {
+  z-index: 1000;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
 
 .swiper-article .swiper-slide img{
   display: flex;
