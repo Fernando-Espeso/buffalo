@@ -83,13 +83,9 @@ fernandoepeso.info
         <li><a class="Buffalo Live! none" href="/blogs/live">Buffalo Live!</a></li>
         <li><a class="Issues none" href="/collections/all">Issues</a></li>
         <li><a class="Your Brand Here none" href="/blogs/your-brand-here">Your Brand Here</a></li>
-        
         <a class="your-brand-link none" href="/blogs/your-brand-here">SHUFFLE</a>
         <li><a class="info-menu" href="/#info" data-offset="33">INFO</a></li>
-   
-
         <div class="cart-part">
- 
           <a href="/cart" class="cov"></a>
           {% for link in linklists.top-bar.links %}
             <li class="nain" {% if link.active %}class="active"{% endif %}><a href="{{ link.url }}">{{ link.title }}</a></li>
