@@ -555,8 +555,6 @@ section.hero img {
   bottom: 0px;
 }
 .article-card{
-  height: 500px;
-  overflow: hidden;
 }
 section.single-product {
   height: calc(var(--h) - var(--m));
