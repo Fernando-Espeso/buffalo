@@ -1226,6 +1226,20 @@ button#checkout{
 section.two-products, .articles-block {
   grid-template-columns: repeat(1, 1fr);
 }
+.custom-image {
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: absolute;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 200px;
+}
+.buy-block {
+  height: 700px;
+  top: var(--m);
+  position: relative;
+}
 .column-text {
   column-count: 1;
 } 
