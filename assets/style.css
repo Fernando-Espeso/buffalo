@@ -963,7 +963,9 @@ details > summary::-webkit-details-marker {
   justify-content: center;
   margin-top: 10px;
 }
-
+div#info-product {
+  padding: 10px;
+}
 .swiper-pagination-bullet {
   width: 5px;
   height: 5px;
