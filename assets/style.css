@@ -1281,7 +1281,7 @@ div#products {
 }
 #header {
   flex-direction: column;
-  position: sticky;
+  position: sticky!important;
 }
 .stock-list {
   grid-template-columns: repeat(2, 1fr);
