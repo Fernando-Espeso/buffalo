@@ -1286,6 +1286,15 @@ div#products {
 .stock-list {
   grid-template-columns: repeat(2, 1fr);
 }
+.interview {
+  color: #fff;
+  font-size: var(--fsb);
+  list-style: 23px;
+  padding: 10px;
+  font-family: Times New Roman, Times, serif;
+  max-width: max-content;
+  margin: 0 auto;
+}
 div#main-product {
   grid-template-columns: repeat(1, 1fr);
 }
