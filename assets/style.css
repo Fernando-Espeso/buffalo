@@ -644,7 +644,6 @@ form#cart-wrapper {
  .total {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
 }
 .item > div {
   border-bottom: 1px solid var(--bl);
