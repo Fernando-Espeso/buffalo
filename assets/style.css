@@ -1140,6 +1140,7 @@ fieldset {
   cursor: pointer;
 }
 .variations #add-to-bag {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: var(--font)!important;
   color:var(--bg)!important;
   padding: 15px!important;
