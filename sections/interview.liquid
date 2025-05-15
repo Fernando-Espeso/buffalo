@@ -5,8 +5,7 @@
 {% assign related_products = article.metafields.custom.related.value %}
 {% if related_products != blank %}
   <div class="related-products">
-    <div>YOU MIGHT ALSO LIKE</div>
-
+    <div class="grid-column:span 2">YOU MIGHT ALSO LIKE</div>
       {% for product in related_products %}
         <li>
           <a href="{{ product.online_store_url }}">
@@ -20,6 +19,5 @@
           </a>
         </li>
       {% endfor %}
-Ñ
   </div>
 {% endif %}
