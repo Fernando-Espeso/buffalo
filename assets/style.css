@@ -854,7 +854,7 @@ input#stockistFilter::placeholder{
 }
 .product-variant-item {
   text-align: left;
-  padding: 0px 0px 10px;
+  padding: 0px 0px 3px;
 }
 details {
   padding:var(--space);
@@ -1163,8 +1163,15 @@ select:disabled {
   cursor: pointer;
   position: relative;
   width: 100%;
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding: 10px;
 }
 fieldset {
+  grid-gap: 3px;
   padding: 0px;
   display: flex;
   border: 0px;
