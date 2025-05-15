@@ -829,7 +829,7 @@ input#stockistFilter::placeholder{
 }
 /* PRODUCTS */
 .buy-block {
-  height: calc(var(--m) - var(--h));
+  height: calc(var(--h) - var(--m));
   top: var(--m);
   position: sticky;
 }
