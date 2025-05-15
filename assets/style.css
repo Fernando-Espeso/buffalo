@@ -824,7 +824,9 @@ input#stockistFilter::placeholder{
 }
 /* PRODUCTS */
 .buy-block {
-  position: relative;
+  height: fit-content;
+  top: var(--m);
+  position: sticky;
 }
 .product-variant-item {
   text-align: left;
