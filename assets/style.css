@@ -1239,6 +1239,7 @@ section.two-products, .articles-block {
 .none{
   display: none;
 }
+
 .custom-image {
   bottom: 0;
   transform: translate(-50%, 0%);
@@ -1270,6 +1271,9 @@ div#products {
 }
 .buy-block {
   order: -1;
+}
+.aim {
+  top: 0px;
 }
 .sub-menu {
   text-transform: uppercase;
