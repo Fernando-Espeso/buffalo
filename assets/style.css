@@ -1231,6 +1231,9 @@ button#checkout{
 .bag .product-price{
   border-bottom: 1px solid var(--bl);
 }
+.menu-op{
+  display: none;
+}
 /* Small mobile styles */
 @media (max-width: 680px) {
   form#cart-wrapper {
@@ -1244,6 +1247,9 @@ a.buffalo-live\! {
 }
 section.two-products, .articles-block {
   grid-template-columns: repeat(1, 1fr);
+}
+.menu-op{
+  display: block;
 }
 .none{
   display: none;
