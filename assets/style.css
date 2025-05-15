@@ -815,6 +815,10 @@ input#stockistFilter::placeholder{
   line-height: 20px;
   letter-spacing: 0px;
 }
+.gallery{
+  display: grid;
+  row-gap: 3px;
+}
 .title-store{
   text-transform: uppercase;
 }
