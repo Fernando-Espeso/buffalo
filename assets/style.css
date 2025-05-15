@@ -635,7 +635,7 @@ section.single-product.full-screen .product-title-section{
 }
 
 /* CART */
-.item, .total {
+ .total {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -658,8 +658,7 @@ section.single-product.full-screen .product-title-section{
   letter-spacing: 0px;
 }
 .dub {
-  padding: var(--space);
-  border-bottom: 1px solid  var(--bl);
+
 }
 
 /* ABOUT */
