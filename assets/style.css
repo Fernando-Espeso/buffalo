@@ -1238,7 +1238,7 @@ section.two-products, .articles-block {
 }
 .custom-image {
   bottom: 0;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   left: 50%;
   position: absolute;
   margin: 0 auto;
