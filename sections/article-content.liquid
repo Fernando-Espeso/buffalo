@@ -1,7 +1,7 @@
 <div class="article-content" id="article-content">
   
   {% if article.metafields.custom.title.value != blank %}
-    <h2 class="title">{{ article.metafields.custom.title.value }}</h2>
+    <div class="title">{{ article.metafields.custom.title.value }}</div>
   {% endif %}
 
   {% if article.metafields.custom.description.value != blank %}
