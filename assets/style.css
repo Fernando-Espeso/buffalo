@@ -669,6 +669,7 @@ form#cart-wrapper {
  .total {
   text-align: center;
   display: grid;
+  grid-column: 2 / span 1;
 }
 .item > div {
   border-bottom: 1px solid var(--bl);
