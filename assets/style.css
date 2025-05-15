@@ -1235,6 +1235,12 @@ button#checkout{
 /* Small mobile styles */
 @media (max-width: 680px) {
 
+  form#cart-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+}
+.total {
+  grid-column: 1 / span 1;
+}
   :root {
     --fs: 12px;
     --space: 10px;
