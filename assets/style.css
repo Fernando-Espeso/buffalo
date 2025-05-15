@@ -913,6 +913,17 @@ details > summary::-webkit-details-marker {
 .none{
   display: block;
 }
+.sub-menu {
+  text-transform: uppercase;
+  position: relative;
+  width: 100%;
+  display: flex;
+  grid-gap: 10px;
+  align-items: center;
+  padding: 10px var(--space);
+  display: flex
+;
+}
 .swiper-article .swiper-slide img{
   display: flex;
   height: calc(100% - 80px);
