@@ -1236,7 +1236,7 @@ section.two-products, .articles-block {
   width: 200px;
 }
 .buy-block {
-  height: 700px;
+  height: 500px;
   top: var(--m);
   position: relative;
 }
