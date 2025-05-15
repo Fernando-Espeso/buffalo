@@ -1140,7 +1140,7 @@ fieldset {
   color:var(--bg)!important;
   padding: 15px!important;
   width: 100%;
-  background-color: var(--bgm);
+  background-color: black;
 }
 
 button#checkout{
@@ -1149,7 +1149,7 @@ button#checkout{
   font-weight: normal;
   padding: 15px!important;
   width: 100%;
-  background-color: var(--bgm);
+  background-color: black;
 }
 .bag .product-price{
   border-bottom: 1px solid var(--bl);
