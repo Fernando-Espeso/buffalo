@@ -70,19 +70,20 @@
       ],
       "settings": {}
     },
-    "about_8M89tG": {
-      "type": "about",
+    "products_PKJV6a": {
+      "type": "products",
       "blocks": {
-        "title_aM6mJY": {
-          "type": "title",
+        "product_hyrnAG": {
+          "type": "product",
           "settings": {
-            "title_text": "yes"
+            "product": "issue-13-la-zowie"
           }
         }
       },
       "block_order": [
-        "title_aM6mJY"
+        "product_hyrnAG"
       ],
+      "name": "Related Products",
       "settings": {}
     }
   },
@@ -91,6 +92,6 @@
     "swiper_GDjVY8",
     "interview_fdRXe6",
     "products_49rfai",
-    "about_8M89tG"
+    "products_PKJV6a"
   ]
 }
