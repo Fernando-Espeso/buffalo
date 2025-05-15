@@ -13,11 +13,12 @@
               <img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{ product.title }}">
             {% endif %}
           </a>
-          <diV class="product-title title-thang"></div>
-          <p>{{ product.title }}</p>
-          {% if product.price %}
-            <p>{{ product.price | money }}</p>
-          {% endif %}
+          <diV class="product-title title-thang">
+            <p>{{ product.title }}</p>
+            {% if product.price %}
+              <p>{{ product.price | money }}</p>
+            {% endif %}
+          </div>
         </div> 
       {% endfor %}
   </div>
