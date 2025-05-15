@@ -1,7 +1,6 @@
 <div class="swiper-article color">
     <div class="swiper-wrapper">
       {% assign media = article.metafields.custom.gallery.value %}
-  
       {% if media %}
         {% for item in media %}
           <div class="swiper-slide">
@@ -23,17 +22,14 @@
                   </video>
                 {% endif %}
               {% endif %}
-  
             {% if item.alt != blank %}
               <p class="caption-article">{{ item.alt }}</p>
             {% endif %}
           </div>
         {% endfor %}
       {% else %}
-        <p class="no-media">No hay imágenes o videos disponibles.</p>
       {% endif %}
     </div>
-  
     <div class="swiper-pagination"></div>
     <div class="next"></div>
     <div class="prev"></div>

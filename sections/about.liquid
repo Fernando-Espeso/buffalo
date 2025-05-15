@@ -1,4 +1,3 @@
-
 {% schema %}
 {
   "name": "About",
@@ -72,11 +71,10 @@
   ]
 }
 {% endschema %}
-
 {% for block in section.blocks %}
   {% case block.type %}
     {% when 'single_info' %}
-      <section class="single-info" id="info">
+      <section class="single-info" id="info" data-offset="80">
         <p>{{ block.settings.info_text }}</p>
       </section>
     {% when 'column_text' %}

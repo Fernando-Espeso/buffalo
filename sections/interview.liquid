@@ -1,21 +1,3 @@
-{% schema %}
-{
-  "name": "Interview",
-  "tag": "section",
-  "settings": [
-    {
-      "type": "richtext",
-      "id": "content",
-      "label": "Content"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Interview"
-    }
-  ]
-}
-{% endschema %}
-<div class="interview">
-  {{ section.settings.content }}
-</div>
+{% if section.settings.Interview != blank %}
+  <div class="interview">{{ section.settings.Interview }}</div>
+{% endif %}

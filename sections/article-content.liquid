@@ -1,90 +1,27 @@
 <div class="article-content" id="article-content">
-      <div class="credits-open">
-        CREDITS
-      </div>
-      <div class="close-up">
-        CLOSE
-      </div>
-  {% for block in section.blocks %}
-    {% case block.type %}
 
-      {% when "gallery" %}
-        <div class="gallery">
-          {% for image in block.settings.images %}
-            <img src="{{ image | image_url: '800x' }}" alt="{{ image.alt | escape }}">
-          {% endfor %}
-        </div>
+  <div class="credits-open">CREDITS</div>
+  <div class="close-up">CLOSE</div>
 
-      {% when "issue" %}
-        <h2 class="issue">{{ block.settings.text }}</h2>
+  {% if section.settings.title != blank %}
+    <h2 class="issue">{{ section.settings.title }}</h2>
+  {% endif %}
 
-      {% when "credits" %}
-        <div class="credits">{{ block.settings.text }}</div>
+  {% if section.settings.credits != blank %}
+    <div class="credits">{{ section.settings.credits }}</div>
+  {% endif %}
 
-      {% when "info" %}
-        <div class="description">{{ block.settings.text }}</div>
-
-      {% when "title" %}
-        <div class="description">{{ block.settings.text }}</div>
-
-    {% endcase %}
-  {% endfor %}
+  {% if section.settings.description != blank %}
+    <div class="description">{{ section.settings.description }}</div>
+  {% endif %}
 </div>
+
+
+
+
 <style>
   body{
     background-color:black;
   }
 
 </style> 
-{% schema %}
-{
-  "name": "Article Content",
-  "max_blocks": 20,
-  "blocks": [
-    {
-      "type": "issue",
-      "name": "Issue",
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "text",
-          "label": "Título"
-        }
-      ]
-    },
-    {
-      "type": "credits",
-      "name": "Credits",
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "text",
-          "label": "Créditos"
-        }
-      ]
-    },
-    {
-      "type": "title",
-      "name": "Title",
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "text",
-          "label": "Title"
-        }
-      ]
-    },
-    {
-      "type": "info",
-      "name": "Description",
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "text",
-          "label": "Información adicional"
-        }
-      ]
-    }
-  ]
-}
-{% endschema %}
