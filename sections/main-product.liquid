@@ -1,12 +1,12 @@
 
 <div class="head-product">
-  
+
 {% if product.metafields.custom.logo != blank %}
   <div class="custom-image">
     <img src="{{ product.metafields.custom.logo | img_url: '800x800' }}" alt="Imagen personalizada">
   </div>
 {% endif %}
-<div class="title-page">{{ product.title }}</div>
+
 
 {% if product.description != blank %}
   <div class="info-hero">
@@ -60,7 +60,9 @@
           </details>
         {% endif %}
         </div>
+        
         <div class="product-price">
+          <div class="title-page">{{ product.title }}</div>
           {% if product.available %}
             {% if product.price_varies %}
               <span>{{ product.price_min | money }}</span> – <span>{{ product.price_max | money }}</span>
