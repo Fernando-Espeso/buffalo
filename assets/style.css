@@ -1248,6 +1248,15 @@ section.two-products, .articles-block {
 .none{
   display: none;
 }
+.description {
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: left;
+  font-family: Times New Roman, Times, serif;
+  padding: 10px 0px;
+  font-size: var(--fsb);
+  line-height: clac(var(--fsb) + 5px);
+}
 
 .custom-image {
   bottom: 0;
