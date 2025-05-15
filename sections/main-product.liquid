@@ -61,17 +61,17 @@
         <div class="desplegable">
         {% if info != blank %}
         <details >
-          <summary>Material and care</summary>
+          <summary>About</summary>
           <div class="interior">
-            {{ product.metafields.custom.care | metafield_tag }}
+            {{ product.metafields.custom.description | metafield_tag }}
           </div>
           </details>
         {% endif %}
         {% if shipping != blank %}
         <details>
-          <summary>Shipping and return</summary>
+          <summary>Contributors</summary>
           <div class="interior">
-            {{ product.metafields.custom.shipping | metafield_tag }}
+            {{ product.metafields.custom.contributors | metafield_tag }}
           </div>
           </details>
         {% endif %}
