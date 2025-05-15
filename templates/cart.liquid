@@ -2,42 +2,45 @@
   <form id="cart-wrapper" action="/cart" method="post">
     {% for item in cart.items %}
       <div class="item">
-        <div class="dub product-title">{{ item.product.title }}<br>
-        <div class="dub product-price">{{ item.price | money }}</div></div>
-        <div style="background-color:var(--darker);" class="row">
+        <div class="dub">
+          {{ item.product.title }}<br>
+          <div class="dub product-price">{{ item.price | money }}</div>
+          <div style="background-color:var(--darker);" class="row">
      
-          <div class="dub double">
-            <div class="item-quantity">
-              QUANTITY<br>
-              <span data-field="updates" class="quantity-button minus"><span>–</span></span>
-              <input type="hidden" step="1" max="9" value="{{ item.quantity }}" name="updates[]" class="inactive quantity-field align-center">
-              <span class="quantity-wrap"></span>
-              <span data-field="updates" class="quantity-button plus">
-                <span class="addmore">+</span>
-                {% if cart.items.available %}
-                {% else %}
-                {% endif %}
-              </span>
+            <div class="dub double">
+              <div class="item-quantity">
+                QUANTITY<br>
+                <span data-field="updates" class="quantity-button minus"><span>–</span></span>
+                <input type="hidden" step="1" max="9" value="{{ item.quantity }}" name="updates[]" class="inactive quantity-field align-center">
+                <span class="quantity-wrap"></span>
+                <span data-field="updates" class="quantity-button plus">
+                  <span class="addmore">+</span>
+                  {% if cart.items.available %}
+                  {% else %}
+                  {% endif %}
+                </span>
+              </div>
             </div>
-          </div>
-            {% unless item.product.options contains 'Title' %}
-              <!--Variations-->
-              <div class="dub double">
-                <div class="siz">SIZING</div>
-                <div class="siz">
-                  {%- for option_title in item.product.options -%}
-                    {{ item.variant.options[forloop.index0] }}{% unless forloop.last  %}<br> {% endunless %}
-                  {%- endfor -%}
+              {% unless item.product.options contains 'Title' %}
+                <!--Variations-->
+                <div class="dub double">
+                  <div class="siz">SIZING</div>
+                  <div class="siz">
+                    {%- for option_title in item.product.options -%}
+                      {{ item.variant.options[forloop.index0] }}{% unless forloop.last  %}<br> {% endunless %}
+                    {%- endfor -%}
+                  </div>
                 </div>
-              </div>
-              <div class="dub double">
-                <div class="siz">SUBTOTAL</div>
-                <div class="siz">{{ item.line_price | money }}</div>
-              </div>
-            {% endunless %}
+                <div class="dub double">
+                  <div class="siz">SUBTOTAL</div>
+                  <div class="siz">{{ item.line_price | money }}</div>
+                </div>
+              {% endunless %}
+         
+          </div>
        
-        </div>
-     
+      </div>
+       
       
         <div class="thumb-cart">
           <img class="lazy" src="{{ item | img_url: 'thumb' }}" data-src="{{ item | img_url: 'master' }}" alt="{{ item.title | escape }}" />
