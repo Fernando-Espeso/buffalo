@@ -6,7 +6,7 @@
 {% assign related_products = article.metafields.custom.related.value %}
 {% if related_products != blank %}
   <div class="related-products">
-    <div style="grid-column:span 2" class="related-title">YOU MIGHT ALSO LIKE</div>
+    <div class="related-title">YOU MIGHT ALSO LIKE</div>
       {% for product in related_products %}
         <div class="product">
           <a href="{{ product.online_store_url }}">
