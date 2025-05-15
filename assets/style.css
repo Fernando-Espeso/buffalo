@@ -1215,23 +1215,6 @@ button#checkout{
 .bag .product-price{
   border-bottom: 1px solid var(--bl);
 }
-/* About styles */
-@media (max-width: 1200px) {
-}
-/* Bigger desktop styles */
-@media (min-width: 1920px) {
-}
-/* Normal desktop styles */
-@media (min-width: 1681px) and (max-width: 1920px) {
-}
-/* Big laptop desktop styles */
-@media (min-width: 1441px) and (max-width: 1680px) {
-}
-/* Mobile card styles */
-@media (max-width: 812px) and (orientation: landscape) {
-}
-@media only screen and (max-width:3920px) and (min-width:1540px){
-}
 /* Small mobile styles */
 @media (max-width: 680px) {
   form#cart-wrapper {
