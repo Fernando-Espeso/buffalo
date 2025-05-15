@@ -32,6 +32,28 @@
 </div>
 
 <div id="main-product" class="main" data-section-id="{{ section.id }}" data-product-section>
+  <div class="gallery">
+    <div class="gallery">
+      {% for media in product.media %}
+        {% case media.media_type %}
+          {% when 'video' %}
+            <div class="swiper-slide">
+              {{ media | video_tag: loop: true, autoplay: true, muted: true }}
+            </div>
+          {% when 'image' %}
+            <div class="swiper-slide">
+              <img 
+                class="lazy" 
+                src="{{ media | product_img_url: 'thumb' }}" 
+                data-src="{{ media | product_img_url: 'master' }}" 
+                alt="{{ media.alt }}" 
+              />
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+  
   <!--INFO-BUY-->
   <div class="buy-block">
     <!--PRODUCT INFO-->
@@ -108,27 +130,6 @@
 </div>
 
 <!--GALLERY-->
-<div class="gallery">
-  <div class="gallery">
-    {% for media in product.media %}
-      {% case media.media_type %}
-        {% when 'video' %}
-          <div class="swiper-slide">
-            {{ media | video_tag: loop: true, autoplay: true, muted: true }}
-          </div>
-        {% when 'image' %}
-          <div class="swiper-slide">
-            <img 
-              class="lazy" 
-              src="{{ media | product_img_url: 'thumb' }}" 
-              data-src="{{ media | product_img_url: 'master' }}" 
-              alt="{{ media.alt }}" 
-            />
-          </div>
-      {% endcase %}
-    {% endfor %}
-  </div>
-</div>
 
 
 
