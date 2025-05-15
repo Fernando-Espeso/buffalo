@@ -639,7 +639,12 @@ section.single-product.full-screen img {
   transform: translate(0);
   position: absolute;
 }
-
+.row {
+  align-items: center;
+  height: fit-content;
+  justify-content: center;
+  align-self: center;
+}
 section.single-product.full-screen .product-title-section{
   color: white;
   mix-blend-mode: exclusion;
