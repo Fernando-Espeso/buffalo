@@ -1257,7 +1257,7 @@ section.two-products, .articles-block {
 .description {
   margin: 0 auto;
   max-width: 1000px;
-  text-align: left;
+  text-align: center;
   font-family: Times New Roman, Times, serif;
   padding: 10px 0px;
   font-size: var(--fsb);
