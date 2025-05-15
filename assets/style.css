@@ -1147,6 +1147,10 @@ fieldset {
   display: flex;
   border: 0px;
 }
+.more-info {
+  padding: 5px;
+  text-align: center;
+}
 .product-variant-item input {
   cursor: pointer;
 }
