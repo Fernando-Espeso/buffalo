@@ -1176,6 +1176,9 @@ fieldset {
   display: flex;
   border: 0px;
 }
+.product-variant-title {
+  padding-bottom: 5px;
+}
 .more-info {
   padding: 5px;
   text-align: center;
