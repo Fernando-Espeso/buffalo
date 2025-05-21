@@ -964,7 +964,11 @@ section.awards-section {
   display: grid;
   grid-gap:10px;
 }
-
+.award-item {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
 /* SWIPER
 ================================================== */
 .related-products {
