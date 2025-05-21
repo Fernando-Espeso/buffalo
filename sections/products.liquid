@@ -23,7 +23,7 @@
   ]
 }
 {% endschema %}
-
+<div class="products" id="products">
       {% for block in section.blocks %}
         {% assign related_product = all_products[block.settings.product] %}
         {% if related_product %}
@@ -39,8 +39,11 @@
                     <p>No image available</p>
                   {% endif %}
             </a>
+          
           </div>
         {% else %}
+          <p>No related product found.</p>  <!-- This will show if the related product isn't found -->
         {% endif %}
       {% endfor %}
+  </div>
   
