@@ -1024,6 +1024,8 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
 }
 .swiper-pagination {
   display: flex;
+  grid-gap: 3px;
+  display: flex;
   flex-wrap: wrap;
   gap: 0px;
   justify-content: center;
