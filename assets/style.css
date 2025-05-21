@@ -470,7 +470,6 @@ em {
   font-family: 'Times New Roman', Times, serif;
 }
 .interview{
-  color: white;
   font-size: var(--fsb);
   list-style: 23px;
   padding: 20px;
