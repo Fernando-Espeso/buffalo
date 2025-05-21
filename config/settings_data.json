@@ -518,6 +518,54 @@
           "product_nfxn6y"
         ],
         "settings": {}
+      },
+      "awards": {
+        "type": "awards",
+        "blocks": {
+          "final_text_rUBgjW": {
+            "type": "final_text",
+            "settings": {
+              "closing_text": "INDIE FASHION MAGAZINE OF THE DECADE\nIn 2019, Buffalo Zine was voted by the #StackAwards judges & Twitter “indie fashion magazine of the decade” with 72.9% of the votes in the fnal round.\n\nMAGAZINE OF THE YEAR\nBuffalo Zine was awarded magazine of the year by Stack Magazines in 2017, beating out over 400 independent titles, with judge Jeremy Leslie describing it as “unlike anything else being done\ntoday.”"
+            }
+          },
+          "award_item_LnBYQ8": {
+            "type": "award_item",
+            "settings": {
+              "award_image": "shopify://shop_images/3_WOOD.jpg",
+              "award_text": "ISSUE 10\nGRAPHITE PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2021"
+            }
+          },
+          "award_item_yWfT3y": {
+            "type": "award_item",
+            "settings": {
+              "award_image": "shopify://shop_images/2_GRAPHITE.jpg",
+              "award_text": "ISSUE 10\nGRAPHITE PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2021"
+            }
+          },
+          "award_item_iHtRhB": {
+            "type": "award_item",
+            "settings": {
+              "award_image": "shopify://shop_images/1_YELLOW.jpg",
+              "award_text": "ISSUE 16\nWOOD PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2023"
+            }
+          },
+          "final_text_6eTVUM": {
+            "type": "final_text",
+            "settings": {
+              "closing_text": "INDIE FASHION MAGAZINE OF THE DECADE\nIn 2019, Buffalo Zine was voted by the #StackAwards judges & Twitter “indie fashion magazine\nof the decade” with 72.9% of the votes in the fnal round.\nMAGAZINE OF THE YEAR\nBuffalo Zine was awarded magazine of the year by Stack Magazines in 2017, beating out over\n400 independent titles, with judge Jeremy Leslie describing it as “unlike anything else being done\ntoday.”"
+            }
+          }
+        },
+        "block_order": [
+          "final_text_rUBgjW",
+          "award_item_LnBYQ8",
+          "award_item_yWfT3y",
+          "award_item_iHtRhB",
+          "final_text_6eTVUM"
+        ],
+        "settings": {
+          "intro_text": "Buffalo Zine was awarded a D&AD pencil for its inaugural issue – and went on to win pencils in\nthe magazine and newspaper design category almost every year until today. Winning a D&AD\npencil remains the pinnacle of many careers and the work it celebrates inspires others to study,\ndebate, copy and reference the industry’s fnest designers."
+        }
       }
     },
     "content_for_index": []
