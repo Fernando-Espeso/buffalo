@@ -525,6 +525,7 @@
           "award_item_iHtRhB": {
             "type": "award_item",
             "settings": {
+              "award_image": "shopify://shop_images/1_YELLOW.jpg",
               "award_text": "ISSUE 16\nWOOD PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2023"
             }
           }
