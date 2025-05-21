@@ -951,7 +951,7 @@ details > summary::-webkit-details-marker {
 .estandard{
   grid-column: span 1!important;
 }
-.related-product.pr .product{
+.related.pr .product{
   grid-column: span 1!important;
 }
 /* SWIPER
