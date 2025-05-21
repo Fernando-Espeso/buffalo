@@ -549,6 +549,13 @@
               "award_text": "ISSUE 16\nWOOD PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2023"
             }
           },
+          "award_item_R8fk79": {
+            "type": "award_item",
+            "settings": {
+              "award_image": "shopify://shop_images/1_YELLOW.jpg",
+              "award_text": "ISSUE 7\nGRAPHITE PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2019"
+            }
+          },
           "final_text_6eTVUM": {
             "type": "final_text",
             "settings": {
@@ -561,6 +568,7 @@
           "award_item_LnBYQ8",
           "award_item_yWfT3y",
           "award_item_iHtRhB",
+          "award_item_R8fk79",
           "final_text_6eTVUM"
         ],
         "settings": {
