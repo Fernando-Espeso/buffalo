@@ -357,6 +357,9 @@ div#products img {
   border-right: 1px solid var(--bl);
   border-bottom: 1px solid var(--bl);
 }
+.product.half {
+  grid-column: span 6!important;
+}
 a.more-info {
   display: block;
   text-align: center;
@@ -1331,6 +1334,12 @@ div#products {
 #header {
   flex-direction: column;
   position: sticky!important;
+}
+.product {
+  grid-column: span 12;
+}
+.product.half {
+  grid-column: span 12!important;
 }
 .stock-list {
   grid-template-columns: repeat(2, 1fr);
