@@ -56,21 +56,24 @@
 
   <div class="awards-items">
     {% for block in section.blocks %}
-      {% case block.type %}
-        {% when 'award_item' %}
-          <div class="award-item">
-            {% if block.settings.award_image %}
-              <img src="{{ block.settings.award_image | image_url: width: 400 }}" alt="Award image">
-            {% endif %}
-            <div class="award-text">
-              {{ block.settings.award_text }}
-            </div>
+      {% if block.type == 'award_item' %}
+        <div class="award-item">
+          {% if block.settings.award_image %}
+            <img src="{{ block.settings.award_image | image_url: width: 400 }}" alt="Award image">
+          {% endif %}
+          <div class="award-text">
+            {{ block.settings.award_text }}
           </div>
-        {% when 'final_text' %}
-          <div class="awards-final-text">
-            {{ block.settings.closing_text }}
-          </div>
-      {% endcase %}
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
+
+  {% for block in section.blocks %}
+    {% if block.type == 'final_text' %}
+      <div class="awards-final-text">
+        {{ block.settings.closing_text }}
+      </div>
+    {% endif %}
+  {% endfor %}
 </section>
