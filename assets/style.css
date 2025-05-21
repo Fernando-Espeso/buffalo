@@ -948,6 +948,9 @@ details > summary::-webkit-details-marker {
   display: flex;
   align-items: center;
 }
+.estandard{
+  grid-column: span 1!important;
+}
 /* SWIPER
 ================================================== */
 .related-products {
