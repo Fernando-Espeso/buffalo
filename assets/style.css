@@ -954,6 +954,15 @@ details > summary::-webkit-details-marker {
 .related.pr .product{
   grid-column: span 1!important;
 }
+section.awards-section {
+  padding: 10px;
+}
+.awards-items {
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  grid-gap:10px;
+}
+
 /* SWIPER
 ================================================== */
 .related-products {
