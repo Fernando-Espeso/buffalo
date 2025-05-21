@@ -956,7 +956,7 @@ details > summary::-webkit-details-marker {
 ================================================== */
 .related-products {
   padding: 10px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   display: grid;
   grid-gap:3px;
 }
@@ -1335,9 +1335,13 @@ div#products {
   flex-direction: column;
   position: sticky!important;
 }
+div#shopify-section-template--24808222163276__interview_fdRXe6 {
+  background-color: white;
+}
 .product {
   grid-column: span 12;
 }
+
 .product.half {
   grid-column: span 12!important;
 }
@@ -1352,7 +1356,7 @@ form#cart-wrapper {
   grid-template-columns: repeat(1, 1fr);
 }
 .interview {
-  color: #fff;
+  color: black;
   font-size: var(--fsb);
   list-style: 23px;
   padding: 10px;
