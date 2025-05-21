@@ -1,0 +1,76 @@
+{% schema %}
+{
+  "name": "Awards",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "intro_text",
+      "label": "Texto introductorio"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "award_item",
+      "name": "Item de premio",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "award_image",
+          "label": "Imagen del premio"
+        },
+        {
+          "type": "textarea",
+          "id": "award_text",
+          "label": "Texto del premio"
+        }
+      ]
+    },
+    {
+      "type": "final_text",
+      "name": "Texto final",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "closing_text",
+          "label": "Texto de cierre"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 20,
+  "presets": [
+    {
+      "name": "Awards Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<section class="awards-section">
+  {% if section.settings.intro_text != blank %}
+    <div class="awards-intro">
+      {{ section.settings.intro_text }}
+    </div>
+  {% endif %}
+
+  <div class="awards-items">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'award_item' %}
+          <div class="award-item">
+            {% if block.settings.award_image %}
+              <img src="{{ block.settings.award_image | image_url: width: 400 }}" alt="Award image">
+            {% endif %}
+            <div class="award-text">
+              {{ block.settings.award_text }}
+            </div>
+          </div>
+        {% when 'final_text' %}
+          <div class="awards-final-text">
+            {{ block.settings.closing_text }}
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+</section>
