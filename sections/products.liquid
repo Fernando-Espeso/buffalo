@@ -18,15 +18,12 @@
   "max_blocks": 6,
   "presets": [
     {
-      "name": "Related Products"
+      "name": "Products"
     }
   ]
 }
 {% endschema %}
-
-
 <div class="related-products" id="products">
-    <div class="title-related">YOU MIGHT ALSO LIKE</div>
       {% for block in section.blocks %}
         {% assign related_product = all_products[block.settings.product] %}
         {% if related_product %}
