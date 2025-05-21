@@ -951,11 +951,14 @@ details > summary::-webkit-details-marker {
 .estandard{
   grid-column: span 1!important;
 }
+.related-product.pr .product{
+  grid-column: span 1!important;
+}
 /* SWIPER
 ================================================== */
 .related-products {
   padding: 10px;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   display: grid;
   grid-gap:3px;
 }
