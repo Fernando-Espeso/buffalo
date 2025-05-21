@@ -965,6 +965,9 @@ section.awards-section {
   grid-gap:10px;
 }
 .award-text {
+  font-family: Times New Roman, Times, serif;
+  font-size: var(--fsb);
+  line-height: 20px;
   height: fit-content;
   align-self: center;
 }
