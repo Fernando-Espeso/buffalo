@@ -101,7 +101,7 @@
 
   // Escuchar clicks en las imágenes del swiper
   document.querySelectorAll('.swiper-live .swiper-slide img').forEach(img => {
-    img.addEventListener('click', () => {
+    img.addEventListener('hover', () => {
       // Si ya está expandida, quitar la clase
       const wasExpanded = img.classList.contains('expanded');
       
