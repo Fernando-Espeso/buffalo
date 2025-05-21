@@ -518,6 +518,23 @@
           "product_nfxn6y"
         ],
         "settings": {}
+      },
+      "awards": {
+        "type": "awards",
+        "blocks": {
+          "award_item_iHtRhB": {
+            "type": "award_item",
+            "settings": {
+              "award_text": "ISSUE 16\nWOOD PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2023"
+            }
+          }
+        },
+        "block_order": [
+          "award_item_iHtRhB"
+        ],
+        "settings": {
+          "intro_text": ""
+        }
       }
     },
     "content_for_index": []
