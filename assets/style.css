@@ -963,11 +963,13 @@ section.awards-section {
   grid-template-columns: repeat(4, 1fr);
   display: grid;
   grid-gap:10px;
-}
-.award-text {
+}.awards-final-text {
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsb);
   line-height: 20px;
+}
+.award-text {
+
   height: fit-content;
   align-self: center;
 }
