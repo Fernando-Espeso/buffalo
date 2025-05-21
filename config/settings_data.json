@@ -470,6 +470,35 @@
       "main-product": {
         "type": "main-product",
         "settings": {}
+      },
+      "products": {
+        "type": "products",
+        "blocks": {
+          "product_c6c4wD": {
+            "type": "product",
+            "settings": {
+              "product": "issue-13-la-zowie"
+            }
+          },
+          "product_HCdyPL": {
+            "type": "product",
+            "settings": {
+              "product": "issue-nº14-alain-cabrera"
+            }
+          },
+          "product_TcJCRq": {
+            "type": "product",
+            "settings": {
+              "product": "issue-13-la-zowie"
+            }
+          }
+        },
+        "block_order": [
+          "product_c6c4wD",
+          "product_HCdyPL",
+          "product_TcJCRq"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": []
