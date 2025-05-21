@@ -470,6 +470,21 @@
       "main-product": {
         "type": "main-product",
         "settings": {}
+      },
+      "products": {
+        "type": "products",
+        "blocks": {
+          "product_TcJCRq": {
+            "type": "product",
+            "settings": {
+              "product": "issue-13-la-zowie"
+            }
+          }
+        },
+        "block_order": [
+          "product_TcJCRq"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": []
