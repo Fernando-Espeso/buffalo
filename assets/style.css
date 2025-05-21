@@ -323,7 +323,7 @@ a#cart{
   display: flex;
 }
 div#products {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   display: grid;
   grid-gap:3px;
 }
@@ -353,6 +353,7 @@ div#products img {
   font-weight: normal;
 }
 .product {
+  grid-column: span 4;
   border-right: 1px solid var(--bl);
   border-bottom: 1px solid var(--bl);
 }
@@ -734,7 +735,7 @@ div#shopify-section-about {
 
 
 
-  
+
   grid-column: span 2;
   text-align: center;
   padding: 10px;

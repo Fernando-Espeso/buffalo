@@ -32,7 +32,7 @@
   {% for block in section.blocks %}
     {% assign related_product = all_products[block.settings.product] %}
     {% if related_product %}
-      <div class="product">
+      <div class="product {% if block.settings.half %}half{% endif %}">
         <div class="title-thang">
           <div>{{ related_product.title }}</div>
           
