@@ -151,7 +151,7 @@
   <div class="related-products">
     <div class="related-title" style="grid-column:span 2">YOU MIGHT ALSO LIKE</div>
       {% for product in related_products %}
-        <div class="product pr">
+        <div class="product estandard">
           <a href="{{ product.online_store_url }}">
             {% if product.featured_image %}
               <img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{ product.title }}">
