@@ -11,6 +11,11 @@
           "type": "product",
           "label": "Select a related product",
           "id": "product"  // Adding an ID for the setting field
+        },
+        {
+          "type": "checkbox",
+          "id": "half",
+          "label": "Half"
         }
       ]
     }
@@ -24,26 +29,39 @@
 }
 {% endschema %}
 <div class="products" id="products">
-      {% for block in section.blocks %}
-        {% assign related_product = all_products[block.settings.product] %}
-        {% if related_product %}
-          <div class="product">
-            <div class="title-thang">
-                <div>{{ related_product.title }}</div>
-                <p>{{ related_product.price | money }}</p>
-            </div>
-            <a href="{{ related_product.url }}">
-                {% if related_product.featured_image %}
-                    <img src="{{ related_product.featured_image | img_url: 'master' }}" alt="{{ related_product.title }}">
-                  {% else %}
-                    <p>No image available</p>
-                  {% endif %}
-            </a>
+  {% for block in section.blocks %}
+    {% assign related_product = all_products[block.settings.product] %}
+    {% if related_product %}
+      <div class="product">
+        <div class="title-thang">
+          <div>{{ related_product.title }}</div>
           
-          </div>
-        {% else %}
-          <p>No related product found.</p>  <!-- This will show if the related product isn't found -->
-        {% endif %}
-      {% endfor %}
-  </div>
+          {% if related_product.available == false %}
+            <p class="sold-out">Agotado</p>
+          
+          {% elsif related_product.compare_at_price > related_product.price %}
+            <p>
+              <span class="price-original" style="text-decoration: line-through; color: #999;">
+                {{ related_product.compare_at_price | money }}
+              </span>
+              <span class="price-sale" style="color: red; font-weight: bold;">
+                {{ related_product.price | money }}
+              </span>
+            </p>
+          
+          {% else %}
+            <p>{{ related_product.price | money }}</p>
+          {% endif %}
+        </div>
+
+        <a href="{{ related_product.url }}">
+          {% if related_product.featured_image %}
+            <img src="{{ related_product.featured_image | img_url: 'master' }}" alt="{{ related_product.title }}">
+          {% endif %}
+        </a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
   
