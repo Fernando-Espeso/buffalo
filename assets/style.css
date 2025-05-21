@@ -964,6 +964,10 @@ section.awards-section {
   display: grid;
   grid-gap:10px;
 }
+.award-text {
+  height: fit-content;
+  align-self: center;
+}
 .award-item {
   display: grid;
   grid-gap: 10px;
