@@ -403,6 +403,13 @@
       "brand": {
         "type": "brand",
         "blocks": {
+          "custom_article_Ct3x4r": {
+            "type": "custom_article",
+            "settings": {
+              "article": "shuffle/shuffle-test",
+              "image": "shopify://shop_images/web-test-02.png"
+            }
+          },
           "custom_article_ANKNkQ": {
             "type": "custom_article",
             "settings": {
@@ -419,6 +426,7 @@
           }
         },
         "block_order": [
+          "custom_article_Ct3x4r",
           "custom_article_ANKNkQ",
           "custom_article_3q7T6T"
         ],
