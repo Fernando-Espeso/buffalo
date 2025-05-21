@@ -937,9 +937,6 @@ details > summary::-webkit-details-marker {
   object-fit: contain;
   align-items: center;
 }
-.sub-menu{
-  
-}
 .swiper-article .swiper-slide video{
   display: flex;
   height: calc(100% - 80px);
@@ -959,7 +956,9 @@ details > summary::-webkit-details-marker {
   display: grid;
   grid-gap:3px;
 }
-
+div#shopify-section-template--24808222163276__interview_fdRXe6 {
+  background-color: white;
+}
 /* SWIPER
 ================================================== */
 .swiper-container {
