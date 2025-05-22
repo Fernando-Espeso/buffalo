@@ -716,7 +716,7 @@ div#shopify-section-about {
   border-right: 1px solid var(--bl);
 }
 button.name-btn.active {
-  font-family: var(--font);
+  font-family: var(--font);S
   color: red;
 }summary.active {
   color: red;
