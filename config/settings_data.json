@@ -145,6 +145,13 @@
       "stocklist": {
         "type": "stocklist",
         "blocks": {
+          "stocklist_nF3DeF": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Barcelona",
+              "address": ""
+            }
+          },
           "stocklist_badXmz": {
             "type": "stocklist",
             "settings": {
@@ -175,6 +182,7 @@
           }
         },
         "block_order": [
+          "stocklist_nF3DeF",
           "stocklist_badXmz",
           "stocklist_P7cqJq",
           "stocklist_fzeXwk",
