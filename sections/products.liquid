@@ -29,40 +29,6 @@
 {% endschema %}
 <div class="products" id="products">
   {% for block in section.blocks %}
-    {% assign related_product = all_products[block.settings.product] %}
-    {% if related_product %}
-      {% assign variant = related_product.variants.first %}
-      <div class="product {% if block.settings.half %}half{% endif %}">
-        <div class="title-thang">
-          <div>{{ related_product.title }}</div>
-
-          {% if variant.available == false %}
-            <p class="sold-out">Sold Out</p>
-
-          {% elsif variant.compare_at_price > variant.price %}
-            <p>
-              <span class="price-original" style="text-decoration: line-through; color: #999;">
-                {{ variant.compare_at_price | money }}
-              </span>
-              <span class="price-sale" style="color: red; font-weight: bold;">
-                {{ variant.price | money }}
-              </span>
-            </p>
-
-          {% else %}
-            <p>{{ variant.price | money }}</p>
-          {% endif %}
-        </div>
-
-        <a href="{{ related_product.url }}">
-          {% if related_product.featured_image %}
-            <img src="{{ related_product.featured_image | img_url: 'master' }}" alt="{{ related_product.title }}">
-          {% endif %}
-        </a>
-      </div>
-    {% endif %}
-  {% endfor %}
-  {% for block in section.blocks %}
     {% assign selected = block.settings.product %}
     {% if selected %}
       {% assign handle = selected.handle %}
@@ -75,8 +41,9 @@
   
           {% if variant.compare_at_price > variant.price %}
             <p>
-              <s>{{ variant.compare_at_price | money }}</s>
-              <span class="discount">{{ variant.price | money }}</span>
+              <span class="price-original" style="text-decoration: line-through; color: #999;">
+                {{ variant.compare_at_price | money }}</span>
+              <span class="price-sale" style="color: red;">{{ variant.price | money }}</span>
             </p>
           {% else %}
             <p>{{ variant.price | money }}</p>
