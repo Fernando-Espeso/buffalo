@@ -981,7 +981,9 @@ details > summary::-webkit-details-marker {
   83.33% { background-color: white; }
   100%  { background-color: blue; } /* Vuelve a empezar en bucle */
 }
-
+.swiper-live .swiper-wrapper.centered {
+  justify-content: center !important;
+}
 
 .shuffle-mix {
   width: 100vw;
@@ -1403,9 +1405,7 @@ div#products {
 .buy-block {
   order: -1;
 }
-.swiper-live .swiper-wrapper.centered {
-  justify-content: center !important;
-}
+
 .aim {
   top: 0px;
 }
