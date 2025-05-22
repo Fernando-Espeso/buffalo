@@ -28,38 +28,30 @@
   ]
 }
 {% endschema %}
-<div class="products" id="products">
-  {% for block in section.blocks %}
-    {% assign test = all_products["my-product-handle"] %}
-<p>Compare: {{ test.compare_at_price | money }}</p>
-<p>Price: {{ test.price | money }}</p>
-<p>Title: {{ test.title }}</p>
-    {% assign product = block.settings.product %}
-    {% if product %}
-      {% assign variant = product.variants.first %}
-  
-      <div class="product {% if block.settings.half %}half{% endif %}">
-        <div class="title-thang">
-          <div>{{ product.title }}</div>
-  
-          {% if variant.compare_at_price > variant.price %}
-            <p>
-              <span class="price-original" style="text-decoration: line-through; color: #999;">
-                {{ variant.compare_at_price | money }}
-              </span>
-              <span class="price-sale" style="color: red; font-weight: bold;">
-                {{ variant.price | money }}
-              </span>
-            </p>
-          {% else %}
-            <p>{{ variant.price | money }}</p>
-          {% endif %}
-        </div>
+{% for block in section.blocks %}
+  {% assign product = block.settings.product %}
+  {% if product %}
+    {% assign variant = product.variants.first %}
+    <div class="product {% if block.settings.half %}half{% endif %}">
+      <div class="title-thang">
+        <div>{{ product.title }}</div>
+
+        {% if variant.compare_at_price > variant.price %}
+          <p>
+            <span class="price-original" style="text-decoration: line-through; color: #999;">
+              {{ variant.compare_at_price | money }}
+            </span>
+            <span class="price-sale" style="color: red; font-weight: bold;">
+              {{ variant.price | money }}
+            </span>
+          </p>
+        {% else %}
+          <p>{{ variant.price | money }}</p>
+        {% endif %}
       </div>
-    {% endif %}
-  {% endfor %}
-  
-</div>
+    </div>
+  {% endif %}
+{% endfor %}
 
 
   
