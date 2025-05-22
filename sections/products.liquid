@@ -62,6 +62,33 @@
       </div>
     {% endif %}
   {% endfor %}
+  {% for block in section.blocks %}
+    {% assign product = block.settings.product %}
+    {% if product %}
+      <div class="product {% if block.settings.half %}half{% endif %}">
+        <div class="title-thang">{{ product.title }}</div>
+  
+        {% if product.available %}
+          {% if product.price_varies %}
+            <p>
+              <span>{{ product.price_min | money }}</span> – <span>{{ product.price_max | money }}</span>
+            </p>
+          {% else %}
+            {% if product.compare_at_price > product.price %}
+              <p>
+                <s>{{ product.compare_at_price | money }}</s>
+                <span class="disscount">{{ product.price | money }}</span>
+              </p>
+            {% else %}
+              <p>{{ product.price | money }}</p>
+            {% endif %}
+          {% endif %}
+        {% else %}
+          <p>{{ product.price | money }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
 
 
