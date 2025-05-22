@@ -1073,6 +1073,7 @@ div#info-product {
 summary.city {
   text-align: left;
   font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
 }
 .swiper-slide:hover .caption {
   display: block;
