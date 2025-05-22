@@ -148,4 +148,19 @@
     });
   });
 </script>
+<script>
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const role = btn.dataset.role;
+      document.querySelectorAll('.swiper-slide').forEach(slide => {
+        if (slide.dataset.role === role) {
+          slide.style.display = 'block';
+        } else {
+          slide.style.display = 'none';
+        }
+      });
+      swiper.update(); // actualiza el Swiper después del filtrado
+    });
+  });
+</script>
 
