@@ -985,7 +985,6 @@ details > summary::-webkit-details-marker {
   justify-content: center !important;
 }
 .swiper-live .swiper-wrapper.centered .swiper-slide img {
-  width: 700px!important;
   transition: 0s;
 }
 
