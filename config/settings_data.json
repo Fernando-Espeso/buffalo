@@ -273,6 +273,16 @@
       "live": {
         "type": "live",
         "blocks": {
+          "item_wJFEw3": {
+            "type": "item",
+            "settings": {
+              "image": "shopify://shop_images/5-023-1-copy-scaled.jpg",
+              "link": "",
+              "caption": "",
+              "role": "photographer",
+              "name": "ANTHONY SEKLAOUI"
+            }
+          },
           "item_hDHCJ9": {
             "type": "item",
             "settings": {
@@ -385,6 +395,7 @@
           }
         },
         "block_order": [
+          "item_wJFEw3",
           "item_hDHCJ9",
           "item_jzPxHx",
           "item_79HgFx",
