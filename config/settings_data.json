@@ -145,6 +145,13 @@
       "stocklist": {
         "type": "stocklist",
         "blocks": {
+          "stocklist_P7cqJq": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Belgium",
+              "address": ""
+            }
+          },
           "stocklist_fzeXwk": {
             "type": "stocklist",
             "settings": {
@@ -161,6 +168,7 @@
           }
         },
         "block_order": [
+          "stocklist_P7cqJq",
           "stocklist_fzeXwk",
           "stocklist_jwfK44"
         ],
