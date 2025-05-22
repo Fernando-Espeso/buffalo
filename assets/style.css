@@ -878,8 +878,6 @@ details {
   padding:0px;
 }
 summary {
-  text-transform: uppercase;
-  text-align: center;
 }
 details summary::-webkit-details-marker {
   display:none!important;
