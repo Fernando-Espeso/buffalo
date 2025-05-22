@@ -1317,6 +1317,7 @@ fieldset {
   grid-gap: 3px;
   padding: 0px;
   display: flex;
+  flex-direction: column;
   border: 0px;
 }
 .product-variant-title {
