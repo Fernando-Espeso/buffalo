@@ -173,6 +173,13 @@
               "address": ""
             }
           },
+          "stocklist_J9xHhx": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Sevilla",
+              "address": ""
+            }
+          },
           "stocklist_QhjfhP": {
             "type": "stocklist",
             "settings": {
@@ -193,6 +200,7 @@
           "stocklist_jwfK44",
           "stocklist_nF3DeF",
           "stocklist_badXmz",
+          "stocklist_J9xHhx",
           "stocklist_QhjfhP",
           "stocklist_P7cqJq"
         ],
