@@ -52,18 +52,23 @@
 }
 {% endschema %}
 
+{% assign roles_string = "" %}
+{% for block in section.blocks %}
+  {% assign role = block.settings.role %}
+  {% unless roles_string contains role %}
+    {% assign roles_string = roles_string | append: role | append: "," %}
+  {% endunless %}
+{% endfor %}
+
+{% assign roles = roles_string | split: "," %}
+{% assign roles = roles | uniq %}
+
 <div class="category-filters">
-  {% assign roles = "" | split: "," %}
-  {% for block in section.blocks %}
-    {% assign role = block.settings.role %}
-    {% unless roles contains role %}
-      {% assign roles = roles | push: role %}
-    {% endunless %}
-  {% endfor %}
-  
   <ul class="filters">
     {% for role in roles %}
-      <li><button class="filter-btn" data-role="{{ role }}">{{ role | replace: "_", " " | capitalize }}</button></li>
+      {% unless role == "" %}
+        <li><button class="filter-btn" data-role="{{ role }}">{{ role | replace: "_", " " | capitalize }}</button></li>
+      {% endunless %}
     {% endfor %}
   </ul>
 </div>
