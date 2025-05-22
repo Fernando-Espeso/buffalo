@@ -51,6 +51,7 @@
   ]
 }
 {% endschema %}
+
 <div class="category-filters">
   {% assign roles = "" | split: "," %}
   {% for block in section.blocks %}
@@ -73,20 +74,20 @@
         {% assign link = block.settings.link %}
         {% assign caption = block.settings.caption %}
         
-        <div class="swiper-slide">
-          {% if link != blank %}
-            <a href="{{ link }}">
+        <div class="swiper-slide" data-role="{{ block.settings.role }}" data-name="{{ block.settings.name }}">
+          {% if block.settings.link != blank %}
+            <a href="{{ block.settings.link }}">
           {% endif %}
-          
-          {% if img != blank %}
-            <img src="{{ img | img_url: 'medium' }}" alt="{{ caption }}">
+        
+          {% if block.settings.image != blank %}
+            <img src="{{ block.settings.image | img_url: 'medium' }}" alt="{{ block.settings.caption }}">
           {% endif %}
-          
-          {% if caption != blank %}
-            <p class="caption">{{ caption }}</p>
+        
+          {% if block.settings.caption != blank %}
+            <p class="caption">{{ block.settings.caption }}</p>
           {% endif %}
-          
-          {% if link != blank %}
+        
+          {% if block.settings.link != blank %}
             </a>
           {% endif %}
         </div>
