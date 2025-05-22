@@ -1393,6 +1393,7 @@ div#products {
   z-index: 1000;
   position: relative;
   top: 10px;
+  left: 0px;
   cursor: pointer;
 }
 
