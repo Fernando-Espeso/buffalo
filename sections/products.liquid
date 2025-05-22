@@ -78,6 +78,10 @@
       <p>No product found</p>
     {% endif %}
   {% endfor %}
+  {% for block in section.blocks %}
+    {% assign product = block.settings.product %}
+    <pre>{{ product | json }}</pre>
+  {% endfor %}
 </div>
 
 
