@@ -1345,7 +1345,10 @@ section.two-products, .articles-block {
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
 }
-
+.contributors {
+  column-count: 2;
+  text-align: left;
+}
 .custom-image {
   bottom: 0;
   transform: translate(-50%, 0%);
