@@ -432,6 +432,22 @@ footer .container{
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
 }
+.contributors {
+  column-count: 2;
+  text-align: left;
+  font-family: Times New Roman, Times, serif;
+  font-size: var(--fsb);
+  line-height: clac(var(--fsb) + 5px);
+}
+.buy-block .description{
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: left;
+  font-family: Times New Roman, Times, serif;
+  font-size: var(--fsb);
+  padding: 0px;
+  line-height: clac(var(--fsb) + 5px);
+}
 .swiper-article.color{
   color: white;
 }
