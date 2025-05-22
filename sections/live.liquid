@@ -169,11 +169,7 @@
       const roleMatch = !currentRole || role === currentRole;
       const nameMatch = !currentName || name === currentName;
 
-      if (roleMatch && nameMatch) {
-        slide.style.opacity = '1';
-      } else {
-        slide.style.opacity = '0.4';
-      }
+      slide.style.display = (roleMatch && nameMatch) ? 'block' : 'none';
     });
 
     if (typeof swiper !== 'undefined') {
@@ -181,46 +177,59 @@
     }
   }
 
-  // Filtro por categoría (role)
-  document.querySelectorAll('.category-item').forEach(detail => {
-    detail.addEventListener('toggle', () => {
-      if (!detail.open) return;
+  // Click manual en summary para controlar apertura/cierre
+  document.querySelectorAll('.category-item summary').forEach(summary => {
+    summary.addEventListener('click', function (e) {
+      e.preventDefault(); // Evitar el toggle automático
 
-      const selectedRole = detail.dataset.role;
-      currentRole = selectedRole;
+      const details = summary.parentElement;
+      const selectedRole = details.dataset.role;
+
+      const isSameRole = currentRole === selectedRole;
+
+      // Cerrar todos
+      document.querySelectorAll('.category-item').forEach(d => d.removeAttribute('open'));
+      document.querySelectorAll('summary').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.name-btn').forEach(btn => btn.classList.remove('active'));
       currentName = null;
 
-      // Actualizar visual
-      document.querySelectorAll('summary').forEach(s => s.classList.remove('active'));
-      detail.querySelector('summary').classList.add('active');
-      document.querySelectorAll('.name-btn').forEach(btn => btn.classList.remove('active'));
+      if (isSameRole) {
+        // Si se hace click sobre la misma categoría activa, quitar filtro
+        currentRole = null;
+        updateSlides();
+      } else {
+        // Abrir esta y aplicar filtro
+        details.setAttribute('open', true);
+        summary.classList.add('active');
+        currentRole = selectedRole;
 
-      // Rellenar nombres
-      const nameList = document.getElementById(`names-${selectedRole.replace(/\s+/g, '-').toLowerCase()}`);
-      nameList.innerHTML = '';
-      const names = new Set();
+        // Rellenar nombres
+        const nameList = document.getElementById(`names-${selectedRole.replace(/\s+/g, '-').toLowerCase()}`);
+        nameList.innerHTML = '';
+        const names = new Set();
 
-      swiperSlides.forEach(slide => {
-        if (slide.dataset.role === selectedRole && slide.dataset.name) {
-          names.add(slide.dataset.name);
-        }
-      });
+        swiperSlides.forEach(slide => {
+          if (slide.dataset.role === selectedRole && slide.dataset.name) {
+            names.add(slide.dataset.name);
+          }
+        });
 
-      names.forEach(name => {
-        const li = document.createElement('li');
-        const button = document.createElement('button');
-        button.textContent = name;
-        button.classList.add('name-btn');
-        button.setAttribute('data-name', name);
-        li.appendChild(button);
-        nameList.appendChild(li);
-      });
+        names.forEach(name => {
+          const li = document.createElement('li');
+          const button = document.createElement('button');
+          button.textContent = name;
+          button.classList.add('name-btn');
+          button.setAttribute('data-name', name);
+          li.appendChild(button);
+          nameList.appendChild(li);
+        });
 
-      updateSlides();
+        updateSlides();
+      }
     });
   });
 
-  // Click en name-btn para filtrar
+  // Filtro por nombre
   document.addEventListener('click', function (e) {
     if (e.target.matches('.name-btn')) {
       const selectedName = e.target.dataset.name;
@@ -235,15 +244,6 @@
       }
 
       updateSlides();
-    }
-
-    if (e.target.tagName === 'SUMMARY') {
-      // toggle 'active' solo si no está ya
-      const summary = e.target;
-      if (!summary.classList.contains('active')) {
-        document.querySelectorAll('summary').forEach(s => s.classList.remove('active'));
-        summary.classList.add('active');
-      }
     }
   });
 </script>
