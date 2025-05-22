@@ -21,9 +21,27 @@
           "type": "text",
           "id": "caption",
           "label": "Texto (caption)"
+        },
+        {
+          "type": "select",
+          "id": "role",
+          "label": "Categoría",
+          "options": [
+            { "value": "photographer", "label": "Photographer" },
+            { "value": "director", "label": "Director" },
+            { "value": "fashion_editor", "label": "Fashion Editor" },
+            { "value": "hot_picks", "label": "Hot Picks" },
+            { "value": "directors", "label": "Directors" }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Nombre"
         }
       ]
     }
+    
   ],
   "presets": [
     {
@@ -33,7 +51,21 @@
   ]
 }
 {% endschema %}
-
+<div class="category-filters">
+  {% assign roles = "" | split: "," %}
+  {% for block in section.blocks %}
+    {% assign role = block.settings.role %}
+    {% unless roles contains role %}
+      {% assign roles = roles | push: role %}
+    {% endunless %}
+  {% endfor %}
+  
+  <ul class="filters">
+    {% for role in roles %}
+      <li><button class="filter-btn" data-role="{{ role }}">{{ role | replace: "_", " " | capitalize }}</button></li>
+    {% endfor %}
+  </ul>
+</div>
 <div class="swiper-live">
     <div class="swiper-wrapper">
       {% for block in section.blocks %}
