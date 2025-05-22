@@ -48,7 +48,8 @@
                 {{ related_product.price | money }}
               </span>
             </p>
-          
+            <p>Compare: {{ related_product.compare_at_price }} / Price: {{ related_product.price }}</p>
+
           {% else %}
             <p>{{ related_product.price | money }}</p>
           {% endif %}
