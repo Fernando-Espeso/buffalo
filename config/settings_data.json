@@ -155,86 +155,14 @@
           "stocklist_jwfK44": {
             "type": "stocklist",
             "settings": {
-              "shop_name": "Luzia",
+              "shop_name": "Milan",
               "address": "<p>C. de Serrano, 64<br/>Salamanca, 28001 Madrid </p><p>España</p>"
-            }
-          },
-          "stocklist_mgt6Rm": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Nora",
-              "address": "<p>C. de Velázquez, 32<br/>Salamanca, 28001 Madrid<br/>España</p>"
-            }
-          },
-          "stocklist_AzMaT4": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Casa Mila",
-              "address": "<p>C. de Castelló, 45<br/>Salamanca, 28001 Madrid<br/>España</p>"
-            }
-          },
-          "stocklist_TJnG7F": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Atelier",
-              "address": "<p>C. de Ayala, 21<br/>Salamanca, 28001 Madrid<br/>España</p>"
-            }
-          },
-          "stocklist_TaUtEG": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Selma",
-              "address": "<p>C. de Claudio Coello, 13<br/>Salamanca, 28001 Madrid<br/>España</p>"
-            }
-          },
-          "stocklist_yrFcgP": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Menta",
-              "address": "<p>C. de Núñez de Balboa, 90<br/>Salamanca, 28001 Madrid<br/>España</p>"
-            }
-          },
-          "stocklist_mWJUrj": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Lirio",
-              "address": "<p>C. del Príncipe de Vergara, 26<br/>Salamanca, 28001 Madrid<br/>España</p>"
-            }
-          },
-          "stocklist_EXiMLD": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Forma",
-              "address": "<p>C. de José Ortega y Gasset, 8<br/>Salamanca, 28001 Madrid,<br/>España</p>"
-            }
-          },
-          "stocklist_AcFPby": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Serrano 64",
-              "address": "<p>C. de Serrano, 64<br/>Salamanca, 28001 Madrid                      España</p>"
-            }
-          },
-          "stocklist_4B3hYb": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Aura",
-              "address": "<p>C. de Maldonado, 17<br/>Salamanca, 28001 Madrid<br/>España</p>"
             }
           }
         },
         "block_order": [
           "stocklist_fzeXwk",
-          "stocklist_jwfK44",
-          "stocklist_mgt6Rm",
-          "stocklist_AzMaT4",
-          "stocklist_TJnG7F",
-          "stocklist_TaUtEG",
-          "stocklist_yrFcgP",
-          "stocklist_mWJUrj",
-          "stocklist_EXiMLD",
-          "stocklist_AcFPby",
-          "stocklist_4B3hYb"
+          "stocklist_jwfK44"
         ],
         "settings": {}
       },
