@@ -1,6 +1,6 @@
 {% schema %}
 {
-  "name": "Related Products",
+  "name": "Products",
   "settings": [],
   "blocks": [
     {
@@ -37,7 +37,7 @@
           <div>{{ related_product.title }}</div>
           
           {% if related_product.available == false %}
-            <p class="sold-out">Agotado</p>
+            <p class="sold-out">Sold Out</p>
           
           {% elsif related_product.compare_at_price > related_product.price %}
             <p>
