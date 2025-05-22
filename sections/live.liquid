@@ -105,6 +105,17 @@
   <div class="swiper-pagination"></div>
 
 <style>
+      .swiper-slide {
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        opacity: 1;
+        visibility: visible;
+      }
+      
+      .swiper-slide.hidden-by-filter {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
     .swiper-pagination-bullet-active {
         opacity: black;
         background: black;
@@ -165,13 +176,17 @@
     swiperSlides.forEach(slide => {
       const role = slide.dataset.role;
       const name = slide.dataset.name;
-
+  
       const roleMatch = !currentRole || role === currentRole;
       const nameMatch = !currentName || name === currentName;
-
-      slide.style.display = (roleMatch && nameMatch) ? 'opacity' : '0.4';
+  
+      if (roleMatch && nameMatch) {
+        slide.classList.remove('hidden-by-filter');
+      } else {
+        slide.classList.add('hidden-by-filter');
+      }
     });
-
+  
     if (typeof swiper !== 'undefined') {
       swiper.update();
     }
