@@ -149,92 +149,20 @@
             "type": "stocklist",
             "settings": {
               "shop_name": "Paris",
-              "address": "<p><strong>KDPRESSE</strong></p><p>101 Rue du Faubourg </p><p>Saint-Denis75010 </p><p>Paris</p><p></p><p><strong>Artazart</strong></p><p>83 Quai de Valmy75010 Paris</p><p><strong>Bogopresse (Kiosque Bogo)</strong>36 Rue de Sèvres75007 Paris<strong>Cahier Central</strong>26 Rue du Château d’Eau75010 Paris<strong>Palais De Tokyo</strong>13 Av. du Président Wilson75116 Paris<strong>Ofr</strong>20 Rue Dupetit-Thouars75003 Paris<strong>Thierry Presse</strong>76 Rue du Château d’Eau75010 Paris<strong>Yvon Lambert</strong>14 Rue des Filles du Calvaire75003 Paris<strong>Smith & Son Marais</strong>20 Rue des Rosiers75004 Paris<strong>Smith & Son Rue de Rivoli</strong>248 Rue de Rivoli75001 Paris</p>"
+              "address": "<p><strong>KDPRESSE</strong></p><p>101 Rue du Faubourg </p><p>Saint-Denis75010 </p><p>Paris</p><p></p><p><strong>Artazart</strong></p><p>83 Quai de Valmy 75010 </p><p>Paris</p><p></p><p><strong>Bogopresse (Kiosque Bogo)</strong></p><p>36 Rue de Sèvres75007 </p><p>Paris</p><p></p><p><strong>Cahier Central</strong></p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p><strong>Palais De Tokyo</strong></p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p><strong>Ofr</strong></p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p><strong>Thierry Presse</strong></p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p><strong>Yvon Lambert</strong></p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p><strong>Smith & Son Marais</strong></p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p><strong>Smith & Son Rue de Rivoli</strong></p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
             }
           },
           "stocklist_jwfK44": {
             "type": "stocklist",
             "settings": {
-              "shop_name": "Luzia",
-              "address": "<p>C. de Serrano, 64<br/>Salamanca, 28001 Madrid </p><p>España</p>"
-            }
-          },
-          "stocklist_mgt6Rm": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Nora",
-              "address": "<p>C. de Velázquez, 32<br/>Salamanca, 28001 Madrid<br/>España</p>"
-            }
-          },
-          "stocklist_AzMaT4": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Casa Mila",
-              "address": "<p>C. de Castelló, 45<br/>Salamanca, 28001 Madrid<br/>España</p>"
-            }
-          },
-          "stocklist_TJnG7F": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Atelier",
-              "address": "<p>C. de Ayala, 21<br/>Salamanca, 28001 Madrid<br/>España</p>"
-            }
-          },
-          "stocklist_TaUtEG": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Selma",
-              "address": "<p>C. de Claudio Coello, 13<br/>Salamanca, 28001 Madrid<br/>España</p>"
-            }
-          },
-          "stocklist_yrFcgP": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Menta",
-              "address": "<p>C. de Núñez de Balboa, 90<br/>Salamanca, 28001 Madrid<br/>España</p>"
-            }
-          },
-          "stocklist_mWJUrj": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Lirio",
-              "address": "<p>C. del Príncipe de Vergara, 26<br/>Salamanca, 28001 Madrid<br/>España</p>"
-            }
-          },
-          "stocklist_EXiMLD": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Forma",
-              "address": "<p>C. de José Ortega y Gasset, 8<br/>Salamanca, 28001 Madrid,<br/>España</p>"
-            }
-          },
-          "stocklist_AcFPby": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Serrano 64",
-              "address": "<p>C. de Serrano, 64<br/>Salamanca, 28001 Madrid                      España</p>"
-            }
-          },
-          "stocklist_4B3hYb": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Aura",
-              "address": "<p>C. de Maldonado, 17<br/>Salamanca, 28001 Madrid<br/>España</p>"
+              "shop_name": "Milan",
+              "address": "<p><strong>KDPRESSE</strong></p><p>101 Rue du Faubourg </p><p>Saint-Denis75010 </p><p>Paris</p><p></p><p><strong>Artazart</strong></p><p>83 Quai de Valmy 75010 </p><p>Paris</p><p></p><p><strong>Bogopresse (Kiosque Bogo)</strong></p><p>36 Rue de Sèvres75007 </p><p>Paris</p><p></p><p><strong>Cahier Central</strong></p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p><strong>Palais De Tokyo</strong></p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p><strong>Ofr</strong></p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p></p><p></p><p></p>"
             }
           }
         },
         "block_order": [
           "stocklist_fzeXwk",
-          "stocklist_jwfK44",
-          "stocklist_mgt6Rm",
-          "stocklist_AzMaT4",
-          "stocklist_TJnG7F",
-          "stocklist_TaUtEG",
-          "stocklist_yrFcgP",
-          "stocklist_mWJUrj",
-          "stocklist_EXiMLD",
-          "stocklist_AcFPby",
-          "stocklist_4B3hYb"
+          "stocklist_jwfK44"
         ],
         "settings": {}
       },
