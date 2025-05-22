@@ -953,20 +953,30 @@ details > summary::-webkit-details-marker {
 .related.pr .product{
   grid-column: span 1!important;
 }
-.shuffle-mix{
+@keyframes crazy-colors {
+  0%   { background-color: blue; }
+  20%  { background-color: red; }
+  40%  { background-color: green; }
+  60%  { background-color: yellow; }
+  80%  { background-color: black; }
+  100% { background-color: white; }
+}
+
+.shuffle-mix {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   z-index: 200;
   display: none;
-  background: rgba(255, 255, 255, 0); /* empieza transparente */
-  transition: background 0s ease-in-out;
+  background-color: black;
+  animation: none;
 }
+
 .shuffle-mix.active {
   display: block;
-  background: rgba(0, 0, 0, 0.8); /* animación a fondo oscuro */
+  animation: crazy-colors 1.2s steps(6, end) infinite;
 }
 section.awards-section {
   padding: 10px;
