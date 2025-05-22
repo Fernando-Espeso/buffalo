@@ -824,8 +824,8 @@ div#shopify-section-stocklist, div#shopify-section-about {
   letter-spacing: 0px;
 }
 .stockist-search {
+  padding-left: 10px;
   font-family: Helvetica, sans-serif;
-  padding: 0px;
   color: white;
 }
 input#stockistFilter{
