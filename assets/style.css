@@ -674,8 +674,21 @@ form#cart-wrapper {
   display: grid;
   grid-column: 2 / span 1;
 }
+div#bag {
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-gap: 3px;
+}
 .item > div {
   border-bottom: 1px solid var(--bl);
+}
+.product-variant-title {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
 }
 .thumb{
   border-left: 1px solid var(--bl);
