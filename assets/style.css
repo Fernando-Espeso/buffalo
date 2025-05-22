@@ -719,6 +719,7 @@ div#shopify-section-about {
   display: none;
 }
 .category-filters {
+  z-index: 1000;
   position: absolute;
   height: fit-content;
   padding: 10px;
