@@ -715,6 +715,11 @@ div#shopify-section-about {
   height: calc(var(--m) - var(--h));
   border-right: 1px solid var(--bl);
 }
+button.name-btn.active {
+  color: red;
+}summary.active {
+  color: red;
+}
 .sub-menu{
   display: none;
 }
