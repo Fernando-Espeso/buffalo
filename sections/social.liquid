@@ -57,6 +57,16 @@
           autoplay: {
             delay: 2500,
             disableOnInteraction: false,
+          },
+          breakpoints: {
+            // Cuando la pantalla es >= 0px (móviles)
+            0: {
+              slidesPerView: 4.5,
+            },
+            // Cuando la pantalla es >= 768px (tablets y escritorios)
+            768: {
+              slidesPerView: 9.5,
+            }
           }
         });
 });
