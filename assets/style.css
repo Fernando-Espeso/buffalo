@@ -971,12 +971,12 @@ details > summary::-webkit-details-marker {
   z-index: 200;
   display: none;
   background-color: black;
-  animation: none;
+  animation: none; /* por defecto no animado */
 }
 
 .shuffle-mix.active {
   display: block;
-  animation: crazy-colors 1s steps(12, end) infinite;
+  animation: crazy-colors 1.2s steps(20, end) infinite;
 }
 section.awards-section {
   padding: 10px;
