@@ -169,7 +169,7 @@
       const roleMatch = !currentRole || role === currentRole;
       const nameMatch = !currentName || name === currentName;
 
-      slide.style.display = (roleMatch && nameMatch) ? 'block' : 'none';
+      slide.style.display = (roleMatch && nameMatch) ? 'opacity' : '0.4';
     });
 
     if (typeof swiper !== 'undefined') {
