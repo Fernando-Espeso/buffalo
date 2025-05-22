@@ -278,7 +278,9 @@
             "settings": {
               "image": "shopify://shop_images/1-scaled.jpg",
               "link": "",
-              "caption": "Corset, top, sleeve and skirt CHARLOTTE KNOWLES"
+              "caption": "Corset, top, sleeve and skirt CHARLOTTE KNOWLES",
+              "role": "photographer",
+              "name": "ANTHONY SEKLAOUI"
             }
           },
           "item_jzPxHx": {
@@ -286,7 +288,9 @@
             "settings": {
               "image": "shopify://shop_images/221204_AG_VALENTINOxCAP74024_04_0437-copy_2-2-copy_4x5-scaled.jpg",
               "link": "",
-              "caption": "Jumper CHANEL, skirt GUCCI, necklace PRADA, bangle vintage from COSTUME STUDIO, tights stylist’s own."
+              "caption": "Jumper CHANEL, skirt GUCCI, necklace PRADA, bangle vintage from COSTUME STUDIO, tights stylist’s own.",
+              "role": "photographer",
+              "name": ""
             }
           },
           "item_79HgFx": {
@@ -294,7 +298,9 @@
             "settings": {
               "image": "shopify://shop_images/Screenshot_2025-04-14_at_15.09.36.png",
               "link": "",
-              "caption": ""
+              "caption": "",
+              "role": "photographer",
+              "name": ""
             }
           },
           "item_WPnNwY": {
@@ -302,7 +308,9 @@
             "settings": {
               "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.13.png",
               "link": "",
-              "caption": ""
+              "caption": "",
+              "role": "photographer",
+              "name": ""
             }
           },
           "item_XQfJmM": {
@@ -310,7 +318,9 @@
             "settings": {
               "image": "shopify://shop_images/5-023-1-copy-scaled.jpg",
               "link": "",
-              "caption": ""
+              "caption": "",
+              "role": "photographer",
+              "name": ""
             }
           },
           "item_eTTTB6": {
@@ -318,7 +328,9 @@
             "settings": {
               "image": "shopify://shop_images/5-009_2-copy-scaled.jpg",
               "link": "",
-              "caption": ""
+              "caption": "",
+              "role": "photographer",
+              "name": ""
             }
           },
           "item_cXFtnV": {
@@ -326,7 +338,9 @@
             "settings": {
               "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.41.png",
               "link": "",
-              "caption": ""
+              "caption": "",
+              "role": "photographer",
+              "name": ""
             }
           },
           "item_pGaEKW": {
@@ -334,7 +348,9 @@
             "settings": {
               "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.04.png",
               "link": "",
-              "caption": ""
+              "caption": "",
+              "role": "photographer",
+              "name": ""
             }
           },
           "item_RkEN6y": {
@@ -342,7 +358,9 @@
             "settings": {
               "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.26.08.png",
               "link": "shopify://blogs/live/shuffle",
-              "caption": "Some text"
+              "caption": "Some text",
+              "role": "photographer",
+              "name": ""
             }
           },
           "item_GPedRn": {
@@ -350,7 +368,9 @@
             "settings": {
               "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.30.png",
               "link": "",
-              "caption": ""
+              "caption": "",
+              "role": "photographer",
+              "name": ""
             }
           },
           "item_dfDrAx": {
@@ -358,7 +378,9 @@
             "settings": {
               "image": "shopify://shop_images/221204_AG_VALENTINOxCAP74024_08_0850_24_5-copy-scaled.jpg",
               "link": "",
-              "caption": ""
+              "caption": "",
+              "role": "photographer",
+              "name": ""
             }
           }
         },
