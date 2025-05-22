@@ -51,6 +51,19 @@
           {% else %}
             <p>{{ related_product.price | money }}</p>
           {% endif %}
+          {% assign variant = related_product.variants.first %}
+{% if variant.compare_at_price and variant.compare_at_price > variant.price %}
+  <p>
+    <span class="price-original" style="text-decoration: line-through; color: #999;">
+      {{ variant.compare_at_price | money }}
+    </span>
+    <span class="price-sale" style="color: red; font-weight: bold;">
+      {{ variant.price | money }}
+    </span>
+  </p>
+{% else %}
+  <p>{{ variant.price | money }}</p>
+{% endif %}
         </div>
 
         <a href="{{ related_product.url }}">
