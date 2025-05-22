@@ -24,13 +24,12 @@
   grid-gap:3px;
 }
 .custom-image {
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 50%;
+  top: 10px;
+  z-index: 1;
   position: absolute;
   margin: 0 auto;
   padding: 0 10px;
-  width: 270px;
+  width: 182px;
 }
 /* CSS Variables */
 :root {
@@ -898,6 +897,7 @@ input#stockistFilter::placeholder{
 .gallery{
   display: grid;
   row-gap: 3px;
+  position: relative;
 }
 .title-store{
   text-transform: uppercase;
