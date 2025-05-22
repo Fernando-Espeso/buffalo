@@ -64,14 +64,16 @@
 {% assign roles = roles | uniq %}
 
 <div class="category-filters">
-  <ul class="filters">
-    {% for role in roles %}
-      {% unless role == "" %}
-        <li><a class="filter-btn" data-role="{{ role }}">{{ role | replace: "_", " " | capitalize }}</a></li>
-      {% endunless %}
-    {% endfor %}
-  </ul>
+  {% for role in roles %}
+    {% unless role == "" %}
+      <details class="category-item" data-role="{{ role }}">
+        <summary>{{ role | replace: "_", " " | capitalize }}</summary>
+        <ul class="names-list" id="names-{{ role }}"></ul>
+      </details>
+    {% endunless %}
+  {% endfor %}
 </div>
+
 <div class="swiper-live">
     <div class="swiper-wrapper">
       {% for block in section.blocks %}
