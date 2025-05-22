@@ -202,7 +202,18 @@ const swiper = new Swiper('.swiper-live', {
       swiper.update();
     }
   }
-
+  function updateSwiperCentering(swiper) {
+    const totalSlides = swiper.slides.filter(slide => !slide.classList.contains('swiper-slide-duplicate')).length;
+  
+    if (totalSlides === 1) {
+      swiper.params.centeredSlides = true;
+    } else {
+      swiper.params.centeredSlides = false;
+    }
+  
+    swiper.update(); // importante para que tome los nuevos parámetros
+  }
+  updateSwiperCentering(swiper);
   // Click manual en summary para controlar apertura/cierre
   document.querySelectorAll('.category-item summary').forEach(summary => {
     summary.addEventListener('click', function (e) {
