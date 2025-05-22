@@ -534,11 +534,11 @@
               "half": true
             }
           },
-          "product_nfxn6y": {
+          "product_gVfgBV": {
             "type": "product",
             "settings": {
-              "product": "issue-13-la-zowie",
-              "half": true
+              "product": "issue-13-the-rise-and-fall",
+              "half": false
             }
           }
         },
@@ -548,7 +548,7 @@
           "product_HCdyPL",
           "product_TcJCRq",
           "product_qc8zY7",
-          "product_nfxn6y"
+          "product_gVfgBV"
         ],
         "settings": {}
       },
