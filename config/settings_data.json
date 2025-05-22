@@ -173,6 +173,20 @@
               "address": ""
             }
           },
+          "stocklist_QqzTDa": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Bratislava",
+              "address": ""
+            }
+          },
+          "stocklist_RhAyMM": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Andorra",
+              "address": ""
+            }
+          },
           "stocklist_J9xHhx": {
             "type": "stocklist",
             "settings": {
@@ -200,6 +214,8 @@
           "stocklist_jwfK44",
           "stocklist_nF3DeF",
           "stocklist_badXmz",
+          "stocklist_QqzTDa",
+          "stocklist_RhAyMM",
           "stocklist_J9xHhx",
           "stocklist_QhjfhP",
           "stocklist_P7cqJq"
