@@ -984,6 +984,12 @@ details > summary::-webkit-details-marker {
 .swiper-live .swiper-wrapper.centered {
   justify-content: center !important;
 }
+.swiper-live .swiper-wrapper.centered .swiper-slide img {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  z-index: 1;
+  transform: scale(2);
+}
 
 .shuffle-mix {
   width: 100vw;
