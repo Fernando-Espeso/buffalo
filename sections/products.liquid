@@ -86,6 +86,11 @@
         {% else %}
           <p>{{ product.price | money }}</p>
         {% endif %}
+        <a href="{{ related_product.url }}">
+          {% if related_product.featured_image %}
+            <img src="{{ related_product.featured_image | img_url: 'master' }}" alt="{{ related_product.title }}">
+          {% endif %}
+        </a>
       </div>
     {% endif %}
   {% endfor %}
