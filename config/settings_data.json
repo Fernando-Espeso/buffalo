@@ -145,6 +145,13 @@
       "stocklist": {
         "type": "stocklist",
         "blocks": {
+          "stocklist_badXmz": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "",
+              "address": "<p>Madrid</p>"
+            }
+          },
           "stocklist_P7cqJq": {
             "type": "stocklist",
             "settings": {
@@ -168,6 +175,7 @@
           }
         },
         "block_order": [
+          "stocklist_badXmz",
           "stocklist_P7cqJq",
           "stocklist_fzeXwk",
           "stocklist_jwfK44"
