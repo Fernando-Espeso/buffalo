@@ -1397,7 +1397,7 @@ div#products {
   cursor: pointer;
 }
 .article-content .description {
-  text-align: center;
+  text-align: center!important;
 }
 .sub-menu.active {
   text-transform: uppercase;
