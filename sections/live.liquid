@@ -267,7 +267,7 @@ const swiper = new Swiper('.swiper-live', {
 
         names.forEach(name => {
           const li = document.createElement('li');
-          const button = document.createElement('button');
+          const button = document.createElement('div');
           button.textContent = name;
           button.classList.add('name-btn');
           button.setAttribute('data-name', name);
