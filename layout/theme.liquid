@@ -139,9 +139,11 @@
         {% endfor %}
       ];
     </script>
+    
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const link = document.querySelector('.your-brand-link');
+        const shuffleDiv = document.querySelector('.shuffle-mix');
     
         if (link && window.yourBrandPosts && window.yourBrandPosts.length > 0) {
           link.addEventListener('click', function (e) {
@@ -149,29 +151,22 @@
     
             const randomIndex = Math.floor(Math.random() * window.yourBrandPosts.length);
             const randomUrl = window.yourBrandPosts[randomIndex];
-            window.location.href = randomUrl;
+    
+            // Mostrar y animar el fondo
+            shuffleDiv.style.display = 'block';
+            setTimeout(() => {
+              shuffleDiv.classList.add('active');
+            }, 10); // pequeño delay para asegurar el render antes de animar
+    
+            // Redirigir después de 2 segundos
+            setTimeout(() => {
+              window.location.href = randomUrl;
+            }, 2000);
           });
         }
       });
     </script>
-    <script>
-      $(document).ready(function () {
-        $('.your-brand-link').on('click', function (e) {
-          e.preventDefault(); // Previene el cambio inmediato de página
     
-          const targetUrl = $(this).attr('href');
-    
-          // Muestra el div y activa la animación
-          $('.shuffle-mix').show(0, function () {
-            $(this).addClass('active');
-          });
-    
-          setTimeout(function () {
-            window.location.href = targetUrl;
-          }, 10000);
-        });
-      });
-    </script>
     {%- if template contains 'product' -%}
       {{ 'global-product.js' | asset_url | script_tag }}
     {%- endif -%}
