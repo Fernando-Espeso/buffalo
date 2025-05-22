@@ -35,11 +35,6 @@
       <div class="product {% if block.settings.half %}half{% endif %}">
         <div class="title-thang">
           <div>{{ related_product.title }}</div>
-          <p>
-            Precio: {{ related_product.price | money }} <br>
-            Compare producto: {{ related_product.compare_at_price | money }} <br>
-            Compare variante: {{ related_product.variants.first.compare_at_price | money }}
-          </p>
           {% if related_product.available == false %}
             <p class="sold-out">Sold Out</p>
           
