@@ -113,7 +113,7 @@
       
       .swiper-slide.hidden-by-filter {
         display:none;
-        
+
         visibility: hidden;
         pointer-events: none;
       }
@@ -137,19 +137,29 @@
     }
 </style>
 <script>
-  const swiper = new Swiper('.swiper-live', {
-    direction: 'horizontal',
-    slidesPerView: 9.5,
-    loopedSlides: 20,
-    spaceBetween: 3,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-      renderBullet: function (index, className) {
-        return `<span class="${className}"></span>`;
-      }
+const swiper = new Swiper('.swiper-live', {
+  direction: 'horizontal',
+  spaceBetween: 3,
+  loopedSlides: 20,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    renderBullet: function (index, className) {
+      return `<span class="${className}"></span>`;
+    }
+  },
+  breakpoints: {
+    // Cuando la pantalla es >= 0px (móviles)
+    0: {
+      slidesPerView: 4.5,
     },
-  });
+    // Cuando la pantalla es >= 768px (tablets y escritorios)
+    768: {
+      slidesPerView: 9.5,
+    }
+  }
+});
+
 
   // Escuchar clicks en las imágenes del swiper
   document.querySelectorAll('.swiper-live .swiper-slide img').forEach(img => {
