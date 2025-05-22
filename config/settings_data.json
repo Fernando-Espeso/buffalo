@@ -499,11 +499,11 @@
       "products": {
         "type": "products",
         "blocks": {
-          "product_gVfgBV": {
+          "product_iRP8ee": {
             "type": "product",
             "settings": {
-              "product": "issue-13-the-rise-and-fall",
-              "half": true
+              "product": "on-sale",
+              "half": false
             }
           },
           "product_c6c4wD": {
@@ -543,7 +543,7 @@
           }
         },
         "block_order": [
-          "product_gVfgBV",
+          "product_iRP8ee",
           "product_c6c4wD",
           "product_HCdyPL",
           "product_TcJCRq",
