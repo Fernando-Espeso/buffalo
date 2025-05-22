@@ -874,7 +874,9 @@ input#stockistFilter::placeholder{
   text-align: left;
   padding: 0px 0px 3px;
 }
-
+details {
+  padding:0px;
+}
 summary {
   text-transform: uppercase;
   text-align: center;
