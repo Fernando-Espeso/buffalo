@@ -724,7 +724,9 @@ div#shopify-section-about {
   font-family: var(--font);
   text-transform: uppercase;
 }
-
+.category-filters summary{
+  text-align: left;
+}
 .column-text {
   margin: 0 auto;
   font-family: 'Times New Roman', Times, serif;
