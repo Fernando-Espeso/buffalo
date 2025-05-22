@@ -20,7 +20,6 @@
       ]
     }
   ],
-  "max_blocks": 6,
   "presets": [
     {
       "name": "Products"
@@ -51,6 +50,10 @@
       </div>
     </div>
   {% endif %}
+{% endfor %}
+{% for block in section.blocks %}
+  {% assign product = block.settings.product %}
+  <pre>{{ product | json }}</pre>
 {% endfor %}
 
 
