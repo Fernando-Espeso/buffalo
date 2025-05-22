@@ -499,20 +499,6 @@
       "products": {
         "type": "products",
         "blocks": {
-          "product_yaCGNp": {
-            "type": "product",
-            "settings": {
-              "product": "issue-13-sale",
-              "half": true
-            }
-          },
-          "product_gVfgBV": {
-            "type": "product",
-            "settings": {
-              "product": "issue-13-the-rise-and-fall",
-              "half": true
-            }
-          },
           "product_c6c4wD": {
             "type": "product",
             "settings": {
@@ -540,15 +526,29 @@
               "product": "issue-13-la-zowie",
               "half": true
             }
+          },
+          "product_yaCGNp": {
+            "type": "product",
+            "settings": {
+              "product": "issue-13-sale",
+              "half": true
+            }
+          },
+          "product_iRP8ee": {
+            "type": "product",
+            "settings": {
+              "product": "on-sale",
+              "half": true
+            }
           }
         },
         "block_order": [
-          "product_yaCGNp",
-          "product_gVfgBV",
           "product_c6c4wD",
           "product_HCdyPL",
           "product_TcJCRq",
-          "product_qc8zY7"
+          "product_qc8zY7",
+          "product_yaCGNp",
+          "product_iRP8ee"
         ],
         "settings": {}
       },
