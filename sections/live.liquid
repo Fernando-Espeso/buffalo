@@ -67,7 +67,7 @@
   <ul class="filters">
     {% for role in roles %}
       {% unless role == "" %}
-        <li><button class="filter-btn" data-role="{{ role }}">{{ role | replace: "_", " " | capitalize }}</button></li>
+        <li><a class="filter-btn" data-role="{{ role }}">{{ role | replace: "_", " " | capitalize }}</a></li>
       {% endunless %}
     {% endfor %}
   </ul>
