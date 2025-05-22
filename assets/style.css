@@ -1424,8 +1424,8 @@ div#products {
   position: relative;
   width: 100%;
   display: flex;
-  grid-gap: 4px;
-  align-items: center;
+  grid-gap: 0px;
+  text-align: left;
   padding: 10px var(--space);
   display: flex;
   flex-direction: column;
