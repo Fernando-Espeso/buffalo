@@ -715,8 +715,12 @@ div#shopify-section-about {
   height: calc(var(--m) - var(--h));
   border-right: 1px solid var(--bl);
 }
+button.name-btn {
+  font-family: var(--font);
+  color: red;
+}
 button.name-btn.active {
-  font-family: var(--font);S
+  font-family: var(--font);
   color: red;
 }summary.active {
   color: red;
