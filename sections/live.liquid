@@ -156,41 +156,96 @@
   });
 </script>
 <script>
+  let currentRole = null;
+  let currentName = null;
+
+  const swiperSlides = document.querySelectorAll('.swiper-slide');
+
+  function updateSlides() {
+    swiperSlides.forEach(slide => {
+      const role = slide.dataset.role;
+      const name = slide.dataset.name;
+
+      const roleMatch = !currentRole || role === currentRole;
+      const nameMatch = !currentName || name === currentName;
+
+      if (roleMatch && nameMatch) {
+        slide.style.display = 'block';
+      } else {
+        slide.style.display = 'none';
+      }
+    });
+
+    if (typeof swiper !== 'undefined') {
+      swiper.update();
+    }
+  }
+
+  // Filtro por categoría (role)
   document.querySelectorAll('.category-item').forEach(detail => {
     detail.addEventListener('toggle', () => {
       if (!detail.open) return;
 
       const selectedRole = detail.dataset.role;
-      const nameList = document.getElementById(`names-${selectedRole.replace(/\s+/g, '-').toLowerCase()}`);
-      nameList.innerHTML = ''; // limpiar
+      currentRole = selectedRole;
+      currentName = null;
 
+      // Actualizar visual
+      document.querySelectorAll('summary').forEach(s => s.classList.remove('active'));
+      detail.querySelector('summary').classList.add('active');
+      document.querySelectorAll('.name-btn').forEach(btn => btn.classList.remove('active'));
+
+      // Rellenar nombres
+      const nameList = document.getElementById(`names-${selectedRole.replace(/\s+/g, '-').toLowerCase()}`);
+      nameList.innerHTML = '';
       const names = new Set();
 
-      // mostrar solo slides con el role actual
-      document.querySelectorAll('.swiper-slide').forEach(slide => {
-        const role = slide.dataset.role;
-        const name = slide.dataset.name;
-
-        if (role === selectedRole) {
-          slide.style.opacity = '1';
-          if (name) names.add(name);
-        } else {
-          slide.style.opacity = '0.3';
+      swiperSlides.forEach(slide => {
+        if (slide.dataset.role === selectedRole && slide.dataset.name) {
+          names.add(slide.dataset.name);
         }
       });
 
-      // rellenar la lista de nombres
       names.forEach(name => {
         const li = document.createElement('li');
-        li.textContent = name;
+        const button = document.createElement('button');
+        button.textContent = name;
+        button.classList.add('name-btn');
+        button.setAttribute('data-name', name);
+        li.appendChild(button);
         nameList.appendChild(li);
       });
 
-      // actualizar swiper
-      if (typeof swiper !== 'undefined') {
-        swiper.update();
-      }
+      updateSlides();
     });
   });
+
+  // Click en name-btn para filtrar
+  document.addEventListener('click', function (e) {
+    if (e.target.matches('.name-btn')) {
+      const selectedName = e.target.dataset.name;
+
+      if (currentName === selectedName) {
+        currentName = null;
+        e.target.classList.remove('active');
+      } else {
+        currentName = selectedName;
+        document.querySelectorAll('.name-btn').forEach(btn => btn.classList.remove('active'));
+        e.target.classList.add('active');
+      }
+
+      updateSlides();
+    }
+
+    if (e.target.tagName === 'SUMMARY') {
+      // toggle 'active' solo si no está ya
+      const summary = e.target;
+      if (!summary.classList.contains('active')) {
+        document.querySelectorAll('summary').forEach(s => s.classList.remove('active'));
+        summary.classList.add('active');
+      }
+    }
+  });
 </script>
+
 
