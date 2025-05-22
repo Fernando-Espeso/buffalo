@@ -63,25 +63,35 @@
     {% endif %}
   {% endfor %}
   {% for block in section.blocks %}
-    {% assign product = block.settings.product %}
-    {% if product %}
+    {% assign selected = block.settings.product %}
+    {% if selected %}
+      {% assign handle = selected.handle %}
+      {% assign product = all_products[handle] %}
       {% assign variant = product.variants.first %}
-      <div>
-        <h3>{{ product.title }}</h3>
-        {% if variant.compare_at_price and variant.compare_at_price > variant.price %}
-          <p><del>{{ variant.compare_at_price | money }}</del> <strong>{{ variant.price | money }}</strong></p>
-        {% else %}
-          <p>{{ variant.price | money }}</p>
-        {% endif %}
+  
+      <div class="product {% if block.settings.half %}half{% endif %}">
+        <div class="title-thang">
+          <div>{{ product.title }}</div>
+  
+          {% if variant.compare_at_price > variant.price %}
+            <p>
+              <s>{{ variant.compare_at_price | money }}</s>
+              <span class="discount">{{ variant.price | money }}</span>
+            </p>
+          {% else %}
+            <p>{{ variant.price | money }}</p>
+          {% endif %}
+        </div>
+  
+        <a href="{{ product.url }}">
+          {% if product.featured_image %}
+            <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+          {% endif %}
+        </a>
       </div>
-    {% else %}
-      <p>No product found</p>
     {% endif %}
   {% endfor %}
-  {% for block in section.blocks %}
-    {% assign product = block.settings.product %}
-    <pre>{{ product | json }}</pre>
-  {% endfor %}
+  
 </div>
 
 
