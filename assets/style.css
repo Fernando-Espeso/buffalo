@@ -954,26 +954,15 @@ details > summary::-webkit-details-marker {
   grid-column: span 1!important;
 }
 @keyframes crazy-colors {
-  0%   { background-color: blue; }
-  19%  { background-color: blue; }
-
-  20%  { background-color: red; }
-  21%  { background-color: red; }
-
-  22%  { background-color: green; }
-  23%  { background-color: green; }
-
-  24%  { background-color: yellow; }
-  25%  { background-color: yellow; }
-
-  26%  { background-color: black; }
-  27%  { background-color: black; }
-
-  28%  { background-color: white; }
-  29%  { background-color: white; }
-
-  100% { background-color: white; }
+  0%    { background-color: blue; }
+  16.66% { background-color: red; }
+  33.33% { background-color: green; }
+  50%   { background-color: yellow; }
+  66.66% { background-color: black; }
+  83.33% { background-color: white; }
+  100%  { background-color: blue; } /* Vuelve a empezar en bucle */
 }
+
 
 .shuffle-mix {
   width: 100vw;
@@ -981,6 +970,7 @@ details > summary::-webkit-details-marker {
   position: fixed;
   left: 0;
   top: 0;
+  transition: background 0s;
   z-index: 20000;
   display: none;
   background-color: black;
