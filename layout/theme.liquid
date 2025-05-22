@@ -75,6 +75,7 @@
           }, 500);
         </script>
       </div>
+      <div class="shuffle-mix"></div>
       <!-- Header -->
       <header id="header">
         <div class="menu" id="menu">
@@ -110,12 +111,11 @@
 
         <div class="sub-menu">
           <li><a class="BZ" href="/">BZ</a></li>
-          <li><a class="info-menu" href="/#info" data-offset="33">INFO</a></li>
           <li><a class="buffalo-live!" href="/blogs/live">Buffalo Live!</a></li>
           <li><a class="issues" href="/collections/all">Issues</a></li>
           <li><a class="your-brand-Here" href="/blogs/your-brand-here">Your Brand Here</a></li>
-          <a class="your-brand-link" href="/blogs/your-brand-here">SHUFFLE</a>
-          
+          <a class="your-brand-link" href="/blogs/shuffle">SHUFFLE</a>
+          <li><a class="info-menu" href="/#info" data-offset="33">INFO</a></li>
         </div>
         
       </header>
@@ -152,6 +152,25 @@
             window.location.href = randomUrl;
           });
         }
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $('.your-brand-link').on('click', function (e) {
+          e.preventDefault(); // Previene el cambio inmediato de página
+    
+          const targetUrl = $(this).attr('href');
+    
+          // Muestra el div y activa la animación
+          $('.shuffle-mix').show(0, function () {
+            $(this).addClass('active');
+          });
+    
+          // Espera 2s antes de redirigir
+          setTimeout(function () {
+            window.location.href = targetUrl;
+          }, 2000);
+        });
       });
     </script>
     {%- if template contains 'product' -%}

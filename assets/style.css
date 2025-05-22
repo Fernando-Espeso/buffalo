@@ -953,6 +953,21 @@ details > summary::-webkit-details-marker {
 .related.pr .product{
   grid-column: span 1!important;
 }
+.shuffle-mix{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 200;
+  display: none;
+  background: rgba(255, 255, 255, 0); /* empieza transparente */
+  transition: background 0s ease-in-out;
+}
+.shuffle-mix.active {
+  display: block;
+  background: rgba(0, 0, 0, 0.8); /* animación a fondo oscuro */
+}
 section.awards-section {
   padding: 10px;
   display: grid;
