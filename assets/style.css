@@ -722,6 +722,7 @@ div#shopify-section-about {
   height: fit-content;
   padding: 10px;
   font-family: var(--font);
+  text-transform: uppercase;
 }
 
 .column-text {
