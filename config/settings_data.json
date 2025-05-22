@@ -277,7 +277,7 @@
             "type": "item",
             "settings": {
               "image": "shopify://shop_images/5-023-1-copy-scaled.jpg",
-              "link": "",
+              "link": "shopify://blogs/your-brand-here/new-test",
               "caption": "",
               "role": "photographer",
               "name": "ANTHONY SEKLAOUI"
