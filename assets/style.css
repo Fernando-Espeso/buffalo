@@ -1380,6 +1380,12 @@ section.two-products, .articles-block {
 div#products {
   grid-template-columns: repeat(1, 1fr);
 }
+.category-filters {
+    height: fit-content;
+    padding: 10px;
+    font-family: var(--font);
+}
+
 .buy-block {
   order: -1;
 }
