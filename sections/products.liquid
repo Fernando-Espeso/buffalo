@@ -30,6 +30,10 @@
 {% endschema %}
 <div class="products" id="products">
   {% for block in section.blocks %}
+    {% assign test = all_products["my-product-handle"] %}
+<p>Compare: {{ test.compare_at_price | money }}</p>
+<p>Price: {{ test.price | money }}</p>
+<p>Title: {{ test.title }}</p>
     {% assign product = block.settings.product %}
     {% if product %}
       {% assign variant = product.variants.first %}
@@ -54,9 +58,7 @@
       </div>
     {% endif %}
   {% endfor %}
-  {% assign test = all_products["my-product-handle"] %}
-<p>Compare: {{ test.compare_at_price | money }}</p>
-<p>Price: {{ test.price | money }}</p>
+  
 </div>
 
 
