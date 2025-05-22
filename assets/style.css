@@ -722,7 +722,7 @@ div#shopify-section-about {
   z-index: 1000;
   position: absolute;
   height: fit-content;
-  padding: 10px;
+  padding: 0px 10px;
   font-family: var(--font);
   text-transform: uppercase;
 }
