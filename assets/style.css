@@ -726,6 +726,9 @@ div#shopify-section-about {
   font-family: var(--font);
   text-transform: uppercase;
 }
+ul.names-list {
+  padding-left: 20px;
+}
 .category-filters summary{
   text-align: left;
 }
