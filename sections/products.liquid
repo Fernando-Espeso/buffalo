@@ -9,9 +9,9 @@
       "settings": [
         {
           "type": "product",
-          "label": "Select a related product",
-          "id": "product"  // Adding an ID for the setting field
-        },
+          "id": "product",
+          "label": "Select product"
+        }},
         {
           "type": "checkbox",
           "id": "half",
@@ -30,17 +30,15 @@
 {% endschema %}
 <div class="products" id="products">
   {% for block in section.blocks %}
-    {% assign related_product = all_products[block.settings.product] %}
-    {% if related_product %}
-      {% assign variant = related_product.variants.first %}
+    {% assign product = block.settings.product %}
+    {% if product %}
+      {% assign variant = product.variants.first %}
+  
       <div class="product {% if block.settings.half %}half{% endif %}">
         <div class="title-thang">
-          <div>{{ related_product.title }}</div>
-
-          {% if variant.available == false %}
-            <p class="sold-out">Sold Out</p>
-
-          {% elsif variant.compare_at_price > variant.price %}
+          <div>{{ product.title }}</div>
+  
+          {% if variant.compare_at_price > variant.price %}
             <p>
               <span class="price-original" style="text-decoration: line-through; color: #999;">
                 {{ variant.compare_at_price | money }}
@@ -49,20 +47,14 @@
                 {{ variant.price | money }}
               </span>
             </p>
-
           {% else %}
             <p>{{ variant.price | money }}</p>
           {% endif %}
         </div>
-
-        <a href="{{ related_product.url }}">
-          {% if related_product.featured_image %}
-            <img src="{{ related_product.featured_image | img_url: 'master' }}" alt="{{ related_product.title }}">
-          {% endif %}
-        </a>
       </div>
     {% endif %}
   {% endfor %}
+  
 </div>
 
 
