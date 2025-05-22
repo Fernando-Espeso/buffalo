@@ -955,10 +955,23 @@ details > summary::-webkit-details-marker {
 }
 @keyframes crazy-colors {
   0%   { background-color: blue; }
+  19%  { background-color: blue; }
+
   20%  { background-color: red; }
-  40%  { background-color: green; }
-  60%  { background-color: yellow; }
-  80%  { background-color: black; }
+  21%  { background-color: red; }
+
+  22%  { background-color: green; }
+  23%  { background-color: green; }
+
+  24%  { background-color: yellow; }
+  25%  { background-color: yellow; }
+
+  26%  { background-color: black; }
+  27%  { background-color: black; }
+
+  28%  { background-color: white; }
+  29%  { background-color: white; }
+
   100% { background-color: white; }
 }
 
