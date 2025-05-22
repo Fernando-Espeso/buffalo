@@ -80,16 +80,7 @@
       {% render 'product-variants', product: product, formID: productFormId %}
 
       <div class="variations">
-        {% if variants > 1 %}
-          <select id="Option-{{ forloop.index0 }}" name="options[{{ option.name }}]" class="product-variant-select">
-            {%- for value in option.values -%}
-              <option value="{{ value | escape }}"
-                {% if option.selected_value == value %}selected{% endif %}>
-                {{ value }}
-              </option>
-            {%- endfor -%}
-          </select>
-        {% endif %}
+     
 
         <!-- Button Add To Bag -->
         {% liquid
