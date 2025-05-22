@@ -1403,6 +1403,9 @@ div#products {
 .buy-block {
   order: -1;
 }
+.swiper-live .swiper-wrapper.centered {
+  justify-content: center !important;
+}
 .aim {
   top: 0px;
 }
