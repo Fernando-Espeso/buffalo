@@ -3,54 +3,30 @@
   {%- for option in product.options_with_values -%}
     <div class="product-variant-item">
       <div class="product-variant-title"
-      {%- if product.has_only_default_variant -%}
+        {%- if product.has_only_default_variant -%}
           style="display:none"
-          {%- elsif variants > 1 -%}
+        {%- elsif variants > 1 -%}
           style="display:block"
-          {%- endif -%}>
+        {%- endif -%}>
         <label class="choose" for="Option-{{ forloop.index0 }}">
-        COVER OPTION<br>
+          {{ option.name | upcase }}
         </label>
       </div>
+
       {% if product.has_only_default_variant %}
         <div class="unique-size">UNIQUE</div>
       {% endif %}
-      <fieldset class="" data-type="radio"
-      {%- if product.has_only_default_variant -%}
-          style="display:none"
-          {%- elsif variants > 1 -%}
-          style="display:block"
-          {%- endif -%}
-      >
-        {%- for value in option.values -%}
-          {%- liquid
-            assign optionNumber = 'option' | append: option.position
-            assign optionVariant = false
-            for variant in product.variants
-              if variant[optionNumber] == value
-                assign optionVariant = variant
-                break
-              endif
-            endfor
-          -%}
 
-          <label class="product-variant-option {% if optionVariant.available == false %} unavailable {% endif %}" for="{{ product.id }}-{{ optionVariant.id }}-{{ option.position }}-{{ type }}" data-option>
-            {% unless option.name == "Color" %}
-              <div class="option-value"> {{ value }} </div>
-            {% endunless %}
-
-            {% if product.variants[forloop.index0].metafields.custom.color and option.name == "Color"%}
-              <span class="color-option" style="background-color: {{ product.variants[forloop.index0].metafields.custom.color }}">&nbsp;</span>
-            {% endif %}
-            <input type="radio" class="visually-hidden" id="{{ section.id }}-{{ optionVariant.id }}-{{ option.position }}-{{ type }}"
-              name="{{ option.name }}"
-              value="{{ value | escape }}"
-              formId="{{ formID }}"
-              {% if option.selected_value == value %}checked{% endif %}
-            >
-          </label>
-        {%- endfor -%}
-      </fieldset>
+      {% if variants > 1 %}
+        <select id="Option-{{ forloop.index0 }}" name="options[{{ option.name }}]" class="product-variant-select">
+          {%- for value in option.values -%}
+            <option value="{{ value | escape }}"
+              {% if option.selected_value == value %}selected{% endif %}>
+              {{ value }}
+            </option>
+          {%- endfor -%}
+        </select>
+      {% endif %}
     </div>
   {%- endfor -%}
 
