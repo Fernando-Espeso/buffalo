@@ -35,19 +35,11 @@
       <div class="product {% if block.settings.half %}half{% endif %}">
         <div class="title-thang">
           <div>{{ related_product.title }}</div>
-          {% assign first_variant = related_product.variants.first %}
-          {% if first_variant.compare_at_price and first_variant.compare_at_price > first_variant.price %}
-            <p>
-              <span class="price-original" style="text-decoration: line-through; color: #999;">
-                {{ first_variant.compare_at_price | money }}
-              </span>
-              <span class="price-sale" style="color: red; font-weight: bold;">
-                {{ first_variant.price | money }}
-              </span>
-            </p>
-          {% else %}
-            <p>{{ first_variant.price | money }}</p>
-          {% endif %}
+          <p>
+            Precio: {{ related_product.price | money }} <br>
+            Compare producto: {{ related_product.compare_at_price | money }} <br>
+            Compare variante: {{ related_product.variants.first.compare_at_price | money }}
+          </p>
           {% if related_product.available == false %}
             <p class="sold-out">Sold Out</p>
           
