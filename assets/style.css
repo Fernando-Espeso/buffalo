@@ -1027,6 +1027,7 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
   padding: 0px;
   margin: 0px;
 }
+
 .swiper-pagination {
   display: flex;
   grid-gap: 3px;
@@ -1067,6 +1068,10 @@ div#info-product {
   font-size: var(--fsb);
   list-style: 23px;
   padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+summary.city {
+  text-align: left;
   font-family: 'Times New Roman', Times, serif;
 }
 .swiper-slide:hover .caption {

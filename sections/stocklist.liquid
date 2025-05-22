@@ -55,8 +55,8 @@
 <div class="stock-list">
   {% for block in section.blocks %}
       {% if block.type == 'stocklist' %}
-        <details class="stockist-item">
-          <summary>{{ block.settings.shop_name }}</summary>
+        <div class="stockist-item">
+          <summary class="city">{{ block.settings.shop_name }}</summary>
           <p>
           {{ block.settings.address
             | replace: '</p><p>', '<br>'
@@ -65,7 +65,7 @@
             | raw
          }}
         </p>
-        </details>
+        </div>
       {% endif %}
   {% endfor %}
 </div>
