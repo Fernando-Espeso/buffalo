@@ -170,9 +170,9 @@
       const nameMatch = !currentName || name === currentName;
 
       if (roleMatch && nameMatch) {
-        slide.style.display = 'block';
+        slide.style.opacity = '1';
       } else {
-        slide.style.display = 'none';
+        slide.style.opacity = '0.4';
       }
     });
 
