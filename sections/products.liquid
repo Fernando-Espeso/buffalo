@@ -28,25 +28,33 @@
 }
 {% endschema %}
 {% for block in section.blocks %}
-  {% assign selected_product = all_products[block.settings.product] %}
-  {% if selected_product %}
-    {% assign variant = selected_product.variants.first %}
+  {% assign product = block.settings.product %}
+  {% if product %}
+    {% assign variant = product.variants.first %}
     <div class="product {% if block.settings.half %}half{% endif %}">
-      <div class="title-thang">{{ selected_product.title }}</div>
+      <div class="title-thang">
+        <div>{{ product.title }}</div>
 
-      {% if variant.compare_at_price > variant.price %}
-        <p>
-          <s>{{ variant.compare_at_price | money }}</s>
-          <strong>{{ variant.price | money }}</strong>
-        </p>
-      {% else %}
-        <p>{{ variant.price | money }}</p>
-      {% endif %}
+        {% if variant.compare_at_price > variant.price %}
+          <p>
+            <span class="price-original" style="text-decoration: line-through; color: #999;">
+              {{ variant.compare_at_price | money }}
+            </span>
+            <span class="price-sale" style="color: red; font-weight: bold;">
+              {{ variant.price | money }}
+            </span>
+          </p>
+        {% else %}
+          <p>{{ variant.price | money }}</p>
+        {% endif %}
+      </div>
     </div>
   {% endif %}
 {% endfor %}
-
-
+{% for block in section.blocks %}
+  {% assign product = block.settings.product %}
+  <pre>{{ product | json }}</pre>
+{% endfor %}
 
 
   
