@@ -126,7 +126,11 @@
       </div>
       {{ content_for_layout }}
     <footer>
-      {% section 'contact' %}
+     <div class="container">
+      {% for link in linklists.footer.links %}
+        <li {% if link.active %}class="active"{% endif %}><a class="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </div> 
     </footer>
     <script>
       window.yourBrandPosts = [
@@ -157,7 +161,7 @@
             // Redirigir después de 2 segundos
             setTimeout(() => {
               window.location.href = randomUrl;
-            }, 1000);
+            }, 00);
           });
         }
       });
