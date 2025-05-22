@@ -57,12 +57,14 @@
       {% if block.type == 'stocklist' %}
         <div class="stockist-item">
           <h3>{{ block.settings.shop_name }}</h3>
+          <p>
           {{ block.settings.address
             | replace: '</p><p>', '<br>'
             | replace: '<p>', ''
             | replace: '</p>', ''
             | raw
          }}
+        </p>
         </div>
       {% endif %}
   {% endfor %}
