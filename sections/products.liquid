@@ -32,38 +32,27 @@
   {% for block in section.blocks %}
     {% assign related_product = all_products[block.settings.product] %}
     {% if related_product %}
+      {% assign variant = related_product.variants.first %}
       <div class="product {% if block.settings.half %}half{% endif %}">
         <div class="title-thang">
           <div>{{ related_product.title }}</div>
-          {% if related_product.available == false %}
+
+          {% if variant.available == false %}
             <p class="sold-out">Sold Out</p>
-          
-          {% elsif related_product.compare_at_price > related_product.price %}
+
+          {% elsif variant.compare_at_price > variant.price %}
             <p>
               <span class="price-original" style="text-decoration: line-through; color: #999;">
-                {{ related_product.compare_at_price | money }}
+                {{ variant.compare_at_price | money }}
               </span>
               <span class="price-sale" style="color: red; font-weight: bold;">
-                {{ related_product.price | money }}
+                {{ variant.price | money }}
               </span>
             </p>
 
           {% else %}
-            <p>{{ related_product.price | money }}</p>
+            <p>{{ variant.price | money }}</p>
           {% endif %}
-          {% assign variant = related_product.variants.first %}
-{% if variant.compare_at_price and variant.compare_at_price > variant.price %}
-  <p>
-    <span class="price-original" style="text-decoration: line-through; color: #999;">
-      {{ variant.compare_at_price | money }}
-    </span>
-    <span class="price-sale" style="color: red; font-weight: bold;">
-      {{ variant.price | money }}
-    </span>
-  </p>
-{% else %}
-  <p>{{ variant.price | money }}</p>
-{% endif %}
         </div>
 
         <a href="{{ related_product.url }}">
@@ -75,5 +64,6 @@
     {% endif %}
   {% endfor %}
 </div>
+
 
   
