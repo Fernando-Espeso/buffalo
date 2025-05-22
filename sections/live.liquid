@@ -159,9 +159,9 @@
       const role = btn.dataset.role;
       document.querySelectorAll('.swiper-slide').forEach(slide => {
         if (slide.dataset.role === role) {
-          slide.style.display = 'block';
+          slide.style.opacity = '1';
         } else {
-          slide.style.display = 'none';
+          slide.style.opacity = '0.3';
         }
       });
       swiper.update(); // actualiza el Swiper después del filtrado
