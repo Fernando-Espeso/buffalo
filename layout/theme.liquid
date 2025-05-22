@@ -126,10 +126,8 @@
       </div>
       {{ content_for_layout }}
     <footer>
-     <div class="container">
-      {% for link in linklists.footer.links %}
-        <li {% if link.active %}class="active"{% endif %}><a class="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
-      {% endfor %}
+     <div id="main-collection" class="main">
+      {% section 'contact' %}
     </div> 
     </footer>
     <script>
