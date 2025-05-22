@@ -65,32 +65,24 @@
   {% for block in section.blocks %}
     {% assign product = block.settings.product %}
     {% if product %}
+      {% assign variant = product.variants.first %}
       <div class="product {% if block.settings.half %}half{% endif %}">
-        <div class="title-thang">{{ product.title }}</div>
+        <div class="title-thang">
+          <div>{{ product.title }}</div>
   
-        {% if product.available %}
-          {% if product.price_varies %}
+          {% if variant.compare_at_price > variant.price %}
             <p>
-              <span>{{ product.price_min | money }}</span> – <span>{{ product.price_max | money }}</span>
+              <span class="price-original" style="text-decoration: line-through; color: #999;">
+                {{ variant.compare_at_price | money }}
+              </span>
+              <span class="price-sale" style="color: red; font-weight: bold;">
+                {{ variant.price | money }}
+              </span>
             </p>
           {% else %}
-            {% if product.compare_at_price > product.price %}
-              <p>
-                <s>{{ product.compare_at_price | money }}</s>
-                <span class="disscount">{{ product.price | money }}</span>
-              </p>
-            {% else %}
-              <p>{{ product.price | money }}</p>
-            {% endif %}
+            <p>{{ variant.price | money }}</p>
           {% endif %}
-        {% else %}
-          <p>{{ product.price | money }}</p>
-        {% endif %}
-        <a href="{{ related_product.url }}">
-          {% if related_product.featured_image %}
-            <img src="{{ related_product.featured_image | img_url: 'master' }}" alt="{{ related_product.title }}">
-          {% endif %}
-        </a>
+        </div>
       </div>
     {% endif %}
   {% endfor %}
