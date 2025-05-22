@@ -778,6 +778,9 @@ ul.names-list {
   padding: 0px var(--space);
   letter-spacing: 0px;
 }
+.product-variants {
+  position: relative;
+}
 .interior, .info-interior {
   font-family: 'Times New Roman', Times, serif;
   font-size: var(--fsb);
@@ -1416,7 +1419,7 @@ section.two-products, .articles-block {
   display: none;
 }
 .buy-block {
-  height: 500px;
+  height: auto;
   top: var(--m);
   position: inherit;
 }
