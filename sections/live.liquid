@@ -201,19 +201,32 @@ const swiper = new Swiper('.swiper-live', {
     if (typeof swiper !== 'undefined') {
       swiper.update();
     }
+    updateSliderLayout(); 
+
   }
   function updateSliderLayout() {
     const swiperWrapper = document.querySelector('.swiper-live .swiper-wrapper');
-    const visibleSlides = [...swiperWrapper.children].filter(slide => {
-      return !slide.classList.contains('swiper-slide-duplicate') && slide.offsetParent !== null;
+  
+    if (!swiperWrapper) {
+      console.warn('Swiper wrapper no encontrado');
+      return;
+    }
+  
+    const slides = swiperWrapper.querySelectorAll('.swiper-slide');
+    const visibleSlides = Array.from(slides).filter(slide => {
+      return !slide.classList.contains('swiper-slide-duplicate') &&
+             !slide.classList.contains('hidden-by-filter');
     });
   
     if (visibleSlides.length === 1) {
       swiperWrapper.classList.add('centered');
+      console.log('Clase "centered" añadida');
     } else {
       swiperWrapper.classList.remove('centered');
+      console.log('Clase "centered" removida');
     }
   }
+  
   
   // Click manual en summary para controlar apertura/cierre
   document.querySelectorAll('.category-item summary').forEach(summary => {
