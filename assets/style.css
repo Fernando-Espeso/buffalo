@@ -976,7 +976,7 @@ details > summary::-webkit-details-marker {
 
 .shuffle-mix.active {
   display: block;
-  animation: crazy-colors 1.2s steps(20, end) infinite;
+  animation: crazy-colors 1s steps(20, end) infinite;
 }
 section.awards-section {
   padding: 10px;
