@@ -1397,7 +1397,7 @@ div#products {
   position: relative;
   width: 100%;
   display: flex;
-  grid-gap: 10px;
+  grid-gap: 4px;
   align-items: center;
   padding: 10px var(--space);
   display: flex;
