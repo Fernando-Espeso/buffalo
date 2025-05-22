@@ -52,32 +52,27 @@
 }
 {% endschema %}
 
+{% assign roles_string = "" %}
+{% for block in section.blocks %}
+  {% assign role = block.settings.role %}
+  {% unless roles_string contains role %}
+    {% assign roles_string = roles_string | append: role | append: "," %}
+  {% endunless %}
+{% endfor %}
+
+{% assign roles = roles_string | split: "," %}
+{% assign roles = roles | uniq %}
+
 <div class="category-filters">
-  {% assign roles = "" | split: "," %}
-
-  {% for block in section.blocks %}
-    {% assign role = block.settings.role %}
-    {% unless roles contains role %}
-      {% assign roles = roles | push: role %}
-    {% endunless %}
-  {% endfor %}
-
   {% for role in roles %}
     {% unless role == "" %}
       <details class="category-item" data-role="{{ role }}">
         <summary>{{ role | replace: "_", " " | capitalize }}</summary>
-        <ul id="names-{{ role | handle }}">
-          {% for block in section.blocks %}
-            {% if block.settings.role == role %}
-              <li>{{ block.settings.name }}</li>
-            {% endif %}
-          {% endfor %}
-        </ul>
+        <ul class="names-list" id="names-{{ role | handle }}"></ul>
       </details>
     {% endunless %}
   {% endfor %}
 </div>
-
 
 <div class="swiper-live">
     <div class="swiper-wrapper">
@@ -161,17 +156,40 @@
   });
 </script>
 <script>
-  document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const role = btn.dataset.role;
+  document.querySelectorAll('.category-item').forEach(detail => {
+    detail.addEventListener('toggle', () => {
+      if (!detail.open) return;
+
+      const selectedRole = detail.dataset.role;
+      const nameList = document.getElementById(`names-${selectedRole.replace(/\s+/g, '-').toLowerCase()}`);
+      nameList.innerHTML = ''; // limpiar
+
+      const names = new Set();
+
+      // mostrar solo slides con el role actual
       document.querySelectorAll('.swiper-slide').forEach(slide => {
-        if (slide.dataset.role === role) {
+        const role = slide.dataset.role;
+        const name = slide.dataset.name;
+
+        if (role === selectedRole) {
           slide.style.opacity = '1';
+          if (name) names.add(name);
         } else {
           slide.style.opacity = '0.3';
         }
       });
-      swiper.update(); // actualiza el Swiper después del filtrado
+
+      // rellenar la lista de nombres
+      names.forEach(name => {
+        const li = document.createElement('li');
+        li.textContent = name;
+        nameList.appendChild(li);
+      });
+
+      // actualizar swiper
+      if (typeof swiper !== 'undefined') {
+        swiper.update();
+      }
     });
   });
 </script>
