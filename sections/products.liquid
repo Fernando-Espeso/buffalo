@@ -52,9 +52,14 @@
           {% endif %}
         </div>
       </div>
+      {% assign test = all_products["my-product-handle"] %}
+<p>Compare: {{ test.compare_at_price | money }}</p>
+<p>Price: {{ test.price | money }}</p>
     {% endif %}
   {% endfor %}
-  
+  {% assign test = all_products["my-product-handle"] %}
+<p>Compare: {{ test.compare_at_price | money }}</p>
+<p>Price: {{ test.price | money }}</p>
 </div>
 
 
