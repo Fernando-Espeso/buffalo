@@ -1396,7 +1396,9 @@ div#products {
   left: 0px;
   cursor: pointer;
 }
-
+.article-content .description {
+  text-align: center;
+}
 .sub-menu.active {
   text-transform: uppercase;
   position: relative;
