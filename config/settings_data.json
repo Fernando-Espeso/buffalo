@@ -158,11 +158,67 @@
               "shop_name": "Milan",
               "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy</p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p>"
             }
+          },
+          "stocklist_nF3DeF": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Barcelona",
+              "address": ""
+            }
+          },
+          "stocklist_badXmz": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Madrid",
+              "address": ""
+            }
+          },
+          "stocklist_QqzTDa": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Bratislava",
+              "address": ""
+            }
+          },
+          "stocklist_RhAyMM": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Andorra",
+              "address": ""
+            }
+          },
+          "stocklist_J9xHhx": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Sevilla",
+              "address": ""
+            }
+          },
+          "stocklist_QhjfhP": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "London",
+              "address": ""
+            }
+          },
+          "stocklist_P7cqJq": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "Belgium",
+              "address": ""
+            }
           }
         },
         "block_order": [
           "stocklist_fzeXwk",
-          "stocklist_jwfK44"
+          "stocklist_jwfK44",
+          "stocklist_nF3DeF",
+          "stocklist_badXmz",
+          "stocklist_QqzTDa",
+          "stocklist_RhAyMM",
+          "stocklist_J9xHhx",
+          "stocklist_QhjfhP",
+          "stocklist_P7cqJq"
         ],
         "settings": {}
       },
