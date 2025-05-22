@@ -909,6 +909,7 @@ input#stockistFilter::placeholder{
   letter-spacing: 0px;
 }
 .gallery{
+  height: fit-content;
   display: grid;
   row-gap: 3px;
   position: relative;
