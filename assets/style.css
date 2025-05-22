@@ -721,7 +721,7 @@ button.name-btn {
 }
 button.name-btn.active {
   font-family: var(--font);
-  color: red;
+  color: grey;
 }summary.active {
   color: red;
 }
