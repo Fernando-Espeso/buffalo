@@ -35,7 +35,8 @@
       <div class="product {% if block.settings.half %}half{% endif %}">
         <div class="title-thang">
           <div>{{ related_product.title }}</div>
-          
+          <p>Compare: {{ related_product.compare_at_price }} / Price: {{ related_product.price }}</p>
+
           {% if related_product.available == false %}
             <p class="sold-out">Sold Out</p>
           
@@ -48,7 +49,6 @@
                 {{ related_product.price | money }}
               </span>
             </p>
-            <p>Compare: {{ related_product.compare_at_price }} / Price: {{ related_product.price }}</p>
 
           {% else %}
             <p>{{ related_product.price | money }}</p>
