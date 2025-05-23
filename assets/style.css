@@ -40,7 +40,7 @@
   --gap: 10px;
   --bgm: red;
   --bg:white;
-  --font: 'helvetica';
+  --font: 'Arial, Helvetica, sans-serif;';
   --fontsec: 'times new roman';
 }
 
@@ -177,6 +177,7 @@ select:disabled {
   opacity: 1;
 }
 * {
+  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
 }
@@ -1530,7 +1531,7 @@ div#main-product {
     --gap: 10px;
     --bgm: red;
     --bg:white;
-    --font: 'helvetica';
+    --font: 'Arial, Helvetica, sans-serif;';
     --fontsec: 'times new roman';
   }
 }
