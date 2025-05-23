@@ -1410,13 +1410,13 @@ button#checkout{
 }
 @media (max-width: 1000px) {
 div#main-product{
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   display: grid;
   grid-gap:3px;
   padding: 0px 10px;
 }
 .main .gallery{
-  grid-column: span 2;
+  grid-column: span 1;
 }
 }
 /* Small mobile styles */
