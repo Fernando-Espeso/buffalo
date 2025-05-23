@@ -3,26 +3,28 @@
     {{ article.metafields.custom.interview | metafield_tag }}
   </div>
 {% endif %}
-{% assign related_products = article.metafields.custom.related.value %}
-{% if related_products != blank %}
+{% assign related_handles = article.metafields.custom.related.value %}
+{% if related_handles != blank %}
   <div class="related-products">
     <div class="related-title">YOU MIGHT ALSO LIKE</div>
-    {% for product in related_products %}
-      <div class="product estandard">
-        {% if product.online_store_url %}
+    {% for handle in related_handles %}
+      {% assign product = all_products[handle.handle] %}
+      {% if product %}
+        <div class="product estandard">
           <a href="{{ product.online_store_url }}">
             {% if product.featured_image %}
               <img src="{{ product.featured_image | img_url: '300x300' }}" alt="Image of {{ product.title }}">
             {% endif %}
           </a>
-        {% endif %}
-        <div class="product-title title-thang">
-          <p>{{ product.title }}</p>
-          {% if product.price %}
-            <p>{{ product.price | money }}</p>
-          {% endif %}
+          <div class="product-title title-thang">
+            <p>{{ product.title }}</p>
+            {% if product.price %}
+              <p>{{ product.price | money }}</p>
+            {% endif %}
+          </div>
         </div>
-      </div>
+      {% endif %}
     {% endfor %}
   </div>
 {% endif %}
+
