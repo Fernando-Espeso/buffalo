@@ -150,23 +150,27 @@
 {% if related_products != blank %}
   <div class="related-products">
     <div class="related-title" style="grid-column:span 3">YOU MIGHT ALSO LIKE</div>
-      {% for product in related_products %}
+    {% for related in related_products %}
+      {% assign related_product = all_products[related.handle] %}
+      {% if related_product %}
         <div class="product estandard">
-          <a href="{{ product.online_store_url }}">
-            {% if product.featured_image %}
-              <img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{ product.title }}">
+          <a href="{{ related_product.url }}">
+            {% if related_product.featured_image %}
+              <img src="{{ related_product.featured_image | img_url: '300x300' }}" alt="{{ related_product.title }}">
             {% endif %}
           </a>
-          <diV class="product-title title-thang">
-            <p>{{ product.title }}</p>
-            {% if product.price %}
-              <p>{{ product.price | money }}</p>
+          <div class="product-title title-thang">
+            <p>{{ related_product.title }}</p>
+            {% if related_product.price %}
+              <p>{{ related_product.price | money }}</p>
             {% endif %}
           </div>
-        </div> 
-      {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
 {% endif %}
+
 <script>
 $(document).ready(function () {
   var swiper = new Swiper('.swiper-gallery', {
