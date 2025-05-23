@@ -425,6 +425,12 @@ footer .container{
   font-weight: normal;
   text-transform: uppercase;
 }
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap:50px;
+  padding: 10px;
+}
 .description p {
   font-family: times;
 }

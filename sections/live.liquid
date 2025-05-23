@@ -104,6 +104,32 @@
   
   <div class="swiper-pagination"></div>
 
+  <div class="grid-gallery">
+      {% for block in section.blocks %}
+        {% assign img = block.settings.image %}
+        {% assign link = block.settings.link %}
+        {% assign caption = block.settings.caption %}
+        
+        <div class="swiper-slide" data-role="{{ block.settings.role }}" data-name="{{ block.settings.name }}">
+          {% if block.settings.link != blank %}
+            <a href="{{ block.settings.link }}">
+          {% endif %}
+        
+          {% if block.settings.image != blank %}
+            <img src="{{ block.settings.image | img_url: 'medium' }}" alt="{{ block.settings.caption }}">
+          {% endif %}
+        
+          {% if block.settings.caption != blank %}
+            <p class="caption">{{ block.settings.caption }}</p>
+          {% endif %}
+        
+          {% if block.settings.link != blank %}
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+
+  </div>
 <style>
       .swiper-slide {
         transition: opacity 0.3s ease, visibility 0.3s ease;
