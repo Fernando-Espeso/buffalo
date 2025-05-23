@@ -1415,6 +1415,7 @@ div#main-product{
   grid-gap:3px;
   padding: 0px 10px;
 }
+
 .main .gallery{
   grid-column: span 1;
 }
