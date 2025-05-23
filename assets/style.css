@@ -783,10 +783,13 @@ button.name-btn.active {
   display: none;
 }
 .category-filters {
+  padding-bottom: 10px !important;
+  background-color: white;
+  width: 100%;
   z-index: 1000;
-  position: absolute;
+  position: fixed;
   height: fit-content;
-  padding: 0px 10px;
+  padding: 0 10px;
   font-family: var(--font);
   text-transform: uppercase;
 }
