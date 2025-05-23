@@ -437,6 +437,9 @@ footer .container{
 .column-text p{
   font-family: times;
 }
+.contact-section p{
+  font-family: times;
+}
 .description{
   margin: 0 auto;
   max-width: 1000px;
