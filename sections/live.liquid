@@ -119,9 +119,9 @@
             <img src="{{ block.settings.image | img_url: 'medium' }}" alt="{{ block.settings.caption }}">
           {% endif %}
         
-          {% if block.settings.caption != blank %}
+          {% comment %} {% if block.settings.caption != blank %}
             <p class="caption">{{ block.settings.caption }}</p>
-          {% endif %}
+          {% endif %} {% endcomment %}
         
           {% if block.settings.link != blank %}
             </a>
