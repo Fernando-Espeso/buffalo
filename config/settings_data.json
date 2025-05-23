@@ -545,6 +545,27 @@
             "type": "product",
             "settings": {
               "product": "issue-13-the-rise-and-fall",
+              "half": true
+            }
+          },
+          "product_cCDpAD": {
+            "type": "product",
+            "settings": {
+              "product": "issue-13-the-rise-and-fall",
+              "half": false
+            }
+          },
+          "product_Vc3eq9": {
+            "type": "product",
+            "settings": {
+              "product": "issue-nº14-alain-cabrera",
+              "half": false
+            }
+          },
+          "product_pwzzph": {
+            "type": "product",
+            "settings": {
+              "product": "nuevo-producto",
               "half": false
             }
           }
@@ -556,7 +577,10 @@
           "product_iRP8ee",
           "product_qc8zY7",
           "product_yaCGNp",
-          "product_8LWpAb"
+          "product_8LWpAb",
+          "product_cCDpAD",
+          "product_Vc3eq9",
+          "product_pwzzph"
         ],
         "settings": {}
       },
