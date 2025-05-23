@@ -540,6 +540,13 @@
               "product": "issue-13-sale",
               "half": true
             }
+          },
+          "product_8LWpAb": {
+            "type": "product",
+            "settings": {
+              "product": "issue-13-the-rise-and-fall",
+              "half": false
+            }
           }
         },
         "block_order": [
@@ -548,7 +555,8 @@
           "product_c6c4wD",
           "product_iRP8ee",
           "product_qc8zY7",
-          "product_yaCGNp"
+          "product_yaCGNp",
+          "product_8LWpAb"
         ],
         "settings": {}
       },
