@@ -1105,7 +1105,7 @@ section.awards-section {
 /* SWIPER
 ================================================== */
 .related-products {
-  padding: 10px;
+  padding: 0px 10px;
   grid-template-columns: repeat(3, 1fr);
   display: grid;
   grid-gap:3px;
