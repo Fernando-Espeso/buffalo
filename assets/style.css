@@ -848,8 +848,10 @@ div#main-product{
   grid-gap:3px;
   padding: 0px 10px;
 }
-.product_gallery{
+div#main-product .gallery{
   grid-column: span 2;
+}
+.product_gallery{
   border-left: 1px solid var(--bl);
   height: calc(var(--h) - var(--m));
   overflow: hidden;
