@@ -930,7 +930,6 @@ input#stockistFilter::placeholder{
   font-family: 'Times New Roman', Times, serif;
   display: grid;
   grid-gap:10px;
-
   padding: var(--space);
   grid-template-columns: repeat(2, 1fr);
 }
@@ -1408,6 +1407,17 @@ button#checkout{
 }
 .menu-op{
   display: none;
+}
+@media (max-width: 1000px) {
+div#main-product{
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-gap:3px;
+  padding: 0px 10px;
+}
+.main .gallery{
+  grid-column: span 2;
+}
 }
 /* Small mobile styles */
 @media (max-width: 680px) {
