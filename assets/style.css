@@ -787,8 +787,7 @@ button.name-btn.active {
   background-color: white;
   width: 100%;
   z-index: 1000;
-
-  top: 36px;
+  top: var(--m);
   position: sticky;
   height: fit-content;
   padding: 0 8px;
