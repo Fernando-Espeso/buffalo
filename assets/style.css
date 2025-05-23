@@ -848,7 +848,7 @@ div#main-product{
   grid-gap:3px;
   padding: 0px 10px;
 }
-div#main-product .gallery{
+.main .gallery{
   grid-column: span 2;
 }
 .product_gallery{
