@@ -431,6 +431,9 @@ footer .container{
 .interview p {
   font-family: times;
 }
+.intro-hero p{
+  font-family: times;
+}
 .description{
   margin: 0 auto;
   max-width: 1000px;
