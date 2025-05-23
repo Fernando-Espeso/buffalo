@@ -787,6 +787,7 @@ button.name-btn.active {
   background-color: white;
   width: 100%;
   z-index: 1000;
+  
   top: 30px;
   position: sticky;
   height: fit-content;
