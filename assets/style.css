@@ -1532,6 +1532,14 @@ form#cart-wrapper {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap:3px;
+  row-gap: 50px;
+  padding: 10px;
+  min-height: 100vh;
+}
 .interview {
   color: black;
   font-size: var(--fsb);
