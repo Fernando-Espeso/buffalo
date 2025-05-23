@@ -503,7 +503,14 @@
             "type": "product",
             "settings": {
               "product": "issue-13-la-zowie",
-              "half": false
+              "half": true
+            }
+          },
+          "product_HCdyPL": {
+            "type": "product",
+            "settings": {
+              "product": "issue-nº14-alain-cabrera",
+              "half": true
             }
           },
           "product_c6c4wD": {
@@ -517,20 +524,13 @@
             "type": "product",
             "settings": {
               "product": "on-sale",
-              "half": true
+              "half": false
             }
           },
           "product_qc8zY7": {
             "type": "product",
             "settings": {
               "product": "issue-13-la-zowie",
-              "half": true
-            }
-          },
-          "product_HCdyPL": {
-            "type": "product",
-            "settings": {
-              "product": "issue-nº14-alain-cabrera",
               "half": false
             }
           },
@@ -544,10 +544,10 @@
         },
         "block_order": [
           "product_TcJCRq",
+          "product_HCdyPL",
           "product_c6c4wD",
           "product_iRP8ee",
           "product_qc8zY7",
-          "product_HCdyPL",
           "product_yaCGNp"
         ],
         "settings": {}
