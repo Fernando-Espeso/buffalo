@@ -425,7 +425,10 @@ footer .container{
   font-weight: normal;
   text-transform: uppercase;
 }
-p {
+.description p {
+  font-family: times;
+}
+.interview p {
   font-family: times;
 }
 .description{
