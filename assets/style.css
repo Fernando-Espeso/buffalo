@@ -843,12 +843,13 @@ ul.names-list {
   column-count: 3;
 }
 div#main-product{
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   display: grid;
   grid-gap:3px;
   padding: 0px 10px;
 }
 .product_gallery{
+  grid-column: span 2;
   border-left: 1px solid var(--bl);
   height: calc(var(--h) - var(--m));
   overflow: hidden;
