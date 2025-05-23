@@ -430,6 +430,7 @@ footer .container{
   grid-template-columns: repeat(9,1fr);
   grid-gap:50px;
   padding: 10px;
+  min-height: 100vh;
 }
 .description p {
   font-family: times;
