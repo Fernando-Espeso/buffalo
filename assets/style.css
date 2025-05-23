@@ -727,9 +727,10 @@ div#bag {
   cursor: pointer;
   position: relative;
   width: 100%;
+  border: 1px solid black;
   color: #fff;
-  background-color: #000;
-  padding: 10px;
+  background-color: white;
+  padding: 10px;;
 }
 .thumb{
   border-left: 1px solid var(--bl);
