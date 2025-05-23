@@ -434,6 +434,9 @@ footer .container{
 .info-hero p{
   font-family: times;
 }
+.column-text p{
+  font-family: times;
+}
 .description{
   margin: 0 auto;
   max-width: 1000px;
