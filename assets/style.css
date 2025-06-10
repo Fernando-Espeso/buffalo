@@ -1391,6 +1391,7 @@ fieldset {
   color:var(--bg)!important;
   padding: 10px!important;
   width: 100%;
+  border: 1px solid black;
   background-color: black;
 }
 
