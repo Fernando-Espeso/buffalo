@@ -177,7 +177,8 @@ $(document).ready(function () {
     }
   });
 });
-</script><script>
+</script>
+<script>
   document.addEventListener("DOMContentLoaded", function () {
     const chooseLabel = document.querySelector(".choose");
     const fieldset = document.querySelector(".variant-fieldset");
@@ -185,7 +186,7 @@ $(document).ready(function () {
     chooseLabel.addEventListener("click", function () {
       // Toggle display
       if (fieldset.style.display === "none" || fieldset.style.display === "") {
-        fieldset.style.display = "block";
+        fieldset.style.display = "flex";
       } else {
         fieldset.style.display = "none";
       }
