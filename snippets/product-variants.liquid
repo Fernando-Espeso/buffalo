@@ -25,7 +25,7 @@
           {%- endfor -%}
         </select>
       {% endif %}
-      <fieldset class="" data-type="radio"
+      <fieldset class="variant-fieldset" data-type="radio"
       {%- if product.has_only_default_variant -%}
           style="display:none"
           {%- elsif variants > 1 -%}
@@ -71,7 +71,7 @@
 </product-variants>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const chooseLabel = document.querySelector(".choose");
+    const chooseLabel = document.querySelector(".product-variant-item");
     const fieldset = document.querySelector(".variant-fieldset");
 
     chooseLabel.addEventListener("click", function () {
