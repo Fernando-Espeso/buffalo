@@ -94,14 +94,14 @@
             <li {% if cart.item_count > 0 %}{% endif %}  {% if template == 'cart' %} {% endif %}>
               <a id="cart" href="/cart">
                 {% render 'localization-form' %}
-                CART <span class="cart-total">
+                CART  (<span class="cart-total">
                   {%- if cart.item_count == 0 -%}
-                   (0)
+                  0
                 
                   {%- else -%}
                     ({{- cart.item_count -}})
                   {%- endif -%}
-                </span>
+                </span>)
               </a>
             </li>
           </div>
