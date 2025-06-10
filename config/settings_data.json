@@ -50,7 +50,7 @@
           "two_products_TFPyyz": {
             "type": "two_products",
             "settings": {
-              "product_1": "issue-13-la-zowie",
+              "product_1": "issue-nº14-alain-cabrera",
               "product_2": "issue-nº14-alain-cabrera"
             }
           }
@@ -499,21 +499,21 @@
       "products": {
         "type": "products",
         "blocks": {
-          "product_c6c4wD": {
+          "product_TcJCRq": {
             "type": "product",
             "settings": {
               "product": "issue-13-la-zowie",
-              "half": false
+              "half": true
             }
           },
           "product_HCdyPL": {
             "type": "product",
             "settings": {
               "product": "issue-nº14-alain-cabrera",
-              "half": false
+              "half": true
             }
           },
-          "product_TcJCRq": {
+          "product_c6c4wD": {
             "type": "product",
             "settings": {
               "product": "issue-13-la-zowie",
@@ -524,14 +524,14 @@
             "type": "product",
             "settings": {
               "product": "on-sale",
-              "half": true
+              "half": false
             }
           },
           "product_qc8zY7": {
             "type": "product",
             "settings": {
               "product": "issue-13-la-zowie",
-              "half": true
+              "half": false
             }
           },
           "product_yaCGNp": {
@@ -540,15 +540,47 @@
               "product": "issue-13-sale",
               "half": true
             }
+          },
+          "product_8LWpAb": {
+            "type": "product",
+            "settings": {
+              "product": "issue-13-the-rise-and-fall",
+              "half": true
+            }
+          },
+          "product_cCDpAD": {
+            "type": "product",
+            "settings": {
+              "product": "issue-13-the-rise-and-fall",
+              "half": false
+            }
+          },
+          "product_Vc3eq9": {
+            "type": "product",
+            "settings": {
+              "product": "issue-nº14-alain-cabrera",
+              "half": false
+            }
+          },
+          "product_pwzzph": {
+            "type": "product",
+            "settings": {
+              "product": "nuevo-producto",
+              "half": false
+            }
           }
         },
         "block_order": [
-          "product_c6c4wD",
-          "product_HCdyPL",
           "product_TcJCRq",
+          "product_HCdyPL",
+          "product_c6c4wD",
           "product_iRP8ee",
           "product_qc8zY7",
-          "product_yaCGNp"
+          "product_yaCGNp",
+          "product_8LWpAb",
+          "product_cCDpAD",
+          "product_Vc3eq9",
+          "product_pwzzph"
         ],
         "settings": {}
       },
@@ -583,6 +615,13 @@
               "award_text": "ISSUE 7\nGRAPHITE PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2019"
             }
           },
+          "award_item_zpXgMY": {
+            "type": "award_item",
+            "settings": {
+              "award_image": "shopify://shop_images/2_GRAPHITE.jpg",
+              "award_text": "ISSUE 7\nGRAPHITE PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2019"
+            }
+          },
           "final_text_6eTVUM": {
             "type": "final_text",
             "settings": {
@@ -595,6 +634,7 @@
           "award_item_yWfT3y",
           "award_item_iHtRhB",
           "award_item_R8fk79",
+          "award_item_zpXgMY",
           "final_text_6eTVUM"
         ],
         "settings": {
