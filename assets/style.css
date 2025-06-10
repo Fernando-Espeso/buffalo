@@ -1368,12 +1368,11 @@ fieldset {
   margin: 0px;
   grid-gap: 0px;
   padding: 0px;
-  display: flex;
   flex-direction: column;
   border: 0px;
 }
 .product-variant-title {
-  padding-bottom: 5px;
+  padding-bottom: auto;
 }
 .more-info {
   padding: 5px;
