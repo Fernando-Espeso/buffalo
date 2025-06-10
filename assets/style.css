@@ -960,7 +960,6 @@ input#stockistFilter::placeholder{
 }
 .product-variant-item {
   text-align: left;
-  padding: 0px 0px 3px;
 }
 details {
   padding:0px;
