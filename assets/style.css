@@ -1364,6 +1364,7 @@ select:disabled {
   padding: 10px;
 }
 fieldset {
+  display: none;
   margin: 0px;
   grid-gap: 0px;
   padding: 0px;
