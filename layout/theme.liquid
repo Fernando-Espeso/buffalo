@@ -114,7 +114,7 @@
           <li><a class="buffalo-live!" href="/blogs/live">Buffalo Live!</a></li>
           <li><a class="issues" href="/collections/all">Issues</a></li>
           <li><a class="your-brand-Here" href="/blogs/your-brand-here">Your Brand Here</a></li>
-          <a class="none your-brand-link" href="/blogs/shuffle">SHUFFLE</a>
+          <a class="your-brand-link due" href="/blogs/shuffle">SHUFFLE</a>
           <li><a class="info-menu" href="/#info" data-offset="33">INFO</a></li>
         </div>
         
@@ -143,6 +143,33 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const link = document.querySelector('.your-brand-link');
+        const shuffleDiv = document.querySelector('.shuffle-mix');
+    
+        if (link && window.yourBrandPosts && window.yourBrandPosts.length > 0) {
+          link.addEventListener('click', function (e) {
+            e.preventDefault();
+    
+            const randomIndex = Math.floor(Math.random() * window.yourBrandPosts.length);
+            const randomUrl = window.yourBrandPosts[randomIndex];
+    
+            // Mostrar y animar el fondo
+            shuffleDiv.style.display = 'block';
+            setTimeout(() => {
+              shuffleDiv.classList.add('active');
+            }, 10); // pequeño delay para asegurar el render antes de animar
+    
+            // Redirigir después de 2 segundos
+            setTimeout(() => {
+              window.location.href = randomUrl;
+            }, 00);
+          });
+        }
+      });
+    </script>
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const link = document.querySelector('.your-brand-link.due');
         const shuffleDiv = document.querySelector('.shuffle-mix');
     
         if (link && window.yourBrandPosts && window.yourBrandPosts.length > 0) {
