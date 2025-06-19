@@ -22,6 +22,17 @@
               "info": "<p>Society tells us to strive for success. That success is survival. The best revenge. But do we have more to learn from success – or epic failure? Could there be something more subversive than embracing failure? And can perhaps failure be the ultimate free form of fighting the dictatorship of success?</p><p> </p><p>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For Buffalo’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p>"
             }
           },
+          "six_products_with_bg_mABf6B": {
+            "type": "six_products_with_bg",
+            "settings": {
+              "product_1": "issue-19-mother-aw2024-laying",
+              "product_2": "issue-19-buffalo-power-aw2023",
+              "product_3": "issue-17-coffee-cigarettes-ss2023",
+              "product_4": "issue-16-buffalo-hotel-chelsea-aw2022",
+              "product_5": "issue-15-pink-ss2022",
+              "product_6": "issue-13-la-zowie"
+            }
+          },
           "two_products_7PV6yM": {
             "type": "two_products",
             "settings": {
@@ -55,6 +66,7 @@
         },
         "block_order": [
           "hero_eH7mmr",
+          "six_products_with_bg_mABf6B",
           "two_products_7PV6yM",
           "single_product_kLaLaJ",
           "articles_FyDeiQ",
