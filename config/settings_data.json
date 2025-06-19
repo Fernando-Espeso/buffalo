@@ -506,6 +506,13 @@
               "half": true
             }
           },
+          "product_CYeMwt": {
+            "type": "product",
+            "settings": {
+              "product": "issue-19-mother-aw2024",
+              "half": true
+            }
+          },
           "product_TcJCRq": {
             "type": "product",
             "settings": {
@@ -523,6 +530,7 @@
         },
         "block_order": [
           "product_9DLrAq",
+          "product_CYeMwt",
           "product_TcJCRq",
           "product_EqxNTx"
         ],
