@@ -506,6 +506,13 @@
               "half": true
             }
           },
+          "product_H6xMrT": {
+            "type": "product",
+            "settings": {
+              "product": "issue-19-buffalo-power-aw2023",
+              "half": true
+            }
+          },
           "product_CYeMwt": {
             "type": "product",
             "settings": {
@@ -534,13 +541,6 @@
               "half": true
             }
           },
-          "product_H6xMrT": {
-            "type": "product",
-            "settings": {
-              "product": "issue-19-buffalo-power-aw2023",
-              "half": false
-            }
-          },
           "product_EqxNTx": {
             "type": "product",
             "settings": {
@@ -558,11 +558,11 @@
         },
         "block_order": [
           "product_9DLrAq",
+          "product_H6xMrT",
           "product_CYeMwt",
           "product_cgE8Xa",
           "product_fa9D8y",
           "product_A4RMWC",
-          "product_H6xMrT",
           "product_EqxNTx",
           "product_TcJCRq"
         ],
