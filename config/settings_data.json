@@ -53,6 +53,14 @@
               "product_1": "issue-nº14-alain-cabrera",
               "product_2": "issue-nº14-alain-cabrera"
             }
+          },
+          "hero_p8PyDY": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/BZ16ASPRODUCT_9.jpg",
+              "hero_text": "<p>Reinvent daily rituals with Patti Smith</p>",
+              "info": "<p>Reinvent daily rituals with Patti Smith, get in bed with Marina Abramovic and take a peak at John Waters most treasured belongings. Binge on wine and strawberries with Earthearter, have a Hennessy on the rocks with 070 Shake and go down to the lobby bar for one more drink with Lydia Lunch and Bibbe Hansen. Sing along to the piano with Miranda July and rave all night along Mckenzie Wark and Hanna Baer. Discover Vaquera’s New York City secret spots, embrace mayhem like Kembra Pfhaler and wind down in a hot bath with Christeene. Spend a night exploring the hotel with John Wilson before Chloe Sevigny comes in with her crew of maids. And also! Meet the long-time tenants who have managed to keep their vibrant apartments inside The Chelsea Hotel.</p>"
+            }
           }
         },
         "block_order": [
@@ -60,7 +68,8 @@
           "articles_FyDeiQ",
           "single_product_CxEUGd",
           "single_product_4QkKi3",
-          "two_products_TFPyyz"
+          "two_products_TFPyyz",
+          "hero_p8PyDY"
         ],
         "settings": {}
       },
