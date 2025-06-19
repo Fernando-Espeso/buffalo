@@ -554,6 +554,13 @@
               "product": "issue-15-pink-ss2022",
               "half": false
             }
+          },
+          "product_jXQmLE": {
+            "type": "product",
+            "settings": {
+              "product": "issue-12-buffalo-does-it-aw2020",
+              "half": false
+            }
           }
         },
         "block_order": [
@@ -564,7 +571,8 @@
           "product_KCphDf",
           "product_EqxNTx",
           "product_TcJCRq",
-          "product_LMpzGf"
+          "product_LMpzGf",
+          "product_jXQmLE"
         ],
         "settings": {}
       },
