@@ -28,7 +28,16 @@
               "article_1": "your-brand-here/your-brand-here",
               "article_1_image": "shopify://shop_images/Screenshot_2021-10-11_at_12.04.44.jpg",
               "product": "issue-2",
-              "custom_image": "shopify://shop_images/Screenshot_2021-10-11_at_12.08.26_1.jpg"
+              "custom_image": "shopify://shop_images/Screenshot.jpg"
+            }
+          },
+          "articles_FyDeiQ": {
+            "type": "articles",
+            "settings": {
+              "article_1": "your-brand-here/jumper",
+              "article_1_image": "shopify://shop_images/BZ12_AS_PRODUCT_12.jpg",
+              "product": "issue-13-la-zowie",
+              "custom_image": "shopify://shop_images/BZ15_AS_PRODUCT_18.jpg"
             }
           },
           "six_products_with_bg_mABf6B": {
@@ -56,24 +65,15 @@
               "product": "issue-20-success-etc",
               "fullscreen": true
             }
-          },
-          "articles_FyDeiQ": {
-            "type": "articles",
-            "settings": {
-              "article_1": "your-brand-here/jumper",
-              "article_1_image": "shopify://shop_images/BZ12_AS_PRODUCT_12.jpg",
-              "product": "issue-13-la-zowie",
-              "custom_image": "shopify://shop_images/BZ15_AS_PRODUCT_18.jpg"
-            }
           }
         },
         "block_order": [
           "hero_eH7mmr",
           "articles_RhNm6T",
+          "articles_FyDeiQ",
           "six_products_with_bg_mABf6B",
           "two_products_7PV6yM",
-          "single_product_kLaLaJ",
-          "articles_FyDeiQ"
+          "single_product_kLaLaJ"
         ],
         "settings": {}
       },
