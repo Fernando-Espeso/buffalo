@@ -30,6 +30,14 @@
               "product": ""
             }
           },
+          "articles_P4hPbP": {
+            "type": "articles",
+            "settings": {
+              "article_1": "live/your-brand-here",
+              "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
+              "product": ""
+            }
+          },
           "single_product_kLaLaJ": {
             "type": "single_product",
             "settings": {
@@ -55,23 +63,15 @@
               "product_1": "issue-19-mother-aw2024-laying",
               "product_2": "issue-19-buffalo-power-aw2023"
             }
-          },
-          "articles_P4hPbP": {
-            "type": "articles",
-            "settings": {
-              "article_1": "live/your-brand-here",
-              "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
-              "product": ""
-            }
           }
         },
         "block_order": [
           "hero_eH7mmr",
           "articles_RhNm6T",
+          "articles_P4hPbP",
           "single_product_kLaLaJ",
           "six_products_with_bg_mABf6B",
-          "two_products_7PV6yM",
-          "articles_P4hPbP"
+          "two_products_7PV6yM"
         ],
         "settings": {}
       },
