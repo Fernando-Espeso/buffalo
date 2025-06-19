@@ -433,6 +433,12 @@
       "brand": {
         "type": "brand",
         "blocks": {
+          "custom_article_4PnhM9": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/your-brand-here"
+            }
+          },
           "custom_article_Ct3x4r": {
             "type": "custom_article",
             "settings": {
@@ -453,12 +459,20 @@
               "article": "your-brand-here/new-test",
               "image": "shopify://shop_images/web-test-02.png"
             }
+          },
+          "custom_article_Aj3CG4": {
+            "type": "custom_article",
+            "settings": {
+              "article": ""
+            }
           }
         },
         "block_order": [
+          "custom_article_4PnhM9",
           "custom_article_Ct3x4r",
           "custom_article_ANKNkQ",
-          "custom_article_3q7T6T"
+          "custom_article_3q7T6T",
+          "custom_article_Aj3CG4"
         ],
         "settings": {}
       },
