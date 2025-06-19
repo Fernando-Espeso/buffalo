@@ -540,6 +540,13 @@
               "product": "issue-19-mother-aw2024-1",
               "half": false
             }
+          },
+          "product_A4RMWC": {
+            "type": "product",
+            "settings": {
+              "product": "issue-19-mother-aw2024-laying",
+              "half": false
+            }
           }
         },
         "block_order": [
@@ -548,7 +555,8 @@
           "product_cgE8Xa",
           "product_EqxNTx",
           "product_TcJCRq",
-          "product_fa9D8y"
+          "product_fa9D8y",
+          "product_A4RMWC"
         ],
         "settings": {}
       },
