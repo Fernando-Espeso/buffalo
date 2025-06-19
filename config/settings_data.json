@@ -26,7 +26,7 @@
             "type": "single_product",
             "settings": {
               "product": "issue-20-success-etc",
-              "fullscreen": false
+              "fullscreen": true
             }
           },
           "articles_FyDeiQ": {
@@ -38,19 +38,18 @@
               "custom_image": "shopify://shop_images/web-test-02.png"
             }
           },
-          "single_product_CxEUGd": {
-            "type": "single_product",
-            "settings": {
-              "product": "issue-13-la-zowie",
-              "custom_image": "shopify://shop_images/web-test-01.png",
-              "fullscreen": false
-            }
-          },
           "two_products_TFPyyz": {
             "type": "two_products",
             "settings": {
               "product_1": "issue-nº14-alain-cabrera",
               "product_2": "issue-nº14-alain-cabrera"
+            }
+          },
+          "two_products_7PV6yM": {
+            "type": "two_products",
+            "settings": {
+              "product_1": "issue-19-mother-aw2024-laying",
+              "product_2": "issue-19-buffalo-power-aw2023"
             }
           }
         },
@@ -58,8 +57,8 @@
           "hero_eH7mmr",
           "single_product_kLaLaJ",
           "articles_FyDeiQ",
-          "single_product_CxEUGd",
-          "two_products_TFPyyz"
+          "two_products_TFPyyz",
+          "two_products_7PV6yM"
         ],
         "settings": {}
       },
