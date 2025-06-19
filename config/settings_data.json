@@ -14,6 +14,13 @@
       "hero": {
         "type": "hero",
         "blocks": {
+          "single_product_kLaLaJ": {
+            "type": "single_product",
+            "settings": {
+              "product": "issue-20-success-etc",
+              "fullscreen": true
+            }
+          },
           "hero_eH7mmr": {
             "type": "hero",
             "settings": {
@@ -58,22 +65,15 @@
               "product_1": "issue-19-mother-aw2024-laying",
               "product_2": "issue-19-buffalo-power-aw2023"
             }
-          },
-          "single_product_kLaLaJ": {
-            "type": "single_product",
-            "settings": {
-              "product": "issue-20-success-etc",
-              "fullscreen": true
-            }
           }
         },
         "block_order": [
+          "single_product_kLaLaJ",
           "hero_eH7mmr",
           "articles_RhNm6T",
           "articles_FyDeiQ",
           "six_products_with_bg_mABf6B",
-          "two_products_7PV6yM",
-          "single_product_kLaLaJ"
+          "two_products_7PV6yM"
         ],
         "settings": {}
       },
