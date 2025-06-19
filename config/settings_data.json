@@ -14,19 +14,19 @@
       "hero": {
         "type": "hero",
         "blocks": {
+          "hero_eH7mmr": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/Pippa_2.jpg",
+              "hero_text": "<p>ISSUE 20: SUCCESS, ETC. / AW2024</p>",
+              "info": "<p>Society tells us to strive for success. That success is survival. The best revenge. But do we have more to learn from success – or epic failure? Could there be something more subversive than embracing failure? And can perhaps failure be the ultimate free form of fighting the dictatorship of success?</p><p> </p><p>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For Buffalo’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p>"
+            }
+          },
           "single_product_kLaLaJ": {
             "type": "single_product",
             "settings": {
               "product": "issue-20-success-etc",
               "fullscreen": true
-            }
-          },
-          "hero_eH7mmr": {
-            "type": "hero",
-            "settings": {
-              "hero_image": "shopify://shop_images/Screenshot_2025-04-16_at_17.07.52.png",
-              "hero_text": "<p>ISSUE 20: SUCCESS, ETC. / AW2024</p>",
-              "info": "<p>Society tells us to strive for success. That success is survival. The best revenge. But do we have more to learn from success – or epic failure? Could there be something more subversive than embracing failure? And can perhaps failure be the ultimate free form of fighting the dictatorship of success?</p><p> </p><p>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For Buffalo’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p>"
             }
           },
           "articles_RhNm6T": {
@@ -65,15 +65,31 @@
               "product_1": "issue-19-mother-aw2024-laying",
               "product_2": "issue-19-buffalo-power-aw2023"
             }
+          },
+          "two_products_CyGq6P": {
+            "type": "two_products",
+            "settings": {
+              "product_1": "",
+              "product_2": ""
+            }
+          },
+          "single_product_DQRghe": {
+            "type": "single_product",
+            "settings": {
+              "product": "",
+              "fullscreen": false
+            }
           }
         },
         "block_order": [
-          "single_product_kLaLaJ",
           "hero_eH7mmr",
+          "single_product_kLaLaJ",
           "articles_RhNm6T",
           "articles_FyDeiQ",
           "six_products_with_bg_mABf6B",
-          "two_products_7PV6yM"
+          "two_products_7PV6yM",
+          "two_products_CyGq6P",
+          "single_product_DQRghe"
         ],
         "settings": {}
       },
