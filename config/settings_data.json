@@ -32,10 +32,9 @@
           "articles_RhNm6T": {
             "type": "articles",
             "settings": {
-              "article_1": "your-brand-here/your-brand-here",
-              "article_1_image": "shopify://shop_images/Screenshot_2021-10-11_at_12.04.44.jpg",
-              "product": "issue-2",
-              "custom_image": "shopify://shop_images/Screenshot.jpg"
+              "article_1": "new-section/issues",
+              "article_1_image": "shopify://shop_images/BZFAMILY_1.jpg",
+              "product": ""
             }
           },
           "articles_FyDeiQ": {
