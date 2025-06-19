@@ -22,6 +22,15 @@
               "info": "<p>Society tells us to strive for success. That success is survival. The best revenge. But do we have more to learn from success – or epic failure? Could there be something more subversive than embracing failure? And can perhaps failure be the ultimate free form of fighting the dictatorship of success?</p><p> </p><p>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For Buffalo’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p>"
             }
           },
+          "articles_RhNm6T": {
+            "type": "articles",
+            "settings": {
+              "article_1": "your-brand-here/your-brand-here",
+              "article_1_image": "shopify://shop_images/Screenshot_2021-10-11_at_12.04.44.jpg",
+              "product": "issue-2",
+              "custom_image": "shopify://shop_images/Screenshot_2021-10-11_at_12.08.26_1.jpg"
+            }
+          },
           "six_products_with_bg_mABf6B": {
             "type": "six_products_with_bg",
             "settings": {
@@ -60,6 +69,7 @@
         },
         "block_order": [
           "hero_eH7mmr",
+          "articles_RhNm6T",
           "six_products_with_bg_mABf6B",
           "two_products_7PV6yM",
           "single_product_kLaLaJ",
