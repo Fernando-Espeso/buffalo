@@ -520,6 +520,27 @@
               "half": true
             }
           },
+          "product_fa9D8y": {
+            "type": "product",
+            "settings": {
+              "product": "issue-19-mother-aw2024-1",
+              "half": true
+            }
+          },
+          "product_A4RMWC": {
+            "type": "product",
+            "settings": {
+              "product": "issue-19-mother-aw2024-laying",
+              "half": true
+            }
+          },
+          "product_H6xMrT": {
+            "type": "product",
+            "settings": {
+              "product": "issue-19-buffalo-power-aw2023",
+              "half": false
+            }
+          },
           "product_EqxNTx": {
             "type": "product",
             "settings": {
@@ -533,38 +554,17 @@
               "product": "issue-13-la-zowie",
               "half": false
             }
-          },
-          "product_fa9D8y": {
-            "type": "product",
-            "settings": {
-              "product": "issue-19-mother-aw2024-1",
-              "half": false
-            }
-          },
-          "product_A4RMWC": {
-            "type": "product",
-            "settings": {
-              "product": "issue-19-mother-aw2024-laying",
-              "half": false
-            }
-          },
-          "product_H6xMrT": {
-            "type": "product",
-            "settings": {
-              "product": "issue-19-buffalo-power-aw2023",
-              "half": false
-            }
           }
         },
         "block_order": [
           "product_9DLrAq",
           "product_CYeMwt",
           "product_cgE8Xa",
-          "product_EqxNTx",
-          "product_TcJCRq",
           "product_fa9D8y",
           "product_A4RMWC",
-          "product_H6xMrT"
+          "product_H6xMrT",
+          "product_EqxNTx",
+          "product_TcJCRq"
         ],
         "settings": {}
       },
