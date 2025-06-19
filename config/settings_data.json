@@ -547,6 +547,13 @@
               "product": "issue-19-mother-aw2024-laying",
               "half": false
             }
+          },
+          "product_H6xMrT": {
+            "type": "product",
+            "settings": {
+              "product": "issue-19-buffalo-power-aw2023",
+              "half": false
+            }
           }
         },
         "block_order": [
@@ -556,7 +563,8 @@
           "product_EqxNTx",
           "product_TcJCRq",
           "product_fa9D8y",
-          "product_A4RMWC"
+          "product_A4RMWC",
+          "product_H6xMrT"
         ],
         "settings": {}
       },
