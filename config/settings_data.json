@@ -39,14 +39,6 @@
               "fullscreen": false
             }
           },
-          "single_product_4QkKi3": {
-            "type": "single_product",
-            "settings": {
-              "product": "issue-nº14-alain-cabrera",
-              "custom_image": "shopify://shop_images/web-test-01.png",
-              "fullscreen": true
-            }
-          },
           "two_products_TFPyyz": {
             "type": "two_products",
             "settings": {
@@ -59,7 +51,6 @@
           "hero_eH7mmr",
           "articles_FyDeiQ",
           "single_product_CxEUGd",
-          "single_product_4QkKi3",
           "two_products_TFPyyz"
         ],
         "settings": {}
