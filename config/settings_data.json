@@ -450,12 +450,19 @@
               "article": "your-brand-here/jumper",
               "image": "shopify://shop_images/web-test-02.png"
             }
+          },
+          "custom_article_Q9d4qJ": {
+            "type": "custom_article",
+            "settings": {
+              "article": ""
+            }
           }
         },
         "block_order": [
           "custom_article_pxmNhm",
           "custom_article_4PnhM9",
-          "custom_article_ANKNkQ"
+          "custom_article_ANKNkQ",
+          "custom_article_Q9d4qJ"
         ],
         "settings": {}
       },
