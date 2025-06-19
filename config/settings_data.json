@@ -431,6 +431,13 @@
       "brand": {
         "type": "brand",
         "blocks": {
+          "custom_article_pxmNhm": {
+            "type": "custom_article",
+            "settings": {
+              "article": "live/versace-resort-2024",
+              "image": "shopify://shop_images/Featured_2.jpg"
+            }
+          },
           "custom_article_4PnhM9": {
             "type": "custom_article",
             "settings": {
@@ -443,18 +450,12 @@
               "article": "your-brand-here/jumper",
               "image": "shopify://shop_images/web-test-02.png"
             }
-          },
-          "custom_article_pxmNhm": {
-            "type": "custom_article",
-            "settings": {
-              "article": "live/versace-resort-2024"
-            }
           }
         },
         "block_order": [
+          "custom_article_pxmNhm",
           "custom_article_4PnhM9",
-          "custom_article_ANKNkQ",
-          "custom_article_pxmNhm"
+          "custom_article_ANKNkQ"
         ],
         "settings": {}
       },
