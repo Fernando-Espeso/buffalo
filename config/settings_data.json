@@ -14,20 +14,12 @@
       "hero": {
         "type": "hero",
         "blocks": {
-          "hero_p8PyDY": {
-            "type": "hero",
-            "settings": {
-              "hero_image": "shopify://shop_images/BZ16ASPRODUCT_9.jpg",
-              "hero_text": "<p>Reinvent daily rituals with Patti Smith</p>",
-              "info": "<p>Reinvent daily rituals with Patti Smith, get in bed with Marina Abramovic and take a peak at John Waters most treasured belongings. Binge on wine and strawberries with Earthearter, have a Hennessy on the rocks with 070 Shake and go down to the lobby bar for one more drink with Lydia Lunch and Bibbe Hansen. Sing along to the piano with Miranda July and rave all night along Mckenzie Wark and Hanna Baer. Discover Vaquera’s New York City secret spots, embrace mayhem like Kembra Pfhaler and wind down in a hot bath with Christeene. Spend a night exploring the hotel with John Wilson before Chloe Sevigny comes in with her crew of maids. And also! Meet the long-time tenants who have managed to keep their vibrant apartments inside The Chelsea Hotel.</p>"
-            }
-          },
           "hero_eH7mmr": {
             "type": "hero",
             "settings": {
-              "hero_image": "shopify://shop_images/web-test-02.png",
-              "hero_text": "<p>Issue No.20 (AW2024)</p>",
-              "info": "<p>A live streamed, collective photo shoot taking place in a Paris studio during one day, bringingtogether a mix of photographers, stylists, models, hair and make up and movement directors.Creating a sort of “reality show” to be broadcasted live across different platforms: Instagram,TikTok, YouTube, Twitch, buffalozine.com, etc.</p>"
+              "hero_image": "shopify://shop_images/SUCCESSANDFAILURE_ANAJAH_0241_LR.jpg",
+              "hero_text": "<p>ISSUE 20: SUCCESS, ETC. / AW2024</p>",
+              "info": "<p>Society tells us to strive for success. That success is survival. The best revenge. But do we have more to learn from success – or epic failure? Could there be something more subversive than embracing failure? And can perhaps failure be the ultimate free form of fighting the dictatorship of success?</p><p> </p><p>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For Buffalo’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p>"
             }
           },
           "articles_FyDeiQ": {
@@ -64,7 +56,6 @@
           }
         },
         "block_order": [
-          "hero_p8PyDY",
           "hero_eH7mmr",
           "articles_FyDeiQ",
           "single_product_CxEUGd",
