@@ -51,16 +51,9 @@
             "type": "articles",
             "settings": {
               "article_1": "your-brand-here/jumper",
-              "article_1_image": "shopify://shop_images/web-test-02.png",
+              "article_1_image": "shopify://shop_images/BZ12_AS_PRODUCT_12.jpg",
               "product": "issue-13-la-zowie",
-              "custom_image": "shopify://shop_images/web-test-02.png"
-            }
-          },
-          "two_products_TFPyyz": {
-            "type": "two_products",
-            "settings": {
-              "product_1": "issue-nº14-alain-cabrera",
-              "product_2": "issue-nº14-alain-cabrera"
+              "custom_image": "shopify://shop_images/BZ15_AS_PRODUCT_18.jpg"
             }
           }
         },
@@ -69,8 +62,7 @@
           "six_products_with_bg_mABf6B",
           "two_products_7PV6yM",
           "single_product_kLaLaJ",
-          "articles_FyDeiQ",
-          "two_products_TFPyyz"
+          "articles_FyDeiQ"
         ],
         "settings": {}
       },
