@@ -517,7 +517,21 @@
             "type": "product",
             "settings": {
               "product": "issue-19-buffalo-power-aw2023",
-              "half": true
+              "half": false
+            }
+          },
+          "product_kkRwxi": {
+            "type": "product",
+            "settings": {
+              "product": "issue-17-coffee-cigarettes-ss2023",
+              "half": false
+            }
+          },
+          "product_KCphDf": {
+            "type": "product",
+            "settings": {
+              "product": "issue-16-buffalo-hotel-chelsea-aw2022",
+              "half": false
             }
           },
           "product_EqxNTx": {
@@ -546,6 +560,8 @@
           "product_9DLrAq",
           "product_A4RMWC",
           "product_H6xMrT",
+          "product_kkRwxi",
+          "product_KCphDf",
           "product_EqxNTx",
           "product_TcJCRq",
           "product_LMpzGf"
