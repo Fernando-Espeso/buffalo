@@ -390,6 +390,38 @@
       },
       "brand": {
         "type": "brand",
+        "blocks": {
+          "custom_article_NfNgJL": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/louis-vuitton-x-nba"
+            }
+          },
+          "custom_article_HRkJ6t": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/versace-resort-2024"
+            }
+          },
+          "custom_article_bhU87V": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/your-brand-here"
+            }
+          },
+          "custom_article_FxTzyF": {
+            "type": "custom_article",
+            "settings": {
+              "article": "live/burberrys-art-of-the-trench"
+            }
+          }
+        },
+        "block_order": [
+          "custom_article_NfNgJL",
+          "custom_article_HRkJ6t",
+          "custom_article_bhU87V",
+          "custom_article_FxTzyF"
+        ],
         "settings": {}
       },
       "quotes": {
