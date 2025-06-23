@@ -414,13 +414,20 @@
             "settings": {
               "article": "live/burberrys-art-of-the-trench"
             }
+          },
+          "custom_article_VmJMa6": {
+            "type": "custom_article",
+            "settings": {
+              "article": "live/eytys-jeans"
+            }
           }
         },
         "block_order": [
           "custom_article_NfNgJL",
           "custom_article_HRkJ6t",
           "custom_article_bhU87V",
-          "custom_article_FxTzyF"
+          "custom_article_FxTzyF",
+          "custom_article_VmJMa6"
         ],
         "settings": {}
       },
