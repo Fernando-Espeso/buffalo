@@ -156,13 +156,6 @@
       "stocklist": {
         "type": "stocklist",
         "blocks": {
-          "stocklist_fzeXwk": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "AUSTRALIA",
-              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
-            }
-          },
           "stocklist_jwfK44": {
             "type": "stocklist",
             "settings": {
@@ -221,7 +214,6 @@
           }
         },
         "block_order": [
-          "stocklist_fzeXwk",
           "stocklist_jwfK44",
           "stocklist_nF3DeF",
           "stocklist_badXmz",
@@ -590,7 +582,13 @@
           "final_text_6eTVUM": {
             "type": "final_text",
             "settings": {
-              "closing_text": "INDIE FASHION MAGAZINE OF THE DECADE\nIn 2019, Buffalo Zine was voted by the #StackAwards judges & Twitter “indie fashion magazine\nof the decade” with 72.9% of the votes in the fnal round.\nMAGAZINE OF THE YEAR\nBuffalo Zine was awarded magazine of the year by Stack Magazines in 2017, beating out over\n400 independent titles, with judge Jeremy Leslie describing it as “unlike anything else being done\ntoday.”"
+              "closing_text": "INDIE FASHION MAGAZINE OF THE DECADE\n\nIn 2019, Buffalo Zine was voted by the #StackAwards judges & Twitter “indie fashion magazine of the decade” with 72.9% of the votes in the fnal round.\n\nMAGAZINE OF THE YEAR\nBuffalo Zine was awarded magazine of the year by Stack Magazines in 2017, beating out over 400 independent titles, with judge Jeremy Leslie describing it as “unlike anything else being done\ntoday.”"
+            }
+          },
+          "final_text_3y8zbj": {
+            "type": "final_text",
+            "settings": {
+              "closing_text": ""
             }
           }
         },
@@ -600,7 +598,8 @@
           "award_item_iHtRhB",
           "award_item_R8fk79",
           "award_item_zpXgMY",
-          "final_text_6eTVUM"
+          "final_text_6eTVUM",
+          "final_text_3y8zbj"
         ],
         "settings": {
           "intro_text": "Buffalo Zine was awarded a D&AD pencil for its inaugural issue – and went on to win pencils in\nthe magazine and newspaper design category almost every year until today. Winning a D&AD\npencil remains the pinnacle of many careers and the work it celebrates inspires others to study,\ndebate, copy and reference the industry’s fnest designers."
