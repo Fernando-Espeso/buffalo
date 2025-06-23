@@ -40,6 +40,7 @@
           },
           "single_product_kLaLaJ": {
             "type": "single_product",
+            "disabled": true,
             "settings": {
               "product": "issue-20-success-etc",
               "fullscreen": true
@@ -47,6 +48,7 @@
           },
           "six_products_with_bg_mABf6B": {
             "type": "six_products_with_bg",
+            "disabled": true,
             "settings": {
               "bg_image": "shopify://shop_images/Screenshot_2025-04-14_at_15.09.36.png",
               "product_1": "issue-19-mother-aw2024-laying",
@@ -59,9 +61,17 @@
           },
           "two_products_7PV6yM": {
             "type": "two_products",
+            "disabled": true,
             "settings": {
               "product_1": "issue-19-mother-aw2024-laying",
               "product_2": "issue-19-buffalo-power-aw2023"
+            }
+          },
+          "articles_apGa6T": {
+            "type": "articles",
+            "settings": {
+              "article_1": "",
+              "product": ""
             }
           }
         },
@@ -71,7 +81,8 @@
           "articles_P4hPbP",
           "single_product_kLaLaJ",
           "six_products_with_bg_mABf6B",
-          "two_products_7PV6yM"
+          "two_products_7PV6yM",
+          "articles_apGa6T"
         ],
         "settings": {}
       },
