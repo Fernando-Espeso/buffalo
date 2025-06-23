@@ -87,7 +87,7 @@
           "column_text_BkaBqi": {
             "type": "column_text",
             "settings": {
-              "column_text_content": "<p>Buffalo Zine is a cutting-edge fashion andart magazine that embraces a refreshinglyunconventional approach to publishing. Itstands out for its fearless creativity, blendinghigh-fashion photography, witty storytellingand award-wining design and art direction.</p><p></p><p>Refusing to sit still, no two issues are everthe same. Every season, the entire magazinechanges format and aesthetic identity,revealing a different facet of its rebellious,defant sensibility. </p><p>Transforming with everyissue into a new world for readers to immerse themselves in.With an emphasis on collaboration and inclusivity, Buffalo Zine works with a global array of artists, photographers, writers, andstylists. The outcome is an irreverent meltingpot of creative expression that challengesthe established conventions of the fashionindustry.Buffalo Zine’s innovative and daring approach has earned it a devoted following and cemented its reputation as a trailblazer in the world of independent fashion publishing.</p>"
+              "column_text_content": "<p>Buffalo Zine is a cutting-edge fashion and art magazine that embraces a refreshingly unconventional approach to publishing. It stands out for its fearless creativity, blending high-fashion photography, witty storytelling and award-wining design and art direction.</p><p><br/></p><p>Refusing to sit still, no two issues are ever the same. Every season, the entire magazine changes format and aesthetic identity, revealing a different facet of its rebellious, defiant sensibility. Transforming with every issue into a new world for readers to immerse themselves in. </p><p>With an emphasis on collaboration and inclusivity, Buffalo Zine works with a global array of artists, photographers, writers, and stylists. The outcome is an irreverent melting pot of creative expression that challenges the established conventions of the fashion industry.</p><p>Buffalo Zine’s innovative and daring approach has earned it a devoted following and cemented its reputation as a trailblazer in the world of independent fashion publishing.</p>"
             }
           }
         },
@@ -235,67 +235,6 @@
       },
       "social": {
         "type": "social",
-        "blocks": {
-          "image_h6MeP3": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image": "shopify://shop_images/Screenshot_2021-10-11_at_12.04.53.jpg",
-              "alt_text": ""
-            }
-          },
-          "image_3WfnEG": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/Screenshot_2021-10-11_at_12.10.47.jpg",
-              "alt_text": ""
-            }
-          },
-          "image_6JNak6": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/MONEYxVersace_Still_Life5.jpg",
-              "alt_text": ""
-            }
-          },
-          "image_CFTTg9": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/Screenshot_2021-10-11_at_12.08.07.jpg",
-              "alt_text": ""
-            }
-          },
-          "image_MaizNt": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/Screenshot_2021-10-11_at_12.10.26.jpg",
-              "alt_text": ""
-            }
-          },
-          "image_YGbPg9": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/Screenshot_2021-10-11_at_12.11.33.jpg",
-              "alt_text": ""
-            }
-          },
-          "image_XkeyRx": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/Screenshot_2021-10-11_at_12.11.54.jpg",
-              "alt_text": ""
-            }
-          }
-        },
-        "block_order": [
-          "image_h6MeP3",
-          "image_3WfnEG",
-          "image_6JNak6",
-          "image_CFTTg9",
-          "image_MaizNt",
-          "image_YGbPg9",
-          "image_XkeyRx"
-        ],
         "settings": {}
       },
       "live": {
