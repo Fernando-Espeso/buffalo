@@ -372,8 +372,8 @@
       "contact": {
         "type": "contact",
         "settings": {
-          "info": "<p>Publishers / Creative + Art<br/>Adrián González-Cohen </p><p>David Uzquiza</p><p><br/>Fashion Director<br/>Tati Cotliar</p><p><br/>Features Editor<br/>Andrea Lazarov</p><p><br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist</p><p><br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher</p><p><br/>Website<br/>Fernando Espeso</p>",
-          "info-2": "<p>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London</p><p><br/>hi@buffalozine.com <br/>Advertising & Collaborations <br/>Shop Enquiries <br/>Distribution @ White Circ </p><p><br/>Instagram<br/>YouTube<br/>TikTok</p>"
+          "info": "<p>Publishers / Creative + Art<br/>Adrian González-Cohen </p><p>David Uzquiza</p><p><br/>Fashion Director<br/>Tati Cotliar</p><p><br/>Features Editor<br/>Andrea Lazarov</p><p><br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist</p><p><br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher</p><p><br/>Website<br/>Fernando Espeso</p>",
+          "info-2": "<p>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London</p><p>hi@buffalozine.com </p><p><br/>Advertising & Collaborations </p><p><br/>Shop Enquiries </p><p><br/>Distribution @ White Circ </p><p><br/>Instagram<br/>YouTube<br/>TikTok</p>"
         }
       },
       "brand": {
@@ -547,7 +547,7 @@
           "award_item_yWfT3y": {
             "type": "award_item",
             "settings": {
-              "award_image": "shopify://shop_images/2_GRAPHITE.jpg",
+              "award_image": "shopify://shop_images/3_WOOD_b0066a7c-81c5-4477-9895-a22bc8fcb262.jpg",
               "award_text": "ISSUE 10\n\nGRAPHITE PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2021"
             }
           },
