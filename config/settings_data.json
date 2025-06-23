@@ -238,36 +238,51 @@
         "blocks": {
           "image_h6MeP3": {
             "type": "image",
+            "disabled": true,
             "settings": {
-              "image": "shopify://shop_images/web-test-01.png",
+              "image": "shopify://shop_images/Screenshot_2021-10-11_at_12.04.53.jpg",
               "alt_text": ""
             }
           },
           "image_3WfnEG": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/web-test-02.png",
+              "image": "shopify://shop_images/Screenshot_2021-10-11_at_12.10.47.jpg",
               "alt_text": ""
             }
           },
           "image_6JNak6": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/web-test-02.png",
+              "image": "shopify://shop_images/MONEYxVersace_Still_Life5.jpg",
               "alt_text": ""
             }
           },
           "image_CFTTg9": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/web-test-01.png",
+              "image": "shopify://shop_images/Screenshot_2021-10-11_at_12.08.07.jpg",
               "alt_text": ""
             }
           },
           "image_MaizNt": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/web-test-02.png",
+              "image": "shopify://shop_images/Screenshot_2021-10-11_at_12.10.26.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_YGbPg9": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Screenshot_2021-10-11_at_12.11.33.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_XkeyRx": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Screenshot_2021-10-11_at_12.11.54.jpg",
               "alt_text": ""
             }
           }
@@ -277,7 +292,9 @@
           "image_3WfnEG",
           "image_6JNak6",
           "image_CFTTg9",
-          "image_MaizNt"
+          "image_MaizNt",
+          "image_YGbPg9",
+          "image_XkeyRx"
         ],
         "settings": {}
       },
