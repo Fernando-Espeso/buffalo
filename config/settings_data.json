@@ -544,18 +544,11 @@
       "awards": {
         "type": "awards",
         "blocks": {
-          "award_item_LnBYQ8": {
-            "type": "award_item",
-            "settings": {
-              "award_image": "shopify://shop_images/1_YELLOW_300px_width.jpg",
-              "award_text": "ISSUE 10\nGRAPHITE PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2021"
-            }
-          },
           "award_item_yWfT3y": {
             "type": "award_item",
             "settings": {
               "award_image": "shopify://shop_images/2_GRAPHITE.jpg",
-              "award_text": "ISSUE 10\nGRAPHITE PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2021"
+              "award_text": "ISSUE 10\n\nGRAPHITE PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2021"
             }
           },
           "award_item_iHtRhB": {
@@ -593,7 +586,6 @@
           }
         },
         "block_order": [
-          "award_item_LnBYQ8",
           "award_item_yWfT3y",
           "award_item_iHtRhB",
           "award_item_R8fk79",
