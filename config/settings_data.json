@@ -249,7 +249,7 @@
             "settings": {
               "image": "shopify://shop_images/5-023-1-copy-scaled.jpg",
               "link": "shopify://blogs/your-brand-here/new-test",
-              "caption": "",
+              "caption": "In magazines, presentations and collaborations it discusses the numerous and sometimes curious relationships we have with the design that surrounds us. Each edition is based around a single object, exploring the highly familiar or utterly disregarded role it plays in our lives.",
               "role": "photographer",
               "name": "ANTHONY SEKLAOUI"
             }
@@ -384,46 +384,12 @@
       "contact": {
         "type": "contact",
         "settings": {
-          "info": "<p>Publishers / Creative + Art<br/>Adrian González-Cohen </p><p>David Uzquiza</p><p><br/>Fashion Director<br/>Tati Cotliar</p><p><br/>Features Editor<br/>Andrea Lazarov</p><p><br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist</p><p><br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher</p><p><br/>Website<br/>Fernando Espeso</p>",
-          "info-2": "<p>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London</p><p>hi@buffalozine.com </p><p><br/>Advertising & Collaborations </p><p><br/>Shop Enquiries </p><p><br/>Distribution @ White Circ </p><p><br/>Instagram<br/>YouTube<br/>TikTok</p>"
+          "info": "<p>Publishers / Creative + Art<br/>Adrian González-Cohen </p><p>David Uzquiza</p><p><br/><strong>FEATURES EDITOR </strong><br/>Andrea Lazarov</p><p><br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist</p><p><br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher</p>",
+          "info-2": "<p>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London</p><p>hi@buffalozine.com </p><p><br/>Advertising & Collaborations </p><p><br/>Shop Enquiries </p><p><br/>Distribution @ White Circ </p><p><br/>Instagram<br/>YouTube<br/>TikTok<br/></p><p><strong>WEBSITE</strong><br/>Fernando Espeso</p>"
         }
       },
       "brand": {
         "type": "brand",
-        "blocks": {
-          "custom_article_pxmNhm": {
-            "type": "custom_article",
-            "settings": {
-              "article": "live/versace-resort-2024",
-              "image": "shopify://shop_images/Featured_2.jpg"
-            }
-          },
-          "custom_article_4PnhM9": {
-            "type": "custom_article",
-            "settings": {
-              "article": "your-brand-here/your-brand-here"
-            }
-          },
-          "custom_article_ANKNkQ": {
-            "type": "custom_article",
-            "settings": {
-              "article": "your-brand-here/jumper",
-              "image": "shopify://shop_images/web-test-02.png"
-            }
-          },
-          "custom_article_Q9d4qJ": {
-            "type": "custom_article",
-            "settings": {
-              "article": "your-brand-here/louis-vuitton-x-nba"
-            }
-          }
-        },
-        "block_order": [
-          "custom_article_pxmNhm",
-          "custom_article_4PnhM9",
-          "custom_article_ANKNkQ",
-          "custom_article_Q9d4qJ"
-        ],
         "settings": {}
       },
       "quotes": {
