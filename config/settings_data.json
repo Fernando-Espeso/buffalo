@@ -17,50 +17,73 @@
           "hero_eH7mmr": {
             "type": "hero",
             "settings": {
-              "hero_image": "shopify://shop_images/web-test-02.png",
-              "hero_text": "<p>Issue No.20 (AW2024)</p>",
-              "info": "<p>A live streamed, collective photo shoot taking place in a Paris studio during one day, bringingtogether a mix of photographers, stylists, models, hair and make up and movement directors.Creating a sort of “reality show” to be broadcasted live across different platforms: Instagram,TikTok, YouTube, Twitch, buffalozine.com, etc.</p>"
+              "hero_image": "shopify://shop_images/BZ20_Cover_02_Ninot_standing_RET_4.jpg",
+              "hero_text": "<p>ISSUE 20: SUCCESS, ETC. / AW2024</p>",
+              "info": "<p>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For Buffalo’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p>"
             }
           },
-          "articles_FyDeiQ": {
+          "articles_RhNm6T": {
             "type": "articles",
             "settings": {
-              "article_1": "your-brand-here/jumper",
-              "article_1_image": "shopify://shop_images/web-test-02.png",
-              "product": "issue-13-la-zowie",
-              "custom_image": "shopify://shop_images/web-test-02.png"
+              "article_1": "new-section/issues",
+              "article_1_image": "shopify://shop_images/BZFAMILY_1.jpg",
+              "product": ""
             }
           },
-          "single_product_CxEUGd": {
-            "type": "single_product",
+          "articles_P4hPbP": {
+            "type": "articles",
             "settings": {
-              "product": "issue-13-la-zowie",
-              "custom_image": "shopify://shop_images/web-test-01.png",
-              "fullscreen": false
+              "article_1": "live/your-brand-here",
+              "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
+              "product": ""
             }
           },
-          "single_product_4QkKi3": {
+          "single_product_kLaLaJ": {
             "type": "single_product",
+            "disabled": true,
             "settings": {
-              "product": "issue-nº14-alain-cabrera",
-              "custom_image": "shopify://shop_images/web-test-01.png",
+              "product": "issue-20-success-etc",
               "fullscreen": true
             }
           },
-          "two_products_TFPyyz": {
-            "type": "two_products",
+          "six_products_with_bg_mABf6B": {
+            "type": "six_products_with_bg",
+            "disabled": true,
             "settings": {
-              "product_1": "issue-nº14-alain-cabrera",
-              "product_2": "issue-nº14-alain-cabrera"
+              "bg_image": "shopify://shop_images/Screenshot_2025-04-14_at_15.09.36.png",
+              "product_1": "issue-19-mother-aw2024-laying",
+              "product_2": "issue-19-buffalo-power-aw2023",
+              "product_3": "issue-17-coffee-cigarettes-ss2023",
+              "product_4": "issue-16-buffalo-hotel-chelsea-aw2022",
+              "product_5": "issue-15-pink-ss2022",
+              "product_6": "issue-13-la-zowie"
+            }
+          },
+          "two_products_7PV6yM": {
+            "type": "two_products",
+            "disabled": true,
+            "settings": {
+              "product_1": "issue-19-mother-aw2024-laying",
+              "product_2": "issue-19-buffalo-power-aw2023"
+            }
+          },
+          "articles_apGa6T": {
+            "type": "articles",
+            "settings": {
+              "article_1": "live/buffalo-zine-x-valentino",
+              "article_1_image": "shopify://shop_images/Screenshot_2025-06-23_at_16.30.06.jpg",
+              "product": ""
             }
           }
         },
         "block_order": [
           "hero_eH7mmr",
-          "articles_FyDeiQ",
-          "single_product_CxEUGd",
-          "single_product_4QkKi3",
-          "two_products_TFPyyz"
+          "articles_RhNm6T",
+          "articles_P4hPbP",
+          "single_product_kLaLaJ",
+          "six_products_with_bg_mABf6B",
+          "two_products_7PV6yM",
+          "articles_apGa6T"
         ],
         "settings": {}
       },
@@ -76,7 +99,7 @@
           "column_text_BkaBqi": {
             "type": "column_text",
             "settings": {
-              "column_text_content": "<p>Buffalo Zine is a cutting-edge fashion andart magazine that embraces a refreshinglyunconventional approach to publishing. Itstands out for its fearless creativity, blendinghigh-fashion photography, witty storytellingand award-wining design and art direction.</p><p></p><p>Refusing to sit still, no two issues are everthe same. Every season, the entire magazinechanges format and aesthetic identity,revealing a different facet of its rebellious,defant sensibility. </p><p>Transforming with everyissue into a new world for readers to immerse themselves in.With an emphasis on collaboration and inclusivity, Buffalo Zine works with a global array of artists, photographers, writers, andstylists. The outcome is an irreverent meltingpot of creative expression that challengesthe established conventions of the fashionindustry.Buffalo Zine’s innovative and daring approach has earned it a devoted following and cemented its reputation as a trailblazer in the world of independent fashion publishing.</p>"
+              "column_text_content": "<p>Buffalo Zine is a cutting-edge fashion and art magazine that embraces a refreshingly unconventional approach to publishing. It stands out for its fearless creativity, blending high-fashion photography, witty storytelling and award-wining design and art direction.</p><p><br/></p><p>Refusing to sit still, no two issues are ever the same. Every season, the entire magazine changes format and aesthetic identity, revealing a different facet of its rebellious, defiant sensibility. Transforming with every issue into a new world for readers to immerse themselves in. </p><p>With an emphasis on collaboration and inclusivity, Buffalo Zine works with a global array of artists, photographers, writers, and stylists. The outcome is an irreverent melting pot of creative expression that challenges the established conventions of the fashion industry.</p><p>Buffalo Zine’s innovative and daring approach has earned it a devoted following and cemented its reputation as a trailblazer in the world of independent fashion publishing.</p>"
             }
           }
         },
@@ -145,72 +168,64 @@
       "stocklist": {
         "type": "stocklist",
         "blocks": {
-          "stocklist_fzeXwk": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "Paris",
-              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
-            }
-          },
           "stocklist_jwfK44": {
             "type": "stocklist",
             "settings": {
-              "shop_name": "Milan",
+              "shop_name": "AUSTRIA",
               "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy</p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p>"
             }
           },
           "stocklist_nF3DeF": {
             "type": "stocklist",
             "settings": {
-              "shop_name": "Barcelona",
-              "address": ""
+              "shop_name": "BELGIUM",
+              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
             }
           },
           "stocklist_badXmz": {
             "type": "stocklist",
             "settings": {
-              "shop_name": "Madrid",
-              "address": ""
+              "shop_name": "CANADA",
+              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
             }
           },
           "stocklist_QqzTDa": {
             "type": "stocklist",
             "settings": {
-              "shop_name": "Bratislava",
-              "address": ""
+              "shop_name": "CHINA",
+              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
             }
           },
           "stocklist_RhAyMM": {
             "type": "stocklist",
             "settings": {
-              "shop_name": "Andorra",
-              "address": ""
+              "shop_name": "FINLAND",
+              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
             }
           },
           "stocklist_J9xHhx": {
             "type": "stocklist",
             "settings": {
-              "shop_name": "Sevilla",
-              "address": ""
+              "shop_name": "FRANCE",
+              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
             }
           },
           "stocklist_QhjfhP": {
             "type": "stocklist",
             "settings": {
-              "shop_name": "London",
-              "address": ""
+              "shop_name": "GERMANY",
+              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
             }
           },
           "stocklist_P7cqJq": {
             "type": "stocklist",
             "settings": {
-              "shop_name": "Belgium",
-              "address": ""
+              "shop_name": "HUNGARY",
+              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
             }
           }
         },
         "block_order": [
-          "stocklist_fzeXwk",
           "stocklist_jwfK44",
           "stocklist_nF3DeF",
           "stocklist_badXmz",
@@ -224,50 +239,6 @@
       },
       "social": {
         "type": "social",
-        "blocks": {
-          "image_h6MeP3": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/web-test-01.png",
-              "alt_text": ""
-            }
-          },
-          "image_3WfnEG": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/web-test-02.png",
-              "alt_text": ""
-            }
-          },
-          "image_6JNak6": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/web-test-02.png",
-              "alt_text": ""
-            }
-          },
-          "image_CFTTg9": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/web-test-01.png",
-              "alt_text": ""
-            }
-          },
-          "image_MaizNt": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/web-test-02.png",
-              "alt_text": ""
-            }
-          }
-        },
-        "block_order": [
-          "image_h6MeP3",
-          "image_3WfnEG",
-          "image_6JNak6",
-          "image_CFTTg9",
-          "image_MaizNt"
-        ],
         "settings": {}
       },
       "live": {
@@ -278,7 +249,7 @@
             "settings": {
               "image": "shopify://shop_images/5-023-1-copy-scaled.jpg",
               "link": "shopify://blogs/your-brand-here/new-test",
-              "caption": "",
+              "caption": "In magazines, presentations and collaborations it discusses the numerous and sometimes curious relationships we have with the design that surrounds us. Each edition is based around a single object, exploring the highly familiar or utterly disregarded role it plays in our lives.",
               "role": "photographer",
               "name": "ANTHONY SEKLAOUI"
             }
@@ -413,39 +384,58 @@
       "contact": {
         "type": "contact",
         "settings": {
-          "info": "<p>Publishers / Creative + Art<br/>Adrián González-Cohen </p><p>David Uzquiza</p><p><br/>Fashion Director<br/>Tati Cotliar</p><p><br/>Features Editor<br/>Andrea Lazarov</p><p><br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist</p><p><br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher</p><p><br/>Website<br/>Fernando Espeso</p>",
-          "info-2": "<p>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London</p><p><br/>hi@buffalozine.com <br/>Advertising & Collaborations <br/>Shop Enquiries <br/>Distribution @ White Circ </p><p><br/>Instagram<br/>YouTube<br/>TikTok</p>"
+          "info": "<p>Publishers / Creative + Art<br/>Adrian González-Cohen </p><p>David Uzquiza</p><p><br/><strong>FEATURES EDITOR </strong><br/>Andrea Lazarov</p><p><br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist</p><p><br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher<br/></p><p></p><p><strong>WEBSITE</strong><br/>Fernando Espeso</p>",
+          "info-2": "<p>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London</p><p>hi@buffalozine.com </p><p><br/>Advertising & Collaborations </p><p><br/>Shop Enquiries </p><p><br/>Distribution @ White Circ </p><p><br/>Instagram<br/>YouTube<br/>TikTok<br/></p><p></p>"
         }
       },
       "brand": {
         "type": "brand",
         "blocks": {
-          "custom_article_Ct3x4r": {
+          "custom_article_NfNgJL": {
             "type": "custom_article",
             "settings": {
-              "article": "shuffle/shuffle-test",
-              "image": "shopify://shop_images/web-test-02.png"
+              "article": "your-brand-here/louis-vuitton-x-nba"
             }
           },
-          "custom_article_ANKNkQ": {
+          "custom_article_HRkJ6t": {
             "type": "custom_article",
             "settings": {
-              "article": "your-brand-here/jumper",
-              "image": "shopify://shop_images/web-test-02.png"
+              "article": "your-brand-here/versace-resort-2024"
             }
           },
-          "custom_article_3q7T6T": {
+          "custom_article_bhU87V": {
             "type": "custom_article",
             "settings": {
-              "article": "your-brand-here/new-test",
-              "image": "shopify://shop_images/web-test-02.png"
+              "article": "your-brand-here/your-brand-here"
+            }
+          },
+          "custom_article_FxTzyF": {
+            "type": "custom_article",
+            "settings": {
+              "article": "live/burberrys-art-of-the-trench"
+            }
+          },
+          "custom_article_VmJMa6": {
+            "type": "custom_article",
+            "settings": {
+              "article": "live/eytys-jeans",
+              "image": "shopify://shop_images/10_EYTYS_JEANS_FW17_Campaign_03.jpg"
+            }
+          },
+          "custom_article_Ty7Yae": {
+            "type": "custom_article",
+            "settings": {
+              "article": ""
             }
           }
         },
         "block_order": [
-          "custom_article_Ct3x4r",
-          "custom_article_ANKNkQ",
-          "custom_article_3q7T6T"
+          "custom_article_NfNgJL",
+          "custom_article_HRkJ6t",
+          "custom_article_bhU87V",
+          "custom_article_FxTzyF",
+          "custom_article_VmJMa6",
+          "custom_article_Ty7Yae"
         ],
         "settings": {}
       },
@@ -499,106 +489,91 @@
       "products": {
         "type": "products",
         "blocks": {
+          "product_9DLrAq": {
+            "type": "product",
+            "settings": {
+              "product": "issue-20-success-etc",
+              "half": true
+            }
+          },
+          "product_A4RMWC": {
+            "type": "product",
+            "settings": {
+              "product": "issue-19-mother-aw2024-laying",
+              "half": true
+            }
+          },
+          "product_H6xMrT": {
+            "type": "product",
+            "settings": {
+              "product": "issue-19-buffalo-power-aw2023",
+              "half": false
+            }
+          },
+          "product_kkRwxi": {
+            "type": "product",
+            "settings": {
+              "product": "issue-17-coffee-cigarettes-ss2023",
+              "half": false
+            }
+          },
+          "product_KCphDf": {
+            "type": "product",
+            "settings": {
+              "product": "issue-16-buffalo-hotel-chelsea-aw2022",
+              "half": false
+            }
+          },
+          "product_EqxNTx": {
+            "type": "product",
+            "settings": {
+              "product": "issue-2",
+              "half": true
+            }
+          },
           "product_TcJCRq": {
             "type": "product",
             "settings": {
               "product": "issue-13-la-zowie",
-              "half": true
-            }
-          },
-          "product_HCdyPL": {
-            "type": "product",
-            "settings": {
-              "product": "issue-nº14-alain-cabrera",
-              "half": true
-            }
-          },
-          "product_c6c4wD": {
-            "type": "product",
-            "settings": {
-              "product": "issue-13-la-zowie",
               "half": false
             }
           },
-          "product_iRP8ee": {
+          "product_LMpzGf": {
             "type": "product",
             "settings": {
-              "product": "on-sale",
+              "product": "issue-15-pink-ss2022",
               "half": false
             }
           },
-          "product_qc8zY7": {
+          "product_jXQmLE": {
             "type": "product",
             "settings": {
-              "product": "issue-13-la-zowie",
-              "half": false
-            }
-          },
-          "product_yaCGNp": {
-            "type": "product",
-            "settings": {
-              "product": "issue-13-sale",
-              "half": true
-            }
-          },
-          "product_8LWpAb": {
-            "type": "product",
-            "settings": {
-              "product": "issue-13-the-rise-and-fall",
-              "half": true
-            }
-          },
-          "product_cCDpAD": {
-            "type": "product",
-            "settings": {
-              "product": "issue-13-the-rise-and-fall",
-              "half": false
-            }
-          },
-          "product_Vc3eq9": {
-            "type": "product",
-            "settings": {
-              "product": "issue-nº14-alain-cabrera",
-              "half": false
-            }
-          },
-          "product_pwzzph": {
-            "type": "product",
-            "settings": {
-              "product": "nuevo-producto",
+              "product": "issue-12-buffalo-does-it-aw2020",
               "half": false
             }
           }
         },
         "block_order": [
+          "product_9DLrAq",
+          "product_A4RMWC",
+          "product_H6xMrT",
+          "product_kkRwxi",
+          "product_KCphDf",
+          "product_EqxNTx",
           "product_TcJCRq",
-          "product_HCdyPL",
-          "product_c6c4wD",
-          "product_iRP8ee",
-          "product_qc8zY7",
-          "product_yaCGNp",
-          "product_8LWpAb",
-          "product_cCDpAD",
-          "product_Vc3eq9",
-          "product_pwzzph"
+          "product_LMpzGf",
+          "product_jXQmLE"
         ],
         "settings": {}
       },
       "awards": {
         "type": "awards",
         "blocks": {
-          "award_item_LnBYQ8": {
-            "type": "award_item",
-            "settings": {
-              "award_image": "shopify://shop_images/3_WOOD.jpg",
-              "award_text": "ISSUE 10\nGRAPHITE PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2021"
-            }
-          },
           "award_item_yWfT3y": {
             "type": "award_item",
             "settings": {
-              "award_image": "shopify://shop_images/2_GRAPHITE.jpg",
-              "award_text": "ISSUE 10\nGRAPHITE PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2021"
+              "award_image": "shopify://shop_images/3_WOOD_b0066a7c-81c5-4477-9895-a22bc8fcb262.jpg",
+              "award_text": "ISSUE 10\n\nGRAPHITE PENCIL\nMAGAZINE & NEWSPAPER DESIGN\nINDEPENDENT MAGAZINES\n2021"
             }
           },
           "award_item_iHtRhB": {
@@ -625,20 +600,26 @@
           "final_text_6eTVUM": {
             "type": "final_text",
             "settings": {
-              "closing_text": "INDIE FASHION MAGAZINE OF THE DECADE\nIn 2019, Buffalo Zine was voted by the #StackAwards judges & Twitter “indie fashion magazine\nof the decade” with 72.9% of the votes in the fnal round.\nMAGAZINE OF THE YEAR\nBuffalo Zine was awarded magazine of the year by Stack Magazines in 2017, beating out over\n400 independent titles, with judge Jeremy Leslie describing it as “unlike anything else being done\ntoday.”"
+              "closing_text": "INDIE FASHION MAGAZINE OF THE DECADE\n\nIn 2019, Buffalo Zine was voted by the #StackAwards judges & Twitter “indie fashion magazine of the decade” with 72.9% of the votes in the fnal round.\n\nMAGAZINE OF THE YEAR\nBuffalo Zine was awarded magazine of the year by Stack Magazines in 2017, beating out over 400 independent titles, with judge Jeremy Leslie describing it as “unlike anything else being done\ntoday.”"
+            }
+          },
+          "final_text_3y8zbj": {
+            "type": "final_text",
+            "settings": {
+              "closing_text": ""
             }
           }
         },
         "block_order": [
-          "award_item_LnBYQ8",
           "award_item_yWfT3y",
           "award_item_iHtRhB",
           "award_item_R8fk79",
           "award_item_zpXgMY",
-          "final_text_6eTVUM"
+          "final_text_6eTVUM",
+          "final_text_3y8zbj"
         ],
         "settings": {
-          "intro_text": "Buffalo Zine was awarded a D&AD pencil for its inaugural issue – and went on to win pencils in\nthe magazine and newspaper design category almost every year until today. Winning a D&AD\npencil remains the pinnacle of many careers and the work it celebrates inspires others to study,\ndebate, copy and reference the industry’s fnest designers."
+          "intro_text": "D&AD AWARDS\n\nBuffalo Zine was awarded a D&AD pencil for its inaugural issue – and went on to win pencils in the magazine and newspaper design category almost every year until today. Winning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study,\ndebate, copy and reference the industry’s fnest designers."
         }
       }
     },
