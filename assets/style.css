@@ -906,7 +906,7 @@ div#shopify-section-stocklist, div#shopify-section-about {
   padding-bottom: 20px;
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsm);
-  line-height: 20px;
+  line-height: 22px;
   letter-spacing: 0px;
 }
 .stockist-search {
@@ -939,7 +939,7 @@ input#stockistFilter::placeholder{
 }
 .contact-section .info{
   font-size: var(--fsm);
-  line-height: 20px;
+  line-height: 22px;
   letter-spacing: 0px;
 }
 .gallery{
