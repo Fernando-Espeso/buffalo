@@ -19,7 +19,7 @@
             "settings": {
               "hero_image": "shopify://shop_images/BZ20_Cover_02_Ninot_standing_RET_4.jpg",
               "hero_text": "<p>ISSUE 20: SUCCESS, ETC. / AW2024</p>",
-              "info": "<p>Society tells us to strive for success. That success is survival. The best revenge. But do we have more to learn from success – or epic failure? Could there be something more subversive than embracing failure? And can perhaps failure be the ultimate free form of fighting the dictatorship of success?</p><p> </p><p>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For Buffalo’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p>"
+              "info": "<p>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For Buffalo’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p>"
             }
           },
           "articles_RhNm6T": {
@@ -418,7 +418,14 @@
           "custom_article_VmJMa6": {
             "type": "custom_article",
             "settings": {
-              "article": "live/eytys-jeans"
+              "article": "live/eytys-jeans",
+              "image": "shopify://shop_images/10_EYTYS_JEANS_FW17_Campaign_03.jpg"
+            }
+          },
+          "custom_article_Ty7Yae": {
+            "type": "custom_article",
+            "settings": {
+              "article": ""
             }
           }
         },
@@ -427,7 +434,8 @@
           "custom_article_HRkJ6t",
           "custom_article_bhU87V",
           "custom_article_FxTzyF",
-          "custom_article_VmJMa6"
+          "custom_article_VmJMa6",
+          "custom_article_Ty7Yae"
         ],
         "settings": {}
       },
