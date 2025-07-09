@@ -586,6 +586,7 @@ section.hero img {
 }
 
 .aim {
+  background-color: white;
   text-transform: uppercase;
   padding: 10px;
   top: var(--m);
@@ -593,7 +594,7 @@ section.hero img {
   position: absolute;
   font-size: var(--fs);
   line-height: var(--fs);
-  color: #fff;
+  color: black;
   max-width: 1200px;
   text-align: center;
 }
