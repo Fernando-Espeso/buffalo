@@ -601,6 +601,7 @@ section.hero img {
 .product-price-white{
   padding: var(--space);
   position: absolute;
+  background-color: white;
   top: 0px;
   right: 0px;
 }
