@@ -599,6 +599,7 @@ section.hero img {
   text-align: center;
 }
 .product-price-white{
+  padding: var(--space);
   position: absolute;
   top: 0px;
   right: 0px;
