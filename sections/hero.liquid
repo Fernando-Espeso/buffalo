@@ -122,9 +122,9 @@
         {% assign product2 = all_products[block.settings.product_2] %}
         {% if product1 %}
           <a class="product estandard" href="{{ product1.url }}">
+            <div class="product-price-white">{{ product1.price | money }}</div>
             <div class="product-title title-thang">
               {{ product1.title }}
-              <div class="product-price">{{ product1.price | money }}</div>
             </div>
             <img src="{{ product1.featured_image | img_url: 'master' }}" alt="{{ product1.title }}">
           </a>
