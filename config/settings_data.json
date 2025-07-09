@@ -50,9 +50,8 @@
           },
           "six_products_with_bg_mABf6B": {
             "type": "six_products_with_bg",
-            "disabled": true,
             "settings": {
-              "bg_image": "shopify://shop_images/Screenshot_2025-04-14_at_15.09.36.png",
+              "bg_image": "shopify://shop_images/Screenshot_2021-10-11_at_12.10.47.jpg",
               "product_1": "issue-19-mother-aw2024-laying",
               "product_2": "issue-19-buffalo-power-aw2023",
               "product_3": "issue-17-coffee-cigarettes-ss2023",
@@ -63,7 +62,6 @@
           },
           "two_products_7PV6yM": {
             "type": "two_products",
-            "disabled": true,
             "settings": {
               "product_1": "issue-19-mother-aw2024-laying",
               "product_2": "issue-19-buffalo-power-aw2023"
@@ -387,7 +385,7 @@
       "contact": {
         "type": "contact",
         "settings": {
-          "info": "<p>Publishers / Creative + Art<br/>Adrian González-Cohen </p><p>David Uzquiza</p><p><br/>FEATURES EDITOR <br/>Andrea Lazarov</p><p><br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist</p><p><br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher<br/></p><p></p><p>WEBSITE<br/>Fernando Espeso</p>",
+          "info": "<p>Publishers / Creative + Art<br/>Adrian González-Cohen </p><p>David Uzquiza</p><p><br/>FEATURES EDITOR <br/>Andrea Lazarov</p><p><br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist</p><p><br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher</p><p></p><p>WEBSITE<br/>Fernando Espeso</p>",
           "info-2": "<p>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London</p><p>hi@buffalozine.com </p><p><br/>Advertising & Collaborations </p><p><br/>Shop Enquiries </p><p><br/>Distribution @ White Circ </p><p><br/>Instagram<br/>YouTube<br/>TikTok<br/></p><p></p>"
         }
       },
