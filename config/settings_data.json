@@ -27,8 +27,10 @@
             "settings": {
               "article_1": "shuffle/lunch-al-desko-lunch-al-desko",
               "article_1_image": "shopify://shop_images/TRU891797.jpg",
+              "article_1_media_hover": "https://cdn.shopify.com/s/files/1/0938/5250/0300/files/FEATURED_10_EYTYS_JEANS_FW17_Campaign_03.jpg?v=1750694718",
               "article_2": "shuffle/lunch-al-desko-lunch-al-desko",
-              "custom_image": "shopify://shop_images/TRU1958830.jpg"
+              "custom_image": "shopify://shop_images/TRU1958830.jpg",
+              "article_2_media_hover": ""
             }
           },
           "articles_P4hPbP": {
@@ -36,8 +38,10 @@
             "settings": {
               "article_1": "live/your-brand-here",
               "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
+              "article_1_media_hover": "",
               "article_2": "shuffle/buffalo-zine-x-vivienne-westwood",
-              "custom_image": "shopify://shop_images/TRU1958840.jpg"
+              "custom_image": "shopify://shop_images/TRU1958840.jpg",
+              "article_2_media_hover": ""
             }
           },
           "single_product_kLaLaJ": {
@@ -72,8 +76,10 @@
             "settings": {
               "article_1": "live/buffalo-zine-x-valentino",
               "article_1_image": "shopify://shop_images/Screenshot_2025-06-23_at_16.30.06.jpg",
+              "article_1_media_hover": "",
               "article_2": "shuffle/lunch-al-desko-lunch-al-desko",
-              "custom_image": "shopify://shop_images/MONEYxVersace_Models11.jpg"
+              "custom_image": "shopify://shop_images/MONEYxVersace_Models11.jpg",
+              "article_2_media_hover": ""
             }
           }
         },
