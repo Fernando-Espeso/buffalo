@@ -604,15 +604,14 @@ section.hero img {
 
 .article-card p{
   color: white;
-  mix-blend-mode: difference;
 }
 .title-thang {
   top:0px;
-  color: white;
-  mix-blend-mode: difference;
+  color: black;
   text-align: left;
   position: absolute;
   padding: 10px;
+  background-color: white;
   font-weight: normal;
 }
 .content-article-home{
