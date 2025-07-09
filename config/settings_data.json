@@ -27,7 +27,7 @@
             "settings": {
               "article_1": "new-section/issues",
               "article_1_image": "shopify://shop_images/BZFAMILY_1.jpg",
-              "product": "issue-16-buffalo-hotel-chelsea-aw2022",
+              "article_2": "",
               "custom_image": "shopify://shop_images/TRU1958830.jpg"
             }
           },
@@ -36,7 +36,8 @@
             "settings": {
               "article_1": "live/your-brand-here",
               "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
-              "product": ""
+              "article_2": "shuffle/buffalo-zine-x-vivienne-westwood",
+              "custom_image": "shopify://shop_images/TRU1958840.jpg"
             }
           },
           "single_product_kLaLaJ": {
@@ -73,7 +74,7 @@
             "settings": {
               "article_1": "live/buffalo-zine-x-valentino",
               "article_1_image": "shopify://shop_images/Screenshot_2025-06-23_at_16.30.06.jpg",
-              "product": ""
+              "article_2": ""
             }
           }
         },
