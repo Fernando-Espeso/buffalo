@@ -594,7 +594,7 @@ section.hero img {
   position: absolute;
   font-size: var(--fs);
   line-height: var(--fs);
-  color: black;
+  color: black!important;
   max-width: 1200px;
   text-align: center;
 }
