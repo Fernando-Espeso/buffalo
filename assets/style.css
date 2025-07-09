@@ -264,7 +264,7 @@ a {
   color: var(--bl);
   width: 100vw;
   display: flex;
-  position: sticky;
+  position: sticky!important;
   padding: 0px 0px;
   border-bottom: 1px solid var(--bl);
   background-color: var(--bg);
