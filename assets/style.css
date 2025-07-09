@@ -288,7 +288,7 @@ a {
   fill: var(--bl);
 }
 a.Buffalo.Live\! {
-  color: red;
+ 
 }
 #header.active svg path{
   fill: var(--bgw);
