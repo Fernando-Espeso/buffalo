@@ -872,11 +872,12 @@ span.quantity-button.minus, span.addmore {
 }
 /* INFO */
 .stock-list {
-  color: white;
-  background-color: black;
+  color: #fff;
+  background-color: #000;
   display: grid;
+  padding-top: 10px;
   padding: var(--space);
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 div#shopify-section-stocklist, div#shopify-section-about {
   background-color: black;
