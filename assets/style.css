@@ -293,7 +293,9 @@ a.Buffalo.Live\! {
 #header.active svg path{
   fill: var(--bgw);
 }
-
+li.active a {
+  color: grey;
+}
 .menu{
   text-transform: uppercase;
   position: relative;
