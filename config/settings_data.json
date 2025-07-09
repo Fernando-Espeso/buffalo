@@ -36,10 +36,8 @@
             "settings": {
               "article_1": "live/your-brand-here",
               "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
-              "article_1_media_hover": "shopify://shop_images/BZ15_AS_PRODUCT_10.jpg",
               "article_2": "shuffle/buffalo-zine-x-vivienne-westwood",
-              "custom_image": "shopify://shop_images/TRU1958840.jpg",
-              "article_2_media_hover": "shopify://shop_images/TRU1958838.jpg"
+              "custom_image": "shopify://shop_images/TRU1958840.jpg"
             }
           },
           "single_product_kLaLaJ": {
