@@ -590,7 +590,7 @@ section.hero img {
   background-color: white;
   text-transform: uppercase;
   padding: 10px;
-  top: var(--m);
+  top: 0px;
   left: 0px;
   position: absolute;
   font-size: var(--fs);
