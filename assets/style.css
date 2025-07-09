@@ -568,7 +568,7 @@ section.six-products-with-bg {
   position: absolute;
 }
 section.hero img {
-  margin-top: var(--m);
+  margin-top: 0px;
   z-index:-1;
   position: absolute;
   height: 100%;
