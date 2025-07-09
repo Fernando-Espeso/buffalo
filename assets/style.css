@@ -607,10 +607,15 @@ img.hover-media {
   opacity: 0;
   position: absolute;
 }
+video.hover-media {
+  top: 0px;
+  opacity: 0;
+  position: absolute;
+}
 .article-card p{
   color: white;
 }
-.article-card:hover img.hover-media {
+.article-card:hover .hover-media {
   opacity: 1;
 }
 .title-thang {
