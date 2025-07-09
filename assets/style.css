@@ -1084,6 +1084,7 @@ section.awards-section {
   padding: 10px;
   display: grid;
   row-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
 }
 .awards-items {
   grid-template-columns: repeat(4, 1fr);
