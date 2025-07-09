@@ -36,6 +36,8 @@
       {% assign variant = product.variants.first %}
   
       <div class="product {% if block.settings.half %}half{% endif %}">
+        <div class="product-price-white"> {{ variant.price | money }}</div>
+
         <div class="title-thang">
           <div>{{ product.title }}</div>
   
@@ -46,7 +48,7 @@
               <span class="price-sale" style="color: red;">{{ variant.price | money }}</span>
             </p>
           {% else %}
-            <p>{{ variant.price | money }}</p>
+     
           {% endif %}
         </div>
   
