@@ -602,9 +602,16 @@ section.hero img {
   overflow: hidden;
   position: relative;
 }
-
+img.hover-media {
+  top: 0px;
+  opacity: 0;
+  position: absolute;
+}
 .article-card p{
   color: white;
+}
+.article-card:hover img.hover-media {
+  opacity: 1;
 }
 .title-thang {
   top:0px;
