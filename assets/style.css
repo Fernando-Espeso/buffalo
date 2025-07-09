@@ -602,9 +602,8 @@ section.hero img {
   padding: var(--space);
   position: absolute;
 left: 0px;
-/* transform: translate(-50%,0); */
   background-color: white;
-  top: 30px;
+  top: 34px;
 }
 .article-card {
   overflow: hidden;
