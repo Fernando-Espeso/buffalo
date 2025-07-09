@@ -1224,7 +1224,6 @@ summary.city {
   font-size: 14px;
 }
 a.buffalo-live\! {
-  color: red;
 }
 input[type="checkbox"],
 button,
@@ -1436,7 +1435,6 @@ div#main-product{
   grid-column: 1 / span 1;
 }
 a.buffalo-live\! {
-  color: red;
 }
 section.two-products, .articles-block {
   grid-template-columns: repeat(1, 1fr);
