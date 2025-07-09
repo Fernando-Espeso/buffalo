@@ -598,6 +598,11 @@ section.hero img {
   max-width: 1200px;
   text-align: center;
 }
+.product-price-white{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
 .article-card {
   overflow: hidden;
   position: relative;
