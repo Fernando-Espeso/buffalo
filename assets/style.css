@@ -882,6 +882,11 @@ div#shopify-section-stocklist, div#shopify-section-about {
   background-color: black;
   color: white;
 }
+div#shopify-section-stocklist {
+  background-color: #000;
+  color: #fff;
+  padding-top: 10px;
+}
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
   padding-bottom: 10px;
 }
