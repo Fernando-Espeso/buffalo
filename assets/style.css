@@ -599,6 +599,7 @@ section.hero img {
   text-align: center;
 }
 .article-card {
+  overflow: hidden;
   position: relative;
 }
 
