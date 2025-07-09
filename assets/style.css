@@ -805,8 +805,9 @@ ul.names-list {
   text-align: left;
 }
 .column-text {
-  margin: 0 auto;
-  font-family: 'Times New Roman', Times, serif;
+  width: 50%;
+  /* margin: 0 auto; */
+  font-family: Times New Roman, Times, serif;
   font-size: var(--fsb);
   line-height: 22px;
   column-count: 2;
