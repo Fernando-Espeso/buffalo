@@ -26,40 +26,77 @@
   </section>
 {% when 'articles' %}
   <section class="articles-block">
+
     {% if block.settings.article_1 %}
       {% assign article = articles[block.settings.article_1] %}
+      {% assign hover_1 = block.settings.article_1_media_hover %}
+      {% if hover_1 %}
+        {% assign ext_1 = hover_1 | split: '.' | last | downcase %}
+      {% endif %}
+
       <div class="article-card">
         <div class="title-thang">
           <div>{{ article.title }}</div>
         </div>
-        <a href="{{ article.url }}">
+
+        <a href="{{ article.url }}" class="image-hover-wrapper">
           {% if block.settings.article_1_image %}
-            <img src="{{ block.settings.article_1_image | img_url: 'master' }}" alt="{{ article.title }}">
+            <img class="main-img" src="{{ block.settings.article_1_image | img_url: 'master' }}" alt="{{ article.title }}">
           {% elsif article.image %}
-            <img src="{{ article.image | img_url: 'master' }}" alt="{{ article.title }}">
+            <img class="main-img" src="{{ article.image | img_url: 'master' }}" alt="{{ article.title }}">
+          {% endif %}
+
+          {% if hover_1 %}
+            {% if ext_1 == 'mp4' %}
+              <video class="hover-media" autoplay muted loop playsinline>
+                <source src="{{ hover_1 }}" type="video/mp4">
+              </video>
+            {% else %}
+              <img class="hover-media" src="{{ hover_1 }}" alt="{{ article.title }}">
+            {% endif %}
           {% endif %}
         </a>
+
         <p class="content-article-home">{{ article.content | strip_html | truncate: 300 }}</p>
       </div>
     {% endif %}
 
     {% if block.settings.article_2 %}
       {% assign article2 = articles[block.settings.article_2] %}
+      {% assign hover_2 = block.settings.article_2_media_hover %}
+      {% if hover_2 %}
+        {% assign ext_2 = hover_2 | split: '.' | last | downcase %}
+      {% endif %}
+
       <div class="article-card">
         <div class="title-thang">
           <div>{{ article2.title }}</div>
         </div>
-        <a href="{{ article2.url }}">
+
+        <a href="{{ article2.url }}" class="image-hover-wrapper">
           {% if block.settings.custom_image %}
-            <img src="{{ block.settings.custom_image | img_url: 'master' }}" alt="{{ article2.title }}">
+            <img class="main-img" src="{{ block.settings.custom_image | img_url: 'master' }}" alt="{{ article2.title }}">
           {% elsif article2.image %}
-            <img src="{{ article2.image | img_url: 'master' }}" alt="{{ article2.title }}">
+            <img class="main-img" src="{{ article2.image | img_url: 'master' }}" alt="{{ article2.title }}">
+          {% endif %}
+
+          {% if hover_2 %}
+            {% if ext_2 == 'mp4' %}
+              <video class="hover-media" autoplay muted loop playsinline>
+                <source src="{{ hover_2 }}" type="video/mp4">
+              </video>
+            {% else %}
+              <img class="hover-media" src="{{ hover_2 }}" alt="{{ article2.title }}">
+            {% endif %}
           {% endif %}
         </a>
+
         <p class="content-article-home">{{ article2.content | strip_html | truncate: 300 }}</p>
       </div>
     {% endif %}
+
   </section>
+
 
 {% when 'six_products_with_bg' %}
   <section class="six-products-with-bg">
