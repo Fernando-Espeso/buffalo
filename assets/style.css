@@ -552,7 +552,7 @@ div#shopify-section-template--24808222163276__products_49rfai {
 /* HOMEPAGE */
 section.hero {
   position: relative;
-  height: calc(var(--h));
+  height: calc(var(--h) - 100px);
   display: flex;
   justify-content: center;
   align-items: center;
