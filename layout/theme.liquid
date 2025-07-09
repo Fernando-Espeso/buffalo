@@ -80,12 +80,29 @@
       <header id="header">
         <div class="menu" id="menu">
           <li class="menu-op"><a>MENU</a></li>
-          <li class="none"><a class="BZ" href="/">BZ</a></li>
-          <li class="none"><a class="buffalo-live!" href="/blogs/live">Buffalo Live!</a></li>
-          <li class="none"><a class="issues" href="/collections/all">Issues</a></li>
-          <li class="none"><a class="your-brand-here" href="/blogs/your-brand-here">Your Brand Here</a></li>
-          <a class="none your-brand-link" href="/blogs/shuffle">SHUFFLE</a>
-          <li><a class="none info-menu" href="/#info" data-offset="33">INFO</a></li>
+          <li class="{% if request.path == '/' %}active{% endif %} none">
+            <a class="BZ" href="/">BZ</a>
+          </li>
+          
+          <li class="{% if request.path contains '/blogs/live' %}active{% endif %} none">
+            <a class="buffalo-live!" href="/blogs/live">Buffalo Live!</a>
+          </li>
+          
+          <li class="{% if request.path contains '/collections/all' %}active{% endif %} none">
+            <a class="issues" href="/collections/all">Issues</a>
+          </li>
+          
+          <li class="{% if request.path contains '/blogs/your-brand-here' %}active{% endif %} none">
+            <a class="your-brand-here" href="/blogs/your-brand-here">Your Brand Here</a>
+          </li>
+          
+          <li class="{% if request.path contains '/blogs/shuffle' %}active{% endif %} none">
+            <a class="your-brand-link" href="/blogs/shuffle">SHUFFLE</a>
+          </li>
+          
+          <li class="{% if request.path == '/' and request.hash == '#info' %}active{% endif %} none">
+            <a class="info-menu" href="/#info" data-offset="33">INFO</a>
+          </li>
           <div class="cart-part">
             <a href="/cart" class="cov"></a>
             {% for link in linklists.top-bar.links %}

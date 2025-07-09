@@ -299,7 +299,7 @@ a.Buffalo.Live\! {
   position: relative;
   width: 100%;
   display: flex;
-  grid-gap:10px;
+  grid-gap:20px;
   align-items: center;
   padding: 10px var(--space);
 }

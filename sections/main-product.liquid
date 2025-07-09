@@ -7,10 +7,10 @@
 {% endif %}
 </div>
 <div id="main-product" class="main" data-section-id="{{ section.id }}" data-product-section>
-  <div class="swiper-gallery swiper-container">
-    <div class="swiper-wrapper">
+  <div class="gallery">
+    <div class="gallery">
       {% if product.metafields.custom.logo != blank %}
-        <div class="swiper-slide custom-image">
+        <div class="custom-image">
           <img src="{{ product.metafields.custom.logo | img_url: '800x800' }}" alt="Imagen personalizada">
         </div>
       {% endif %}
@@ -32,12 +32,7 @@
         {% endcase %}
       {% endfor %}
     </div>
-    <!-- Aquí puedes poner los botones personalizados y paginación -->
-    <div class="swiper-pagination"></div>
-    <button class="prev">Prev</button>
-    <button class="next">Next</button>
   </div>
-  
   <!--INFO-BUY-->
   <div class="buy-block">
     <div class="product-price">
