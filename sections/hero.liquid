@@ -45,12 +45,11 @@
         {% endif %}
 
         {% if block.settings.product %}
-          {% assign product = all_products[block.settings.product] %}
+          {% assign product = all_products[block.settings.article_2] %}
           {% if product %}
             <div class="product estandard">
               <div class="title-thang">
                 <div>{{ product.title }}</div>
-                <p>{{ product.price | money }}</p>
               </div>
               <a href="{{ product.url }}">
                 {% if block.settings.custom_image %}
@@ -226,9 +225,9 @@
           "label": "Artiåcle 1 Image"
         },
          {
-          "type": "product",
-          "id": "product",
-          "label": "Select åa Product"
+          "type": "article",
+          "id": "article_2",
+          "label": "Article 2"
         },
         {
           "type": "image_picker",
