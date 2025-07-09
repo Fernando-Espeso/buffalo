@@ -611,6 +611,9 @@ video.hover-media {
   top: 0px;
   opacity: 0;
   position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 .article-card p{
   color: white;
@@ -620,6 +623,7 @@ video.hover-media {
 }
 .title-thang {
   top:0px;
+  z-index: 10;
   color: black;
   text-align: left;
   position: absolute;
