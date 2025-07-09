@@ -601,10 +601,10 @@ section.hero img {
 .product-price-white{
   padding: var(--space);
   position: absolute;
-left: 50%;
-transform: translate(-50%,0);
+left: 0px;
+/* transform: translate(-50%,0); */
   background-color: white;
-  top: 0px;
+  top: 30px;
 }
 .article-card {
   overflow: hidden;
