@@ -114,36 +114,72 @@
         {% endif %}
       {% endfor %}
     </div>
-  </section>
-    {% when 'two_products' %}
-      <section class="two-products">
-        {% assign product1 = all_products[block.settings.product_1] %}
-        {% assign product2 = all_products[block.settings.product_2] %}
-        {% if product1 %}
-          <a class="product estandard" href="{{ product1.url }}">
-            {% unless variant.available %}
-              <button class="sold-out-button" disabled>Sold Out</button>
-            {% endunless %}
-            <div class="product-price-white">{{ product1.price | money }}</div>
-            <div class="product-title title-thang">
-              {{ product1.title }}
-            </div>
-            <img src="{{ product1.featured_image | img_url: 'master' }}" alt="{{ product1.title }}">
-          </a>
-        {% endif %}
-        {% if product2 %}
-          <a class="product estandard" href="{{ product2.url }}">
-            {% unless variant.available %}
-              <button class="sold-out-button" disabled>Sold Out</button>
-            {% endunless %}
-            <div class="product-price-white">{{ product2.price | money }}</div>
-            <div class="product-title title-thang">
-              {{ product2.title }}
-            </div>
-            <img src="{{ product2.featured_image | img_url: 'master' }}" alt="{{ product2.title }}">
-          </a>
-        {% endif %}
-      </section>
+  {% when 'two_products' %}
+    <section class="two-products">
+      {% assign product1 = all_products[block.settings.product_1] %}
+      {% assign product2 = all_products[block.settings.product_2] %}
+      {% assign hover1 = block.settings.hover_image_1 %}
+      {% assign hover2 = block.settings.hover_image_2 %}
+      {% assign video1 = block.settings.video_url_1 %}
+      {% assign video2 = block.settings.video_url_2 %}
+      
+      {% if product1 %}
+        {% assign variant1 = product1.variants.first %}
+        {% assign ext1 = video1 | split: '.' | last | downcase %}
+        <a class="product estandard image-hover-wrapper" href="{{ product1.url }}">
+          {% unless variant1.available %}
+            <button class="sold-out-button" disabled>Sold Out</button>
+          {% endunless %}
+          <div class="product-price-white">{{ variant1.price | money }}</div>
+          <div class="product-title title-thang">
+            {{ product1.title }}
+          </div>
+  
+          {% if product1.featured_image %}
+            <img class="main-img" src="{{ product1.featured_image | img_url: 'master' }}" alt="{{ product1.title }}">
+          {% endif %}
+  
+          {% if video1 %}
+            {% if ext1 == 'mp4' %}
+              <video class="hover-media" autoplay muted loop playsinline>
+                <source src="{{ video1 }}" type="video/mp4">
+              </video>
+            {% endif %}
+          {% elsif hover1 != blank %}
+            <img class="hover-media" src="{{ hover1 | img_url: 'master' }}" alt="Hover {{ product1.title }}">
+          {% endif %}
+        </a>
+      {% endif %}
+  
+      {% if product2 %}
+        {% assign variant2 = product2.variants.first %}
+        {% assign ext2 = video2 | split: '.' | last | downcase %}
+        <a class="product estandard image-hover-wrapper" href="{{ product2.url }}">
+          {% unless variant2.available %}
+            <button class="sold-out-button" disabled>Sold Out</button>
+          {% endunless %}
+          <div class="product-price-white">{{ variant2.price | money }}</div>
+          <div class="product-title title-thang">
+            {{ product2.title }}
+          </div>
+  
+          {% if product2.featured_image %}
+            <img class="main-img" src="{{ product2.featured_image | img_url: 'master' }}" alt="{{ product2.title }}">
+          {% endif %}
+  
+          {% if video2 %}
+            {% if ext2 == 'mp4' %}
+              <video class="hover-media" autoplay muted loop playsinline>
+                <source src="{{ video2 }}" type="video/mp4">
+              </video>
+            {% endif %}
+          {% elsif hover2 != blank %}
+            <img class="hover-media" src="{{ hover2 | img_url: 'master' }}" alt="Hover {{ product2.title }}">
+          {% endif %}
+        </a>
+      {% endif %}
+    </section>
+  
   {% endcase %}
 {% endfor %}
 {% schema %}
