@@ -343,13 +343,12 @@ div#products img {
 
 .swiper-quotes{
   width: 50%;
-  padding: var(--space) 0px var(--space) 0px;
   background-color: white;
   color: black;
 }
 .swiper-quotes .swiper-slide p {
   font-family: Times New Roman, Times, serif;
-  padding: var(--space);
+  padding: var(--space) 0px var(--space) 0px;
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
 }
