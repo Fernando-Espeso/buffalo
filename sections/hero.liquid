@@ -21,9 +21,13 @@
         {% endif %}
       
         <div class="aim">{{ block.settings.hero_text }}</div>
-
+  
+     
+        {% if block.settings.info %}
+          <div class="info">{{ block.settings.info }}</div>
+        {% endif %}
       </section>
-      {% if block.settings.info %} <div class="info-hero">{{ block.settings.info }}</div>   {% endif %}
+      <div class="info-hero">{{ block.settings.info }}</div>
 
   {% when 'single_product' %}
   {% assign product = all_products[block.settings.product] %}
