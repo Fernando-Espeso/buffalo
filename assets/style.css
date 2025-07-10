@@ -1479,8 +1479,10 @@ button#checkout{
   background-color: black;
 }
 .bag .product-price{
-  font-size: 18px;
   border-bottom: 1px solid var(--bl);
+}
+.buy-block .product-price{
+  font-size: 18px;
 }
 .menu-op{
   display: none;
