@@ -1690,6 +1690,9 @@ form#cart-wrapper {
   padding: 10px;
   min-height: 100vh;
 }
+.swiper-quotes, .column-text, div#shopify-section-contact, section.awards-section  {
+  width: 100%;
+}
 .interview {
   color: black;
   font-size: var(--fsb);
