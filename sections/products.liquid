@@ -16,6 +16,16 @@
           "type": "checkbox",
           "id": "half",
           "label": "Half"
+        },
+        {
+          "type": "image_picker",
+          "id": "hover_image",
+          "label": "Hover Image"
+        },
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "Video URL (optional)"
         }
       ]
     }
@@ -34,29 +44,42 @@
       {% assign handle = selected.handle %}
       {% assign product = all_products[handle] %}
       {% assign variant = product.variants.first %}
+      {% assign hover_image = block.settings.hover_image %}
+      {% assign video_url = block.settings.video_url %}
   
       <div class="product {% if block.settings.half %}half{% endif %}">
-        <div class="product-price-white"> {{ variant.price | money }}</div>
+        <div class="product-price-white">{{ variant.price | money }}</div>
 
         <div class="title-thang">
           <div>{{ product.title }}</div>
-  
+
           {% if variant.compare_at_price > variant.price %}
             <p>
               <span class="price-original" style="text-decoration: line-through; color: #999;">
                 {{ variant.compare_at_price | money }}</span>
               <span class="price-sale" style="color: red;">{{ variant.price | money }}</span>
             </p>
-          {% else %}
-     
           {% endif %}
+
+          {% unless variant.available %}
+            <button class="sold-out-button" disabled>Sold Out</button>
+          {% endunless %}
         </div>
   
         <a href="{{ product.url }}">
           {% if product.featured_image %}
-            <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+            <img class="product-img main-img" src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+            {% if hover_image %}
+              <img class="product-img hover-img" src="{{ hover_image | img_url: 'master' }}" alt="Hover {{ product.title }}">
+            {% endif %}
           {% endif %}
         </a>
+
+        {% if video_url %}
+          <div class="product-video">
+            <a href="{{ video_url }}" target="_blank">▶ Watch Video</a>
+          </div>
+        {% endif %}
       </div>
     {% endif %}
   {% endfor %}
