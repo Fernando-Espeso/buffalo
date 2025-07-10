@@ -1481,6 +1481,16 @@ button#checkout{
 .bag .product-price{
   border-bottom: 1px solid var(--bl);
 }
+button.sold-out-button {
+  position: absolute;
+  background: black;
+  color: white;
+  padding: var(--space);
+  padding-bottom: var(--space) !important;
+  left: 50%;
+  top: 50%;
+  transform: translate(50%, 50%);
+}
 .buy-block .product-price{
   font-size: 18px;
 }
