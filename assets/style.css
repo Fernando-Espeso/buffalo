@@ -614,6 +614,15 @@ section.hero img {
   object-fit: contain;
 }
 
+section.hero img.hover-media {
+  z-index:-1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: var(--nav);
+  object-fit: cover;
+}
+
 .info-hero{
   max-width: 1000px;
   text-align: left;
