@@ -3,30 +3,6 @@
     {{ article.metafields.custom.interview | metafield_tag }}
   </div>
 {% endif %}
-{% assign related_products = article.metafields.custom.related.value %}
-{% if related_products != blank %}
-  <div class="related-products">
-    <div class="related-title">YOU MIGHT ALSO LIKE</div>
-    {% for related in related_products %}
-      {% assign related_product = all_products[related.handle] %}
-      {% if related_product %}
-        <div class="product estandard">
-          <a href="{{ related_product.url }}">
-            {% if related_product.featured_image %}
-              <img src="{{ related_product.featured_image | img_url: 'master' }}" alt="{{ related_product.title }}">
-            {% endif %}
-          </a>
-          <div class="product-title title-thang">
-            <p>{{ related_product.title }}</p>
-            {% if related_product.price %}
-              <p>{{ related_product.price | money }}</p>
-            {% endif %}
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-{% endif %}
 {% assign all_articles = blog.articles | where: "id", article.id, false %}
 {% assign shuffled_articles = all_articles | shuffle %}
 {% assign related_articles = shuffled_articles | slice: 0, 3 %}
