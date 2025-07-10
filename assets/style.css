@@ -1426,6 +1426,7 @@ select:disabled {
 }
 .product-variant-item .product-variant-option {
   cursor: pointer;
+  text-align: center;
   position: relative;
   width: 100%;
   cursor: pointer;
