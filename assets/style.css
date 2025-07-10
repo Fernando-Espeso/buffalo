@@ -25,7 +25,7 @@
 }
 .metafield-rich_text_field {
   display: grid;
-  row-gap: 20px;
+  row-gap: 0px;
 }
 .custom-image {
   top: calc(var(--m) + 10px);
