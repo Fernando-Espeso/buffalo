@@ -1669,8 +1669,8 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
   display: flex;
   grid-gap: 10px;
 }
-.awards-items img {
-  max-width: 120px;
+.awards-item img {
+  width: 120px;
 }
 .product.half {
   grid-column: span 12!important;
