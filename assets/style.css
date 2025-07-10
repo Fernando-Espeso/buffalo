@@ -914,8 +914,15 @@ ul.names-list {
 .title{
   text-transform: uppercase;
 }
+.article.estandard {
+  position: relative;
+}
 .shopify-section > section{
   border-bottom: 1px solid var(--bl);
+}
+.related {
+  display: grid;
+  grid-gap: 2px;
 }
 .policies{
   /* margin: 0 auto;
