@@ -84,9 +84,20 @@
             <a class="BZ" href="/">BZ</a>
           </li>
           
-          <li class="{% if request.path contains '/blogs/live' %}active{% endif %} none">
-            <a class="buffalo-live!" href="/blogs/live">Buffalo Live!</a>
-          </li>
+          {% assign custom_menu = linklists.custom.links %}
+          {% for link in custom_menu %}
+            {% assign is_active = false %}
+            
+            {% if link.url == request.path or link.url == '/' and request.path == '' %}
+              {% assign is_active = true %}
+            {% endif %}
+        
+            <li class="{% if is_active %}active{% endif %}">
+              <a href="{{ link.url }}">
+                {{ link.title }}
+              </a>
+            </li>
+          {% endfor %}
           
           <li class="{% if request.path contains '/collections/all' %}active{% endif %} none">
             <a class="issues" href="/collections/all">Issues</a>
@@ -127,7 +138,20 @@
 
         <div class="sub-menu">
           <li><a class="BZ" href="/">BZ</a></li>
-          <li><a class="buffalo-live!" href="/blogs/live">Buffalo Live!</a></li>
+          {% assign custom_menu = linklists.custom.links %}
+          {% for link in custom_menu %}
+            {% assign is_active = false %}
+            
+            {% if link.url == request.path or link.url == '/' and request.path == '' %}
+              {% assign is_active = true %}
+            {% endif %}
+        
+            <li class="{% if is_active %}active{% endif %}">
+              <a href="{{ link.url }}">
+                {{ link.title }}
+              </a>
+            </li>
+          {% endfor %}
           <li><a class="issues" href="/collections/all">Issues</a></li>
           <li><a class="your-brand-Here" href="/blogs/your-brand-here">Your Brand Here</a></li>
           <a class="your-brand-link due" href="/blogs/shuffle">SHUFFLE</a>
