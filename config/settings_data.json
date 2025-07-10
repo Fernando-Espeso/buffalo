@@ -498,63 +498,73 @@
             "type": "product",
             "settings": {
               "product": "issue-20-success-etc",
-              "half": true
+              "half": true,
+              "hover_image": "shopify://shop_images/024-025.jpg",
+              "video_url": ""
             }
           },
           "product_A4RMWC": {
             "type": "product",
             "settings": {
               "product": "issue-19-mother-aw2024-laying",
-              "half": true
+              "half": true,
+              "video_url": ""
             }
           },
           "product_H6xMrT": {
             "type": "product",
             "settings": {
               "product": "issue-19-buffalo-power-aw2023",
-              "half": false
+              "half": false,
+              "video_url": ""
             }
           },
           "product_kkRwxi": {
             "type": "product",
             "settings": {
               "product": "issue-17-coffee-cigarettes-ss2023",
-              "half": false
+              "half": false,
+              "video_url": ""
             }
           },
           "product_KCphDf": {
             "type": "product",
             "settings": {
               "product": "issue-16-buffalo-hotel-chelsea-aw2022",
-              "half": false
+              "half": false,
+              "video_url": ""
             }
           },
           "product_EqxNTx": {
             "type": "product",
             "settings": {
               "product": "issue-2",
-              "half": true
+              "half": true,
+              "video_url": ""
             }
           },
           "product_TcJCRq": {
             "type": "product",
             "settings": {
               "product": "issue-13-la-zowie",
-              "half": false
+              "half": false,
+              "video_url": ""
             }
           },
           "product_LMpzGf": {
             "type": "product",
             "settings": {
               "product": "issue-15-pink-ss2022",
-              "half": false
+              "half": false,
+              "video_url": ""
             }
           },
           "product_jXQmLE": {
             "type": "product",
             "settings": {
               "product": "issue-12-buffalo-does-it-aw2020",
-              "half": false
+              "half": false,
+              "video_url": ""
             }
           }
         },
