@@ -1198,7 +1198,8 @@ section.awards-section {
   grid-template-columns: repeat(3, 1fr);
   display: grid;
   grid-gap:10px;
-}.awards-final-text {
+}
+.awards-final-text {
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsb);
   line-height: 20px;
@@ -1665,9 +1666,11 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
   grid-template-columns: repeat(1, 1fr);
 }
 .awards-items {
-  grid-template-columns: repeat(2, 1fr);
-  display: grid;
+  display: flex;
   grid-gap: 10px;
+}
+.awards-items img {
+  max-width: 120px;
 }
 .product.half {
   grid-column: span 12!important;
