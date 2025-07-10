@@ -3,18 +3,26 @@
     {{ article.metafields.custom.interview | metafield_tag }}
   </div>
 {% endif %}
-{% assign all_articles = blog.articles | where: "id", article.id, false %}
-{% assign shuffled_articles = all_articles | shuffle %}
+{% assign all_articles = blog.articles %}
+{% assign filtered_articles = '' | split: ',' %}
+
+{% for a in all_articles %}
+  {% unless a.id == article.id %}
+    {% assign filtered_articles = filtered_articles | push: a %}
+  {% endunless %}
+{% endfor %}
+
+{% assign shuffled_articles = filtered_articles | shuffle %}
 {% assign related_articles = shuffled_articles | slice: 0, 3 %}
 
-{% if related_articles != blank %}
+{% if related_articles.size > 0 %}
   <div class="related-articles">
     <div class="related-title">YOU MIGHT ALSO LIKE</div>
     {% for related in related_articles %}
       <div class="article estandard">
         <a href="{{ related.url }}">
           {% if related.image %}
-            <img src="{{ related.image | img_url: 'master' }}" alt="{{ related.title }}">
+            <img src="{{ related.image | img_url: '800x' }}" alt="{{ related.title }}">
           {% endif %}
         </a>
         <div class="article-title title-thang">
@@ -25,4 +33,5 @@
     {% endfor %}
   </div>
 {% endif %}
+
 
