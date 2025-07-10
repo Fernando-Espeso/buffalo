@@ -666,6 +666,9 @@ video.hover-media {
 .article-card:hover .hover-media {
   opacity: 1;
 }
+.product:hover .hover-media {
+  opacity: 1;
+}
 .title-thang {
   top:0px;
   z-index: 1;
