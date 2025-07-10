@@ -1041,10 +1041,17 @@ input#stockistFilter::placeholder{
   line-height: 22px;
   letter-spacing: 0px;
 }
-.contact-section .info strong{
+.contact-section .info a{
   font-family: 'Times New Roman', Times, serif;
-  font-size: var(--fs);
+  font-size: var(--fsm);
+  line-height: 22px;
+  letter-spacing: 0px;
+}
+.contact-section .info strong{
+  font-family: Helvetica, sans-serif;
+    font-size: var(--fs);
   line-height: 14px;
+  font-weight: normal;
   letter-spacing: 0px;
 }
 .gallery{
