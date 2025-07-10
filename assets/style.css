@@ -1489,6 +1489,7 @@ button.sold-out-button {
   padding-bottom: var(--space) !important;
   left: 50%;
   top: 50%;
+  font-family: Arial, Helvetica, sans-serif;
   transform: translate(-50%, -50%);
 }
 .buy-block .product-price{
