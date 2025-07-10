@@ -672,6 +672,9 @@ video.hover-media {
 .product:hover .hover-media {
   opacity: 1;
 }
+.hero:hover .hover-media {
+  opacity: 1;
+}
 .title-thang {
   top:0px;
   z-index: 1;
