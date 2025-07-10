@@ -254,9 +254,11 @@ a {
   align-items: center;
   letter-spacing: 0px;
 }
+
 .nav.active{
   display: grid;
 }
+
 #header{
   top: 0px;
   z-index: 12;
@@ -268,8 +270,8 @@ a {
   padding: 0px 0px;
   border-bottom: 1px solid var(--bl);
   background-color: var(--bg);
-  /* transition: background-color 0.2s ease; */
 }
+
 .localization-selectors select#CountrySelector{
   display: none;
   font-family: Helvetica, sans-serif;
@@ -277,6 +279,7 @@ a {
   padding: 0px;
   text-transform: uppercase;
 }
+
 #header.active{
   background-color: var(--bgm);
   border-bottom: 1px solid var(--bgw);;
@@ -284,6 +287,7 @@ a {
   z-index: 100;
   /* transition: background-color 0.2s ease; */
 }
+
 #header.stone svg path{
   fill: var(--bl);
 }
@@ -779,8 +783,8 @@ div#bag {
   letter-spacing: 0px;
 }
 div#shopify-section-about {
-  background-color:black;
-  color: white;
+  background-color:white;
+  color:black;
 }
 .contact-title {
   grid-column: span 2;
