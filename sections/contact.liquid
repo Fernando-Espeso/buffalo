@@ -1,9 +1,19 @@
 <div class="contact-section">
   <div class="info">
-    {{ section.settings.info }}
+    {{ block.settings.info
+      | replace: '</p><p>', '<br>'
+      | replace: '<p>', ''
+      | replace: '</p>', ''
+      | raw
+   }}
   </div>
   <div class="info">
-    {{ section.settings.info-2 }}
+    {{ block.settings.info-2
+      | replace: '</p><p>', '<br>'
+      | replace: '<p>', ''
+      | replace: '</p>', ''
+      | raw
+   }}
   </div><br><br><br><br>
   ©2025 Buffalo Zine. All rights reserved. 
 </div>
