@@ -1222,9 +1222,8 @@ section.awards-section {
   align-self: center;
 }
 .award-item {
-  display: grid;
+  display: flex;
   grid-gap: 10px;
-  grid-template-columns: repeat(2, 1fr);
 }
 /* SWIPER
 ================================================== */
