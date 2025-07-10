@@ -577,9 +577,11 @@ section.hero {
   align-items: center;
   color: white;
   z-index: 1;
+  font-size: 18px;
 }
 
 .prev{
+  font-size: 18px;
   position:absolute;
   left: 10px;
   top: 0;
