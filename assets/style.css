@@ -462,7 +462,7 @@ footer .container{
 .description{
   margin: 0 auto;
   max-width: 1000px;
-  text-align: left;
+  text-align: center;
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
