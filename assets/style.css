@@ -567,6 +567,9 @@ section.hero {
   justify-content: center;
   align-items: center;
 }
+.article-content .title {
+  font-size: 18px;
+}
 .next{
   position:absolute;
   right: 10px;
