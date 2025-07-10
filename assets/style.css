@@ -23,7 +23,10 @@
   display: grid;
   grid-gap:3px;
 }
-
+.metafield-rich_text_field {
+  display: grid;
+  row-gap: 20px;
+}
 .custom-image {
   top: calc(var(--m) + 10px);
   z-index: 1;
