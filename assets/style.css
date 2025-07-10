@@ -340,8 +340,11 @@ div#products {
 div#products img {
   max-height: auto;
 }
-
-.swiper-quotes{
+.unique-size {
+  border: 1px solid;
+  padding
+}
+  .swiper-quotes{
   padding: 10px;
   width: 50%;
   background-color: white;
