@@ -65,7 +65,12 @@
             <img src="{{ block.settings.award_image | image_url: width: 400 }}" alt="Award image">
           {% endif %}
           <div class="award-text">
-            {{ block.settings.award_text }}
+            {{ block.settings.award_text
+              | replace: '</p><p>', '<br>'
+              | replace: '<p>', ''
+              | replace: '</p>', ''
+              | raw
+           }}
           </div>
         </div>
       {% endif %}
