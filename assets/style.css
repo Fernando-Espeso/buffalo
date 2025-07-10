@@ -1489,7 +1489,7 @@ button.sold-out-button {
   padding-bottom: var(--space) !important;
   left: 50%;
   top: 50%;
-  transform: translate(50%, 50%);
+  transform: translate(-50%, -50%);
 }
 .buy-block .product-price{
   font-size: 18px;
