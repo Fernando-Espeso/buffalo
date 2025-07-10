@@ -349,6 +349,7 @@ div#products img {
   padding:var(--space);
 }
   .swiper-quotes{
+  column-count: 2;
   padding: 10px;
   width: 50%;
   background-color: white;
