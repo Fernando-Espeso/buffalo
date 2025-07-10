@@ -81,3 +81,20 @@
     });
   });  
 </script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const details = document.querySelectorAll(".stockist-item");
+
+    details.forEach((item) => {
+      item.addEventListener("toggle", function () {
+        if (item.open) {
+          details.forEach((otherItem) => {
+            if (otherItem !== item) {
+              otherItem.removeAttribute("open");
+            }
+          });
+        }
+      });
+    });
+  });
+</script>
