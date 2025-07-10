@@ -19,7 +19,7 @@
           "label": "Imagen del premio"
         },
         {
-          "type": "textarea",
+          "type": "richtext",
           "id": "award_text",
           "label": "Texto del premio"
         }
@@ -64,8 +64,8 @@
           {% if block.settings.award_image %}
             <img src="{{ block.settings.award_image | image_url: width: 400 }}" alt="Award image">
           {% endif %}
-          
           <div class="award-text">
+
             {{ block.settings.award_text
               | replace: '</p><p>', '<br>'
               | replace: '<p>', ''
