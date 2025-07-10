@@ -3,33 +3,31 @@
     {{ article.metafields.custom.interview | metafield_tag }}
   </div>
 {% endif %}
-{% assign all_articles = blog.articles %}
-{% assign filtered_articles = '' | split: ',' %}
+{% assign all_articles = blog.articles | shuffle %}
+{% assign count = 0 %}
 
-{% for a in all_articles %}
-  {% unless a.id == article.id %}
-    {% assign filtered_articles = filtered_articles | push: a %}
-  {% endunless %}
-{% endfor %}
-
-{% assign shuffled_articles = filtered_articles | shuffle %}
-{% assign related_articles = shuffled_articles | slice: 0, 3 %}
-
-{% if related_articles.size > 0 %}
+{% if all_articles.size > 1 %}
   <div class="related-articles">
     <div class="related-title">YOU MIGHT ALSO LIKE</div>
-    {% for related in related_articles %}
-      <div class="article estandard">
-        <a href="{{ related.url }}">
-          {% if related.image %}
-            <img src="{{ related.image | img_url: '800x' }}" alt="{{ related.title }}">
-          {% endif %}
-        </a>
-        <div class="article-title title-thang">
-          <p>{{ related.title }}</p>
-          <p>{{ related.published_at | date: "%B %d, %Y" }}</p>
+
+    {% for a in all_articles %}
+      {% if a.id != article.id %}
+        <div class="article estandard">
+          <a href="{{ a.url }}">
+            {% if a.image %}
+              <img src="{{ a.image | img_url: '800x' }}" alt="{{ a.title }}">
+            {% endif %}
+          </a>
+          <div class="article-title title-thang">
+            <p>{{ a.title }}</p>
+            <p>{{ a.published_at | date: "%B %d, %Y" }}</p>
+          </div>
         </div>
-      </div>
+        {% assign count = count | plus: 1 %}
+        {% if count == 3 %}
+          {% break %}
+        {% endif %}
+      {% endif %}
     {% endfor %}
   </div>
 {% endif %}
