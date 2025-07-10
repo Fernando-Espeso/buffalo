@@ -68,7 +68,11 @@
             "type": "two_products",
             "settings": {
               "product_1": "issue-16-buffalo-hotel-chelsea-aw2022",
-              "product_2": "issue-17-coffee-cigarettes-ss2023"
+              "product_2": "issue-17-coffee-cigarettes-ss2023",
+              "hover_image_1": "shopify://shop_images/056-057.jpg",
+              "video_url_1": "",
+              "hover_image_2": "shopify://shop_images/TRU1958833.jpg",
+              "video_url_2": ""
             }
           },
           "articles_apGa6T": {
