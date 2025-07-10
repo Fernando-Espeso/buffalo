@@ -1029,8 +1029,15 @@ input#stockistFilter::placeholder{
   column-count: 1;
 }
 .contact-section .info{
+  font-family: 'Times New Roman', Times, serif;
   font-size: var(--fsm);
   line-height: 22px;
+  letter-spacing: 0px;
+}
+.contact-section .info strong{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: var(--fs);
+  line-height: 14px;
   letter-spacing: 0px;
 }
 .gallery{
