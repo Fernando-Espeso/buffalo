@@ -48,10 +48,10 @@
           },
           "single_product_kLaLaJ": {
             "type": "single_product",
-            "disabled": true,
             "settings": {
               "product": "issue-20-success-etc",
-              "fullscreen": true
+              "custom_image": "shopify://shop_images/TRU1958829.jpg",
+              "fullscreen": false
             }
           },
           "six_products_with_bg_mABf6B": {
