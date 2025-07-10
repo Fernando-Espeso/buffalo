@@ -13,8 +13,10 @@
     </div>
   {% endif %}
 
-
-  <div class="credits-open">CREDITS</div>
+  {% if article.metafields.custom.credits.value != blank %}
+    <div class="credits-open">CREDITS</div>
+  {% endif %}
+ 
   <div class="close-up"><a href="/">CLOSE</a></div>
 </div>
 
