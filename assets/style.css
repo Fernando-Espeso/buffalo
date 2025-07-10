@@ -1499,9 +1499,9 @@ section.two-products, .articles-block {
   text-align: left;
 }
 .custom-image {
-  top: 10px;
+  top: calc(var(--m) + 10px);
   z-index: 1;
-  position: absolute;
+  position: fixed;
   margin: 0 auto;
   padding: 0 10px;
   width: 182px;
