@@ -1110,10 +1110,11 @@ details > summary::-webkit-details-marker {
   animation: crazy-colors 1s steps(20, end) infinite;
 }
 section.awards-section {
+  width: 50%;
   padding: 10px;
   display: grid;
   row-gap: 10px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 .awards-items {
   grid-template-columns: repeat(4, 1fr);
