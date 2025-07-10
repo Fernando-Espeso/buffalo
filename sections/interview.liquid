@@ -27,5 +27,26 @@
     {% endfor %}
   </div>
 {% endif %}
+{% assign all_articles = blog.articles | where: "id", article.id, false %}
+{% assign shuffled_articles = all_articles | shuffle %}
+{% assign related_articles = shuffled_articles | slice: 0, 3 %}
 
+{% if related_articles != blank %}
+  <div class="related-articles">
+    <div class="related-title">YOU MIGHT ALSO LIKE</div>
+    {% for related in related_articles %}
+      <div class="article estandard">
+        <a href="{{ related.url }}">
+          {% if related.image %}
+            <img src="{{ related.image | img_url: 'master' }}" alt="{{ related.title }}">
+          {% endif %}
+        </a>
+        <div class="article-title title-thang">
+          <p>{{ related.title }}</p>
+          <p>{{ related.published_at | date: "%B %d, %Y" }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
 
