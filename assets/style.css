@@ -1041,6 +1041,9 @@ input#stockistFilter::placeholder{
   line-height: 22px;
   letter-spacing: 0px;
 }
+div#shopify-section-contact {
+  WIDTH: 50%;
+}
 .contact-section .info a{
   font-family: 'Times New Roman', Times, serif;
   font-size: var(--fsm);
