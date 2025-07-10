@@ -342,7 +342,7 @@ div#products img {
 }
 .unique-size {
   border: 1px solid;
-  padding
+  padding:var(--space);
 }
   .swiper-quotes{
   padding: 10px;
