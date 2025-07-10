@@ -567,6 +567,29 @@ section.hero {
   justify-content: center;
   align-items: center;
 }
+.next{
+  position:absolute;
+  right: 10px;
+  top: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1;
+}
+
+.prev{
+  position:absolute;
+  left: 10px;
+  top: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1;
+}
 section.six-products-with-bg {
   position: relative;
   height: auto;
