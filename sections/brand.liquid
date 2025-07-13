@@ -1,4 +1,12 @@
 <section class="articles-block">
+
+  {% if section.settings.third %}
+    {% assign card_class = 'width-third' %}
+  {% elsif section.settings.half %}
+    {% assign card_class = 'width-half' %}
+  {% else %}
+    {% assign card_class = 'width-half' %}
+  {% endif %}
   {% for block in section.blocks %}
     {% if block.type == 'custom_article' and block.settings.article %}
       {% assign article = articles[block.settings.article] %}
@@ -8,7 +16,7 @@
         {% assign ext = hover | split: '.' | last | downcase %}
       {% endif %}
 
-      <div class="article-card">
+      <div class="article-card {{ card_class }}">
         <div class="title-thang">
           <div>{{ article.title }}</div> 
         </div>
