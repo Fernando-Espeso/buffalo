@@ -799,6 +799,12 @@ form#cart-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.article-card.width-half {
+  grid-column: span 6;
+}
+.article-card.width-third {
+  grid-column: span 4;
+}
 /* CART */
  .total {
   text-align: center;
