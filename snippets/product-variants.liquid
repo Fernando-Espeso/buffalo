@@ -55,6 +55,7 @@
             <input type="radio" class="visually-hidden" id="{{ section.id }}-{{ optionVariant.id }}-{{ option.position }}-{{ type }}"
               name="{{ option.name }}"
               value="{{ value | escape }}"
+              href="#{{ value | escape }}"
               formId="{{ formID }}"
               {% if option.selected_value == value %}checked{% endif %}
             >
