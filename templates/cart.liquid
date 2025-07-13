@@ -24,7 +24,7 @@
               {% unless item.product.options contains 'Title' %}
                 <!--Variations-->
                 <div class="dub double">
-                  <div class="siz">COVER</div>
+                  <div class="siz">COVER </div>
                   <div class="siz">
                     {%- for option_title in item.product.options -%}
                       {{ item.variant.options[forloop.index0] }}{% unless forloop.last  %}<br> {% endunless %}
