@@ -427,8 +427,8 @@
             "settings": {
               "article": "your-brand-here/your-brand-here",
               "hover_media": "",
-              "half": true,
-              "third": false
+              "half": false,
+              "third": true
             }
           },
           "custom_article_FxTzyF": {
