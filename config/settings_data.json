@@ -409,7 +409,7 @@
             "settings": {
               "article": "your-brand-here/louis-vuitton-x-nba",
               "hover_media": "",
-              "half": false,
+              "half": true,
               "third": false
             }
           },
