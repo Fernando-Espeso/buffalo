@@ -814,6 +814,7 @@ div#bag {
   border-bottom: 1px solid var(--bl);
 }
 .product-variant-title {
+  text-align: center;
   cursor: pointer;
   position: relative;
   width: 100%;
