@@ -16,7 +16,7 @@
         {% assign ext = hover | split: '.' | last | downcase %}
       {% endif %}
 
-      <div class="article-card ">
+      <div class="article-card {{ card_class }}">
         <div class="title-thang">
           <div>{{ article.title }}</div> 
         </div>
