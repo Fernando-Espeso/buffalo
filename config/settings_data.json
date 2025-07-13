@@ -419,7 +419,7 @@
               "article": "your-brand-here/versace-resort-2024",
               "hover_media": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4",
               "half": false,
-              "third": false
+              "third": true
             }
           },
           "custom_article_bhU87V": {
@@ -456,7 +456,7 @@
               "article": "your-brand-here/louis-vuitton-x-nba",
               "image": "shopify://shop_images/TRU1958830.jpg",
               "hover_media": "",
-              "half": false,
+              "half": true,
               "third": false
             }
           }
