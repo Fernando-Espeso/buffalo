@@ -4,13 +4,15 @@
     {% if block.type == 'custom_article' and block.settings.article %}
       {% assign article = articles[block.settings.article] %}
       {% assign hover = block.settings.hover_media %}
-      {% if section.settings.third == true or section.settings.third == 'true' %}
+    
+      {% if block.settings.third == true or block.settings.third == 'true' %}
         {% assign card_class = 'width-third' %}
-      {% elsif section.settings.half == true or section.settings.half == 'true' %}
+      {% elsif block.settings.half == true or block.settings.half == 'true' %}
         {% assign card_class = 'width-half' %}
       {% else %}
         {% assign card_class = 'hey' %}
       {% endif %}
+
       {% if hover %}
         {% assign ext = hover | split: '.' | last | downcase %}
       {% endif %}
