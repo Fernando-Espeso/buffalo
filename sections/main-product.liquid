@@ -23,6 +23,7 @@
           {% when 'image' %}
             <div class="swiper-slide">
               <img 
+                id="{{ media.alt }}"
                 class="lazy" 
                 src="{{ media | product_img_url: 'thumb' }}" 
                 data-src="{{ media | product_img_url: 'master' }}" 
