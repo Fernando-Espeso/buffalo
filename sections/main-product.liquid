@@ -215,9 +215,16 @@ $(document).ready(function () {
         const targetEl = document.getElementById(targetId);
 
         if (targetEl) {
-          targetEl.scrollIntoView({
-            behavior: "smooth",
-            block: "start"
+          // Obtener offset desde variable CSS
+          const offsetVar = getComputedStyle(document.documentElement).getPropertyValue('--m');
+          const offset = parseInt(offsetVar) || 0; // fallback a 0 si no es válido
+
+          const targetPosition = targetEl.getBoundingClientRect().top + window.scrollY;
+          const scrollToPosition = targetPosition - offset;
+
+          window.scrollTo({
+            top: scrollToPosition,
+            behavior: "smooth"
           });
         }
       });
