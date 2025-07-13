@@ -204,3 +204,22 @@ $(document).ready(function () {
     });
   });
 </script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const radios = document.querySelectorAll('input[type="radio"][href^="#"]');
+
+    radios.forEach(radio => {
+      radio.addEventListener("change", function () {
+        const targetId = this.getAttribute("href").substring(1);
+        const targetEl = document.getElementById(targetId);
+
+        if (targetEl) {
+          targetEl.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+          });
+        }
+      });
+    });
+  });
+</script>
