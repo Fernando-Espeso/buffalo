@@ -436,7 +436,7 @@
             "settings": {
               "article": "live/burberrys-art-of-the-trench",
               "hover_media": "",
-              "half": false,
+              "half": true,
               "third": false
             }
           },
