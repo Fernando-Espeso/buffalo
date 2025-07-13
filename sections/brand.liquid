@@ -3,13 +3,12 @@
     {% if block.type == 'custom_article' and block.settings.article %}
       {% assign article = articles[block.settings.article] %}
       {% assign hover = block.settings.hover_media %}
-      {% assign width_class = block.settings.width == 'third' ? 'width-third' : 'width-half' %}
 
       {% if hover %}
         {% assign ext = hover | split: '.' | last | downcase %}
       {% endif %}
 
-      <div class="article-card  {{ width_class }}">
+      <div class="article-card">
         <div class="title-thang">
           <div>{{ article.title }}</div> 
         </div>
