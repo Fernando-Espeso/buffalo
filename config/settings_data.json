@@ -408,28 +408,36 @@
             "type": "custom_article",
             "settings": {
               "article": "your-brand-here/louis-vuitton-x-nba",
-              "hover_media": ""
+              "hover_media": "",
+              "half": false,
+              "third": true
             }
           },
           "custom_article_HRkJ6t": {
             "type": "custom_article",
             "settings": {
               "article": "your-brand-here/versace-resort-2024",
-              "hover_media": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4"
+              "hover_media": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4",
+              "half": false,
+              "third": true
             }
           },
           "custom_article_bhU87V": {
             "type": "custom_article",
             "settings": {
               "article": "your-brand-here/your-brand-here",
-              "hover_media": ""
+              "hover_media": "",
+              "half": true,
+              "third": false
             }
           },
           "custom_article_FxTzyF": {
             "type": "custom_article",
             "settings": {
               "article": "live/burberrys-art-of-the-trench",
-              "hover_media": ""
+              "hover_media": "",
+              "half": true,
+              "third": false
             }
           },
           "custom_article_VmJMa6": {
@@ -437,7 +445,9 @@
             "settings": {
               "article": "live/eytys-jeans",
               "image": "shopify://shop_images/10_EYTYS_JEANS_FW17_Campaign_03.jpg",
-              "hover_media": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4"
+              "hover_media": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4",
+              "half": true,
+              "third": false
             }
           }
         },
