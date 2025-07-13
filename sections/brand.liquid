@@ -1,12 +1,14 @@
 <section class="articles-block global">
-  {% if section.settings.third %}
+  {% assign use_half = section.settings.half == 'true' %}
+  {% assign use_third = section.settings.third == 'true' %}
+  
+  {% if use_third %}
     {% assign card_class = 'width-third' %}
-  {% elsif section.settings.half %}
+  {% elsif use_half %}
     {% assign card_class = 'width-half' %}
   {% else %}
     {% assign card_class = 'width-half' %}
   {% endif %}
-
   {% for block in section.blocks %}
     {% if block.type == 'custom_article' and block.settings.article %}
       {% assign article = articles[block.settings.article] %}
