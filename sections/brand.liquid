@@ -43,7 +43,24 @@
   "name": "Articles Block",
   "tag": "section",
   "class": "section-articles",
-  "settings": [],
+  "settings": [
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Cards per row",
+      "default": "half",
+      "options": [
+        {
+          "value": "half",
+          "label": "2 per row (Half)"
+        },
+        {
+          "value": "third",
+          "label": "3 per row (Third)"
+        }
+      ]
+    }
+  ],
   "blocks": [
     {
       "type": "custom_article",
@@ -63,22 +80,6 @@
           "type": "url",
           "id": "hover_media",
           "label": "Hover Image or Video URL"
-        },
-        {
-          "type": "select",
-          "id": "width",
-          "label": "Cards per row",
-          "default": "half",
-          "options": [
-            {
-              "value": "half",
-              "label": "2 per row (Half)"
-            },
-            {
-              "value": "third",
-              "label": "3 per row (Third)"
-            }
-          ]
         }
       ]
     }
