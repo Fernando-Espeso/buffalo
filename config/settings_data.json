@@ -427,7 +427,7 @@
             "settings": {
               "article": "your-brand-here/your-brand-here",
               "hover_media": "",
-              "half": false,
+              "half": true,
               "third": false
             }
           },
@@ -447,7 +447,7 @@
               "image": "shopify://shop_images/10_EYTYS_JEANS_FW17_Campaign_03.jpg",
               "hover_media": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4",
               "half": false,
-              "third": false
+              "third": true
             }
           },
           "custom_article_nwx3zf": {
