@@ -449,6 +449,16 @@
               "half": true,
               "third": false
             }
+          },
+          "custom_article_nwx3zf": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/louis-vuitton-x-nba",
+              "image": "shopify://shop_images/TRU1958830.jpg",
+              "hover_media": "",
+              "half": true,
+              "third": false
+            }
           }
         },
         "block_order": [
@@ -456,7 +466,8 @@
           "custom_article_HRkJ6t",
           "custom_article_bhU87V",
           "custom_article_FxTzyF",
-          "custom_article_VmJMa6"
+          "custom_article_VmJMa6",
+          "custom_article_nwx3zf"
         ],
         "settings": {}
       },
