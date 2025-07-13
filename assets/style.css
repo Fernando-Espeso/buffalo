@@ -819,8 +819,8 @@ div#bag {
 .item > div {
   border-bottom: 1px solid var(--bl);
 }
-.articles-block{
-  grid-template-columns: repeat(12, 1fr);
+.articles-block.global{
+  grid-template-columns: repeat(12, 1fr)!important;
 }
 .product-variant-title {
   text-align: center;
