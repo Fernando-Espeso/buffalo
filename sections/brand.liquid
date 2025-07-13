@@ -3,11 +3,13 @@
     {% if block.type == 'custom_article' and block.settings.article %}
       {% assign article = articles[block.settings.article] %}
       {% assign hover = block.settings.hover_media %}
+      {% assign width_class = block.settings.width == 'third' ? 'width-third' : 'width-half' %}
+
       {% if hover %}
         {% assign ext = hover | split: '.' | last | downcase %}
       {% endif %}
 
-      <div class="article-card">
+      <div class="article-card  {{ width_class }}">
         <div class="title-thang">
           <div>{{ article.title }}</div> 
         </div>
@@ -61,6 +63,22 @@
           "type": "url",
           "id": "hover_media",
           "label": "Hover Image or Video URL"
+        },
+        {
+          "type": "select",
+          "id": "width",
+          "label": "Card Width",
+          "default": "half",
+          "options": [
+            {
+              "value": "half",
+              "label": "Half"
+            },
+            {
+              "value": "third",
+              "label": "Third"
+            }
+          ]
         }
       ]
     }
