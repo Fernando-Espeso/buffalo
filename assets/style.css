@@ -1721,8 +1721,7 @@ form#cart-wrapper {
   display: block!important;
   top: calc(var(--m) + 10px);
   z-index: 1;
-  position: fixed;
-  margin: 0 auto;
+  position: relative;
   padding: 0 10px;
   width: 182px;
 }
