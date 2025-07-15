@@ -427,7 +427,7 @@
             "settings": {
               "article": "your-brand-here/your-brand-here",
               "hover_media": "",
-              "half": false,
+              "half": true,
               "third": false
             }
           },
@@ -447,7 +447,7 @@
               "image": "shopify://shop_images/10_EYTYS_JEANS_FW17_Campaign_03.jpg",
               "hover_media": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4",
               "half": false,
-              "third": false
+              "third": true
             }
           },
           "custom_article_nwx3zf": {
@@ -456,8 +456,17 @@
               "article": "your-brand-here/louis-vuitton-x-nba",
               "image": "shopify://shop_images/TRU1958830.jpg",
               "hover_media": "",
-              "half": true,
-              "third": false
+              "half": false,
+              "third": true
+            }
+          },
+          "custom_article_g4fRap": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/versace-resort-2024",
+              "hover_media": "",
+              "half": false,
+              "third": true
             }
           }
         },
@@ -467,7 +476,8 @@
           "custom_article_bhU87V",
           "custom_article_FxTzyF",
           "custom_article_VmJMa6",
-          "custom_article_nwx3zf"
+          "custom_article_nwx3zf",
+          "custom_article_g4fRap"
         ],
         "settings": {}
       },
