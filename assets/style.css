@@ -1718,7 +1718,7 @@ form#cart-wrapper {
   width: 100%;
 }
 .non{
-  display: block;
+  display: block!important;
   top: calc(var(--m) + 10px);
   z-index: 1;
   position: fixed;
