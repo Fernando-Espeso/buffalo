@@ -363,9 +363,10 @@ div#products img {
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
 }
-.custom-text{
+.custom-text-article{
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsb);
+  text-align: left;
 }
 .swiper-quotes .swiper-slide p strong{
   font-family: Helvetica, sans-serif;

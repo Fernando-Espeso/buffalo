@@ -78,7 +78,7 @@
 
         <p class="content-article-home">{{ article.content | strip_html | truncate: 300 }}</p>
         {% if block.settings.article_1_custom_text != blank %}
-          <div class="custom-text">
+          <div class="custom-text-article">
             {{ block.settings.article_1_custom_text }}
           </div>
         {% endif %}
@@ -117,7 +117,7 @@
 
         <p class="content-article-home">{{ article2.content | strip_html | truncate: 300 }}</p>
         {% if block.settings.article_2_custom_text != blank %}
-          <div class="custom-text">
+          <div class="custom-text-article">
             {{ block.settings.article_2_custom_text }}
           </div>
         {% endif %}
