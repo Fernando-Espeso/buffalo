@@ -346,7 +346,8 @@ div#products img {
 }
 .unique-size {
   border: 1px solid;
-  padding:var(--space);
+  padding: var(--space);
+  text-align: center;
 }
   .swiper-quotes{
   column-count: 2;
