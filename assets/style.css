@@ -304,6 +304,7 @@ a.Buffalo.Live\! {
 li.active a {
   color: grey;
 }
+
 .menu{
   text-transform: uppercase;
   position: relative;
@@ -361,6 +362,10 @@ div#products img {
   padding: var(--space) 0px var(--space) 0px;
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
+}
+.custom-text{
+  font-family: Times New Roman, Times, serif;
+  font-size: var(--fsb);
 }
 .swiper-quotes .swiper-slide p strong{
   font-family: Helvetica, sans-serif;
