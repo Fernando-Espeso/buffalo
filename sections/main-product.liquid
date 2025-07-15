@@ -1,5 +1,9 @@
 
 <div class="head-product">
+  {% if product.metafields.custom.logo != blank %}
+    <div class="custom-image non">
+      <img src="{{ product.metafields.custom.logo | img_url: '800x800' }}" alt="Imagen personalizada">
+    </div>
 {% if product.description != blank %}
   <div class="info-hero">
     {{ product.description }}

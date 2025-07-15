@@ -862,7 +862,15 @@ div#shopify-section-about {
   font-family: Helvetica, sans-serif;
   padding: 0px 0px;
 }
-
+.non{
+  display: none;
+  top: calc(var(--m) + 10px);
+  z-index: 1;
+  position: fixed;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 182px;
+}
 .single-info {
   text-transform: uppercase;
   max-width: auto;
@@ -1612,6 +1620,7 @@ section.two-products, .articles-block {
   z-index: 1;
   position: fixed;
   margin: 0 auto;
+  display: none;
   padding: 0 10px;
   width: 182px;
 }
@@ -1707,6 +1716,15 @@ form#cart-wrapper {
 }
 .swiper-quotes, .column-text, div#shopify-section-contact, section.awards-section  {
   width: 100%;
+}
+.non{
+  display: block;
+  top: calc(var(--m) + 10px);
+  z-index: 1;
+  position: fixed;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 182px;
 }
 .interview {
   color: black;
