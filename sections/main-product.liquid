@@ -4,6 +4,7 @@
     <div class="non">
       <img src="{{ product.metafields.custom.logo | img_url: '800x800' }}" alt="Imagen personalizada">
     </div>
+  {% endif %}
 {% if product.description != blank %}
   <div class="info-hero">
     {{ product.description }}
