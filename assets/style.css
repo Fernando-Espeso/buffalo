@@ -1563,6 +1563,7 @@ button#checkout{
   border-bottom: 1px solid var(--bl);
 }
 button.sold-out-button {
+  text-transform: uppercase;
   position: absolute;
   background: white;
   color: black;
