@@ -429,6 +429,7 @@ footer{
  margin-top: auto;
  justify-content: center;
  padding:var(--space);
+ background-color: white;
 }
 footer .container{
  display: flex;
