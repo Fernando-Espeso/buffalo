@@ -29,7 +29,7 @@
 }
 .interview .metafield-rich_text_field {
   display: grid;
-  row-gap: 5px;
+  row-gap: 10px;
 }
 .custom-image {
   top: calc(var(--m) + 10px);
