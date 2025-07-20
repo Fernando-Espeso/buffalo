@@ -150,7 +150,7 @@
       }
     } else {
       jQuery('#product-price').empty();
-      jQuery('#add-to-cart').prop('disabled', true).text('ADD TO BAG');
+      jQuery('#add-to-cart').prop('disabled', true).text('ADD TO CART');
       {% if product.price_varies %}
         jQuery('#product-price').html('{{ product.price_min | money }} – {{ product.price_max | money }}');
       {% else %}

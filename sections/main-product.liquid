@@ -126,19 +126,30 @@
     {% assign info = product.metafields.custom.description | default: '' %}
 {% assign contributors = product.metafields.custom.contributors | default: '' %}
 <div class="desplegable" id="info-product">
+
+    {% if contributors != blank %}
+
+      <div class="contributors">
+        <div class="title-cred">CONTRIBUTING ARTISTS</div>
+        {{ product.metafields.custom.contributors | metafield_tag }}
+      </div>
+
+    {% endif %}
+
+    {% if features != blank %}
+
+      <div class="features">
+        <div class="title-cred">FEATURING</div>
+        {{ product.metafields.custom.features | metafield_tag }}
+      </div>
+
+    {% endif %}
+
     {% if info != blank %}
 
       <div class="description">
         {{ product.metafields.custom.description | metafield_tag }}
         <div class="details-product">{{ product.metafields.custom.info | metafield_tag }} </div>
-
-      </div>
-
-    {% endif %}
-    {% if contributors != blank %}
-
-      <div class="contributors">
-        {{ product.metafields.custom.contributors | metafield_tag }}
       </div>
 
     {% endif %}
