@@ -133,7 +133,7 @@
   var selectCallback = function(variant, selector) {
     if (variant) {
       if (variant.available) {
-        jQuery('#add-to-cart').prop('disabled', false).text('ADD TO BAG');
+        jQuery('#add-to-cart').prop('disabled', false).text('ADD TO CART');
       } else {
         jQuery('#add-to-cart').prop('disabled', true).text('OUT OF STOCK');
       }
@@ -150,7 +150,7 @@
       }
     } else {
       jQuery('#product-price').empty();
-      jQuery('#add-to-cart').prop('disabled', true).text('ADD TO BAG');
+      jQuery('#add-to-cart').prop('disabled', true).text('ADD TO CART');
       {% if product.price_varies %}
         jQuery('#product-price').html('{{ product.price_min | money }} – {{ product.price_max | money }}');
       {% else %}
