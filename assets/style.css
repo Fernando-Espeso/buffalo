@@ -495,10 +495,9 @@ footer .container{
 .contributors p{
   font-family: times;
 }
-.description{
+.description {
   margin: 0 auto;
-  max-width: 1000px;
-  text-align: center;
+  max-width: 800px;
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
