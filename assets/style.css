@@ -1688,8 +1688,8 @@ div#products {
   grid-gap: 0px;
   text-align: left;
   padding: 10px var(--space);
-  display: flex
-;
+  display: flex;
+  z-index: 12;
   flex-direction: column;
 }
 #header {
