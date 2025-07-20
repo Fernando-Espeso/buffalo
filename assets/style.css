@@ -423,8 +423,6 @@ transform: translate(0%, -50%);
 
 /* FOOTER */
 footer{
- display: none;
-
  margin-top: auto;
  justify-content: center;
  padding:var(--space);
