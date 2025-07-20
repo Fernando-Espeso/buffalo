@@ -125,7 +125,9 @@
         {% endcase %}
       {% endfor %}
     </div>
-    
+    {% if item.alt != blank %}
+      <p class="caption-article">{{ item.alt }}</p>
+    {% endif %}
   </div>
     {% assign info = product.metafields.custom.description | default: '' %}
 {% assign contributors = product.metafields.custom.contributors | default: '' %}
