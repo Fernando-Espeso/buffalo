@@ -378,6 +378,10 @@ div#products img {
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsb);
 }
+span.metafield-single_line_text_field{
+  font-family: Times New Roman, Times, serif;
+  font-size: var(--fsb);
+}
 .custom-text-article{
   padding: var(--space);
   text-align: left;
