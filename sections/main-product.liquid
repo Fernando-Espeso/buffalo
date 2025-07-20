@@ -125,6 +125,7 @@
   </div>
     {% assign info = product.metafields.custom.description | default: '' %}
 {% assign contributors = product.metafields.custom.contributors | default: '' %}
+{% assign features = product.metafields.custom.features | default: '' %}
 <div class="desplegable" id="info-product">
 
     {% if contributors != blank %}
