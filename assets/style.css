@@ -1328,8 +1328,7 @@ div#info-product {
   opacity: 1;
 }
 .details-product{
-  color: grey;
-  opacity: 0;
+  text-align: center;
 
 }
 .swiper-pagination-bullet-active {
