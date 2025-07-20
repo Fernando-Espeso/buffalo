@@ -1571,7 +1571,6 @@ button.sold-out-button {
   padding: 0px var(--space);
   padding-bottom: 5px !important;
   left: 0;
-  z-index: 10;
   top: 24px;
   font-family: Arial, Helvetica, sans-serif;
 }
