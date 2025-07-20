@@ -1186,10 +1186,10 @@ details > summary::-webkit-details-marker {
   padding: 0px;
   border-bottom: 1px solid var(--bl);
 }
-.swiper-article span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: white !important;
 }
-.swiper-article span.swiper-pagination-bullet.swiper-pagination-bullet {
+ span.swiper-pagination-bullet.swiper-pagination-bullet {
   background: white !important;
 }
 .swiper-article .swiper-slide{
@@ -1332,7 +1332,7 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
 .swiper-gallery img{
 
 }
-.swiper-article span.swiper-pagination-bullet.swiper-pagination-bullet-active, .swiper-article span.swiper-pagination-bullet.swiper-pagination-bullet {
+ span.swiper-pagination-bullet.swiper-pagination-bullet-active, . span.swiper-pagination-bullet.swiper-pagination-bullet {
   background: #fff !important;
   padding: 0px;
   margin: 0px;
