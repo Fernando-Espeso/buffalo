@@ -818,7 +818,7 @@ form#cart-wrapper {
 }
 .features {
   text-align: center;
-}
+}s
 .item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
