@@ -12,33 +12,7 @@
 {% endif %}
 </div>
 <div id="main-product" class="main" data-section-id="{{ section.id }}" data-product-section>
-  <div class="gallery">
-    <div class="gallery">
-      {% if product.metafields.custom.logo != blank %}
-        <div class="custom-image">
-          <img src="{{ product.metafields.custom.logo | img_url: '800x800' }}" alt="Imagen personalizada">
-        </div>
-      {% endif %}
-      {% for media in product.media %}
-        {% case media.media_type %}
-          {% when 'video' %}
-            <div class="swiper-slide">
-              {{ media | video_tag: loop: true, autoplay: true, muted: true }}
-            </div>
-          {% when 'image' %}
-            <div class="swiper-slide">
-              <img 
-                id="{{ media.alt }}"
-                class="lazy" 
-                src="{{ media | product_img_url: 'thumb' }}" 
-                data-src="{{ media | product_img_url: 'master' }}" 
-                alt="{{ media.alt }}" 
-              />
-            </div>
-        {% endcase %}
-      {% endfor %}
-    </div>
-  </div>
+ 
   <!--INFO-BUY-->
   <div class="buy-block">
     <div class="product-price">
@@ -121,7 +95,34 @@
     </div>
     {% endform %}
  
-
+  </div>
+  <div class="gallery">
+    <div class="gallery">
+      {% if product.metafields.custom.logo != blank %}
+        <div class="custom-image">
+          <img src="{{ product.metafields.custom.logo | img_url: '800x800' }}" alt="Imagen personalizada">
+        </div>
+      {% endif %}
+      {% for media in product.media %}
+        {% case media.media_type %}
+          {% when 'video' %}
+            <div class="swiper-slide">
+              {{ media | video_tag: loop: true, autoplay: true, muted: true }}
+            </div>
+          {% when 'image' %}
+            <div class="swiper-slide">
+              <img 
+                id="{{ media.alt }}"
+                class="lazy" 
+                src="{{ media | product_img_url: 'thumb' }}" 
+                data-src="{{ media | product_img_url: 'master' }}" 
+                alt="{{ media.alt }}" 
+              />
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
     {% assign info = product.metafields.custom.description | default: '' %}
 {% assign contributors = product.metafields.custom.contributors | default: '' %}
 <div class="desplegable" id="info-product">
@@ -142,7 +143,9 @@
 
     {% endif %}
 </div>
-</div>
+
+
+
 </div>
 {% assign related_products = product.metafields.custom.related.value %}
 {% if related_products != blank %}
