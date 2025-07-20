@@ -1312,7 +1312,6 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
 .swiper-gallery{
   position: relative;
   overflow: hidden;
-  height: calc(var(--h) - var(--m));
 }
 .swiper-live{
   top: 0px;
