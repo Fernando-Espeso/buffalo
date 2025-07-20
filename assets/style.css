@@ -868,8 +868,9 @@ div#bag {
   letter-spacing: 0px;
 }
 div#shopify-section-about {
-  background-color:white;
-  color:black;
+  background-color: black;
+  padding-top: 10px;
+  color: white;
 }
 .contact-title {
   grid-column: span 2;
