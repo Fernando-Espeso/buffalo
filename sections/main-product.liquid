@@ -127,7 +127,9 @@
 {% assign contributors = product.metafields.custom.contributors | default: '' %}
 {% assign features = product.metafields.custom.features | default: '' %}
 <div class="desplegable" id="info-product">
-
+  <div class="description">
+    {{ product.metafields.custom.description | metafield_tag }}
+  </div>
     {% if contributors != blank %}
 
       <div class="contributors">
@@ -146,10 +148,8 @@
 
     {% if info != blank %}
 
-      <div class="description">
-        {{ product.metafields.custom.description | metafield_tag }}
-        <div class="details-product">{{ product.metafields.custom.info | metafield_tag }} </div>
-      </div>
+  
+      <div class="details-product">{{ product.metafields.custom.info | metafield_tag }} </div>
 
     {% endif %}
 </div>
