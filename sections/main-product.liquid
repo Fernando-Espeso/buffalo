@@ -184,22 +184,27 @@
     {% endfor %}
   </div>
 {% endif %}
-
 <script>
-$(document).ready(function () {
-  var swiper = new Swiper('.swiper-gallery', {
-    loop: true,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    }
+  document.addEventListener("DOMContentLoaded", function () {
+    var swiper = new Swiper('.swiper-article', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 15,
+      navigation: {
+        nextEl: '.next',
+        prevEl: '.prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return `<span class="${className}"></span>`;
+        }
+      }
+    });
   });
-});
 </script>
+
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const chooseLabel = document.querySelector(".choose");
@@ -252,23 +257,4 @@ $(document).ready(function () {
     });
   });
 </script>  
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var swiper = new Swiper('.swiper-article', {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 15,
-      navigation: {
-        nextEl: '.next',
-        prevEl: '.prev',
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        renderBullet: function (index, className) {
-          return `<span class="${className}"></span>`;
-        }
-      }
-    });
-  });
-</script>
+
