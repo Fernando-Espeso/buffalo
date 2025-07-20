@@ -869,7 +869,7 @@ div#bag {
 }
 div#shopify-section-about {
   background-color: black;
-  padding-top: 10px;
+  padding: 10px 0px;
   color: white;
 }
 .contact-title {
