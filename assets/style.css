@@ -1273,12 +1273,11 @@ section.awards-section {
 .awards-final-text {
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsb);
-  line-height: 20px;
 }
 .awards-intro {
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsb);
-  line-height: 20px;
+
 }
 .award-text {
 
