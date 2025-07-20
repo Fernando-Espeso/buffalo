@@ -1009,9 +1009,9 @@ span.quantity-button.minus, span.addmore {
   grid-template-columns: repeat(1, 1fr);
 }
 div#shopify-section-about {
-  padding-top: 10px;
-  background-color: white;
-  color: black;
+  background-color: black;
+  padding: 10px 0px;
+  color: white;
 }
 div#shopify-section-stocklist {
   background-color: #000;
