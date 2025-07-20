@@ -813,6 +813,9 @@ form#cart-wrapper {
 .award-item img {
   width: 80px;
 }
+.title-cred {
+  font-size: 12px;
+}
 .item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
