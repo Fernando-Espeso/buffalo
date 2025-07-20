@@ -823,6 +823,9 @@ form#cart-wrapper {
 .article-card.width-third {
   grid-column: span 4;
 }
+form#product-form-main-product {
+  padding-bottom: 10px;
+}
 /* CART */
  .total {
   text-align: center;
