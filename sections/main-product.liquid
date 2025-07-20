@@ -98,13 +98,14 @@
     {% endform %}
  
   </div>
-  <div class="swiper-article">
+  {% if product.metafields.custom.logo != blank %}
+    <div class="custom-image">
+      <img src="{{ product.metafields.custom.logo | img_url: '800x800' }}" alt="Imagen personalizada">
+    </div>
+  {% endif %}
+  <div class="swiper-article color">
     <div class="swiper-wrapper">
-      {% if product.metafields.custom.logo != blank %}
-        <div class="custom-image">
-          <img src="{{ product.metafields.custom.logo | img_url: '800x800' }}" alt="Imagen personalizada">
-        </div>
-      {% endif %}
+   
       {% for media in product.media %}
         {% case media.media_type %}
           {% when 'video' %}
