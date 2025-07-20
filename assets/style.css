@@ -1122,6 +1122,11 @@ div#shopify-section-contact {
 }
 /* PRODUCTS */
 .buy-block {
+  padding: 0px 10px;
+  z-index: 10;
+  background-color: white;
+  margin: 0 auto;
+  max-width: 400px;
   top: var(--m);
   position: sticky;
 }
