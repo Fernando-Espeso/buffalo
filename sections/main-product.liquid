@@ -103,7 +103,7 @@
       <img src="{{ product.metafields.custom.logo | img_url: '800x800' }}" alt="Imagen personalizada">
     </div>
   {% endif %}
-  <div class="swiper-article color">
+  <div class="swiper-gallery">
     <div class="swiper-wrapper">
    
       {% for media in product.media %}
@@ -184,27 +184,22 @@
     {% endfor %}
   </div>
 {% endif %}
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var swiper = new Swiper('.swiper-article', {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 15,
-      navigation: {
-        nextEl: '.next',
-        prevEl: '.prev',
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        renderBullet: function (index, className) {
-          return `<span class="${className}"></span>`;
-        }
-      }
-    });
-  });
-</script>
 
+<script>
+$(document).ready(function () {
+  var swiper = new Swiper('.swiper-gallery', {
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    }
+  });
+});
+</script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const chooseLabel = document.querySelector(".choose");
@@ -257,4 +252,3 @@
     });
   });
 </script>  
-
