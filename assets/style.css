@@ -306,11 +306,13 @@ li.active a {
 }
 
 .menu{
+  color: white;
+  background-color: black;
   text-transform: uppercase;
   position: relative;
   width: 100%;
   display: flex;
-  grid-gap:20px;
+  grid-gap: 20px;
   align-items: center;
   padding: 5px var(--space);
 }
