@@ -369,6 +369,10 @@ div#products img {
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
 }
+.sub-title {
+  font-family: Times New Roman, Times, serif;
+  font-size: var(--fsb);
+}
 .custom-text-article{
   padding: var(--space);
   text-align: left;
