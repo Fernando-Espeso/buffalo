@@ -375,6 +375,7 @@ div#products img {
 .swiper-quotes .swiper-slide p strong{
   font-family: Helvetica, sans-serif;
   font-weight: normal;
+  font-size: 18px;
 }
 .product {
   grid-column: span 4;
@@ -1564,7 +1565,7 @@ button#checkout{
 }
 button.sold-out-button {
   z-index: 12;
-  
+
   text-transform: uppercase;
   position: absolute;
   background: white;
