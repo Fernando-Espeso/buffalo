@@ -490,8 +490,7 @@ footer .container{
   line-height: clac(var(--fsb) + 5px);
 }
 .contributors {
-  column-count: 2;
-  text-align: left;
+  text-align: center;
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
@@ -1630,8 +1629,8 @@ section.two-products, .articles-block {
   line-height: clac(var(--fsb) + 5px);
 }
 .contributors {
-  column-count: 2;
-  text-align: left;
+  column-count: 0;
+  text-align: center;
 }
 .custom-image {
   top: calc(var(--m) + 10px);
