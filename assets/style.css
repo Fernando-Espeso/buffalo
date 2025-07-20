@@ -896,8 +896,6 @@ div#shopify-section-about {
   padding: var(--space);
 }
 .buy-block {
-  height: calc(var(--m) - var(--h));
-  border-right: 1px solid var(--bl);
 }
 button.name-btn {
   font-family: var(--font);
