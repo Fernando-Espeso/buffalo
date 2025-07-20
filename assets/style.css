@@ -816,6 +816,9 @@ form#cart-wrapper {
 .title-cred {
   font-size: 12px;
 }
+.features {
+  text-align: center;
+}
 .item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
