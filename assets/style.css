@@ -927,7 +927,6 @@ ul.names-list {
   /* margin: 0 auto; */
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsb);
-  line-height: 22px;
   column-count: 2;
   padding: 0px var(--space);
   letter-spacing: 0px;
@@ -1029,13 +1028,11 @@ div#shopify-section-stocklist {
 .stockist-item {
   font-family: Helvetica, sans-serif;
   font-size: var(--fsb);
-  line-height: 22px;
   font-weight: normal;
 }
 .stockist-item h3{
   font-family: 'Times New Roman', Times, serif;
   font-size: var(--fsb);
-  line-height: 22px;
   font-weight: normal;
 }
 .stockist-item p {
@@ -1043,7 +1040,6 @@ div#shopify-section-stocklist {
   padding-bottom: 20px;
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsm);
-  line-height: 22px;
   letter-spacing: 0px;
 }
 .stockist-search {
@@ -1077,7 +1073,6 @@ input#stockistFilter::placeholder{
 .contact-section .info{
   font-family: 'Times New Roman', Times, serif;
   font-size: var(--fsm);
-  line-height: 22px;
   letter-spacing: 0px;
 }
 div#shopify-section-contact {
@@ -1086,7 +1081,6 @@ div#shopify-section-contact {
 .contact-section .info a{
   font-family: 'Times New Roman', Times, serif;
   font-size: var(--fsm);
-  line-height: 22px;
   letter-spacing: 0px;
 }
 .contact-section .info strong{
