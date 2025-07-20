@@ -363,6 +363,9 @@ div#products img {
   background-color: white;
   color: black;
 }
+.title-page{
+  font-size: 12px;
+}
 .swiper-quotes .swiper-slide p {
   font-family: Times New Roman, Times, serif;
   padding: var(--space) 0px var(--space) 0px;
