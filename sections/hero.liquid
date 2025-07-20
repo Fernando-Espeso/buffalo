@@ -9,7 +9,6 @@
         {% if block.settings.hero_image %}
           <img class="main-img" src="{{ block.settings.hero_image | img_url: 'master' }}" alt="Hero Image">
         {% endif %}
-      
         {% if video %}
           {% if ext == 'mp4' %}
             <video class="hover-media" autoplay muted loop playsinline>
@@ -19,10 +18,7 @@
         {% elsif hover != blank %}
           <img class="hover-media" src="{{ hover | img_url: 'master' }}" alt="Hover Hero">
         {% endif %}
-      
         <div class="aim">{{ block.settings.hero_text }}</div>
-  
-
       </section>
       <div class="info-hero">{{ block.settings.info }}</div>
 
@@ -84,7 +80,7 @@
       </div>
     {% endif %}
 
-    
+
     {% if block.settings.article_2 %}
       {% assign article2 = articles[block.settings.article_2] %}
       {% assign hover_2 = block.settings.article_2_media_hover %}

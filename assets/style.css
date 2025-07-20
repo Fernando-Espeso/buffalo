@@ -312,7 +312,7 @@ li.active a {
   display: flex;
   grid-gap:20px;
   align-items: center;
-  padding: 10px var(--space);
+  padding: 5px var(--space);
 }
 .menu a:hover{
   color: grey;
@@ -370,7 +370,7 @@ div#products img {
   font-size: var(--fsb);
 
 
-  
+
 }
 .swiper-quotes .swiper-slide p strong{
   font-family: Helvetica, sans-serif;
@@ -647,7 +647,7 @@ section.hero img.hover-media {
 .aim {
   background-color: white;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 5px 10px;
   top: 0px;
   left: 0px;
   position: absolute;
@@ -702,7 +702,7 @@ video.hover-media {
   color: black;
   text-align: left;
   position: absolute;
-  padding: 10px;
+  padding: 5px 10px;
   background-color: white;
   font-weight: normal;
 }
