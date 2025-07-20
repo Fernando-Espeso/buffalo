@@ -1570,7 +1570,7 @@ button.sold-out-button {
   padding-bottom: var(--space) !important;
   left: 0;
   z-index: 10;
-  top: 34px;
+  top: 24px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .buy-block .product-price{
