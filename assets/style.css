@@ -1346,12 +1346,12 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
   margin: 0px;
 }
 .swiper-gallery span.swiper-pagination-bullet.swiper-pagination-bullet-active, . span.swiper-pagination-bullet.swiper-pagination-bullet {
-  background-color: #aaa;
+  background-color: #aaa!important;
   padding: 0px;
   margin: 0px;
 }
 .swiper-gallery span.swiper-pagination-bullet.swiper-pagination-bullet-active, .swiper-gallery span.swiper-pagination-bullet.swiper-pagination-bullet {
-  background-color: #000;
+  background-color: #000!important;
 }
 
 .swiper-pagination {
