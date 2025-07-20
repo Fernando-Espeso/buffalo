@@ -658,8 +658,9 @@ section.hero img.hover-media {
   text-align: center;
 }
 .product-price-white{
-  padding: 5px var(--space);
+  padding: 0px var(--space);
   position: absolute;
+  padding-bottom: 5px;
 left: 0px;
   background-color: white;
   top: 24px;
