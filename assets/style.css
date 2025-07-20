@@ -1567,7 +1567,7 @@ button.sold-out-button {
   position: absolute;
   background: white;
   color: black;
-  padding: 5px var(--space);
+  padding: 0px var(--space);
   padding-bottom: 5px !important;
   left: 0;
   z-index: 10;
