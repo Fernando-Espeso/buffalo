@@ -125,9 +125,10 @@
         {% endcase %}
       {% endfor %}
     </div>
-    {% if item.alt != blank %}
-      <p class="caption-article">{{ item.alt }}</p>
-    {% endif %}
+    <div class="swiper-pagination"></div>
+    <div class="next">⭢</div>
+    <div class="prev">⭠</div>
+
   </div>
     {% assign info = product.metafields.custom.description | default: '' %}
 {% assign contributors = product.metafields.custom.contributors | default: '' %}
@@ -192,8 +193,8 @@ $(document).ready(function () {
   var swiper = new Swiper('.swiper-gallery', {
     loop: true,
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.next',
+      prevEl: '.prev',
     },
     pagination: {
       el: '.swiper-pagination',
