@@ -17,7 +17,7 @@
   <div class="buy-block">
     <div class="product-price">
       <div class="title-page">{{ product.title }}</div>
-      <div class="sub-title"> {{ product.metafields.custom.contributors | metafield_tag }}</div>
+      <div class="sub-title"> {{ product.metafields.custom.title | metafield_tag }}</div>
 
       {% if product.available %}
         {% if product.price_varies %}
