@@ -1564,6 +1564,7 @@ button#checkout{
 }
 button.sold-out-button {
   z-index: 12;
+  
   text-transform: uppercase;
   position: absolute;
   background: white;
