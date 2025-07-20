@@ -661,6 +661,7 @@ section.hero img.hover-media {
   padding: 0px var(--space);
   position: absolute;
   padding-bottom: 5px;
+  z-index: 10;
 left: 0px;
   background-color: white;
   top: 24px;
