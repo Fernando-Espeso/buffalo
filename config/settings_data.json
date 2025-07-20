@@ -60,6 +60,7 @@
           },
           "six_products_with_bg_mABf6B": {
             "type": "six_products_with_bg",
+            "disabled": true,
             "settings": {
               "bg_image": "shopify://shop_images/Screenshot_2021-10-11_at_12.10.47.jpg",
               "product_1": "issue-19-mother-aw2024-laying",
@@ -630,21 +631,18 @@
           "award_item_yWfT3y": {
             "type": "award_item",
             "settings": {
-              "award_image": "shopify://shop_images/3_WOOD_b0066a7c-81c5-4477-9895-a22bc8fcb262.jpg",
               "award_text": "<p>ISSUE 10<br/>GRAPHITE PENCIL<br/>MAGAZINE & NEWSPAPER DESIGN<br/>INDEPENDENT MAGAZINES<br/>2021</p>"
             }
           },
           "award_item_iHtRhB": {
             "type": "award_item",
             "settings": {
-              "award_image": "shopify://shop_images/1_YELLOW.jpg",
               "award_text": "<p>ISSUE 16</p><p>WOOD PENCIL</p><p><br/>MAGAZINE & NEWSPAPER DESIGN<br/>INDEPENDENT MAGAZINES<br/>2023</p>"
             }
           },
           "award_item_R8fk79": {
             "type": "award_item",
             "settings": {
-              "award_image": "shopify://shop_images/1_YELLOW.jpg",
               "award_text": "<p>ISSUE 7<br/>GRAPHITE PENCIL</p><p><br/>MAGAZINE & NEWSPAPER DESIGN<br/>INDEPENDENT MAGAZINES<br/>2019</p>"
             }
           },
