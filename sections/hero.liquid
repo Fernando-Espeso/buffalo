@@ -53,7 +53,6 @@
         <div class="title-thang">
           <div>{{ article.title }}</div>
         </div>
-
         <a href="{{ article.url }}" class="image-hover-wrapper">
           {% if block.settings.article_1_image %}
             <img class="main-img" src="{{ block.settings.article_1_image | img_url: 'master' }}" alt="{{ article.title }}">
