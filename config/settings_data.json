@@ -86,7 +86,7 @@
             "type": "single_product",
             "settings": {
               "product": "issue-20-success-etc",
-              "custom_image": "shopify://shop_images/016-017.jpg",
+              "custom_image": "shopify://shop_images/extras_as_product.jpg",
               "fullscreen": false
             }
           },
