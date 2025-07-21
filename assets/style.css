@@ -444,6 +444,7 @@ transform: translate(0%, -50%);
 
 /* FOOTER */
 footer{
+  text-transform: uppercase;
  margin-top: auto;
  justify-content: center;
  padding:var(--space);
