@@ -496,7 +496,7 @@ footer .container{
   font-family: times;
 }
 .swiper-gallery .swiper-wrapper{
-  height: 500px; 
+  height: 800px; 
 }
 .swiper-gallery img{
   height: 100%;
@@ -507,7 +507,15 @@ footer .container{
   height: 100%;
   width: 100%;
   object-fit: contain;
-  
+
+}
+
+.swiper-gallery .swiper-pagination {
+    /* position: absolute; */
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
 }
 
 .description {
