@@ -19,6 +19,7 @@
             "settings": {
               "hero_image": "shopify://shop_images/6_EYTYS_SS19_HIGH_RES6.jpg",
               "hover_image_1": "shopify://shop_images/TRU1958830.jpg",
+              "goto": "",
               "video_url_1": "",
               "hero_text": "<p><a href=\"/products/issue-20-success-etc\" title=\"ISSUE 20: SUCCESS, ETC. / AW2024\">ISSUE 20: SUCCESS, ETC. / AW2024</a></p>",
               "info": "<p>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For Buffalo’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p>"
@@ -552,8 +553,7 @@
             "settings": {
               "product": "issue-20-success-etc",
               "half": true,
-              "hover_image": "shopify://shop_images/024-025.jpg",
-              "video_url": ""
+              "video_url": "https://cdn.shopify.com/videos/c/o/v/0d1d4ad4f8694c4aa29d316c1e19d57e.mov"
             }
           },
           "product_A4RMWC": {
