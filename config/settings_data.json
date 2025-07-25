@@ -18,7 +18,6 @@
             "type": "hero",
             "settings": {
               "hero_image": "shopify://shop_images/6_EYTYS_SS19_HIGH_RES6.jpg",
-              "hover_image_1": "shopify://shop_images/TRU1958830.jpg",
               "goto": "",
               "video_url_1": "",
               "hero_text": "<p><a href=\"/products/issue-20-success-etc\" title=\"ISSUE 20: SUCCESS, ETC. / AW2024\">ISSUE 20: SUCCESS, ETC. / AW2024</a></p>",
@@ -33,7 +32,6 @@
               "article_1_media_hover": "https://cdn.shopify.com/s/files/1/0938/5250/0300/files/FEATURED_10_EYTYS_JEANS_FW17_Campaign_03.jpg?v=1750694718",
               "article_1_custom_text": "",
               "article_2": "shuffle/lunch-al-desko-lunch-al-desko",
-              "custom_image": "shopify://shop_images/TRU1958830.jpg",
               "article_2_media_hover": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4",
               "article_2_custom_text": ""
             }
@@ -55,7 +53,6 @@
             "type": "single_product",
             "settings": {
               "product": "issue-20-success-etc",
-              "custom_image": "shopify://shop_images/TRU1958829.jpg",
               "fullscreen": false
             }
           },
@@ -553,7 +550,7 @@
             "settings": {
               "product": "issue-20-success-etc",
               "half": true,
-              "video_url": "https://cdn.shopify.com/videos/c/o/v/0d1d4ad4f8694c4aa29d316c1e19d57e.mov"
+              "video_url": "https://cdn.shopify.com/videos/c/o/v/f1c9effe34254cc1b4ac88cf7b572830.mp4"
             }
           },
           "product_A4RMWC": {
@@ -561,7 +558,7 @@
             "settings": {
               "product": "issue-19-mother-aw2024-laying",
               "half": true,
-              "video_url": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4"
+              "video_url": "https://cdn.shopify.com/videos/c/o/v/f1c9effe34254cc1b4ac88cf7b572830.mp4"
             }
           },
           "product_H6xMrT": {
