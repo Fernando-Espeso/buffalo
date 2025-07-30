@@ -592,6 +592,14 @@
               "hover_image": "shopify://shop_images/BuffaloZineNo3_VivienneWestwood3.jpg",
               "video_url": ""
             }
+          },
+          "product_m7Vd9c": {
+            "type": "product",
+            "settings": {
+              "product": "issue-2-street-style-ss13",
+              "half": false,
+              "video_url": ""
+            }
           }
         },
         "block_order": [
@@ -600,7 +608,8 @@
           "product_H6xMrT",
           "product_kkRwxi",
           "product_KCphDf",
-          "product_8whYdK"
+          "product_8whYdK",
+          "product_m7Vd9c"
         ],
         "settings": {}
       },
