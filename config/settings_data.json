@@ -84,7 +84,6 @@
             "type": "single_product",
             "settings": {
               "product": "issue-15-pink-ss2022",
-              "custom_image": "shopify://shop_images/extras_as_product.jpg",
               "fullscreen": false
             }
           },
@@ -584,38 +583,6 @@
               "half": false,
               "video_url": ""
             }
-          },
-          "product_EqxNTx": {
-            "type": "product",
-            "settings": {
-              "product": "issue-2",
-              "half": true,
-              "video_url": ""
-            }
-          },
-          "product_TcJCRq": {
-            "type": "product",
-            "settings": {
-              "product": "issue-13-la-zowie",
-              "half": false,
-              "video_url": ""
-            }
-          },
-          "product_LMpzGf": {
-            "type": "product",
-            "settings": {
-              "product": "issue-15-pink-ss2022",
-              "half": false,
-              "video_url": ""
-            }
-          },
-          "product_jXQmLE": {
-            "type": "product",
-            "settings": {
-              "product": "issue-12-buffalo-does-it-aw2020",
-              "half": false,
-              "video_url": ""
-            }
           }
         },
         "block_order": [
@@ -623,11 +590,7 @@
           "product_A4RMWC",
           "product_H6xMrT",
           "product_kkRwxi",
-          "product_KCphDf",
-          "product_EqxNTx",
-          "product_TcJCRq",
-          "product_LMpzGf",
-          "product_jXQmLE"
+          "product_KCphDf"
         ],
         "settings": {}
       },
