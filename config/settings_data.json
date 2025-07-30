@@ -583,6 +583,14 @@
               "half": false,
               "video_url": ""
             }
+          },
+          "product_8whYdK": {
+            "type": "product",
+            "settings": {
+              "product": "issue-3-secret-diaries-and-tales-for-children-ss-2015",
+              "half": false,
+              "video_url": ""
+            }
           }
         },
         "block_order": [
@@ -590,7 +598,8 @@
           "product_A4RMWC",
           "product_H6xMrT",
           "product_kkRwxi",
-          "product_KCphDf"
+          "product_KCphDf",
+          "product_8whYdK"
         ],
         "settings": {}
       },
