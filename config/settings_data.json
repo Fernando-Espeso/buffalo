@@ -600,6 +600,14 @@
               "half": false,
               "video_url": ""
             }
+          },
+          "product_YycQtH": {
+            "type": "product",
+            "settings": {
+              "product": "issue-1-ss2011",
+              "half": false,
+              "video_url": ""
+            }
           }
         },
         "block_order": [
@@ -609,7 +617,8 @@
           "product_kkRwxi",
           "product_KCphDf",
           "product_8whYdK",
-          "product_m7Vd9c"
+          "product_m7Vd9c",
+          "product_YycQtH"
         ],
         "settings": {}
       },
