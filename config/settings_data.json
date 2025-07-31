@@ -692,7 +692,7 @@
             "type": "product",
             "settings": {
               "product": "issue-2-street-style-ss13",
-              "half": true,
+              "half": false,
               "video_url": ""
             }
           },
@@ -700,7 +700,7 @@
             "type": "product",
             "settings": {
               "product": "issue-1-ss2011",
-              "half": true,
+              "half": false,
               "video_url": ""
             }
           }
