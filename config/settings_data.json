@@ -620,7 +620,7 @@
             "type": "product",
             "settings": {
               "product": "issue-2-street-style-ss13",
-              "half": false,
+              "half": true,
               "video_url": ""
             }
           },
@@ -628,6 +628,38 @@
             "type": "product",
             "settings": {
               "product": "issue-1-ss2011",
+              "half": true,
+              "video_url": ""
+            }
+          },
+          "product_tmkbcD": {
+            "type": "product",
+            "settings": {
+              "product": "issue-6-the-interiors-issue-aw-17-18",
+              "half": false,
+              "video_url": ""
+            }
+          },
+          "product_th3Kda": {
+            "type": "product",
+            "settings": {
+              "product": "issue-7-holidays-in-spain-ss-18",
+              "half": false,
+              "video_url": ""
+            }
+          },
+          "product_NtXeeH": {
+            "type": "product",
+            "settings": {
+              "product": "issue-8-fashion-s-kitchen-aw-18-19",
+              "half": false,
+              "video_url": ""
+            }
+          },
+          "product_bPzdqX": {
+            "type": "product",
+            "settings": {
+              "product": "issue-9-copyright-©2019-ss-19",
               "half": false,
               "video_url": ""
             }
@@ -644,7 +676,11 @@
           "product_fcrEVi",
           "product_8whYdK",
           "product_m7Vd9c",
-          "product_YycQtH"
+          "product_YycQtH",
+          "product_tmkbcD",
+          "product_th3Kda",
+          "product_NtXeeH",
+          "product_bPzdqX"
         ],
         "settings": {}
       },
