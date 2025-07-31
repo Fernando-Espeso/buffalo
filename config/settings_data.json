@@ -583,6 +583,30 @@
               "video_url": ""
             }
           },
+          "product_eCbLDr": {
+            "type": "product",
+            "settings": {
+              "product": "issue-6-the-interiors-issue-aw-17-18",
+              "half": false,
+              "video_url": ""
+            }
+          },
+          "product_FU4mcC": {
+            "type": "product",
+            "settings": {
+              "product": "issue-5-the-hackney-road-issue-ss-17",
+              "half": false,
+              "video_url": ""
+            }
+          },
+          "product_fcrEVi": {
+            "type": "product",
+            "settings": {
+              "product": "issue-4-international-buffalo-zine-catalogue-aw-16-17",
+              "half": false,
+              "video_url": ""
+            }
+          },
           "product_8whYdK": {
             "type": "product",
             "settings": {
@@ -607,30 +631,6 @@
               "half": false,
               "video_url": ""
             }
-          },
-          "product_fcrEVi": {
-            "type": "product",
-            "settings": {
-              "product": "issue-4-international-buffalo-zine-catalogue-aw-16-17",
-              "half": false,
-              "video_url": ""
-            }
-          },
-          "product_FU4mcC": {
-            "type": "product",
-            "settings": {
-              "product": "issue-5-the-hackney-road-issue-ss-17",
-              "half": false,
-              "video_url": ""
-            }
-          },
-          "product_eCbLDr": {
-            "type": "product",
-            "settings": {
-              "product": "issue-6-the-interiors-issue-aw-17-18",
-              "half": false,
-              "video_url": ""
-            }
           }
         },
         "block_order": [
@@ -639,12 +639,12 @@
           "product_H6xMrT",
           "product_kkRwxi",
           "product_KCphDf",
+          "product_eCbLDr",
+          "product_FU4mcC",
+          "product_fcrEVi",
           "product_8whYdK",
           "product_m7Vd9c",
-          "product_YycQtH",
-          "product_fcrEVi",
-          "product_FU4mcC",
-          "product_eCbLDr"
+          "product_YycQtH"
         ],
         "settings": {}
       },
