@@ -583,6 +583,78 @@
               "video_url": ""
             }
           },
+          "product_8LpWAf": {
+            "type": "product",
+            "settings": {
+              "product": "issue-15-buffalo-pink-ss-22",
+              "half": false,
+              "video_url": ""
+            }
+          },
+          "product_x6z8Am": {
+            "type": "product",
+            "settings": {
+              "product": "issue-14-buffalo-irl-aw-21-22",
+              "half": false,
+              "video_url": ""
+            }
+          },
+          "product_qUmTXM": {
+            "type": "product",
+            "settings": {
+              "product": "issue-13-buffalo-viral-ss-21",
+              "half": false,
+              "video_url": ""
+            }
+          },
+          "product_qWmNHD": {
+            "type": "product",
+            "settings": {
+              "product": "issue-12-buffalo-does-it-aw-20-21",
+              "half": false,
+              "video_url": ""
+            }
+          },
+          "product_B3aApq": {
+            "type": "product",
+            "settings": {
+              "product": "issue-11-buffalo-earth-ss-20",
+              "half": false,
+              "video_url": ""
+            }
+          },
+          "product_ripeWj": {
+            "type": "product",
+            "settings": {
+              "product": "issue-10-the-unfinished-issue-aw-19-20",
+              "half": false,
+              "video_url": ""
+            }
+          },
+          "product_bPzdqX": {
+            "type": "product",
+            "settings": {
+              "product": "issue-9-copyright-©2019-ss-19",
+              "half": false,
+              "video_url": ""
+            }
+          },
+          "product_NtXeeH": {
+            "type": "product",
+            "settings": {
+              "product": "issue-8-fashion-s-kitchen-aw-18-19",
+              "half": false,
+              "video_url": ""
+            }
+          },
+          "product_th3Kda": {
+            "type": "product",
+            "settings": {
+              "product": "issue-7-holidays-in-spain-ss-18",
+              "half": false,
+              "video_url": ""
+            }
+          },
           "product_eCbLDr": {
             "type": "product",
             "settings": {
@@ -631,38 +703,6 @@
               "half": true,
               "video_url": ""
             }
-          },
-          "product_tmkbcD": {
-            "type": "product",
-            "settings": {
-              "product": "issue-6-the-interiors-issue-aw-17-18",
-              "half": false,
-              "video_url": ""
-            }
-          },
-          "product_th3Kda": {
-            "type": "product",
-            "settings": {
-              "product": "issue-7-holidays-in-spain-ss-18",
-              "half": false,
-              "video_url": ""
-            }
-          },
-          "product_NtXeeH": {
-            "type": "product",
-            "settings": {
-              "product": "issue-8-fashion-s-kitchen-aw-18-19",
-              "half": false,
-              "video_url": ""
-            }
-          },
-          "product_bPzdqX": {
-            "type": "product",
-            "settings": {
-              "product": "issue-9-copyright-©2019-ss-19",
-              "half": false,
-              "video_url": ""
-            }
           }
         },
         "block_order": [
@@ -671,16 +711,21 @@
           "product_H6xMrT",
           "product_kkRwxi",
           "product_KCphDf",
+          "product_8LpWAf",
+          "product_x6z8Am",
+          "product_qUmTXM",
+          "product_qWmNHD",
+          "product_B3aApq",
+          "product_ripeWj",
+          "product_bPzdqX",
+          "product_NtXeeH",
+          "product_th3Kda",
           "product_eCbLDr",
           "product_FU4mcC",
           "product_fcrEVi",
           "product_8whYdK",
           "product_m7Vd9c",
-          "product_YycQtH",
-          "product_tmkbcD",
-          "product_th3Kda",
-          "product_NtXeeH",
-          "product_bPzdqX"
+          "product_YycQtH"
         ],
         "settings": {}
       },
