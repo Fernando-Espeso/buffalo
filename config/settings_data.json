@@ -749,26 +749,28 @@
           "award_item_R8fk79": {
             "type": "award_item",
             "settings": {
-              "award_text": "<p>ISSUE 7<br/>GRAPHITE PENCIL</p><p><br/>MAGAZINE & NEWSPAPER DESIGN<br/>INDEPENDENT MAGAZINES<br/>2019</p>"
+              "award_image": "shopify://shop_images/1_HOME_pencil_yellow_225x350_5a03723b-22ff-449f-b446-f9bd0b35d1ba.jpg",
+              "award_text": "<p>ISSUE 3</p><p>WOOD PENCIL (2016)</p><p>MAGAZINE & NEWSPAPER DESIGN</p>"
             }
           },
           "award_item_zpXgMY": {
             "type": "award_item",
             "settings": {
-              "award_image": "shopify://shop_images/2_GRAPHITE.jpg",
-              "award_text": "<p>ISSUE 7<br/>GRAPHITE PENCIL</p><p><br/>MAGAZINE & NEWSPAPER DESIGN<br/>INDEPENDENT MAGAZINES<br/>2019</p>"
+              "award_image": "shopify://shop_images/1_HOME_pencil_yellow_225x350_5a03723b-22ff-449f-b446-f9bd0b35d1ba.jpg",
+              "award_text": "<p>ISSUE 4</p><p>WOOD PENCIL (2017)</p><p>MAGAZINE & NEWSPAPER DESIGN</p>"
+            }
+          },
+          "award_item_DigFxq": {
+            "type": "award_item",
+            "settings": {
+              "award_image": "shopify://shop_images/1_HOME_pencil_yellow_225x350_5a03723b-22ff-449f-b446-f9bd0b35d1ba.jpg",
+              "award_text": "<p>ISSUE 6<br/>WOOD PENCIL <br/>MAGAZINE & NEWSPAPER DESIGN<br/>(2018)</p>"
             }
           },
           "final_text_6eTVUM": {
             "type": "final_text",
             "settings": {
               "closing_text": "INDIE FASHION MAGAZINE OF THE DECADE\n\nIn 2019, Buffalo Zine was voted by the #StackAwards judges & Twitter “indie fashion magazine of the decade” with 72.9% of the votes in the fnal round.\n\nMAGAZINE OF THE YEAR\nBuffalo Zine was awarded magazine of the year by Stack Magazines in 2017, beating out over 400 independent titles, with judge Jeremy Leslie describing it as “unlike anything else being done\ntoday.”"
-            }
-          },
-          "final_text_3y8zbj": {
-            "type": "final_text",
-            "settings": {
-              "closing_text": ""
             }
           }
         },
@@ -777,8 +779,8 @@
           "award_item_iHtRhB",
           "award_item_R8fk79",
           "award_item_zpXgMY",
-          "final_text_6eTVUM",
-          "final_text_3y8zbj"
+          "award_item_DigFxq",
+          "final_text_6eTVUM"
         ],
         "settings": {
           "intro_text": "Buffalo was awarded a D&AD pencil for its inaugural issue – and went on to win pencils in the magazine and newspaper design category almost every year until today. Winning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study,\ndebate, copy and reference the industry’s fnest designers."
