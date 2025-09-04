@@ -125,7 +125,7 @@
           "column_text_BkaBqi": {
             "type": "column_text",
             "settings": {
-              "column_text_content": "<p>Buffalo Zine is a cutting-edge fashion and art magazine that embraces a refreshingly unconventional approach to publishing. It stands out for its fearless creativity, blending high-fashion photography, witty storytelling and award-wining design and art direction.</p><p></p><p></p><p>Refusing to sit still, no two issues are ever the same. Every season, the entire magazine changes format and aesthetic identity, revealing a different facet of its rebellious, defiant sensibility. Transforming with every issue into a new world for readers to immerse themselves in. </p><p>With an emphasis on collaboration and inclusivity, Buffalo Zine works with a global array of artists, photographers, writers, and stylists. The outcome is an irreverent melting pot of creative expression that challenges the established conventions of the fashion industry.</p><p>Buffalo Zine’s innovative and daring approach has earned it a devoted following and cemented its reputation as a trailblazer in the world of independent fashion publishing.</p>"
+              "column_text_content": "<p>Buffalo Zine is a cutting-edge fashion and art magazine that embraces a refreshingly unconventional approach to publishing. It stands out for its fearless creativity, blending high-fashion photography, witty storytelling and award-wining design and art direction.<br/><br/></p><p>Refusing to sit still, no two issues are ever the same. Every season, the entire magazine changes format and aesthetic identity, revealing a different facet of its rebellious, defiant sensibility. Transforming with every issue into a new world for readers to immerse themselves in. <br/><br/></p><p>With an emphasis on collaboration and inclusivity, Buffalo Zine works with a global array of artists, photographers, writers, and stylists. The outcome is an irreverent melting pot of creative expression that challenges the established conventions of the fashion industry.<br/><br/></p><p>Buffalo Zine’s innovative and daring approach has earned it a devoted following and cemented its reputation as a trailblazer in the world of independent fashion publishing.<br/><br/><br/></p>"
             }
           }
         },
@@ -410,8 +410,8 @@
       "contact": {
         "type": "contact",
         "settings": {
-          "info": "<p>Publishers / Creative + Art<br/>Adrian González-Cohen</p><p>David Uzquiza</p><p><br/><strong>FEATURES EDITOR</strong> <br/>Andrea Lazarov<br/>Arts Editor-at-Large<br/>Hans Ulrich Obrist<br/>Fashion Editor-at-Large (NYC)<br/>Avena Gallagher</p><p></p><p></p>",
-          "info-2": "<p>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London</p><p></p><p>hi@buffalozine.com <br/>Advertising & Collaborations </p><p><br/>Shop Enquiries </p><p><br/>Distribution @ White Circ </p><p><br/><a href=\"/pages/your-brand-here\" title=\"YOUR BRAND HERE\">Instagram</a><br/>YouTube<br/>TikTok<br/></p><p></p>"
+          "info": "<p><strong>PUBLISHERS / CREATIVE + ART</strong><br/>Adrian González-Cohen<br/>David Uzquiza</p><p><br/><strong>FEATURES EDITOR</strong> <br/>Andrea Lazarov<br/></p><p><strong>ARTS EDITOR-AT-LARGE</strong><br/>Hans Ulrich Obrist<br/><br/><strong>FASHION EDITOR-AT-LARGE (NYC)</strong><br/>Avena Gallagher</p><p></p><p></p>",
+          "info-2": "<p>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London<br/></p><p><strong>ADVERTISING & COLLABORATIONS </strong><br/>???hi@buffalozine.com </p><p><strong><br/>SHOP ENQUIRIES  </strong><br/>hi@buffalozine.com <br/><br/><strong>DISTRIBUTION</strong><br/>@ White Circ <br/><br/><a href=\"/pages/your-brand-here\" title=\"YOUR BRAND HERE\">Instagram</a></p>"
         }
       },
       "brand": {
@@ -499,19 +499,19 @@
           "text_FxpWXq": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“On the cutting edge of print: Buffalo Zine<br/>explores the back alleys of style” — <strong>THE NEW YORK TIMES</strong></p>"
+              "alt_text": "<p>“On the cutting edge of print: Buffalo Zine explores the back alleys of style” — <strong>THE NEW YORK TIMES</strong></p>"
             }
           },
           "text_aCPGJr": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“One of fashion’s most unique, fun, loveable,<br/>and exciting publishing projects” —<strong> i-D</strong></p>"
+              "alt_text": "<p>“One of fashion’s most unique, fun, loveable, and exciting publishing projects” —<strong> i-D</strong></p>"
             }
           },
           "text_9mytJz": {
             "type": "text",
             "settings": {
-              "alt_text": "<p>“Serious fashion mags are over. Buffalo Zine<br/>is one of the publishing world’s most fun-loving art and fashion mags” — <strong>DAZED</strong></p>"
+              "alt_text": "<p>“Serious fashion mags are over. Buffalo Zine is one of the publishing world’s most fun-loving art and fashion mags” — <strong>DAZED</strong></p>"
             }
           },
           "text_nrCMwx": {
@@ -735,13 +735,15 @@
           "award_item_yWfT3y": {
             "type": "award_item",
             "settings": {
-              "award_text": "<p>ISSUE 10<br/>GRAPHITE PENCIL<br/>MAGAZINE & NEWSPAPER DESIGN<br/>INDEPENDENT MAGAZINES<br/>2021</p>"
+              "award_image": "shopify://shop_images/1_HOME_pencil_yellow_200x300_323f9e88-a233-4f62-87ed-aaf6a0addd14.jpg",
+              "award_text": "<p>ISSUE 1<br/>WOOD PENCIL (2012)<br/>MAGAZINE & NEWSPAPER DESIGN</p>"
             }
           },
           "award_item_iHtRhB": {
             "type": "award_item",
             "settings": {
-              "award_text": "<p>ISSUE 16</p><p>WOOD PENCIL</p><p><br/>MAGAZINE & NEWSPAPER DESIGN<br/>INDEPENDENT MAGAZINES<br/>2023</p>"
+              "award_image": "shopify://shop_images/1_HOME_pencil_yellow_225x350_5a03723b-22ff-449f-b446-f9bd0b35d1ba.jpg",
+              "award_text": "<p>ISSUE 16</p><p>2023<br/>WOOD PENCIL</p><p>INDEPENDENT MAGAZINES DESIGN<br/></p>"
             }
           },
           "award_item_R8fk79": {
@@ -779,7 +781,7 @@
           "final_text_3y8zbj"
         ],
         "settings": {
-          "intro_text": "D&AD AWARDS\n\nBuffalo Zine was awarded a D&AD pencil for its inaugural issue – and went on to win pencils in the magazine and newspaper design category almost every year until today. Winning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study,\ndebate, copy and reference the industry’s fnest designers."
+          "intro_text": "Buffalo was awarded a D&AD pencil for its inaugural issue – and went on to win pencils in the magazine and newspaper design category almost every year until today. Winning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study,\ndebate, copy and reference the industry’s fnest designers."
         }
       }
     },
