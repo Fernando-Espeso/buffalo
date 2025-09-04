@@ -24,6 +24,13 @@
               "info": "<p>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For Buffalo’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p><p></p>"
             }
           },
+          "single_product_kLaLaJ": {
+            "type": "single_product",
+            "settings": {
+              "product": "issue-20-success-etc",
+              "fullscreen": false
+            }
+          },
           "articles_RhNm6T": {
             "type": "articles",
             "settings": {
@@ -47,13 +54,6 @@
               "custom_image": "shopify://shop_images/TRU1958840.jpg",
               "article_2_media_hover": "",
               "article_2_custom_text": "LUNCH AL DESKO Confessions of a sales assistant"
-            }
-          },
-          "single_product_kLaLaJ": {
-            "type": "single_product",
-            "settings": {
-              "product": "issue-20-success-etc",
-              "fullscreen": false
             }
           },
           "six_products_with_bg_mABf6B": {
@@ -103,9 +103,9 @@
         },
         "block_order": [
           "hero_eH7mmr",
+          "single_product_kLaLaJ",
           "articles_RhNm6T",
           "articles_P4hPbP",
-          "single_product_kLaLaJ",
           "six_products_with_bg_mABf6B",
           "two_products_7PV6yM",
           "single_product_V9fxwd",
@@ -125,7 +125,7 @@
           "column_text_BkaBqi": {
             "type": "column_text",
             "settings": {
-              "column_text_content": "<p>Buffalo Zine is a cutting-edge fashion and art magazine that embraces a refreshingly unconventional approach to publishing. It stands out for its fearless creativity, blending high-fashion photography, witty storytelling and award-wining design and art direction.</p><p><br/></p><p>Refusing to sit still, no two issues are ever the same. Every season, the entire magazine changes format and aesthetic identity, revealing a different facet of its rebellious, defiant sensibility. Transforming with every issue into a new world for readers to immerse themselves in. </p><p>With an emphasis on collaboration and inclusivity, Buffalo Zine works with a global array of artists, photographers, writers, and stylists. The outcome is an irreverent melting pot of creative expression that challenges the established conventions of the fashion industry.</p><p>Buffalo Zine’s innovative and daring approach has earned it a devoted following and cemented its reputation as a trailblazer in the world of independent fashion publishing.</p>"
+              "column_text_content": "<p>Buffalo Zine is a cutting-edge fashion and art magazine that embraces a refreshingly unconventional approach to publishing. It stands out for its fearless creativity, blending high-fashion photography, witty storytelling and award-wining design and art direction.</p><p></p><p></p><p>Refusing to sit still, no two issues are ever the same. Every season, the entire magazine changes format and aesthetic identity, revealing a different facet of its rebellious, defiant sensibility. Transforming with every issue into a new world for readers to immerse themselves in. </p><p>With an emphasis on collaboration and inclusivity, Buffalo Zine works with a global array of artists, photographers, writers, and stylists. The outcome is an irreverent melting pot of creative expression that challenges the established conventions of the fashion industry.</p><p>Buffalo Zine’s innovative and daring approach has earned it a devoted following and cemented its reputation as a trailblazer in the world of independent fashion publishing.</p>"
             }
           }
         },
