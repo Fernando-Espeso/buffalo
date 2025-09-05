@@ -21,14 +21,14 @@
               "goto": "",
               "video_url_1": "",
               "hero_text": "<p><a href=\"/products/issue-20-success-etc\" title=\"ISSUE 20: SUCCESS, ETC. / AW2024\">ISSUE 20: SUCCESS, ETC. / AW2024</a></p>",
-              "info": "<p>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For Buffalo’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p><p></p>"
+              "info": "<p>ISSUE 20: SUCCESS, ETC. / AW’25 <br/>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For Buffalo’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p><p></p>"
             }
           },
           "single_product_kLaLaJ": {
             "type": "single_product",
             "settings": {
               "product": "issue-20-success-etc",
-              "fullscreen": false
+              "fullscreen": true
             }
           },
           "articles_RhNm6T": {
@@ -99,6 +99,17 @@
               "article_2_media_hover": "",
               "article_2_custom_text": ""
             }
+          },
+          "hero_YP8Gph": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/Desperate-Pleasures-September-copy-724x1024.png",
+              "hover_image_1": "shopify://shop_images/Screenshot_2025-09-02_at_14.46.36.png",
+              "goto": "",
+              "video_url_1": "",
+              "hero_text": "",
+              "info": ""
+            }
           }
         },
         "block_order": [
@@ -109,7 +120,8 @@
           "six_products_with_bg_mABf6B",
           "two_products_7PV6yM",
           "single_product_V9fxwd",
-          "articles_apGa6T"
+          "articles_apGa6T",
+          "hero_YP8Gph"
         ],
         "settings": {}
       },
