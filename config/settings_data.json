@@ -24,13 +24,6 @@
               "info": "<p>ISSUE 20: SUCCESS, ETC. / AW’25 <br/>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For Buffalo’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p><p></p>"
             }
           },
-          "single_product_kLaLaJ": {
-            "type": "single_product",
-            "settings": {
-              "product": "issue-20-success-etc",
-              "fullscreen": true
-            }
-          },
           "articles_RhNm6T": {
             "type": "articles",
             "settings": {
@@ -50,7 +43,7 @@
               "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
               "article_1_media_hover": "",
               "article_1_custom_text": "LUNCH AL DESKO Confessions of a sales assistant",
-              "article_2": "shuffle/buffalo-zine-x-vivienne-westwood",
+              "article_2": "new-section/buffalo-zine-x-vivienne-westwood",
               "custom_image": "shopify://shop_images/TRU1958840.jpg",
               "article_2_media_hover": "",
               "article_2_custom_text": "LUNCH AL DESKO Confessions of a sales assistant"
@@ -67,17 +60,6 @@
               "product_4": "issue-16-buffalo-hotel-chelsea-aw2022",
               "product_5": "issue-15-pink-ss2022",
               "product_6": "issue-13-la-zowie"
-            }
-          },
-          "two_products_7PV6yM": {
-            "type": "two_products",
-            "settings": {
-              "product_1": "issue-16-buffalo-hotel-chelsea-aw2022",
-              "product_2": "issue-17-coffee-cigarettes-ss2023",
-              "hover_image_1": "shopify://shop_images/056-057.jpg",
-              "video_url_1": "",
-              "hover_image_2": "shopify://shop_images/TRU1958833.jpg",
-              "video_url_2": ""
             }
           },
           "single_product_V9fxwd": {
@@ -114,11 +96,9 @@
         },
         "block_order": [
           "hero_eH7mmr",
-          "single_product_kLaLaJ",
           "articles_RhNm6T",
           "articles_P4hPbP",
           "six_products_with_bg_mABf6B",
-          "two_products_7PV6yM",
           "single_product_V9fxwd",
           "articles_apGa6T",
           "hero_YP8Gph"
