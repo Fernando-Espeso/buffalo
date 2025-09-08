@@ -409,15 +409,6 @@
       "brand": {
         "type": "brand",
         "blocks": {
-          "custom_article_NfNgJL": {
-            "type": "custom_article",
-            "settings": {
-              "article": "your-brand-here/louis-vuitton-x-nba",
-              "hover_media": "",
-              "half": true,
-              "third": false
-            }
-          },
           "custom_article_HRkJ6t": {
             "type": "custom_article",
             "settings": {
@@ -425,6 +416,15 @@
               "hover_media": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4",
               "half": false,
               "third": true
+            }
+          },
+          "custom_article_NfNgJL": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/louis-vuitton-x-nba",
+              "hover_media": "",
+              "half": true,
+              "third": false
             }
           },
           "custom_article_bhU87V": {
@@ -475,8 +475,8 @@
           }
         },
         "block_order": [
-          "custom_article_NfNgJL",
           "custom_article_HRkJ6t",
+          "custom_article_NfNgJL",
           "custom_article_bhU87V",
           "custom_article_FxTzyF",
           "custom_article_VmJMa6",
