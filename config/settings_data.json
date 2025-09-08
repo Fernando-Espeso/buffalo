@@ -472,6 +472,15 @@
               "half": false,
               "third": true
             }
+          },
+          "custom_article_y3Vpj9": {
+            "type": "custom_article",
+            "settings": {
+              "article": "",
+              "hover_media": "",
+              "half": false,
+              "third": false
+            }
           }
         },
         "block_order": [
@@ -481,7 +490,8 @@
           "custom_article_FxTzyF",
           "custom_article_VmJMa6",
           "custom_article_nwx3zf",
-          "custom_article_g4fRap"
+          "custom_article_g4fRap",
+          "custom_article_y3Vpj9"
         ],
         "settings": {}
       },
