@@ -413,7 +413,7 @@
             "type": "custom_article",
             "settings": {
               "article": "your-brand-here/versace-jeans-couture",
-              "hover_media": "",
+              "hover_media": "https://www.youtube.com/watch?v=09YzUoaUL-w",
               "half": true,
               "third": true
             }
@@ -436,13 +436,13 @@
               "third": true
             }
           },
-          "custom_article_xRiKzP": {
+          "custom_article_HRkJ6t": {
             "type": "custom_article",
             "settings": {
-              "article": "your-brand-here/prada-aw-22-23-in-buffalo-hotel-chelsea",
+              "article": "your-brand-here/versace-resort-2024",
               "hover_media": "",
-              "half": false,
-              "third": true
+              "half": true,
+              "third": false
             }
           },
           "custom_article_ewxR6Y": {
@@ -454,13 +454,13 @@
               "third": false
             }
           },
-          "custom_article_HRkJ6t": {
+          "custom_article_xRiKzP": {
             "type": "custom_article",
             "settings": {
-              "article": "your-brand-here/versace-resort-2024",
+              "article": "your-brand-here/prada-aw-22-23-in-buffalo-hotel-chelsea",
               "hover_media": "",
-              "half": true,
-              "third": false
+              "half": false,
+              "third": true
             }
           },
           "custom_article_Fkftec": {
@@ -490,24 +490,6 @@
               "third": true
             }
           },
-          "custom_article_NfNgJL": {
-            "type": "custom_article",
-            "settings": {
-              "article": "your-brand-here/louis-vuitton-x-nba",
-              "hover_media": "",
-              "half": true,
-              "third": false
-            }
-          },
-          "custom_article_bhU87V": {
-            "type": "custom_article",
-            "settings": {
-              "article": "your-brand-here/your-brand-here",
-              "hover_media": "",
-              "half": true,
-              "third": false
-            }
-          },
           "custom_article_P7PTEA": {
             "type": "custom_article",
             "settings": {
@@ -524,6 +506,24 @@
               "hover_media": "",
               "half": false,
               "third": true
+            }
+          },
+          "custom_article_NfNgJL": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/louis-vuitton-x-nba",
+              "hover_media": "",
+              "half": true,
+              "third": false
+            }
+          },
+          "custom_article_bhU87V": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/your-brand-here",
+              "hover_media": "",
+              "half": true,
+              "third": false
             }
           },
           "custom_article_XBXj9B": {
@@ -558,16 +558,16 @@
           "custom_article_HkyLFg",
           "custom_article_y3Vpj9",
           "custom_article_3rKdgy",
-          "custom_article_xRiKzP",
-          "custom_article_ewxR6Y",
           "custom_article_HRkJ6t",
+          "custom_article_ewxR6Y",
+          "custom_article_xRiKzP",
           "custom_article_Fkftec",
           "custom_article_6dEDHU",
           "custom_article_cEJVYc",
-          "custom_article_NfNgJL",
-          "custom_article_bhU87V",
           "custom_article_P7PTEA",
           "custom_article_FxTzyF",
+          "custom_article_NfNgJL",
+          "custom_article_bhU87V",
           "custom_article_XBXj9B",
           "custom_article_VmJMa6",
           "custom_article_YbKpWc"
