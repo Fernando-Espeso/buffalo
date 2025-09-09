@@ -409,15 +409,6 @@
       "brand": {
         "type": "brand",
         "blocks": {
-          "custom_article_HRkJ6t": {
-            "type": "custom_article",
-            "settings": {
-              "article": "your-brand-here/versace-resort-2024",
-              "hover_media": "",
-              "half": true,
-              "third": false
-            }
-          },
           "custom_article_HkyLFg": {
             "type": "custom_article",
             "settings": {
@@ -431,6 +422,15 @@
             "type": "custom_article",
             "settings": {
               "article": "your-brand-here/versace-jeans-couture-ss-24",
+              "hover_media": "",
+              "half": true,
+              "third": false
+            }
+          },
+          "custom_article_HRkJ6t": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/versace-resort-2024",
               "hover_media": "",
               "half": true,
               "third": false
@@ -484,9 +484,9 @@
           }
         },
         "block_order": [
-          "custom_article_HRkJ6t",
           "custom_article_HkyLFg",
           "custom_article_y3Vpj9",
+          "custom_article_HRkJ6t",
           "custom_article_NfNgJL",
           "custom_article_bhU87V",
           "custom_article_FxTzyF",
