@@ -745,7 +745,7 @@
             "type": "product",
             "settings": {
               "product": "issue-6-the-interiors-issue-aw-17-18",
-              "half": false,
+              "half": true,
               "video_url": ""
             }
           },
@@ -753,7 +753,7 @@
             "type": "product",
             "settings": {
               "product": "issue-5-the-hackney-road-issue-ss-17",
-              "half": false,
+              "half": true,
               "video_url": ""
             }
           },
@@ -761,7 +761,7 @@
             "type": "product",
             "settings": {
               "product": "issue-4-international-buffalo-zine-catalogue-aw-16-17",
-              "half": false,
+              "half": true,
               "video_url": ""
             }
           },
@@ -769,7 +769,7 @@
             "type": "product",
             "settings": {
               "product": "issue-3-secret-diaries-and-tales-for-children-ss-2015",
-              "half": false,
+              "half": true,
               "hover_image": "shopify://shop_images/BuffaloZineNo3_VivienneWestwood3.jpg",
               "video_url": ""
             }
@@ -778,7 +778,7 @@
             "type": "product",
             "settings": {
               "product": "issue-2-street-style-ss13",
-              "half": false,
+              "half": true,
               "video_url": ""
             }
           },
@@ -786,7 +786,7 @@
             "type": "product",
             "settings": {
               "product": "issue-1-ss2011",
-              "half": false,
+              "half": true,
               "video_url": ""
             }
           }
