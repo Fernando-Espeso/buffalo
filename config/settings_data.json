@@ -427,6 +427,15 @@
               "third": true
             }
           },
+          "custom_article_P7PTEA": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/louis-vuitton-holidays-23",
+              "hover_media": "https://vimeo.com/861651235",
+              "half": false,
+              "third": true
+            }
+          },
           "custom_article_Fkftec": {
             "type": "custom_article",
             "settings": {
@@ -508,20 +517,12 @@
               "half": false,
               "third": true
             }
-          },
-          "custom_article_P7PTEA": {
-            "type": "custom_article",
-            "settings": {
-              "article": "",
-              "hover_media": "",
-              "half": false,
-              "third": false
-            }
           }
         },
         "block_order": [
           "custom_article_HkyLFg",
           "custom_article_y3Vpj9",
+          "custom_article_P7PTEA",
           "custom_article_Fkftec",
           "custom_article_6dEDHU",
           "custom_article_xRiKzP",
@@ -530,8 +531,7 @@
           "custom_article_NfNgJL",
           "custom_article_bhU87V",
           "custom_article_FxTzyF",
-          "custom_article_VmJMa6",
-          "custom_article_P7PTEA"
+          "custom_article_VmJMa6"
         ],
         "settings": {}
       },
