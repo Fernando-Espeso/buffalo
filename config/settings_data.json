@@ -629,7 +629,8 @@
             "settings": {
               "product": "issue-20-success-etc",
               "half": true,
-              "video_url": "https://cdn.shopify.com/videos/c/o/v/f1c9effe34254cc1b4ac88cf7b572830.mp4"
+              "hover_image": "shopify://shop_images/BZ20_Spread_3_a02b55e1-0584-4673-8e09-85594140f9c0.jpg",
+              "video_url": ""
             }
           },
           "product_A4RMWC": {
