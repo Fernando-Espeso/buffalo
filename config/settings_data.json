@@ -638,7 +638,8 @@
             "settings": {
               "product": "issue-19-mother-aw2024-laying",
               "half": true,
-              "video_url": "https://cdn.shopify.com/videos/c/o/v/f1c9effe34254cc1b4ac88cf7b572830.mp4"
+              "hover_image": "shopify://shop_images/BZ19_Cover_4_laying.jpg",
+              "video_url": ""
             }
           },
           "product_H6xMrT": {
@@ -646,6 +647,7 @@
             "settings": {
               "product": "issue-19-buffalo-power-aw2023",
               "half": false,
+              "hover_image": "shopify://shop_images/BZ18_Cover_4_laying.jpg",
               "video_url": "https://cdn.shopify.com/videos/c/o/v/0d1d4ad4f8694c4aa29d316c1e19d57e.mov"
             }
           },
