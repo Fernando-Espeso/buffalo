@@ -648,7 +648,7 @@
               "product": "issue-19-buffalo-power-aw2023",
               "half": false,
               "hover_image": "shopify://shop_images/BZ18_Cover_4_laying.jpg",
-              "video_url": "https://cdn.shopify.com/videos/c/o/v/0d1d4ad4f8694c4aa29d316c1e19d57e.mov"
+              "video_url": ""
             }
           },
           "product_kkRwxi": {
@@ -656,6 +656,7 @@
             "settings": {
               "product": "issue-17-coffee-cigarettes-ss2023",
               "half": false,
+              "hover_image": "shopify://shop_images/BZ17_COVER_EMMA_LAYING_e5a54960-2a98-4aa4-8092-65381c5989e8.jpg",
               "video_url": ""
             }
           },
@@ -664,6 +665,7 @@
             "settings": {
               "product": "issue-16-buffalo-hotel-chelsea-aw2022",
               "half": false,
+              "hover_image": "shopify://shop_images/BZ16_ERICA_LAYING.jpg",
               "video_url": ""
             }
           },
