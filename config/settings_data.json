@@ -427,6 +427,15 @@
               "third": true
             }
           },
+          "custom_article_ewxR6Y": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/bally-aw-23-24",
+              "hover_media": "",
+              "half": false,
+              "third": true
+            }
+          },
           "custom_article_P7PTEA": {
             "type": "custom_article",
             "settings": {
@@ -512,8 +521,25 @@
             "type": "custom_article",
             "settings": {
               "article": "live/eytys-jeans",
-              "image": "shopify://shop_images/10_EYTYS_JEANS_FW17_Campaign_03.jpg",
               "hover_media": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4",
+              "half": false,
+              "third": true
+            }
+          },
+          "custom_article_YbKpWc": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/fenty-holidays-19",
+              "hover_media": "",
+              "half": false,
+              "third": true
+            }
+          },
+          "custom_article_XBXj9B": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/browns-50th-anniversary",
+              "hover_media": "",
               "half": false,
               "third": true
             }
@@ -522,6 +548,7 @@
         "block_order": [
           "custom_article_HkyLFg",
           "custom_article_y3Vpj9",
+          "custom_article_ewxR6Y",
           "custom_article_P7PTEA",
           "custom_article_Fkftec",
           "custom_article_6dEDHU",
@@ -531,7 +558,9 @@
           "custom_article_NfNgJL",
           "custom_article_bhU87V",
           "custom_article_FxTzyF",
-          "custom_article_VmJMa6"
+          "custom_article_VmJMa6",
+          "custom_article_YbKpWc",
+          "custom_article_XBXj9B"
         ],
         "settings": {}
       },
