@@ -418,6 +418,15 @@
               "third": false
             }
           },
+          "custom_article_HkyLFg": {
+            "type": "custom_article",
+            "settings": {
+              "article": "your-brand-here/versace-jeans-couture",
+              "hover_media": "",
+              "half": true,
+              "third": false
+            }
+          },
           "custom_article_y3Vpj9": {
             "type": "custom_article",
             "settings": {
@@ -476,6 +485,7 @@
         },
         "block_order": [
           "custom_article_HRkJ6t",
+          "custom_article_HkyLFg",
           "custom_article_y3Vpj9",
           "custom_article_NfNgJL",
           "custom_article_bhU87V",
