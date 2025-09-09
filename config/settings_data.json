@@ -539,7 +539,7 @@
             "type": "custom_article",
             "settings": {
               "article": "live/eytys-jeans",
-              "hover_media": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4",
+              "hover_media": "",
               "half": false,
               "third": true
             }
