@@ -30,11 +30,11 @@
             "settings": {
               "article_1": "live/your-brand-here",
               "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
-              "article_1_media_hover": "",
+              "article_1_media_hover": "https://cdn.shopify.com/s/files/1/0938/5250/0300/files/Louis_Vuitton_Baroque_3_LR.jpg?v=1750345162",
               "article_1_custom_text": "",
               "article_2": "new-section/issues",
-              "custom_image": "shopify://shop_images/BZFAMILY_3B.jpg",
-              "article_2_media_hover": "",
+              "custom_image": "shopify://shop_images/BZFAMILY_1_a250ebd5-d66f-436e-a6aa-6450d51e08ce.jpg",
+              "article_2_media_hover": "https://cdn.shopify.com/s/files/1/0938/5250/0300/files/BZFAMILY_3B.jpg?v=1757512384",
               "article_2_custom_text": ""
             }
           },
