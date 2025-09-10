@@ -93,6 +93,7 @@
           "single_info_Jgt6ir",
           "column_text_BkaBqi"
         ],
+        "name": "ABOUT",
         "settings": {}
       },
       "info": {
@@ -391,6 +392,7 @@
           "stocklist_3BbKNq",
           "stocklist_fwYRLB"
         ],
+        "name": "STOCKISTS",
         "settings": {}
       },
       "social": {
@@ -539,9 +541,10 @@
       },
       "contact": {
         "type": "contact",
+        "name": "CONTACT",
         "settings": {
-          "info": "<p><strong>PUBLISHERS / CREATIVE + ART</strong><br/>Adrian González-Cohen<br/>David Uzquiza</p><p><br/><strong>FEATURES EDITOR</strong> <br/>Andrea Lazarov<br/></p><p><strong>ARTS EDITOR-AT-LARGE</strong><br/>Hans Ulrich Obrist<br/><br/><strong>FASHION EDITOR-AT-LARGE (NYC)</strong><br/>Avena Gallagher</p><p></p><p></p>",
-          "info-2": "<p>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London<br/></p><p><strong>ADVERTISING & COLLABORATIONS </strong><br/>???hi@buffalozine.com </p><p><strong><br/>SHOP ENQUIRIES  </strong><br/>hi@buffalozine.com <br/><br/><strong>DISTRIBUTION</strong><br/>@ White Circ <br/><br/><a href=\"/pages/your-brand-here\" title=\"YOUR BRAND HERE\">Instagram</a></p>"
+          "info": "<p><strong>PUBLISHERS / CREATIVE + ART</strong><br/>Adrian González-Cohen<br/>David Uzquiza<br/><br/><strong>FEATURES EDITOR-AT-LARGE</strong><br/>Andrea Lazarov<br/><br/><strong>FEATURES EDITOR</strong><br/>Amelia Abraham<br/><br/><strong>FEATURES EDITOR<br/></strong>Nelya Rosa Ahmia<br/><br/><strong>ARTS EDITOR-AT-LARGE</strong><br/>Hans Ulrich Obrist<br/><br/><strong>FASHION EDITOR-AT-LARGE (NYC)</strong><br/>Avena Gallagher<br/><br/><strong>JUNIOR FASHION EDITOR</strong><br/>Daniela Noriega</p><p></p><p></p>",
+          "info-2": "<p>Buffalo Zine <br/>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London<br/><br/><strong>ADVERTISING & COLLABORATIONS </strong><br/>xxxxx@buffalozine.com <br/><br/><strong>SHOP ENQUIRIES  </strong><br/>hi@buffalozine.com <br/><br/><strong>GLOBAL DISTRIBUTION</strong><br/>@ White Circ <br/><br/><a href=\"https://www.instagram.com/buffalozine\" title=\"https://www.instagram.com/buffalozine\">Instagram</a></p>"
         }
       },
       "brand": {
@@ -831,6 +834,7 @@
           "text_EapJwN",
           "text_jDjc89"
         ],
+        "name": "QUOTES",
         "settings": {}
       },
       "main-product": {
@@ -1152,6 +1156,7 @@
           "award_item_byQdDd",
           "final_text_6eTVUM"
         ],
+        "name": "AWARDS",
         "settings": {
           "intro_text": "“The success of Buffalo Zine, which won a D&AD Pencil for its inaugural issue and went on to win Pencils for almost every year of its decade-long existence, is largely down to the creative realisation it was able to make when commercial objectives were not part of the equation.” — D&AD ––––––––––––––––––\nWinning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study, debate, copy and reference the industry’s finest designers."
         }
