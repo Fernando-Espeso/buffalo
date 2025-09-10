@@ -79,7 +79,7 @@
           "single_info_Jgt6ir": {
             "type": "single_info",
             "settings": {
-              "info_text": "<p>ABOUT</p>"
+              "info_text": ""
             }
           },
           "column_text_BkaBqi": {
@@ -547,14 +547,23 @@
         "blocks": {
           "text_FxpWXq": {
             "type": "text",
+            "name": "THE NEW YORK TIMES",
             "settings": {
               "alt_text": "<p>“On the cutting edge of print: Buffalo Zine explores the back alleys of style” — <strong>THE NEW YORK TIMES</strong></p>"
             }
           },
+          "text_AmDTzC": {
+            "type": "text",
+            "name": "i-D 1",
+            "settings": {
+              "alt_text": "<p>“A radical and subversive trip through the joy of magazines. Each issue rips apart the fabric of magazines and reimagines them for a brave new world, mixing together black humour and an irreverent sense of beauty” —<strong> i-D</strong></p>"
+            }
+          },
           "text_aCPGJr": {
             "type": "text",
+            "name": "i-D 2",
             "settings": {
-              "alt_text": "<p>“One of fashion’s most unique, fun, loveable, and exciting publishing projects” —<strong> i-D</strong></p>"
+              "alt_text": "<p>“One of fashion’s most unique, fun, loveable, and exciting publishing projects” — <strong>i-D</strong></p>"
             }
           },
           "text_9mytJz": {
@@ -578,6 +587,7 @@
         },
         "block_order": [
           "text_FxpWXq",
+          "text_AmDTzC",
           "text_aCPGJr",
           "text_9mytJz",
           "text_nrCMwx",
