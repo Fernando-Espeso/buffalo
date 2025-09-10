@@ -17,7 +17,8 @@
           "hero_eH7mmr": {
             "type": "hero",
             "settings": {
-              "hero_image": "shopify://shop_images/BZ20_Spread_5_25408e37-6259-4138-befc-58dcbcf835aa.jpg",
+              "hero_image": "shopify://shop_images/BZ20_Cover_02_Ninot_standing_1800x1400_9f5e328c-1f2c-4048-9c8a-ed9ca7e60668.jpg",
+              "hover_image_1": "shopify://shop_images/BZ20_Cover_02_Ninot_standing.jpg",
               "goto": "",
               "video_url_1": "",
               "hero_text": "<p><a href=\"/products/issue-20-success-etc\" title=\"ISSUE 20: SUCCESS, ETC. / AW2024\">ISSUE 20: SUCCESS, ETC. / AW2024</a></p>",
