@@ -11,31 +11,6 @@
   "sections": {
     "main": {
       "type": "article-content",
-      "blocks": {
-        "issue_9tUhke": {
-          "type": "issue",
-          "settings": {
-            "text": "<p>ISSUE 4: INTERNATIONAL BUFFALO ZINE </p><p></p><p></p>"
-          }
-        },
-        "title_gfeae3": {
-          "type": "title",
-          "settings": {
-            "text": "<p>‘High Time’</p><p>Photo: Julien Martinez–Leclerc, Fashion: Tom Guinness</p>"
-          }
-        },
-        "credits_mxKNaH": {
-          "type": "credits",
-          "settings": {
-            "text": "<p>Photography ADRIAN GONZÁLEZ-COHEN<br/>Fashion TATI COTLIAR<br/>Hair and Make Up SUZANNE VERBERK<br/>Casting JASMIN ISLAMOVIC<br/>Talent KEBRI at KNOWN,<br/>NELLA at PAPARAZZI, ANUSCHKA JUNIOR, MARTIEN,<br/>MIKK, NADJA and RUBY<br/>Photo Asst RICK ERFMANN<br/>Fashion Asst RYAN WOHLGEMUT<br/>Hair and Make Up Asst WOUT PHILIPPO</p>"
-          }
-        }
-      },
-      "block_order": [
-        "issue_9tUhke",
-        "title_gfeae3",
-        "credits_mxKNaH"
-      ],
       "settings": {}
     },
     "swiper_GDjVY8": {
@@ -44,9 +19,7 @@
     },
     "interview_fdRXe6": {
       "type": "interview",
-      "settings": {
-        "content": "<p>GLORIA VON TURN UND TAXIS: andré, how are you Darling?</p><p><br/>ANDRÉ LEON TALLEY: i’m very well. Very well.</p><p><br/>GVT: i want to talk about when we frst met. </p><p>André was already a star in the 80s,<br/>when i frst hit the scene. Always in his pinstripe, double-breasted suits, going to<br/>the fashion shows in paris. I noticed him because he was a very tall man and very<br/>handsome. I approached him and wanted to know him straight away, and i was<br/>lucky that we had friends in common. Otherwise why would he even look at me?<br/>André was the star, and i was just the newcomer on the fashion scene. How do<br/>you remember me?</p><p><br/><strong>ALT:</strong></p><p><br/><strong>“I’d heard from Karl Lagerfeld that there was a german princess in Paris. He said,<br/>‘There’s this German princess, and she’s In chanel and lacroix ordering clothes like<br/>mad. She’s buying all the couture!’ ”</strong></p><p><br/>My frst memory was of course seeing you at the Ritz — everyone in Paris was<br/>talking about you by this point. Before you came to paris with Johannes, you<br/>were not ordering couture.</p><p><br/>GVT: no.</p><p><br/>ALT: you were wearing twin- sets! And woollen skirts. You were at the ritz, and<br/>that was very appropriate for american women Of style, back in the day when<br/>the ritz was really very glamorous and popular. Then i went to the schloss to<br/>photograph you for a piece john richardson was writing, remember?</p><p><br/>GVT: i didn’t remember it Was john!<br/>André: i would not get in the lamborghini. So i went in the bentley. I had<br/>transferred my luggage from the 80s, which was all vuitton, into nylon hockey<br/>bags made in china — they’re very soft, and you can stuff more in them. I came<br/>to the schloss, we went to the festival, and then we became friends. We became so<br/>close — like brothers and sisters, separated at birth.</p><p><br/>Gloria: we’re also both Collectors.</p><p><br/>André: [laughs wildly] no, no — i don’t collect anything!</p><p><br/>Gloria: what about your sofa? It belonged to truman capote?</p><p><br/>André: i do have a lot of truman capote things, that’s true, i was very lucky<br/>to pick those up. Truman capote, by the way, is my favourite writer. Truman’s<br/>childhood was very similar to mine in the south. I knew him well actually — i<br/>knew him at studio 54, i did interviews with truman, although i didn’t<br/>Go to the black and white ball of 1966. That was the ultimate society<br/>Event. There are whole books on it. Truman was very important to me, and the<br/>southern writers have a very unique brilliance. Eudora welty, tennessee williams,<br/>william faulkner. James baldwin was not from the south, but he was a great<br/>writer too.</p><p><br/>Gloria: but wait a minute. Can i say something about collecting? André, you<br/>are a collector too! I’ve been to your house, and it’s full of wonderful objects<br/>and most of all, books! He’s not telling the truth — andré collects books and he<br/>collects fashion.</p>"
-      }
+      "settings": {}
     }
   },
   "order": [
