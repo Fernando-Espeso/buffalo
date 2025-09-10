@@ -549,103 +549,97 @@
             "type": "text",
             "name": "THE NEW YORK TIMES",
             "settings": {
-              "alt_text": "<p>“On the cutting edge of print: Buffalo Zine explores the back alleys of style” — <strong>THE NEW YORK TIMES</strong></p>"
+              "alt_text": "<p>“On the cutting edge of print: Buffalo Zine explores the back alleys of style” <br/>— <strong>THE NEW YORK TIMES</strong></p>"
             }
           },
           "text_AmDTzC": {
             "type": "text",
             "name": "i-D 1",
             "settings": {
-              "alt_text": "<p>“A radical and subversive trip through the joy of magazines. Each issue rips apart the fabric of magazines and reimagines them for a brave new world, mixing together black humour and an irreverent sense of beauty” —<strong> i-D</strong></p>"
-            }
-          },
-          "text_HVd6dH": {
-            "type": "text",
-            "name": "FINANCIAL TIMES",
-            "settings": {
-              "alt_text": "<p>“A publication challenging the industry’s status quo” — <strong>FINANCIAL TIMES</strong></p>"
+              "alt_text": "<p>“A radical and subversive trip through the joy of magazines. Each issue rips apart the fabric of magazines and reimagines them for a brave new world, mixing together black humour and an irreverent sense of beauty” <br/>—<strong> i-D</strong></p>"
             }
           },
           "text_nrCMwx": {
             "type": "text",
             "name": "VICE",
             "settings": {
-              "alt_text": "<p>“Intelligent without conceit, funny without focusing on funny people, and with an           ever-changing aesthetic identity, it really is a magazine at the vanguard of print culture” <strong>— VICE</strong></p>"
+              "alt_text": "<p>“Intelligent without conceit, funny without focusing on funny people, and with an           ever-changing aesthetic identity, it really is a magazine at the vanguard of print culture” <br/>—<strong> VICE</strong></p>"
             }
           },
           "text_9mytJz": {
             "type": "text",
             "name": "DAZED",
             "settings": {
-              "alt_text": "<p>“Serious fashion mags are over. Buffalo Zine is one of the publishing world’s most fun-loving art and fashion mags” — <strong>DAZED</strong></p>"
-            }
-          },
-          "text_EapJwN": {
-            "type": "text",
-            "name": "DAZED 2",
-            "settings": {
-              "alt_text": "<p>“A perennial pantomime of the industry, Buffalo’s past issues have ripped off other fashion magazines, faked celebrity covers and landed completely unfinished because ‘basically, we didn’t finish on time’.” — <strong>DAZED</strong></p>"
+              "alt_text": "<p>“Serious fashion mags are over. Buffalo Zine is one of the publishing world’s most fun-loving art and fashion mags” <br/>— <strong>DAZED</strong></p>"
             }
           },
           "text_pFK9wB": {
             "type": "text",
             "name": "MONOCLE",
             "settings": {
-              "alt_text": "<p>“One of the bravest new independent magazine titles investing in high quality content” — <strong>MONOCLE</strong></p>"
-            }
-          },
-          "text_wjeXnr": {
-            "type": "text",
-            "name": "MAGCULTURE",
-            "settings": {
-              "alt_text": "<p>“Thank god for Buffalo Zine, a shapeshifter of a magazine: whatever form it takes, they always work with the best fashion creatives and call upon and impressive contacts book to add intelligent and relevant writing too” — <strong>MAGCULTURE</strong></p>"
-            }
-          },
-          "text_G4JYJ9": {
-            "type": "text",
-            "name": "MAGCULTURE 2",
-            "settings": {
-              "alt_text": "<p>““Buffalo Zine is unlike anything else being done today. The team’s ability to get this unique direction from some of the biggest names in photography is outstanding” — <strong>MAGCULTURE</strong></p>"
+              "alt_text": "<p>“One of the bravest new independent magazine titles investing in high quality content” <br/>— <strong>MONOCLE</strong></p>"
             }
           },
           "text_WzL7NF": {
             "type": "text",
             "name": " IT’S NICE THAT",
             "settings": {
-              "alt_text": "<p>“Born with a one-way ticket to near cult status” — <strong>IT’S NICE THAT</strong></p>"
-            }
-          },
-          "text_zEJiUM": {
-            "type": "text",
-            "name": " IT’S NICE THAT 2",
-            "settings": {
-              "alt_text": "<p>“Trends go one way and Buffalo Zine marches resolutely off in the opposite direction” — <strong>IT’S NICE THAT</strong></p>"
-            }
-          },
-          "text_aCPGJr": {
-            "type": "text",
-            "name": "i-D 2",
-            "settings": {
-              "alt_text": "<p>“One of fashion’s most unique, fun, loveable, and exciting publishing projects” — <strong>i-D</strong></p>"
-            }
-          },
-          "text_kFJXri": {
-            "type": "text",
-            "name": "i-D 3",
-            "settings": {
-              "alt_text": "<p>“Each issue of the cult magazine is a masterpiece of masterful ideas and magical pictures” — <strong>i-D</strong></p>"
+              "alt_text": "<p>“Born with a one-way ticket to near cult status” <br/>— <strong>IT’S NICE THAT</strong></p>"
             }
           },
           "text_KGYX9P": {
             "type": "text",
             "name": "CREATIVE REVIEW",
             "settings": {
-              "alt_text": "<p>“Since launching, Buffalo Zine has continually challenged the traditional magazine model by reinventing itself for every issue. Past editions have seen it quite literally embody the identities of other fashion magazines” — <strong>CREATIVE REVIEW</strong></p>"
+              "alt_text": "<p>“Since launching, Buffalo Zine has continually challenged the traditional magazine model by reinventing itself for every issue” <br/>— <strong>CREATIVE REVIEW</strong></p>"
+            }
+          },
+          "text_wjeXnr": {
+            "type": "text",
+            "name": "MAGCULTURE",
+            "settings": {
+              "alt_text": "<p>“Thank god for Buffalo Zine, a shapeshifter of a magazine: whatever form it takes, they always work with the best fashion creatives and call upon and impressive contacts book to add intelligent and relevant writing too” <br/>— <strong>MAGCULTURE</strong></p>"
+            }
+          },
+          "text_HVd6dH": {
+            "type": "text",
+            "name": "FINANCIAL TIMES",
+            "settings": {
+              "alt_text": "<p>“A publication challenging the industry’s status quo” <br/>— <strong>FINANCIAL TIMES</strong></p>"
+            }
+          },
+          "text_zEJiUM": {
+            "type": "text",
+            "name": " IT’S NICE THAT 2",
+            "settings": {
+              "alt_text": "<p>“Trends go one way and Buffalo Zine marches resolutely off in the opposite direction” <br/>— <strong>IT’S NICE THAT</strong></p>"
+            }
+          },
+          "text_aCPGJr": {
+            "type": "text",
+            "name": "i-D 2",
+            "settings": {
+              "alt_text": "<p>“One of fashion’s most unique, fun, loveable, and exciting publishing projects. Each issue of the cult magazine is a masterpiece of masterful ideas and magical pictures” <br/>— <strong>i-D</strong></p>"
+            }
+          },
+          "text_G4JYJ9": {
+            "type": "text",
+            "name": "MAGCULTURE 2",
+            "settings": {
+              "alt_text": "<p>“Buffalo Zine is unlike anything else being done today. The team’s ability to get this unique direction from some of the biggest names in photography is outstanding” — <strong>MAGCULTURE</strong></p>"
+            }
+          },
+          "text_EapJwN": {
+            "type": "text",
+            "name": "DAZED 2",
+            "settings": {
+              "alt_text": "<p>“A perennial pantomime of the industry, Buffalo’s past issues have ripped off other fashion magazines, faked celebrity covers and landed completely unfinished because ‘basically, we didn’t finish on time’.” <br/>— <strong>DAZED</strong></p>"
             }
           },
           "text_jDjc89": {
             "type": "text",
             "name": "AIGA",
+            "disabled": true,
             "settings": {
               "alt_text": "<p>“Buffalo Zine is going from strength to strength with its maximal look and anarchic sensibilities, an approach that includes completely reformatting the magazine for each issue” — <strong>AIGA, THE AMERICAN INSTITUTE OF GRAPHIC ARTS</strong></p>"
             }
@@ -654,18 +648,17 @@
         "block_order": [
           "text_FxpWXq",
           "text_AmDTzC",
-          "text_HVd6dH",
           "text_nrCMwx",
           "text_9mytJz",
-          "text_EapJwN",
           "text_pFK9wB",
-          "text_wjeXnr",
-          "text_G4JYJ9",
           "text_WzL7NF",
+          "text_KGYX9P",
+          "text_wjeXnr",
+          "text_HVd6dH",
           "text_zEJiUM",
           "text_aCPGJr",
-          "text_kFJXri",
-          "text_KGYX9P",
+          "text_G4JYJ9",
+          "text_EapJwN",
           "text_jDjc89"
         ],
         "settings": {}
@@ -873,43 +866,104 @@
         "blocks": {
           "award_item_yWfT3y": {
             "type": "award_item",
+            "name": "ISSUE 1",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_yellow_225x350_5a03723b-22ff-449f-b446-f9bd0b35d1ba.jpg",
+              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
               "award_text": "<p>ISSUE 1<br/>WOOD PENCIL (2012)<br/>MAGAZINE & NEWSPAPER DESIGN</p>"
             }
           },
           "award_item_iHtRhB": {
             "type": "award_item",
+            "name": "ISSUE 2",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_yellow_225x350_5a03723b-22ff-449f-b446-f9bd0b35d1ba.jpg",
+              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
               "award_text": "<p>ISSUE 2</p><p>WOOD PENCIL (2014)</p><p>MAGAZINE & NEWSPAPER DESIGN</p>"
             }
           },
           "award_item_R8fk79": {
             "type": "award_item",
+            "name": "ISSUE 3",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_yellow_225x350_5a03723b-22ff-449f-b446-f9bd0b35d1ba.jpg",
+              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
               "award_text": "<p>ISSUE 3</p><p>WOOD PENCIL (2016)</p><p>MAGAZINE & NEWSPAPER DESIGN</p>"
             }
           },
           "award_item_zpXgMY": {
             "type": "award_item",
+            "name": "ISSUE 4",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_yellow_225x350_5a03723b-22ff-449f-b446-f9bd0b35d1ba.jpg",
+              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
               "award_text": "<p>ISSUE 4</p><p>WOOD PENCIL (2017)</p><p>MAGAZINE & NEWSPAPER DESIGN</p>"
             }
           },
           "award_item_DigFxq": {
             "type": "award_item",
+            "name": "ISSUE 6",
+            "settings": {
+              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
+              "award_text": "<p>ISSUE 6<br/>WOOD PENCIL <br/>(2018)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+            }
+          },
+          "award_item_QbqFEV": {
+            "type": "award_item",
+            "name": "ISSUE 7",
+            "settings": {
+              "award_image": "shopify://shop_images/1_HOME_pencil_graphite_225x350_3c630a80-3418-410f-900f-9a5fa6f77303.jpg",
+              "award_text": "<p>ISSUE 7<br/>GRAPHITE PENCIL <br/>(2019)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+            }
+          },
+          "award_item_wMhc8z": {
+            "type": "award_item",
+            "name": "ISSUE 8",
+            "settings": {
+              "award_image": "shopify://shop_images/1_HOME_pencil_graphite_225x350_3c630a80-3418-410f-900f-9a5fa6f77303.jpg",
+              "award_text": "<p>ISSUE 8<br/>GRAPHITE PENCIL <br/>(2020)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+            }
+          },
+          "award_item_kgejGW": {
+            "type": "award_item",
+            "name": "ISSUE 9",
             "settings": {
               "award_image": "shopify://shop_images/1_HOME_pencil_yellow_225x350_5a03723b-22ff-449f-b446-f9bd0b35d1ba.jpg",
-              "award_text": "<p>ISSUE 6<br/>WOOD PENCIL <br/>MAGAZINE & NEWSPAPER DESIGN<br/>(2018)</p>"
+              "award_text": "<p>ISSUE 9<br/>YELLOW PENCIL <br/>(2020)<br/>MAGAZINE FRONT COVERS<br/></p>"
+            }
+          },
+          "award_item_9M8kLc": {
+            "type": "award_item",
+            "name": "ISSUE 10",
+            "settings": {
+              "award_image": "shopify://shop_images/1_HOME_pencil_graphite_225x350_3c630a80-3418-410f-900f-9a5fa6f77303.jpg",
+              "award_text": "<p>ISSUE 10<br/>GRAPHITE PENCIL <br/>(2021)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+            }
+          },
+          "award_item_n4fc3q": {
+            "type": "award_item",
+            "name": "ISSUE 11",
+            "settings": {
+              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
+              "award_text": "<p>ISSUE 11<br/>WOOD PENCIL <br/>(2021)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+            }
+          },
+          "award_item_qCQmz3": {
+            "type": "award_item",
+            "name": "ISSUE 12",
+            "settings": {
+              "award_image": "shopify://shop_images/1_HOME_pencil_graphite_225x350_3c630a80-3418-410f-900f-9a5fa6f77303.jpg",
+              "award_text": "<p>ISSUE 12<br/>GRAPHITE PENCIL <br/>(2022)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+            }
+          },
+          "award_item_byQdDd": {
+            "type": "award_item",
+            "name": "ISSUE 16",
+            "settings": {
+              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
+              "award_text": "<p>ISSUE 16<br/>WOOD PENCIL <br/>(2023)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
             }
           },
           "final_text_6eTVUM": {
             "type": "final_text",
             "settings": {
-              "closing_text": "INDIE FASHION MAGAZINE OF THE DECADE\n\nIn 2019, Buffalo Zine was voted by the #StackAwards judges & Twitter “indie fashion magazine of the decade” with 72.9% of the votes in the fnal round.\n\nMAGAZINE OF THE YEAR\nBuffalo Zine was awarded magazine of the year by Stack Magazines in 2017, beating out over 400 independent titles, with judge Jeremy Leslie describing it as “unlike anything else being done\ntoday.”"
+              "closing_text": "In 2019, Buffalo Zine was voted by the #StackAwards judges & Twitter “INDIE FASHION MAGAZINE OF THE DECADE” with 72.9% of the votes in the final round.\n––––––––––––––––––\nIn 2017, it was awarded “MAGAZINE OF THE YEAR” in the Stack Awards, beating out over 400 independent titles, with judge Jeremy Leslie describing it as “unlike anything else being done today.”"
             }
           }
         },
@@ -919,10 +973,17 @@
           "award_item_R8fk79",
           "award_item_zpXgMY",
           "award_item_DigFxq",
+          "award_item_QbqFEV",
+          "award_item_wMhc8z",
+          "award_item_kgejGW",
+          "award_item_9M8kLc",
+          "award_item_n4fc3q",
+          "award_item_qCQmz3",
+          "award_item_byQdDd",
           "final_text_6eTVUM"
         ],
         "settings": {
-          "intro_text": "“The success of Buffalo Zine, which won a D&AD Pencil for its inaugural issue and went on to win Pencils for almost every year of its decade-long existence, is largely down to the creative realisation it was able to make when commercial objectives were not part of the equation.” — D&AD ––––––––––––––––––\n\n\nWinning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study, debate, copy and reference the industry’s finest designers."
+          "intro_text": "“The success of Buffalo Zine, which won a D&AD Pencil for its inaugural issue and went on to win Pencils for almost every year of its decade-long existence, is largely down to the creative realisation it was able to make when commercial objectives were not part of the equation.” — D&AD ––––––––––––––––––\nWinning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study, debate, copy and reference the industry’s finest designers."
         }
       }
     },
