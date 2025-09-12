@@ -90,6 +90,16 @@
               "hero_text": "",
               "info": ""
             }
+          },
+          "hero_wbLAMX": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.15.png",
+              "goto": "",
+              "video_url_1": "",
+              "hero_text": "",
+              "info": ""
+            }
           }
         },
         "block_order": [
@@ -98,7 +108,8 @@
           "articles_RhNm6T",
           "articles_apGa6T",
           "articles_eefMAE",
-          "hero_NbFPeD"
+          "hero_NbFPeD",
+          "hero_wbLAMX"
         ],
         "settings": {}
       },
