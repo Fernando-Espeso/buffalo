@@ -152,6 +152,17 @@
               "article_2_media_hover": "",
               "article_2_custom_text": ""
             }
+          },
+          "hero_UPWxnE": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/BZ20_Cover_03_Pippa_standing_1800x1400_928199df-7f5c-4d74-a26f-7299182f1ba8.jpg",
+              "hover_image_1": "shopify://shop_images/BZ20_Spread_2_c13c624e-0dc3-484e-9c2c-42365bd9a0d4.jpg",
+              "goto": "",
+              "video_url_1": "",
+              "hero_text": "",
+              "info": ""
+            }
           }
         },
         "block_order": [
@@ -165,7 +176,8 @@
           "articles_gpmiBN",
           "articles_CthAET",
           "articles_cMX9tc",
-          "articles_fcQP7Q"
+          "articles_fcQP7Q",
+          "hero_UPWxnE"
         ],
         "settings": {}
       },
