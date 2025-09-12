@@ -78,8 +78,9 @@
         "blocks": {
           "single_info_Jgt6ir": {
             "type": "single_info",
+            "name": "ABOUT",
             "settings": {
-              "info_text": "<p>ABOUT</p>"
+              "info_text": ""
             }
           },
           "column_text_BkaBqi": {
@@ -160,7 +161,7 @@
             "name": "AUSTRIA",
             "settings": {
               "shop_name": "AUSTRIA",
-              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy</p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p>"
+              "address": "<p><strong>KDPRESSE</strong></p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy</p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p>"
             }
           },
           "stocklist_nF3DeF": {
@@ -725,6 +726,12 @@
               "alt_text": "<p>“On the cutting edge of print: Buffalo Zine explores the back alleys of style” <br/>— <strong>THE NEW YORK TIMES</strong></p>"
             }
           },
+          "text_4dNEBn": {
+            "type": "text",
+            "settings": {
+              "alt_text": ""
+            }
+          },
           "text_AmDTzC": {
             "type": "text",
             "name": "i-D 1",
@@ -820,6 +827,7 @@
         },
         "block_order": [
           "text_FxpWXq",
+          "text_4dNEBn",
           "text_AmDTzC",
           "text_nrCMwx",
           "text_9mytJz",
