@@ -28,6 +28,7 @@
           },
           "articles_P4hPbP": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "live/your-brand-here",
               "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
@@ -41,6 +42,7 @@
           },
           "articles_RhNm6T": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "shuffle/bz20-pippa-garner",
               "article_1_image": "shopify://shop_images/BZ20_PIPPA_GARNER_1.jpg",
@@ -54,6 +56,7 @@
           },
           "articles_apGa6T": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "live/buffalo-zine-x-valentino",
               "article_1_image": "shopify://shop_images/BZ17_SPREAD_4.jpg",
@@ -64,13 +67,38 @@
               "article_2_media_hover": "https://cdn.shopify.com/s/files/1/0938/5250/0300/files/0_VERSACE-RESORT_11_0862_V4_HR.jpg?v=1757347925",
               "article_2_custom_text": ""
             }
+          },
+          "articles_eefMAE": {
+            "type": "articles",
+            "settings": {
+              "article_1": "",
+              "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.44.14.png",
+              "article_1_media_hover": "",
+              "article_1_custom_text": "",
+              "article_2": "",
+              "custom_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.56.19.png",
+              "article_2_media_hover": "",
+              "article_2_custom_text": ""
+            }
+          },
+          "hero_NbFPeD": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.55.35.png",
+              "goto": "",
+              "video_url_1": "",
+              "hero_text": "",
+              "info": ""
+            }
           }
         },
         "block_order": [
           "hero_eH7mmr",
           "articles_P4hPbP",
           "articles_RhNm6T",
-          "articles_apGa6T"
+          "articles_apGa6T",
+          "articles_eefMAE",
+          "hero_NbFPeD"
         ],
         "settings": {}
       },
@@ -438,7 +466,14 @@
           "image_VEtYji": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/BZ19_MICHAEL_STIPE_3.jpg",
+              "image": "shopify://shop_images/1_DSC_5714_V2.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_FUKDCf": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/496A1733_01.jpg",
               "alt_text": ""
             }
           }
@@ -449,7 +484,8 @@
           "image_JzNpm3",
           "image_yMqyrC",
           "image_eqPz4K",
-          "image_VEtYji"
+          "image_VEtYji",
+          "image_FUKDCf"
         ],
         "settings": {}
       },
