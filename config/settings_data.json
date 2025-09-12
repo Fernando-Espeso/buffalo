@@ -91,6 +91,19 @@
               "info": ""
             }
           },
+          "articles_cNbmhy": {
+            "type": "articles",
+            "settings": {
+              "article_1": "",
+              "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.57.35.png",
+              "article_1_media_hover": "",
+              "article_1_custom_text": "",
+              "article_2": "",
+              "custom_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.57.54.png",
+              "article_2_media_hover": "",
+              "article_2_custom_text": ""
+            }
+          },
           "hero_wbLAMX": {
             "type": "hero",
             "settings": {
@@ -118,13 +131,24 @@
             "type": "articles",
             "settings": {
               "article_1": "",
-              "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.02.55.png",
+              "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.58.19.png",
               "article_1_media_hover": "",
               "article_1_custom_text": "",
               "article_2": "",
               "custom_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.01.19.png",
               "article_2_media_hover": "",
               "article_2_custom_text": ""
+            }
+          },
+          "hero_UPWxnE": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/BZ20_Cover_03_Pippa_standing_1800x1400_928199df-7f5c-4d74-a26f-7299182f1ba8.jpg",
+              "hover_image_1": "shopify://shop_images/BZ20_Spread_2_c13c624e-0dc3-484e-9c2c-42365bd9a0d4.jpg",
+              "goto": "",
+              "video_url_1": "",
+              "hero_text": "",
+              "info": ""
             }
           },
           "articles_cMX9tc": {
@@ -153,15 +177,17 @@
               "article_2_custom_text": ""
             }
           },
-          "hero_UPWxnE": {
-            "type": "hero",
+          "articles_nQKJQj": {
+            "type": "articles",
             "settings": {
-              "hero_image": "shopify://shop_images/BZ20_Cover_03_Pippa_standing_1800x1400_928199df-7f5c-4d74-a26f-7299182f1ba8.jpg",
-              "hover_image_1": "shopify://shop_images/BZ20_Spread_2_c13c624e-0dc3-484e-9c2c-42365bd9a0d4.jpg",
-              "goto": "",
-              "video_url_1": "",
-              "hero_text": "",
-              "info": ""
+              "article_1": "",
+              "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.02.55.png",
+              "article_1_media_hover": "",
+              "article_1_custom_text": "",
+              "article_2": "",
+              "custom_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.02.25.png",
+              "article_2_media_hover": "",
+              "article_2_custom_text": ""
             }
           }
         },
@@ -172,12 +198,14 @@
           "articles_apGa6T",
           "articles_eefMAE",
           "hero_NbFPeD",
+          "articles_cNbmhy",
           "hero_wbLAMX",
           "articles_gpmiBN",
           "articles_CthAET",
+          "hero_UPWxnE",
           "articles_cMX9tc",
           "articles_fcQP7Q",
-          "hero_UPWxnE"
+          "articles_nQKJQj"
         ],
         "settings": {}
       },
