@@ -100,6 +100,58 @@
               "hero_text": "",
               "info": ""
             }
+          },
+          "articles_gpmiBN": {
+            "type": "articles",
+            "settings": {
+              "article_1": "",
+              "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.57.07.png",
+              "article_1_media_hover": "",
+              "article_1_custom_text": "",
+              "article_2": "",
+              "custom_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.28.png",
+              "article_2_media_hover": "",
+              "article_2_custom_text": ""
+            }
+          },
+          "articles_CthAET": {
+            "type": "articles",
+            "settings": {
+              "article_1": "",
+              "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.02.55.png",
+              "article_1_media_hover": "",
+              "article_1_custom_text": "",
+              "article_2": "",
+              "custom_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.01.19.png",
+              "article_2_media_hover": "",
+              "article_2_custom_text": ""
+            }
+          },
+          "articles_cMX9tc": {
+            "type": "articles",
+            "settings": {
+              "article_1": "",
+              "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.00.48.png",
+              "article_1_media_hover": "",
+              "article_1_custom_text": "",
+              "article_2": "",
+              "custom_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.01.04.png",
+              "article_2_media_hover": "",
+              "article_2_custom_text": ""
+            }
+          },
+          "articles_fcQP7Q": {
+            "type": "articles",
+            "settings": {
+              "article_1": "",
+              "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.59.47.png",
+              "article_1_media_hover": "",
+              "article_1_custom_text": "",
+              "article_2": "",
+              "custom_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.44.41.png",
+              "article_2_media_hover": "",
+              "article_2_custom_text": ""
+            }
           }
         },
         "block_order": [
@@ -109,7 +161,11 @@
           "articles_apGa6T",
           "articles_eefMAE",
           "hero_NbFPeD",
-          "hero_wbLAMX"
+          "hero_wbLAMX",
+          "articles_gpmiBN",
+          "articles_CthAET",
+          "articles_cMX9tc",
+          "articles_fcQP7Q"
         ],
         "settings": {}
       },
