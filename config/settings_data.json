@@ -104,6 +104,16 @@
               "article_2_custom_text": ""
             }
           },
+          "hero_hCACtT": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.01.19.png",
+              "goto": "",
+              "video_url_1": "",
+              "hero_text": "",
+              "info": ""
+            }
+          },
           "hero_wbLAMX": {
             "type": "hero",
             "settings": {
@@ -135,7 +145,7 @@
               "article_1_media_hover": "",
               "article_1_custom_text": "",
               "article_2": "",
-              "custom_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.01.19.png",
+              "custom_image": "shopify://shop_images/BuffaloZineNo2_Vol2_1.jpg",
               "article_2_media_hover": "",
               "article_2_custom_text": ""
             }
@@ -189,6 +199,16 @@
               "article_2_media_hover": "",
               "article_2_custom_text": ""
             }
+          },
+          "hero_khXtxf": {
+            "type": "hero",
+            "disabled": true,
+            "settings": {
+              "goto": "https://cdn.shopify.com/videos/c/o/v/3afe946f82ca4b2ea917434db9023052.mp4",
+              "video_url_1": "https://cdn.shopify.com/videos/c/o/v/3afe946f82ca4b2ea917434db9023052.mp4",
+              "hero_text": "",
+              "info": ""
+            }
           }
         },
         "block_order": [
@@ -199,13 +219,15 @@
           "articles_eefMAE",
           "hero_NbFPeD",
           "articles_cNbmhy",
+          "hero_hCACtT",
           "hero_wbLAMX",
           "articles_gpmiBN",
           "articles_CthAET",
           "hero_UPWxnE",
           "articles_cMX9tc",
           "articles_fcQP7Q",
-          "articles_nQKJQj"
+          "articles_nQKJQj",
+          "hero_khXtxf"
         ],
         "settings": {}
       },
