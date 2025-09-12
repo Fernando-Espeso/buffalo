@@ -162,7 +162,7 @@
             "name": "AUSTRIA",
             "settings": {
               "shop_name": "AUSTRIA",
-              "address": "<p><strong>KDPRESSE</strong></p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy</p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p>"
+              "address": "<p><strong>KDPRESSE</strong></p><p><strong>101 Rue du Faubourg </strong></p><p><strong>Saint-Denis</strong></p><p><strong>75010 Paris</strong></p><p></p><p><strong>Artazart</strong></p><p><strong>83 Quai de Valmy</strong></p><p><strong>75010 Paris</strong></p><p></p><p><strong>Bogopresse (Kiosque Bogo)</strong></p><p><strong>36 Rue de Sèvres</strong></p><p><strong>75007 Paris</strong></p><p></p><p><strong>Cahier Central</strong></p><p><strong>26 Rue du Château d’Eau</strong></p><p><strong>75010 Paris</strong></p><p></p><p><strong>Palais De Tokyo</strong></p><p><strong>13 Av. du Président Wilson</strong></p><p><strong>75116 Paris</strong></p><p></p><p><strong>Ofr</strong></p><p><strong>20 Rue Dupetit-Thouars</strong></p><p><strong>75003 Paris</strong></p>"
             }
           },
           "stocklist_nF3DeF": {
@@ -399,6 +399,58 @@
       },
       "social": {
         "type": "social",
+        "blocks": {
+          "image_Ya9UC4": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ19_MICHAEL_STIPE_7.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_eq7xcy": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ19_MICHAEL_STIPE_2.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_JzNpm3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ20_LORO_PIANA_spreads_7.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_yMqyrC": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ20_LORO_PIANA_spreads_9.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_eqPz4K": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ19_MICHAEL_STIPE_5.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_VEtYji": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ19_MICHAEL_STIPE_3.jpg",
+              "alt_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "image_Ya9UC4",
+          "image_eq7xcy",
+          "image_JzNpm3",
+          "image_yMqyrC",
+          "image_eqPz4K",
+          "image_VEtYji"
+        ],
         "settings": {}
       },
       "live": {
