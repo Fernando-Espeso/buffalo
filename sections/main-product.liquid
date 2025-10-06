@@ -12,13 +12,11 @@
 {% endif %}
 </div>
 <div id="main-product" class="main" data-section-id="{{ section.id }}" data-product-section>
- 
   <!--INFO-BUY-->
   <div class="buy-block">
     <div class="product-price">
       <div class="title-page">{{ product.title }}</div>
-      <div class="sub-title"> {{ product.metafields.custom.title | metafield_tag }}</div>
-
+      {% comment %} <div class="sub-title"> {{ product.metafields.custom.title | metafield_tag }}</div> {% endcomment %}
       {% if product.available %}
         {% if product.price_varies %}
           <span>{{ product.price_min | money }}</span> – <span>{{ product.price_max | money }}</span>
