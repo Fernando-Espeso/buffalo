@@ -700,7 +700,7 @@ section.hero img.hover-media {
   text-align: center;
 }
 .product-price-white{
-  padding: 0px var(--space);
+  padding: 0px;
   padding-bottom: 5px;
   z-index: 10;
 left: 0px;
@@ -1638,10 +1638,9 @@ button.sold-out-button {
   position: absolute;
   background: white;
   color: black;
-  padding: 0px var(--space);
-  padding-bottom: 5px !important;
+  padding: var(--space);
   left: 0;
-  top: 24px;
+  top: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .buy-block .product-price{
