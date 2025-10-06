@@ -1099,7 +1099,7 @@ div#shopify-section-stocklist {
   padding-top: 10px;
 }
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-  padding-bottom: 10px;
+  padding: 20px;
 }
 .shopify-section{
   padding-bottom: 40px;
