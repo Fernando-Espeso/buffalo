@@ -31,6 +31,9 @@
   display: grid;
   row-gap: 5px;
 }
+.interview .metafield-rich_text_field p strong{
+  font-weight: normal;
+}
 .price-inside{
   font-family: times;
 }
@@ -521,7 +524,6 @@ footer .container{
 }
 
 .swiper-gallery .swiper-pagination {
-    /* position: absolute; */
     text-align: center;
     transition: .3s opacity;
     transform: translate3d(0, 0, 0);
