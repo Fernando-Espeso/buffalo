@@ -31,6 +31,9 @@
   display: grid;
   row-gap: 5px;
 }
+.price-inside{
+  font-family: times;
+}
 .custom-image {
   top: calc(var(--m) + 10px);
   z-index: 1;

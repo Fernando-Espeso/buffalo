@@ -19,7 +19,7 @@
       {% comment %} <div class="sub-title"> {{ product.metafields.custom.title | metafield_tag }}</div> {% endcomment %}
       {% if product.available %}
         {% if product.price_varies %}
-          <span>{{ product.price_min | money }}</span> – <span>{{ product.price_max | money }}</span>
+          <span class="price-inside">{{ product.price_min | money }}</span> – <span>{{ product.price_max | money }}</span>
         {% else %}
           {% if product.compare_at_price > product.price %}
             <s>{{ product.compare_at_price | money }}</s>
