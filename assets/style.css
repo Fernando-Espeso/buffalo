@@ -631,7 +631,7 @@ section.hero {
   width: 50%;
   height: 100%;
   display: flex;
-  cursor: ne-resize;
+  cursor: e-resize;
   justify-content: center;
   align-items: center;
   color: white;
@@ -645,7 +645,7 @@ section.hero {
   left: 10px;
   top: 0;
   width: 50%;
-  cursor: s-resize;
+  cursor: w-resize;
   height: 100%;
   display: flex;
   justify-content: center;
