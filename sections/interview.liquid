@@ -3,16 +3,13 @@
     {{ article.metafields.custom.interview | metafield_tag }}
   </div>
 {% endif %}
-{% assign all_articles = blog.articles | shuffle %}
-{% assign count = 0 %}
-
-{% if all_articles.size > 1 %}
-  <div class="related">
-    <div class="related-title">YOU MIGHT ALSO LIKE</div>
-
+{% assign all_articles = blog.articles %}
+<div class="related">
+  <div class="related-title">YOU MIGHT ALSO LIKE</div>
+  <div class="related-list">
     {% for a in all_articles %}
       {% if a.id != article.id %}
-        <div class="article estandard">
+        <div class="article estandard" style="display:none">
           <a href="{{ a.url }}">
             {% if a.image %}
               <img src="{{ a.image | img_url: '800x' }}" alt="{{ a.title }}">
@@ -22,13 +19,23 @@
             <p>{{ a.title }}</p>
           </div>
         </div>
-        {% assign count = count | plus: 1 %}
-        {% if count == 3 %}
-          {% break %}
-        {% endif %}
       {% endif %}
     {% endfor %}
   </div>
-{% endif %}
-
-
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const items = Array.from(document.querySelectorAll('.related .article'));
+    if (items.length <= 3) {
+      items.forEach(el => el.style.display = '');
+      return;
+    }
+    // barajar en cliente (Fisher–Yates)
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+    // mostrar solo 3
+    items.forEach((el, idx) => el.style.display = idx < 3 ? '' : 'none');
+  });
+  </script>
