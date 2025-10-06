@@ -1634,6 +1634,7 @@ button#checkout{
 a.image-hover-wrapper {
   position: relative;
 }
+
 button.sold-out-button {
   z-index: 12;
   text-transform: uppercase;
