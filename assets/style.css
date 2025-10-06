@@ -187,6 +187,9 @@ button:disabled,
 select:disabled {
   opacity: 1;
 }
+.info a:hover{
+  color: grey;;
+}
 * {
   font-family: Helvetica, sans-serif;
   box-sizing: border-box;
