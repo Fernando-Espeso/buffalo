@@ -72,7 +72,7 @@
         {% liquid
           assign selectedVariant = product.selected_or_first_available_variant
           if selectedVariant.available
-            assign addToCartText = 'ADD TO BAG'
+            assign addToCartText = 'ADD TO CART'
           else
             assign addToCartText = 'SOLD OUT'
           endif
