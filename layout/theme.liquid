@@ -32,9 +32,10 @@
       <meta name="robots" content="noindex">
     {%- endif -%}
     {{ 'style.css'  | asset_url | stylesheet_tag }}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      {{ 'effect.js' | asset_url | script_tag }}
+    {{ 'cursor.js' | asset_url | script_tag }}
 
     {{ 'current-device-browser.min.js' | asset_url | script_tag }}
     {%- if template == 'product' -%}
@@ -242,8 +243,7 @@
         }
       });
     </script>
-    {{ 'cursor-effects-browser.js' | asset_url | script_tag }}
-    {{ 'cursor.js' | asset_url | script_tag }}
+
     {%- if template contains 'product' -%}
       {{ 'global-product.js' | asset_url | script_tag }}
     {%- endif -%}
