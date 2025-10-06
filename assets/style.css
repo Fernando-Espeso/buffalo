@@ -1635,12 +1635,11 @@ button.sold-out-button {
   z-index: 12;
   text-transform: uppercase;
   position: absolute;
-  background: #fff;
   color: #000;
   padding: var(--space);
   left: 0;
   padding-bottom: 5px !important;
-  top: 0;
+  bottom: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 .buy-block .product-price{
