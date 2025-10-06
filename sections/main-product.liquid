@@ -169,9 +169,7 @@
       {% assign related_product = all_products[related.handle] %}
       {% if related_product %}
         <div class="product estandard">
-          <div class="product-price-white">      {% if related_product.price %}
-            <p>{{ related_product.price | money }}</p>
-          {% endif %}</div>
+        
 
           <a href="{{ related_product.url }}">
             {% if related_product.featured_image %}
@@ -180,7 +178,9 @@
           </a>
           <div class="product-title title-thang">
             <p>{{ related_product.title }}</p>
-      
+            <div class="product-price-white">      {% if related_product.price %}
+              <p>{{ related_product.price | money }}</p>
+            {% endif %}</div>
           </div>
         </div>
       {% endif %}
