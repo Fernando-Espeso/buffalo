@@ -1289,7 +1289,6 @@
             "type": "award_item",
             "name": "ISSUE 1",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
               "award_text": "<p>ISSUE 1<br/>WOOD PENCIL (2012)<br/>MAGAZINE & NEWSPAPER DESIGN</p>"
             }
           },
@@ -1297,7 +1296,6 @@
             "type": "award_item",
             "name": "ISSUE 2",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
               "award_text": "<p>ISSUE 2</p><p>WOOD PENCIL (2014)</p><p>MAGAZINE & NEWSPAPER DESIGN</p>"
             }
           },
@@ -1305,7 +1303,6 @@
             "type": "award_item",
             "name": "ISSUE 3",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
               "award_text": "<p>ISSUE 3</p><p>WOOD PENCIL (2016)</p><p>MAGAZINE & NEWSPAPER DESIGN</p>"
             }
           },
@@ -1313,7 +1310,6 @@
             "type": "award_item",
             "name": "ISSUE 4",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
               "award_text": "<p>ISSUE 4</p><p>WOOD PENCIL (2017)</p><p>MAGAZINE & NEWSPAPER DESIGN</p>"
             }
           },
@@ -1321,7 +1317,6 @@
             "type": "award_item",
             "name": "ISSUE 6",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
               "award_text": "<p>ISSUE 6<br/>WOOD PENCIL <br/>(2018)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
             }
           },
@@ -1329,7 +1324,6 @@
             "type": "award_item",
             "name": "ISSUE 7",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_graphite_225x350_3c630a80-3418-410f-900f-9a5fa6f77303.jpg",
               "award_text": "<p>ISSUE 7<br/>GRAPHITE PENCIL <br/>(2019)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
             }
           },
@@ -1337,7 +1331,6 @@
             "type": "award_item",
             "name": "ISSUE 8",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_graphite_225x350_3c630a80-3418-410f-900f-9a5fa6f77303.jpg",
               "award_text": "<p>ISSUE 8<br/>GRAPHITE PENCIL <br/>(2020)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
             }
           },
@@ -1345,7 +1338,6 @@
             "type": "award_item",
             "name": "ISSUE 9",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_yellow_225x350_5a03723b-22ff-449f-b446-f9bd0b35d1ba.jpg",
               "award_text": "<p>ISSUE 9<br/>YELLOW PENCIL <br/>(2020)<br/>MAGAZINE FRONT COVERS<br/></p>"
             }
           },
@@ -1353,7 +1345,6 @@
             "type": "award_item",
             "name": "ISSUE 10",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_graphite_225x350_3c630a80-3418-410f-900f-9a5fa6f77303.jpg",
               "award_text": "<p>ISSUE 10<br/>GRAPHITE PENCIL <br/>(2021)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
             }
           },
@@ -1361,7 +1352,6 @@
             "type": "award_item",
             "name": "ISSUE 11",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
               "award_text": "<p>ISSUE 11<br/>WOOD PENCIL <br/>(2021)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
             }
           },
@@ -1369,7 +1359,6 @@
             "type": "award_item",
             "name": "ISSUE 12",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_graphite_225x350_3c630a80-3418-410f-900f-9a5fa6f77303.jpg",
               "award_text": "<p>ISSUE 12<br/>GRAPHITE PENCIL <br/>(2022)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
             }
           },
@@ -1377,7 +1366,6 @@
             "type": "award_item",
             "name": "ISSUE 16",
             "settings": {
-              "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.jpg",
               "award_text": "<p>ISSUE 16<br/>WOOD PENCIL <br/>(2023)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
             }
           },
@@ -1406,7 +1394,7 @@
         "name": "AWARDS",
         "settings": {
           "intro_text": "“The success of Buffalo Zine, which won a D&AD Pencil for its inaugural issue and went on to win Pencils for almost every year of its decade-long existence, is largely down to the creative realisation it was able to make when commercial objectives were not part of the equation.” — D&AD ––––––––––––––––––\nWinning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study, debate, copy and reference the industry’s finest designers.",
-          "awards_text": "ISSUE 1: WOX1OD PENCIL, MAGAZINE & NEWSPAPER DESIGN, 2012\nISSUE 7: GRAPHITE PENCIL, MAGAZINE & NEWSPAPER DESIGN, 2019\nISSUE 9: YELLOW PENCIL, MAGAZINE FRONT COVERS, 2020\nISSUE 1: WOOD PENCIL, MAGAZINE & NEWSPAPER DESIGN, 2012\nISSUE 7: GRAPHITE PENCIL, MAGAZINE & NEWSPAPER DESIGN, 2019\nISSUE 9: YELLOW PENCIL, MAGAZINE FRONT COVERS, 2020\nISSUE 1: WOOD PENCIL, MAGAZINE & NEWSPAPER DESIGN, 2012\nISSUE 7: GRAPHITE PENCIL, MAGAZINE & NEWSPAPER DESIGN, 2019\nISSUE 9: YELLOW PENCIL, MAGAZINE FRONT COVERS, 20"
+          "award_image": "shopify://shop_images/1_HOME_pencil_wood_225x350_43b1c0ce-a87e-4863-b879-1158cf2a971e.avif"
         }
       }
     },
