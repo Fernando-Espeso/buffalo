@@ -868,6 +868,9 @@ div#info-product {
 ;
   row-gap: 30px;
 }
+.product.third{
+grid-column: span 3;
+}
 .item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
