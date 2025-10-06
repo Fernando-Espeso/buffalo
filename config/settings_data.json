@@ -1076,6 +1076,7 @@
             "settings": {
               "product": "issue-20-success-etc",
               "half": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ20_Cover_03_Pippa_laying.jpg",
               "video_url": ""
             }
@@ -1085,6 +1086,7 @@
             "settings": {
               "product": "issue-19-mother-aw2024-laying",
               "half": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ19_Cover_4_laying.jpg",
               "video_url": ""
             }
@@ -1094,6 +1096,7 @@
             "settings": {
               "product": "issue-19-buffalo-power-aw2023",
               "half": false,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ18_Cover_4_laying.jpg",
               "video_url": ""
             }
@@ -1103,6 +1106,7 @@
             "settings": {
               "product": "issue-17-coffee-cigarettes-ss2023",
               "half": false,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ17_COVER_EMMA_LAYING_e5a54960-2a98-4aa4-8092-65381c5989e8.jpg",
               "video_url": ""
             }
@@ -1112,6 +1116,7 @@
             "settings": {
               "product": "issue-16-buffalo-hotel-chelsea-aw2022",
               "half": false,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ16_ERICA_LAYING.jpg",
               "video_url": ""
             }
@@ -1121,6 +1126,7 @@
             "settings": {
               "product": "issue-15-buffalo-pink-ss-22",
               "half": false,
+              "third": false,
               "video_url": ""
             }
           },
@@ -1129,6 +1135,7 @@
             "settings": {
               "product": "issue-14-buffalo-irl-aw-21-22",
               "half": false,
+              "third": false,
               "video_url": ""
             }
           },
@@ -1137,6 +1144,7 @@
             "settings": {
               "product": "issue-13-buffalo-viral-ss-21",
               "half": false,
+              "third": false,
               "video_url": ""
             }
           },
@@ -1145,6 +1153,7 @@
             "settings": {
               "product": "issue-12-buffalo-does-it-aw-20-21",
               "half": false,
+              "third": false,
               "video_url": ""
             }
           },
@@ -1153,6 +1162,7 @@
             "settings": {
               "product": "issue-11-buffalo-earth-ss-20",
               "half": false,
+              "third": false,
               "video_url": ""
             }
           },
@@ -1161,6 +1171,7 @@
             "settings": {
               "product": "issue-10-the-unfinished-issue-aw-19-20",
               "half": false,
+              "third": true,
               "video_url": ""
             }
           },
@@ -1169,6 +1180,7 @@
             "settings": {
               "product": "issue-9-copyright-©2019-ss-19",
               "half": false,
+              "third": true,
               "video_url": ""
             }
           },
@@ -1177,6 +1189,7 @@
             "settings": {
               "product": "issue-8-fashion-s-kitchen-aw-18-19",
               "half": false,
+              "third": true,
               "video_url": ""
             }
           },
@@ -1185,6 +1198,7 @@
             "settings": {
               "product": "issue-7-holidays-in-spain-ss-18",
               "half": false,
+              "third": true,
               "video_url": ""
             }
           },
@@ -1193,6 +1207,7 @@
             "settings": {
               "product": "issue-6-the-interiors-issue-aw-17-18",
               "half": true,
+              "third": false,
               "video_url": ""
             }
           },
@@ -1201,6 +1216,7 @@
             "settings": {
               "product": "issue-5-the-hackney-road-issue-ss-17",
               "half": true,
+              "third": false,
               "video_url": ""
             }
           },
@@ -1209,6 +1225,7 @@
             "settings": {
               "product": "issue-4-international-buffalo-zine-catalogue-aw-16-17",
               "half": true,
+              "third": false,
               "video_url": ""
             }
           },
@@ -1217,6 +1234,7 @@
             "settings": {
               "product": "issue-3-secret-diaries-and-tales-for-children-ss-2015",
               "half": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BuffaloZineNo3_VivienneWestwood3.jpg",
               "video_url": ""
             }
@@ -1226,6 +1244,7 @@
             "settings": {
               "product": "issue-2-street-style-ss13",
               "half": true,
+              "third": false,
               "video_url": ""
             }
           },
@@ -1234,6 +1253,7 @@
             "settings": {
               "product": "issue-1-ss2011",
               "half": true,
+              "third": false,
               "video_url": ""
             }
           }
