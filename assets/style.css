@@ -459,6 +459,7 @@ footer .container{
 /* ARTICLE */
 .article-content{
   padding:10px;
+  padding-top: 40px !important;
   color: white;
   text-align:center;
   display:grid;
