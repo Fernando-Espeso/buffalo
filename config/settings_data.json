@@ -25,17 +25,6 @@
               "article_2_custom_text": ""
             }
           },
-          "hero_eH7mmr": {
-            "type": "hero",
-            "settings": {
-              "hero_image": "shopify://shop_images/BZ20_Cover_02_Ninot_standing_1800x1400_9f5e328c-1f2c-4048-9c8a-ed9ca7e60668.jpg",
-              "hover_image_1": "shopify://shop_images/BZ20_Cover_03_Pippa_standing_1800x1400_928199df-7f5c-4d74-a26f-7299182f1ba8.jpg",
-              "goto": "https://cdn.shopify.com/videos/c/o/v/0d1d4ad4f8694c4aa29d316c1e19d57e.mov",
-              "video_url_1": "",
-              "hero_text": "<p><a href=\"/products/issue-20-success-etc\" title=\"ISSUE 20: SUCCESS, ETC. / AW2024\">ISSUE 20: SUCCESS, ETC. / AW2024</a></p>",
-              "info": "<p>ISSUE 20: SUCCESS, ETC. / AW’25 <br/>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For <em>Buffalo</em>’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p><p></p>"
-            }
-          },
           "two_products_xNp8mX": {
             "type": "two_products",
             "settings": {
@@ -46,8 +35,34 @@
               "video_url_2": ""
             }
           },
+          "hero_eH7mmr": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/BZ20_Cover_02_Ninot_standing_1800x1400_9f5e328c-1f2c-4048-9c8a-ed9ca7e60668.jpg",
+              "hover_image_1": "shopify://shop_images/Screenshot_2025-09-12_at_15.59.47.png",
+              "goto": "https://cdn.shopify.com/videos/c/o/v/0d1d4ad4f8694c4aa29d316c1e19d57e.mov",
+              "video_url_1": "",
+              "hero_text": "<p><a href=\"/products/issue-20-success-etc\" title=\"ISSUE 20: SUCCESS, ETC. / AW2024\">ISSUE 20: SUCCESS, ETC. / AW2024</a></p>",
+              "info": "<p>ISSUE 20: SUCCESS, ETC. / AW’25 <br/>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For <em>Buffalo</em>’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p><p></p>"
+            }
+          },
+          "articles_apGa6T": {
+            "type": "articles",
+            "disabled": true,
+            "settings": {
+              "article_1": "live/buffalo-zine-x-valentino",
+              "article_1_image": "shopify://shop_images/BZ17_SPREAD_4.jpg",
+              "article_1_media_hover": "https://cdn.shopify.com/s/files/1/0938/5250/0300/files/JACQUEMUS.jpg?v=1757514972",
+              "article_1_custom_text": "",
+              "article_2": "your-brand-here/versace-resort-2024",
+              "custom_image": "shopify://shop_images/MONEYxVersace_Models11.jpg",
+              "article_2_media_hover": "https://cdn.shopify.com/s/files/1/0938/5250/0300/files/0_VERSACE-RESORT_11_0862_V4_HR.jpg?v=1757347925",
+              "article_2_custom_text": ""
+            }
+          },
           "articles_P4hPbP": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "live/your-brand-here",
               "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
@@ -70,19 +85,6 @@
               "article_2": "new-section/buffalo-zine-x-vivienne-westwood",
               "custom_image": "shopify://shop_images/Stone_Island.jpg",
               "article_2_media_hover": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4",
-              "article_2_custom_text": ""
-            }
-          },
-          "articles_apGa6T": {
-            "type": "articles",
-            "settings": {
-              "article_1": "live/buffalo-zine-x-valentino",
-              "article_1_image": "shopify://shop_images/BZ17_SPREAD_4.jpg",
-              "article_1_media_hover": "https://cdn.shopify.com/s/files/1/0938/5250/0300/files/JACQUEMUS.jpg?v=1757514972",
-              "article_1_custom_text": "",
-              "article_2": "your-brand-here/versace-resort-2024",
-              "custom_image": "shopify://shop_images/MONEYxVersace_Models11.jpg",
-              "article_2_media_hover": "https://cdn.shopify.com/s/files/1/0938/5250/0300/files/0_VERSACE-RESORT_11_0862_V4_HR.jpg?v=1757347925",
               "article_2_custom_text": ""
             }
           },
@@ -232,11 +234,11 @@
         },
         "block_order": [
           "articles_WLBUtw",
-          "hero_eH7mmr",
           "two_products_xNp8mX",
+          "hero_eH7mmr",
+          "articles_apGa6T",
           "articles_P4hPbP",
           "articles_RhNm6T",
-          "articles_apGa6T",
           "articles_eefMAE",
           "hero_NbFPeD",
           "articles_cNbmhy",
