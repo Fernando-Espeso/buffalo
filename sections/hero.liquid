@@ -50,9 +50,7 @@
       {% endif %}
 
       <div class="block-hero">
-        <div class="title-thang">
-          <div>{{ article.title }}</div>
-        </div>
+      
         <a href="{{ article.url }}" class="image-hover-wrapper">
           {% if block.settings.article_1_image %}
             <img class="main-img" src="{{ block.settings.article_1_image | img_url: 'master' }}" alt="{{ article.title }}">
@@ -71,7 +69,9 @@
             {% endif %}
           {% endif %}
         </a>
-
+        <div class="title-thang">
+          <div>{{ article.title }}</div>
+        </div>
         {% if block.settings.article_1_custom_text != blank %}
           <div class="custom-text-article">
             {{ block.settings.article_1_custom_text }}
@@ -89,9 +89,7 @@
       {% endif %}
 
       <div class="block-hero">
-        <div class="title-thang">
-          <div>{{ article2.title }}</div>
-        </div>
+  
 
         <a href="{{ article2.url }}" class="image-hover-wrapper">
           {% if block.settings.custom_image %}
@@ -110,7 +108,9 @@
             {% endif %}
           {% endif %}
         </a>
-
+        <div class="title-thang">
+          <div>{{ article2.title }}</div>
+        </div>
         {% if block.settings.article_2_custom_text != blank %}
           <div class="custom-text-article">
             {{ block.settings.article_2_custom_text }}
