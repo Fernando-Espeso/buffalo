@@ -1736,12 +1736,6 @@ section.two-products, .articles-block {
   text-align: center;
 }
 .custom-image {
-  top: calc(var(--m) + 10px);
-  z-index: 1;
-  margin: 0 auto;
-  display: none;
-  padding: 0 10px;
-  width: 182px;
 }
 .close-up{
   display: none;
@@ -1843,13 +1837,7 @@ form#cart-wrapper {
   width: 100%;
 }
 .non{
-  display: block !important;
-  top: 0;
-  z-index: 1;
-  position: relative;
-  margin: 0 auto;
-  padding: 0 10px 20px;
-  width: 182px;
+display: none;
 }
 .interview {
   color: black;
