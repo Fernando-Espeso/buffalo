@@ -701,7 +701,6 @@ section.hero img.hover-media {
 }
 .product-price-white{
   padding: 0px var(--space);
-  position: absolute;
   padding-bottom: 5px;
   z-index: 10;
 left: 0px;
@@ -745,7 +744,7 @@ video.hover-media {
   z-index: 1;
   color: black;
   text-align: left;
-  position: absolute;
+  position: relative;
   padding: 5px;
   background-color: white;
   font-weight: normal;
