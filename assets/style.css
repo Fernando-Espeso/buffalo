@@ -1631,6 +1631,9 @@ button#checkout{
 .bag .product-price{
   border-bottom: 1px solid var(--bl);
 }
+a.image-hover-wrapper {
+  position: relative;
+}
 button.sold-out-button {
   z-index: 12;
   text-transform: uppercase;
