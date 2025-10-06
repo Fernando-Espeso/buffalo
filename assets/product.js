@@ -89,7 +89,7 @@ class ProductVariants extends HTMLElement {
       addButtonText.textContent = 'SOLD OUT'
     } else {
       addButton.removeAttribute('disabled')
-      addButtonText.textContent = 'ADD TO BAG'
+      addButtonText.textContent = 'ADD TO CART'
     }
   }
 
