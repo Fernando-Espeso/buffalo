@@ -17,7 +17,6 @@
           "id": "half",
           "label": "Half"
         },
-
         {
           "type": "checkbox",
           "id": "third",
@@ -52,10 +51,16 @@
       {% assign variant = product.variants.first %}
       {% assign hover = block.settings.hover_image | default: '' %}
       {% assign video_url = block.settings.video_url %}
+      {% assign classes = 'product' %}
+      {% if block.settings.half %}
+        {% assign classes = classes | append: ' half' %}
+      {% endif %}
+      {% if block.settings.third %}
+        {% assign classes = classes | append: ' third' %}
+      {% endif %}
       {% assign ext = video_url | split: '.' | last | downcase %}
   
-      <div class="product {% if block.settings.half %}half{% endif %}">
-
+      <div class="product {% if block.settings.half %}half{% endif %} {% if block.settings.third %}third{% endif %}">
 
     
 
