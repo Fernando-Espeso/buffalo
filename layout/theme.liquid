@@ -243,7 +243,7 @@
       });
     </script>
     {{ 'cursor-effects-browser.js' | asset_url | script_tag }}
-    {{ 'cursor-effect-init.js' | asset_url | script_tag }}
+    {{ 'cursor.js' | asset_url | script_tag }}
     {%- if template contains 'product' -%}
       {{ 'global-product.js' | asset_url | script_tag }}
     {%- endif -%}
