@@ -1212,6 +1212,7 @@ details > summary::-webkit-details-marker {
   display: flex;
   padding: 0px;
   border-bottom: 1px solid var(--bl);
+  margin-bottom: 40px;
 }
  span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: white !important;
