@@ -170,6 +170,17 @@
     <br><br><br><br>
      ©2025 Buffalo Zine. All rights reserved. 
     </footer>
+    <script type="module">
+      import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+      window.addEventListener("DOMContentLoaded", () => {
+        const target = document.querySelector(".mi-div-hover");
+        let fx = null;
+        target.addEventListener("mouseenter", () => {
+          fx = new fairyDustCursor({ element: target });
+        });
+        target.addEventListener("mouseleave", () => fx?.destroy());
+      });
+    </script>
     <script>
       window.yourBrandPosts = [
         {% for article in blogs['shuffle'].articles %}
@@ -231,17 +242,8 @@
         }
       });
     </script>
-    <script type="module">
-      import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
-      window.addEventListener("DOMContentLoaded", () => {
-        const target = document.querySelector(".mi-div-hover");
-        let fx = null;
-        target.addEventListener("mouseenter", () => {
-          fx = new fairyDustCursor({ element: target });
-        });
-        target.addEventListener("mouseleave", () => fx?.destroy());
-      });
-    </script>
+    {{ 'cursor-effects-browser.js' | asset_url | script_tag }}
+    {{ 'cursor-effect-init.js' | asset_url | script_tag }}
     {%- if template contains 'product' -%}
       {{ 'global-product.js' | asset_url | script_tag }}
     {%- endif -%}
