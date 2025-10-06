@@ -794,6 +794,12 @@ section.two-products, .articles-block{
 }
 .articles-block{
 }
+.blockers{
+  text-align: center;
+  display: grid;
+  grid-gap:3px;
+  grid-template-columns: repeat(2, 1fr);
+}
 section.two-products .product:nth-of-type(2n) {
   border-right: none;
 }
