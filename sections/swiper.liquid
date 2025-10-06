@@ -38,7 +38,7 @@
     document.addEventListener("DOMContentLoaded", function () {
       var swiper = new Swiper('.swiper-article', {
         loop: true,
-        speed:400,
+        speed: 400,
         slidesPerView: 1,
         spaceBetween: 15,
         navigation: {
@@ -51,8 +51,12 @@
           renderBullet: function (index, className) {
             return `<span class="${className}"></span>`;
           }
+        },
+        keyboard: {
+          enabled: true,        // activa el control por teclado
+          onlyInViewport: true, // solo cuando el swiper está visible en pantalla
         }
       });
-    });
+    });    
   </script>
   
