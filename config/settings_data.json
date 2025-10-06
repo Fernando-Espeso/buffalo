@@ -16,7 +16,6 @@
         "blocks": {
           "hero_eH7mmr": {
             "type": "hero",
-            "disabled": true,
             "settings": {
               "hero_image": "shopify://shop_images/BZ20_Cover_02_Ninot_standing_1800x1400_9f5e328c-1f2c-4048-9c8a-ed9ca7e60668.jpg",
               "hover_image_1": "shopify://shop_images/BZ20_Cover_03_Pippa_standing_1800x1400_928199df-7f5c-4d74-a26f-7299182f1ba8.jpg",
@@ -26,9 +25,18 @@
               "info": "<p>ISSUE 20: SUCCESS, ETC. / AW’25 <br/>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For <em>Buffalo</em>’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p><p></p>"
             }
           },
+          "two_products_xNp8mX": {
+            "type": "two_products",
+            "settings": {
+              "product_1": "issue-20-success-etc",
+              "product_2": "issue-1-ss2011",
+              "video_url_1": "",
+              "hover_image_2": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.15.png",
+              "video_url_2": ""
+            }
+          },
           "articles_P4hPbP": {
             "type": "articles",
-            "disabled": true,
             "settings": {
               "article_1": "live/your-brand-here",
               "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
@@ -56,7 +64,6 @@
           },
           "articles_apGa6T": {
             "type": "articles",
-            "disabled": true,
             "settings": {
               "article_1": "live/buffalo-zine-x-valentino",
               "article_1_image": "shopify://shop_images/BZ17_SPREAD_4.jpg",
@@ -70,6 +77,7 @@
           },
           "articles_eefMAE": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "",
               "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.44.14.png",
@@ -83,6 +91,7 @@
           },
           "hero_NbFPeD": {
             "type": "hero",
+            "disabled": true,
             "settings": {
               "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.55.35.png",
               "goto": "",
@@ -93,6 +102,7 @@
           },
           "articles_cNbmhy": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "",
               "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.57.35.png",
@@ -106,6 +116,7 @@
           },
           "hero_hCACtT": {
             "type": "hero",
+            "disabled": true,
             "settings": {
               "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.01.19.png",
               "goto": "",
@@ -116,6 +127,7 @@
           },
           "hero_wbLAMX": {
             "type": "hero",
+            "disabled": true,
             "settings": {
               "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.15.png",
               "goto": "",
@@ -126,6 +138,7 @@
           },
           "articles_gpmiBN": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "",
               "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.57.07.png",
@@ -139,6 +152,7 @@
           },
           "articles_CthAET": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "",
               "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.58.19.png",
@@ -152,6 +166,7 @@
           },
           "hero_UPWxnE": {
             "type": "hero",
+            "disabled": true,
             "settings": {
               "hero_image": "shopify://shop_images/BZ20_Cover_03_Pippa_standing_1800x1400_928199df-7f5c-4d74-a26f-7299182f1ba8.jpg",
               "hover_image_1": "shopify://shop_images/BZ20_Spread_2_c13c624e-0dc3-484e-9c2c-42365bd9a0d4.jpg",
@@ -163,6 +178,7 @@
           },
           "articles_cMX9tc": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "",
               "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.00.48.png",
@@ -176,6 +192,7 @@
           },
           "articles_fcQP7Q": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "",
               "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.59.47.png",
@@ -189,6 +206,7 @@
           },
           "articles_nQKJQj": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "",
               "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.02.55.png",
@@ -199,20 +217,11 @@
               "article_2_media_hover": "",
               "article_2_custom_text": ""
             }
-          },
-          "hero_khXtxf": {
-            "type": "hero",
-            "disabled": true,
-            "settings": {
-              "goto": "https://cdn.shopify.com/videos/c/o/v/3afe946f82ca4b2ea917434db9023052.mp4",
-              "video_url_1": "https://cdn.shopify.com/videos/c/o/v/3afe946f82ca4b2ea917434db9023052.mp4",
-              "hero_text": "",
-              "info": ""
-            }
           }
         },
         "block_order": [
           "hero_eH7mmr",
+          "two_products_xNp8mX",
           "articles_P4hPbP",
           "articles_RhNm6T",
           "articles_apGa6T",
@@ -226,8 +235,7 @@
           "hero_UPWxnE",
           "articles_cMX9tc",
           "articles_fcQP7Q",
-          "articles_nQKJQj",
-          "hero_khXtxf"
+          "articles_nQKJQj"
         ],
         "settings": {}
       },
