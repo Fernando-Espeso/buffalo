@@ -30,13 +30,15 @@
       {% endif %}
     </div>
     <div class="swiper-pagination"></div>
+    <div class="next"></div>
+    <div class="prev"></div>
   </div>
   
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var swiper = new Swiper('.swiper-article', {
         loop: true,
-        speed:1000,
+        speed:400,
         slidesPerView: 1,
         spaceBetween: 15,
         navigation: {
