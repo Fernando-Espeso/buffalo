@@ -184,14 +184,14 @@
         {% assign variant2 = product2.variants.first %}
         {% assign ext2 = video2 | split: '.' | last | downcase %}
         <a class="product estandard image-hover-wrapper" href="{{ product2.url }}">
-  
+          <div style="position:relative">
           {% if product2.featured_image %}
-            <div style="position:relative">
+         
               <img class="main-img" src="{{ product2.featured_image | img_url: 'master' }}" alt="{{ product2.title }}">
               {% unless variant2.available %}
                 <button class="sold-out-button" disabled>Sold Out</button>
               {% endunless %}
-            </div>
+           
           {% endif %}
   
           {% if video2 %}
@@ -203,7 +203,7 @@
           {% elsif hover2 != blank %}
             <img class="hover-media" src="{{ hover2 | img_url: 'master' }}" alt="Hover {{ product2.title }}">
           {% endif %}
-
+        </div>
           <div class="product-price-white">
             <div class="product-title title-thang">
               {{ product1.title }}<br>
