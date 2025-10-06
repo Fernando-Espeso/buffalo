@@ -6,7 +6,6 @@
 {% assign all_articles = blog.articles %}
 <div class="related">
   <div class="related-title">YOU MIGHT ALSO LIKE</div>
-  <div class="related-list">
     {% for a in all_articles %}
       {% if a.id != article.id %}
         <div class="article estandard" style="display:none">
@@ -21,7 +20,6 @@
         </div>
       {% endif %}
     {% endfor %}
-  </div>
 </div>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
