@@ -360,12 +360,15 @@ div#products img {
   text-align: center;
 }
   .swiper-quotes{
-  column-count: 2;
-  padding: 10px;
-  width: 50%;
-  background-color: white;
-  color: black;
-
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    /* column-count: 2; */
+    grid-gap: 10px;
+    padding: 10px;
+    row-gap: 20px;
+    width: 50%;
+    background-color: #fff;
+    color: #000;
 }
 .title-page{
   font-size: 12px;
@@ -374,7 +377,6 @@ div#products img {
 }
 .swiper-quotes .swiper-slide p {
   font-family: Times New Roman, Times, serif;
-  padding: var(--space) 0px var(--space) 0px;
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
 }
@@ -1110,7 +1112,7 @@ div#shopify-section-stocklist {
   font-weight: normal;
 }
 .stockist-item p {
-  
+
   padding-top: 10px;
   padding-bottom: 20px;
   font-family: Helvetica, sans-serif;
