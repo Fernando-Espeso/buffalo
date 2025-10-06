@@ -154,11 +154,6 @@
           {% unless variant1.available %}
             <button class="sold-out-button" disabled>Sold Out</button>
           {% endunless %}
-          <div class="product-price-white">{{ variant1.price | money }}</div>
-          <div class="product-title title-thang">
-            {{ product1.title }}
-          </div>
-  
           {% if product1.featured_image %}
             <img class="main-img" src="{{ product1.featured_image | img_url: 'master' }}" alt="{{ product1.title }}">
           {% endif %}
@@ -173,6 +168,10 @@
             <img class="hover-media" src="{{ hover1 | img_url: 'master' }}" alt="Hover {{ product1.title }}">
           {% endif %}
         </a>
+        <div class="product-price-white">{{ variant1.price | money }}</div>
+        <div class="product-title title-thang">
+          {{ product1.title }}
+        </div>
       {% endif %}
   
       {% if product2 %}
