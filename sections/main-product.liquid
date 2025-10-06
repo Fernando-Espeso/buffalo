@@ -135,6 +135,14 @@
   <div class="description">
     {{ product.metafields.custom.description | metafield_tag }}
   </div>
+
+  {% if features != blank %}
+    <div class="contributors">
+      <div class="title-cred">FEATURING</div>
+      {{ product.metafields.custom.features | metafield_tag }}
+    </div>
+  {% endif %}
+  
     {% if contributors != blank %}
 
       <div class="contributors">
@@ -144,12 +152,7 @@
 
     {% endif %}
 
-    {% if features != blank %}
-      <div class="contributors">
-        <div class="title-cred">FEATURING</div>
-        {{ product.metafields.custom.features | metafield_tag }}
-      </div>
-    {% endif %}
+   
 
     {% if info != blank %}
       <div class="details-product">{{ product.metafields.custom.info | metafield_tag }} </div>
