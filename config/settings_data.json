@@ -14,6 +14,17 @@
       "hero": {
         "type": "hero",
         "blocks": {
+          "articles_WLBUtw": {
+            "type": "articles",
+            "settings": {
+              "article_1": "shuffle/michael-stipe",
+              "article_1_media_hover": "",
+              "article_1_custom_text": "",
+              "article_2": "your-brand-here/loro-piana-aw-24-25",
+              "article_2_media_hover": "",
+              "article_2_custom_text": ""
+            }
+          },
           "hero_eH7mmr": {
             "type": "hero",
             "settings": {
@@ -220,6 +231,7 @@
           }
         },
         "block_order": [
+          "articles_WLBUtw",
           "hero_eH7mmr",
           "two_products_xNp8mX",
           "articles_P4hPbP",
