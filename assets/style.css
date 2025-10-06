@@ -1436,7 +1436,6 @@ summary.city {
 }
 .prev,
 .next {
-  cursor: pointer;
 }
 .swiper-counter {
   position: absolute;
