@@ -110,8 +110,8 @@
             <a class="your-brand-link" href="/blogs/shuffle">SHUFFLE</a>
           </li>
           
-          <li class="{% if request.path == '/' and request.hash == '#info' %}active{% endif %} none">
-            <a class="info-menu" href="/#info" data-offset="33">INFO</a>
+          <li class="{% if request.path contains '/pages/about' %}active{% endif %} none">
+            <a class="info-menu" href="/pages/about" data-offset="33">INFO</a>
           </li>
           <div class="cart-part">
             <a href="/cart" class="cov"></a>
