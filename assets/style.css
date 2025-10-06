@@ -1089,7 +1089,10 @@ div#shopify-section-stocklist {
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
   padding-bottom: 10px;
 }
+.shopify-section{
+  padding-bottom: 40px;
 
+}
 .title-thang{
   font-family: Helvetica, sans-serif;
   font-size: var(--fs);
