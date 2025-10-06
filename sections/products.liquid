@@ -53,7 +53,7 @@
       {% assign video_url = block.settings.video_url %}
       {% assign ext = video_url | split: '.' | last | downcase %}
   
-      <div class="product {% if block.settings.half %}half{% endif %}">
+      <div class="product {% if block.settings.half %}half{% endif %}  {% if block.settings.third %}third{% endif %}">
 
 
     
