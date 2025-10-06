@@ -25,7 +25,7 @@
             <s>{{ product.compare_at_price | money }}</s>
             <span class="disscount">{{ product.price | money }}</span>
           {% else %}
-            <span class="title-page">{{ product.price | money }}</span>
+            <span class="title-price">{{ product.price | money }}</span>
           {% endif %}
         {% endif %}
       {% else %}

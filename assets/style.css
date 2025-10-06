@@ -531,7 +531,10 @@ footer .container{
     transform: translate3d(0, 0, 0);
     z-index: 10;
 }
-
+span.title-price {
+  font-size: 22px;
+  font-family: times;
+}
 .description {
   margin: 0 auto;
   max-width: 800px;
