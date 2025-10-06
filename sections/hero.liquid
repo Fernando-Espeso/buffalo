@@ -167,11 +167,13 @@
           {% elsif hover1 != blank %}
             <img class="hover-media" src="{{ hover1 | img_url: 'master' }}" alt="Hover {{ product1.title }}">
           {% endif %}
+          <div class="product-price-white">{{ variant1.price | money }}<br>
+          <div class="product-title title-thang">
+            {{ product1.title }}
+          </div></div>
         </a>
-        <div class="product-price-white">{{ variant1.price | money }}</div>
-        <div class="product-title title-thang">
-          {{ product1.title }}
-        </div>
+  
+     
       {% endif %}
   
       {% if product2 %}
