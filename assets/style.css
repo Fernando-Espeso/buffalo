@@ -1113,7 +1113,7 @@ div#shopify-section-stocklist {
   padding-top: 10px;
   padding-bottom: 20px;
   font-family: Times New Roman, Times, serif;
-  font-size: var(--fsm);
+  font-size: var(--fs);
   letter-spacing: 0px;
 }
 .stockist-search {
