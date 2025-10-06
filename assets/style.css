@@ -1437,6 +1437,9 @@ summary.city {
   font-family: 'Times New Roman', Times, serif;
   text-transform: capitalize;
 }
+summary.city:hover{
+  color: grey;
+}
 .swiper-slide:hover .caption {
   display: block;
 }
