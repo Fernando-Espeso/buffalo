@@ -49,13 +49,14 @@
       {% assign ext = video_url | split: '.' | last | downcase %}
   
       <div class="product {% if block.settings.half %}half{% endif %}">
-        {% unless variant.available %}
-          <button class="sold-out-button" disabled>Sold Out</button>
-        {% endunless %}
+
 
     
 
         <a href="{{ product.url }}" class="image-hover-wrapper">
+          {% unless variant.available %}
+            <button class="sold-out-button" disabled>Sold Out</button>
+          {% endunless %}
           {% if product.featured_image %}
             <img class="main-img" src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
           {% endif %}
