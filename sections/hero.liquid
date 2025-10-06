@@ -186,12 +186,12 @@
         <a class="product estandard image-hover-wrapper" href="{{ product2.url }}">
   
           {% if product2.featured_image %}
-            <a style="position:relative">
+            <div style="position:relative">
               <img class="main-img" src="{{ product2.featured_image | img_url: 'master' }}" alt="{{ product2.title }}">
               {% unless variant2.available %}
                 <button class="sold-out-button" disabled>Sold Out</button>
               {% endunless %}
-            </a>
+            </div>
           {% endif %}
   
           {% if video2 %}
