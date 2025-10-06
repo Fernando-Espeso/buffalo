@@ -34,39 +34,38 @@
     {{ 'style.css'  | asset_url | stylesheet_tag }}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
-<!-- Librería desde UNPKG -->
-<script type="module">
-  import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+      <!-- Librería desde UNPKG -->
+      <script type="module">
+        import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
 
-  // Esperamos a que cargue el DOM
-  window.addEventListener("DOMContentLoaded", () => {
-    // Selecciona el div sobre el que quieres el efecto
-    const target = document.querySelector('.mi-div-hover'); // cambia la clase según tu caso
-    if (!target) return;
+        // Esperamos a que cargue el DOM
+        window.addEventListener("DOMContentLoaded", () => {
+          // Selecciona el div sobre el que quieres el efecto
+          const target = document.querySelector('.mi-div-hover'); // cambia la clase según tu caso
+          if (!target) return;
 
-    let effect = null; // guardamos referencia para destruirlo después
+          let effect = null; // guardamos referencia para destruirlo después
 
-    // Iniciar el efecto al hacer hover
-    target.addEventListener('mouseenter', () => {
-      if (!effect) {
-        effect = new fairyDustCursor({
-          element: target, // limita el efecto al div
-          colors: ['#ff00ff', '#00ffff', '#ffffff'], // opcional
-          fairySymbol: '★' // opcional
+          // Iniciar el efecto al hacer hover
+          target.addEventListener('mouseenter', () => {
+            if (!effect) {
+              effect = new fairyDustCursor({
+                element: target, // limita el efecto al div
+                colors: ['#ff00ff', '#00ffff', '#ffffff'], // opcional
+                fairySymbol: '★' // opcional
+              });
+            }
+          });
+
+          // Detener el efecto al salir del hover
+          target.addEventListener('mouseleave', () => {
+            if (effect) {
+              effect.destroy(); // limpia el canvas y listeners
+              effect = null;
+            }
+          });
         });
-      }
-    });
-
-    // Detener el efecto al salir del hover
-    target.addEventListener('mouseleave', () => {
-      if (effect) {
-        effect.destroy(); // limpia el canvas y listeners
-        effect = null;
-      }
-    });
-  });
-</script>
+      </script>
 
     {{ 'current-device-browser.min.js' | asset_url | script_tag }}
     {%- if template == 'product' -%}

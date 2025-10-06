@@ -5,7 +5,7 @@
       {% assign video = block.settings.video_url_1 %}
       {% assign ext = video | split: '.' | last | downcase %}
       
-      <section class="hero image-hover-wrapper">
+      <section class="hero image-hover-wrapper mi-div-hover">
         {% if block.settings.hero_image %}
           <img class="main-img" src="{{ block.settings.hero_image | img_url: 'master' }}" alt="Hero Image">
         {% endif %}
