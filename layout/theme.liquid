@@ -34,17 +34,7 @@
     {{ 'style.css'  | asset_url | stylesheet_tag }}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script type="module">
-      import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
-      window.addEventListener("DOMContentLoaded", () => {
-        const target = document.querySelector(".mi-div-hover");
-        let fx = null;
-        target.addEventListener("mouseenter", () => {
-          fx = new fairyDustCursor({ element: target });
-        });
-        target.addEventListener("mouseleave", () => fx?.destroy());
-      });
-    </script>
+  
 
     {{ 'current-device-browser.min.js' | asset_url | script_tag }}
     {%- if template == 'product' -%}
@@ -241,7 +231,17 @@
         }
       });
     </script>
-    
+    <script type="module">
+      import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+      window.addEventListener("DOMContentLoaded", () => {
+        const target = document.querySelector(".mi-div-hover");
+        let fx = null;
+        target.addEventListener("mouseenter", () => {
+          fx = new fairyDustCursor({ element: target });
+        });
+        target.addEventListener("mouseleave", () => fx?.destroy());
+      });
+    </script>
     {%- if template contains 'product' -%}
       {{ 'global-product.js' | asset_url | script_tag }}
     {%- endif -%}
