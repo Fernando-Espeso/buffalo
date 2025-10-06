@@ -811,8 +811,8 @@
             "settings": {
               "article": "your-brand-here/versace-resort-2024",
               "hover_media": "",
-              "half": true,
-              "third": false
+              "half": false,
+              "third": true
             }
           },
           "custom_article_ewxR6Y": {
@@ -1171,7 +1171,7 @@
             "settings": {
               "product": "issue-10-the-unfinished-issue-aw-19-20",
               "half": false,
-              "third": true,
+              "third": false,
               "video_url": ""
             }
           },
@@ -1188,8 +1188,8 @@
             "type": "product",
             "settings": {
               "product": "issue-8-fashion-s-kitchen-aw-18-19",
-              "half": false,
-              "third": true,
+              "half": true,
+              "third": false,
               "video_url": ""
             }
           },
