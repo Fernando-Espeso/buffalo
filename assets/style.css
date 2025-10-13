@@ -1666,10 +1666,10 @@ fieldset {
 }
 
 .related-title {
-  grid-column: span 3 !important;
+  grid-column: span 3 ;
 }
 .estandard, .related.pr .product {
-  grid-column: span 3 !important;
+  grid-column: span 3;
 }
 .variations #add-to-bag {
   font-family:Helvetica, sans-serif;
