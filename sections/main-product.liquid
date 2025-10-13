@@ -246,30 +246,55 @@ $(document).ready(function () {
       });
     });
   });
-</script>
+</script> 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    // 1) Inicializa Swiper (ajusta opciones a tus necesidades)
+    const galleryEl = document.querySelector('.swiper-gallery');
+    const swiper = new Swiper(galleryEl, {
+      loop: false,
+      slidesPerView: 1,
+      pagination: {
+        el: galleryEl.querySelector('.swiper-pagination'),
+        clickable: true
+      },
+      navigation: {
+        nextEl: galleryEl.querySelector('.next'),
+        prevEl: galleryEl.querySelector('.prev')
+      }
+    });
+  
+    // 2) Indexa slides por su data-slide-key
+    const slides = Array.from(galleryEl.querySelectorAll('.swiper-slide'));
+    const indexByKey = new Map();
+    slides.forEach((slide, idx) => {
+      const key = slide.dataset.slideKey; // p.ej. "azul-marino"
+      if (key && !indexByKey.has(key)) {
+        indexByKey.set(key, idx);
+      }
+    });
+  
+    // 3) Escucha cambios en radios que tengan href="#clave"
     const radios = document.querySelectorAll('input[type="radio"][href^="#"]');
-
     radios.forEach(radio => {
-      radio.addEventListener("change", function () {
-        const targetId = this.getAttribute("href").substring(1);
-        const targetEl = document.getElementById(targetId);
-
-        if (targetEl) {
-          // Obtener offset desde variable CSS
-          const offsetVar = getComputedStyle(document.documentElement).getPropertyValue('--m');
-          const offset = parseInt(offsetVar) || 0; // fallback a 0 si no es válido
-
-          const targetPosition = targetEl.getBoundingClientRect().top + window.scrollY;
-          const scrollToPosition = targetPosition - offset;
-
-          window.scrollTo({
-            top: scrollToPosition,
-            behavior: "smooth"
-          });
+      radio.addEventListener('change', function () {
+        const href = this.getAttribute('href');
+        if (!href) return;
+        const key = href.replace(/^#/, ''); // "azul-marino"
+  
+        // Si tenemos slide con esa clave → saltar a ella
+        if (indexByKey.has(key)) {
+          const slideIndex = indexByKey.get(key);
+          swiper.slideTo(slideIndex); // Swiper usa índice base 0 (considera loop=false)
+        } else {
+          // Fallback: por si no hay clave, intenta scroll al elemento con ese id
+          const el = document.getElementById(key);
+          if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
         }
       });
     });
   });
-</script>  
+  </script>
+  
