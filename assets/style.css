@@ -1246,6 +1246,7 @@ details > summary::-webkit-details-marker {
 .extra {
   background-color: black;
   color: white;
+  padding-bottom: 40px;
 }
 /* SWIPER ARTICLE
 ================================================== */
@@ -1255,7 +1256,6 @@ details > summary::-webkit-details-marker {
   display: flex;
   padding: 0px;
   border-bottom: 1px solid var(--bl);
-  margin-bottom: 40px;
   background-color: black;
 }
  span.swiper-pagination-bullet.swiper-pagination-bullet-active {
