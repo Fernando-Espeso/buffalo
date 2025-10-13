@@ -1243,6 +1243,10 @@ details > summary::-webkit-details-marker {
   background-color: transparent;
   color: var(--bgm);
 }
+.extra {
+  background-color: black;
+  color: white;
+}
 /* SWIPER ARTICLE
 ================================================== */
 .swiper-article {
