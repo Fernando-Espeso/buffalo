@@ -33,7 +33,9 @@
     <div class="next"></div>
     <div class="prev"></div>
   </div>
-  
+  {% if article.metafields.custom.title.value != blank %}
+    <div class="title">{{ article.metafields.custom.title.value }}</div>
+  {% endif %}
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var swiper = new Swiper('.swiper-article', {
