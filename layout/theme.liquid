@@ -248,23 +248,42 @@
 
     <!-- Activar el efecto -->
     <script>
-      let fairyEffect = null;
-      const hoverTarget = document.querySelector('a.your-brand-link');
-
-      hoverTarget.addEventListener('mouseenter', () => {
-        fairyEffect = new cursoreffects.fairyDustCursor({
-          colors: ['#A78BFA', '#F472B6', '#60A5FA'],
-          fairySymbol: '✦'
+      (function () {
+        const hoverTarget = document.querySelector('a.your-brand-link');
+        if (!hoverTarget) return;
+    
+        // Solo desktop y respetando reduce motion
+        const isCoarse = window.matchMedia('(pointer: coarse)').matches;
+        const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (isCoarse || reduce) return;
+    
+        let fairyEffect = null;
+    
+        hoverTarget.addEventListener('mouseenter', () => {
+          if (fairyEffect) return; // evita duplicados
+          // 🔒 Monta el canvas DENTRO del enlace
+          fairyEffect = new cursoreffects.fairyDustCursor({
+            element: hoverTarget,
+            colors: ['#A78BFA', '#F472B6', '#60A5FA'],
+            fairySymbol: '✦'
+          });
         });
-      });
-
-      hoverTarget.addEventListener('mouseleave', () => {
-        // Elimina el canvas del efecto cuando se sale del hover
-        if (fairyEffect && fairyEffect.canvas) {
-          fairyEffect.canvas.remove();
+    
+        function stop() {
+          if (!fairyEffect) return;
+          // Desmonta limpiamente (event listeners + canvas)
+          if (typeof fairyEffect.destroy === 'function') {
+            fairyEffect.destroy();
+          } else if (fairyEffect.canvas) {
+            fairyEffect.canvas.remove();
+          }
           fairyEffect = null;
         }
-      });
+    
+        hoverTarget.addEventListener('mouseleave', stop);
+        document.addEventListener('visibilitychange', () => { if (document.hidden) stop(); });
+        window.addEventListener('blur', stop);
+      })();
     </script>
     {%- if template contains 'product' -%}
       {{ 'global-product.js' | asset_url | script_tag }}
