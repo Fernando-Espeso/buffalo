@@ -11,6 +11,10 @@
 :focus {
   outline: none !important;
 }
+
+div#shopify-section-template--24808222163276__main {
+  padding-bottom: 20px;
+}
 /* Scrollbar */
 ::-webkit-scrollbar {
   display: none;
@@ -1266,7 +1270,7 @@ details > summary::-webkit-details-marker {
 
 .swiper-article .swiper-slide img{
   display: flex;
-  height: calc(100% - 80px);
+  height: calc(100% - 100px);
   width: 100%;
   object-fit: contain;
   align-items: center;
