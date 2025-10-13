@@ -105,40 +105,43 @@
     <div class="swiper-wrapper">
       {% if product.metafields.custom.cover != blank %}
         {% assign cover = product.metafields.custom.cover %}
-        <div class="swiper-slide">
+        <div class="swiper-slide" data-slide-key="{{ cover.alt | default: 'cover' | handleize }}">
           <img
             id="cover-{{ product.id }}"
             class="lazy"
-            src="{{ cover | image_url: width: 200 }}"          {# thumb #}
-            data-src="{{ cover | image_url: width: 2048 }}"     {# master #}
-            alt="{{ product.title | escape }}"
+            src="{{ cover | image_url: width: 200 }}"
+            data-src="{{ cover | image_url: width: 2048 }}"
+            alt="{{ cover.alt | default: product.title | escape }}"
           />
         </div>
       {% endif %}
+  
       {% for media in product.media %}
         {% case media.media_type %}
           {% when 'video' %}
-            <div class="swiper-slide">
+            <div class="swiper-slide" data-slide-key="{{ media.alt | default: media.id | handleize }}">
               {{ media | video_tag: loop: true, autoplay: true, muted: true }}
             </div>
+  
           {% when 'image' %}
-            <div class="swiper-slide">
-              <img 
-                id="{{ media.alt }}"
-                class="lazy" 
-                src="{{ media | product_img_url: 'thumb' }}" 
-                data-src="{{ media | product_img_url: 'master' }}" 
-                alt="{{ media.alt }}" 
+            <div class="swiper-slide" data-slide-key="{{ media.alt | default: media.id | handleize }}">
+              <img
+                id="{{ media.alt | default: media.id | handleize }}"
+                class="lazy"
+                src="{{ media | product_img_url: 'thumb' }}"
+                data-src="{{ media | product_img_url: 'master' }}"
+                alt="{{ media.alt }}"
               />
             </div>
         {% endcase %}
       {% endfor %}
     </div>
+  
     <div class="swiper-pagination"></div>
     <div class="next"></div>
     <div class="prev"></div>
-
   </div>
+  
     {% assign info = product.metafields.custom.description | default: '' %}
 {% assign contributors = product.metafields.custom.contributors | default: '' %}
 {% assign features = product.metafields.custom.features | default: '' %}
@@ -153,7 +156,7 @@
       {{ product.metafields.custom.features | metafield_tag }}
     </div>
   {% endif %}
-
+  
     {% if contributors != blank %}
 
       <div class="contributors">
