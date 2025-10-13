@@ -248,23 +248,49 @@
 
     <!-- Activar el efecto -->
     <script>
-      let fairyEffect = null;
-      const hoverTarget = document.querySelector('a.your-brand-link');
+      (function () {
+        const target = document.querySelector('a.your-brand-link.mi-div-hover');
 
-      hoverTarget.addEventListener('mouseenter', () => {
-        fairyEffect = new cursoreffects.fairyDustCursor({
-          colors: ['#A78BFA', '#F472B6', '#60A5FA'],
-          fairySymbol: '✦'
-        });
-      });
+        // Solo en desktop y si el usuario no prefiere menos animación
+        const isCoarse = window.matchMedia('(pointer: coarse)').matches; // móviles/tablets táctiles
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (isCoarse || reduceMotion || !target) return;
 
-      hoverTarget.addEventListener('mouseleave', () => {
-        // Elimina el canvas del efecto cuando se sale del hover
-        if (fairyEffect && fairyEffect.canvas) {
-          fairyEffect.canvas.remove();
-          fairyEffect = null;
+        let fairy = null;
+
+        function startFairy() {
+          // Evita crear múltiples instancias
+          if (fairy) return;
+
+          // Vincula el efecto SOLO al botón/enlace
+          fairy = new cursoreffects.fairyDustCursor({
+            element: target,
+            colors: ['#A78BFA', '#F472B6', '#60A5FA'],
+            fairySymbol: '✦'
+          });
         }
-      });
+
+        function stopFairy() {
+          if (!fairy) return;
+          // Elimina el canvas inmediatamente (desaparece al salir del hover)
+          if (fairy.canvas && fairy.canvas.parentNode) {
+            fairy.canvas.parentNode.removeChild(fairy.canvas);
+          }
+          // Por si la lib expone algún loop interno
+          if (typeof fairy.destroy === 'function') {
+            try { fairy.destroy(); } catch(e) {}
+          }
+          fairy = null;
+        }
+
+        target.addEventListener('mouseenter', startFairy);
+        target.addEventListener('mouseleave', stopFairy);
+        // Limpieza extra por si el cursor sale muy rápido o cambia de pestaña
+        document.addEventListener('visibilitychange', () => {
+          if (document.hidden) stopFairy();
+        });
+        window.addEventListener('blur', stopFairy);
+      })();
     </script>
     {%- if template contains 'product' -%}
       {{ 'global-product.js' | asset_url | script_tag }}
