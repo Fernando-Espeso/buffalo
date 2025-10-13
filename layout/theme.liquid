@@ -52,6 +52,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+
     {{ content_for_header }}
   </head>
   <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
@@ -244,6 +246,15 @@
       });
     </script>
 
+    <!-- Activar el efecto -->
+    <script>
+      window.addEventListener('load', () => {
+        new cursoreffects.fairyDustCursor({
+          colors: ['#A78BFA', '#F472B6', '#60A5FA'], // colores
+          fairySymbol: '✦' // símbolo opcional
+        });
+      });
+    </script>
     {%- if template contains 'product' -%}
       {{ 'global-product.js' | asset_url | script_tag }}
     {%- endif -%}
