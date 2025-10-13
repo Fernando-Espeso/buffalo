@@ -1847,6 +1847,7 @@ display: none;
 }
 .swiper-gallery .swiper-wrapper {
   height: fit-content;
+  align-items: center;
 }
 .interview {
   color: black;
