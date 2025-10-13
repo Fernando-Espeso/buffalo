@@ -1665,6 +1665,12 @@ fieldset {
   padding: 10px;
 }
 
+.related-title {
+  grid-column: span 3 !important;
+}
+.estandard, .related.pr .product {
+  grid-column: span 3 !important;
+}
 .variations #add-to-bag {
   font-family:Helvetica, sans-serif;
   font-size: var(--font)!important;
