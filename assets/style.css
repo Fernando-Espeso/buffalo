@@ -1243,6 +1243,20 @@ details > summary::-webkit-details-marker {
   background-color: transparent;
   color: var(--bgm);
 }
+.shopify-pc__banner__dialog button {
+  border: none;
+  text-decoration: none;
+  font-family: inherit;
+  padding: 10px;
+  padding-bottom: 10px !important;
+  margin-top: 15px;
+  font-size: 100%;
+  flex-basis: 50%;
+  border-radius: 2px;
+  line-height: 120%;
+  height: unset;
+  text-align: center;
+}
 .extra {
   background-color: black;
   color: white!important;
