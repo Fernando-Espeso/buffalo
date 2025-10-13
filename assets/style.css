@@ -1248,6 +1248,8 @@ details > summary::-webkit-details-marker {
   color: white!important;
   text-align: center!important;
   padding-bottom: 40px !important;
+  width: 100%;
+  max-width: 100%;
 }
 /* SWIPER ARTICLE
 ================================================== */
