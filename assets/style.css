@@ -1716,6 +1716,12 @@ button.sold-out-button {
 .menu-op{
   display: none;
 }
+.related-title {
+  grid-column: span 1;
+}
+.related-products {
+  grid-template-columns: repeat(1, 1fr);
+}
 @media (max-width: 1000px) {
 div#main-product{
   grid-template-columns: repeat(2, 1fr);
@@ -1728,6 +1734,7 @@ div#main-product{
 .main .gallery{
   grid-column: span 1;
 }
+
 }
 /* Small mobile styles */
 @media (max-width: 680px) {
@@ -1777,12 +1784,7 @@ section.two-products, .articles-block {
   column-count: 1;
 } 
 
-.related-title {
-  grid-column: span 1;
-}
-.related-products {
-  grid-template-columns: repeat(1, 1fr);
-}
+
 div#products {
   grid-template-columns: repeat(1, 1fr);
 }
