@@ -26,11 +26,11 @@
         </select>
       {% endif %}
       <fieldset class="variant-fieldset" data-type="radio"
-      {%- if product.has_only_default_variant -%}
+        {%- if product.has_only_default_variant -%}
           style="display:none"
-          {%- elsif variants > 1 -%}
+        {%- elsif variants > 1 -%}
           style="display:block"
-          {%- endif -%}
+        {%- endif -%}
       >
         {%- for value in option.values -%}
           {%- liquid
@@ -42,27 +42,35 @@
                 break
               endif
             endfor
+            assign value_key = value | handleize
           -%}
-
-          <label class="product-variant-option {% if optionVariant.available == false %} unavailable {% endif %}" for="{{ product.id }}-{{ optionVariant.id }}-{{ option.position }}-{{ type }}" data-option>
+      
+          <label class="product-variant-option {% if optionVariant.available == false %} unavailable {% endif %}"
+                 for="{{ product.id }}-{{ optionVariant.id }}-{{ option.position }}-{{ type }}"
+                 data-option>
             {% unless option.name == "Color" %}
-              <div class="option-value"> {{ value }} </div>
+              <div class="option-value">{{ value }}</div>
             {% endunless %}
-
-            {% if product.variants[forloop.index0].metafields.custom.color and option.name == "Color"%}
-              <span class="color-option" style="background-color: {{ product.variants[forloop.index0].metafields.custom.color }}">&nbsp;</span>
+      
+            {% if product.variants[forloop.index0].metafields.custom.color and option.name == "Color" %}
+              <span class="color-option"
+                    style="background-color: {{ product.variants[forloop.index0].metafields.custom.color }}">&nbsp;</span>
             {% endif %}
-            <input type="radio" class="visually-hidden" id="{{ section.id }}-{{ optionVariant.id }}-{{ option.position }}-{{ type }}"
+      
+            <input
+              type="radio"
+              class="visually-hidden"
+              id="{{ section.id }}-{{ optionVariant.id }}-{{ option.position }}-{{ type }}"
               name="{{ option.name }}"
               value="{{ value | escape }}"
-              href="#{{ value | replace: ' ', '' | escape }}"
+              href="#{{ value_key }}"
               formId="{{ formID }}"
               {% if option.selected_value == value %}checked{% endif %}
             >
           </label>
-          
         {%- endfor -%}
       </fieldset>
+      
     </div>
   {%- endfor -%}
 
