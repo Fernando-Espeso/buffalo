@@ -1256,6 +1256,9 @@ details > summary::-webkit-details-marker {
  span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: white !important;
 }
+div#shopify-section-template--26607999811916__main {
+  background-color: black;
+}
  span.swiper-pagination-bullet.swiper-pagination-bullet {
   background: white !important;
 }
