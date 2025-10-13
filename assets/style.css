@@ -1245,8 +1245,9 @@ details > summary::-webkit-details-marker {
 }
 .extra {
   background-color: black;
-  color: white;
-  padding-bottom: 40px;
+  color: white!important;
+  text-align: center!important;
+  padding-bottom: 40px !important;
 }
 /* SWIPER ARTICLE
 ================================================== */
