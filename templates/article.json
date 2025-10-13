@@ -28,7 +28,7 @@
           "type": "summary",
           "settings": {
             "subtitle": "<p>rext</p>",
-            "interior": ""
+            "interior": "<p>test</p>"
           }
         }
       },
