@@ -1,0 +1,48 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "article-content",
+      "settings": {}
+    },
+    "swiper_GDjVY8": {
+      "type": "swiper",
+      "settings": {}
+    },
+    "interview_fdRXe6": {
+      "type": "interview",
+      "settings": {}
+    },
+    "info_ENFkmc": {
+      "type": "info",
+      "blocks": {
+        "summary_nkE7ig": {
+          "type": "summary",
+          "settings": {
+            "subtitle": "<p>rext</p>",
+            "interior": "<p>test</p>"
+          }
+        }
+      },
+      "block_order": [
+        "summary_nkE7ig"
+      ],
+      "name": "Info",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "swiper_GDjVY8",
+    "interview_fdRXe6",
+    "info_ENFkmc"
+  ]
+}
