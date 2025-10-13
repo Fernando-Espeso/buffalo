@@ -20,29 +20,11 @@
     "interview_fdRXe6": {
       "type": "interview",
       "settings": {}
-    },
-    "info_ENFkmc": {
-      "type": "info",
-      "blocks": {
-        "summary_nkE7ig": {
-          "type": "summary",
-          "settings": {
-            "subtitle": "<p>rext</p>",
-            "interior": "<p>test</p>"
-          }
-        }
-      },
-      "block_order": [
-        "summary_nkE7ig"
-      ],
-      "name": "Info",
-      "settings": {}
     }
   },
   "order": [
     "main",
     "swiper_GDjVY8",
-    "interview_fdRXe6",
-    "info_ENFkmc"
+    "interview_fdRXe6"
   ]
 }
