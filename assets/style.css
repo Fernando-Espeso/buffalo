@@ -1833,6 +1833,12 @@ div#products {
 .related-title {
   grid-column: span 1;
 }
+.related {
+  grid-template-columns: repeat(1, 1fr);
+  display: grid
+;
+  grid-gap: 2px;
+}
 .related-products {
   grid-template-columns: repeat(1, 1fr);
 }
