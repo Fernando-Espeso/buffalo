@@ -1845,6 +1845,9 @@ form#cart-wrapper {
 .non{
 display: none;
 }
+.swiper-gallery .swiper-wrapper {
+  height: fit-content;
+}
 .interview {
   color: black;
   font-size: var(--fsb);
