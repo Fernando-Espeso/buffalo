@@ -248,11 +248,22 @@
 
     <!-- Activar el efecto -->
     <script>
-      window.addEventListener('load', () => {
-        new cursoreffects.fairyDustCursor({
-          colors: ['#A78BFA', '#F472B6', '#60A5FA'], // colores
-          fairySymbol: '✦' // símbolo opcional
+      let fairyEffect = null;
+      const hoverTarget = document.querySelector('a.your-brand-link');
+
+      hoverTarget.addEventListener('mouseenter', () => {
+        fairyEffect = new cursoreffects.fairyDustCursor({
+          colors: ['#A78BFA', '#F472B6', '#60A5FA'],
+          fairySymbol: '✦'
         });
+      });
+
+      hoverTarget.addEventListener('mouseleave', () => {
+        // Elimina el canvas del efecto cuando se sale del hover
+        if (fairyEffect && fairyEffect.canvas) {
+          fairyEffect.canvas.remove();
+          fairyEffect = null;
+        }
       });
     </script>
     {%- if template contains 'product' -%}
