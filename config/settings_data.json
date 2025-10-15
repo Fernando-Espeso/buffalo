@@ -1097,8 +1097,8 @@
             "type": "product",
             "settings": {
               "product": "issue-20-success-etc",
-              "half": true,
-              "third": false,
+              "half": false,
+              "third": true,
               "hover_image": "shopify://shop_images/BZ20_Cover_03_Pippa_laying.jpg",
               "video_url": ""
             }
@@ -1107,8 +1107,8 @@
             "type": "product",
             "settings": {
               "product": "issue-19-mother-aw2024-laying",
-              "half": true,
-              "third": false,
+              "half": false,
+              "third": true,
               "hover_image": "shopify://shop_images/BZ19_Cover_4_laying.jpg",
               "video_url": ""
             }
@@ -1118,7 +1118,7 @@
             "settings": {
               "product": "issue-19-buffalo-power-aw2023",
               "half": false,
-              "third": false,
+              "third": true,
               "hover_image": "shopify://shop_images/BZ18_Cover_4_laying.jpg",
               "video_url": ""
             }
@@ -1128,7 +1128,7 @@
             "settings": {
               "product": "issue-17-coffee-cigarettes-ss2023",
               "half": false,
-              "third": false,
+              "third": true,
               "hover_image": "shopify://shop_images/BZ17_COVER_EMMA_LAYING_e5a54960-2a98-4aa4-8092-65381c5989e8.jpg",
               "video_url": ""
             }
