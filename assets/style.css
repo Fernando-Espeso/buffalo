@@ -548,6 +548,10 @@ span.title-price {
   font-size: 22px;
   font-family: times;
 }
+.big{
+  font-size: 50px;
+  list-height:47px;
+}
 .description {
   margin: 0 auto;
   font-family: Times New Roman, Times, serif;
@@ -656,8 +660,8 @@ section.hero {
 
 .description {
   text-transform: uppercase;
-  font-size: 50px;
-  line-height: 48px;
+  font-size: var(--fsb);
+  line-height: clac(var(--fsb) + 5px);
 }
 .next{
   position:absolute;
@@ -1785,8 +1789,8 @@ section.two-products, .articles-block {
   text-align: left;
   font-family: Times New Roman, Times, serif;
   padding: 10px 0px;
-  font-size: 30px;
-  line-height: 29px;
+  font-size: var(--fsb);
+  line-height: clac(var(--fsb) + 5px);
 }
 .contributors {
   column-count: 0;
