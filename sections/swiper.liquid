@@ -94,102 +94,112 @@
   </script>
 
 <script src="https://player.vimeo.com/api/player.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  // Encuentra todos los slides con Vimeo
-  const vimeoSlides = document.querySelectorAll('.swiper-slide--vimeo');
+<script>document.addEventListener("DOMContentLoaded", function () {
+  const containers = document.querySelectorAll(".vimeo");
 
-  vimeoSlides.forEach(function (slide) {
-    const iframe = slide.querySelector('.vimeo-iframe');
-    if (!iframe) return;
+  containers.forEach(container => {
+      const video = container.querySelector(".video");
+      const playPauseBtn = container.querySelector(".playPauseBtn");
+      const muteBtn = container.querySelector(".muteBtn");
+      const progressBar = container.querySelector(".progress-bar");
+      const timeDisplay = container.querySelector(".time-display");
+      const fullscreenBtn = container.querySelector(".fullscreenBtn"); // 👈 Nuevo botón
 
-    // Crea el player de Vimeo
-    const player = new Vimeo.Player(iframe, {
-      // Estos parámetros ya van en el src, pero lo dejamos por si acaso
-      autopause: false,
-      loop: true,
-      muted: true,
-      playsinline: true
-    });
-
-    // Controles personalizados
-    const muteBtn = slide.querySelector('.muteBtn');
-    const fullscreenBtn = slide.querySelector('.fullscreenBtn');
-    const playPauseBtn = slide.querySelector('.playPauseBtn'); // oculto por ahora
-
-    // Estado inicial
-    player.setMuted(true).catch(()=>{});
-    player.play().catch(()=>{});
-
-    // Mute / Unmute
-    if (muteBtn) {
-      muteBtn.addEventListener('click', async () => {
-        try {
-          const currentMuted = await player.getMuted();
-          await player.setMuted(!currentMuted);
-          // Cambia label del botón
-          muteBtn.textContent = currentMuted ? 'Mute' : 'Unmute';
-          muteBtn.dataset.muted = String(!currentMuted);
-        } catch(e) { /* noop */ }
-      });
-    }
-
-    // Fullscreen
-    if (fullscreenBtn) {
-      fullscreenBtn.addEventListener('click', async () => {
-        try {
-          // Vimeo expone requestFullscreen en el player
-          await player.requestFullscreen();
-        } catch(e) {
-          // fallback al iframe si hiciera falta
-          if (iframe.requestFullscreen) iframe.requestFullscreen();
-        }
-      });
-    }
-
-    // (Opcional) Play/Pause si quisieras mostrarlo
-    if (playPauseBtn) {
-      playPauseBtn.addEventListener('click', async () => {
-        try {
-          const paused = await player.getPaused();
-          if (paused) {
-            await player.play();
-            playPauseBtn.textContent = 'Pause';
+      // PLAY / PAUSE
+      playPauseBtn.addEventListener("click", function () {
+          if (video.paused) {
+              video.play();
+              playPauseBtn.textContent = "Pause";
           } else {
-            await player.pause();
-            playPauseBtn.textContent = 'Play';
+              video.pause();
+              playPauseBtn.textContent = "Play";
           }
-        } catch(e) { /* noop */ }
       });
-    }
 
-    // Integración con Swiper: pausa si el slide no está activo
-    // Detecta el contenedor Swiper más cercano
-    const swiperEl = slide.closest('.swiper');
-    if (!swiperEl) return;
+      // MUTE / UNMUTE (y mutear otros videos)
+      muteBtn.addEventListener("click", function () {
+          if (video.muted) {
+              document.querySelectorAll(".video").forEach(v => {
+                  v.muted = true;
+                  v.closest(".vimeo").querySelector(".muteBtn").textContent = "Unmute";
+              });
+              video.muted = false;
+              muteBtn.textContent = "Mute";
+          } else {
+              video.muted = true;
+              muteBtn.textContent = "Unmute";
+          }
+      });
 
-    // Intenta obtener la instancia. Si la creas tú, guarda la ref globalmente.
-    // Como fallback, observamos cambios de clase active.
-    const handleVisibility = async () => {
-      const isActive = slide.classList.contains('swiper-slide-active');
-      try {
-        if (isActive) {
-          await player.play();
+      // dentro de tu forEach(...)
+      fullscreenBtn.addEventListener("click", function () {
+        const isFS = !!document.fullscreenElement;
+
+        if (!isFS) {
+          // Intenta estándar
+          if (video.requestFullscreen) {
+            video.requestFullscreen();
+          // Safari iOS
+          } else if (video.webkitEnterFullscreen) {
+            video.webkitEnterFullscreen();
+          // Fallback
+          } else {
+            container.requestFullscreen();
+          }
+          fullscreenBtn.textContent = "Exit Fullscreen";
         } else {
-          await player.pause();
+          if (document.exitFullscreen) document.exitFullscreen();
+          fullscreenBtn.textContent = "Fullscreen";
         }
-      } catch(e) { /* noop */ }
-    };
+      });
 
-    // Observa cambios de clase en el slide para detectar activo/inactivo
-    const mo = new MutationObserver(handleVisibility);
-    mo.observe(slide, { attributes: true, attributeFilter: ['class'] });
+      // Mantén el texto del botón sincronizado si el usuario pulsa Esc
+      document.addEventListener("fullscreenchange", () => {
+        fullscreenBtn.textContent = document.fullscreenElement ? "Exit Fullscreen" : "Fullscreen";
+      });
 
-    // Primera evaluación
-    handleVisibility();
+      // ACTUALIZA BARRA DE PROGRESO Y TIEMPO
+      function animateProgress() {
+          const current = video.currentTime;
+          const duration = video.duration;
 
-    // Si tienes acceso a la instancia de Swiper (por ejemplo en window), puedes hacer:
-    // window.mySwiper.on('slideChange', handleVisibility);
+          if (!isNaN(duration)) {
+              progressBar.max = duration;
+              progressBar.value = current;
+              timeDisplay.textContent = formatTime(current);
+          }
+
+          requestAnimationFrame(animateProgress);
+      }
+
+      video.addEventListener("play", () => requestAnimationFrame(animateProgress));
+
+      // CAMBIO DESDE LA BARRA
+      progressBar.addEventListener("input", function () {
+          video.currentTime = progressBar.value;
+      });
+
+      // FORMATEADOR DE TIEMPO
+      function formatTime(seconds) {
+          const mins = Math.floor(seconds / 60);
+          const secs = Math.floor(seconds % 60);
+          return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+      }
   });
 });
+<?php
+// Extrae el ID del video de casi cualquier URL de YouTube (watch, youtu.be, embed…)
+function youtubeIdFromUrl(string $url): ?string {
+$patterns = [
+  '/youtu\.be\/([A-Za-z0-9_-]{11})/i',
+  '/youtube\.com\/(?:embed\/|v\/|shorts\/|.*v=)([A-Za-z0-9_-]{11})/i',
+];
+foreach ($patterns as $p) {
+  if (preg_match($p, $url, $m)) return $m[1];
+}
+return null;
+}
+
+?>
+const player = new Plyr('#player', { controls: [] });
 </script>
