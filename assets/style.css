@@ -1778,8 +1778,8 @@ section.two-products, .articles-block {
   text-align: left;
   font-family: Times New Roman, Times, serif;
   padding: 10px 0px;
-  font-size: var(--fsb);
-  line-height: clac(var(--fsb) + 5px);
+  font-size: 30px;
+  line-height: 29px;
 }
 .contributors {
   column-count: 0;
