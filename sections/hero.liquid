@@ -1,5 +1,72 @@
+{%- comment -%}
+  HOME SECTION CON GRID DE ARTÍCULOS REPETIBLES
+  - Nuevo bloque contenedor: articles_grid (elige 2 o 3 columnas con checkboxes half/third)
+  - Nuevo bloque item: article_card (elige artículo y, opcional, sube imagen custom)
+  - El grid se abre al encontrar articles_grid y se cierra automáticamente al:
+      * Encontrar un bloque que no sea article_card ni articles_grid
+      * Terminar el bucle
+{%- endcomment -%}
+
+{%- assign in_grid = false -%}
+{%- assign current_grid_class = '' -%}
+
 {% for block in section.blocks %}
+
+  {%- comment -%}
+    Si hay un grid abierto y llega algo que NO es article_card ni articles_grid, ciérralo antes.
+  {%- endcomment -%}
+  {% if in_grid and block.type != 'article_card' and block.type != 'articles_grid' %}
+    </div></section>
+    {%- assign in_grid = false -%}
+    {%- assign current_grid_class = '' -%}
+  {% endif %}
+
   {% case block.type %}
+
+    {# =========================
+       NUEVOS BLOQUES DE GRID
+       ========================= #}
+    {% when 'articles_grid' %}
+      {%- comment -%} Si hubiese un grid previo abierto, ciérralo {%- endcomment -%}
+      {% if in_grid %}
+        </div></section>
+      {% endif %}
+
+      {%- assign grid_class = 'grid-half' -%}
+      {%- if block.settings.third -%}
+        {%- assign grid_class = 'grid-third' -%}
+      {%- elsif block.settings.half -%}
+        {%- assign grid_class = 'grid-half' -%}
+      {%- endif -%}
+
+      <section class="articles-grid {{ grid_class }}">
+        <div class="articles-grid__inner">
+      {%- assign in_grid = true -%}
+      {%- assign current_grid_class = grid_class -%}
+
+    {% when 'article_card' %}
+      {% if in_grid %}
+        {%- assign art = articles[block.settings.article] -%}
+        {% if art %}
+          <article class="article-card">
+            <a class="article-card__media image-hover-wrapper" href="{{ art.url }}">
+              {% if block.settings.custom_image %}
+                <img class="main-img" src="{{ block.settings.custom_image | img_url: 'master' }}" alt="{{ art.title }}">
+              {% elsif art.image %}
+                <img class="main-img" src="{{ art.image | img_url: 'master' }}" alt="{{ art.title }}">
+              {% endif %}
+            </a>
+            <h3 class="article-card__title title-thang">
+              <a href="{{ art.url }}">{{ art.title }}</a>
+            </h3>
+          </article>
+        {% endif %}
+      {% endif %}
+
+    {# =========================
+       TUS BLOQUES ORIGINALES
+       ========================= #}
+
     {% when 'hero' %}
       {% assign hover = block.settings.hover_image_1 %}
       {% assign video = block.settings.video_url_1 %}
@@ -22,201 +89,195 @@
       </section>
       <div class="info-hero">{{ block.settings.info }}</div>
 
-  {% when 'single_product' %}
-  {% assign product = all_products[block.settings.product] %}
-  {% assign full_screen = block.settings.fullscreen %}
+    {% when 'single_product' %}
+      {% assign product = all_products[block.settings.product] %}
+      {% assign full_screen = block.settings.fullscreen %}
 
-  <section class="single-product{% if full_screen %} full-screen{% endif %}">
-    {% if product %}
-      <div class="product-title-section">
-        <div>{{ product.title }}</div>
-        <a href="{{ product.url }}">View Product</a>
-      </div>
-      {% if block.settings.custom_image %}
-        <img src="{{ block.settings.custom_image | img_url: 'master' }}" alt="Custom Image">
-      {% else %}
-        <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
-      {% endif %}
-    {% endif %}
-  </section>
-{% when 'articles' %}
-  <section class="blockers">
-
-    {% if block.settings.article_1 %}
-      {% assign article = articles[block.settings.article_1] %}
-      {% assign hover_1 = block.settings.article_1_media_hover %}
-      {% if hover_1 %}
-        {% assign ext_1 = hover_1 | split: '.' | last | downcase %}
-      {% endif %}
-
-      <div class="block-hero">
-      
-        <a href="{{ article.url }}" class="image-hover-wrapper">
-          {% if block.settings.article_1_image %}
-            <img class="main-img" src="{{ block.settings.article_1_image | img_url: 'master' }}" alt="{{ article.title }}">
-          {% elsif article.image %}
-            <img class="main-img" src="{{ article.image | img_url: 'master' }}" alt="{{ article.title }}">
-          {% endif %}
-
-          
-          {% if hover_1 %}
-            {% if ext_1 == 'mp4' %}
-              <video class="hover-media" autoplay muted loop playsinline>
-                <source src="{{ hover_1 }}" type="video/mp4">
-              </video>
-            {% else %}
-              <img class="hover-media" src="{{ hover_1 }}" alt="{{ article.title }}">
-            {% endif %}
-          {% endif %}
-        </a>
-        <div class="title-thang">
-          <div>{{ article.title }}</div>
-        </div>
-        {% if block.settings.article_1_custom_text != blank %}
-          <div class="custom-text-article">
-            {{ block.settings.article_1_custom_text }}
-          </div>
-        {% endif %}
-      </div>
-    {% endif %}
-
-
-    {% if block.settings.article_2 %}
-      {% assign article2 = articles[block.settings.article_2] %}
-      {% assign hover_2 = block.settings.article_2_media_hover %}
-      {% if hover_2 %}
-        {% assign ext_2 = hover_2 | split: '.' | last | downcase %}
-      {% endif %}
-
-      <div class="block-hero">
-  
-
-        <a href="{{ article2.url }}" class="image-hover-wrapper">
-          {% if block.settings.custom_image %}
-            <img class="main-img" src="{{ block.settings.custom_image | img_url: 'master' }}" alt="{{ article2.title }}">
-          {% elsif article2.image %}
-            <img class="main-img" src="{{ article2.image | img_url: 'master' }}" alt="{{ article2.title }}">
-          {% endif %}
-
-          {% if hover_2 %}
-            {% if ext_2 == 'mp4' %}
-              <video class="hover-media" autoplay muted loop playsinline>
-                <source src="{{ hover_2 }}" type="video/mp4">
-              </video>
-            {% else %}
-              <img class="hover-media" src="{{ hover_2 }}" alt="{{ article2.title }}">
-            {% endif %}
-          {% endif %}
-        </a>
-        <div class="title-thang">
-          <div>{{ article2.title }}</div>
-        </div>
-        {% if block.settings.article_2_custom_text != blank %}
-          <div class="custom-text-article">
-            {{ block.settings.article_2_custom_text }}
-          </div>
-        {% endif %}
-      </div>
-    {% endif %}
-
-  </section>
-
-{% when 'six_products_with_bg' %}
-  <section class="six-products-with-bg">
-    <img src="{{block.settings.bg_image| img_url: 'master' }}" alt="Custom Image">
-    <div class="products-list">
-      {% assign letters = "A,B,C,D,E,F" | split: "," %}
-      {% for i in (1..6) %}
-        {% assign product_key = "product_" | append: i %}
-        {% assign product = all_products[block.settings[product_key]] %}
+      <section class="single-product{% if full_screen %} full-screen{% endif %}">
         {% if product %}
-          <div class="product-item">
-            <span class="product-letter">{{ letters[forloop.index0] }}</span>
-            <a class="product-title" href="{{ product.url }}">{{ product.title }}</a>
+          <div class="product-title-section">
+            <div>{{ product.title }}</div>
+            <a href="{{ product.url }}">View Product</a>
+          </div>
+          {% if block.settings.custom_image %}
+            <img src="{{ block.settings.custom_image | img_url: 'master' }}" alt="Custom Image">
+          {% else %}
+            <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+          {% endif %}
+        {% endif %}
+      </section>
+
+    {% when 'articles' %}
+      <section class="blockers">
+
+        {% if block.settings.article_1 %}
+          {% assign article = articles[block.settings.article_1] %}
+          {% assign hover_1 = block.settings.article_1_media_hover %}
+          {% if hover_1 %}
+            {% assign ext_1 = hover_1 | split: '.' | last | downcase %}
+          {% endif %}
+
+          <div class="block-hero">
+            <a href="{{ article.url }}" class="image-hover-wrapper">
+              {% if block.settings.article_1_image %}
+                <img class="main-img" src="{{ block.settings.article_1_image | img_url: 'master' }}" alt="{{ article.title }}">
+              {% elsif article.image %}
+                <img class="main-img" src="{{ article.image | img_url: 'master' }}" alt="{{ article.title }}">
+              {% endif %}
+              {% if hover_1 %}
+                {% if ext_1 == 'mp4' %}
+                  <video class="hover-media" autoplay muted loop playsinline>
+                    <source src="{{ hover_1 }}" type="video/mp4">
+                  </video>
+                {% else %}
+                  <img class="hover-media" src="{{ hover_1 }}" alt="{{ article.title }}">
+                {% endif %}
+              {% endif %}
+            </a>
+            <div class="title-thang">
+              <div>{{ article.title }}</div>
+            </div>
+            {% if block.settings.article_1_custom_text != blank %}
+              <div class="custom-text-article">
+                {{ block.settings.article_1_custom_text }}
+              </div>
+            {% endif %}
           </div>
         {% endif %}
-      {% endfor %}
-    </div>
-  {% when 'two_products' %}
-    <section class="two-products">
-      {% assign product1 = all_products[block.settings.product_1] %}
-      {% assign product2 = all_products[block.settings.product_2] %}
-      {% assign hover1 = block.settings.hover_image_1 %}
-      {% assign hover2 = block.settings.hover_image_2 %}
-      {% assign video1 = block.settings.video_url_1 %}
-      {% assign video2 = block.settings.video_url_2 %}
-      
-      {% if product1 %}
-        {% assign variant1 = product1.variants.first %}
-        {% assign ext1 = video1 | split: '.' | last | downcase %}
-        <a class="product estandard image-hover-wrapper" href="{{ product1.url }}">
-          {% unless variant1.available %}
-            <button class="sold-out-button" disabled>Sold Out</button>
-          {% endunless %}
-          {% if product1.featured_image %}
-            <img class="main-img" src="{{ product1.featured_image | img_url: 'master' }}" alt="{{ product1.title }}">
-          {% endif %}
-  
-          {% if video1 %}
-            {% if ext1 == 'mp4' %}
-              <video class="hover-media" autoplay muted loop playsinline>
-                <source src="{{ video1 }}" type="video/mp4">
-              </video>
-            {% endif %}
-          {% elsif hover1 != blank %}
-            <img class="hover-media" src="{{ hover1 | img_url: 'master' }}" alt="Hover {{ product1.title }}">
-          {% endif %}
-          <div class="product-price-white">
-            <div class="product-title title-thang">
-              {{ product1.title }}<br>
 
-              {{ variant1.price | money }}
-            </div>
-         
-          </div>
-        </a>
-  
-     
-      {% endif %}
-  
-      {% if product2 %}
-        {% assign variant2 = product2.variants.first %}
-        {% assign ext2 = video2 | split: '.' | last | downcase %}
-        <a class="product estandard image-hover-wrapper" href="{{ product2.url }}">
-          <div style="position:relative">
-          {% if product2.featured_image %}
-         
-              <img class="main-img" src="{{ product2.featured_image | img_url: 'master' }}" alt="{{ product2.title }}">
-              {% unless variant2.available %}
-                <button class="sold-out-button" disabled>Sold Out</button>
-              {% endunless %}
-           
+        {% if block.settings.article_2 %}
+          {% assign article2 = articles[block.settings.article_2] %}
+          {% assign hover_2 = block.settings.article_2_media_hover %}
+          {% if hover_2 %}
+            {% assign ext_2 = hover_2 | split: '.' | last | downcase %}
           {% endif %}
-  
-          {% if video2 %}
-            {% if ext2 == 'mp4' %}
-              <video class="hover-media" autoplay muted loop playsinline>
-                <source src="{{ video2 }}" type="video/mp4">
-              </video>
+
+          <div class="block-hero">
+            <a href="{{ article2.url }}" class="image-hover-wrapper">
+              {% if block.settings.custom_image %}
+                <img class="main-img" src="{{ block.settings.custom_image | img_url: 'master' }}" alt="{{ article2.title }}">
+              {% elseif article2.image %}
+                <img class="main-img" src="{{ article2.image | img_url: 'master' }}" alt="{{ article2.title }}">
+              {% endif %}
+
+              {% if hover_2 %}
+                {% if ext_2 == 'mp4' %}
+                  <video class="hover-media" autoplay muted loop playsinline>
+                    <source src="{{ hover_2 }}" type="video/mp4">
+                  </video>
+                {% else %}
+                  <img class="hover-media" src="{{ hover_2 }}" alt="{{ article2.title }}">
+                {% endif %}
+              {% endif %}
+            </a>
+            <div class="title-thang">
+              <div>{{ article2.title }}</div>
+            </div>
+            {% if block.settings.article_2_custom_text != blank %}
+              <div class="custom-text-article">
+                {{ block.settings.article_2_custom_text }}
+              </div>
             {% endif %}
-          {% elsif hover2 != blank %}
-            <img class="hover-media" src="{{ hover2 | img_url: 'master' }}" alt="Hover {{ product2.title }}">
-          {% endif %}
-        </div>
-          <div class="product-price-white">
-            <div class="product-title title-thang">
-              {{ product1.title }}<br>
-              
-              {{ variant1.price | money }}
-            </div>
-         
           </div>
-        </a>
-      {% endif %}
-    </section>
+        {% endif %}
+
+      </section>
+
+    {% when 'six_products_with_bg' %}
+      <section class="six-products-with-bg">
+        <img src="{{ block.settings.bg_image | img_url: 'master' }}" alt="Custom Image">
+        <div class="products-list">
+          {% assign letters = "A,B,C,D,E,F" | split: "," %}
+          {% for i in (1..6) %}
+            {% assign product_key = "product_" | append: i %}
+            {% assign product = all_products[block.settings[product_key]] %}
+            {% if product %}
+              <div class="product-item">
+                <span class="product-letter">{{ letters[forloop.index0] }}</span>
+                <a class="product-title" href="{{ product.url }}">{{ product.title }}</a>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </section>
+
+    {% when 'two_products' %}
+      <section class="two-products">
+        {% assign product1 = all_products[block.settings.product_1] %}
+        {% assign product2 = all_products[block.settings.product_2] %}
+        {% assign hover1 = block.settings.hover_image_1 %}
+        {% assign hover2 = block.settings.hover_image_2 %}
+        {% assign video1 = block.settings.video_url_1 %}
+        {% assign video2 = block.settings.video_url_2 %}
+        
+        {% if product1 %}
+          {% assign variant1 = product1.variants.first %}
+          {% assign ext1 = video1 | split: '.' | last | downcase %}
+          <a class="product estandard image-hover-wrapper" href="{{ product1.url }}">
+            {% unless variant1.available %}
+              <button class="sold-out-button" disabled>Sold Out</button>
+            {% endunless %}
+            {% if product1.featured_image %}
+              <img class="main-img" src="{{ product1.featured_image | img_url: 'master' }}" alt="{{ product1.title }}">
+            {% endif %}
+    
+            {% if video1 %}
+              {% if ext1 == 'mp4' %}
+                <video class="hover-media" autoplay muted loop playsinline>
+                  <source src="{{ video1 }}" type="video/mp4">
+                </video>
+              {% endif %}
+            {% elsif hover1 != blank %}
+              <img class="hover-media" src="{{ hover1 | img_url: 'master' }}" alt="Hover {{ product1.title }}">
+            {% endif %}
+            <div class="product-price-white">
+              <div class="product-title title-thang">
+                {{ product1.title }}<br>
+                {{ variant1.price | money }}
+              </div>
+            </div>
+          </a>
+        {% endif %}
+    
+        {% if product2 %}
+          {% assign variant2 = product2.variants.first %}
+          {% assign ext2 = video2 | split: '.' | last | downcase %}
+          <a class="product estandard image-hover-wrapper" href="{{ product2.url }}">
+            <div style="position:relative">
+              {% if product2.featured_image %}
+                <img class="main-img" src="{{ product2.featured_image | img_url: 'master' }}" alt="{{ product2.title }}">
+                {% unless variant2.available %}
+                  <button class="sold-out-button" disabled>Sold Out</button>
+                {% endunless %}
+              {% endif %}
+              {% if video2 %}
+                {% if ext2 == 'mp4' %}
+                  <video class="hover-media" autoplay muted loop playsinline>
+                    <source src="{{ video2 }}" type="video/mp4">
+                  </video>
+                {% endif %}
+              {% elsif hover2 != blank %}
+                <img class="hover-media" src="{{ hover2 | img_url: 'master' }}" alt="Hover {{ product2.title }}">
+              {% endif %}
+            </div>
+            <div class="product-price-white">
+              <div class="product-title title-thang">
+                {{ product2.title }}<br>
+                {{ variant2.price | money }}
+              </div>
+            </div>
+          </a>
+        {% endif %}
+      </section>
   
   {% endcase %}
 {% endfor %}
+
+{%- comment -%} Si el loop termina con un grid abierto, ciérralo {%- endcomment -%}
+{% if in_grid %}
+  </div></section>
+{% endif %}
+
 {% schema %}
 {
   "name": "Home",
@@ -226,180 +287,77 @@
       "type": "hero",
       "name": "Hero Block",
       "settings": [
-        {
-          "type": "image_picker",
-          "id": "hero_image",
-          "label": "Hero Image"
-        },
-        {
-          "type": "image_picker",
-          "id": "hover_image_1",
-          "label": "First Product Hover"
-        },
-        {
-          "type": "url",
-          "id": "goto",
-          "label": "URL"
-        },
-        {
-          "type": "url",
-          "id": "video_url_1",
-          "label": "First Product Video URL"
-        },
-        {
-          "type": "richtext",
-          "id": "hero_text",
-          "label": "Hero Text"
-        },
-        {
-          "type": "richtext",
-          "id": "info",
-          "label": "Info Text"
-        }
+        { "type": "image_picker", "id": "hero_image", "label": "Hero Image" },
+        { "type": "image_picker", "id": "hover_image_1", "label": "First Product Hover" },
+        { "type": "url", "id": "goto", "label": "URL" },
+        { "type": "url", "id": "video_url_1", "label": "First Product Video URL" },
+        { "type": "richtext", "id": "hero_text", "label": "Hero Text" },
+        { "type": "richtext", "id": "info", "label": "Info Text" }
       ]
     },
     {
       "type": "single_product",
       "name": "Single Product",
       "settings": [
-        {
-          "type": "product",
-          "id": "product",
-          "label": "Select a Product"
-        },
-        {
-          "type": "image_picker",
-          "id": "custom_image",
-          "label": "Custom Product Image"
-        },
-        {
-          "type": "checkbox",
-          "id": "fullscreen",
-          "label": "Full Screen Mode"
-        }
+        { "type": "product", "id": "product", "label": "Select a Product" },
+        { "type": "image_picker", "id": "custom_image", "label": "Custom Product Image" },
+        { "type": "checkbox", "id": "fullscreen", "label": "Full Screen Mode" }
       ]
     },
     {
       "type": "two_products",
       "name": "Two Products",
       "settings": [
-        {
-          "type": "product",
-          "id": "product_1",
-          "label": "First Product"
-        },
-        {
-          "type": "product",
-          "id": "product_2",
-          "label": "Second Product"
-        },
-        {
-          "type": "image_picker",
-          "id": "hover_image_1",
-          "label": "First Product Hover"
-        },
-        {
-          "type": "url",
-          "id": "video_url_1",
-          "label": "First Product Video URL"
-        },
-        {
-          "type": "image_picker",
-          "id": "hover_image_2",
-          "label": "Second Product Hover"
-        },
-        {
-          "type": "url",
-          "id": "video_url_2",
-          "label": "Second Product Video URL"
-        }
+        { "type": "product", "id": "product_1", "label": "First Product" },
+        { "type": "product", "id": "product_2", "label": "Second Product" },
+        { "type": "image_picker", "id": "hover_image_1", "label": "First Product Hover" },
+        { "type": "url", "id": "video_url_1", "label": "First Product Video URL" },
+        { "type": "image_picker", "id": "hover_image_2", "label": "Second Product Hover" },
+        { "type": "url", "id": "video_url_2", "label": "Second Product Video URL" }
       ]
     },
     {
       "type": "six_products_with_bg",
       "name": "Multiple Products",
       "settings": [
-        {
-          "type": "image_picker",
-          "id": "bg_image",
-          "label": "Background Image"
-        },
-        {
-          "type": "product",
-          "id": "product_1",
-          "label": "Product 1"
-        },
-        {
-          "type": "product",
-          "id": "product_2",
-          "label": "Product 2"
-        },
-        {
-          "type": "product",
-          "id": "product_3",
-          "label": "Product 3"
-        },
-        {
-          "type": "product",
-          "id": "product_4",
-          "label": "Product 4"
-        },
-        {
-          "type": "product",
-          "id": "product_5",
-          "label": "Product 5"
-        },
-        {
-          "type": "product",
-          "id": "product_6",
-          "label": "Product 6"
-        }
+        { "type": "image_picker", "id": "bg_image", "label": "Background Image" },
+        { "type": "product", "id": "product_1", "label": "Product 1" },
+        { "type": "product", "id": "product_2", "label": "Product 2" },
+        { "type": "product", "id": "product_3", "label": "Product 3" },
+        { "type": "product", "id": "product_4", "label": "Product 4" },
+        { "type": "product", "id": "product_5", "label": "Product 5" },
+        { "type": "product", "id": "product_6", "label": "Product 6" }
       ]
     },
     {
       "type": "articles",
       "name": "Articles Block",
       "settings": [
-        {
-          "type": "article",
-          "id": "article_1",
-          "label": "Article 1"
-        },
-        {
-          "type": "image_picker",
-          "id": "article_1_image",
-          "label": "Article 1 Image"
-        },
-        {
-          "type": "url",
-          "id": "article_1_media_hover",
-          "label": "Article 1 Hover Video/Image URL"
-        },
-        {
-          "type": "textarea",
-          "id": "article_1_custom_text",
-          "label": "Article 1 Custom Text"
-        },
-         {
-          "type": "article",
-          "id": "article_2",
-          "label": "Article 2"
-        },
-        {
-          "type": "image_picker",
-          "id": "custom_image",
-          "label": "Custom Product Image"
-        },
-        {
-          "type": "url",
-          "id": "article_2_media_hover",
-          "label": "Article 2 Hover Video/Image URL"
-        },
-        {
-          "type": "textarea",
-          "id": "article_2_custom_text",
-          "label": "Article 2 Custom Text"
-        }
+        { "type": "article", "id": "article_1", "label": "Article 1" },
+        { "type": "image_picker", "id": "article_1_image", "label": "Article 1 Image" },
+        { "type": "url", "id": "article_1_media_hover", "label": "Article 1 Hover Video/Image URL" },
+        { "type": "textarea", "id": "article_1_custom_text", "label": "Article 1 Custom Text" },
+        { "type": "article", "id": "article_2", "label": "Article 2" },
+        { "type": "image_picker", "id": "custom_image", "label": "Custom Product Image" },
+        { "type": "url", "id": "article_2_media_hover", "label": "Article 2 Hover Video/Image URL" },
+        { "type": "textarea", "id": "article_2_custom_text", "label": "Article 2 Custom Text" }
+      ]
+    },
+
+    { 
+      "type": "articles_grid",
+      "name": "Articles Grid",
+      "settings": [
+        { "type": "checkbox", "id": "half", "label": "Half (2 columnas)" },
+        { "type": "checkbox", "id": "third", "label": "Third (3 columnas)" }
+      ]
+    },
+    { 
+      "type": "article_card",
+      "name": "Article Card",
+      "settings": [
+        { "type": "article", "id": "article", "label": "Artículo" },
+        { "type": "image_picker", "id": "custom_image", "label": "Imagen personalizada (opcional)" }
       ]
     }
   ],
@@ -410,10 +368,22 @@
         { "type": "hero" },
         { "type": "single_product" },
         { "type": "two_products" },
-        { "type": "articles" }
+        { "type": "articles" },
+        { "type": "articles_grid" },
+        { "type": "article_card" },
+        { "type": "article_card" },
+        { "type": "article_card" }
       ]
     }
   ]
 }
 {% endschema %}
 
+{% stylesheet %}
+.articles-grid { width: 100%; }
+.articles-grid__inner { display: grid; gap: 2rem; }
+.articles-grid.grid-half .articles-grid__inner { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.articles-grid.grid-third .articles-grid__inner { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.article-card__media img { width: 100%; height: auto; display: block; }
+.article-card__title { margin-top: .75rem; }
+{% endstylesheet %}
