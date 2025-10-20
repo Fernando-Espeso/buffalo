@@ -1926,6 +1926,9 @@ div#main-product {
 .contact-section {
   grid-template-columns: repeat(1, 1fr);
 }
+.swiper-article {
+  position: relative;
+}
 .item {
   display: grid;
   row-gap: 10px;
