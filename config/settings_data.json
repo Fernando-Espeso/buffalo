@@ -1444,7 +1444,7 @@
           "custom_article_3VtreB": {
             "type": "custom_article",
             "settings": {
-              "article": "",
+              "article": "your-brand-here/celine-aw-22-23-in-issue",
               "hover_media": "",
               "half": false,
               "third": false
@@ -1454,8 +1454,9 @@
             "type": "custom_article",
             "settings": {
               "article": "",
+              "image": "shopify://shop_images/Screenshot_2025-09-12_at_15.55.35.png",
               "hover_media": "",
-              "half": false,
+              "half": true,
               "third": false
             }
           }
