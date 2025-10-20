@@ -217,6 +217,10 @@ $(document).ready(function () {
       renderBullet: function (index, className) {
         return `<span class="${className}"></span>`;
       }
+    },
+    keyboard: {
+      enabled: true,        // activa el control por teclado
+      onlyInViewport: true, // solo cuando el swiper está visible en pantalla
     }
   });
 });
