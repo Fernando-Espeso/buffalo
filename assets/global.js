@@ -18,10 +18,28 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 $(document).ready(function () {
-  $('.menu-op').on('click', function () {
+  $('.menu-op').on('click', function (e) {
+    e.stopPropagation(); // evita que el clic se propague al document
+
     $('.sub-menu').toggleClass('active');
+
+    // Cambia el texto del botón
+    if ($('.sub-menu').hasClass('active')) {
+      $(this).text('close');
+    } else {
+      $(this).text('menu');
+    }
+  });
+
+  // Si haces clic en cualquier otro sitio fuera del menú
+  $(document).on('click', function (e) {
+    if (!$(e.target).closest('.menu-op, .sub-menu').length) {
+      $('.sub-menu').removeClass('active');
+      $('.menu-op').text('menu');
+    }
   });
 });
+
 
 $(document).ready(function () {
   // Toggle al hacer clic
