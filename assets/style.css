@@ -1302,7 +1302,7 @@ div#shopify-section-template--26607999811916__main {
 }
 .swiper-article .swiper-slide video{
   display: flex;
-  height: calc(100% - 80px);
+  height: calc(100% - 100px);
   width: 100%;
   object-fit: contain;
   align-items: center;
