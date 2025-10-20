@@ -1927,7 +1927,7 @@ div#main-product {
   grid-template-columns: repeat(1, 1fr);
 }
 .swiper-article {
-  position: relative;
+  position: relative!important;
 }
 .item {
   display: grid;
