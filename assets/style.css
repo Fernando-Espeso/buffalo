@@ -544,7 +544,6 @@ span.title-price {
 }
 .description {
   margin: 0 auto;
-  max-width: 800px;
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsb);
   line-height: clac(var(--fsb) + 5px);
@@ -1776,7 +1775,6 @@ section.two-products, .articles-block {
 }
 .description {
   margin: 0 auto;
-  max-width: 1000px;
   text-align: left;
   font-family: Times New Roman, Times, serif;
   padding: 10px 0px;
