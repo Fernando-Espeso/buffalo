@@ -1321,6 +1321,13 @@ div#shopify-section-template--26607999811916__main {
   object-fit: contain;
   align-items: center;
 }
+.swiper-article .swiper-slide .vimeo{
+  display: flex;
+  height: calc(100% - 100px);
+  width: 100%;
+  object-fit: contain;
+  align-items: center;
+}
 .swiper-article .swiper-wrapper {
   display: flex;
   align-items: center;
