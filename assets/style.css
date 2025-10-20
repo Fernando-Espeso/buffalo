@@ -552,6 +552,7 @@ span.title-price {
   font-size: 50px;
   line-height:47px;
   font-family: var(--fontsec);
+  text-transform: uppercase;
 }
 .description {
   margin: 0 auto;
@@ -1961,6 +1962,12 @@ div#main-product {
   padding: var(--space);
   background-color: #fff;
   font-weight: 400;
+}
+.big{
+  font-size: 30px;
+  line-height:28px;
+  font-family: var(--fontsec);
+  text-transform: uppercase;
 }
 div#bag {
   WIDTH: 80VW;
