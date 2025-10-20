@@ -647,6 +647,12 @@ section.hero {
 .article-content .title {
   font-size: 18px;
 }
+
+.description {
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 50px;
+}
 .next{
   position:absolute;
   right: 10px;
