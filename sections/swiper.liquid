@@ -1,34 +1,65 @@
 <div class="swiper-article color">
-    <div class="swiper-wrapper">
-      {% assign media = article.metafields.custom.gallery.value %}
-      {% if media %}
-        {% for item in media %}
-          <div class="swiper-slide">
-            {% if item.media_type == 'image' %}
-              <img src="{{ item | img_url: '1024x1024' }}" alt="{{ item.alt | escape }}">
-            {% elsif item.media_type == 'video' %}
-                {% assign mp4_url = '' %}
-                {% for source in item.sources %}
-                  {% if source.format == 'mp4' %}
-                    {% assign mp4_url = source.url %}
-                    {% break %}
-                  {% endif %}
-                {% endfor %}
-                
-                {% if mp4_url != '' %}
-                  <video autoplay muted loop playsinline controls>
-                    <source src="{{ mp4_url }}" type="video/mp4">
-                  </video>
-                {% endif %}
-              {% endif %}
-            {% if item.alt != blank %}
-              <p class="caption-article">{{ item.alt }}</p>
-            {% endif %}
+  <div class="swiper-wrapper">
+    {%- comment -%} Slide de portada: Vimeo (si hay URL en metafield) {%- endcomment -%}
+    {% assign vimeo_url = article.metafields.custom.vimeo.value %}
+    {% if vimeo_url %}
+      {% assign vimeo_parts = vimeo_url | split: '/' %}
+      {% assign vimeo_id_raw = vimeo_parts | last %}
+      {% assign vimeo_id = vimeo_id_raw | split: '?' | first %}
+  
+      <div class="swiper-slide swiper-slide--vimeo">
+        <div class="vimeo">
+          <div class="vimeo-wrapper">
+            <iframe
+              class="vimeo-iframe"
+              src="https://player.vimeo.com/video/{{ vimeo_id }}?autoplay=1&muted=1&loop=1&autopause=0&background=1&controls=0&playsinline=1"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              title="Vimeo video">
+            </iframe>
           </div>
-        {% endfor %}
-      {% else %}
-      {% endif %}
-    </div>
+  
+          <div class="custom-controls">
+            <button class="fullscreenBtn">Fullscreen</button>
+            <button class="muteBtn" data-muted="true">Unmute</button>
+            <button class="playPauseBtn" style="display:none">Pause</button>
+            <input type="range" class="progress-bar" value="0" min="0" step="any" style="display:none">
+            <span class="time-display" style="display:none">00:00</span>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  
+    {%- comment -%} Resto de slides (imágenes / videos MP4 de tu galería) {%- endcomment -%}
+    {% assign media = article.metafields.custom.gallery.value %}
+    {% if media %}
+      {% for item in media %}
+        <div class="swiper-slide">
+          {% if item.media_type == 'image' %}
+            <img src="{{ item | img_url: '1024x1024' }}" alt="{{ item.alt | escape }}">
+          {% elsif item.media_type == 'video' %}
+            {% assign mp4_url = '' %}
+            {% for source in item.sources %}
+              {% if source.format == 'mp4' %}
+                {% assign mp4_url = source.url %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+            {% if mp4_url != '' %}
+              <video autoplay muted loop playsinline controls>
+                <source src="{{ mp4_url }}" type="video/mp4">
+              </video>
+            {% endif %}
+          {% endif %}
+          {% if item.alt != blank %}
+            <p class="caption-article">{{ item.alt }}</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+  
     <div class="swiper-pagination"></div>
     <div class="next"></div>
     <div class="prev"></div>
@@ -61,4 +92,105 @@
       });
     });    
   </script>
-  
+  <!-- Cargar API de Vimeo (colócalo una sola vez en tu theme, por ejemplo en theme.liquid) -->
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // Encuentra todos los slides con Vimeo
+  const vimeoSlides = document.querySelectorAll('.swiper-slide--vimeo');
+
+  vimeoSlides.forEach(function (slide) {
+    const iframe = slide.querySelector('.vimeo-iframe');
+    if (!iframe) return;
+
+    // Crea el player de Vimeo
+    const player = new Vimeo.Player(iframe, {
+      // Estos parámetros ya van en el src, pero lo dejamos por si acaso
+      autopause: false,
+      loop: true,
+      muted: true,
+      playsinline: true
+    });
+
+    // Controles personalizados
+    const muteBtn = slide.querySelector('.muteBtn');
+    const fullscreenBtn = slide.querySelector('.fullscreenBtn');
+    const playPauseBtn = slide.querySelector('.playPauseBtn'); // oculto por ahora
+
+    // Estado inicial
+    player.setMuted(true).catch(()=>{});
+    player.play().catch(()=>{});
+
+    // Mute / Unmute
+    if (muteBtn) {
+      muteBtn.addEventListener('click', async () => {
+        try {
+          const currentMuted = await player.getMuted();
+          await player.setMuted(!currentMuted);
+          // Cambia label del botón
+          muteBtn.textContent = currentMuted ? 'Mute' : 'Unmute';
+          muteBtn.dataset.muted = String(!currentMuted);
+        } catch(e) { /* noop */ }
+      });
+    }
+
+    // Fullscreen
+    if (fullscreenBtn) {
+      fullscreenBtn.addEventListener('click', async () => {
+        try {
+          // Vimeo expone requestFullscreen en el player
+          await player.requestFullscreen();
+        } catch(e) {
+          // fallback al iframe si hiciera falta
+          if (iframe.requestFullscreen) iframe.requestFullscreen();
+        }
+      });
+    }
+
+    // (Opcional) Play/Pause si quisieras mostrarlo
+    if (playPauseBtn) {
+      playPauseBtn.addEventListener('click', async () => {
+        try {
+          const paused = await player.getPaused();
+          if (paused) {
+            await player.play();
+            playPauseBtn.textContent = 'Pause';
+          } else {
+            await player.pause();
+            playPauseBtn.textContent = 'Play';
+          }
+        } catch(e) { /* noop */ }
+      });
+    }
+
+    // Integración con Swiper: pausa si el slide no está activo
+    // Detecta el contenedor Swiper más cercano
+    const swiperEl = slide.closest('.swiper');
+    if (!swiperEl) return;
+
+    // Intenta obtener la instancia. Si la creas tú, guarda la ref globalmente.
+    // Como fallback, observamos cambios de clase active.
+    const handleVisibility = async () => {
+      const isActive = slide.classList.contains('swiper-slide-active');
+      try {
+        if (isActive) {
+          await player.play();
+        } else {
+          await player.pause();
+        }
+      } catch(e) { /* noop */ }
+    };
+
+    // Observa cambios de clase en el slide para detectar activo/inactivo
+    const mo = new MutationObserver(handleVisibility);
+    mo.observe(slide, { attributes: true, attributeFilter: ['class'] });
+
+    // Primera evaluación
+    handleVisibility();
+
+    // Si tienes acceso a la instancia de Swiper (por ejemplo en window), puedes hacer:
+    // window.mySwiper.on('slideChange', handleVisibility);
+  });
+});
+</script>
