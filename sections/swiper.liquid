@@ -2,31 +2,31 @@
   <div class="swiper-wrapper">
     {%- comment -%} Slide de portada: Vimeo (si hay URL en metafield) {%- endcomment -%}
     {% assign vimeo_url = article.metafields.custom.vimeo.value %}
-    {% if vimeo_url %}
-      {% assign vimeo_parts = vimeo_url | split: '/' %}
-      {% assign vimeo_id_raw = vimeo_parts | last %}
-      {% assign vimeo_id = vimeo_id_raw | split: '?' | first %}
-  
-      <div class="swiper-slide swiper-slide--vimeo">
-        <div class="vimeo">
-          <div class="vimeo-wrapper">
-            <video
-              class="vimeo-iframe"
-              autoplay loop muted playsinline>
-                <source src="{% article.metafields.custom.vimeo.value %}">
-              </video>
-          </div>
-  
-          <div class="custom-controls">
-            <button class="fullscreenBtn">Fullscreen</button>
-            <button class="muteBtn" data-muted="true">Unmute</button>
-            <button class="playPauseBtn" style="display:none">Pause</button>
-            <input type="range" class="progress-bar" value="0" min="0" step="any" style="display:none">
-            <span class="time-display" style="display:none">00:00</span>
-          </div>
+    {% assign vimeo_src = article.metafields.custom.vimeo.value %}
+  {% if vimeo_src %}
+    <div class="swiper-slide swiper-slide--vimeo">
+      <div class="vimeo">
+        <video
+          class="video vimeo-iframe"
+          id="video-element"
+          src="{{ vimeo_src }}"
+          autoplay
+          muted
+          playsinline
+          loop
+          class="w-full h-auto">
+        </video>
+
+        <div class="custom-controls">
+          <button class="fullscreenBtn">Fullscreen</button>
+          <button class="muteBtn">Unmute</button>
+          <button style="display:none" class="playPauseBtn">Pause</button>
+          <input style="display:none" type="range" class="progress-bar" value="0" min="0" step="any">
+          <span style="display:none" class="time-display">00:00</span>
         </div>
       </div>
-    {% endif %}
+    </div>
+  {% endif %}
   
     {%- comment -%} Resto de slides (imágenes / videos MP4 de tu galería) {%- endcomment -%}
     {% assign media = article.metafields.custom.gallery.value %}
