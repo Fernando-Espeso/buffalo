@@ -1916,6 +1916,10 @@ display: none;
   max-width: max-content;
   margin: 0 auto;
 }
+.cursor-effect {
+  z-index: 1 !important; /* o el valor que necesites */
+  pointer-events: none !important;
+}
 div#main-product {
   grid-template-columns: repeat(1, 1fr);
 }
