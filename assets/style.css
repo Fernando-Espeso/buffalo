@@ -1927,6 +1927,17 @@ div#main-product {
   row-gap: 10px;
   grid-template-columns: repeat(1, 1fr);
 }
+.title-thang {
+  top: 0;
+  z-index: 1;
+  color: #000;
+  text-align: left;
+  position: relative;
+  padding-bottom: 0px !important;
+  padding: var(--space);
+  background-color: #fff;
+  font-weight: 400;
+}
 div#bag {
   WIDTH: 80VW;
   margin: 0 auto;
