@@ -1429,7 +1429,7 @@
               "image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.28.png",
               "hover_media": "",
               "half": false,
-              "third": false
+              "third": true
             }
           },
           "custom_article_AXbM7t": {
@@ -1438,7 +1438,7 @@
               "article": "your-brand-here/louis-vuitton-holidays-23",
               "hover_media": "",
               "half": false,
-              "third": false
+              "third": true
             }
           },
           "custom_article_3VtreB": {
@@ -1447,7 +1447,7 @@
               "article": "your-brand-here/celine-aw-22-23-in-issue",
               "hover_media": "",
               "half": false,
-              "third": false
+              "third": true
             }
           },
           "custom_article_YChJkm": {
@@ -1456,8 +1456,8 @@
               "article": "",
               "image": "shopify://shop_images/Screenshot_2025-09-12_at_15.55.35.png",
               "hover_media": "",
-              "half": true,
-              "third": false
+              "half": false,
+              "third": true
             }
           }
         },
