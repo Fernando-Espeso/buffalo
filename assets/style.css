@@ -550,7 +550,8 @@ span.title-price {
 }
 .big{
   font-size: 50px;
-  list-height:47px;
+  line-height:47px;
+  font-family: var(--fontsec);
 }
 .description {
   margin: 0 auto;
