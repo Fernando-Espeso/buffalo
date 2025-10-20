@@ -594,10 +594,9 @@ span.title-price {
   font-family: Helvetica, sans-serif;
   font-weight: normal;
   color: white;
-  width: 100%;
   position: absolute;
   right: 10px;
-  top: 40px;
+  top: 10px;
   z-index: 10;
 }
 .title-related {
