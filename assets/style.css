@@ -1904,6 +1904,9 @@ display: none;
   height: fit-content;
   align-items: center;
 }
+.product.third {
+  grid-column: span 12;
+}
 .interview {
   color: black;
   font-size: var(--fsb);
