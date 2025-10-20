@@ -660,11 +660,6 @@ section.hero {
   font-size: 18px;
 }
 
-.description {
-  text-transform: uppercase;
-  font-size: var(--fsb);
-  line-height: clac(var(--fsb) + 5px);
-}
 .next{
   position:absolute;
   right: 10px;
