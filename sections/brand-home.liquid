@@ -1,0 +1,97 @@
+<section class="articles-block global">
+
+    {% for block in section.blocks %}
+      {% if block.type == 'custom_article' and block.settings.article %}
+        {% assign article = articles[block.settings.article] %}
+        {% assign hover = block.settings.hover_media %}
+      
+        {% if block.settings.third == true or block.settings.third == 'true' %}
+          {% assign card_class = 'width-third' %}
+        {% elsif block.settings.half == true or block.settings.half == 'true' %}
+          {% assign card_class = 'width-half' %}
+        {% else %}
+          {% assign card_class = 'hey' %}
+        {% endif %}
+  
+        {% if hover %}
+          {% assign ext = hover | split: '.' | last | downcase %}
+        {% endif %}
+  
+        <div class="article-card {{ card_class }}">
+   
+  
+          <a href="{{ article.url }}" class="image-hover-wrapper">
+            {% if block.settings.image %}
+              <img class="main-img" src="{{ block.settings.image | img_url: 'master' }}" alt="{{ article.title }}">
+            {% elsif article.image %}
+              <img class="main-img" src="{{ article.image | img_url: 'master' }}" alt="{{ article.title }}">
+            {% endif %}
+  
+            {% if hover %}
+              {% if ext == 'mp4' %}
+                <video class="hover-media" autoplay muted loop playsinline>
+                  <source src="{{ hover }}" type="video/mp4">
+                </video>
+              {% else %}
+                <img class="hover-media" src="{{ hover }}" alt="{{ article.title }}">
+              {% endif %}
+            {% endif %}
+          </a>
+          <div class="title-thang">
+            <div>{{ article.title }}</div> 
+          </div>
+  
+          <p class="content-article-home">{{ article.content | strip_html | truncate: 300 }}</p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </section>
+  
+  {% schema %}
+  {
+    "name": "Articles Block",
+    "tag": "section",
+    "class": "section-articles",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "custom_article",
+        "name": "Article",
+        "settings": [
+          {
+            "type": "article",
+            "id": "article",
+            "label": "Article"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "url",
+            "id": "hover_media",
+            "label": "Hover Image or Video URL"
+          },
+          {
+            "type": "checkbox",
+            "id": "half",
+            "label": "Half",
+          },
+          {
+            "type": "checkbox",
+            "id": "third",
+            "label": "Third",
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Articles Block",
+        "category": "Custom"
+      }
+    ]
+  }
+  {% endschema %}
+  
