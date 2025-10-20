@@ -1418,6 +1418,25 @@
           "intro_text": "“The success of Buffalo Zine, which won a D&AD Pencil for its inaugural issue and went on to win Pencils for almost every year of its decade-long existence, is largely down to the creative realisation it was able to make when commercial objectives were not part of the equation.” — D&AD ––––––––––––––––––\nWinning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study, debate, copy and reference the industry’s finest designers.",
           "award_image": "shopify://shop_images/Screenshot_2025-10-06_at_13.33.10.png"
         }
+      },
+      "brand-home": {
+        "type": "brand-home",
+        "blocks": {
+          "custom_article_VXgmkC": {
+            "type": "custom_article",
+            "settings": {
+              "article": "",
+              "image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.28.png",
+              "hover_media": "",
+              "half": false,
+              "third": false
+            }
+          }
+        },
+        "block_order": [
+          "custom_article_VXgmkC"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": []
