@@ -1927,6 +1927,14 @@ div#main-product {
   row-gap: 10px;
   grid-template-columns: repeat(1, 1fr);
 }
+div#bag {
+  WIDTH: 80VW;
+  margin: 0 auto;
+  max-width: 100VW;
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-gap: 3px;
+}
   :root {
     --fs: 13px;
     --space: 10px;
