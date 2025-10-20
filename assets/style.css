@@ -652,7 +652,7 @@ section.hero {
   right: 10px;
   top: 0;
   width: 50%;
-  height: 100%;
+  height: calc(100% - 100px);
   display: flex;
   cursor: e-resize;
   justify-content: center;
@@ -669,7 +669,7 @@ section.hero {
   top: 0;
   width: 50%;
   cursor: w-resize;
-  height: 100%;
+  height: calc(100% - 100px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1271,6 +1271,7 @@ details > summary::-webkit-details-marker {
   width: 100%;
   height: calc(100vh - var(--a) - var(--m));
   display: flex;
+  position: relative;
   padding: 0px;
   border-bottom: 1px solid var(--bl);
   background-color: black;
