@@ -44,6 +44,12 @@ label.choose {
 .price-inside{
   font-family: times;
 }
+.times {
+  padding-top: 10px;
+  line-height: cacl(var(--fsm) + 2px);
+  font-size: var(--fsm);
+  font-family: times;
+}
 .custom-image {
   top: calc(var(--m) + 10px);
   z-index: 1;
