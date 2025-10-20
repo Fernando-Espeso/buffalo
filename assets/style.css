@@ -49,8 +49,7 @@ label.choose {
   z-index: 1;
   order: -1;
   margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 10px;
+  padding: 40px 20px 0px 20px;
   width: 282px;
 }
 /* CSS Variables */
