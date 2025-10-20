@@ -10,14 +10,11 @@
       <div class="swiper-slide swiper-slide--vimeo">
         <div class="vimeo">
           <div class="vimeo-wrapper">
-            <iframe
+            <video
               class="vimeo-iframe"
-              src="https://player.vimeo.com/video/{{ vimeo_id }}?autoplay=1&muted=1&loop=1&autopause=0&background=1&controls=0&playsinline=1"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-              title="Vimeo video">
-            </iframe>
+              autoplay loop muted playsinline>
+                <source src="{% article.metafields.custom.vimeo.value %}">
+              </video>
           </div>
   
           <div class="custom-controls">
@@ -93,7 +90,6 @@
     });    
   </script>
 
-<script src="https://player.vimeo.com/api/player.js"></script>
 <script>document.addEventListener("DOMContentLoaded", function () {
   const containers = document.querySelectorAll(".vimeo");
 
