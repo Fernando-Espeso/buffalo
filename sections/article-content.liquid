@@ -7,6 +7,10 @@
   {% if article.metafields.custom.description.value != blank %}
     <div class="description" style="white-space: pre-line;">{{ article.metafields.custom.description.value }}</div>
   {% endif %}
+  
+  {% if article.metafields.custom.credits-info.value != blank %}
+    <div class="description" style="white-space: pre-line;">{{ article.metafields.custom.credits-info.value }}</div>
+  {% endif %}
 
   {% if article.metafields.custom.credits.value != blank %}
     <div class="credits">{{ article.metafields.custom.credits-info | metafield_tag }}
