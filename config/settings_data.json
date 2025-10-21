@@ -19,9 +19,9 @@
             "settings": {
               "hero_image": "shopify://shop_images/PREVIEW.jpg",
               "hover_image_1": "shopify://shop_images/BZ21_SPREADS.jpg",
-              "goto": "https://cdn.shopify.com/videos/c/o/v/0d1d4ad4f8694c4aa29d316c1e19d57e.mov",
+              "goto": "shopify://blogs/your-brand-here",
               "video_url_1": "",
-              "hero_text": "",
+              "hero_text": "<p>ISSUE 21 AW25-26</p>",
               "info": ""
             }
           },
