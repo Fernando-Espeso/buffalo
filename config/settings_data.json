@@ -191,6 +191,13 @@
               "article_2_media_hover": "",
               "article_2_custom_text": ""
             }
+          },
+          "single_product_dFD4ii": {
+            "type": "single_product",
+            "settings": {
+              "product": "issue-20-success-etc",
+              "fullscreen": false
+            }
           }
         },
         "block_order": [
@@ -207,7 +214,8 @@
           "articles_CthAET",
           "articles_cMX9tc",
           "articles_fcQP7Q",
-          "articles_nQKJQj"
+          "articles_nQKJQj",
+          "single_product_dFD4ii"
         ],
         "settings": {}
       },
