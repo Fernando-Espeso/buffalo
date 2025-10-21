@@ -1388,6 +1388,7 @@
           },
           "award_item_QrgJxq": {
             "type": "award_item",
+            "name": "ISSUE 20",
             "settings": {
               "award_text": "<p>ISSUE 20: WOOD PENCIL (2025)</p>"
             }
@@ -1418,7 +1419,7 @@
         "name": "AWARDS",
         "settings": {
           "intro_text": "Buffalo Zine was awarded a D&AD pencil for its inaugural issue, and has continued to win yellow, graphite and yellow pencils for most of its issues in the Magazine & Newspaper Design and Magazine Front Covers categories until today. \n\nWinning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study, debate, copy and reference the industry’s finest designers.",
-          "award_image": "shopify://shop_images/Pencils_in_line_9979d053-b554-4f53-b93e-75671940c06b.png"
+          "award_image": "shopify://shop_images/Pencils_in_line.jpg"
         }
       },
       "brand-home": {
