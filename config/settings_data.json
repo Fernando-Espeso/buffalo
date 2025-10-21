@@ -1304,7 +1304,7 @@
             "type": "award_item",
             "name": "ISSUE 1",
             "settings": {
-              "award_text": "<p>ISSUE 1<br/>WOOD PENCIL (2012)<br/>MAGAZINE & NEWSPAPER DESIGN</p>"
+              "award_text": "<p>ISSUE 1: <br/>WOOD PENCIL (2012)<br/>MAGAZINE & NEWSPAPER DESIGN</p>"
             }
           },
           "award_item_iHtRhB": {
@@ -1408,7 +1408,7 @@
         ],
         "name": "AWARDS",
         "settings": {
-          "intro_text": "“The success of Buffalo Zine, which won a D&AD Pencil for its inaugural issue and went on to win Pencils for almost every year of its decade-long existence, is largely down to the creative realisation it was able to make when commercial objectives were not part of the equation.” — D&AD ––––––––––––––––––\nWinning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study, debate, copy and reference the industry’s finest designers.",
+          "intro_text": "Buffalo Zine was awarded a D&AD pencil for its inaugural issue, and has continued to win yellow, graphite and yellow pencils for most of its issues in the Magazine & Newspaper Design and Magazine Front Covers categories until today. \n\nWinning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study, debate, copy and reference the industry’s finest designers.",
           "award_image": "shopify://shop_images/Screenshot_2025-10-06_at_13.33.10.png"
         }
       },
