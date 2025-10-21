@@ -1311,14 +1311,14 @@
             "type": "award_item",
             "name": "ISSUE 2",
             "settings": {
-              "award_text": "<p>ISSUE 2</p><p>WOOD PENCIL (2014)</p><p>MAGAZINE & NEWSPAPER DESIGN</p>"
+              "award_text": "<p>ISSUE 2: WOOD PENCIL (2014)</p>"
             }
           },
           "award_item_R8fk79": {
             "type": "award_item",
             "name": "ISSUE 3",
             "settings": {
-              "award_text": "<p>ISSUE 3</p><p>WOOD PENCIL (2016)</p><p>MAGAZINE & NEWSPAPER DESIGN</p>"
+              "award_text": "<p>ISSUE 3: WOOD PENCIL (2016)</p>"
             }
           },
           "award_item_zpXgMY": {
