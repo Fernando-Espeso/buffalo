@@ -786,7 +786,7 @@
         "type": "contact",
         "name": "CONTACT",
         "settings": {
-          "info": "<p>Published by<br/>BUFFALO ZINE LTD<br/>Studio 315<br/>130–150 Hackney Road<br/>E2 7QS London<br/><br/><strong>PUBLISHERS / CREATIVE + ART</strong><br/>Adrian González-Cohen <br/>David Uzquiza<br/><br/><strong>ADVERTISING & PARTNERSHIPS </strong><br/><a href=\"mailto:hi@buffalozine.com\" title=\"mailto:hi@buffalozine.com\">hi@buffalozine.com</a> <br/><br/><strong>SHOP ENQUIRIES  </strong><br/><a href=\"mailto:buy@buffalozine.com\" target=\"_blank\" title=\"mailto:buy@buffalozine.com\">buy@buffalozine.com</a> <br/><br/><strong>GLOBAL DISTRIBUTION</strong><br/><a href=\"mailto:Kelly@whitecirc.com\" target=\"_blank\" title=\"mailto:Kelly@whitecirc.com\">Kelly Clark @ WhiteCirc</a> <br/><br/><strong>WEBSITE</strong><br/><a href=\"https://www.fernandoespeso.info/\" target=\"_blank\" title=\"https://www.fernandoespeso.info/\">Fernando Espeso</a><br/><br/><a href=\"https://www.instagram.com/buffalozine\" title=\"https://www.instagram.com/buffalozine\">Instagram</a></p>",
+          "info": "<p>Published by<br/>BUFFALO ZINE LTD<br/>Studio 315<br/>130–150 Hackney Road<br/>E2 7QS London<br/><br/><strong>PUBLISHERS / CREATIVE + ART</strong><br/>Adrian González-Cohen <br/>David Uzquiza<br/><br/><strong>ADVERTISING & PARTNERSHIPS </strong><br/><a href=\"mailto:hi@buffalozine.com\" title=\"mailto:hi@buffalozine.com\">hi@buffalozine.com</a> <br/><br/><strong>SHOP ENQUIRIES  </strong><br/><a href=\"mailto:buy@buffalozine.com\" target=\"_blank\" title=\"mailto:buy@buffalozine.com\">buy@buffalozine.com</a> <br/><br/><strong>GLOBAL DISTRIBUTION</strong><br/><a href=\"mailto:Kelly@whitecirc.com\" target=\"_blank\" title=\"mailto:Kelly@whitecirc.com\">Kelly Clark @ WhiteCirc</a> <br/><br/><strong>WEBSITE</strong><br/><a href=\"https://www.fernandoespeso.info/\" target=\"_blank\" title=\"https://www.fernandoespeso.info/\">Fernando Espeso</a><br/><br/><a href=\"https://www.instagram.com/buffalozine\" target=\"_blank\" title=\"https://www.instagram.com/buffalozine\">Instagram</a></p>",
           "info-2": ""
         }
       },
@@ -1355,35 +1355,41 @@
             "type": "award_item",
             "name": "ISSUE 9",
             "settings": {
-              "award_text": "<p>ISSUE 9<br/>YELLOW PENCIL <br/>(2020)<br/>MAGAZINE FRONT COVERS<br/></p>"
+              "award_text": "<p>ISSUE 9: YELLOW PENCIL (2020)</p>"
             }
           },
           "award_item_9M8kLc": {
             "type": "award_item",
             "name": "ISSUE 10",
             "settings": {
-              "award_text": "<p>ISSUE 10<br/>GRAPHITE PENCIL <br/>(2021)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+              "award_text": "<p>ISSUE 10: GRAPHITE PENCIL (2021)</p>"
             }
           },
           "award_item_n4fc3q": {
             "type": "award_item",
             "name": "ISSUE 11",
             "settings": {
-              "award_text": "<p>ISSUE 11<br/>WOOD PENCIL <br/>(2021)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+              "award_text": "<p>ISSUE 11: WOOD PENCIL (2021)</p>"
             }
           },
           "award_item_qCQmz3": {
             "type": "award_item",
             "name": "ISSUE 12",
             "settings": {
-              "award_text": "<p>ISSUE 12<br/>GRAPHITE PENCIL <br/>(2022)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+              "award_text": "<p>ISSUE 12: GRAPHITE PENCIL (2022)</p>"
             }
           },
           "award_item_byQdDd": {
             "type": "award_item",
             "name": "ISSUE 16",
             "settings": {
-              "award_text": "<p>ISSUE 16<br/>WOOD PENCIL <br/>(2023)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+              "award_text": "<p>ISSUE 16: WOOD PENCIL (2023)</p>"
+            }
+          },
+          "award_item_QrgJxq": {
+            "type": "award_item",
+            "settings": {
+              "award_text": "<p>ISSUE 20: WOOD PENCIL (2025)</p>"
             }
           },
           "final_text_6eTVUM": {
@@ -1406,6 +1412,7 @@
           "award_item_n4fc3q",
           "award_item_qCQmz3",
           "award_item_byQdDd",
+          "award_item_QrgJxq",
           "final_text_6eTVUM"
         ],
         "name": "AWARDS",
