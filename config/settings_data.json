@@ -25,6 +25,39 @@
               "info": ""
             }
           },
+          "hero_wbLAMX": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.15.png",
+              "goto": "",
+              "video_url_1": "",
+              "hero_text": "",
+              "info": ""
+            }
+          },
+          "hero_NbFPeD": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.55.35.png",
+              "goto": "",
+              "video_url_1": "",
+              "hero_text": "",
+              "info": ""
+            }
+          },
+          "articles_cNbmhy": {
+            "type": "articles",
+            "settings": {
+              "article_1": "your-brand-here/celine-aw-22-23",
+              "article_1_image": "shopify://shop_images/2_DSC_6545_V2.jpg",
+              "article_1_media_hover": "",
+              "article_1_custom_text": "Yet for all the change taking place, the actual change makers seem, at least on the surface, very much the same.",
+              "article_2": "your-brand-here/prada-aw-22-23-in-buffalo-hotel-chelsea",
+              "custom_image": "shopify://shop_images/DSCF9152_V3_LR.jpg",
+              "article_2_media_hover": "shopify://products/issue-10-the-unfinished-issue-aw-19-20",
+              "article_2_custom_text": "Shaun Velez, executive pastry chef at Daniel; the Bánh by Lauren founder and pastry chef Lauren Tran; the pastry chef Camari Mick; the pastry chef and writer Tanya Bush; the chef and Milk Bar founder Christina Tosi, pictured on the screen."
+            }
+          },
           "articles_WLBUtw": {
             "type": "articles",
             "disabled": true,
@@ -64,7 +97,6 @@
           },
           "articles_P4hPbP": {
             "type": "articles",
-            "disabled": true,
             "settings": {
               "article_1": "live/your-brand-here",
               "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
@@ -73,20 +105,6 @@
               "article_2": "new-section/issues",
               "custom_image": "shopify://shop_images/BZFAMILY_1_a250ebd5-d66f-436e-a6aa-6450d51e08ce.jpg",
               "article_2_media_hover": "https://cdn.shopify.com/s/files/1/0938/5250/0300/files/BZFAMILY_3B.jpg?v=1757512384",
-              "article_2_custom_text": ""
-            }
-          },
-          "articles_RhNm6T": {
-            "type": "articles",
-            "disabled": true,
-            "settings": {
-              "article_1": "shuffle/bz20-pippa-garner",
-              "article_1_image": "shopify://shop_images/BZ20_PIPPA_GARNER_1.jpg",
-              "article_1_media_hover": "https://cdn.shopify.com/s/files/1/0938/5250/0300/files/BZ20_PIPPA_GARNER_2.jpg?v=1757508974",
-              "article_1_custom_text": "",
-              "article_2": "new-section/buffalo-zine-x-vivienne-westwood",
-              "custom_image": "shopify://shop_images/Stone_Island.jpg",
-              "article_2_media_hover": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4",
               "article_2_custom_text": ""
             }
           },
@@ -102,53 +120,6 @@
               "custom_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.56.19.png",
               "article_2_media_hover": "",
               "article_2_custom_text": ""
-            }
-          },
-          "hero_NbFPeD": {
-            "type": "hero",
-            "disabled": true,
-            "settings": {
-              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.55.35.png",
-              "goto": "",
-              "video_url_1": "",
-              "hero_text": "",
-              "info": ""
-            }
-          },
-          "articles_cNbmhy": {
-            "type": "articles",
-            "disabled": true,
-            "settings": {
-              "article_1": "",
-              "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.57.35.png",
-              "article_1_media_hover": "",
-              "article_1_custom_text": "",
-              "article_2": "",
-              "custom_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.57.54.png",
-              "article_2_media_hover": "",
-              "article_2_custom_text": ""
-            }
-          },
-          "hero_hCACtT": {
-            "type": "hero",
-            "disabled": true,
-            "settings": {
-              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.01.19.png",
-              "goto": "",
-              "video_url_1": "",
-              "hero_text": "",
-              "info": ""
-            }
-          },
-          "hero_wbLAMX": {
-            "type": "hero",
-            "disabled": true,
-            "settings": {
-              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.15.png",
-              "goto": "",
-              "video_url_1": "",
-              "hero_text": "",
-              "info": ""
             }
           },
           "articles_gpmiBN": {
@@ -177,18 +148,6 @@
               "custom_image": "shopify://shop_images/BuffaloZineNo2_Vol2_1.jpg",
               "article_2_media_hover": "",
               "article_2_custom_text": ""
-            }
-          },
-          "hero_UPWxnE": {
-            "type": "hero",
-            "disabled": true,
-            "settings": {
-              "hero_image": "shopify://shop_images/BZ20_Cover_03_Pippa_standing_1800x1400_928199df-7f5c-4d74-a26f-7299182f1ba8.jpg",
-              "hover_image_1": "shopify://shop_images/BZ20_Spread_2_c13c624e-0dc3-484e-9c2c-42365bd9a0d4.jpg",
-              "goto": "",
-              "video_url_1": "",
-              "hero_text": "",
-              "info": ""
             }
           },
           "articles_cMX9tc": {
@@ -236,19 +195,16 @@
         },
         "block_order": [
           "hero_eH7mmr",
+          "hero_wbLAMX",
+          "hero_NbFPeD",
+          "articles_cNbmhy",
           "articles_WLBUtw",
           "two_products_xNp8mX",
           "articles_apGa6T",
           "articles_P4hPbP",
-          "articles_RhNm6T",
           "articles_eefMAE",
-          "hero_NbFPeD",
-          "articles_cNbmhy",
-          "hero_hCACtT",
-          "hero_wbLAMX",
           "articles_gpmiBN",
           "articles_CthAET",
-          "hero_UPWxnE",
           "articles_cMX9tc",
           "articles_fcQP7Q",
           "articles_nQKJQj"
@@ -588,57 +544,65 @@
               "alt_text": "He Made a Friend on Roblox. Their Relationship Turned Sinister.  At age 7, Ethan Dallas began playing the online game, where he met Nate. Deadly abuse followed, said Ethan’s mother, who blames Roblox."
             }
           },
-          "image_eq7xcy": {
+          "image_KY6RUH": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/BZ19_MICHAEL_STIPE_2.jpg",
-              "alt_text": "He Made a Friend on Roblox. Their Relationship Turned Sinister.  At age 7, Ethan Dallas began playing the online game, where he met Nate. Deadly abuse followed, said Ethan’s mother, who blames Roblox."
-            }
-          },
-          "image_JzNpm3": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/BZ20_LORO_PIANA_spreads_7.jpg",
+              "image": "shopify://shop_images/BZ21_SPREADS_0B.jpg",
               "alt_text": ""
             }
           },
-          "image_yMqyrC": {
+          "image_tLnB8f": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/BZ20_LORO_PIANA_spreads_9.jpg",
+              "image": "shopify://shop_images/BZ21_SPREADS.jpg",
               "alt_text": ""
             }
           },
-          "image_eqPz4K": {
+          "image_668nxQ": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/BZ19_MICHAEL_STIPE_5.jpg",
+              "image": "shopify://shop_images/Screenshot_2025-10-21_at_20.17.59.png",
               "alt_text": ""
             }
           },
-          "image_VEtYji": {
+          "image_Bb9GaV": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/1_DSC_5714_V2.jpg",
+              "image": "shopify://shop_images/BZ21_SPREADS3.jpg",
               "alt_text": ""
             }
           },
-          "image_FUKDCf": {
+          "image_QnccE3": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/496A1733_01.jpg",
+              "image": "shopify://shop_images/Screenshot_2025-10-21_at_20.18.06.png",
+              "alt_text": ""
+            }
+          },
+          "image_KNL4bw": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_SPREADS5_f0f2e01d-9831-4877-b0ed-471f6f3b8205.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_AMhDrG": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_SPREADS6.jpg",
               "alt_text": ""
             }
           }
         },
         "block_order": [
           "image_Ya9UC4",
-          "image_eq7xcy",
-          "image_JzNpm3",
-          "image_yMqyrC",
-          "image_eqPz4K",
-          "image_VEtYji",
-          "image_FUKDCf"
+          "image_KY6RUH",
+          "image_tLnB8f",
+          "image_668nxQ",
+          "image_Bb9GaV",
+          "image_QnccE3",
+          "image_KNL4bw",
+          "image_AMhDrG"
         ],
         "settings": {}
       },
@@ -786,7 +750,7 @@
         "type": "contact",
         "name": "CONTACT",
         "settings": {
-          "info": "<p>Published by<br/>BUFFALO ZINE LTD<br/>Studio 315<br/>130–150 Hackney Road<br/>E2 7QS London<br/><br/><strong>PUBLISHERS / CREATIVE + ART</strong><br/>Adrian González-Cohen <br/>David Uzquiza<br/><br/><strong>ADVERTISING & PARTNERSHIPS </strong><br/><a href=\"mailto:hi@buffalozine.com\" title=\"mailto:hi@buffalozine.com\">hi@buffalozine.com</a> <br/><br/><strong>SHOP ENQUIRIES  </strong><br/><a href=\"mailto:buy@buffalozine.com\" target=\"_blank\" title=\"mailto:buy@buffalozine.com\">buy@buffalozine.com</a> <br/><br/><strong>GLOBAL DISTRIBUTION</strong><br/><a href=\"mailto:Kelly@whitecirc.com\" target=\"_blank\" title=\"mailto:Kelly@whitecirc.com\">Kelly Clark @ WhiteCirc</a> <br/><br/><strong>WEBSITE</strong><br/><a href=\"https://www.fernandoespeso.info/\" target=\"_blank\" title=\"https://www.fernandoespeso.info/\">Fernando Espeso</a><br/><br/><a href=\"https://www.instagram.com/buffalozine\" target=\"_blank\" title=\"https://www.instagram.com/buffalozine\">Instagram</a></p>",
+          "info": "<p>Published by<br/>BUFFALO ZINE LTD<br/>Studio 315<br/>130–150 Hackney Road<br/>E2 7QS London<br/><br/><strong>PUBLISHERS / CREATIVE + ART</strong><br/>Adrian González-Cohen <br/>David Uzquiza<br/><br/><strong>ADVERTISING & PARTNERSHIPS </strong><br/><a href=\"mailto:hi@buffalozine.com\" title=\"mailto:hi@buffalozine.com\">hi@buffalozine.com</a> <br/><br/><strong>SHOP ENQUIRIES  </strong><br/><a href=\"mailto:buy@buffalozine.com\" target=\"_blank\" title=\"mailto:buy@buffalozine.com\">buy@buffalozine.com</a> <br/><br/><strong>GLOBAL DISTRIBUTION</strong><br/><a href=\"mailto:Kelly@whitecirc.com\" target=\"_blank\" title=\"mailto:Kelly@whitecirc.com\">Kelly Clark @ WhiteCirc</a> <br/><br/><strong>WEBSITE</strong><br/><a href=\"https://www.fernandoespeso.info/\" target=\"_blank\" title=\"https://www.fernandoespeso.info/\">Fernando Espeso</a><br/><br/><a href=\"https://www.instagram.com/buffalozine\" target=\"_blank\" title=\"https://www.instagram.com/buffalozine\">Instagram</a><br/><br/>Subscribe for email updates about new issues<br/><strong>YOUR NAME + YOUR EMAIL + SIGN UP</strong><br/></p><p></p>",
           "info-2": ""
         }
       },
