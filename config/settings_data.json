@@ -966,7 +966,7 @@
             "type": "text",
             "name": "THE NEW YORK TIMES",
             "settings": {
-              "alt_text": "<p>“On the cutting edge of print: Buffalo Zine explores the back alleys of style” <br/><strong>[THE NEW YORK TIMES]</strong></p>"
+              "alt_text": "<p>“On the cutting edge of print: Buffalo Zine explores the back alleys of style” <br/>— <strong>THE NEW YORK TIMES</strong></p>"
             }
           },
           "text_HVd6dH": {
