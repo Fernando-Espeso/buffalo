@@ -241,6 +241,24 @@
               "article_2_media_hover": "",
               "article_2_custom_text": ""
             }
+          },
+          "single_product_z8tcNK": {
+            "type": "single_product",
+            "settings": {
+              "product": "",
+              "fullscreen": false
+            }
+          },
+          "articles_7TzYn9": {
+            "type": "articles",
+            "settings": {
+              "article_1": "",
+              "article_1_media_hover": "",
+              "article_1_custom_text": "",
+              "article_2": "",
+              "article_2_media_hover": "",
+              "article_2_custom_text": ""
+            }
           }
         },
         "block_order": [
@@ -261,7 +279,9 @@
           "articles_cMX9tc",
           "articles_fcQP7Q",
           "articles_nQKJQj",
-          "articles_pHFWDP"
+          "articles_pHFWDP",
+          "single_product_z8tcNK",
+          "articles_7TzYn9"
         ],
         "settings": {}
       },
@@ -1434,7 +1454,7 @@
               "image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.28.png",
               "hover_media": "",
               "half": false,
-              "third": true
+              "third": false
             }
           },
           "custom_article_AXbM7t": {
@@ -1443,7 +1463,7 @@
               "article": "your-brand-here/louis-vuitton-holidays-23",
               "hover_media": "",
               "half": false,
-              "third": true
+              "third": false
             }
           },
           "custom_article_3VtreB": {
@@ -1452,17 +1472,16 @@
               "article": "your-brand-here/celine-aw-22-23-in-issue",
               "hover_media": "",
               "half": false,
-              "third": true
+              "third": false
             }
           },
           "custom_article_YChJkm": {
             "type": "custom_article",
             "settings": {
-              "article": "",
-              "image": "shopify://shop_images/Screenshot_2025-09-12_at_15.55.35.png",
+              "article": "shuffle/michael-stipe",
               "hover_media": "",
               "half": false,
-              "third": true
+              "third": false
             }
           }
         },
