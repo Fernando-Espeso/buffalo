@@ -967,10 +967,11 @@
               "alt_text": "<p>“On the cutting edge of print: Buffalo Zine explores the back alleys of style” <br/>— <strong>THE NEW YORK TIMES</strong></p>"
             }
           },
-          "text_4dNEBn": {
+          "text_HVd6dH": {
             "type": "text",
+            "name": "FINANCIAL TIMES",
             "settings": {
-              "alt_text": ""
+              "alt_text": "<p>“A publication challenging the industry’s status quo” <br/>— <strong>FINANCIAL TIMES</strong></p>"
             }
           },
           "text_AmDTzC": {
@@ -1003,7 +1004,7 @@
           },
           "text_WzL7NF": {
             "type": "text",
-            "name": " IT’S NICE THAT",
+            "name": " IT’S NICE THAT 1",
             "settings": {
               "alt_text": "<p>“Born with a one-way ticket to near cult status” <br/>— <strong>IT’S NICE THAT</strong></p>"
             }
@@ -1017,23 +1018,9 @@
           },
           "text_wjeXnr": {
             "type": "text",
-            "name": "MAGCULTURE",
+            "name": "MAGCULTURE 1",
             "settings": {
               "alt_text": "<p>“Thank god for Buffalo Zine, a shapeshifter of a magazine: whatever form it takes, they always work with the best fashion creatives and call upon and impressive contacts book to add intelligent and relevant writing too” <br/>— <strong>MAGCULTURE</strong></p>"
-            }
-          },
-          "text_HVd6dH": {
-            "type": "text",
-            "name": "FINANCIAL TIMES",
-            "settings": {
-              "alt_text": "<p>“A publication challenging the industry’s status quo” <br/>— <strong>FINANCIAL TIMES</strong></p>"
-            }
-          },
-          "text_zEJiUM": {
-            "type": "text",
-            "name": " IT’S NICE THAT 2",
-            "settings": {
-              "alt_text": "<p>“Trends go one way and Buffalo Zine marches resolutely off in the opposite direction” <br/>— <strong>IT’S NICE THAT</strong></p>"
             }
           },
           "text_aCPGJr": {
@@ -1043,11 +1030,18 @@
               "alt_text": "<p>“One of fashion’s most unique, fun, loveable, and exciting publishing projects. Each issue of the cult magazine is a masterpiece of masterful ideas and magical pictures” <br/>— <strong>i-D</strong></p>"
             }
           },
+          "text_zEJiUM": {
+            "type": "text",
+            "name": " IT’S NICE THAT 2",
+            "settings": {
+              "alt_text": "<p>“Trends go one way and Buffalo Zine marches resolutely off in the opposite direction” <br/>— <strong>IT’S NICE THAT</strong></p>"
+            }
+          },
           "text_G4JYJ9": {
             "type": "text",
             "name": "MAGCULTURE 2",
             "settings": {
-              "alt_text": "<p>“Buffalo Zine is unlike anything else being done today. The team’s ability to get this unique direction from some of the biggest names in photography is outstanding” — <strong>MAGCULTURE</strong></p>"
+              "alt_text": "<p>“Buffalo Zine is unlike anything else being done today. The team’s ability to get this unique direction from some of the biggest names in photography is outstanding” <br/>— <strong>MAGCULTURE</strong></p>"
             }
           },
           "text_EapJwN": {
@@ -1068,7 +1062,7 @@
         },
         "block_order": [
           "text_FxpWXq",
-          "text_4dNEBn",
+          "text_HVd6dH",
           "text_AmDTzC",
           "text_nrCMwx",
           "text_9mytJz",
@@ -1076,9 +1070,8 @@
           "text_WzL7NF",
           "text_KGYX9P",
           "text_wjeXnr",
-          "text_HVd6dH",
-          "text_zEJiUM",
           "text_aCPGJr",
+          "text_zEJiUM",
           "text_G4JYJ9",
           "text_EapJwN",
           "text_jDjc89"
