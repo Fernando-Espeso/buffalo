@@ -786,7 +786,7 @@
         "type": "contact",
         "name": "CONTACT",
         "settings": {
-          "info": "<p>Buffalo Zine <br/>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London<br/><br/><strong>PUBLISHERS / CREATIVE + ART</strong><br/>Adrian González-Cohen <br/>David Uzquiza<br/><br/><strong>ADVERTISING & COLLABORATIONS </strong><br/>xxxxx@buffalozine.com <br/><br/><strong>SHOP ENQUIRIES  </strong><br/><a href=\"mailto:hi@buffalozine.com\" title=\"mailto:hi@buffalozine.com\">hi@buffalozine.com</a> <br/><br/><strong>GLOBAL DISTRIBUTION</strong><br/>Kelly Clark @ WhiteCirc <br/><br/><strong>WEBSITE</strong><br/>Fernando Espeso<br/><br/><a href=\"https://www.instagram.com/buffalozine\" title=\"https://www.instagram.com/buffalozine\">Instagram</a></p>",
+          "info": "<p>Published by<br/>BUFFALO ZINE LTD<br/>Studio 315<br/>130–150 Hackney Road<br/>E2 7QS London<br/><br/><strong>PUBLISHERS / CREATIVE + ART</strong><br/>Adrian González-Cohen <br/>David Uzquiza<br/><br/><strong>ADVERTISING & PARTNERSHIPS </strong><br/><a href=\"mailto:hi@buffalozine.com\" title=\"mailto:hi@buffalozine.com\">hi@buffalozine.com</a> <br/><br/><strong>SHOP ENQUIRIES  </strong><br/><a href=\"mailto:buy@buffalozine.com\" target=\"_blank\" title=\"mailto:buy@buffalozine.com\">buy@buffalozine.com</a> <br/><br/><strong>GLOBAL DISTRIBUTION</strong><br/><a href=\"mailto:Kelly@whitecirc.com\" target=\"_blank\" title=\"mailto:Kelly@whitecirc.com\">Kelly Clark @ WhiteCirc</a> <br/><br/><strong>WEBSITE</strong><br/><a href=\"https://www.fernandoespeso.info/\" target=\"_blank\" title=\"https://www.fernandoespeso.info/\">Fernando Espeso</a><br/><br/><a href=\"https://www.instagram.com/buffalozine\" title=\"https://www.instagram.com/buffalozine\">Instagram</a></p>",
           "info-2": ""
         }
       },
@@ -966,7 +966,7 @@
             "type": "text",
             "name": "THE NEW YORK TIMES",
             "settings": {
-              "alt_text": "<p>“On the cutting edge of print: Buffalo Zine explores the back alleys of style” <br/>— <strong>THE NEW YORK TIMES</strong></p>"
+              "alt_text": "<p>“On the cutting edge of print: Buffalo Zine explores the back alleys of style” <br/><strong>[THE NEW YORK TIMES]</strong></p>"
             }
           },
           "text_HVd6dH": {
