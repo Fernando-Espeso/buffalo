@@ -16,10 +16,9 @@
         "blocks": {
           "hero_eH7mmr": {
             "type": "hero",
-            "disabled": true,
             "settings": {
-              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.00.48.png",
-              "hover_image_1": "shopify://shop_images/Screenshot_2025-09-12_at_15.59.47.png",
+              "hero_image": "shopify://shop_images/PREVIEW.jpg",
+              "hover_image_1": "shopify://shop_images/BZ21_SPREADS.jpg",
               "goto": "https://cdn.shopify.com/videos/c/o/v/0d1d4ad4f8694c4aa29d316c1e19d57e.mov",
               "video_url_1": "",
               "hero_text": "<p><a href=\"/products/issue-20-success-etc\" title=\"ISSUE 20: SUCCESS, ETC. / AW2024\">ISSUE 20: SUCCESS, ETC. / AW2024</a></p>",
@@ -585,7 +584,7 @@
           "image_Ya9UC4": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/Screenshot_2025-09-12_at_16.02.25.png",
+              "image": "shopify://shop_images/PREVIEW.jpg",
               "alt_text": "He Made a Friend on Roblox. Their Relationship Turned Sinister.  At age 7, Ethan Dallas began playing the online game, where he met Nate. Deadly abuse followed, said Ethan’s mother, who blames Roblox."
             }
           },
@@ -1420,7 +1419,6 @@
         "blocks": {
           "custom_article_VXgmkC": {
             "type": "custom_article",
-            "disabled": true,
             "settings": {
               "article": "new-section/great-historical-horror-novels",
               "image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.28.png",
@@ -1431,7 +1429,6 @@
           },
           "custom_article_AXbM7t": {
             "type": "custom_article",
-            "disabled": true,
             "settings": {
               "article": "your-brand-here/louis-vuitton-holidays-23",
               "hover_media": "",
@@ -1441,7 +1438,6 @@
           },
           "custom_article_3VtreB": {
             "type": "custom_article",
-            "disabled": true,
             "settings": {
               "article": "your-brand-here/celine-aw-22-23-in-issue",
               "hover_media": "",
