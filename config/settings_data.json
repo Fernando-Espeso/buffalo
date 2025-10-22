@@ -19,14 +19,15 @@
             "settings": {
               "hero_image": "shopify://shop_images/PREVIEW.jpg",
               "hover_image_1": "shopify://shop_images/BZ21_SPREADS.jpg",
-              "goto": "shopify://blogs/your-brand-here",
-              "video_url_1": "shopify://products/issue-1-ss2011",
+              "goto": "shopify://products/issue-1-ss2011",
+              "video_url_1": "shopify://products/issue-10-the-unfinished-issue-aw-19-20",
               "hero_text": "<p>ISSUE 21 AW25-26</p>",
-              "info": ""
+              "info": "<p>The back-and-forth is the latest example of the cycle between the two leaders, in which Mr. Trump teases some kind of diplomatic breakthrough, only to be pulled back by Mr. Putin. Mr. Trump has by turns courted the Russian leader and threatened him — but has never taken action to punish Russia in a meaningful way.</p>"
             }
           },
           "hero_wbLAMX": {
             "type": "hero",
+            "disabled": true,
             "settings": {
               "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.15.png",
               "goto": "",
@@ -37,6 +38,7 @@
           },
           "hero_NbFPeD": {
             "type": "hero",
+            "disabled": true,
             "settings": {
               "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.55.35.png",
               "goto": "",
