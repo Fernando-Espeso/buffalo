@@ -1922,6 +1922,9 @@ form#cart-wrapper {
 .swiper-quotes, .column-text, div#shopify-section-contact, section.awards-section  {
   width: 100%;
 }
+  .swiper-quotes{
+    grid-template-columns: repeat(1, 1fr);
+    }
 .non{
 display: none;
 }
@@ -1945,6 +1948,7 @@ display: none;
   z-index: 1 !important; /* o el valor que necesites */
   pointer-events: none !important;
 }
+
 div#main-product {
   grid-template-columns: repeat(1, 1fr);
 }
