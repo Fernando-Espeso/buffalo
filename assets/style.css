@@ -924,6 +924,9 @@ grid-column: span 3;
 .article-card.width-third {
   grid-column: span 3;
 }
+.article-card.width-full {
+  grid-column: span 12;
+}
 .article-card{
   grid-column: span 4;
 }
