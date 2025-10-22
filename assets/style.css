@@ -1133,7 +1133,11 @@ div#shopify-section-stocklist {
 .shopify-section{
   padding-bottom: 40px;
 
-} .articles-block {
+}
+div#shopify-section-hero{
+    padding-bottom: 0px;
+}
+.articles-block {
   text-align: center;
   display: grid;
   grid-gap: 0px;
