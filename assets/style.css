@@ -510,6 +510,9 @@ footer .container{
 .interview p {
   font-family: times;
 }
+div#shopify-section-hero{
+    padding-bottom: 0px;
+}
 .info-hero p{
   font-family: times;
 }
@@ -1134,9 +1137,7 @@ div#shopify-section-stocklist {
   padding-bottom: 40px;
 
 }
-div#shopify-section-hero{
-    padding-bottom: 0px;
-}
+
 .articles-block {
   text-align: center;
   display: grid;
