@@ -1948,6 +1948,11 @@ display: none;
 .product.third {
   grid-column: span 12;
 }
+.swiper-quotes .swiper-slide p strong{
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
 .interview {
   color: black;
   font-size: var(--fsb);
