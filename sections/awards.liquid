@@ -57,11 +57,15 @@
       {{ section.settings.intro_text }}
     </div>
   {% endif %}
-  {% if section.settings.award_image != blank %}
-    <img 
-      src="{{ section.settings.award_image | image_url: width: 400 }}" 
-      alt="Award image">
-  {% endif %}
+{% if section.settings.award_image != blank %}
+  <img
+    src="{{ section.settings.award_image | image_url: width: 400 }}"
+    srcset="{{ section.settings.award_image | image_url: width: 400 }} 1x, {{ section.settings.award_image | image_url: width: 800 }} 2x"
+    alt="Award image"
+    loading="lazy"
+  >
+{% endif %}
+
 
   
   
