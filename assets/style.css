@@ -1839,14 +1839,15 @@ div#products {
 .buy-block {
   order: -1;
 }
-.custom-image {
-  top: calc(var(--m) + 10px);
-  z-index: 1;
-  order: -2;
-  margin: 0 auto;
-  padding: 30px;
-  width: 282px;
-}
+    .custom-image {
+        top: calc(var(--m) + 10px);
+        z-index: 1;
+        order: -2;
+        margin: 0 auto;
+        padding-bottom: 0px !important;
+        padding: 30px;
+        width: 282px;
+    }
 
 .aim {
   top: 0px;
