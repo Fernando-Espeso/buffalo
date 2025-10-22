@@ -291,7 +291,7 @@ a {
 
 #header{
   top: 0px;
-  z-index: 0;
+  z-index: 13;
   font-size: var(--fs);
   color: var(--bl);
   width: 100vw;
@@ -301,9 +301,7 @@ a {
   border-bottom: 1px solid var(--bl);
   background-color: var(--bg);
 }
-.main, .shopify-section{
-  z-index: -1;
-}
+
 .localization-selectors select#CountrySelector{
   display: none;
   font-family: Helvetica, sans-serif;
