@@ -194,7 +194,7 @@ export function fairyDustCursor(options) {
     };
   
     function Particle(x, y, canvasItem) {
-      const lifeSpan = Math.floor(Math.random() * 30 + 60);
+      const lifeSpan = Math.floor(Math.random() * 100 + 100);
       this.initialLifeSpan = lifeSpan; //
       this.lifeSpan = lifeSpan; //ms
       this.velocity = {
