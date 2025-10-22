@@ -420,7 +420,7 @@ span.metafield-single_line_text_field{
 .swiper-quotes .swiper-slide p strong{
   font-family: Helvetica, sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 18px!important;
 }
 .product {
   grid-column: span 4;
