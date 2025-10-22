@@ -301,7 +301,7 @@ a {
   border-bottom: 1px solid var(--bl);
   background-color: var(--bg);
 }
-.main{
+.main, .shopify-section{
   z-index: -1;
 }
 .localization-selectors select#CountrySelector{
