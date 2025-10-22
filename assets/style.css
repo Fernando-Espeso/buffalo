@@ -741,7 +741,6 @@ section.hero img.hover-media {
 }
 .product-price-white{
   padding: 0px;
-  padding-bottom: 5px;
   z-index: 10;
 left: 0px;
   background-color: white;
@@ -785,7 +784,7 @@ video.hover-media {
   color: black;
   text-align: left;
   position: relative;
-  padding: 5px;
+  padding: 5px 10px 5px;
   background-color: white;
   font-weight: normal;
 }
