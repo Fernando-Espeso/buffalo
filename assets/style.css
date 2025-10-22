@@ -881,6 +881,7 @@ section.single-product.full-screen .product-title-section{
   mix-blend-mode: exclusion;
 }
 form#cart-wrapper {
+   padding-top: 40px!important;
   padding: 0px 10px;
   grid-gap: 3px;
   text-align: center;
@@ -1902,7 +1903,7 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
   grid-template-columns: repeat(2, 1fr);
 }
 form#cart-wrapper {
-  padding-top: 40px;
+  padding-top: 40px!important;
   padding: 0 10px;
   grid-gap: 20px;
   text-align: center;
