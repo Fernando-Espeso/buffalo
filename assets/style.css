@@ -352,7 +352,7 @@ a#cart{
   top: 0px;;
   position: absolute;
   right: 0px;
-  padding: 5px 10px;
+  padding: 5px 5px;
   display: flex;
 }
 .logo img{
