@@ -16,6 +16,7 @@
         "blocks": {
           "hero_eH7mmr": {
             "type": "hero",
+            "disabled": true,
             "settings": {
               "hero_image": "shopify://shop_images/PREVIEW.jpg",
               "hover_image_1": "shopify://shop_images/BZ21_SPREADS.jpg",
@@ -49,6 +50,7 @@
           },
           "articles_cNbmhy": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "your-brand-here/celine-aw-22-23",
               "article_1_image": "shopify://shop_images/2_DSC_6545_V2.jpg",
@@ -88,6 +90,7 @@
           },
           "articles_P4hPbP": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "live/your-brand-here",
               "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
@@ -188,7 +191,7 @@
             "disabled": true,
             "settings": {
               "product": "issue-20-success-etc",
-              "fullscreen": false
+              "fullscreen": true
             }
           },
           "two_products_xNp8mX": {
@@ -1402,6 +1405,7 @@
         "blocks": {
           "custom_article_AXbM7t": {
             "type": "custom_article",
+            "disabled": true,
             "settings": {
               "article": "your-brand-here/louis-vuitton-holidays-23",
               "hover_media": "",
@@ -1411,6 +1415,7 @@
           },
           "custom_article_VXgmkC": {
             "type": "custom_article",
+            "disabled": true,
             "settings": {
               "article": "new-section/great-historical-horror-novels",
               "image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.28.png",
@@ -1421,6 +1426,7 @@
           },
           "custom_article_3VtreB": {
             "type": "custom_article",
+            "disabled": true,
             "settings": {
               "article": "your-brand-here/celine-aw-22-23-in-issue",
               "hover_media": "",
@@ -1430,6 +1436,7 @@
           },
           "custom_article_YChJkm": {
             "type": "custom_article",
+            "disabled": true,
             "settings": {
               "article": "shuffle/michael-stipe",
               "hover_media": "",
