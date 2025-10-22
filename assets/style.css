@@ -1142,7 +1142,7 @@ div#shopify-section-stocklist {
   font-size: var(--fs);
   font-weight: normal;
   text-transform: uppercase;
-  padding: 5px 10px 5px;
+  padding: 5px 5px 5px;
 }
 .stockist-item {
   font-family: Helvetica, sans-serif;
