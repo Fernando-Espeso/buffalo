@@ -1965,8 +1965,6 @@ div#main-product {
   color: #000;
   text-align: left;
   position: relative;
-  padding-bottom: 0px !important;
-  padding: var(--space);
   background-color: #fff;
   font-weight: 400;
 }
