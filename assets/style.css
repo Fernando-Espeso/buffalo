@@ -422,6 +422,9 @@ span.metafield-single_line_text_field{
   font-weight: normal;
   font-size: 18px!important;
 }
+strong{
+  font-size:18px;
+}
 .product {
   grid-column: span 4;
   border-right: 1px solid var(--bl);
@@ -1953,6 +1956,9 @@ display: none;
   font-family: Helvetica, sans-serif;
   font-weight: normal;
   font-size: 14px;
+}
+strong{
+  font-size:14px;
 }
 .interview {
   color: black;
