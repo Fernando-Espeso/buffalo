@@ -9,8 +9,8 @@ export function fairyDustCursor(options) {
   
     let width = window.innerWidth;
     let height = window.innerHeight;
-    const cursor = { x: width / 2, y: width / 2 };
-    const lastPos = { x: width / 2, y: width / 2 };
+    const cursor = { x: width / 20, y: width / 20 };
+    const lastPos = { x: width / 20, y: width / 20 };
     const particles = [];
     const canvImages = [];
     let canvas, context, animationFrame;
