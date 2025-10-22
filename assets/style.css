@@ -975,6 +975,7 @@ div#bag {
   letter-spacing: 0px;
 }
 div#shopify-section-about {
+  padding-top: 40px !important;
   background-color: black;
   padding: 10px 0px;
   color: white;
@@ -1985,7 +1986,7 @@ div#bag {
     --fs: 13px;
     --space: 10px;
     --fsm: 18px;
-    --fsb:18px;
+    --fsb:22px;
     --gap: 10px;
     --bgm: red;
     --bg:white;
