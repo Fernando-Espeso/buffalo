@@ -1902,6 +1902,7 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
   grid-template-columns: repeat(2, 1fr);
 }
 form#cart-wrapper {
+  padding-top: 40px;
   padding: 0 10px;
   grid-gap: 20px;
   text-align: center;
