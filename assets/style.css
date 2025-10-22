@@ -1130,12 +1130,17 @@ div#shopify-section-stocklist {
 .shopify-section{
   padding-bottom: 40px;
 
+} .articles-block {
+  text-align: center;
+  display: grid;
+  grid-gap: 0px;
 }
 .title-thang{
   font-family: Helvetica, sans-serif;
   font-size: var(--fs);
   font-weight: normal;
   text-transform: uppercase;
+  padding: 5px 10px 5px;
 }
 .stockist-item {
   font-family: Helvetica, sans-serif;
