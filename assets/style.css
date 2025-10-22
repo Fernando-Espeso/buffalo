@@ -1977,8 +1977,8 @@ div#main-product {
   font-weight: 400;
 }
 .big{
-  font-size: 30px;
-  line-height:28px;
+  font-size: 35px;
+  line-height:32px;
   font-family: var(--fontsec);
   text-transform: uppercase;
 }
