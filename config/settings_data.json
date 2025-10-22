@@ -14,8 +14,53 @@
       "hero": {
         "type": "hero",
         "blocks": {
+          "hero_eH7mmr": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/PREVIEW.jpg",
+              "hover_image_1": "shopify://shop_images/BZ21_SPREADS.jpg",
+              "goto": "shopify://blogs/your-brand-here",
+              "video_url_1": "shopify://products/issue-1-ss2011",
+              "hero_text": "<p>ISSUE 21 AW25-26</p>",
+              "info": ""
+            }
+          },
+          "hero_wbLAMX": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.15.png",
+              "goto": "",
+              "video_url_1": "",
+              "hero_text": "",
+              "info": ""
+            }
+          },
+          "hero_NbFPeD": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.55.35.png",
+              "goto": "",
+              "video_url_1": "",
+              "hero_text": "",
+              "info": ""
+            }
+          },
+          "articles_cNbmhy": {
+            "type": "articles",
+            "settings": {
+              "article_1": "your-brand-here/celine-aw-22-23",
+              "article_1_image": "shopify://shop_images/2_DSC_6545_V2.jpg",
+              "article_1_media_hover": "",
+              "article_1_custom_text": "Yet for all the change taking place, the actual change makers seem, at least on the surface, very much the same.",
+              "article_2": "your-brand-here/prada-aw-22-23-in-buffalo-hotel-chelsea",
+              "custom_image": "shopify://shop_images/DSCF9152_V3_LR.jpg",
+              "article_2_media_hover": "shopify://products/issue-10-the-unfinished-issue-aw-19-20",
+              "article_2_custom_text": "Shaun Velez, executive pastry chef at Daniel; the Bánh by Lauren founder and pastry chef Lauren Tran; the pastry chef Camari Mick; the pastry chef and writer Tanya Bush; the chef and Milk Bar founder Christina Tosi, pictured on the screen."
+            }
+          },
           "articles_WLBUtw": {
             "type": "articles",
+            "disabled": true,
             "settings": {
               "article_1": "shuffle/michael-stipe",
               "article_1_media_hover": "",
@@ -23,27 +68,6 @@
               "article_2": "your-brand-here/loro-piana-aw-24-25",
               "article_2_media_hover": "",
               "article_2_custom_text": ""
-            }
-          },
-          "two_products_xNp8mX": {
-            "type": "two_products",
-            "settings": {
-              "product_1": "issue-20-success-etc",
-              "product_2": "issue-1-ss2011",
-              "video_url_1": "",
-              "hover_image_2": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.15.png",
-              "video_url_2": ""
-            }
-          },
-          "hero_eH7mmr": {
-            "type": "hero",
-            "settings": {
-              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.00.48.png",
-              "hover_image_1": "shopify://shop_images/Screenshot_2025-09-12_at_15.59.47.png",
-              "goto": "https://cdn.shopify.com/videos/c/o/v/0d1d4ad4f8694c4aa29d316c1e19d57e.mov",
-              "video_url_1": "",
-              "hero_text": "<p><a href=\"/products/issue-20-success-etc\" title=\"ISSUE 20: SUCCESS, ETC. / AW2024\">ISSUE 20: SUCCESS, ETC. / AW2024</a></p>",
-              "info": "<p>ISSUE 20: SUCCESS, ETC. / AW’25 <br/>Does fulfilling our dream always land us where we want it to? Are awards always rewarding? And at what cost do we fake it till we make it? For <em>Buffalo</em>’s twentieth issue, we explore the many paths to greatness, the pressure of success, and the impulse to scrape ourselves up and keep going when things don’t go to plan.</p><p></p>"
             }
           },
           "articles_apGa6T": {
@@ -62,7 +86,6 @@
           },
           "articles_P4hPbP": {
             "type": "articles",
-            "disabled": true,
             "settings": {
               "article_1": "live/your-brand-here",
               "article_1_image": "shopify://shop_images/3_1108_09_300_V5copy.jpg",
@@ -74,79 +97,18 @@
               "article_2_custom_text": ""
             }
           },
-          "articles_RhNm6T": {
-            "type": "articles",
-            "disabled": true,
-            "settings": {
-              "article_1": "shuffle/bz20-pippa-garner",
-              "article_1_image": "shopify://shop_images/BZ20_PIPPA_GARNER_1.jpg",
-              "article_1_media_hover": "https://cdn.shopify.com/s/files/1/0938/5250/0300/files/BZ20_PIPPA_GARNER_2.jpg?v=1757508974",
-              "article_1_custom_text": "",
-              "article_2": "new-section/buffalo-zine-x-vivienne-westwood",
-              "custom_image": "shopify://shop_images/Stone_Island.jpg",
-              "article_2_media_hover": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4",
-              "article_2_custom_text": ""
-            }
-          },
           "articles_eefMAE": {
             "type": "articles",
             "disabled": true,
             "settings": {
-              "article_1": "",
+              "article_1": "your-brand-here/loro-piana-aw-24-25",
               "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.44.14.png",
-              "article_1_media_hover": "",
-              "article_1_custom_text": "",
+              "article_1_media_hover": "https://www.nytimes.com/",
+              "article_1_custom_text": "‘You’re Going to Lose Your Mind’: A Three-Day Retreat in Total Darkness\n\nThe author spent days in a room with no light. Who would he be when he emerged?",
               "article_2": "",
               "custom_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.56.19.png",
               "article_2_media_hover": "",
               "article_2_custom_text": ""
-            }
-          },
-          "hero_NbFPeD": {
-            "type": "hero",
-            "disabled": true,
-            "settings": {
-              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.55.35.png",
-              "goto": "",
-              "video_url_1": "",
-              "hero_text": "",
-              "info": ""
-            }
-          },
-          "articles_cNbmhy": {
-            "type": "articles",
-            "disabled": true,
-            "settings": {
-              "article_1": "",
-              "article_1_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.57.35.png",
-              "article_1_media_hover": "",
-              "article_1_custom_text": "",
-              "article_2": "",
-              "custom_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.57.54.png",
-              "article_2_media_hover": "",
-              "article_2_custom_text": ""
-            }
-          },
-          "hero_hCACtT": {
-            "type": "hero",
-            "disabled": true,
-            "settings": {
-              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_16.01.19.png",
-              "goto": "",
-              "video_url_1": "",
-              "hero_text": "",
-              "info": ""
-            }
-          },
-          "hero_wbLAMX": {
-            "type": "hero",
-            "disabled": true,
-            "settings": {
-              "hero_image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.15.png",
-              "goto": "",
-              "video_url_1": "",
-              "hero_text": "",
-              "info": ""
             }
           },
           "articles_gpmiBN": {
@@ -175,18 +137,6 @@
               "custom_image": "shopify://shop_images/BuffaloZineNo2_Vol2_1.jpg",
               "article_2_media_hover": "",
               "article_2_custom_text": ""
-            }
-          },
-          "hero_UPWxnE": {
-            "type": "hero",
-            "disabled": true,
-            "settings": {
-              "hero_image": "shopify://shop_images/BZ20_Cover_03_Pippa_standing_1800x1400_928199df-7f5c-4d74-a26f-7299182f1ba8.jpg",
-              "hover_image_1": "shopify://shop_images/BZ20_Spread_2_c13c624e-0dc3-484e-9c2c-42365bd9a0d4.jpg",
-              "goto": "",
-              "video_url_1": "",
-              "hero_text": "",
-              "info": ""
             }
           },
           "articles_cMX9tc": {
@@ -230,26 +180,42 @@
               "article_2_media_hover": "",
               "article_2_custom_text": ""
             }
+          },
+          "single_product_dFD4ii": {
+            "type": "single_product",
+            "disabled": true,
+            "settings": {
+              "product": "issue-20-success-etc",
+              "fullscreen": false
+            }
+          },
+          "two_products_xNp8mX": {
+            "type": "two_products",
+            "settings": {
+              "product_1": "issue-20-success-etc",
+              "product_2": "issue-1-ss2011",
+              "video_url_1": "",
+              "hover_image_2": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.15.png",
+              "video_url_2": ""
+            }
           }
         },
         "block_order": [
-          "articles_WLBUtw",
-          "two_products_xNp8mX",
           "hero_eH7mmr",
-          "articles_apGa6T",
-          "articles_P4hPbP",
-          "articles_RhNm6T",
-          "articles_eefMAE",
+          "hero_wbLAMX",
           "hero_NbFPeD",
           "articles_cNbmhy",
-          "hero_hCACtT",
-          "hero_wbLAMX",
+          "articles_WLBUtw",
+          "articles_apGa6T",
+          "articles_P4hPbP",
+          "articles_eefMAE",
           "articles_gpmiBN",
           "articles_CthAET",
-          "hero_UPWxnE",
           "articles_cMX9tc",
           "articles_fcQP7Q",
-          "articles_nQKJQj"
+          "articles_nQKJQj",
+          "single_product_dFD4ii",
+          "two_products_xNp8mX"
         ],
         "settings": {}
       },
@@ -582,61 +548,69 @@
           "image_Ya9UC4": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/BZ19_MICHAEL_STIPE_7.jpg",
+              "image": "shopify://shop_images/PREVIEW.jpg",
               "alt_text": "He Made a Friend on Roblox. Their Relationship Turned Sinister.  At age 7, Ethan Dallas began playing the online game, where he met Nate. Deadly abuse followed, said Ethan’s mother, who blames Roblox."
             }
           },
-          "image_eq7xcy": {
+          "image_KY6RUH": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/BZ19_MICHAEL_STIPE_2.jpg",
-              "alt_text": "He Made a Friend on Roblox. Their Relationship Turned Sinister.  At age 7, Ethan Dallas began playing the online game, where he met Nate. Deadly abuse followed, said Ethan’s mother, who blames Roblox."
-            }
-          },
-          "image_JzNpm3": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/BZ20_LORO_PIANA_spreads_7.jpg",
+              "image": "shopify://shop_images/BZ21_SPREADS_0B.jpg",
               "alt_text": ""
             }
           },
-          "image_yMqyrC": {
+          "image_tLnB8f": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/BZ20_LORO_PIANA_spreads_9.jpg",
+              "image": "shopify://shop_images/BZ21_SPREADS.jpg",
               "alt_text": ""
             }
           },
-          "image_eqPz4K": {
+          "image_668nxQ": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/BZ19_MICHAEL_STIPE_5.jpg",
+              "image": "shopify://shop_images/Screenshot_2025-10-21_at_20.17.59.png",
               "alt_text": ""
             }
           },
-          "image_VEtYji": {
+          "image_Bb9GaV": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/1_DSC_5714_V2.jpg",
+              "image": "shopify://shop_images/BZ21_SPREADS3.jpg",
               "alt_text": ""
             }
           },
-          "image_FUKDCf": {
+          "image_QnccE3": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/496A1733_01.jpg",
+              "image": "shopify://shop_images/Screenshot_2025-10-21_at_20.18.06.png",
+              "alt_text": ""
+            }
+          },
+          "image_KNL4bw": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_SPREADS5_f0f2e01d-9831-4877-b0ed-471f6f3b8205.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_AMhDrG": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_SPREADS6.jpg",
               "alt_text": ""
             }
           }
         },
         "block_order": [
           "image_Ya9UC4",
-          "image_eq7xcy",
-          "image_JzNpm3",
-          "image_yMqyrC",
-          "image_eqPz4K",
-          "image_VEtYji",
-          "image_FUKDCf"
+          "image_KY6RUH",
+          "image_tLnB8f",
+          "image_668nxQ",
+          "image_Bb9GaV",
+          "image_QnccE3",
+          "image_KNL4bw",
+          "image_AMhDrG"
         ],
         "settings": {}
       },
@@ -784,7 +758,7 @@
         "type": "contact",
         "name": "CONTACT",
         "settings": {
-          "info": "<p>Buffalo Zine <br/>Studio 315<br/>D&J Simons Building<br/>130 – 150 Hackney Road<br/>E2 7QS London<br/><br/><strong>PUBLISHERS / CREATIVE + ART</strong><br/>Adrian González-Cohen <br/>David Uzquiza<br/><br/><strong>ADVERTISING & COLLABORATIONS </strong><br/>xxxxx@buffalozine.com <br/><br/><strong>SHOP ENQUIRIES  </strong><br/><a href=\"mailto:hi@buffalozine.com\" title=\"mailto:hi@buffalozine.com\">hi@buffalozine.com</a> <br/><br/><strong>GLOBAL DISTRIBUTION</strong><br/>Kelly Clark @ WhiteCirc <br/><br/><strong>WEBSITE</strong><br/>Fernando Espeso<br/><br/><a href=\"https://www.instagram.com/buffalozine\" title=\"https://www.instagram.com/buffalozine\">Instagram</a></p>",
+          "info": "<p>Published by<br/>BUFFALO ZINE LTD<br/>Studio 315<br/>130–150 Hackney Road<br/>E2 7QS London<br/><br/><strong>PUBLISHERS / CREATIVE + ART</strong><br/>Adrian González-Cohen <br/>David Uzquiza<br/><br/><strong>ADVERTISING & PARTNERSHIPS </strong><br/><a href=\"mailto:hi@buffalozine.com\" title=\"mailto:hi@buffalozine.com\">hi@buffalozine.com</a> <br/><br/><strong>SHOP ENQUIRIES  </strong><br/><a href=\"mailto:buy@buffalozine.com\" target=\"_blank\" title=\"mailto:buy@buffalozine.com\">buy@buffalozine.com</a> <br/><br/><strong>GLOBAL DISTRIBUTION</strong><br/><a href=\"mailto:Kelly@whitecirc.com\" target=\"_blank\" title=\"mailto:Kelly@whitecirc.com\">Kelly Clark @ WhiteCirc</a> <br/><br/><strong>WEBSITE</strong><br/><a href=\"https://www.fernandoespeso.info/\" target=\"_blank\" title=\"https://www.fernandoespeso.info/\">Fernando Espeso</a><br/><br/><a href=\"https://www.instagram.com/buffalozine\" target=\"_blank\" title=\"https://www.instagram.com/buffalozine\">Instagram</a><br/><br/>Subscribe for email updates about new issues<br/><strong>YOUR NAME + YOUR EMAIL + SIGN UP</strong><br/></p><p></p>",
           "info-2": ""
         }
       },
@@ -967,10 +941,11 @@
               "alt_text": "<p>“On the cutting edge of print: Buffalo Zine explores the back alleys of style” <br/>— <strong>THE NEW YORK TIMES</strong></p>"
             }
           },
-          "text_4dNEBn": {
+          "text_HVd6dH": {
             "type": "text",
+            "name": "FINANCIAL TIMES",
             "settings": {
-              "alt_text": ""
+              "alt_text": "<p>“A publication challenging the industry’s status quo” <br/>— <strong>FINANCIAL TIMES</strong></p>"
             }
           },
           "text_AmDTzC": {
@@ -1003,7 +978,7 @@
           },
           "text_WzL7NF": {
             "type": "text",
-            "name": " IT’S NICE THAT",
+            "name": " IT’S NICE THAT 1",
             "settings": {
               "alt_text": "<p>“Born with a one-way ticket to near cult status” <br/>— <strong>IT’S NICE THAT</strong></p>"
             }
@@ -1017,23 +992,9 @@
           },
           "text_wjeXnr": {
             "type": "text",
-            "name": "MAGCULTURE",
+            "name": "MAGCULTURE 1",
             "settings": {
               "alt_text": "<p>“Thank god for Buffalo Zine, a shapeshifter of a magazine: whatever form it takes, they always work with the best fashion creatives and call upon and impressive contacts book to add intelligent and relevant writing too” <br/>— <strong>MAGCULTURE</strong></p>"
-            }
-          },
-          "text_HVd6dH": {
-            "type": "text",
-            "name": "FINANCIAL TIMES",
-            "settings": {
-              "alt_text": "<p>“A publication challenging the industry’s status quo” <br/>— <strong>FINANCIAL TIMES</strong></p>"
-            }
-          },
-          "text_zEJiUM": {
-            "type": "text",
-            "name": " IT’S NICE THAT 2",
-            "settings": {
-              "alt_text": "<p>“Trends go one way and Buffalo Zine marches resolutely off in the opposite direction” <br/>— <strong>IT’S NICE THAT</strong></p>"
             }
           },
           "text_aCPGJr": {
@@ -1043,11 +1004,18 @@
               "alt_text": "<p>“One of fashion’s most unique, fun, loveable, and exciting publishing projects. Each issue of the cult magazine is a masterpiece of masterful ideas and magical pictures” <br/>— <strong>i-D</strong></p>"
             }
           },
+          "text_zEJiUM": {
+            "type": "text",
+            "name": " IT’S NICE THAT 2",
+            "settings": {
+              "alt_text": "<p>“Trends go one way and Buffalo Zine marches resolutely off in the opposite direction” <br/>— <strong>IT’S NICE THAT</strong></p>"
+            }
+          },
           "text_G4JYJ9": {
             "type": "text",
             "name": "MAGCULTURE 2",
             "settings": {
-              "alt_text": "<p>“Buffalo Zine is unlike anything else being done today. The team’s ability to get this unique direction from some of the biggest names in photography is outstanding” — <strong>MAGCULTURE</strong></p>"
+              "alt_text": "<p>“Buffalo Zine is unlike anything else being done today. The team’s ability to get this unique direction from some of the biggest names in photography is outstanding” <br/>— <strong>MAGCULTURE</strong></p>"
             }
           },
           "text_EapJwN": {
@@ -1068,7 +1036,7 @@
         },
         "block_order": [
           "text_FxpWXq",
-          "text_4dNEBn",
+          "text_HVd6dH",
           "text_AmDTzC",
           "text_nrCMwx",
           "text_9mytJz",
@@ -1076,9 +1044,8 @@
           "text_WzL7NF",
           "text_KGYX9P",
           "text_wjeXnr",
-          "text_HVd6dH",
-          "text_zEJiUM",
           "text_aCPGJr",
+          "text_zEJiUM",
           "text_G4JYJ9",
           "text_EapJwN",
           "text_jDjc89"
@@ -1311,90 +1278,97 @@
             "type": "award_item",
             "name": "ISSUE 1",
             "settings": {
-              "award_text": "<p>ISSUE 1<br/>WOOD PENCIL (2012)<br/>MAGAZINE & NEWSPAPER DESIGN</p>"
+              "award_text": "<p>ISSUE 1: WOOD PENCIL (2012)</p>"
             }
           },
           "award_item_iHtRhB": {
             "type": "award_item",
             "name": "ISSUE 2",
             "settings": {
-              "award_text": "<p>ISSUE 2</p><p>WOOD PENCIL (2014)</p><p>MAGAZINE & NEWSPAPER DESIGN</p>"
+              "award_text": "<p>ISSUE 2: WOOD PENCIL (2014)</p>"
             }
           },
           "award_item_R8fk79": {
             "type": "award_item",
             "name": "ISSUE 3",
             "settings": {
-              "award_text": "<p>ISSUE 3</p><p>WOOD PENCIL (2016)</p><p>MAGAZINE & NEWSPAPER DESIGN</p>"
+              "award_text": "<p>ISSUE 3: WOOD PENCIL (2016)</p>"
             }
           },
           "award_item_zpXgMY": {
             "type": "award_item",
             "name": "ISSUE 4",
             "settings": {
-              "award_text": "<p>ISSUE 4</p><p>WOOD PENCIL (2017)</p><p>MAGAZINE & NEWSPAPER DESIGN</p>"
+              "award_text": "<p>ISSUE 4: WOOD PENCIL (2017)</p>"
             }
           },
           "award_item_DigFxq": {
             "type": "award_item",
             "name": "ISSUE 6",
             "settings": {
-              "award_text": "<p>ISSUE 6<br/>WOOD PENCIL <br/>(2018)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+              "award_text": "<p>ISSUE 6: WOOD PENCIL (2018)</p>"
             }
           },
           "award_item_QbqFEV": {
             "type": "award_item",
             "name": "ISSUE 7",
             "settings": {
-              "award_text": "<p>ISSUE 7<br/>GRAPHITE PENCIL <br/>(2019)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+              "award_text": "<p>ISSUE 7: GRAPHITE PENCIL (2019)</p>"
             }
           },
           "award_item_wMhc8z": {
             "type": "award_item",
             "name": "ISSUE 8",
             "settings": {
-              "award_text": "<p>ISSUE 8<br/>GRAPHITE PENCIL <br/>(2020)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+              "award_text": "<p>ISSUE 8: GRAPHITE PENCIL (2020)</p>"
             }
           },
           "award_item_kgejGW": {
             "type": "award_item",
             "name": "ISSUE 9",
             "settings": {
-              "award_text": "<p>ISSUE 9<br/>YELLOW PENCIL <br/>(2020)<br/>MAGAZINE FRONT COVERS<br/></p>"
+              "award_text": "<p>ISSUE 9: YELLOW PENCIL (2020)</p>"
             }
           },
           "award_item_9M8kLc": {
             "type": "award_item",
             "name": "ISSUE 10",
             "settings": {
-              "award_text": "<p>ISSUE 10<br/>GRAPHITE PENCIL <br/>(2021)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+              "award_text": "<p>ISSUE 10: GRAPHITE PENCIL (2021)</p>"
             }
           },
           "award_item_n4fc3q": {
             "type": "award_item",
             "name": "ISSUE 11",
             "settings": {
-              "award_text": "<p>ISSUE 11<br/>WOOD PENCIL <br/>(2021)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+              "award_text": "<p>ISSUE 11: WOOD PENCIL (2021)</p>"
             }
           },
           "award_item_qCQmz3": {
             "type": "award_item",
             "name": "ISSUE 12",
             "settings": {
-              "award_text": "<p>ISSUE 12<br/>GRAPHITE PENCIL <br/>(2022)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+              "award_text": "<p>ISSUE 12: GRAPHITE PENCIL (2022)</p>"
             }
           },
           "award_item_byQdDd": {
             "type": "award_item",
             "name": "ISSUE 16",
             "settings": {
-              "award_text": "<p>ISSUE 16<br/>WOOD PENCIL <br/>(2023)<br/>MAGAZINE & NEWSPAPER DESIGN<br/></p>"
+              "award_text": "<p>ISSUE 16: WOOD PENCIL (2023)</p>"
+            }
+          },
+          "award_item_QrgJxq": {
+            "type": "award_item",
+            "name": "ISSUE 20",
+            "settings": {
+              "award_text": "<p>ISSUE 20: WOOD PENCIL (2025)</p>"
             }
           },
           "final_text_6eTVUM": {
             "type": "final_text",
             "settings": {
-              "closing_text": "In 2019, Buffalo Zine was voted by the #StackAwards judges & Twitter “INDIE FASHION MAGAZINE OF THE DECADE” with 72.9% of the votes in the final round.\n––––––––––––––––––\nIn 2017, it was awarded “MAGAZINE OF THE YEAR” in the Stack Awards, beating out over 400 independent titles, with judge Jeremy Leslie describing it as “unlike anything else being done today.”"
+              "closing_text": "In 2017, Buffalo Zine was awarded “MAGAZINE OF THE YEAR” in the Stack Awards, beating out over 400 independent titles, with judge Jeremy Leslie describing it as “unlike anything else being done today.”\n\nIn 2019, it was voted by the #StackAwards judges & Twitter “INDIE FASHION MAGAZINE OF THE DECADE” with 72.9% of the votes in the final round."
             }
           }
         },
@@ -1411,33 +1385,34 @@
           "award_item_n4fc3q",
           "award_item_qCQmz3",
           "award_item_byQdDd",
+          "award_item_QrgJxq",
           "final_text_6eTVUM"
         ],
         "name": "AWARDS",
         "settings": {
-          "intro_text": "“The success of Buffalo Zine, which won a D&AD Pencil for its inaugural issue and went on to win Pencils for almost every year of its decade-long existence, is largely down to the creative realisation it was able to make when commercial objectives were not part of the equation.” — D&AD ––––––––––––––––––\nWinning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study, debate, copy and reference the industry’s finest designers.",
-          "award_image": "shopify://shop_images/Screenshot_2025-10-06_at_13.33.10.png"
+          "intro_text": "Buffalo Zine was awarded a D&AD pencil for its inaugural issue, and has continued to win yellow, graphite and yellow pencils for most of its issues in the Magazine & Newspaper Design and Magazine Front Covers categories until today. \n\nWinning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study, debate, copy and reference the industry’s finest designers.",
+          "award_image": "shopify://shop_images/Pencils_in_line.jpg"
         }
       },
       "brand-home": {
         "type": "brand-home",
         "blocks": {
-          "custom_article_VXgmkC": {
-            "type": "custom_article",
-            "settings": {
-              "article": "",
-              "image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.28.png",
-              "hover_media": "",
-              "half": false,
-              "third": true
-            }
-          },
           "custom_article_AXbM7t": {
             "type": "custom_article",
             "settings": {
               "article": "your-brand-here/louis-vuitton-holidays-23",
               "hover_media": "",
-              "half": false,
+              "half": true,
+              "third": true
+            }
+          },
+          "custom_article_VXgmkC": {
+            "type": "custom_article",
+            "settings": {
+              "article": "new-section/great-historical-horror-novels",
+              "image": "shopify://shop_images/Screenshot_2025-09-12_at_15.45.28.png",
+              "hover_media": "",
+              "half": true,
               "third": true
             }
           },
@@ -1446,26 +1421,36 @@
             "settings": {
               "article": "your-brand-here/celine-aw-22-23-in-issue",
               "hover_media": "",
-              "half": false,
+              "half": true,
               "third": true
             }
           },
           "custom_article_YChJkm": {
             "type": "custom_article",
             "settings": {
-              "article": "",
-              "image": "shopify://shop_images/Screenshot_2025-09-12_at_15.55.35.png",
+              "article": "shuffle/michael-stipe",
               "hover_media": "",
-              "half": false,
+              "half": true,
               "third": true
+            }
+          },
+          "custom_article_VkrDEG": {
+            "type": "custom_article",
+            "disabled": true,
+            "settings": {
+              "article": "your-brand-here/louis-vuitton-x-nba",
+              "hover_media": "",
+              "half": true,
+              "third": false
             }
           }
         },
         "block_order": [
-          "custom_article_VXgmkC",
           "custom_article_AXbM7t",
+          "custom_article_VXgmkC",
           "custom_article_3VtreB",
-          "custom_article_YChJkm"
+          "custom_article_YChJkm",
+          "custom_article_VkrDEG"
         ],
         "settings": {}
       }
