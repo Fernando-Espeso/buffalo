@@ -103,19 +103,6 @@
   {% endif %}
   <div class="swiper-gallery">
     <div class="swiper-wrapper">
-      {% if product.metafields.custom.cover != blank %}
-        {% assign cover = product.metafields.custom.cover %}
-        <div class="swiper-slide" data-slide-key="{{ cover.alt | default: 'cover' | handleize }}">
-          <img
-            id="cover-{{ product.id }}"
-            class="lazy"
-            src="{{ cover | image_url: width: 200 }}"
-            data-src="{{ cover | image_url: width: 2048 }}"
-            alt="{{ cover.alt | default: product.title | escape }}"
-          />
-        </div>
-      {% endif %}
-  
       {% for media in product.media %}
         {% case media.media_type %}
           {% when 'video' %}
