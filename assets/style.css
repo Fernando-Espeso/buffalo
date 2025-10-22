@@ -792,6 +792,7 @@ video.hover-media {
   text-align: left;
   position: absolute;
   padding: 10px;
+  display: none;
   bottom: 0px;
 }
 .article-card{
