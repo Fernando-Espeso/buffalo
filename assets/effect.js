@@ -58,7 +58,7 @@ export function fairyDustCursor(options) {
         canvas.height = height;
       }
   
-      context.font = "21px serif";
+      context.font = "100px serif";
       context.textBaseline = "middle";
       context.textAlign = "center";
   
