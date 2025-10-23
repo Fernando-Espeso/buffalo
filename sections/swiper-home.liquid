@@ -42,8 +42,8 @@
     $(document).ready(function () {
         var swiper = new Swiper('.swiper-container', {
           loop: true,
-          slidesPerView: 4,
-          spaceBetween: 3,
+          slidesPerView: 2,
+          spaceBetween: 0,
           navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -63,7 +63,7 @@
             },
             // Cuando la pantalla es >= 768px (tablets y escritorios)
             768: {
-              slidesPerView: 4.5,
+              slidesPerView: 1,
             }
           }
         });
