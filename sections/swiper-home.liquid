@@ -1,0 +1,71 @@
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    {% for block in section.blocks %}
+      <div class="swiper-slide">
+        <img src="{{ block.settings.image | img_url: '1024x1024' }}" alt="{{ block.settings.alt_text }}">
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "slider",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image"
+        },
+        {
+          "type": "text",
+          "label": "Image Alt Text",
+          "id": "alt_text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Slider",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+<script>
+    $(document).ready(function () {
+        var swiper = new Swiper('.swiper-container', {
+          loop: true,
+          slidesPerView: 4,
+          spaceBetween: 3,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          breakpoints: {
+            // Cuando la pantalla es >= 0px (móviles)
+            0: {
+              slidesPerView: 2,
+            },
+            // Cuando la pantalla es >= 768px (tablets y escritorios)
+            768: {
+              slidesPerView: 4.5,
+            }
+          }
+        });
+});
+</script>
