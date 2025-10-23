@@ -71,8 +71,7 @@
           {% if product.featured_image %}
 <img 
   class="main-img"
-  src="{{ product.metafields.custom.cover | image_url: width: 1024 }}"
-  alt="{{ product.title }}">
+  src="{{ product.metafields.custom.cover | image_url: width: 1024 }}" alt="{{ product.title }}">
           {% endif %}
         
           {% if video_url %}
