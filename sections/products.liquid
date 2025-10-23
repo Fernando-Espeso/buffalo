@@ -68,11 +68,12 @@
           {% unless variant.available %}
             <button class="sold-out-button" disabled>Sold Out</button>
           {% endunless %}
-          {% if product.featured_image %}
-<img 
-  class="main-img"
-  src="{{ product.metafields.custom.cover | image_url: width: 1024 }}" alt="{{ product.title }}">
-          {% endif %}
+    {% if product.metafields.custom.cover != blank %}
+  <img 
+    class="main-img"
+    src="{{ product.metafields.custom.cover | image_url: width: 1024 }}"
+    alt="{{ product.title }}">
+{% endif %}
         
           {% if video_url %}
             {% assign ext = video_url | split: '.' | last | downcase %}
