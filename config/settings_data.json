@@ -1495,17 +1495,17 @@
               "alt_text": ""
             }
           },
-          "image_J4A6Lh": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/BZ20_LORO_PIANA_spreads_10.jpg",
-              "alt_text": ""
-            }
-          },
           "image_RK7PzV": {
             "type": "image",
             "settings": {
               "image": "shopify://shop_images/06_CONTACTS-BALI_0Y0A1357.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_TiKbza": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/6_DSC_6221_V2.jpg",
               "alt_text": ""
             }
           }
@@ -1515,8 +1515,8 @@
           "image_7paxwh",
           "image_xFTP4r",
           "image_rnMrc8",
-          "image_J4A6Lh",
-          "image_RK7PzV"
+          "image_RK7PzV",
+          "image_TiKbza"
         ],
         "settings": {}
       }
