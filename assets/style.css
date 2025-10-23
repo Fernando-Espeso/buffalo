@@ -554,12 +554,12 @@ div#shopify-section-hero{
 .swiper-home .swiper-slide img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .swiper-home .swiper-slide video {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .swiper-gallery .swiper-pagination {
