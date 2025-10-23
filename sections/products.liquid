@@ -28,6 +28,11 @@
           "label": "Hover Image"
         },
         {
+          "type": "image_picker",
+          "id": "cover",
+          "label": "cover"
+        },
+        {
           "type": "url",
           "id": "video_url",
           "label": "Video URL (optional)"
@@ -50,6 +55,7 @@
       {% assign product = all_products[handle] %}
       {% assign variant = product.variants.first %}
       {% assign hover = block.settings.hover_image | default: '' %}
+      {% assign cover = block.settings.cover | default: '' %}
       {% assign video_url = block.settings.video_url %}
       {% assign classes = 'product' %}
       {% if block.settings.half %}
@@ -59,22 +65,14 @@
         {% assign classes = classes | append: ' third' %}
       {% endif %}
       {% assign ext = video_url | split: '.' | last | downcase %}
-  
       <div class="product {% if block.settings.half %}half{% endif %} {% if block.settings.third %}third{% endif %}">
-
-    
-
         <a href="{{ product.url }}" class="image-hover-wrapper">
           {% unless variant.available %}
             <button class="sold-out-button" disabled>Sold Out</button>
           {% endunless %}
-    {% if product.metafields.custom.cover != blank %}
-  <img 
-    class="main-img"
-    src="{{ product.metafields.custom.cover | image_url: width: 1024 }}"
-    alt="{{ product.title }}">
-{% endif %}
-        
+          {% if product.featured_image %}
+            <img class="main-img" src="{{ cover | img_url: 'master' }}" alt="{{ product.title }}">
+          {% endif %}
           {% if video_url %}
             {% assign ext = video_url | split: '.' | last | downcase %}
             {% if ext == 'mp4' %}
