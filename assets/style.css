@@ -540,7 +540,26 @@ div#shopify-section-hero{
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
 
+.swiper-home .swiper-slide {
+    display: block;
+    flex-shrink: 0;
+    height: 100vh;
+    position: relative;
+    transition-property: transform;
+    width: 100%;
+}
+
+.swiper-home .swiper-slide img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.swiper-home .swiper-slide video {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .swiper-gallery .swiper-pagination {
