@@ -1484,6 +1484,14 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
 .swiper-gallery img{
 
 }
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 10px;
+    height: 10px;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+}
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0px !important;}
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
