@@ -1518,7 +1518,9 @@
           "image_RK7PzV",
           "image_TiKbza"
         ],
-        "settings": {}
+        "settings": {
+          "goto": "shopify://products/issue-20-success-etc"
+        }
       }
     },
     "content_for_index": []
