@@ -61,9 +61,11 @@
     <div class="next"></div>
     <div class="prev"></div>
   </div>
-  {% if article.metafields.custom.extra.value != blank %}
-    <div class="times extra">{{ article.metafields.custom.extra.value }}</div>
-  {% endif %}
+{% if article.metafields.custom.extra != blank %}
+  <div class="times extra">
+    {{ article.metafields.custom.extra | metafield_tag }}
+  </div>
+{% endif %}
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var swiper = new Swiper('.swiper-article', {
