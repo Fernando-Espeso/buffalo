@@ -2055,6 +2055,9 @@ div#main-product {
   background-color: #fff;
   font-weight: 400;
 }
+.swiper-article, .swiper-gallery {
+  min-height: 600px;
+}
 
 .big{
   font-size: 35px;
