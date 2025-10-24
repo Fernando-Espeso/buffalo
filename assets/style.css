@@ -1393,18 +1393,7 @@ div#shopify-section-template--26607999811916__main {
   grid-column: span 1!important;
 }
 
-.shuffle-mix {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  left: 0;
-  top: 0;
-  transition: background 0s;
-  z-index: 20000;
-  display: none;
-  background-color: black;
-  animation: none; /* por defecto no animado */
-}
+
 
 @keyframes crazy-colors {
   0%   { background: red; }
@@ -1414,9 +1403,13 @@ div#shopify-section-template--26607999811916__main {
 }
 
 .shuffle-mix.active {
+
+    position: fixed;
+  left: 0;
+  top: 0;
   display: block;
-  width: 200px;      /* ajusta a tu tamaño */
-  height: 200px;
+ width: 100vw;
+  height: 100vh;
   animation: crazy-colors 0.6s steps(1, end) infinite;
 }
 
