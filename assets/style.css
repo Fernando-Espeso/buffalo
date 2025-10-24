@@ -1832,7 +1832,7 @@ button.sold-out-button {
 }
 @media (max-width: 1000px) {
 div#main-product{
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   display: grid;
   grid-gap:3px;
   padding: 0px 10px;
