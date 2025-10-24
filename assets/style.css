@@ -1396,9 +1396,9 @@ div#shopify-section-template--26607999811916__main {
 
 
 @keyframes crazy-colors {
-  0%   { background: red; }
+  0%   { background: url('error.png');}
   33.33% { background: blue; }
-  66.66% { background: url('error.png') center/cover no-repeat; }
+  66.66% { background: url('error.png');}
   100% { background: yellow; } /* vuelve al inicio */
 }
 
