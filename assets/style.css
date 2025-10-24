@@ -533,14 +533,14 @@ div#shopify-section-hero{
 }
 .swiper-gallery .swiper-slide img {
     display: flex;
-    height: calc(100% - 100px);
+    height: calc(100% - 60px);
     width: 100%;
     object-fit: contain;
     align-items: center;
 }
 .swiper-gallery .swiper-slide video {
     display: flex;
-    height: calc(100% - 100px);
+    height: calc(100% - 60px);
     width: 100%;
     object-fit: contain;
     align-items: center;
@@ -1481,7 +1481,7 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
 .swiper-gallery {
     width: 100vw;
     min-height: 800px;
-    height: calc(79vh - var(--m));
+    height: calc(80vh - var(--m));
     display: flex;
     position: relative;
     padding: 0;
