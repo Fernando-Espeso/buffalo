@@ -1274,7 +1274,7 @@ div#shopify-section-contact {
   z-index: 10;
   background-color: white;
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 100%;
 }
 .product-variant-item {
   text-align: left;
