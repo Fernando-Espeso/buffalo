@@ -531,6 +531,20 @@ div#shopify-section-hero{
 .swiper-gallery .swiper-wrapper{
   height: 800px; 
 }
+.swiper-gallery .swiper-slide img {
+    display: flex;
+    height: calc(100% - 100px);
+    width: 100%;
+    object-fit: contain;
+    align-items: center;
+}
+.swiper-gallery .swiper-slide video {
+    display: flex;
+    height: calc(100% - 100px);
+    width: 100%;
+    object-fit: contain;
+    align-items: center;
+}
 .swiper-gallery img{
   height: 100%;
   width: 100%;
