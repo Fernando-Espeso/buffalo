@@ -578,7 +578,6 @@ div#shopify-section-hero{
 
 .swiper-gallery .swiper-pagination {
     text-align: center;
-    position: relative;
     margin-top: 10px;
     transition: .3s opacity;
     transform: translate3d(0, 0, 0);
