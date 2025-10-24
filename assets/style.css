@@ -528,8 +528,8 @@ div#shopify-section-hero{
 .contributors p{
   font-family: times;
 }
-.swiper-gallery .swiper-wrapper{
-  height: 800px; 
+.swiper-gallery{
+  min-height: 800px; 
 }
 .swiper-gallery .swiper-slide img {
     display: flex;
