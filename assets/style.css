@@ -1411,7 +1411,7 @@ background-color: black;
   display: block;
  width: 100vw;
   height: 100vh;
-  animation: crazy-colors 0.3s steps(1, end) infinite;
+  animation: crazy-colors 0.25s steps(1, end) infinite;
 }
 
 .swiper-live .swiper-wrapper.centered {
