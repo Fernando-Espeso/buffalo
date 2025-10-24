@@ -1391,13 +1391,7 @@ div#shopify-section-template--26607999811916__main {
 }
 .related.pr .product{
   grid-column: span 1!important;
-}
-@keyframes crazy-colors {
-  0%    {  background-color: rgb(255, 0, 0); }
-  33.33% { background-color: blue; }
-  66.66%   { background-color: yellow; }
-  100% {  background-image: url('error.png'); /* ✅ tu PNG */ }
-}
+
 
 .shuffle-mix {
   width: 100vw;
@@ -1412,9 +1406,18 @@ div#shopify-section-template--26607999811916__main {
   animation: none; /* por defecto no animado */
 }
 
+@keyframes crazy-colors {
+  0%   { background: red; }
+  33.33% { background: blue; }
+  66.66% { background: url('error.png') center/cover no-repeat; }
+  100% { background: red; } /* vuelve al inicio */
+}
+
 .shuffle-mix.active {
   display: block;
-  animation: crazy-colors 2s steps(5, end) infinite;
+  width: 200px;      /* ajusta a tu tamaño */
+  height: 200px;
+  animation: crazy-colors 0.6s steps(1, end) infinite;
 }
 .swiper-live .swiper-wrapper.centered {
   justify-content: center !important;
