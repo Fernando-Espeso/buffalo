@@ -1480,7 +1480,7 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
 }
 .swiper-gallery {
     width: 100vw;
-    min-height: 500px;
+    min-height: 800px;
     height: calc(79vh - var(--m));
     display: flex;
     position: relative;
