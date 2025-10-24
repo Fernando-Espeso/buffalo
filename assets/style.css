@@ -1397,15 +1397,9 @@ div#shopify-section-template--26607999811916__main {
   16.66% { background-color: red; }
   33.33% { background-color: green; }
   50%   { background-color: yellow; }
-  66.66% { background-color: black; }
+  66.66% {   background-image: url('tu-imagen.png'); /* ✅ tu PNG */ }
   83.33% { background-color: white; }
   100%  { background-color: blue; } /* Vuelve a empezar en bucle */
-}
-.swiper-live .swiper-wrapper.centered {
-  justify-content: center !important;
-}
-.swiper-live .swiper-wrapper.centered .swiper-slide img {
-  transition: 0s;
 }
 
 .shuffle-mix {
@@ -1425,6 +1419,13 @@ div#shopify-section-template--26607999811916__main {
   display: block;
   animation: crazy-colors 1s steps(20, end) infinite;
 }
+.swiper-live .swiper-wrapper.centered {
+  justify-content: center !important;
+}
+.swiper-live .swiper-wrapper.centered .swiper-slide img {
+  transition: 0s;
+}
+
 section.awards-section {
   width: 50%;
   padding: 5px;
