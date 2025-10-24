@@ -198,6 +198,67 @@ $('.your-brand-link').on('click', function(e) {
         target.addEventListener("mouseleave", () => fx?.destroy());
       });
     </script>
+    <script>
+      window.yourBrandPosts = [
+        {% for article in blogs['shuffle'].articles %}
+          "{{ article.url }}"{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ];
+    </script>
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const link = document.querySelector('.your-brand-link');
+        const shuffleDiv = document.querySelector('.shuffle-mix');
+    
+        if (link && window.yourBrandPosts && window.yourBrandPosts.length > 0) {
+          link.addEventListener('click', function (e) {
+            e.preventDefault();
+    
+            const randomIndex = Math.floor(Math.random() * window.yourBrandPosts.length);
+            const randomUrl = window.yourBrandPosts[randomIndex];
+    
+            // Mostrar y animar el fondo
+            shuffleDiv.style.display = 'block';
+            setTimeout(() => {
+              shuffleDiv.classList.add('active');
+            }, 0); // pequeño delay para asegurar el render antes de animar
+    
+            // Redirigir después de 2 segundos
+            setTimeout(() => {
+              window.location.href = randomUrl;
+            }, 00);
+          });
+        }
+      });
+    </script>
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const link = document.querySelector('.due');
+        const shuffleDiv = document.querySelector('.shuffle-mix');
+    
+        if (link && window.yourBrandPosts && window.yourBrandPosts.length > 0) {
+          link.addEventListener('click', function (e) {
+            e.preventDefault();
+    
+            const randomIndex = Math.floor(Math.random() * window.yourBrandPosts.length);
+            const randomUrl = window.yourBrandPosts[randomIndex];
+    
+            // Mostrar y animar el fondo
+            shuffleDiv.style.display = 'block';
+            setTimeout(() => {
+              shuffleDiv.classList.add('active');
+            }, 0); // pequeño delay para asegurar el render antes de animar
+    
+            // Redirigir después de 2 segundos
+            setTimeout(() => {
+              window.location.href = randomUrl;
+            }, 00);
+          });
+        }
+      });
+    </script>
 
     <!-- Activar el efecto -->
     <script>
