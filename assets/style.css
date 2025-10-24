@@ -1394,12 +1394,9 @@ div#shopify-section-template--26607999811916__main {
 }
 @keyframes crazy-colors {
   0%    {  background-color: rgb(255, 0, 0); }
-  16.66% { background-image: url('error.png'); }
   33.33% { background-color: blue; }
-  50%   { background-color: yellow; }
-  66.66% {  background-image: url('error.png'); /* ✅ tu PNG */ }
-  83.33% { background-color: rgb(0, 255, 4); }
-  100%  { background-color: blue; } /* Vuelve a empezar en bucle */
+  66.66%   { background-color: yellow; }
+  100% {  background-image: url('error.png'); /* ✅ tu PNG */ }
 }
 
 .shuffle-mix {
