@@ -1395,7 +1395,7 @@ div#shopify-section-template--26607999811916__main {
 @keyframes crazy-colors {
   0%    {  background-color: rgb(255, 0, 0); }
   16.66% { background-image: url('error.png'); }
-  33.33% { background-color: red; }
+  33.33% { background-color: blue; }
   50%   { background-color: yellow; }
   66.66% {  background-image: url('error.png'); /* ✅ tu PNG */ }
   83.33% { background-color: rgb(0, 255, 4); }
@@ -1417,7 +1417,7 @@ div#shopify-section-template--26607999811916__main {
 
 .shuffle-mix.active {
   display: block;
-  animation: crazy-colors 1s steps(20, end) infinite;
+  animation: crazy-colors 2s steps(20, end) infinite;
 }
 .swiper-live .swiper-wrapper.centered {
   justify-content: center !important;
