@@ -1335,7 +1335,8 @@ details > summary::-webkit-details-marker {
 ================================================== */
 .swiper-article {
   width: 100%;
-  height: calc(100vh - var(--a) - var(--m));
+  min-height: 900px;
+  height: calc(80vh - var(--m));
   display: flex;
   position: relative;
   padding: 0px;
@@ -1362,21 +1363,21 @@ div#shopify-section-template--26607999811916__main {
 
 .swiper-article .swiper-slide img{
   display: flex;
-  height: calc(100% - 100px);
+  height: calc(100% - 60px);
   width: 100%;
   object-fit: contain;
   align-items: center;
 }
 .swiper-article .swiper-slide video{
   display: flex;
-  height: calc(100% - 100px);
+  height: calc(100% - 60px);
   width: 100%;
   object-fit: contain;
   align-items: center;
 }
 .swiper-article .swiper-slide .vimeo{
   display: flex;
-  height: calc(100% - 100px);
+  height: calc(100% - 60px);
   width: 100%;
   object-fit: contain;
   align-items: center;
