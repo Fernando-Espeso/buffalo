@@ -1393,7 +1393,7 @@ div#shopify-section-template--26607999811916__main {
   grid-column: span 1!important;
 }
 @keyframes crazy-colors {
-  0%    { background-color: black; }
+  0%    {  background-image: url('error.png'); /* ✅ tu PNG */ }
   16.66% { background-color: black; }
   33.33% { background-color: black; }
   50%   { background-color: yellow; }
