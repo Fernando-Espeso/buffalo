@@ -617,6 +617,7 @@ span.title-price {
 }
 
 .close-up {
+  display: none;
   font-family: Helvetica, sans-serif;
   font-weight: normal;
   color: white;
