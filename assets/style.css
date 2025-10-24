@@ -1414,7 +1414,7 @@ div#shopify-section-template--26607999811916__main {
 
 .shuffle-mix.active {
   display: block;
-  animation: crazy-colors 1s steps(20, end) infinite;
+  animation: crazy-colors 2s steps(5, end) infinite;
 }
 .swiper-live .swiper-wrapper.centered {
   justify-content: center !important;
