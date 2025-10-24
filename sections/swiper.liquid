@@ -63,7 +63,7 @@
   </div>
 {% if article.metafields.custom.extra != blank %}
   <div class="times extra">
-    {{ article.metafields.custom.extra | metafield_tag }}
+    {{ article.metafields.custom.extra | metafield_tag | strip_html }}
   </div>
 {% endif %}
   <script>
