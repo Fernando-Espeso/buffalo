@@ -173,17 +173,17 @@
     <br><br><br><br>
      ©2025 Buffalo Zine. All rights reserved. 
     </footer>
-        <script>
-document.querySelector('.your-brand-link.due').addEventListener('click', function(e) {
-  e.preventDefault(); // evita que el enlace redirija de inmediato
+<script>
+$('.your-brand-link.due').on('click', function(e) {
+  e.preventDefault();
 
-  const url = this.getAttribute('href'); // obtiene la URL original
+  const url = $(this).attr('href');
 
-  // opcional: puedes añadir una clase para una animación
-  this.classList.add('is-transitioning');
+  // Opcional: añadir animación o clase CSS
+  $(this).addClass('is-transitioning');
 
   setTimeout(() => {
-    window.location.href = url; // redirige después de 2 segundos
+    window.location.href = url;
   }, 2000);
 });
 </script>
