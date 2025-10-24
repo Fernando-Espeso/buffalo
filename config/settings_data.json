@@ -1066,14 +1066,24 @@
       "products": {
         "type": "products",
         "blocks": {
+          "product_3LwCBk": {
+            "type": "product",
+            "settings": {
+              "product": "issue-21-aw-25-26",
+              "half": true,
+              "third": true,
+              "cover": "shopify://shop_images/BZ21_Cover_1.jpg",
+              "video_url": ""
+            }
+          },
           "product_9DLrAq": {
             "type": "product",
             "settings": {
               "product": "issue-20-success-etc",
-              "half": false,
+              "half": true,
               "third": true,
               "hover_image": "shopify://shop_images/BZ20_Cover_03_Pippa_laying.jpg",
-              "cover": "shopify://shop_images/BZ19_MICHAEL_STIPE_2.jpg",
+              "cover": "shopify://shop_images/BZ20_Cover_02_Ninot_standing_1800x1400_9f5e328c-1f2c-4048-9c8a-ed9ca7e60668.jpg",
               "video_url": ""
             }
           },
@@ -1255,6 +1265,7 @@
           }
         },
         "block_order": [
+          "product_3LwCBk",
           "product_9DLrAq",
           "product_A4RMWC",
           "product_H6xMrT",
