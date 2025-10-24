@@ -298,6 +298,20 @@
         window.addEventListener('blur', stopFairy);
       })();
     </script>
+    <script>
+document.querySelector('.your-brand-link.due').addEventListener('click', function(e) {
+  e.preventDefault(); // evita que el enlace redirija de inmediato
+
+  const url = this.getAttribute('href'); // obtiene la URL original
+
+  // opcional: puedes añadir una clase para una animación
+  this.classList.add('is-transitioning');
+
+  setTimeout(() => {
+    window.location.href = url; // redirige después de 2 segundos
+  }, 2000);
+});
+</script>
     {%- if template contains 'product' -%}
       {{ 'global-product.js' | asset_url | script_tag }}
     {%- endif -%}
