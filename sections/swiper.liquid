@@ -61,8 +61,8 @@
     <div class="next"></div>
     <div class="prev"></div>
   </div>
-  {% if article.metafields.custom.title.value != blank %}
-    <div class="times extra">{{ article.metafields.custom.title.value }}</div>
+  {% if article.metafields.custom.extra.value != blank %}
+    <div class="times extra">{{ article.metafields.custom.extra.value }}</div>
   {% endif %}
   <script>
     document.addEventListener("DOMContentLoaded", function () {
