@@ -1465,6 +1465,14 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
   position: relative;
   overflow: hidden;
 }
+.swiper-gallery {
+    width: 100vw;
+    min-height: 500px;
+    height: calc(79vh - var(--m));
+    display: flex;
+    position: relative;
+    padding: 0;
+}
 .swiper-live{
   top: 0px;
   overflow: hidden;
