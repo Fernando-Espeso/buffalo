@@ -533,14 +533,14 @@ div#shopify-section-hero{
 }
 .swiper-gallery .swiper-slide img {
     display: flex;
-    height: calc(100% - 60px);
+    height: calc(100% - 100px);
     width: 100%;
     object-fit: contain;
     align-items: center;
 }
 .swiper-gallery .swiper-slide video {
     display: flex;
-    height: calc(100% - 60px);
+    height: calc(100% - 100px);
     width: 100%;
     object-fit: contain;
     align-items: center;
@@ -1363,21 +1363,21 @@ div#shopify-section-template--26607999811916__main {
 
 .swiper-article .swiper-slide img{
   display: flex;
-  height: calc(100% - 60px);
+  height: calc(100% - 100px);
   width: 100%;
   object-fit: contain;
   align-items: center;
 }
 .swiper-article .swiper-slide video{
   display: flex;
-  height: calc(100% - 60px);
+  height: calc(100% - 100px);
   width: 100%;
   object-fit: contain;
   align-items: center;
 }
 .swiper-article .swiper-slide .vimeo{
   display: flex;
-  height: calc(100% - 60px);
+  height: calc(100% - 100px);
   width: 100%;
   object-fit: contain;
   align-items: center;
