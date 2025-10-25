@@ -1160,6 +1160,8 @@
               "product": "issue-13-buffalo-viral-ss-21",
               "half": false,
               "third": false,
+              "hover_image": "shopify://shop_images/BZ13_MAGGIO_LAYING.jpg",
+              "cover": "shopify://shop_images/BZ13_BLISS_STANDING.jpg",
               "video_url": ""
             }
           },
