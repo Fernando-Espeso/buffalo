@@ -1138,6 +1138,8 @@
               "product": "issue-15-buffalo-pink-ss-22",
               "half": false,
               "third": false,
+              "hover_image": "shopify://shop_images/BZ15_CHLOE_FRONTAL.jpg",
+              "cover": "shopify://shop_images/BZ15_KITSUNE_STANDING_EXT.jpg",
               "video_url": ""
             }
           },
@@ -1147,6 +1149,8 @@
               "product": "issue-14-buffalo-irl-aw-21-22",
               "half": false,
               "third": false,
+              "hover_image": "shopify://shop_images/BZ14_GROUP_LAYING_RIBBON.jpg",
+              "cover": "shopify://shop_images/BZ14_STAIRS_STANDING.jpg",
               "video_url": ""
             }
           },
