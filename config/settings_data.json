@@ -1072,7 +1072,8 @@
               "product": "issue-21-aw-25-26",
               "half": true,
               "third": true,
-              "cover": "shopify://shop_images/BZ21_Cover_1.jpg",
+              "hover_image": "shopify://shop_images/BZ21_Cover_3_laying_9baceb7f-8577-4c57-b352-15e24e4f4e5b.jpg",
+              "cover": "shopify://shop_images/BZ21_Cover_1_FOR_GRID_1960x1400_px.jpg",
               "video_url": ""
             }
           },
@@ -1082,8 +1083,8 @@
               "product": "issue-20-success-etc",
               "half": true,
               "third": true,
-              "hover_image": "shopify://shop_images/BZ20_Cover_03_Pippa_laying.jpg",
-              "cover": "shopify://shop_images/BZ20_Cover_02_Ninot_standing_1800x1400_9f5e328c-1f2c-4048-9c8a-ed9ca7e60668.jpg",
+              "hover_image": "shopify://shop_images/BZ20_Cover_03_Pippa_standing_EXT.jpg",
+              "cover": "shopify://shop_images/BZ20_Cover_02_Ninot_LANDSCAPE_1960x1400_b46e8a7e-6fc6-4203-973e-184436a2cf88.jpg",
               "video_url": ""
             }
           },
@@ -1092,8 +1093,9 @@
             "settings": {
               "product": "issue-19-mother-aw2024-laying",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ19_Cover_4_laying.jpg",
+              "cover": "shopify://shop_images/BZ19_Cover_1_standing_ext_width.jpg",
               "video_url": ""
             }
           },
