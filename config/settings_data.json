@@ -1106,7 +1106,7 @@
               "half": false,
               "third": false,
               "hover_image": "shopify://shop_images/BZ18_Cover_4_laying.jpg",
-              "cover": "shopify://shop_images/BZ18_Cover_6_standing_EXT.jpg",
+              "cover": "shopify://shop_images/BZ18_Cover_6_standing_EXT_adjusted_colour_BG.jpg",
               "video_url": ""
             }
           },
@@ -1115,8 +1115,9 @@
             "settings": {
               "product": "issue-17-coffee-cigarettes-ss2023",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ17_COVER_EMMA_LAYING_e5a54960-2a98-4aa4-8092-65381c5989e8.jpg",
+              "cover": "shopify://shop_images/BZ17_COVER_BALLERINA_STANDING_ext_width.jpg",
               "video_url": ""
             }
           },
