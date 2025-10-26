@@ -1485,29 +1485,17 @@
       "swiper-home": {
         "type": "swiper-home",
         "blocks": {
-          "image_jjVgpj": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/BZ21_AW_for_digital_pdf_XX.jpg",
-              "alt_text": ""
-            }
-          },
-          "image_ddPY9T": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/BZ21_AW_for_digital_pdf_XX_2.jpg",
-              "alt_text": ""
-            }
-          },
           "image_z3bm7w": {
             "type": "image",
             "settings": {
+              "image": "shopify://shop_images/PREVIEW_d3bbc880-b355-4a40-a47a-460d98b498c6.jpg",
               "alt_text": ""
             }
           },
           "image_Pm7Whw": {
             "type": "image",
             "settings": {
+              "image": "shopify://shop_images/PREVIEW2.jpg",
               "alt_text": ""
             }
           },
@@ -1525,8 +1513,6 @@
           }
         },
         "block_order": [
-          "image_jjVgpj",
-          "image_ddPY9T",
           "image_z3bm7w",
           "image_Pm7Whw",
           "image_YHHbQ9",
