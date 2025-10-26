@@ -1516,36 +1516,91 @@
           "image_TMQhFd": {
             "type": "image",
             "settings": {
-              "alt_text": ""
-            }
-          },
-          "image_qfXFcU": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          },
-          "image_6dRQ6x": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          },
-          "image_h7GMyE": {
-            "type": "image",
-            "settings": {
-              "alt_text": ""
-            }
-          },
-          "image_pYYy7F": {
-            "type": "image",
-            "settings": {
+              "image": "shopify://shop_images/BZ21_3.jpg",
               "alt_text": ""
             }
           },
           "image_JcP9Qd": {
             "type": "image",
             "settings": {
+              "image": "shopify://shop_images/BZ21_15.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_pYYy7F": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_5.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_qfXFcU": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_6.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_Ezh4rB": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_7.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_mDxhLY": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_8.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_6dRQ6x": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_9.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_ddrw6d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_10.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_qjwhQf": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_12.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_Pybebz": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_11.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_h7GMyE": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_13.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_YnM3Tx": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_14.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_a4Xit7": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_4.jpg",
               "alt_text": ""
             }
           }
@@ -1556,11 +1611,18 @@
           "image_YHHbQ9",
           "image_bG9ijW",
           "image_TMQhFd",
-          "image_qfXFcU",
-          "image_6dRQ6x",
-          "image_h7GMyE",
+          "image_JcP9Qd",
           "image_pYYy7F",
-          "image_JcP9Qd"
+          "image_qfXFcU",
+          "image_Ezh4rB",
+          "image_mDxhLY",
+          "image_6dRQ6x",
+          "image_ddrw6d",
+          "image_qjwhQf",
+          "image_Pybebz",
+          "image_h7GMyE",
+          "image_YnM3Tx",
+          "image_a4Xit7"
         ],
         "settings": {
           "goto": "shopify://products/issue-20-success-etc"
