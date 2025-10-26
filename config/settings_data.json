@@ -238,7 +238,7 @@
           "column_text_BkaBqi": {
             "type": "column_text",
             "settings": {
-              "column_text_content": "<p>Buffalo Zine is a cutting-edge fashion and art magazine that embraces a refreshingly unconventional approach to publishing. It stands out for its fearless creativity, blending high-fashion photography, witty storytelling and award-wining design and art direction.<br/><br/></p><p>Refusing to sit still, no two issues are ever the same. Every season, the entire magazine changes format and aesthetic identity, revealing a different facet of its rebellious, defiant sensibility. Transforming with every issue into a new world for readers to immerse themselves in. <br/><br/></p><p>With an emphasis on collaboration and inclusivity, Buffalo Zine works with a global array of artists, photographers, writers, and stylists. The outcome is an irreverent melting pot of creative expression that challenges the established conventions of the fashion industry.<br/><br/></p><p>Buffalo Zine’s innovative and daring approach has earned it a devoted following and cemented its reputation as a trailblazer in the world of independent fashion publishing.<br/><br/><br/></p>"
+              "column_text_content": "<p>Buffalo is a cult biannual magazine exploring the margins of style since 2010. Each issue has taken a different form — a cookbook, a mail order catalogue, an interiors magazine, a children’s book — tracing how fashion moves through other worlds. Along the way, Buffalo has used these disguises to test what fashion can hold and how it can be seen.</p><p>Now, Buffalo focuses on looking from the inside out. On people who live fashion rather than perform it. Presence over profile. No celebrity, no spectacle. What’s shown here belongs to the world we inhabit — the one often unseen, yet most real. Buffalo stands for what’s missing in fashion today: a space where what is enough, simply, is finally seen.</p>"
             }
           }
         },
@@ -982,11 +982,11 @@
               "alt_text": "<p>“One of the bravest new independent magazine titles investing in high quality content” <br/>— <strong>MONOCLE</strong></p>"
             }
           },
-          "text_WzL7NF": {
+          "text_zEJiUM": {
             "type": "text",
-            "name": " IT’S NICE THAT 1",
+            "name": " IT’S NICE THAT 2",
             "settings": {
-              "alt_text": "<p>“Born with a one-way ticket to near cult status” <br/>— <strong>IT’S NICE THAT</strong></p>"
+              "alt_text": "<p>“Trends go one way and Buffalo Zine marches resolutely off in the opposite direction” <br/>— <strong>IT’S NICE THAT</strong></p>"
             }
           },
           "text_KGYX9P": {
@@ -996,11 +996,11 @@
               "alt_text": "<p>“Since launching, Buffalo Zine has continually challenged the traditional magazine model by reinventing itself for every issue” <br/>— <strong>CREATIVE REVIEW</strong></p>"
             }
           },
-          "text_wjeXnr": {
+          "text_G4JYJ9": {
             "type": "text",
-            "name": "MAGCULTURE 1",
+            "name": "MAGCULTURE 2",
             "settings": {
-              "alt_text": "<p>“Thank god for Buffalo Zine, a shapeshifter of a magazine: whatever form it takes, they always work with the best fashion creatives and call upon and impressive contacts book to add intelligent and relevant writing too” <br/>— <strong>MAGCULTURE</strong></p>"
+              "alt_text": "<p>“The arrival of a new issue of Buffalo Zine is always an exciting moment, promising some exhilarating magazine-making. It is unlike anything else being done today. The team’s ability to get this unique direction from some of the biggest names in photography is outstanding” <br/>— <strong>MAGCULTURE</strong></p>"
             }
           },
           "text_aCPGJr": {
@@ -1010,25 +1010,25 @@
               "alt_text": "<p>“One of fashion’s most unique, fun, loveable, and exciting publishing projects. Each issue of the cult magazine is a masterpiece of masterful ideas and magical pictures” <br/>— <strong>i-D</strong></p>"
             }
           },
-          "text_zEJiUM": {
-            "type": "text",
-            "name": " IT’S NICE THAT 2",
-            "settings": {
-              "alt_text": "<p>“Trends go one way and Buffalo Zine marches resolutely off in the opposite direction” <br/>— <strong>IT’S NICE THAT</strong></p>"
-            }
-          },
-          "text_G4JYJ9": {
-            "type": "text",
-            "name": "MAGCULTURE 2",
-            "settings": {
-              "alt_text": "<p>“Buffalo Zine is unlike anything else being done today. The team’s ability to get this unique direction from some of the biggest names in photography is outstanding” <br/>— <strong>MAGCULTURE</strong></p>"
-            }
-          },
           "text_EapJwN": {
             "type": "text",
             "name": "DAZED 2",
             "settings": {
               "alt_text": "<p>“A perennial pantomime of the industry, Buffalo’s past issues have ripped off other fashion magazines, faked celebrity covers and landed completely unfinished because ‘basically, we didn’t finish on time’.” <br/>— <strong>DAZED</strong></p>"
+            }
+          },
+          "text_WzL7NF": {
+            "type": "text",
+            "name": " IT’S NICE THAT 1",
+            "settings": {
+              "alt_text": "<p>“Born with a one-way ticket to near cult status” <br/>— <strong>IT’S NICE THAT</strong></p>"
+            }
+          },
+          "text_wjeXnr": {
+            "type": "text",
+            "name": "MAGCULTURE 1",
+            "settings": {
+              "alt_text": "<p>“Thank god for Buffalo Zine, a shapeshifter of a magazine: whatever form it takes, they always work with the best fashion creatives and call upon and impressive contacts book to add intelligent and relevant writing too” <br/>— <strong>MAGCULTURE</strong></p>"
             }
           },
           "text_jDjc89": {
@@ -1047,13 +1047,13 @@
           "text_nrCMwx",
           "text_9mytJz",
           "text_pFK9wB",
-          "text_WzL7NF",
-          "text_KGYX9P",
-          "text_wjeXnr",
-          "text_aCPGJr",
           "text_zEJiUM",
+          "text_KGYX9P",
           "text_G4JYJ9",
+          "text_aCPGJr",
           "text_EapJwN",
+          "text_WzL7NF",
+          "text_wjeXnr",
           "text_jDjc89"
         ],
         "name": "QUOTES",
