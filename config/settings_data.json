@@ -947,11 +947,11 @@
               "alt_text": "<p>“On the cutting edge of print: Buffalo Zine explores the back alleys of style” <br/>— <strong>THE NEW YORK TIMES</strong></p>"
             }
           },
-          "text_aCPGJr": {
+          "text_AmDTzC": {
             "type": "text",
-            "name": "i-D 2",
+            "name": "i-D 1",
             "settings": {
-              "alt_text": "<p>“One of fashion’s most unique, fun, loveable, and exciting publishing projects. Each issue of the cult magazine is a masterpiece of masterful ideas and magical pictures” <br/>— <strong>i-D</strong></p>"
+              "alt_text": "<p>“A radical and subversive trip through the joy of magazines. Each issue rips apart the fabric of magazines and reimagines them for a brave new world, mixing together black humour and an irreverent sense of beauty” <br/>—<strong> i-D</strong></p>"
             }
           },
           "text_G4JYJ9": {
@@ -975,18 +975,11 @@
               "alt_text": "<p>“Trends go one way and Buffalo Zine marches resolutely off in the opposite direction” <br/>— <strong>IT’S NICE THAT</strong></p>"
             }
           },
-          "text_AmDTzC": {
+          "text_HVd6dH": {
             "type": "text",
-            "name": "i-D 1",
+            "name": "FINANCIAL TIMES",
             "settings": {
-              "alt_text": "<p>“A radical and subversive trip through the joy of magazines. Each issue rips apart the fabric of magazines and reimagines them for a brave new world, mixing together black humour and an irreverent sense of beauty” <br/>—<strong> i-D</strong></p>"
-            }
-          },
-          "text_pFK9wB": {
-            "type": "text",
-            "name": "MONOCLE",
-            "settings": {
-              "alt_text": "<p>“One of the bravest new independent magazine titles investing in high quality content” <br/>— <strong>MONOCLE</strong></p>"
+              "alt_text": "<p>“A publication challenging the industry’s status quo” <br/>— <strong>FINANCIAL TIMES</strong></p>"
             }
           },
           "text_9mytJz": {
@@ -1003,18 +996,11 @@
               "alt_text": "<p>“Since launching, Buffalo Zine has continually challenged the traditional magazine model by reinventing itself for every issue” <br/>— <strong>CREATIVE REVIEW</strong></p>"
             }
           },
-          "text_HVd6dH": {
+          "text_aCPGJr": {
             "type": "text",
-            "name": "FINANCIAL TIMES",
+            "name": "i-D 2",
             "settings": {
-              "alt_text": "<p>“A publication challenging the industry’s status quo” <br/>— <strong>FINANCIAL TIMES</strong></p>"
-            }
-          },
-          "text_WzL7NF": {
-            "type": "text",
-            "name": " IT’S NICE THAT 1",
-            "settings": {
-              "alt_text": "<p>“Born with a one-way ticket to near cult status” <br/>— <strong>IT’S NICE THAT</strong></p>"
+              "alt_text": "<p>“One of fashion’s most unique, fun, loveable, and exciting publishing projects. Each issue of the cult magazine is a masterpiece of masterful ideas and magical pictures” <br/>— <strong>i-D</strong></p>"
             }
           },
           "text_EapJwN": {
@@ -1022,6 +1008,20 @@
             "name": "DAZED 2",
             "settings": {
               "alt_text": "<p>“A perennial pantomime of the industry, Buffalo’s past issues have ripped off other fashion magazines, faked celebrity covers and landed completely unfinished because ‘basically, we didn’t finish on time’.” <br/>— <strong>DAZED</strong></p>"
+            }
+          },
+          "text_pFK9wB": {
+            "type": "text",
+            "name": "MONOCLE",
+            "settings": {
+              "alt_text": "<p>“One of the bravest new independent magazine titles investing in high quality content” <br/>— <strong>MONOCLE</strong></p>"
+            }
+          },
+          "text_WzL7NF": {
+            "type": "text",
+            "name": " IT’S NICE THAT 1",
+            "settings": {
+              "alt_text": "<p>“Born with a one-way ticket to near cult status” <br/>— <strong>IT’S NICE THAT</strong></p>"
             }
           },
           "text_wjeXnr": {
@@ -1043,17 +1043,17 @@
         },
         "block_order": [
           "text_FxpWXq",
-          "text_aCPGJr",
+          "text_AmDTzC",
           "text_G4JYJ9",
           "text_nrCMwx",
           "text_zEJiUM",
-          "text_AmDTzC",
-          "text_pFK9wB",
+          "text_HVd6dH",
           "text_9mytJz",
           "text_KGYX9P",
-          "text_HVd6dH",
-          "text_WzL7NF",
+          "text_aCPGJr",
           "text_EapJwN",
+          "text_pFK9wB",
+          "text_WzL7NF",
           "text_wjeXnr",
           "text_jDjc89"
         ],
