@@ -968,18 +968,18 @@
               "alt_text": "<p>“Intelligent without conceit, funny without focusing on funny people, and with an           ever-changing aesthetic identity, it really is a magazine at the vanguard of print culture” <br/>—<strong> VICE</strong></p>"
             }
           },
-          "text_G4JYJ9": {
-            "type": "text",
-            "name": "MAGCULTURE 2",
-            "settings": {
-              "alt_text": "<p>“The arrival of a new issue of Buffalo Zine is always an exciting moment, promising some exhilarating magazine-making. It is unlike anything else being done today. The team’s ability to get this unique direction from some of the biggest names in photography is outstanding” <br/>— <strong>MAGCULTURE</strong></p>"
-            }
-          },
           "text_9mytJz": {
             "type": "text",
             "name": "DAZED",
             "settings": {
               "alt_text": "<p>“Serious fashion mags are over. Buffalo Zine is one of the publishing world’s most fun-loving art and fashion mags” <br/>— <strong>DAZED</strong></p>"
+            }
+          },
+          "text_G4JYJ9": {
+            "type": "text",
+            "name": "MAGCULTURE 2",
+            "settings": {
+              "alt_text": "<p>“The arrival of a new issue of Buffalo Zine is always an exciting moment, promising some exhilarating magazine-making. It is unlike anything else being done today. The team’s ability to get this unique direction from some of the biggest names in photography is outstanding” <br/>— <strong>MAGCULTURE</strong></p>"
             }
           },
           "text_pFK9wB": {
@@ -1046,8 +1046,8 @@
           "text_HVd6dH",
           "text_AmDTzC",
           "text_nrCMwx",
-          "text_G4JYJ9",
           "text_9mytJz",
+          "text_G4JYJ9",
           "text_pFK9wB",
           "text_zEJiUM",
           "text_KGYX9P",
