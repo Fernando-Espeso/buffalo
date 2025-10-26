@@ -1502,10 +1502,48 @@
           "image_YHHbQ9": {
             "type": "image",
             "settings": {
+              "image": "shopify://shop_images/BZ21.jpg",
               "alt_text": ""
             }
           },
           "image_bG9ijW": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_2.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_TMQhFd": {
+            "type": "image",
+            "settings": {
+              "alt_text": ""
+            }
+          },
+          "image_qfXFcU": {
+            "type": "image",
+            "settings": {
+              "alt_text": ""
+            }
+          },
+          "image_6dRQ6x": {
+            "type": "image",
+            "settings": {
+              "alt_text": ""
+            }
+          },
+          "image_h7GMyE": {
+            "type": "image",
+            "settings": {
+              "alt_text": ""
+            }
+          },
+          "image_pYYy7F": {
+            "type": "image",
+            "settings": {
+              "alt_text": ""
+            }
+          },
+          "image_JcP9Qd": {
             "type": "image",
             "settings": {
               "alt_text": ""
@@ -1516,7 +1554,13 @@
           "image_z3bm7w",
           "image_Pm7Whw",
           "image_YHHbQ9",
-          "image_bG9ijW"
+          "image_bG9ijW",
+          "image_TMQhFd",
+          "image_qfXFcU",
+          "image_6dRQ6x",
+          "image_h7GMyE",
+          "image_pYYy7F",
+          "image_JcP9Qd"
         ],
         "settings": {
           "goto": "shopify://products/issue-20-success-etc"
