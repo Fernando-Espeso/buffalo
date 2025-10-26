@@ -1214,8 +1214,10 @@
             "type": "product",
             "settings": {
               "product": "issue-8-fashion-s-kitchen-aw-18-19",
-              "half": true,
+              "half": false,
               "third": false,
+              "hover_image": "shopify://shop_images/BZ08_Cover_04.jpg",
+              "cover": "shopify://shop_images/BZ08_PINEAPPLE_STANDING.jpg",
               "video_url": ""
             }
           },
