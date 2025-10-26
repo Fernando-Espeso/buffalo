@@ -1226,7 +1226,9 @@
             "settings": {
               "product": "issue-7-holidays-in-spain-ss-18",
               "half": false,
-              "third": true,
+              "third": false,
+              "hover_image": "shopify://shop_images/BZ07_LAYING_ALL1.jpg",
+              "cover": "shopify://shop_images/BZ07_3_STANDING.jpg",
               "video_url": ""
             }
           },
