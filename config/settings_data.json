@@ -1525,17 +1525,17 @@
               "alt_text": ""
             }
           },
-          "image_a4Xit7": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/BZ21_4.jpg",
-              "alt_text": ""
-            }
-          },
           "image_pYYy7F": {
             "type": "image",
             "settings": {
               "image": "shopify://shop_images/BZ21_5.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_a4Xit7": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_4.jpg",
               "alt_text": ""
             }
           },
@@ -1616,8 +1616,8 @@
           "image_YHHbQ9",
           "image_bG9ijW",
           "image_TMQhFd",
-          "image_a4Xit7",
           "image_pYYy7F",
+          "image_a4Xit7",
           "image_qfXFcU",
           "image_Ezh4rB",
           "image_mDxhLY",
