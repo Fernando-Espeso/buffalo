@@ -1395,6 +1395,12 @@
               "award_text": "<p>ISSUE 20: WOOD PENCIL (2025)</p>"
             }
           },
+          "final_text_U6ETXJ": {
+            "type": "final_text",
+            "settings": {
+              "closing_text": ""
+            }
+          },
           "final_text_6eTVUM": {
             "type": "final_text",
             "settings": {
@@ -1416,6 +1422,7 @@
           "award_item_qCQmz3",
           "award_item_byQdDd",
           "award_item_QrgJxq",
+          "final_text_U6ETXJ",
           "final_text_6eTVUM"
         ],
         "name": "AWARDS",
