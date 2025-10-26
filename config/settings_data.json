@@ -1204,7 +1204,9 @@
             "settings": {
               "product": "issue-9-copyright-©2019-ss-19",
               "half": false,
-              "third": true,
+              "third": false,
+              "hover_image": "shopify://shop_images/BZ09_Cover_System.jpg",
+              "cover": "shopify://shop_images/BZ09_09BZ_STANDING_ext_width.jpg",
               "video_url": ""
             }
           },
