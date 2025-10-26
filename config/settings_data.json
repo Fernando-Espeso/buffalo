@@ -1183,6 +1183,8 @@
               "product": "issue-11-buffalo-earth-ss-20",
               "half": false,
               "third": false,
+              "hover_image": "shopify://shop_images/BZ11_XIUCHING_LAYING.jpg",
+              "cover": "shopify://shop_images/BZ11_EVELYNROTH_STANDING.jpg",
               "video_url": ""
             }
           },
@@ -1192,6 +1194,8 @@
               "product": "issue-10-the-unfinished-issue-aw-19-20",
               "half": false,
               "third": false,
+              "hover_image": "shopify://shop_images/BZ11_XIUCHING_LAYING.jpg",
+              "cover": "shopify://shop_images/BZ11_EVELYNROTH_STANDING.jpg",
               "video_url": ""
             }
           },
