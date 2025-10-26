@@ -1520,13 +1520,6 @@
               "alt_text": ""
             }
           },
-          "image_JcP9Qd": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/BZ21_15.jpg",
-              "alt_text": ""
-            }
-          },
           "image_pYYy7F": {
             "type": "image",
             "settings": {
@@ -1603,6 +1596,13 @@
               "image": "shopify://shop_images/BZ21_4.jpg",
               "alt_text": ""
             }
+          },
+          "image_JcP9Qd": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_15.jpg",
+              "alt_text": ""
+            }
           }
         },
         "block_order": [
@@ -1611,7 +1611,6 @@
           "image_YHHbQ9",
           "image_bG9ijW",
           "image_TMQhFd",
-          "image_JcP9Qd",
           "image_pYYy7F",
           "image_qfXFcU",
           "image_Ezh4rB",
@@ -1622,7 +1621,8 @@
           "image_Pybebz",
           "image_h7GMyE",
           "image_YnM3Tx",
-          "image_a4Xit7"
+          "image_a4Xit7",
+          "image_JcP9Qd"
         ],
         "settings": {
           "goto": "shopify://products/issue-20-success-etc"
