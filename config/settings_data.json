@@ -238,7 +238,7 @@
           "column_text_BkaBqi": {
             "type": "column_text",
             "settings": {
-              "column_text_content": "<p>Buffalo is a cult biannual magazine exploring the margins of style since 2010. Each issue has taken a different form — a cookbook, a mail order catalogue, an interiors magazine, a children’s book — tracing how fashion moves through other worlds. Along the way, Buffalo has used these disguises to test what fashion can hold and how it can be seen.</p><p>Now, Buffalo focuses on looking from the inside out. On people who live fashion rather than perform it. Presence over profile. No celebrity, no spectacle. What’s shown here belongs to the world we inhabit — the one often unseen, yet most real. Buffalo stands for what’s missing in fashion today: a space where what is enough, simply, is finally seen.</p>"
+              "column_text_content": "<p>Buffalo Zine is a cult biannual magazine exploring the margins of style since 2010. Each issue has taken a different form —a cookbook, a mail order catalogue, an interiors magazine, a children’s book— tracing how fashion moves through other worlds. Along the way, Buffalo has used these disguises to test what fashion can hold and how it can be seen.</p><p>Now, Buffalo focuses on looking from the inside out. On people who live fashion rather than perform it. Presence over profile. No celebrity, no spectacle. What’s shown here belongs to the world we inhabit — the one often unseen, yet most real. Buffalo stands for what’s missing in fashion today: a space where what is enough, simply, is finally seen.</p>"
             }
           }
         },
@@ -968,6 +968,13 @@
               "alt_text": "<p>“Intelligent without conceit, funny without focusing on funny people, and with an           ever-changing aesthetic identity, it really is a magazine at the vanguard of print culture” <br/>—<strong> VICE</strong></p>"
             }
           },
+          "text_G4JYJ9": {
+            "type": "text",
+            "name": "MAGCULTURE 2",
+            "settings": {
+              "alt_text": "<p>“The arrival of a new issue of Buffalo Zine is always an exciting moment, promising some exhilarating magazine-making. It is unlike anything else being done today. The team’s ability to get this unique direction from some of the biggest names in photography is outstanding” <br/>— <strong>MAGCULTURE</strong></p>"
+            }
+          },
           "text_9mytJz": {
             "type": "text",
             "name": "DAZED",
@@ -996,25 +1003,11 @@
               "alt_text": "<p>“Since launching, Buffalo Zine has continually challenged the traditional magazine model by reinventing itself for every issue” <br/>— <strong>CREATIVE REVIEW</strong></p>"
             }
           },
-          "text_G4JYJ9": {
-            "type": "text",
-            "name": "MAGCULTURE 2",
-            "settings": {
-              "alt_text": "<p>“The arrival of a new issue of Buffalo Zine is always an exciting moment, promising some exhilarating magazine-making. It is unlike anything else being done today. The team’s ability to get this unique direction from some of the biggest names in photography is outstanding” <br/>— <strong>MAGCULTURE</strong></p>"
-            }
-          },
           "text_aCPGJr": {
             "type": "text",
             "name": "i-D 2",
             "settings": {
               "alt_text": "<p>“One of fashion’s most unique, fun, loveable, and exciting publishing projects. Each issue of the cult magazine is a masterpiece of masterful ideas and magical pictures” <br/>— <strong>i-D</strong></p>"
-            }
-          },
-          "text_EapJwN": {
-            "type": "text",
-            "name": "DAZED 2",
-            "settings": {
-              "alt_text": "<p>“A perennial pantomime of the industry, Buffalo’s past issues have ripped off other fashion magazines, faked celebrity covers and landed completely unfinished because ‘basically, we didn’t finish on time’.” <br/>— <strong>DAZED</strong></p>"
             }
           },
           "text_WzL7NF": {
@@ -1024,9 +1017,17 @@
               "alt_text": "<p>“Born with a one-way ticket to near cult status” <br/>— <strong>IT’S NICE THAT</strong></p>"
             }
           },
+          "text_EapJwN": {
+            "type": "text",
+            "name": "DAZED 2",
+            "settings": {
+              "alt_text": "<p>“A perennial pantomime of the industry, Buffalo’s past issues have ripped off other fashion magazines, faked celebrity covers and landed completely unfinished because ‘basically, we didn’t finish on time’.” <br/>— <strong>DAZED</strong></p>"
+            }
+          },
           "text_wjeXnr": {
             "type": "text",
             "name": "MAGCULTURE 1",
+            "disabled": true,
             "settings": {
               "alt_text": "<p>“Thank god for Buffalo Zine, a shapeshifter of a magazine: whatever form it takes, they always work with the best fashion creatives and call upon and impressive contacts book to add intelligent and relevant writing too” <br/>— <strong>MAGCULTURE</strong></p>"
             }
@@ -1045,14 +1046,14 @@
           "text_HVd6dH",
           "text_AmDTzC",
           "text_nrCMwx",
+          "text_G4JYJ9",
           "text_9mytJz",
           "text_pFK9wB",
           "text_zEJiUM",
           "text_KGYX9P",
-          "text_G4JYJ9",
           "text_aCPGJr",
-          "text_EapJwN",
           "text_WzL7NF",
+          "text_EapJwN",
           "text_wjeXnr",
           "text_jDjc89"
         ],
@@ -1419,8 +1420,8 @@
         ],
         "name": "AWARDS",
         "settings": {
-          "intro_text": "Buffalo Zine was awarded a D&AD pencil for its inaugural issue, and has continued to win yellow, graphite and yellow pencils for most of its issues in the Magazine & Newspaper Design and Magazine Front Covers categories until today. \n\nWinning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study, debate, copy and reference the industry’s finest designers.",
-          "award_image": "shopify://shop_images/Pencils_in_line.jpg"
+          "intro_text": "Buffalo Zine was awarded a D&AD pencil for its inaugural issue, and has continued to win  pencils for most of its issues in the Magazine & Newspaper Design and Magazine Front Covers categories until today. \n\nWinning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study, debate, copy and reference the industry’s finest designers.",
+          "award_image": "shopify://shop_images/Pencils_in_line_340298c2-9c63-40e1-9c0c-c3eb566813e3.jpg"
         }
       },
       "brand-home": {
