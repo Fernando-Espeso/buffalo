@@ -785,7 +785,7 @@
             "type": "custom_article",
             "settings": {
               "article": "your-brand-here/versace-jeans-couture-ss-24",
-              "hover_media": "shopify://products/issue-1-ss2011",
+              "hover_media": "",
               "half": true,
               "third": true
             }
@@ -1485,56 +1485,52 @@
       "swiper-home": {
         "type": "swiper-home",
         "blocks": {
-          "image_RKqNE7": {
+          "image_jjVgpj": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/1_DSC_5714_V2.jpg",
+              "image": "shopify://shop_images/BZ21_AW_for_digital_pdf_XX.jpg",
               "alt_text": ""
             }
           },
-          "image_7paxwh": {
+          "image_ddPY9T": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/JACQUEMUS.jpg",
+              "image": "shopify://shop_images/BZ21_AW_for_digital_pdf_XX_2.jpg",
               "alt_text": ""
             }
           },
-          "image_xFTP4r": {
+          "image_z3bm7w": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/BZ21_SPREADS_0B.jpg",
               "alt_text": ""
             }
           },
-          "image_rnMrc8": {
+          "image_Pm7Whw": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/10_VERSACE-RESORT_14_1021_V2_HR.jpg",
               "alt_text": ""
             }
           },
-          "image_RK7PzV": {
+          "image_YHHbQ9": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/06_CONTACTS-BALI_0Y0A1357.jpg",
               "alt_text": ""
             }
           },
-          "image_TiKbza": {
+          "image_bG9ijW": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/6_DSC_6221_V2.jpg",
               "alt_text": ""
             }
           }
         },
         "block_order": [
-          "image_RKqNE7",
-          "image_7paxwh",
-          "image_xFTP4r",
-          "image_rnMrc8",
-          "image_RK7PzV",
-          "image_TiKbza"
+          "image_jjVgpj",
+          "image_ddPY9T",
+          "image_z3bm7w",
+          "image_Pm7Whw",
+          "image_YHHbQ9",
+          "image_bG9ijW"
         ],
         "settings": {
           "goto": "shopify://products/issue-20-success-etc"
