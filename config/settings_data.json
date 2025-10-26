@@ -1236,8 +1236,10 @@
             "type": "product",
             "settings": {
               "product": "issue-6-the-interiors-issue-aw-17-18",
-              "half": true,
+              "half": false,
               "third": false,
+              "hover_image": "shopify://shop_images/BZ06_Cover_02.jpg",
+              "cover": "shopify://shop_images/BZ06_DECOR_STANDING.jpg",
               "video_url": ""
             }
           },
@@ -1247,6 +1249,8 @@
               "product": "issue-5-the-hackney-road-issue-ss-17",
               "half": true,
               "third": false,
+              "hover_image": "shopify://shop_images/BZ05_Cover_02_031e5adc-0e9a-4a74-8157-0a152d1ced9f.jpg",
+              "cover": "shopify://shop_images/BZ05_PAMELA_STANDING_35f50d4a-f274-460f-b922-9aae2167ac14.jpg",
               "video_url": ""
             }
           },
@@ -1256,6 +1260,8 @@
               "product": "issue-4-international-buffalo-zine-catalogue-aw-16-17",
               "half": true,
               "third": false,
+              "hover_image": "shopify://shop_images/BZ04_COVER_HUPPERT.jpg",
+              "cover": "shopify://shop_images/BZ04_STANDING_ext_width_b2f7a064-f974-4219-ad2c-68d872fec6b3.jpg",
               "video_url": ""
             }
           },
@@ -1265,7 +1271,8 @@
               "product": "issue-3-secret-diaries-and-tales-for-children-ss-2015",
               "half": true,
               "third": false,
-              "hover_image": "shopify://shop_images/BuffaloZineNo3_VivienneWestwood3.jpg",
+              "hover_image": "shopify://shop_images/BZ03_Cover_VW.jpg",
+              "cover": "shopify://shop_images/BZ03_V_R_STANDING_ext_width_6a4868f6-03a7-444b-b32e-efda345f5d16.jpg",
               "video_url": ""
             }
           },
@@ -1275,6 +1282,8 @@
               "product": "issue-2-street-style-ss13",
               "half": true,
               "third": false,
+              "hover_image": "shopify://shop_images/BZ02_Covers.jpg",
+              "cover": "shopify://shop_images/BZ02_Cover_Chloe_ext_width.jpg",
               "video_url": ""
             }
           },
@@ -1284,6 +1293,8 @@
               "product": "issue-1-ss2011",
               "half": true,
               "third": false,
+              "hover_image": "shopify://shop_images/BZ01_Cover_01_Ninu_ext_30bb2f25-b8ec-4c17-a25f-ddc227f3a6b9.jpg",
+              "cover": "shopify://shop_images/BZ01_STANDING.jpg",
               "video_url": ""
             }
           }
