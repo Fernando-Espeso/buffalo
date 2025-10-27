@@ -58,16 +58,26 @@
       loop: true,
       slidesPerView: 2,
       spaceBetween: 0,
-      autoplay: true,
-      speed: 400,
+      speed: 1000,
+      autoplay: {
+        delay: 1500, 
+        disableOnInteraction: false,
+      },
+      on: {
+        init: function () {
+          this.autoplay.start();
+          this.slideNext(0); 
+        },
+      },
       breakpoints: {
         0: {
           slidesPerView: 1,
         },
         768: {
           slidesPerView: 2,
-        }
-      }
+        },
+      },
     });
   });
 </script>
+
