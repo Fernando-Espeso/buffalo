@@ -1477,6 +1477,9 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
   position: relative;
   overflow: hidden;
 }
+section#shopify-section-brand-home {
+  display: none;
+}
 .swiper-gallery {
     width:100%;
     min-height: 800px;
