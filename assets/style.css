@@ -2059,7 +2059,7 @@ div#main-product {
     align-items: center;
 }
 .swiper-pagination {
-    position: relative;
+    position: relative!important;
 }
 .item {
   display: grid;
