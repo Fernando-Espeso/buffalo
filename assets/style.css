@@ -2041,13 +2041,21 @@ div#main-product {
 }
 .swiper-article {
   width: 100%;
-  min-height: 900px;
+  min-height: 600px;
   height: auto;
   display: block;
   position: relative; */
   padding: 0px;
   border-bottom: 1px solid var(--bl);
   background-color: black;
+}
+.swiper-gallery {
+    width: 100%;
+    min-height: 600px;
+    height:auto;
+    display: block;
+    position: relative;
+    padding: 0;
 }
 .swiper-article .swiper-slide img {
     display: flex
