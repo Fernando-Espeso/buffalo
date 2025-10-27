@@ -2039,6 +2039,19 @@ div#main-product {
 .swiper-article {
   position: relative!important;
 }
+.swiper-article {
+  width: 100%;
+  min-height: 900px;
+  /* height: calc(80vh - var(--m));
+  display: flex;
+  position: relative; */
+  padding: 0px;
+  border-bottom: 1px solid var(--bl);
+  background-color: black;
+}
+.swiper-pagination {
+    position: relative;
+}
 .item {
   display: grid;
   row-gap: 10px;
