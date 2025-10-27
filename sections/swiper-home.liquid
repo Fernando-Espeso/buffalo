@@ -58,16 +58,10 @@
       loop: true,
       slidesPerView: 2,
       spaceBetween: 0,
-      speed: 800,
+      speed: 1000, // duración de la transición (1s)
       autoplay: {
-        delay: 200, 
+        delay: 100, // cada 1.5s
         disableOnInteraction: false,
-      },
-      on: {
-        init: function () {
-          this.autoplay.start();
-          this.slideNext(0); 
-        },
       },
       breakpoints: {
         0: {
@@ -78,6 +72,13 @@
         },
       },
     });
+
+    // Hace que el autoplay empiece casi de inmediato
+    setTimeout(() => {
+      swiper.slideNext();
+      swiper.autoplay.start();
+    }, 100); // empieza 0.1s después de cargar
   });
 </script>
+
 
