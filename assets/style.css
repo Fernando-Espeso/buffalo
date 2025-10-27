@@ -2063,6 +2063,9 @@ div#main-product {
   font-family: var(--fontsec);
   text-transform: uppercase;
 }
+.prev, .next{
+  display: none;
+}
 div#bag {
   WIDTH: 80VW;
   margin: 0 auto;
