@@ -2041,7 +2041,7 @@ div#main-product {
 }
 .swiper-article {
   width: 100%;
-  min-height: 600px;
+  min-height: auto;
   height: auto;
   display: block;
   position: relative; */
@@ -2051,7 +2051,7 @@ div#main-product {
 }
 .swiper-gallery {
     width: 100%;
-    min-height: 600px;
+    min-height: auto;
     height:auto;
     display: block;
     position: relative;
