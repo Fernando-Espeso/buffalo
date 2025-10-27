@@ -119,6 +119,17 @@
             <a href="/pages/about" data-offset="33">INFO</a>
           </li>
           <div class="cart-part">
+            <form method="post" action="/localization" id="CurrencyForm" class="currency-selector">
+              <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
+              <select name="currency_code" id="CurrencySelector" onchange="this.form.submit()">
+                {% for currency in localization.available_currencies %}
+                  <option value="{{ currency.iso_code }}"
+                    {% if currency.iso_code == localization.currency.iso_code %}selected{% endif %}>
+                    {{ currency.iso_code }}
+                  </option>
+                {% endfor %}
+              </select>
+            </form>
             <a href="/cart" class="cov"></a>
             {% for link in linklists.top-bar.links %}
               <li class="nain" {% if link.active %}class="active"{% endif %}><a href="{{ link.url }}">{{ link.title }}</a></li>
