@@ -482,7 +482,9 @@ footer .container{
  display: flex;
  gap: var(--space);
 }
-
+div#shopify-section-swiper-home {
+    padding-bottom: 0px;
+}
 
 /* ARTICLE */
 .article-content{
