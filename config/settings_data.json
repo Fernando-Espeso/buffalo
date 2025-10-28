@@ -776,7 +776,8 @@
             "disabled": true,
             "settings": {
               "article": "your-brand-here/versace-jeans-couture",
-              "hover_media": "",
+              "image": "shopify://shop_images/BZ07_Spread_3.jpg",
+              "hover_media": "https://player.vimeo.com/progressive_redirect/playback/1124919340/rendition/1440p/file.mp4?loc=external&log_user=0&signature=107fa4a9c77c9be2697b325ffd3524532affd6c1aeff41823048a2d4b8427188",
               "half": true,
               "third": true
             }
@@ -785,7 +786,7 @@
             "type": "custom_article",
             "settings": {
               "article": "your-brand-here/versace-jeans-couture-ss-24",
-              "hover_media": "",
+              "hover_media": "https://player.vimeo.com/progressive_redirect/playback/1124919340/rendition/1440p/file.mp4?loc=external&log_user=0&signature=107fa4a9c77c9be2697b325ffd3524532affd6c1aeff41823048a2d4b8427188",
               "half": true,
               "third": true
             }
@@ -1073,8 +1074,8 @@
               "product": "issue-21-aw-25-26",
               "half": true,
               "third": true,
-              "hover_image": "shopify://shop_images/BZ21_Cover_3_laying_e6f955ee-8604-4b48-a18a-e92887a5d159.jpg",
-              "cover": "shopify://shop_images/BZ21_Cover_1_FOR_GRID_1960x1400_px.jpg",
+              "hover_image": "shopify://shop_images/BZ21_Cover_4_laying.jpg",
+              "cover": "shopify://shop_images/BZ21_Cover_1.jpg",
               "video_url": ""
             }
           },
@@ -1093,7 +1094,7 @@
             "type": "product",
             "settings": {
               "product": "issue-19-mother-aw2024-laying",
-              "half": false,
+              "half": true,
               "third": false,
               "hover_image": "shopify://shop_images/BZ19_Cover_4_laying.jpg",
               "cover": "shopify://shop_images/BZ19_Cover_1_standing_ext_width.jpg",
@@ -1104,7 +1105,7 @@
             "type": "product",
             "settings": {
               "product": "issue-19-buffalo-power-aw2023",
-              "half": false,
+              "half": true,
               "third": false,
               "hover_image": "shopify://shop_images/BZ18_Cover_4_laying.jpg",
               "cover": "shopify://shop_images/BZ18_Cover_6_standing_EXT_adjusted_colour_BG.jpg",
@@ -1115,7 +1116,7 @@
             "type": "product",
             "settings": {
               "product": "issue-17-coffee-cigarettes-ss2023",
-              "half": false,
+              "half": true,
               "third": false,
               "hover_image": "shopify://shop_images/BZ17_COVER_EMMA_LAYING.jpg",
               "cover": "shopify://shop_images/BZ17_COVER_BALLERINA_STANDING_EXT.jpg",
@@ -1126,8 +1127,8 @@
             "type": "product",
             "settings": {
               "product": "issue-16-buffalo-hotel-chelsea-aw2022",
-              "half": false,
-              "third": true,
+              "half": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ16_ERICA_LAYING.jpg",
               "cover": "shopify://shop_images/BZ16_CHLOE_STANDING_ext_width.jpg",
               "video_url": ""
@@ -1138,7 +1139,7 @@
             "settings": {
               "product": "issue-15-buffalo-pink-ss-22",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ15_CHLOE_FRONTAL.jpg",
               "cover": "shopify://shop_images/BZ15_KITSUNE_STANDING_EXT.jpg",
               "video_url": ""
@@ -1149,7 +1150,7 @@
             "settings": {
               "product": "issue-14-buffalo-irl-aw-21-22",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ14_GROUP_LAYING_RIBBON.jpg",
               "cover": "shopify://shop_images/BZ14_STAIRS_STANDING.jpg",
               "video_url": ""
@@ -1160,7 +1161,7 @@
             "settings": {
               "product": "issue-13-buffalo-viral-ss-21",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ13_MAGGIO_LAYING.jpg",
               "cover": "shopify://shop_images/BZ13_BLISS_STANDING.jpg",
               "video_url": ""
@@ -1204,7 +1205,7 @@
             "settings": {
               "product": "issue-9-copyright-©2019-ss-19",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ09_Cover_System.jpg",
               "cover": "shopify://shop_images/BZ09_09BZ_STANDING_ext_width.jpg",
               "video_url": ""
@@ -1215,7 +1216,7 @@
             "settings": {
               "product": "issue-8-fashion-s-kitchen-aw-18-19",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ08_Cover_04.jpg",
               "cover": "shopify://shop_images/BZ08_PINEAPPLE_STANDING.jpg",
               "video_url": ""
@@ -1226,7 +1227,7 @@
             "settings": {
               "product": "issue-7-holidays-in-spain-ss-18",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ07_LAYING_ALL1.jpg",
               "cover": "shopify://shop_images/BZ07_3_STANDING.jpg",
               "video_url": ""
@@ -1237,7 +1238,7 @@
             "settings": {
               "product": "issue-6-the-interiors-issue-aw-17-18",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ06_Cover_02.jpg",
               "cover": "shopify://shop_images/BZ06_DECOR_STANDING.jpg",
               "video_url": ""
@@ -1280,7 +1281,7 @@
             "type": "product",
             "settings": {
               "product": "issue-2-street-style-ss13",
-              "half": true,
+              "half": false,
               "third": false,
               "hover_image": "shopify://shop_images/BZ02_Covers.jpg",
               "cover": "shopify://shop_images/BZ02_Cover_Chloe_ext_width.jpg",
@@ -1291,8 +1292,8 @@
             "type": "product",
             "settings": {
               "product": "issue-1-ss-11",
-              "half": true,
-              "third": true,
+              "half": false,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ01_Cover_01_Ninu_ext_30bb2f25-b8ec-4c17-a25f-ddc227f3a6b9.jpg",
               "cover": "shopify://shop_images/BZ01_STANDING.jpg",
               "video_url": ""
