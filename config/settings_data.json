@@ -19,7 +19,6 @@
             "disabled": true,
             "settings": {
               "hero_image": "shopify://shop_images/PREVIEW.jpg",
-              "hover_image_1": "shopify://shop_images/BZ21_SPREADS.jpg",
               "goto": "shopify://products/issue-20-success-etc",
               "video_url_1": "shopify://products/issue-21-aw-25-26",
               "hero_text": "<p>ISSUE 21 AW25-26</p>",
@@ -1522,17 +1521,24 @@
       "swiper-home": {
         "type": "swiper-home",
         "blocks": {
+          "image_JcP9Qd": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ21_15.jpg",
+              "alt_text": ""
+            }
+          },
           "image_z3bm7w": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/PREVIEW_d3bbc880-b355-4a40-a47a-460d98b498c6.jpg",
+              "image": "shopify://shop_images/PREVIEW_1.jpg",
               "alt_text": ""
             }
           },
           "image_Pm7Whw": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/PREVIEW2.jpg",
+              "image": "shopify://shop_images/PREVIEW_2.jpg",
               "alt_text": ""
             }
           },
@@ -1633,16 +1639,10 @@
               "image": "shopify://shop_images/BZ21_14.jpg",
               "alt_text": ""
             }
-          },
-          "image_JcP9Qd": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/BZ21_15.jpg",
-              "alt_text": ""
-            }
           }
         },
         "block_order": [
+          "image_JcP9Qd",
           "image_z3bm7w",
           "image_Pm7Whw",
           "image_YHHbQ9",
@@ -1658,8 +1658,7 @@
           "image_Pybebz",
           "image_qjwhQf",
           "image_h7GMyE",
-          "image_YnM3Tx",
-          "image_JcP9Qd"
+          "image_YnM3Tx"
         ],
         "settings": {
           "goto": "shopify://products/issue-21-aw-25-26"
