@@ -1094,7 +1094,7 @@
             "type": "product",
             "settings": {
               "product": "issue-19-mother-aw2024-laying",
-              "half": true,
+              "half": false,
               "third": false,
               "hover_image": "shopify://shop_images/BZ19_Cover_4_laying.jpg",
               "cover": "shopify://shop_images/BZ19_Cover_1_standing_ext_width.jpg",
@@ -1105,7 +1105,7 @@
             "type": "product",
             "settings": {
               "product": "issue-19-buffalo-power-aw2023",
-              "half": true,
+              "half": false,
               "third": false,
               "hover_image": "shopify://shop_images/BZ18_Cover_4_laying.jpg",
               "cover": "shopify://shop_images/BZ18_Cover_6_standing_EXT_adjusted_colour_BG.jpg",
@@ -1116,7 +1116,7 @@
             "type": "product",
             "settings": {
               "product": "issue-17-coffee-cigarettes-ss2023",
-              "half": true,
+              "half": false,
               "third": false,
               "hover_image": "shopify://shop_images/BZ17_COVER_EMMA_LAYING.jpg",
               "cover": "shopify://shop_images/BZ17_COVER_BALLERINA_STANDING_EXT.jpg",
@@ -1127,7 +1127,7 @@
             "type": "product",
             "settings": {
               "product": "issue-16-buffalo-hotel-chelsea-aw2022",
-              "half": true,
+              "half": false,
               "third": false,
               "hover_image": "shopify://shop_images/BZ16_ERICA_LAYING.jpg",
               "cover": "shopify://shop_images/BZ16_CHLOE_STANDING_ext_width.jpg",
@@ -1260,7 +1260,7 @@
             "settings": {
               "product": "issue-4-international-buffalo-zine-catalogue-aw-16-17",
               "half": false,
-              "third": false,
+              "third": true,
               "hover_image": "shopify://shop_images/BZ04_COVER_HUPPERT.jpg",
               "cover": "shopify://shop_images/BZ04_STANDING_ext_width_b2f7a064-f974-4219-ad2c-68d872fec6b3.jpg",
               "video_url": ""
@@ -1271,7 +1271,7 @@
             "settings": {
               "product": "issue-3-secret-diaries-and-tales-for-children-ss-2015",
               "half": false,
-              "third": false,
+              "third": true,
               "hover_image": "shopify://shop_images/BZ03_Cover_VW.jpg",
               "cover": "shopify://shop_images/BZ03_V_R_STANDING_ext_width_6a4868f6-03a7-444b-b32e-efda345f5d16.jpg",
               "video_url": ""
@@ -1282,7 +1282,7 @@
             "settings": {
               "product": "issue-2-street-style-ss13",
               "half": false,
-              "third": false,
+              "third": true,
               "hover_image": "shopify://shop_images/BZ02_Covers.jpg",
               "cover": "shopify://shop_images/BZ02_Cover_Chloe_ext_width.jpg",
               "video_url": ""
@@ -1293,7 +1293,7 @@
             "settings": {
               "product": "issue-1-ss-11",
               "half": false,
-              "third": false,
+              "third": true,
               "hover_image": "shopify://shop_images/BZ01_Cover_01_Ninu_ext_30bb2f25-b8ec-4c17-a25f-ddc227f3a6b9.jpg",
               "cover": "shopify://shop_images/BZ01_STANDING.jpg",
               "video_url": ""
