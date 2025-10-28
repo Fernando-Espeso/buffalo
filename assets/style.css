@@ -1480,6 +1480,12 @@ div#shopify-section-template--24808222163276__interview_fdRXe6 {
 section#shopify-section-brand-home {
   display: none;
 }
+
+a.image-hover-wrapper {
+position: relative;
+display: block;
+}
+
 .swiper-gallery {
     width:100%;
     min-height: 800px;
