@@ -664,7 +664,6 @@
           "item_WPnNwY": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.13.png",
               "link": "",
               "caption": "",
               "role": "photographer",
@@ -694,7 +693,6 @@
           "item_cXFtnV": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.41.png",
               "link": "",
               "caption": "",
               "role": "photographer",
@@ -704,7 +702,6 @@
           "item_pGaEKW": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.04.png",
               "link": "",
               "caption": "",
               "role": "director",
@@ -714,7 +711,6 @@
           "item_RkEN6y": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.26.08.png",
               "link": "shopify://blogs/live/shuffle",
               "caption": "Some text",
               "role": "photographer",
@@ -724,7 +720,6 @@
           "item_GPedRn": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Screenshot_2025-04-15_at_10.25.30.png",
               "link": "",
               "caption": "",
               "role": "hot_picks",
@@ -1082,8 +1077,8 @@
               "product": "issue-20-success-etc",
               "half": true,
               "third": true,
-              "hover_image": "shopify://shop_images/BZ20_Cover_03_Pippa_standing_EXT.jpg",
-              "cover": "shopify://shop_images/BZ20_Cover_02_Ninot_LANDSCAPE_1960x1400_b46e8a7e-6fc6-4203-973e-184436a2cf88.jpg",
+              "hover_image": "shopify://shop_images/BZ20_Cover_03_Pippa_frontal.jpg",
+              "cover": "shopify://shop_images/BZ20_Cover_02_Ninot_standing.jpg",
               "video_url": ""
             }
           },
