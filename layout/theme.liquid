@@ -107,12 +107,12 @@
             <a class="issues" href="/collections/all">Issues</a>
           </li>
           
-          <li class="{% if request.path contains '/blogs/your-brand-here' %}active{% endif %} none">
+          {% comment %} <li class="{% if request.path contains '/blogs/your-brand-here' %}active{% endif %} none">
             <a class="your-brand-here" href="/blogs/your-brand-here">Your Brand Here</a>
           </li>
           
           <li class="{% if request.path contains '/blogs/shuffle' %}active{% endif %} none">
-            <a class="your-brand-link mi-div-hover" href="/blogs/shuffle">SHUFFLE</a>
+            <a class="your-brand-link mi-div-hover" href="/blogs/shuffle">SHUFFLE</a> {% endcomment %}
           </li>
           
           <li class="{% if request.path contains '/pages/about' %}active{% endif %} none">
