@@ -195,55 +195,64 @@ document.addEventListener("DOMContentLoaded", function () {
   const galleryEl = document.querySelector('.swiper-gallery');
   if (!galleryEl) return;
 
+  // Destruye Swiper anterior si existía (evita doble inicialización)
+  if (galleryEl.swiper) {
+    galleryEl.swiper.destroy(true, true);
+  }
+
   const swiper = new Swiper(galleryEl, {
-    loop: false,
-    speed: 600,
     slidesPerView: 1,
+    loop: false,
+    speed: 700,
+    centeredSlides: false,
+    allowTouchMove: true,
     pagination: {
       el: galleryEl.querySelector('.swiper-pagination'),
       clickable: true,
-      renderBullet: function (index, className) {
-        return `<span class="${className}"></span>`;
-      }
     },
     navigation: {
       nextEl: galleryEl.querySelector('.next'),
-      prevEl: galleryEl.querySelector('.prev')
+      prevEl: galleryEl.querySelector('.prev'),
     },
     keyboard: {
       enabled: true,
       onlyInViewport: true,
-    }
+    },
+    on: {
+      init() {
+        // asegura que todo esté alineado al iniciar
+        this.update();
+      },
+    },
   });
 
-  // Indexar slides por su data-slide-key
+  // 🧩 Evita doble velocidad al volver al inicio
+  swiper.on('slideChangeTransitionStart', () => {
+    swiper.params.speed = 700; // fuerza velocidad constante
+  });
+
+  // 🧭 Indexa slides por data-slide-key
   const slides = Array.from(galleryEl.querySelectorAll('.swiper-slide'));
   const indexByKey = new Map();
   slides.forEach((slide, idx) => {
     const key = slide.dataset.slideKey;
-    if (key && !indexByKey.has(key)) {
-      indexByKey.set(key, idx);
-    }
+    if (key && !indexByKey.has(key)) indexByKey.set(key, idx);
   });
 
-  // Escuchar cambios en radios con href="#clave"
+  // 🔗 Vincula los radios
   const radios = document.querySelectorAll('input[type="radio"][href^="#"]');
   radios.forEach(radio => {
     radio.addEventListener('change', function () {
       const href = this.getAttribute('href');
       if (!href) return;
       const key = href.replace(/^#/, '');
-
       if (indexByKey.has(key)) {
-        const slideIndex = indexByKey.get(key);
-        swiper.slideTo(slideIndex);
-      } else {
-        const el = document.getElementById(key);
-        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        swiper.slideTo(indexByKey.get(key));
       }
     });
   });
 });
 </script>
+
 
   
