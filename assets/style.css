@@ -1346,6 +1346,12 @@ div#customForm {
     border-bottom: 1px solid white;
     padding: var(--space) 0px;
 }
+.SIGNUP_FLD.up {
+    text-transform: uppercase;
+    width: fit-content;
+    border: 1px solid white;
+    padding: var(--space);
+}
 div#SIGNUP_HEADING{
     font-family: var(--fontsec);
     font-size: var(--fsm);
@@ -1366,6 +1372,7 @@ form#zcampaignOptinForm {
   width: 100%;
   max-width: 100%;
 }
+
 .in{
   max-width: 800px;
   margin:0 auto;
