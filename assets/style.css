@@ -1343,6 +1343,9 @@ div#customForm {
     border-bottom: 1px solid white;
     padding: var(--space) 0px;
 }
+div#SIGNUP_HEADING{
+    font-family: var(--fontsec);
+}
 
 form#zcampaignOptinForm {
     display: flex;
