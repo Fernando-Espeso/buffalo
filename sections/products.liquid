@@ -51,7 +51,25 @@
   {% for block in section.blocks %}
     {% assign product = block.settings.product %}
     {% if product %}
-      {% assign variant = product.variants.first %}
+      {%- comment -%}
+      Buscar si hay alguna variante disponible
+      {%- endcomment -%}
+      {% assign available_variant = false %}
+      {% for v in product.variants %}
+        {% if v.available %}
+          {% assign available_variant = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
+      {%- comment -%}
+      Usar la primera variante disponible, o la primera si no hay ninguna disponible
+      {%- endcomment -%}
+      {% assign variant = product.variants | where: "available", true | first %}
+      {% if variant == nil %}
+        {% assign variant = product.variants.first %}
+      {% endif %}
+
       {% assign hover = block.settings.hover_image | default: '' %}
       {% assign cover = block.settings.cover | default: '' %}
       {% assign video_url = block.settings.video_url %}
@@ -63,14 +81,17 @@
         {% assign classes = classes | append: ' third' %}
       {% endif %}
       {% assign ext = video_url | split: '.' | last | downcase %}
+
       <div class="product {% if block.settings.half %}half{% endif %} {% if block.settings.third %}third{% endif %}">
         <a href="{{ product.url }}" class="image-hover-wrapper">
-          {% unless variant.available %}
+          {% unless available_variant %}
             <button class="sold-out-button" disabled>Sold Out</button>
           {% endunless %}
+
           {% if product.featured_image %}
             <img class="main-img" src="{{ cover | img_url: 'master' }}" alt="{{ product.title }}">
           {% endif %}
+
           {% if video_url %}
             {% assign ext = video_url | split: '.' | last | downcase %}
             {% if ext == 'mp4' %}
@@ -82,6 +103,7 @@
             <img class="hover-media" src="{{ hover | img_url: 'master' }}" alt="Hover {{ product.title }}">
           {% endif %}
         </a>
+
         <div class="title-thang">
           <div>{{ product.title }}</div>
 
@@ -92,12 +114,12 @@
               <span class="price-sale" style="color: red;">{{ variant.price | money }}</span>
             </p>
           {% endif %}
+
           <div class="product-price-white">{{ variant.price | money }}</div>
         </div>
       </div>
     {% endif %}
   {% endfor %}
 </div>
-
 
   
