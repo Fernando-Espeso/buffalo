@@ -1277,9 +1277,9 @@
           "product_wcUfhp": {
             "type": "product",
             "settings": {
-              "product": "issue-11-buffalo-earth-ss-20",
+              "product": "issue-1",
               "half": false,
-              "third": false,
+              "third": true,
               "hover_image": "shopify://shop_images/BZ01_144-145.jpg",
               "cover": "shopify://shop_images/BZ01_Cover_02_Carlos_ext.jpg",
               "video_url": ""
@@ -1293,17 +1293,6 @@
               "third": true,
               "hover_image": "shopify://shop_images/BZ02_Covers.jpg",
               "cover": "shopify://shop_images/BZ02_Cover_Chloe_ext_width.jpg",
-              "video_url": ""
-            }
-          },
-          "product_YtFKQp": {
-            "type": "product",
-            "settings": {
-              "product": "issue-16-buffalo-hotel-chelsea-aw2022",
-              "half": false,
-              "third": true,
-              "hover_image": "shopify://shop_images/BZ01_P8.jpg",
-              "cover": "shopify://shop_images/BZ01_P8.jpg",
               "video_url": ""
             }
           }
@@ -1329,8 +1318,7 @@
           "product_fcrEVi",
           "product_8whYdK",
           "product_wcUfhp",
-          "product_m7Vd9c",
-          "product_YtFKQp"
+          "product_m7Vd9c"
         ],
         "settings": {}
       },
