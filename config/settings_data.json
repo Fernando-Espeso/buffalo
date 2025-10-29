@@ -1274,17 +1274,6 @@
               "video_url": ""
             }
           },
-          "product_wcUfhp": {
-            "type": "product",
-            "settings": {
-              "product": "issue-1",
-              "half": false,
-              "third": true,
-              "hover_image": "shopify://shop_images/BZ01_144-145.jpg",
-              "cover": "shopify://shop_images/BZ01_Cover_02_Carlos_ext.jpg",
-              "video_url": ""
-            }
-          },
           "product_m7Vd9c": {
             "type": "product",
             "settings": {
@@ -1294,6 +1283,17 @@
               "hover_image": "shopify://shop_images/BZ02_Covers.jpg",
               "cover": "shopify://shop_images/BZ02_Cover_Chloe_ext_width.jpg",
               "video_url": ""
+            }
+          },
+          "product_wcUfhp": {
+            "type": "product",
+            "settings": {
+              "product": "issue-1",
+              "half": false,
+              "third": true,
+              "hover_image": "shopify://shop_images/BZ01_144-145.jpg",
+              "cover": "shopify://shop_images/BZ01_Cover_02_Carlos_ext.jpg",
+              "video_url": "https://buffalo-dev.myshopify.com/products/issue-1?variant=55793811685708"
             }
           }
         },
@@ -1317,8 +1317,8 @@
           "product_FU4mcC",
           "product_fcrEVi",
           "product_8whYdK",
-          "product_wcUfhp",
-          "product_m7Vd9c"
+          "product_m7Vd9c",
+          "product_wcUfhp"
         ],
         "settings": {}
       },
