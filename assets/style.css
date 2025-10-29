@@ -472,12 +472,13 @@ transform: translate(0%, -50%);
 
 /* FOOTER */
 footer{
-  text-transform: uppercase;
+
  margin-top: auto;
  justify-content: center;
  background-color: white;
 }
 .su{
+    text-transform: uppercase;
    padding:var(--space);
 }
 footer .container{
@@ -1339,7 +1340,8 @@ div#customForm {
 }
 
 .SIGNUP_FLD {
-    width: 30%;
+    text-transform: uppercase;
+    width: 50%;
     border-bottom: 1px solid white;
     padding: var(--space) 0px;
 }
