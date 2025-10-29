@@ -1030,6 +1030,7 @@ div#shopify-section-about {
   background-color: black;
   padding: 10px 0px;
   color: white;
+  padding-bottom: 40px;
 }
 .contact-title {
   grid-column: span 2;
