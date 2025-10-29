@@ -49,10 +49,8 @@
 {% endschema %}
 <div class="products" id="products">
   {% for block in section.blocks %}
-    {% assign selected = block.settings.product %}
-    {% if selected %}
-      {% assign handle = selected.handle %}
-      {% assign product = all_products[handle] %}
+    {% assign product = block.settings.product %}
+    {% if product %}
       {% assign variant = product.variants.first %}
       {% assign hover = block.settings.hover_image | default: '' %}
       {% assign cover = block.settings.cover | default: '' %}
