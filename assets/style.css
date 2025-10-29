@@ -184,7 +184,7 @@ select {
   color: var(--bl);
   font-size: var(--fs);
   font-weight: normal;
-  font-family: 'EngraversGothicBold';
+  font-family: var(--font);
   letter-spacing: 0px;
 
 }
