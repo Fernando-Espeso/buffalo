@@ -1442,23 +1442,9 @@ div#shopify-section-template--26607999811916__main {
 
 
 
-@keyframes crazy-colors {
-  0%   { background: url('glitch-TEXT.jpg');}
-  33.33% { background: url('glitch-1.jpg') }
-  66.66% { background: url('glitch-2.jpg');}
-  100% { background: yellow; } /* vuelve al inicio */
-}
 
 .shuffle-mix.active {
-z-index: 30000;
-background-color: black;
-    position: fixed;
-  left: 0;
-  top: 0;
-  display: block;
- width: 100vw;
-  height: 100vh;
-  animation: crazy-colors 0.25s steps(1, end) infinite;
+
 }
 
 .swiper-live .swiper-wrapper.centered {

@@ -344,59 +344,7 @@ $('.your-brand-link').on('click', function(e) {
       });
     </script>
 
-    <!-- Activar el efecto -->
-    <script>
-      (function () {
-        const hoverTarget = document.querySelector('a.your-brand-link');
-        if (!hoverTarget) return;
-    
-        // Solo en desktop, sin motion reducido
-        const isCoarse = window.matchMedia('(pointer: coarse)').matches;
-        const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        if (isCoarse || reduce) return;
-    
-        let fairyEffect = null;
-    
-        hoverTarget.addEventListener('mouseenter', () => {
-          if (fairyEffect) return;
-    
-          fairyEffect = new cursoreffects.fairyDustCursor({
-            colors: ['#A78BFA', '#F472B6', '#60A5FA'],
-            fairySymbol: '✦'
-          });
-    
-          // Asegura que el canvas esté por encima de todo
-          if (fairyEffect.canvas) {
-            fairyEffect.canvas.style.position = 'fixed';
-            fairyEffect.canvas.style.top = '0';
-            fairyEffect.canvas.style.left = '0';
-            fairyEffect.canvas.style.width = '100%';
-            fairyEffect.canvas.style.height = '100%';
-            fairyEffect.canvas.style.pointerEvents = 'none'; // no bloquea clics
-            fairyEffect.canvas.style.zIndex = '9999'; // siempre arriba
-          }
-        });
-    
-        function stopFairy() {
-          if (!fairyEffect) return;
-    
-          if (typeof fairyEffect.destroy === 'function') {
-            fairyEffect.destroy();
-          } else if (fairyEffect.canvas && fairyEffect.canvas.parentNode) {
-            fairyEffect.canvas.parentNode.removeChild(fairyEffect.canvas);
-          }
-    
-          fairyEffect = null;
-        }
-    
-        hoverTarget.addEventListener('mouseleave', stopFairy);
-        document.addEventListener('visibilitychange', () => {
-          if (document.hidden) stopFairy();
-        });
-        window.addEventListener('blur', stopFairy);
-      })();
-    </script>
-
+  
     {%- if template contains 'product' -%}
       {{ 'global-product.js' | asset_url | script_tag }}
     {%- endif -%}
