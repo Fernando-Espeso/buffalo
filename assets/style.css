@@ -950,8 +950,7 @@ form#cart-wrapper {
   text-align: center;
 }
 div#info-product {
-  display: grid
-;
+  display: grid;
   row-gap: 30px;
 }
 .product.third{
@@ -1606,6 +1605,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
 }
 div#info-product {
   padding: 10px 0px;
+  margin-bottom: 40px;
 }
 
 .swiper-pagination-bullet {
