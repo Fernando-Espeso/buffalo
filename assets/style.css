@@ -1347,12 +1347,14 @@ div#customForm {
 }
 div#SIGNUP_HEADING{
     font-family: var(--fontsec);
+    font-size: var(--fsm);
 }
 
 form#zcampaignOptinForm {
     display: flex;
     grid-gap: 10px;;
     font-family: var(--font);
+
 }
 
 .extra {
