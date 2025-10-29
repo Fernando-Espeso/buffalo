@@ -112,7 +112,7 @@
           </li>
           
           <li class="{% if request.path contains '/blogs/shuffle' %}active{% endif %} none">
-            <a class="your-brand-link mi-div-hover" href="/blogs/shuffle">SHUFFLE</a>
+            <a class="shuffle" href="/blogs/shuffle">SHUFFLE</a>
           </li>
           
           <li class="{% if request.path contains '/pages/about' %}active{% endif %} none">
@@ -169,7 +169,7 @@
           {% endfor %}
           <li><a class="issues" href="/collections/all">Issues</a></li>
           <li><a class="your-brand-Here" href="/blogs/your-brand-here">Your Brand Here</a></li>
-          <a class="your-brand-link due" href="/blogs/shuffle">SHUFFLE</a>
+          <a class="shuffle" href="/blogs/shuffle">SHUFFLE</a>
           <li><a class="" href="/pages/about">INFO</a></li>
         </div>
         
@@ -257,7 +257,7 @@
     <div class="su"> ©2025 Buffalo Zine. All rights reserved. <div>
     </footer>
     
-<script>
+{% comment %} <script>
 $('.your-brand-link').on('click', function(e) {
   e.preventDefault();
 
@@ -270,7 +270,7 @@ $('.your-brand-link').on('click', function(e) {
     window.location.href = url;
   }, 500);
 });
-</script>
+</script> {% endcomment %}
     {% comment %} <script type="module">
       import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
       window.addEventListener("DOMContentLoaded", () => {
