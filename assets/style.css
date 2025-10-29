@@ -1337,6 +1337,15 @@ div#customForm {
     color: white;
     background-color: black;
 }
+.SIGNUP_FLD {
+    width: 30%;
+    border-bottom: 1px solid white;
+    padding: var(--space) 0px;
+}
+form#zcampaignOptinForm {
+    display: flex
+;
+}
 .extra {
   background-color: black;
   color: white!important;
