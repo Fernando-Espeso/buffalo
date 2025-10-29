@@ -1346,7 +1346,7 @@ div#customForm {
     border-bottom: 1px solid white;
     padding: var(--space) 0px;
 }
-.SIGNUP_FLD.up {
+.SIGNUP_FLD.UP {
     text-transform: uppercase;
     width: fit-content;
     border: 1px solid white;
