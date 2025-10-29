@@ -18,7 +18,6 @@
             "type": "hero",
             "disabled": true,
             "settings": {
-              "hero_image": "shopify://shop_images/PREVIEW.jpg",
               "goto": "shopify://products/issue-20-success-etc",
               "video_url_1": "shopify://products/issue-21-aw-25-26",
               "hero_text": "<p>ISSUE 21 AW25-26</p>",
@@ -776,7 +775,7 @@
             "settings": {
               "article": "your-brand-here/versace-jeans-couture",
               "image": "shopify://shop_images/BZ07_Spread_3.jpg",
-              "hover_media": "https://player.vimeo.com/progressive_redirect/playback/1124919340/rendition/1440p/file.mp4?loc=external&log_user=0&signature=107fa4a9c77c9be2697b325ffd3524532affd6c1aeff41823048a2d4b8427188",
+              "hover_media": "https://cdn.shopify.com/videos/c/o/v/0a17529eae514aab8a029de3e5a7c9a1.mp4",
               "half": true,
               "third": true
             }
