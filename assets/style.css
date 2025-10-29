@@ -513,6 +513,9 @@ div#shopify-section-swiper-home {
   padding: 10px;
   min-height: 100vh;
 }
+.deslplegable .description{
+  text-align: center;
+}
 .description p {
   font-family: times;
 }
