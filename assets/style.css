@@ -1343,8 +1343,9 @@ div#customForm {
     padding: var(--space) 0px;
 }
 form#zcampaignOptinForm {
-    display: flex
-;
+    display: flex;
+    grid-gap: 10px;;
+    font-family: var(--font);
 }
 .extra {
   background-color: black;
