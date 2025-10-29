@@ -186,7 +186,7 @@ select {
   font-weight: normal;
   font-family: helvetica;
   letter-spacing: 0px;
-  text-transform: uppercase;
+  text-transform: uppercase!important;
 
 }
 input[type="checkbox"],
