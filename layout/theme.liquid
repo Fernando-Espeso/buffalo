@@ -271,7 +271,7 @@ $('.your-brand-link').on('click', function(e) {
   }, 500);
 });
 </script>
-    <script type="module">
+    {% comment %} <script type="module">
       import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
       window.addEventListener("DOMContentLoaded", () => {
         const target = document.querySelector(".mi-div-hover");
@@ -281,7 +281,7 @@ $('.your-brand-link').on('click', function(e) {
         });
         target.addEventListener("mouseleave", () => fx?.destroy());
       });
-    </script>
+    </script> {% endcomment %}
     <script>
       window.yourBrandPosts = [
         {% for article in blogs['shuffle'].articles %}
