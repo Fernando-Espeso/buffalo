@@ -771,7 +771,6 @@
         "blocks": {
           "custom_article_HkyLFg": {
             "type": "custom_article",
-            "disabled": true,
             "settings": {
               "article": "your-brand-here/versace-jeans-couture",
               "image": "shopify://shop_images/BZ07_Spread_3.jpg",
