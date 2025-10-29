@@ -166,7 +166,7 @@
 {% assign related_products = product.metafields.custom.related.value %}
 {% if related_products != blank %}
   <div class="related-products">
-    <div class="related-title">SINCE YOU’RE HERE</div>
+    <div class="related-title">SINCE YOU’RE HERE...</div>
     {% for related in related_products %}
       {% assign related_product = all_products[related.handle] %}
       {% if related_product %}
@@ -191,102 +191,59 @@
 {% endif %}
 
 <script>
-$(document).ready(function () {
-  var swiper = new Swiper('.swiper-gallery', {
-    loop: true,
-    speed:800,
-    navigation: {
-      nextEl: '.next',
-      prevEl: '.prev',
-    },
+document.addEventListener("DOMContentLoaded", function () {
+  const galleryEl = document.querySelector('.swiper-gallery');
+  if (!galleryEl) return;
+
+  const swiper = new Swiper(galleryEl, {
+    loop: false,
+    speed: 600,
+    slidesPerView: 1,
     pagination: {
-      el: '.swiper-pagination',
+      el: galleryEl.querySelector('.swiper-pagination'),
       clickable: true,
       renderBullet: function (index, className) {
         return `<span class="${className}"></span>`;
       }
     },
+    navigation: {
+      nextEl: galleryEl.querySelector('.next'),
+      prevEl: galleryEl.querySelector('.prev')
+    },
     keyboard: {
-      enabled: true,        // activa el control por teclado
-      onlyInViewport: true, // solo cuando el swiper está visible en pantalla
+      enabled: true,
+      onlyInViewport: true,
     }
+  });
+
+  // Indexar slides por su data-slide-key
+  const slides = Array.from(galleryEl.querySelectorAll('.swiper-slide'));
+  const indexByKey = new Map();
+  slides.forEach((slide, idx) => {
+    const key = slide.dataset.slideKey;
+    if (key && !indexByKey.has(key)) {
+      indexByKey.set(key, idx);
+    }
+  });
+
+  // Escuchar cambios en radios con href="#clave"
+  const radios = document.querySelectorAll('input[type="radio"][href^="#"]');
+  radios.forEach(radio => {
+    radio.addEventListener('change', function () {
+      const href = this.getAttribute('href');
+      if (!href) return;
+      const key = href.replace(/^#/, '');
+
+      if (indexByKey.has(key)) {
+        const slideIndex = indexByKey.get(key);
+        swiper.slideTo(slideIndex);
+      } else {
+        const el = document.getElementById(key);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
   });
 });
 </script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const chooseLabel = document.querySelector(".choose");
-    const fieldset = document.querySelector(".variant-fieldset");
 
-    chooseLabel.addEventListener("click", function () {
-      // Toggle display
-      if (fieldset.style.display === "none" || fieldset.style.display === "") {
-        fieldset.style.display = "flex";
-      } else {
-        fieldset.style.display = "none";
-      }
-    });
-
-    // Escuchar cambios en los radios
-    const radios = fieldset.querySelectorAll("input[type='radio']");
-    radios.forEach(function (radio) {
-      radio.addEventListener("change", function () {
-        // Ocultar el fieldset
-        fieldset.style.display = "none";
-        // Cambiar el texto del label "COVER OPTION"
-        chooseLabel.textContent = radio.value;
-      });
-    });
-  });
-</script> 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    // 1) Inicializa Swiper (ajusta opciones a tus necesidades)
-    const galleryEl = document.querySelector('.swiper-gallery');
-    const swiper = new Swiper(galleryEl, {
-      loop: false,
-      slidesPerView: 1,
-      pagination: {
-        el: galleryEl.querySelector('.swiper-pagination'),
-        clickable: true
-      },
-      navigation: {
-        nextEl: galleryEl.querySelector('.next'),
-        prevEl: galleryEl.querySelector('.prev')
-      }
-    });
-  
-    // 2) Indexa slides por su data-slide-key
-    const slides = Array.from(galleryEl.querySelectorAll('.swiper-slide'));
-    const indexByKey = new Map();
-    slides.forEach((slide, idx) => {
-      const key = slide.dataset.slideKey; // p.ej. "azul-marino"
-      if (key && !indexByKey.has(key)) {
-        indexByKey.set(key, idx);
-      }
-    });
-  
-    // 3) Escucha cambios en radios que tengan href="#clave"
-    const radios = document.querySelectorAll('input[type="radio"][href^="#"]');
-    radios.forEach(radio => {
-      radio.addEventListener('change', function () {
-        const href = this.getAttribute('href');
-        if (!href) return;
-        const key = href.replace(/^#/, ''); // "azul-marino"
-  
-        // Si tenemos slide con esa clave → saltar a ella
-        if (indexByKey.has(key)) {
-          const slideIndex = indexByKey.get(key);
-          swiper.slideTo(slideIndex); // Swiper usa índice base 0 (considera loop=false)
-        } else {
-          // Fallback: por si no hay clave, intenta scroll al elemento con ese id
-          const el = document.getElementById(key);
-          if (el) {
-            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }
-        }
-      });
-    });
-  });
-  </script>
   
