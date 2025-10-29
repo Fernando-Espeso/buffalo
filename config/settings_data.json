@@ -236,7 +236,7 @@
           "column_text_BkaBqi": {
             "type": "column_text",
             "settings": {
-              "column_text_content": "<p>Buffalo Zine is a cult biannual magazine exploring the margins of style since 2010. Each issue has taken a different form —a cookbook, a mail order catalogue, an interiors magazine, a children’s book— tracing how fashion moves through other worlds. Along the way, Buffalo has used these disguises to test what fashion can hold and how it can be seen.</p><p>Now, Buffalo focuses on looking from the inside out. On people who live fashion rather than perform it. Presence over profile. No celebrity, no spectacle. What’s shown here belongs to the world we inhabit — the one often unseen, yet most real. Buffalo stands for what’s missing in fashion today: a space where what is enough, simply, is finally seen.</p>"
+              "column_text_content": "<p>Buffalo Zine is a cult biannual magazine exploring the margins of style since 2010. Each issue has taken a different form —a cookbook, a mail order catalogue, an interiors magazine, a children’s book— tracing how fashion moves through other worlds. Along the way, Buffalo has used these disguises to test what fashion can hold and how it can be seen. </p><p>Now, Buffalo focuses on looking from the inside out. On people who live fashion rather than perform it. Presence over profile. No celebrity, no spectacle. What’s shown here belongs to the world we inhabit — the one often unseen, yet most real. Buffalo stands for what’s missing in fashion today: a space where what is enough, simply, is finally seen.</p>"
             }
           }
         },
@@ -1197,17 +1197,6 @@
               "video_url": ""
             }
           },
-          "product_NtXeeH": {
-            "type": "product",
-            "settings": {
-              "product": "issue-8-fashion-s-kitchen-aw-18-19",
-              "half": false,
-              "third": false,
-              "hover_image": "shopify://shop_images/BZ08_Cover_04.jpg",
-              "cover": "shopify://shop_images/BZ08_PINEAPPLE_STANDING.jpg",
-              "video_url": ""
-            }
-          },
           "product_bPzdqX": {
             "type": "product",
             "settings": {
@@ -1216,6 +1205,17 @@
               "third": false,
               "hover_image": "shopify://shop_images/BZ09_Cover_System.jpg",
               "cover": "shopify://shop_images/BZ09_09BZ_STANDING_ext_width.jpg",
+              "video_url": ""
+            }
+          },
+          "product_NtXeeH": {
+            "type": "product",
+            "settings": {
+              "product": "issue-8-fashion-s-kitchen-aw-18-19",
+              "half": false,
+              "third": false,
+              "hover_image": "shopify://shop_images/BZ08_Cover_04.jpg",
+              "cover": "shopify://shop_images/BZ08_PINEAPPLE_STANDING.jpg",
               "video_url": ""
             }
           },
@@ -1285,14 +1285,14 @@
               "video_url": ""
             }
           },
-          "product_L7rCWd": {
+          "product_pd7DRm": {
             "type": "product",
             "settings": {
-              "product": "issue-1",
+              "product": "issue-1-ss-11",
               "half": false,
               "third": true,
-              "hover_image": "shopify://shop_images/BZ01_Cover_01_Ninu_ext.jpg",
-              "cover": "shopify://shop_images/BZ01_Cover_01_Ninu_ext.jpg",
+              "hover_image": "shopify://shop_images/BZ01_Cover_01_Ninu_ext_30bb2f25-b8ec-4c17-a25f-ddc227f3a6b9.jpg",
+              "cover": "shopify://shop_images/BZ01_STANDING.jpg",
               "video_url": ""
             }
           }
@@ -1310,15 +1310,15 @@
           "product_qWmNHD",
           "product_B3aApq",
           "product_ripeWj",
-          "product_NtXeeH",
           "product_bPzdqX",
+          "product_NtXeeH",
           "product_th3Kda",
           "product_eCbLDr",
           "product_FU4mcC",
           "product_fcrEVi",
           "product_8whYdK",
           "product_m7Vd9c",
-          "product_L7rCWd"
+          "product_pd7DRm"
         ],
         "settings": {}
       },
@@ -1449,7 +1449,7 @@
         "name": "AWARDS",
         "settings": {
           "intro_text": "Buffalo Zine was awarded a D&AD pencil for its inaugural issue, and has continued to win  pencils for most of its issues in the Magazine & Newspaper Design and Magazine Front Covers categories until today. \n\nWinning a D&AD pencil remains the pinnacle of many careers and the work it celebrates inspires others to study, debate, copy and reference the industry’s finest designers.",
-          "award_image": "shopify://shop_images/Pencils_in_line_4.jpg"
+          "award_image": "shopify://shop_images/Pencils_in_line_5.jpg"
         }
       },
       "brand-home": {
