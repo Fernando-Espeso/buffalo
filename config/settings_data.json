@@ -1277,7 +1277,7 @@
           "product_m7Vd9c": {
             "type": "product",
             "settings": {
-              "product": "issue-2-street-style-ss13",
+              "product": "issue-1-ss-11",
               "half": false,
               "third": true,
               "hover_image": "shopify://shop_images/BZ02_Covers.jpg",
@@ -1288,11 +1288,20 @@
           "product_pd7DRm": {
             "type": "product",
             "settings": {
-              "product": "issue-1-ss-11",
+              "product": "issue-2-street-style-ss13",
               "half": false,
               "third": true,
               "hover_image": "shopify://shop_images/BZ01_Cover_01_Ninu_ext_30bb2f25-b8ec-4c17-a25f-ddc227f3a6b9.jpg",
               "cover": "shopify://shop_images/BZ01_STANDING.jpg",
+              "video_url": ""
+            }
+          },
+          "product_4MPTqF": {
+            "type": "product",
+            "settings": {
+              "product": "issue-1-ss-11",
+              "half": false,
+              "third": false,
               "video_url": ""
             }
           }
@@ -1318,7 +1327,8 @@
           "product_fcrEVi",
           "product_8whYdK",
           "product_m7Vd9c",
-          "product_pd7DRm"
+          "product_pd7DRm",
+          "product_4MPTqF"
         ],
         "settings": {}
       },
