@@ -1329,6 +1329,12 @@ strong {
     font-weight: normal;
     font-size: 18px;
 }
+div#customForm {
+  font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
 .extra {
   background-color: black;
   color: white!important;
