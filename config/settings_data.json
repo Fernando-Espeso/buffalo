@@ -1292,6 +1292,8 @@
               "product": "issue-10-the-unfinished-issue-aw-19-20",
               "half": false,
               "third": false,
+              "hover_image": "shopify://shop_images/BZ01_144-145.jpg",
+              "cover": "shopify://shop_images/BZ01_Cover_02_Carlos_ext.jpg",
               "video_url": ""
             }
           },
