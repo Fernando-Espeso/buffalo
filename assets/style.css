@@ -607,6 +607,7 @@ span.title-price {
   font-family: Times New Roman, Times, serif;
   font-size: var(--fsb);
   max-width: 800px;
+  text-align: center;
   line-height: clac(var(--fsb) + 5px);
 }
 .contributors {
