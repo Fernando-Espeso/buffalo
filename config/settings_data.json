@@ -362,52 +362,12 @@
               "address": "<p>ATHENAEUM</p><p>Spui 14-16</p><p>1012 XA Amsterdam</p>"
             }
           },
-          "stocklist_K7wdXR": {
-            "type": "stocklist",
-            "name": "NEW ZEALAND",
-            "settings": {
-              "shop_name": "NEW ZEALAND",
-              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
-            }
-          },
-          "stocklist_pbfD87": {
-            "type": "stocklist",
-            "name": "NORWAY",
-            "settings": {
-              "shop_name": "NORWAY",
-              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
-            }
-          },
-          "stocklist_nmXUcw": {
-            "type": "stocklist",
-            "name": "PORTUGAL",
-            "settings": {
-              "shop_name": "PORTUGAL",
-              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
-            }
-          },
-          "stocklist_DkVPaH": {
-            "type": "stocklist",
-            "name": "SINGAPORE",
-            "settings": {
-              "shop_name": "SINGAPORE",
-              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
-            }
-          },
-          "stocklist_aRFNTB": {
-            "type": "stocklist",
-            "name": "SOUTH KOREA",
-            "settings": {
-              "shop_name": "SOUTH KOREA",
-              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
-            }
-          },
           "stocklist_ejA3HE": {
             "type": "stocklist",
             "name": "SPAIN",
             "settings": {
               "shop_name": "SPAIN",
-              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
+              "address": "<p>BOUTIQUE DE LA PRENSA</p><p>Calle de García de Paredes, 34</p><p>Chamberí</p><p>28010 Madrid</p><p></p><p>CRAZY MARY</p><p>Calle de Echegaray, 32</p><p>Centro </p><p>28014 Madrid</p><p></p><p>EL IMPARCIAL</p><p>C. del Duque de Alba, 4</p><p>Centro</p><p>28012 Madrid</p><p></p><p>NEWS & COFFEE</p><p>Pl. de la Cebada, 11</p><p>28005 Madrid</p><p></p><p>CHANDAL</p><p>Carrer d'en Tantarantana, 16</p><p>Ciutat Vella</p><p>08003 Barcelona</p><p></p><p>ODD KIOSK </p><p>Carrer de València, 222 </p><p>L'Eixample</p><p>08011 Barcelona</p><p></p><p></p>"
             }
           },
           "stocklist_6bVccQ": {
@@ -467,11 +427,6 @@
           "stocklist_qJnYc4",
           "stocklist_qX3U3X",
           "stocklist_yTkLft",
-          "stocklist_K7wdXR",
-          "stocklist_pbfD87",
-          "stocklist_nmXUcw",
-          "stocklist_DkVPaH",
-          "stocklist_aRFNTB",
           "stocklist_ejA3HE",
           "stocklist_6bVccQ",
           "stocklist_HWnAqq",
