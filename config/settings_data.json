@@ -375,31 +375,7 @@
             "name": "SWEDEN",
             "settings": {
               "shop_name": "SWEDEN",
-              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
-            }
-          },
-          "stocklist_HWnAqq": {
-            "type": "stocklist",
-            "name": "SWITZERLAND",
-            "settings": {
-              "shop_name": "SWITZERLAND",
-              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
-            }
-          },
-          "stocklist_3gUatt": {
-            "type": "stocklist",
-            "name": "TAIWAN",
-            "settings": {
-              "shop_name": "TAIWAN",
-              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
-            }
-          },
-          "stocklist_ibkmf3": {
-            "type": "stocklist",
-            "name": "THAILAND",
-            "settings": {
-              "shop_name": "THAILAND",
-              "address": "<p>KDPRESSE</p><p>101 Rue du Faubourg </p><p>Saint-Denis</p><p>75010 Paris</p><p></p><p>Artazart</p><p>83 Quai de Valmy </p><p>75010 Paris</p><p></p><p>Bogopresse (Kiosque Bogo)</p><p>36 Rue de Sèvres</p><p>75007 Paris</p><p></p><p>Cahier Central</p><p>26 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Palais De Tokyo</p><p>13 Av. du Président Wilson</p><p>75116 Paris</p><p></p><p>Ofr</p><p>20 Rue Dupetit-Thouars</p><p>75003 Paris</p><p></p><p>Thierry Presse</p><p>76 Rue du Château d’Eau</p><p>75010 Paris</p><p></p><p>Yvon Lambert</p><p>14 Rue des Filles du Calvaire</p><p>75003 Paris</p><p></p><p>Smith & Son Marais</p><p>20 Rue des Rosiers</p><p>75004 Paris</p><p></p><p>Smith & Son Rue de Rivoli</p><p>248 Rue de Rivoli</p><p>75001 Paris</p>"
+              "address": "<p>PAPERCUT</p><p>Krukmakargatan 24</p><p>118 51 Stockholm</p>"
             }
           },
           "stocklist_3BbKNq": {
@@ -429,9 +405,6 @@
           "stocklist_yTkLft",
           "stocklist_ejA3HE",
           "stocklist_6bVccQ",
-          "stocklist_HWnAqq",
-          "stocklist_3gUatt",
-          "stocklist_ibkmf3",
           "stocklist_3BbKNq",
           "stocklist_fwYRLB"
         ],
