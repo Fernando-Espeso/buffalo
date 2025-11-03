@@ -390,6 +390,13 @@
               "address": "<p>ATHENAEUM</p><p>Spui 14-16</p><p>1012 XA Amsterdam</p>"
             }
           },
+          "stocklist_b9wK8G": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "NEW ZELAND",
+              "address": "<p>MAG NATION </p><p>422 Bourke St</p><p>VIC 3000  Melbourne</p>"
+            }
+          },
           "stocklist_ejA3HE": {
             "type": "stocklist",
             "name": "SPAIN",
@@ -442,6 +449,7 @@
           "stocklist_r9CWr6",
           "stocklist_fYtFB9",
           "stocklist_yTkLft",
+          "stocklist_b9wK8G",
           "stocklist_ejA3HE",
           "stocklist_6bVccQ",
           "stocklist_YNUnEP",
