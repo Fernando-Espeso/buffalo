@@ -368,6 +368,13 @@
               "address": "<p>FASHION ROOM</p><p>Via Il Prato, 7/r</p><p>50123 Firenze </p><p></p><p>DOLCE & GABBANA</p><p>Corso Venezia, 7 </p><p>20121 Milano</p><p></p><p>FETRINELLI</p><p>Galleria Vittorio Emanuele II</p><p>20121 Milano</p><p></p><p>FRAB'S </p><p>Via Giuseppe Sirtori, 11</p><p>20129 Milano</p><p></p><p>READING ROOM </p><p>Via Mincio, 10</p><p>20139 Milano </p><p></p><p>LUXEMBURG</p><p>Via Cesare Battisti, Galleria Subalpina, 11/D, 10123 Torino</p><p></p><p></p>"
             }
           },
+          "stocklist_r9CWr6": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "JAPAN",
+              "address": "<p>BONJOUR RECORDS</p><p>24-1 Sarugakucho, Shibuya</p><p> 150-0033, Tokyo</p><p></p><p>CULTURE CONVENIENCE CLUB</p><p>16-7 Nanpeidaicho Shibuya-ku </p><p>150-0036, Tokyo</p><p></p><p>DAIKANYAMA TSUTAYA BOOKS  </p><p>17-5 Sarugakucho, Shibuya-ku</p><p>150-0033, Tokyo</p><p></p><p>GINZA TSUTAYA BOOKS </p><p>Ginza Six 6F, 6-10-1 Ginza, Chuo-ku</p><p>104-0061, Tokyo</p>"
+            }
+          },
           "stocklist_yTkLft": {
             "type": "stocklist",
             "name": "NETHERLANDS",
@@ -425,6 +432,7 @@
           "stocklist_QhjfhP",
           "stocklist_qJnYc4",
           "stocklist_qX3U3X",
+          "stocklist_r9CWr6",
           "stocklist_yTkLft",
           "stocklist_ejA3HE",
           "stocklist_6bVccQ",
