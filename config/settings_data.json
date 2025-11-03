@@ -375,6 +375,13 @@
               "address": "<p>BONJOUR RECORDS</p><p>24-1 Sarugakucho, Shibuya</p><p> 150-0033, Tokyo</p><p></p><p>CULTURE CONVENIENCE CLUB</p><p>16-7 Nanpeidaicho Shibuya-ku </p><p>150-0036, Tokyo</p><p></p><p>DAIKANYAMA TSUTAYA BOOKS  </p><p>17-5 Sarugakucho, Shibuya-ku</p><p>150-0033, Tokyo</p><p></p><p>GINZA TSUTAYA BOOKS </p><p>Ginza Six 6F, 6-10-1 Ginza, Chuo-ku</p><p>104-0061, Tokyo</p>"
             }
           },
+          "stocklist_fYtFB9": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "MEXICO",
+              "address": "<p>CASA BOSQUES </p><p>Córdoba 25-A, Roma Nte., Cuauhtémoc 06700 Ciudad de México</p><p></p><p>LOLO</p><p>Av. Yucatán 3, Hipódromo, Cuauhtémoc 06100 Ciudad de México</p>"
+            }
+          },
           "stocklist_yTkLft": {
             "type": "stocklist",
             "name": "NETHERLANDS",
@@ -433,6 +440,7 @@
           "stocklist_qJnYc4",
           "stocklist_qX3U3X",
           "stocklist_r9CWr6",
+          "stocklist_fYtFB9",
           "stocklist_yTkLft",
           "stocklist_ejA3HE",
           "stocklist_6bVccQ",
