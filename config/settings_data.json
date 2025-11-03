@@ -306,6 +306,13 @@
       "stocklist": {
         "type": "stocklist",
         "blocks": {
+          "stocklist_8KaFEi": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "BRASIL",
+              "address": "<p>PRINCE BOOKS</p><p>R. Oscar Freire, 1128 - Cerqueira César</p><p>01426-002, São Paulo</p><p></p>"
+            }
+          },
           "stocklist_nF3DeF": {
             "type": "stocklist",
             "name": "BELGIUM",
@@ -410,6 +417,7 @@
           }
         },
         "block_order": [
+          "stocklist_8KaFEi",
           "stocklist_nF3DeF",
           "stocklist_badXmz",
           "stocklist_9bCPJx",
