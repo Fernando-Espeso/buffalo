@@ -448,6 +448,13 @@
               "address": "<p>BOOKS COM CO</p><p>Taipei City</p><p> Zhongzheng District, 忠孝西路一段36號B1F</p><p></p><p>MOOM BOOKS</p><p>No. 16號, Alley 8, Lane 251, Section 3, </p><p>Zhongxiao E Rd, Da’an Distric</p><p>10654 Taipei City</p>"
             }
           },
+          "stocklist_GaW4b4": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "THAILAND",
+              "address": "<p>ROCK PAPER SCISSORS </p><p>14 Sukhumvit 67 Alley</p><p>Phra Khanong Nuea, Watthana </p><p>10110 Bangkok</p><p></p><p>THE BOOKSMITH</p><p>5, 7 Nimmana Haeminda Rd Lane 5, </p><p>Tambon Su Thep </p><p>Mueang Chiang Mai District</p><p>50200 Chiang Mai </p>"
+            }
+          },
           "stocklist_3BbKNq": {
             "type": "stocklist",
             "name": "UNITED KINGDOM",
@@ -485,6 +492,7 @@
           "stocklist_6bVccQ",
           "stocklist_YNUnEP",
           "stocklist_dJ3nra",
+          "stocklist_GaW4b4",
           "stocklist_3BbKNq",
           "stocklist_fwYRLB"
         ],
