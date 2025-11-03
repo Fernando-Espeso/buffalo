@@ -441,6 +441,13 @@
               "address": "<p>LARGE/KIOSK</p><p>Rue de Chantepoulet 1</p><p> 1201 Genève</p>"
             }
           },
+          "stocklist_dJ3nra": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "TAIWAN",
+              "address": "<p>BOOKS COM CO</p><p>Taipei City</p><p> Zhongzheng District, 忠孝西路一段36號B1F</p><p></p><p>MOOM BOOKS</p><p>No. 16號, Alley 8, Lane 251, Section 3, </p><p>Zhongxiao E Rd, Da’an Distric</p><p>10654 Taipei City</p>"
+            }
+          },
           "stocklist_3BbKNq": {
             "type": "stocklist",
             "name": "UNITED KINGDOM",
@@ -477,6 +484,7 @@
           "stocklist_ejA3HE",
           "stocklist_6bVccQ",
           "stocklist_YNUnEP",
+          "stocklist_dJ3nra",
           "stocklist_3BbKNq",
           "stocklist_fwYRLB"
         ],
