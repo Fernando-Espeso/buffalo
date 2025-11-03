@@ -411,6 +411,13 @@
               "address": "<p>TORPEDO PRESS</p><p>Sofies Gate 11<br/>N-0170, Oslo</p><p></p>"
             }
           },
+          "stocklist_Uy8RGQ": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "PORTUGAL",
+              "address": "<p>ARTURAS & LUIS LDA</p><p>Rua Marquês Sá da Bandeira 88b </p><p>1050-150 Lisbon</p><p></p><p>UNDER THE COVER </p><p>R. Marquês Sá da Bandeira 88B </p><p>1050-060 Lisbon</p>"
+            }
+          },
           "stocklist_ejA3HE": {
             "type": "stocklist",
             "name": "SPAIN",
@@ -466,6 +473,7 @@
           "stocklist_yTkLft",
           "stocklist_GeQbU9",
           "stocklist_pT44RP",
+          "stocklist_Uy8RGQ",
           "stocklist_ejA3HE",
           "stocklist_6bVccQ",
           "stocklist_YNUnEP",
