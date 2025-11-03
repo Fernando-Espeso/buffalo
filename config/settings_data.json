@@ -306,6 +306,13 @@
       "stocklist": {
         "type": "stocklist",
         "blocks": {
+          "stocklist_b9wK8G": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "AUSTRALIA",
+              "address": "<p>MAG NATION </p><p>422 Bourke St</p><p>VIC 3000  Melbourne</p>"
+            }
+          },
           "stocklist_8KaFEi": {
             "type": "stocklist",
             "settings": {
@@ -390,11 +397,11 @@
               "address": "<p>ATHENAEUM</p><p>Spui 14-16</p><p>1012 XA Amsterdam</p>"
             }
           },
-          "stocklist_b9wK8G": {
+          "stocklist_GeQbU9": {
             "type": "stocklist",
             "settings": {
-              "shop_name": "NEW ZELAND",
-              "address": "<p>MAG NATION </p><p>422 Bourke St</p><p>VIC 3000  Melbourne</p>"
+              "shop_name": "NEW ZEALAND",
+              "address": "<p>MAG NATION </p><p>3/63 Ponsonby Road, Ponsonby</p><p>1001 Auckland </p>"
             }
           },
           "stocklist_ejA3HE": {
@@ -438,6 +445,7 @@
           }
         },
         "block_order": [
+          "stocklist_b9wK8G",
           "stocklist_8KaFEi",
           "stocklist_nF3DeF",
           "stocklist_badXmz",
@@ -449,7 +457,7 @@
           "stocklist_r9CWr6",
           "stocklist_fYtFB9",
           "stocklist_yTkLft",
-          "stocklist_b9wK8G",
+          "stocklist_GeQbU9",
           "stocklist_ejA3HE",
           "stocklist_6bVccQ",
           "stocklist_YNUnEP",
