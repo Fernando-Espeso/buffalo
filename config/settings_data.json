@@ -322,6 +322,13 @@
               "address": "<p>ISSUES</p><p>1489 Dundas St W</p><p>M6K 1T6 Toronto </p><p></p><p>SOOP SOOP </p><p>1319 Dundas St W</p><p>M6J 1X8 Toronto </p>"
             }
           },
+          "stocklist_9bCPJx": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "CHINA",
+              "address": "<p>DORBEETLE</p><p>Room A-331, Builidng 1, Jingwei Creative Park (NO. 279, Shiqiao Road) </p><p>Gongshu District, Hangzhou</p><p></p><p>LE MONDE DE SHC</p><p>1 Taojiang Rd, Xuhui District, </p><p>200050, Shanghai </p><p></p><p>NO MORNING BOOKSHOOP</p><p>5-1 Qinglianshang Road<br/>Chengdu</p>"
+            }
+          },
           "stocklist_J9xHhx": {
             "type": "stocklist",
             "name": "FRANCE",
@@ -370,19 +377,19 @@
               "address": "<p>CHANDAL</p><p>Carrer d'en Tantarantana, 16</p><p>Ciutat Vella</p><p>08003 Barcelona</p><p></p><p>ODD KIOSK </p><p>Carrer de València, 222 </p><p>L'Eixample</p><p>08011 Barcelona</p><p></p><p>BOUTIQUE DE LA PRENSA</p><p>Calle de García de Paredes, 34</p><p>Chamberí</p><p>28010 Madrid</p><p></p><p>CRAZY MARY</p><p>Calle de Echegaray, 32</p><p>Centro </p><p>28014 Madrid</p><p></p><p>EL IMPARCIAL</p><p>C. del Duque de Alba, 4</p><p>Centro</p><p>28012 Madrid</p><p></p><p>NEWS & COFFEE</p><p>Pl. de la Cebada, 11</p><p>28005 Madrid</p>"
             }
           },
-          "stocklist_YNUnEP": {
-            "type": "stocklist",
-            "settings": {
-              "shop_name": "SWITZERLAND",
-              "address": "<p>LARGE/KIOSK</p><p>Rue de Chantepoulet 1</p><p> 1201 Genève</p>"
-            }
-          },
           "stocklist_6bVccQ": {
             "type": "stocklist",
             "name": "SWEDEN",
             "settings": {
               "shop_name": "SWEDEN",
               "address": "<p>PAPERCUT</p><p>Krukmakargatan 24</p><p>118 51 Stockholm</p>"
+            }
+          },
+          "stocklist_YNUnEP": {
+            "type": "stocklist",
+            "settings": {
+              "shop_name": "SWITZERLAND",
+              "address": "<p>LARGE/KIOSK</p><p>Rue de Chantepoulet 1</p><p> 1201 Genève</p>"
             }
           },
           "stocklist_3BbKNq": {
@@ -405,14 +412,15 @@
         "block_order": [
           "stocklist_nF3DeF",
           "stocklist_badXmz",
+          "stocklist_9bCPJx",
           "stocklist_J9xHhx",
           "stocklist_QhjfhP",
           "stocklist_qJnYc4",
           "stocklist_qX3U3X",
           "stocklist_yTkLft",
           "stocklist_ejA3HE",
-          "stocklist_YNUnEP",
           "stocklist_6bVccQ",
+          "stocklist_YNUnEP",
           "stocklist_3BbKNq",
           "stocklist_fwYRLB"
         ],
