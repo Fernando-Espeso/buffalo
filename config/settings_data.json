@@ -1014,6 +1014,17 @@
       "products": {
         "type": "products",
         "blocks": {
+          "product_ttGqPz": {
+            "type": "product",
+            "settings": {
+              "product": "issue-22-ss-26",
+              "half": true,
+              "third": false,
+              "hover_image": "shopify://shop_images/BZ22_Covers_5_side.jpg",
+              "cover": "shopify://shop_images/BZ22_Covers_1.jpg",
+              "video_url": ""
+            }
+          },
           "product_3LwCBk": {
             "type": "product",
             "settings": {
@@ -1040,7 +1051,7 @@
             "type": "product",
             "settings": {
               "product": "issue-19-mother-aw2024-laying",
-              "half": false,
+              "half": true,
               "third": false,
               "hover_image": "shopify://shop_images/BZ19_Cover_4_laying.jpg",
               "cover": "shopify://shop_images/BZ19_Cover_1_standing_ext_width.jpg",
@@ -1247,6 +1258,7 @@
           }
         },
         "block_order": [
+          "product_ttGqPz",
           "product_3LwCBk",
           "product_9DLrAq",
           "product_A4RMWC",
