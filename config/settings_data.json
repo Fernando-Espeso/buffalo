@@ -1529,17 +1529,17 @@
               "alt_text": ""
             }
           },
-          "image_3N98kT": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/BZ22_TEXT_6.jpg",
-              "alt_text": ""
-            }
-          },
           "image_ECQ73J": {
             "type": "image",
             "settings": {
               "image": "shopify://shop_images/BZ22_TEXT_7.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_3N98kT": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ22_TEXT_6.jpg",
               "alt_text": ""
             }
           },
@@ -1620,17 +1620,17 @@
               "alt_text": ""
             }
           },
-          "image_zcH9K4": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/BZ22_TEXT_17.jpg",
-              "alt_text": ""
-            }
-          },
           "image_L6FYEX": {
             "type": "image",
             "settings": {
               "image": "shopify://shop_images/BZ22_TEXT_19.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_zcH9K4": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ22_TEXT_17.jpg",
               "alt_text": ""
             }
           }
@@ -1643,8 +1643,8 @@
           "image_kdWgxK",
           "image_DTbB9n",
           "image_yJG8Ck",
-          "image_3N98kT",
           "image_ECQ73J",
+          "image_3N98kT",
           "image_yGbrb9",
           "image_7W8ngW",
           "image_RqGFq8",
@@ -1656,8 +1656,8 @@
           "image_XKKMWQ",
           "image_ndEz6x",
           "image_UYfReh",
-          "image_zcH9K4",
-          "image_L6FYEX"
+          "image_L6FYEX",
+          "image_zcH9K4"
         ],
         "settings": {
           "goto": "shopify://products/issue-21-aw-25-26"
