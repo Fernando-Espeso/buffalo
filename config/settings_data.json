@@ -1228,20 +1228,20 @@
             "settings": {
               "product": "issue-3-secret-diaries-and-tales-for-children-ss-2015",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ03_Cover_VW.jpg",
               "cover": "shopify://shop_images/BZ03_V_R_STANDING_ext_width_6a4868f6-03a7-444b-b32e-efda345f5d16.jpg",
               "video_url": ""
             }
           },
-          "product_m7Vd9c": {
+          "product_NFEjHC": {
             "type": "product",
             "settings": {
               "product": "issue-2-street-style-ss13",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ02_Covers.jpg",
-              "cover": "shopify://shop_images/BZ02_Cover_Chloe_ext_width.jpg",
+              "cover": "shopify://shop_images/BZ02_Cover1Chloe_standing.jpg",
               "video_url": ""
             }
           },
@@ -1250,7 +1250,7 @@
             "settings": {
               "product": "issue-1",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ01_Cover_01_Ninu_ext_30bb2f25-b8ec-4c17-a25f-ddc227f3a6b9.jpg",
               "cover": "shopify://shop_images/BZ01_STANDING.jpg",
               "video_url": ""
@@ -1278,7 +1278,7 @@
           "product_FU4mcC",
           "product_fcrEVi",
           "product_8whYdK",
-          "product_m7Vd9c",
+          "product_NFEjHC",
           "product_pd7DRm"
         ],
         "settings": {}
