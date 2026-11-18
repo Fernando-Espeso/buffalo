@@ -17,8 +17,9 @@
           "single_product_bkqYDm": {
             "type": "single_product",
             "settings": {
-              "product": "",
-              "fullscreen": false
+              "product": "issue-23-aw-26",
+              "custom_image": "shopify://shop_images/Product_Grid_Cover_3000_x_2143_HUO.jpg",
+              "fullscreen": true
             }
           },
           "hero_eH7mmr": {
@@ -1497,18 +1498,6 @@
       },
       "swiper-home": {
         "type": "swiper-home",
-        "blocks": {
-          "image_ttKK3H": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/IMG_6362.jpg",
-              "alt_text": ""
-            }
-          }
-        },
-        "block_order": [
-          "image_ttKK3H"
-        ],
         "settings": {
           "goto": "shopify://products/issue-22-ss-26"
         }
