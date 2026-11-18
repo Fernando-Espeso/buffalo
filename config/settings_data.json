@@ -1039,7 +1039,7 @@
             "settings": {
               "product": "issue-21",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ21_Cover_4_laying.jpg",
               "cover": "shopify://shop_images/BZ21_Cover_1.jpg",
               "video_url": ""
@@ -1050,7 +1050,7 @@
             "settings": {
               "product": "issue-20-success-etc",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ20_Cover_03_Pippa_frontal.jpg",
               "cover": "shopify://shop_images/BZ20_Cover_02_Ninot_standing.jpg",
               "video_url": ""
@@ -1061,7 +1061,7 @@
             "settings": {
               "product": "issue-19-mother-aw2024-laying",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ19_Cover_4_laying.jpg",
               "cover": "shopify://shop_images/BZ19_Cover_1_standing_ext_width.jpg",
               "video_url": ""
