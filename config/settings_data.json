@@ -1025,6 +1025,7 @@
         "blocks": {
           "product_P7VTbW": {
             "type": "product",
+            "disabled": true,
             "settings": {
               "product": "issue-23-aw-26",
               "half": true,
