@@ -1014,13 +1014,22 @@
       "products": {
         "type": "products",
         "blocks": {
+          "product_P7VTbW": {
+            "type": "product",
+            "settings": {
+              "product": "issue-23-aw-26",
+              "half": true,
+              "third": false,
+              "cover": "shopify://shop_images/IMG_5397.jpg",
+              "video_url": ""
+            }
+          },
           "product_ttGqPz": {
             "type": "product",
             "settings": {
               "product": "issue-22",
               "half": true,
               "third": false,
-              "hover_image": "shopify://shop_images/BZ22_Covers_5_side.jpg",
               "cover": "shopify://shop_images/BZ22_Covers_1.jpg",
               "video_url": ""
             }
@@ -1029,7 +1038,7 @@
             "type": "product",
             "settings": {
               "product": "issue-21",
-              "half": true,
+              "half": false,
               "third": true,
               "hover_image": "shopify://shop_images/BZ21_Cover_4_laying.jpg",
               "cover": "shopify://shop_images/BZ21_Cover_1.jpg",
@@ -1040,7 +1049,7 @@
             "type": "product",
             "settings": {
               "product": "issue-20-success-etc",
-              "half": true,
+              "half": false,
               "third": true,
               "hover_image": "shopify://shop_images/BZ20_Cover_03_Pippa_frontal.jpg",
               "cover": "shopify://shop_images/BZ20_Cover_02_Ninot_standing.jpg",
@@ -1051,8 +1060,8 @@
             "type": "product",
             "settings": {
               "product": "issue-19-mother-aw2024-laying",
-              "half": true,
-              "third": false,
+              "half": false,
+              "third": true,
               "hover_image": "shopify://shop_images/BZ19_Cover_4_laying.jpg",
               "cover": "shopify://shop_images/BZ19_Cover_1_standing_ext_width.jpg",
               "video_url": ""
@@ -1258,6 +1267,7 @@
           }
         },
         "block_order": [
+          "product_P7VTbW",
           "product_ttGqPz",
           "product_3LwCBk",
           "product_9DLrAq",
