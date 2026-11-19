@@ -14,11 +14,11 @@
       "hero": {
         "type": "hero",
         "blocks": {
-          "single_product_bkqYDm": {
+          "single_product_rTQVth": {
             "type": "single_product",
             "settings": {
               "product": "issue-23-aw-26",
-              "custom_image": "shopify://shop_images/Product_Grid_Cover_3000_x_2143_HUO.jpg",
+              "custom_image": "shopify://shop_images/IMG_6497.jpg",
               "fullscreen": true
             }
           },
@@ -26,6 +26,7 @@
             "type": "hero",
             "disabled": true,
             "settings": {
+              "hero_image": "shopify://shop_images/IMG_6497.jpg",
               "goto": "shopify://products/issue-20-success-etc",
               "video_url_1": "shopify://products/issue-21-aw-25-26",
               "hero_text": "<p>ISSUE 21 AW25-26</p>",
@@ -213,7 +214,7 @@
           }
         },
         "block_order": [
-          "single_product_bkqYDm",
+          "single_product_rTQVth",
           "hero_eH7mmr",
           "hero_wbLAMX",
           "hero_NbFPeD",
