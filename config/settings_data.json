@@ -1236,7 +1236,7 @@
             "settings": {
               "product": "issue-4-international-buffalo-zine-catalogue-aw-16-17",
               "half": false,
-              "third": true,
+              "third": false,
               "hover_image": "shopify://shop_images/BZ04_COVER_HUPPERT.jpg",
               "cover": "shopify://shop_images/BZ04_STANDING_ext_width_b2f7a064-f974-4219-ad2c-68d872fec6b3.jpg",
               "video_url": ""
