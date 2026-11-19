@@ -14,6 +14,16 @@
       "hero": {
         "type": "hero",
         "blocks": {
+          "hero_XziJ3D": {
+            "type": "hero",
+            "settings": {
+              "hero_image": "shopify://shop_images/Product_Grid_Cover_3000_x_2143_HUO.jpg",
+              "goto": "shopify://products/issue-23-aw-26",
+              "video_url_1": "",
+              "hero_text": "",
+              "info": ""
+            }
+          },
           "single_product_bkqYDm": {
             "type": "single_product",
             "settings": {
@@ -213,6 +223,7 @@
           }
         },
         "block_order": [
+          "hero_XziJ3D",
           "single_product_bkqYDm",
           "hero_eH7mmr",
           "hero_wbLAMX",
