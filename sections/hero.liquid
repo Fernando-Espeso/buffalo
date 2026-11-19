@@ -30,15 +30,17 @@
 
   <section class="single-product{% if full_screen %} full-screen{% endif %}">
     {% if product %}
-      <div class="product-title-section">
-        <div>{{ product.title }}</div>
-        <a href="{{ product.url }}">View Product</a>
-      </div>
-      {% if block.settings.custom_image %}
-        <img src="{{ block.settings.custom_image | img_url: 'master' }}" alt="Custom Image">
-      {% else %}
-        <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
-      {% endif %}
+    <a href="{{ product.url }}" class="single-product-link" style="display:block; width:100%; height:100%; color:inherit; text-decoration:none;">
+  <div class="product-title-section">
+    <div>{{ product.title }}</div>
+  </div>
+
+  {% if block.settings.custom_image %}
+    <img src="{{ block.settings.custom_image | img_url: 'master' }}" alt="Custom Image">
+  {% else %}
+    <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}">
+  {% endif %}
+</a>
     {% endif %}
   </section>
 {% when 'articles' %}
