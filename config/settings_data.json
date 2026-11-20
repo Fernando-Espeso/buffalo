@@ -1500,6 +1500,13 @@
       "swiper-home": {
         "type": "swiper-home",
         "blocks": {
+          "image_jEFPTj": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/DATA_crop.png",
+              "alt_text": ""
+            }
+          },
           "image_rga6PY": {
             "type": "image",
             "settings": {
@@ -1510,7 +1517,7 @@
           "image_BW9iXA": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/BUFFALO_COVER_2026_-_Cary_Kwok_2023_-_And_I_Sit_Alone_-_Chapter_2_BUFFALO_EDITION_2.jpg",
+              "image": "shopify://shop_images/BUFFALO_COVER_2026_-_Cary_Kwok_2023_-_And_I_Sit_Alone_-_Chapter_2_BUFFALO_EDITION_2__crop.jpg",
               "alt_text": ""
             }
           },
@@ -1544,6 +1551,7 @@
           }
         },
         "block_order": [
+          "image_jEFPTj",
           "image_rga6PY",
           "image_BW9iXA",
           "image_xYT43M",
