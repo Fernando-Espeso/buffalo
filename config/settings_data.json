@@ -1528,6 +1528,13 @@
               "alt_text": ""
             }
           },
+          "image_kCYwjU": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/SCAN_BZ23_Robyn_1.jpg",
+              "alt_text": ""
+            }
+          },
           "image_QK6jpw": {
             "type": "image",
             "settings": {
@@ -1548,6 +1555,7 @@
           "image_rga6PY",
           "image_BW9iXA",
           "image_xYT43M",
+          "image_kCYwjU",
           "image_QK6jpw",
           "image_r3pBFw"
         ],
