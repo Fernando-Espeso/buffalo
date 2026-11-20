@@ -16,6 +16,7 @@
         "blocks": {
           "single_product_rTQVth": {
             "type": "single_product",
+            "disabled": true,
             "settings": {
               "product": "issue-23-aw-26",
               "custom_image": "shopify://shop_images/Product_Grid_Cover_3000_x_2143_HUO_2.jpg",
@@ -1507,6 +1508,27 @@
               "alt_text": ""
             }
           },
+          "image_H7CcTr": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BUFFALO_COVER_2026_-_Cary_Kwok_2023_-_And_I_Sit_Alone_-_Chapter_2_BUFFALO_EDITION_2__crop_2.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_yh6mRP": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/SCAN_BZ23_inside.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_r3pBFw": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/SCAN_BZ23_ACQUA.jpg",
+              "alt_text": ""
+            }
+          },
           "image_rga6PY": {
             "type": "image",
             "settings": {
@@ -1534,30 +1556,17 @@
               "image": "shopify://shop_images/SCAN_BZ23_Robyn_1.jpg",
               "alt_text": ""
             }
-          },
-          "image_QK6jpw": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/IMG_2516_HR.jpg",
-              "alt_text": ""
-            }
-          },
-          "image_r3pBFw": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/SCAN_BZ23_inside.jpg",
-              "alt_text": ""
-            }
           }
         },
         "block_order": [
           "image_jEFPTj",
+          "image_H7CcTr",
+          "image_yh6mRP",
+          "image_r3pBFw",
           "image_rga6PY",
           "image_BW9iXA",
           "image_xYT43M",
-          "image_kCYwjU",
-          "image_QK6jpw",
-          "image_r3pBFw"
+          "image_kCYwjU"
         ],
         "settings": {
           "goto": "shopify://products/issue-23-aw-26"
