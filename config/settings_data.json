@@ -1499,6 +1499,58 @@
       },
       "swiper-home": {
         "type": "swiper-home",
+        "blocks": {
+          "image_rga6PY": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/SCAN_BZ23_HUO.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_BW9iXA": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BUFFALO_COVER_2026_-_Cary_Kwok_2023_-_And_I_Sit_Alone_-_Chapter_2_BUFFALO_EDITION_2.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_xYT43M": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/BZ23_lamp_x1_a6cd65c3-f75b-4135-a758-4d3ca9a49799.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_QK6jpw": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/IMG_2516_HR.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_jbnDMH": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/DATA.png",
+              "alt_text": ""
+            }
+          },
+          "image_r3pBFw": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/SCAN_BZ23_inside.jpg",
+              "alt_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "image_rga6PY",
+          "image_BW9iXA",
+          "image_xYT43M",
+          "image_QK6jpw",
+          "image_jbnDMH",
+          "image_r3pBFw"
+        ],
         "settings": {
           "goto": "shopify://products/issue-22-ss-26"
         }
