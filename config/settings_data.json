@@ -1535,13 +1535,6 @@
               "alt_text": ""
             }
           },
-          "image_jbnDMH": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/DATA.png",
-              "alt_text": ""
-            }
-          },
           "image_r3pBFw": {
             "type": "image",
             "settings": {
@@ -1556,7 +1549,6 @@
           "image_BW9iXA",
           "image_xYT43M",
           "image_QK6jpw",
-          "image_jbnDMH",
           "image_r3pBFw"
         ],
         "settings": {
