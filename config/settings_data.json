@@ -1026,12 +1026,11 @@
         "blocks": {
           "product_P7VTbW": {
             "type": "product",
-            "disabled": true,
             "settings": {
               "product": "issue-23-aw-26",
               "half": true,
               "third": false,
-              "cover": "shopify://shop_images/Product_Grid_Cover_3000_x_2143_HUO.jpg",
+              "cover": "shopify://shop_images/Product_Grid_Cover_3000_x_2143_HUO_2.jpg",
               "video_url": ""
             }
           },
