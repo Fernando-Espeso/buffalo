@@ -1523,17 +1523,17 @@
               "alt_text": ""
             }
           },
-          "image_DPAkXj": {
-            "type": "image",
-            "settings": {
-              "image": "shopify://shop_images/SCAN_BZ23_T-SHIRT.jpg",
-              "alt_text": ""
-            }
-          },
           "image_yh6mRP": {
             "type": "image",
             "settings": {
               "image": "shopify://shop_images/SCAN_BZ23_inside.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_DPAkXj": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/SCAN_BZ23_T-SHIRT.jpg",
               "alt_text": ""
             }
           },
@@ -1570,8 +1570,8 @@
           "image_TM9NH4",
           "image_jEFPTj",
           "image_r3pBFw",
-          "image_DPAkXj",
           "image_yh6mRP",
+          "image_DPAkXj",
           "image_H7CcTr",
           "image_rga6PY",
           "image_xYT43M",
