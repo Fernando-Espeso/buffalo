@@ -1502,6 +1502,13 @@
       "swiper-home": {
         "type": "swiper-home",
         "blocks": {
+          "image_TM9NH4": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/LAURA.jpg",
+              "alt_text": ""
+            }
+          },
           "image_jEFPTj": {
             "type": "image",
             "settings": {
@@ -1516,10 +1523,10 @@
               "alt_text": ""
             }
           },
-          "image_r3pBFw": {
+          "image_DPAkXj": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/SCAN_BZ23_ACQUA.jpg",
+              "image": "shopify://shop_images/SCAN_BZ23_T-SHIRT.jpg",
               "alt_text": ""
             }
           },
@@ -1527,6 +1534,13 @@
             "type": "image",
             "settings": {
               "image": "shopify://shop_images/SCAN_BZ23_inside.jpg",
+              "alt_text": ""
+            }
+          },
+          "image_r3pBFw": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/SCAN_BZ23_ACQUA.jpg",
               "alt_text": ""
             }
           },
@@ -1553,10 +1567,12 @@
           }
         },
         "block_order": [
+          "image_TM9NH4",
           "image_jEFPTj",
           "image_H7CcTr",
-          "image_r3pBFw",
+          "image_DPAkXj",
           "image_yh6mRP",
+          "image_r3pBFw",
           "image_rga6PY",
           "image_xYT43M",
           "image_kCYwjU"
